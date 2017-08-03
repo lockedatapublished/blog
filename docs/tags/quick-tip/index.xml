@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Quick Tip on Locke Data Blog</title>
+    <link>http://lockelife.com/blog/tags/quick-tip/</link>
+    <description>Recent content in Quick Tip on Locke Data Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
+    <lastBuildDate>Mon, 08 May 2017 08:32:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://lockelife.com/blog/tags/quick-tip/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>R Quick Tip: parameter re-use within rmarkdown YAML</title>
+      <link>http://lockelife.com/blog/2017-05-08-r-quick-tip-sequential-yaml-headers-rmarkdown-parameter-re-use/</link>
+      <pubDate>Mon, 08 May 2017 08:32:00 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2017-05-08-r-quick-tip-sequential-yaml-headers-rmarkdown-parameter-re-use/</guid>
+      <description>Ever wondered how to make an rmarkdown title dynamic? Maybe, wanted to use a parameter in multiple locations? Maybe wanted to pass through a publication date? Advanced use of YAML headers can help!
+Normally, when we write rmarkdown, we might use something like the basic YAML header that the rmarkdown template gives us.
+--- title: &amp;quot;My report&amp;quot; date: &amp;quot;18th April, 2017&amp;quot; output: pdf_document ---  You may already know the trick about making the date dynamic to whatever date the report gets rendered on by using the inline R execution mode of rmarkdown to insert a value.</description>
+    </item>
+    
+    <item>
+      <title>R Quick Tip: Upload multiple files in shiny and consolidate into a dataset</title>
+      <link>http://lockelife.com/blog/2017-04-28-upload-multiple-files-in-shiny-and-consolidate-into-a-dataset/</link>
+      <pubDate>Fri, 28 Apr 2017 10:27:55 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2017-04-28-upload-multiple-files-in-shiny-and-consolidate-into-a-dataset/</guid>
+      <description>In shiny, you can use the fileInput with the parameter multiple = TRUE to enable you to upload multiple files at once. But how do you process those multiple files in shiny and consolidate into a single dataset?
+The bit we need from shiny is the input$param$fileinputpath value.
+We can use lapply() with data.table&amp;#8216;s fread() to read multiple CSVs from the fileInput(). Then to consolidate the data, we can use data.</description>
+    </item>
+    
+    <item>
+      <title>R Quick Tip: Table parameters for rmarkdown reports</title>
+      <link>http://lockelife.com/blog/2017-04-19-table-parameters-rmarkdown-reports/</link>
+      <pubDate>Wed, 19 Apr 2017 08:50:30 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2017-04-19-table-parameters-rmarkdown-reports/</guid>
+      <description>The recent(ish) advent of parameters in rmarkdown reports is pretty nifty but there&amp;#8217;s a little bit of behaviour that can come in handy but doesn&amp;#8217;t come across in the documentation. You can use table parameters for rmarkdown reports.
+Previously, if you wanted to produce multiple reports based off a dataset, you would make the dataset available and then perform filtering in the report. Now we can pass the filtered data directly to the report, which keeps all the filtering logic in one place.</description>
+    </item>
+    
+    <item>
+      <title>R Quick tip: Microsoft Cognitive Services’ Text Analytics API</title>
+      <link>http://lockelife.com/blog/2017-03-01-microsoft-cognitive-services-text-analytics-api/</link>
+      <pubDate>Wed, 01 Mar 2017 09:40:46 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2017-03-01-microsoft-cognitive-services-text-analytics-api/</guid>
+      <description>&lt;p&gt;Today in class, I taught some fundamentals of API consumption in R. As it was aligned to some Microsoft content, we first used &lt;a href=&#34;https://haveibeenpwned.com&#34;&gt;HaveIBeenPwned.com&lt;/a&gt;&amp;#8216;s API and then played with &lt;a href=&#34;https://www.microsoft.com/cognitive-services/en-us/&#34;&gt;Microsoft Cognitive Services&lt;/a&gt;&amp;#8216; Text Analytics API. This brief post overviews what you need to get started, and how you can chain consecutive calls to these APIs in order to perform multi-lingual sentiment analysis.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;UPDATE: See improved code in &lt;a href=&#34;https://itsalocke.com/using-purrr-with-apis/&#34;&gt;Using purrr with APIs – revamping my code&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Quick tip: knitr Python Windows setup checklist</title>
+      <link>http://lockelife.com/blog/2017-02-22-quick-tip-knitr-python-windows-setup-checklist/</link>
+      <pubDate>Wed, 22 Feb 2017 16:01:15 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2017-02-22-quick-tip-knitr-python-windows-setup-checklist/</guid>
+      <description>One of the nifty things about using R is that you can use it for many different purposes and even other languages!
+If you want to use Python in your knitr docs or the newish RStudio R notebook functionality, you might encounter some fiddliness getting all the moving parts running on Windows. This is a quick knitr Python Windows setup checklist to make sure you don&amp;#8217;t miss any important steps.</description>
+    </item>
+    
+    <item>
+      <title>Quick tip: Passing values to a bash script</title>
+      <link>http://lockelife.com/blog/2016-10-30-passing-values-bash-script/</link>
+      <pubDate>Sun, 30 Oct 2016 14:53:01 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2016-10-30-passing-values-bash-script/</guid>
+      <description>This is a very quick post on how you can make a bash script that allows you to provide it values via the command line. Passing values to a bash script uses a 1-based array convention inside the script, that are referenced by prefixing with $ inside the script.
+This means that if I provide .\dummyscript.sh value1 value2, inside the dummyscript.sh I can retrieve these by referencing their positions:
+echo $1 + $2  For improved clarity, you could assign them to new variables</description>
+    </item>
+    
+    <item>
+      <title>5 useful CSS sites</title>
+      <link>http://lockelife.com/blog/2016-10-27-5-useful-css-sites/</link>
+      <pubDate>Thu, 27 Oct 2016 08:00:45 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2016-10-27-5-useful-css-sites/</guid>
+      <description>I&amp;#8217;ve been doing a lot of web development recently, primarily via the magical Hugo platform. Between it and the great themes for it, it&amp;#8217;s making website building fairly painless. Of course, each theme often needs customising to the relevant brand a given site is for. That customising is usually just one by some fonts and by tweaking the CSS.*
+I&amp;#8217;ve been relying on some old, and some very new, funky tools to help with CSS hacking and I thought I would share them, in case they should prove useful to you in the future.</description>
+    </item>
+    
+    <item>
+      <title>Using Travis? Make sure you use a Github PAT</title>
+      <link>http://lockelife.com/blog/2016-04-12-using-travis-make-sure-use-github-pat/</link>
+      <pubDate>Tue, 12 Apr 2016 10:27:03 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2016-04-12-using-travis-make-sure-use-github-pat/</guid>
+      <description>&lt;p&gt;We&amp;#8217;re in the fantastic situation where lots of people are using &lt;a href=&#34;https://travis-ci.org/&#34;&gt;Travis-CI&lt;/a&gt; to test their R packages or use it to test and deploy their analytics/ documentation / anything really. It&amp;#8217;s popularity has been having a negative side-effect recently though! GitHub &lt;a href=&#34;https://developer.github.com/v3/#rate-limiting&#34;&gt;rate limits&lt;/a&gt; API access to 5000 requests per hour so sometimes there are more R related jobs running on Travis per hour than this limit, causing builds to error typically with a message that includes&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;403 forbidden&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This error will cause your build to fail, even if you didn&amp;#8217;t do anything wrong. To solve it short-term you can wait a little while and restart your build.&lt;figure id=&#34;attachment_61598&#34; style=&#34;width: 768px&#34; class=&#34;wp-caption aligncenter&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;size-medium_large wp-image-61598&#34; src=&#34;http://res.cloudinary.com/lockedata/image/upload/h_131,w_750/v1499850336/restartbuilds_hsvpmp.png&#34; alt=&#34;How to restart a build in Travis-CI&#34; width=&#34;768&#34; height=&#34;134&#34; /&gt;&lt;figcaption class=&#34;wp-caption-text&#34;&gt;How to restart a build in Travis-CI&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;That is a very short-termist solution and does not solve the problem for future you or other users of the service. The real solution to resolving this issue is to get off the default API access credentials and use your own.&lt;/p&gt;
+
+&lt;p&gt;The R integration in Travis makes good use of the &lt;a href=&#34;https://cran.r-project.org/package=devtools&#34;&gt;devtools&lt;/a&gt;. The devtools package looks for an environment variable called &lt;code&gt;GITHUB_PAT&lt;/code&gt; that holds a &lt;a href=&#34;https://help.github.com/articles/creating-an-access-token-for-command-line-use/&#34;&gt;personal access token&lt;/a&gt; (PAT) for using the GitHub API and if it doesn&amp;#8217;t find one it uses a default token. When we get our own PAT and store it in Travis, devtools will pick up our token and use it, meaning you&amp;#8217;ll only ever get rate limited if you do more than 5000 builds in an hour, which is an achievement I&amp;#8217;d love to hear about.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>R Quick Tip: Collapse a lists of data.frames with data.table</title>
+      <link>http://lockelife.com/blog/2016-04-05-r-quick-tip-collapse-a-lists-of-data-frames-with-data-table/</link>
+      <pubDate>Tue, 05 Apr 2016 14:05:26 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2016-04-05-r-quick-tip-collapse-a-lists-of-data-frames-with-data-table/</guid>
+      <description>&lt;p&gt;With my &lt;a href=&#34;https://github.com/stephlocke/HIBPwned&#34;&gt;HIBPwned&lt;/a&gt; package, I consume the &lt;a href=&#34;https://haveibeenpwned.com/&#34;&gt;HaveIBeenPwned&lt;/a&gt; API and return back a list object with an element for each email address. Each element holds a data.frame of breach data or a stub response with a single column data.frame containing NA. Elements are named with the email addresses they relate to. I had a list of data.frames and I wanted a consolidated data.frame (well, I always want a data.table).&lt;/p&gt;
+
+&lt;p&gt;Enter data.table &amp;#8230;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://cran.r-project.org/package=data.table&#34;&gt;data.table&lt;/a&gt; has a very cool, and &lt;a href=&#34;http://stackoverflow.com/questions/15673550/why-is-rbindlist-better-than-rbind&#34;&gt;very fast&lt;/a&gt; function named &lt;code&gt;rbindlist()&lt;/code&gt;. This takes a list of data.frames and consolidates them into one data.table, which can, of course, be handled as a data.frame if you didn&amp;#8217;t want to use data.table for anything else.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Beware the Microsoft Edge as a PDF reader</title>
+      <link>http://lockelife.com/blog/2016-03-09-beware-the-microsoft-edge-as-a-pdf-reader/</link>
+      <pubDate>Wed, 09 Mar 2016 14:08:53 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2016-03-09-beware-the-microsoft-edge-as-a-pdf-reader/</guid>
+      <description>Just a heads-up for people like me who&amp;#8217;ve gotten a Windows 10 machine and have used Edge as a PDF reader. I was too lazy to install Adobe Reader and was instead using Edge as my default reader. This gave me a mini-heart attack when I received a proof for my super cool NFC-tag laptop stickers and the colour was wrong. WTF right, I mean we did send it as CMYK and all that jazz so it should be right, a printer wouldn&amp;#8217;t screw that up, right?</description>
+    </item>
+    
+    <item>
+      <title>Spell check your spreadsheets</title>
+      <link>http://lockelife.com/blog/2015-01-20-spell-check-spreadsheets/</link>
+      <pubDate>Tue, 20 Jan 2015 10:10:54 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2015-01-20-spell-check-spreadsheets/</guid>
+      <description>Just a quick tip for spreadsheet users about spellchecking in Excel.
+Firstly, yes you can spell check a spreadsheet.
+Secondly, you do it either by going to Review &amp;gt; Check Spelling, or more easily by hitting F7 on your keyboard.
+Please, please spellcheck your work &amp;#8211; it makes your work much more professional and saves you having to do it manually!</description>
+    </item>
+    
+    <item>
+      <title>Photoshop image macro (or something even better!)</title>
+      <link>http://lockelife.com/blog/2015-01-13-photoshop-image-macro-something-even-better/</link>
+      <pubDate>Tue, 13 Jan 2015 10:59:21 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2015-01-13-photoshop-image-macro-something-even-better/</guid>
+      <description>&lt;p&gt;I spend &lt;em&gt;a lot&lt;/em&gt; of time in Photoshop for someone in BI. Between cleaning up images, building logos for my latest project, or producing material for user groups, I probably use it at least once a week. Through it all, I usually need to produce variants, in different file formats and sizes. So it can quickly become a dozen uses of the Save As&amp;#8230; or Save for Web functions.&lt;/p&gt;
+
+&lt;p&gt;I hate manual work, so you can see why it was frustrating in the extreme. Then I realised how silly I was being by not having already googled for it!&lt;/p&gt;
+
+&lt;p&gt;It took a while because my keyword searches weren&amp;#8217;t the terms Photoshop use but I found the Secret Sauce. And if you&amp;#8217;re the sort of person who&amp;#8217;d type &amp;#8220;photoshop image macro&amp;#8221; &amp;#8211; here&amp;#8217;s how you do it!&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>The basics of Common Table Expressions (CTEs)</title>
+      <link>http://lockelife.com/blog/2014-11-10-the-basics-of-common-table-expressions-ctes/</link>
+      <pubDate>Mon, 10 Nov 2014 15:40:15 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2014-11-10-the-basics-of-common-table-expressions-ctes/</guid>
+      <description>Another quick post off the back of a SQL Lunch a did a while ago. Explore it via SQLFiddle: http://sqlfiddle.com/#!6/ad7f5/7/0
+What is a CTE? A Common Table Expression (CTE) is essentially a function defining a relation instead of a table.
+This function outputs a table (like all queries) that is only present within the session, but data isn&amp;#8217;t stored in tempdb like with a temporary table.
+Why CTE&amp;#8217;s? CTEs are designed primarily to allow recursion within SQL &amp;#8211; like a loop but ideal at working with hierarchies.</description>
+    </item>
+    
+  </channel>
+</rss>

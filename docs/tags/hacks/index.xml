@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hacks on Locke Data Blog</title>
+    <link>http://lockelife.com/blog/tags/hacks/</link>
+    <description>Recent content in Hacks on Locke Data Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
+    <lastBuildDate>Wed, 17 Jun 2015 12:34:22 +0000</lastBuildDate>
+    
+	<atom:link href="http://lockelife.com/blog/tags/hacks/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Custom LaTeX Beamer style templates for rmarkdown</title>
+      <link>http://lockelife.com/blog/2015-06-17-custom-latex-beamer-style-templates-for-rmarkdown/</link>
+      <pubDate>Wed, 17 Jun 2015 12:34:22 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2015-06-17-custom-latex-beamer-style-templates-for-rmarkdown/</guid>
+      <description>&lt;p&gt;I&amp;#8217;ve been producing presentations via R using &lt;a href=&#34;http://rmarkdown.rstudio.com/&#34;&gt;rmarkdown&lt;/a&gt; and outputting to either ioslides or slidify. That was excellent, because I could provide a CSS that customised the look and feel (relatively) easily*.&lt;/p&gt;
+
+&lt;p&gt;However, when I wanted to produce a PDF version, I couldn&amp;#8217;t make ones that look as good as the pure LaTeX versions I could make on &lt;a href=&#34;http://overleaf.com&#34;&gt;overleaf.com&lt;/a&gt;. So I started RTFMing when I wanted to replicate the look and feel from my presentation, The LaTeX Show.&lt;/p&gt;
+
+&lt;p&gt;I didn&amp;#8217;t want to spend a huge amount of time on it, so this little story of hack and slash may feel a bit dirty to you!&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Photoshop image macro (or something even better!)</title>
+      <link>http://lockelife.com/blog/2015-01-13-photoshop-image-macro-something-even-better/</link>
+      <pubDate>Tue, 13 Jan 2015 10:59:21 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2015-01-13-photoshop-image-macro-something-even-better/</guid>
+      <description>&lt;p&gt;I spend &lt;em&gt;a lot&lt;/em&gt; of time in Photoshop for someone in BI. Between cleaning up images, building logos for my latest project, or producing material for user groups, I probably use it at least once a week. Through it all, I usually need to produce variants, in different file formats and sizes. So it can quickly become a dozen uses of the Save As&amp;#8230; or Save for Web functions.&lt;/p&gt;
+
+&lt;p&gt;I hate manual work, so you can see why it was frustrating in the extreme. Then I realised how silly I was being by not having already googled for it!&lt;/p&gt;
+
+&lt;p&gt;It took a while because my keyword searches weren&amp;#8217;t the terms Photoshop use but I found the Secret Sauce. And if you&amp;#8217;re the sort of person who&amp;#8217;d type &amp;#8220;photoshop image macro&amp;#8221; &amp;#8211; here&amp;#8217;s how you do it!&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Aggregate on a Lookup in SSRS</title>
+      <link>http://lockelife.com/blog/2014-11-23-aggregate-on-a-lookup-in-ssrs/</link>
+      <pubDate>Sun, 23 Nov 2014 12:59:13 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2014-11-23-aggregate-on-a-lookup-in-ssrs/</guid>
+      <description>&lt;h2 id=&#34;the-what&#34;&gt;The What&lt;/h2&gt;
+
+&lt;p&gt;If you need to join multiple datasets inside SSRS, perhaps because of different sources, grains of detail etc, then you often need to aggregate over both datasets.&lt;/p&gt;
+
+&lt;p&gt;In SSRS, you can easily perform aggregations over another dataset but it can be tough to do this based on a grouping factor in your main dataset.&lt;/p&gt;
+
+&lt;p&gt;A key example of this might be Sales and Purchases &amp;#8211; you want to show both of these by month but they come from two different data sources.&lt;/p&gt;
+
+&lt;p&gt;You could build two tables that appear to be just one table but this can be really clunky. Instead, you want just one table with the month, the total sales, and the total purchases in.&lt;/p&gt;
+
+&lt;p&gt;Although there&amp;#8217;s no tidy way of doing this built in, you have the power to add your own functions to SSRS using the Code window of the report&amp;#8217;s properties. Provided here is a block of VB script that can be added to your SSRS report to allow you to do those tricky aggregations as if they were just another built in function.&lt;/p&gt;
+
+&lt;p&gt;I call it AggLookup.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

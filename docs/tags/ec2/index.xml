@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ec2 on Locke Data Blog</title>
+    <link>http://lockelife.com/blog/tags/ec2/</link>
+    <description>Recent content in Ec2 on Locke Data Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
+    <lastBuildDate>Sat, 11 May 2013 22:14:43 +0000</lastBuildDate>
+    
+	<atom:link href="http://lockelife.com/blog/tags/ec2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Setting up WordPress on Azure</title>
+      <link>http://lockelife.com/blog/2013-05-11-setting-up-wordpress-on-azure/</link>
+      <pubDate>Sat, 11 May 2013 22:14:43 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2013-05-11-setting-up-wordpress-on-azure/</guid>
+      <description>&lt;p&gt;This blog was configured super rapidly with goDaddy and Azure, instead of my previous implementation on EC2.  I&amp;#8217;ve forgone the multi-site installation, with attendant subdomains, and gone for a straight wordpress Website (one of the Azure features).&lt;/p&gt;
+
+&lt;p&gt;I already had an Azure account I&amp;#8217;d gone through the billing setup for &amp;#8211; but that was really simple anyway, so getting the blog up and running consisted of:&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bot Services on Locke Data Blog</title>
+    <link>http://lockelife.com/blog/tags/bot-services/</link>
+    <description>Recent content in Bot Services on Locke Data Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
+    <lastBuildDate>Mon, 22 May 2017 08:24:04 +0000</lastBuildDate>
+    
+	<atom:link href="http://lockelife.com/blog/tags/bot-services/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to change “No match found!” on your no-code Q&amp;A bot</title>
+      <link>http://lockelife.com/blog/2017-05-22-change-no-match-found-no-code-qa-bot/</link>
+      <pubDate>Mon, 22 May 2017 08:24:04 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2017-05-22-change-no-match-found-no-code-qa-bot/</guid>
+      <description>Last week, I blogged about building a no-code Q&amp;amp;A bot for your website. One little niggle I had with the bot was the response when it could match a user input to a Q&amp;amp;A. I wondered how to change &amp;#8220;No match found!&amp;#8221;.
+I looked around the qnamaker.ai site and couldn&amp;#8217;t find a place I could change this. I submitted some feedback and the great people at the other of the Q&amp;amp;A site responded super quickly.</description>
+    </item>
+    
+    <item>
+      <title>Easy-peasy Q&amp;A bot</title>
+      <link>http://lockelife.com/blog/2017-05-15-easy-peasy-qa-bot/</link>
+      <pubDate>Mon, 15 May 2017 08:00:27 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2017-05-15-easy-peasy-qa-bot/</guid>
+      <description>Everyone seems to have a live chat option for their site but I&amp;#8217;m frequently away, so I wanted something that people could talk to interactively. This is a perfect scenario for a Q&amp;amp;A bot. Microsoft takes a ton of the pain out of Q&amp;amp;A bots, and it was much easier than I thought to get it added to my WordPress blog. Here is a how to do it for your site.</description>
+    </item>
+    
+  </channel>
+</rss>

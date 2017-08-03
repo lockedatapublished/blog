@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Azure on Locke Data Blog</title>
+    <link>http://lockelife.com/blog/tags/azure/</link>
+    <description>Recent content in Azure on Locke Data Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
+    <lastBuildDate>Thu, 01 Dec 2016 22:47:23 +0000</lastBuildDate>
+    
+	<atom:link href="http://lockelife.com/blog/tags/azure/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>I Love Azure Functions!</title>
+      <link>http://lockelife.com/blog/2016-12-01-i-love-azure-functions/</link>
+      <pubDate>Thu, 01 Dec 2016 22:47:23 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2016-12-01-i-love-azure-functions/</guid>
+      <description>A while ago, I started my Stumbling Into series. I started but only got one in &amp;#8211; I was gonna talk about how I failed with Azure Functions next. I was failing because the docs outside C# (and node.js) were so limited that I found it difficult to get things done. However, I persevered and overcame a little bit of C#-ophobia and I can honestly say it has been so worth it.</description>
+    </item>
+    
+    <item>
+      <title>Slack all the things!</title>
+      <link>http://lockelife.com/blog/2016-10-21-slack-all-the-things/</link>
+      <pubDate>Fri, 21 Oct 2016 14:59:50 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2016-10-21-slack-all-the-things/</guid>
+      <description>Slack all the things! OK, if you haven&amp;#8217;t heard of it before Slack is kinda like IRC, kinda like Dropbox, kinda like a lot of things &amp;#8211; it&amp;#8217;s a neat place to bring together communications between your team or community, and the integrations allow you to pipe in external feeds like twitter activity or RSS. It&amp;#8217;s a great way of collaborating online and I&amp;#8217;ve found it especially useful not just within a company but within a global community.</description>
+    </item>
+    
+    <item>
+      <title>Stumbling into … Azure Automation</title>
+      <link>http://lockelife.com/blog/2016-07-11-stumbling-into-azure-automation/</link>
+      <pubDate>Mon, 11 Jul 2016 09:46:12 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2016-07-11-stumbling-into-azure-automation/</guid>
+      <description>&lt;p&gt;I&amp;#8217;ve recently been trying to solve the challenge of working extracting files from AWS and getting them into Azure in my desired format. I wanted a solution that kept everything on the cloud and completely avoid local tin. I wanted it to have built-in auditing and error handling. I wanted something whizzy and new, to be honest! One way in which I attempted to tackle the task was with &lt;a href=&#34;https://azure.microsoft.com/en-gb/services/automation/&#34;&gt;Azure Automation&lt;/a&gt;. In this post, I&amp;#8217;ll overview Automation and explore how it stacked up for what I was attempting to use it for.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Overall Task: Get compressed (.tar.gz) files from AWS S3 to Azure, decompress the files, concatenate the contents and put in a different container for analytics magic&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Like with most things I dropped myself into the deep-end on it so had fairly minimal knowledge of PowerShell and the Azure modules, therefore I fully expect more knowledgeable folks to wince at my stuff. General advice, &amp;#8220;you should do it like this, then this&amp;#8230;&amp;#8221;&amp;#8216;s, and resource recommendations are all very welcome &amp;#8211; leave a comment with them in!&lt;/p&gt;
+
+&lt;h2 id=&#34;azure-automation&#34;&gt;Azure Automation&lt;/h2&gt;
+
+&lt;p&gt;Azure Automation is essentially a hosted PowerShell script execution service. It seems to be aimed primarily at managing Azure resources, particularly via &lt;a href=&#34;https://www.simple-talk.com/sysadmin/powershell/powershell-desired-state-configuration-the-basics/&#34;&gt;Desired State Configurations&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;It is, however, a general PowerShell powerhouse, with scheduling capabilities and a bunch of useful features for the safe storage of credentials etc. This makes it an excellent tool if you&amp;#8217;re looking to do something with PowerShell on a regular basis and need to interact with Azure.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Azure Storage Accounts – Resource Groups matter to PowerShell!</title>
+      <link>http://lockelife.com/blog/2016-06-10-azure-storage-accounts-resource-groups-matter-to-powershell/</link>
+      <pubDate>Fri, 10 Jun 2016 09:00:21 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2016-06-10-azure-storage-accounts-resource-groups-matter-to-powershell/</guid>
+      <description>I&amp;#8217;m sure that all my PoSh friends out there, who use Azure and PowerShell all the time probably know this already but I thought I&amp;#8217;d share a little snippet of hard-won knowledge.
+ When you put an Azure Storage Account into a Resource Group, you can no longer use the default Azure.Storage module. Instead, you&amp;#8217;ve got to use the AzureRM.Storage module.
+ All the scripts I encountered whilst googling how to connect to blob storage via PowerShell, including the ones in the script gallery within Azure Automation seemed to all assume the azure storage account you wanted to connect to was standalone.</description>
+    </item>
+    
+    <item>
+      <title>Installing SQL Server ODBC drivers on Ubuntu 15.04</title>
+      <link>http://lockelife.com/blog/2016-04-20-installing-sql-server-odbc-drivers-on-ubuntu-15-04/</link>
+      <pubDate>Wed, 20 Apr 2016 14:13:28 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2016-04-20-installing-sql-server-odbc-drivers-on-ubuntu-15-04/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;UPDATE 2016-10-21 : You can now get the ODBC 13 driver for Linux with a much smoother install process than below. Get all the relevant information on &lt;a href=&#34;https://blogs.msdn.microsoft.com/sqlnativeclient/2016/10/20/odbc-driver-13-0-for-linux-released/&#34;&gt;the announcement from the Microsoft SQLNCli team blog&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Did you know you can now get &lt;a href=&#34;https://www.microsoft.com/en-gb/server-cloud/sql-server-on-linux.aspx&#34;&gt;SQL Server ODBC drivers for Ubuntu&lt;/a&gt;? Yes, no, maybe? It&amp;#8217;s ok even if you haven&amp;#8217;t since it&amp;#8217;s pretty new! Anyway, this presents me with an ideal opportunity to standardise my SQL Server ODBC connections across the operating systems I use R on i.e. Windows and Ubuntu. My first trial was to get it working on &lt;a href=&#34;https://travis-ci.org&#34;&gt;Travis-CI&lt;/a&gt; since that&amp;#8217;s where all my training magic happens and if it can&amp;#8217;t work on a clean build like Travis, then where can it work? Alas, the ODBC 13 driver doesn&amp;#8217;t work Ubuntu 14.04 so this set of instructions has been modified to provide code for Ubuntu 15.04 only.&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;It works, but it&amp;#8217;s really hacky right now. Definitely looking forward to the next iterations of this driver.&lt;/p&gt;
+
+&lt;h2 id=&#34;disclaimer&#34;&gt;Disclaimer&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;This will work for Ubuntu 15.04 but 14.04 has a different set of C compilers&lt;/li&gt;
+&lt;li&gt;This is currently hacky, and Microsoft are on the case for improving it so this post could quickly become out of date.&lt;/li&gt;
+&lt;li&gt;Be very careful installing the driver on an existing machine. Due to the overwriting of unixODBC if already installed and potential compatibility issues with other driver managers you may have installed.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>My (first) #SQLHangout</title>
+      <link>http://lockelife.com/blog/2015-06-04-my-first-sqlhangout/</link>
+      <pubDate>Thu, 04 Jun 2015 08:19:17 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2015-06-04-my-first-sqlhangout/</guid>
+      <description>Yesterday I had the pleasure of hanging out &amp;#8220;on air&amp;#8221; with Boris Hristov.
+We talked open sourcing!
+You can download and/or contribute to the following projects I have going:
+ MeDriAnchor: the Metadata Driven Anchor model system. You get to have a lot of fun with 6NF! optiRum: a useful package for R, especially for the UK tfsR: for my own special brand of crazy, working with TFS git repositories in R  James Skipwith (the other major developer on MeDriAnchor) presented on automation and covers MeDriAnchor &amp;#8211; you can check it out at SQLBits.</description>
+    </item>
+    
+    <item>
+      <title>SQLSaturday Portugal</title>
+      <link>http://lockelife.com/blog/2015-05-18-sqlsaturday-portugal/</link>
+      <pubDate>Mon, 18 May 2015 09:42:13 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2015-05-18-sqlsaturday-portugal/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.sqlsaturday.com/369/EventHome.aspx&#34;&gt;SQLSaturday Portugal 2015&lt;/a&gt; has been a huge amount of fun but I&amp;#8217;ve also learnt a lot. A big thank you to the organisers!&lt;/p&gt;
+
+&lt;p&gt;Below are my slides and notes from sessions I attended.&lt;/p&gt;
+
+&lt;h2 id=&#34;agile-bi&#34;&gt;Agile BI&lt;/h2&gt;
+
+&lt;p&gt;My session slides:&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Stuff I read this (bit more than a) week</title>
+      <link>http://lockelife.com/blog/2015-04-07-stuff-i-read-this-bit-more-than-a-week/</link>
+      <pubDate>Tue, 07 Apr 2015 08:24:38 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2015-04-07-stuff-i-read-this-bit-more-than-a-week/</guid>
+      <description>It&amp;#8217;s been a wee while due to SQLBits disruptions and a crazy work schedule but here&amp;#8217;s some of what I&amp;#8217;ve been reading recently:
+ Introverts, Extroverts, and the Complexities of Team Dynamics Azure Blob Storage introduction Kevin Kline: Advice to new bloggers Editing for people who love to write too much ProBlogger generally after KK&amp;#8217;s recommendation Why oil prices came down. and won&amp;#8217;t any more Test Driven Analysis Standardising function names in R Microservices at Netflix Microsoft closes acquisition of Revolution Analytics  </description>
+    </item>
+    
+    <item>
+      <title>Working with Azure Blob Storage, some notes</title>
+      <link>http://lockelife.com/blog/2015-04-06-working-with-azure-blob-storage-rest-api/</link>
+      <pubDate>Mon, 06 Apr 2015 09:27:05 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2015-04-06-working-with-azure-blob-storage-rest-api/</guid>
+      <description>&lt;p&gt;I&amp;#8217;m working on building a snazzy &lt;a href=&#34;https://github.com/stephlocke/Rtraining/blob/master/inst/slidedecks/shiny/Dashboards.Rmd&#34; title=&#34;My shiny presentation&#34; target=&#34;_blank&#34;&gt;shiny&lt;/a&gt; app that a) drops the inputs/parameter values into &lt;a href=&#34;http://azure.microsoft.com/en-gb/documentation/articles/storage-introduction/&#34; title=&#34;Azure storage intro&#34; target=&#34;_blank&#34;&gt;blob storage&lt;/a&gt; and b) uses &lt;a href=&#34;http://azure.microsoft.com/en-gb/services/stream-analytics/&#34; title=&#34;Stream Analytics&#34; target=&#34;_blank&#34;&gt;Stream Analytics&lt;/a&gt; to query the values and present back what people are saying at the moment. This&amp;#8217;ll be a fab tool for &lt;a href=&#34;https://itsalocke.com/index.php/r-pre-con-sqlsat-exeter/&#34; title=&#34;My R Pre-Con: SQLSat Exeter&#34; target=&#34;_blank&#34;&gt;my pre-con next month&lt;/a&gt; if I can get it working in time!&lt;/p&gt;
+
+&lt;p&gt;Getting it working, does however mean utilising the &lt;a href=&#34;https://msdn.microsoft.com/en-us/library/azure/dd179355.aspx&#34; title=&#34;Storage API documentation&#34; target=&#34;_blank&#34;&gt;Azure Blob Storage API&lt;/a&gt; in R which I confess is much harder than expected, especially after the ease of using the Visual Studio Online API for &lt;a href=&#34;https://itsalocke.com/index.php/bride-of-frankenstein-tfs-r/&#34; title=&#34;Bride of Frankenstein: TFS + R&#34; target=&#34;_blank&#34;&gt;tfsR&lt;/a&gt;. To that end, I thought I&amp;#8217;d write-up some of my findings before I do a bigger write-up that illustrates how to do everything (in R).&lt;/p&gt;
+
+&lt;p&gt;I&amp;#8217;m working my way through an &lt;a href=&#34;http://justazure.com/azure-blob-storage-part-one-introduction/&#34; title=&#34;Just Azure - working with blob storage&#34;&gt;intro to azure storage&lt;/a&gt; on the (hopefully reasonable) expectation that more knowledge will make it easier to work with. There&amp;#8217;s additionally the &lt;a href=&#34;https://msdn.microsoft.com/en-us/library/azure/dd135733.aspx&#34; title=&#34;Blob Storage REST API&#34; target=&#34;_blank&#34;&gt;online reference&lt;/a&gt;, although I found the &lt;a href=&#34;https://www.visualstudio.com/en-us/integrate/api/overview&#34; title=&#34;Visual Studio Online REST API documentation&#34; target=&#34;_blank&#34;&gt;VSO REST API&lt;/a&gt; documentation easier to understand and get started with.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>DeployR – why Microsoft bought Revolution?</title>
+      <link>http://lockelife.com/blog/2015-03-23-deployr-why-microsoft-bought-revolution/</link>
+      <pubDate>Mon, 23 Mar 2015 10:19:10 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2015-03-23-deployr-why-microsoft-bought-revolution/</guid>
+      <description>I&amp;#8217;ve been asked by a few people recently about why I don&amp;#8217;t use Azure Machine Learning (ML). I answer that I don&amp;#8217;t use it yet, and the reason being that at the moment the robust development life-cycle isn&amp;#8217;t in place around it. I think that will change &amp;#8211; one of the great reasons for the acquisition of Revolution Analytics (in my opinion) is their DeployR system.
+DeployR is essentially an R web service platform.</description>
+    </item>
+    
+    <item>
+      <title>Where do I fit in the Microsoft future?</title>
+      <link>http://lockelife.com/blog/2015-02-24-where-do-i-fit-in-the-microsoft-future/</link>
+      <pubDate>Tue, 24 Feb 2015 10:41:45 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2015-02-24-where-do-i-fit-in-the-microsoft-future/</guid>
+      <description>&lt;p&gt;Entering into the world of SQL Server around the same time as the 2008 release has meant that until the past couple of years, change in the Microsoft BI world only happened in dribs and drabs for me. SQL Server and it&amp;#8217;s BI components were stable server products and the focus was on getting data and optimising &amp;#8220;central reporting&amp;#8221;. Recently though things have started to massively change due to Azure and Office 365.&lt;/p&gt;
+
+&lt;p&gt;No longer part of Server &amp;amp; Tools where products were considered in silos, SQL Server and BI are now part of the &lt;a href=&#34;http://blogs.technet.com/b/server-cloud/archive/2015/01/30/increasing-visibility-for-our-customers-announcing-the-cloud-platform-roadmap-site.aspx&#34; title=&#34;Cloud Platform roadmap&#34; target=&#34;_blank&#34;&gt;Cloud Platform&lt;/a&gt;. It&amp;#8217;s now a means of delivering the &lt;a href=&#34;http://news.microsoft.com/ceo/bold-ambition/index.html&#34; title=&#34;Satya Nadella&#39;s vision email&#34; target=&#34;_blank&#34;&gt;Cloud-first vision&lt;/a&gt; that Microsoft have aligned themselves to.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Updated site</title>
+      <link>http://lockelife.com/blog/2015-01-03-updated-site/</link>
+      <pubDate>Sat, 03 Jan 2015 16:21:11 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2015-01-03-updated-site/</guid>
+      <description>&lt;p&gt;As I&amp;#8217;ve been using this blog more recently, the page speed has been becoming much more frustrating. So today, I&amp;#8217;ve done some stuff to improve it and it&amp;#8217;s now twice as fast as it used to be. Please let me know what you think of the new style!&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Setting up WordPress on Azure</title>
+      <link>http://lockelife.com/blog/2013-05-11-setting-up-wordpress-on-azure/</link>
+      <pubDate>Sat, 11 May 2013 22:14:43 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2013-05-11-setting-up-wordpress-on-azure/</guid>
+      <description>&lt;p&gt;This blog was configured super rapidly with goDaddy and Azure, instead of my previous implementation on EC2.  I&amp;#8217;ve forgone the multi-site installation, with attendant subdomains, and gone for a straight wordpress Website (one of the Azure features).&lt;/p&gt;
+
+&lt;p&gt;I already had an Azure account I&amp;#8217;d gone through the billing setup for &amp;#8211; but that was really simple anyway, so getting the blog up and running consisted of:&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+    <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.25.1" />
+    <title>R</title>
+    
+    
+    
+    <meta name="description" content="A description that will appear as a default if front matter does not exist" />
+    <meta name="keywords" content='default,keywords,if,no,front,matter' />
+    
+    
+    <link href="http://lockelife.com/blog/categories/r/index.xml" rel="alternate" type="application/rss+xml" title="Locke Data Blog" />
+    <link rel="stylesheet" href="http://lockelife.com/blog/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="http://lockelife.com/blog/css/highlightjs-themes/androidstudio.css" />
+    <link rel="stylesheet" href="http://lockelife.com/blog/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="http://lockelife.com/blog/css/lockedata.css" />
+    
+        
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({
+                    google_ad_client: "ca-pub-XXXXXX",
+                    enable_page_level_ads: true
+                });
+            </script>
+        
+    
+</head>
+
+    <body>
+        <!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+        <a class="navbar-brand page-scroll" href="/blog/#page-top">
+          
+          <img src="http://lockelife.com/blog/img/LockeDataTextNew.svg" class="img-responsive" alt="">
+        </a>
+      
+
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="hidden">
+          <a href="/blog/#page-top"></a>
+        </li>
+        
+          <li>
+            <a href="http://lockelife.com">Locke Data</a>
+          </li>
+        
+          <li>
+            <a href="/blog/blog/">Blog</a>
+          </li>
+        
+
+        
+        
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container-fluid -->
+</nav>
+
+        <div id="top" class="container">
+            <div class="row" id="content-main">
+                <div class="col-md-8">
+                    
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockelife.com/blog/2016-05-27-satrdays-voting-closes-may-31st/">#satRdays voting closes May 31st</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>May 27, 2016</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                Voting for 2 of the 3 locations for satRday conferences will be closing at the end of May 31st (GMT). It&#8217;s been a phenomenal turnout with more than 1,500 votes so far.
+You can still vote if you haven&#8217;t already!
+EU status Budapest, Hungary, is where Gergely will be throwing the EU event and it&#8217;s tentatively set for September.
+US status Chicago started out with a close runner of Washington DC, but that all changed as folks realised they could visit Puerto Rico and get fantastic learning, or Puerto Rico has for more R people than my tenuous grasp of geography led me to expect.
+                                <a class="btn btn-primary" href="http://lockelife.com/blog/2016-05-27-satrdays-voting-closes-may-31st/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockelife.com/blog/2016-05-11-satrday-location-voting/">satRday location voting now open</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>May 11, 2016</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                satRdays, free R conferences, are a project being supported by the R Consortium. When Gergely and I submitted our proposal, we said we&#8217;d be supporting three conferences:
+ Budapest, Hungary (Gergely&#8217;s home turf) Somewhere in the US Somewhere else in the world  We&#8217;ve had an overwhelming response with 40 submitted conferences but for the fully-funded ones, there can only be three. We are looking at how the runners up can do the next wave of events but we want to get the ball rolling on the first three.
+                                <a class="btn btn-primary" href="http://lockelife.com/blog/2016-05-11-satrday-location-voting/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockelife.com/blog/2016-04-19-shiny-module-design-patterns-pass-module-input-to-other-modules/">Shiny module design patterns: Pass module inputs to other modules</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>April 19, 2016</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                <p>Continuing in the series of <a href="https://itsalocke.com/tag/shiny-design-patterns/">shiny module design patterns</a>, this post covers how to pass all the inputs from one module to another.</p>
+
+<h2 id="tl-dr">TL;DR</h2>
+
+<p>Return <code>input</code> from within the server call. Store the <code>callModule()</code> result in a variable. Pass the variable into arguments for other modules. Access the variable like you would <code>input</code>. <a href="https://github.com/stephlocke/shinymodulesdesignpatterns">Steal the code</a> and, as always, if you can improve it do so!</p>
+
+<p></p>
+                                <a class="btn btn-primary" href="http://lockelife.com/blog/2016-04-19-shiny-module-design-patterns-pass-module-input-to-other-modules/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockelife.com/blog/2016-04-14-shiny-module-design-patterns-pass-module-inputs-modules/">Shiny module design patterns: Pass module input to other modules</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>April 14, 2016</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                <p>Following on from looking at the <a href="https://itsalocke.com/shiny-module-design-pattern-pass-inputs-one-module-another/">shiny modules design pattern of passing an input value to many modules</a>, I&#8217;m now going to look at a more complex shiny module design pattern: passing an input from one module to another.</p>
+
+<h2 id="tl-dr">TL;DR</h2>
+
+<p>Return the input in a reactive expression from within the server call. Store the <code>callModule()</code> result in a variable. Pass the variable into arguments for other modules. <a href="https://github.com/stephlocke/shinymodulesdesignpatterns">Steal the code</a> and, as always, if you can improve it do so!</p>
+
+<p></p>
+                                <a class="btn btn-primary" href="http://lockelife.com/blog/2016-04-14-shiny-module-design-patterns-pass-module-inputs-modules/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockelife.com/blog/2016-04-12-using-travis-make-sure-use-github-pat/">Using Travis? Make sure you use a Github PAT</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>April 12, 2016</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                <p>We&#8217;re in the fantastic situation where lots of people are using <a href="https://travis-ci.org/">Travis-CI</a> to test their R packages or use it to test and deploy their analytics/ documentation / anything really. It&#8217;s popularity has been having a negative side-effect recently though! GitHub <a href="https://developer.github.com/v3/#rate-limiting">rate limits</a> API access to 5000 requests per hour so sometimes there are more R related jobs running on Travis per hour than this limit, causing builds to error typically with a message that includes</p>
+
+<blockquote>
+<p>403 forbidden</p>
+</blockquote>
+
+<p>This error will cause your build to fail, even if you didn&#8217;t do anything wrong. To solve it short-term you can wait a little while and restart your build.<figure id="attachment_61598" style="width: 768px" class="wp-caption aligncenter"></p>
+
+<p><img class="size-medium_large wp-image-61598" src="http://res.cloudinary.com/lockedata/image/upload/h_131,w_750/v1499850336/restartbuilds_hsvpmp.png" alt="How to restart a build in Travis-CI" width="768" height="134" /><figcaption class="wp-caption-text">How to restart a build in Travis-CI</figcaption></figure></p>
+
+<p>That is a very short-termist solution and does not solve the problem for future you or other users of the service. The real solution to resolving this issue is to get off the default API access credentials and use your own.</p>
+
+<p>The R integration in Travis makes good use of the <a href="https://cran.r-project.org/package=devtools">devtools</a>. The devtools package looks for an environment variable called <code>GITHUB_PAT</code> that holds a <a href="https://help.github.com/articles/creating-an-access-token-for-command-line-use/">personal access token</a> (PAT) for using the GitHub API and if it doesn&#8217;t find one it uses a default token. When we get our own PAT and store it in Travis, devtools will pick up our token and use it, meaning you&#8217;ll only ever get rate limited if you do more than 5000 builds in an hour, which is an achievement I&#8217;d love to hear about.</p>
+
+<p></p>
+                                <a class="btn btn-primary" href="http://lockelife.com/blog/2016-04-12-using-travis-make-sure-use-github-pat/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockelife.com/blog/2016-04-08-shiny-module-design-pattern-pass-inputs-one-module-another/">Shiny module design patterns: Pass a single input to multiple modules</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>April 8, 2016</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                <p>For the awesome <a href="https://www.eventbrite.com/e/shiny-developer-conference-registration-19153967031">Shiny Developers Conference</a> back in January, I endeavoured to learn about shiny modules and <a href="https://itsalocke.com/declutter-a-shiny-reports-code-v2-0/">overhaul an application</a> using them in the space of two days. I succeeded and almost immediately switched onto other projects, thereby losing most of the hard-won knowledge! As I rediscover shiny modules and start putting them into more active use, I&#8217;ll be blogging about design patterns. This post takes you through the case of multiple modules receiving the same input value.</p>
+
+<h2 id="tl-dr">TL;DR</h2>
+
+<p>Stick overall config input objects at the app level and pass them in a reactive expression to <code>callModule()</code>. Pass the results in as an extra argument into subsequent modules. These are reactive so don&#8217;t forget the brackets. <a href="https://github.com/stephlocke/shinymodulesdesignpatterns">Steal the code</a> and, as always, if you can improve it do so!</p>
+
+<p></p>
+                                <a class="btn btn-primary" href="http://lockelife.com/blog/2016-04-08-shiny-module-design-pattern-pass-inputs-one-module-another/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockelife.com/blog/2016-04-05-r-quick-tip-collapse-a-lists-of-data-frames-with-data-table/">R Quick Tip: Collapse a lists of data.frames with data.table</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>April 5, 2016</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                <p>With my <a href="https://github.com/stephlocke/HIBPwned">HIBPwned</a> package, I consume the <a href="https://haveibeenpwned.com/">HaveIBeenPwned</a> API and return back a list object with an element for each email address. Each element holds a data.frame of breach data or a stub response with a single column data.frame containing NA. Elements are named with the email addresses they relate to. I had a list of data.frames and I wanted a consolidated data.frame (well, I always want a data.table).</p>
+
+<p>Enter data.table &#8230;</p>
+
+<p><a href="https://cran.r-project.org/package=data.table">data.table</a> has a very cool, and <a href="http://stackoverflow.com/questions/15673550/why-is-rbindlist-better-than-rbind">very fast</a> function named <code>rbindlist()</code>. This takes a list of data.frames and consolidates them into one data.table, which can, of course, be handled as a data.frame if you didn&#8217;t want to use data.table for anything else.</p>
+
+<p></p>
+                                <a class="btn btn-primary" href="http://lockelife.com/blog/2016-04-05-r-quick-tip-collapse-a-lists-of-data-frames-with-data-table/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockelife.com/blog/2016-04-04-auto-deploying-documentation-better-change-tracking-artefacts/">Auto-deploying documentation: better change tracking of artefacts</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>April 4, 2016</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                <p>As part of my never-ending quest to deploy documentation better, I&#8217;ve made yet another tweak to my scripts that deploy R vignettes or Rmarkdown documents to the <code>gh-pages</code> branch of my github repositories via Travis-CI.</p>
+
+<p>The script from <a href="http://rmflight.github.io/posts/2014/11/travis_ci_gh_pages.html">Robert Flight</a> that&#8217;s provided the basis for most of this work does something specific to update the web facing branch of the repository. It would:</p>
+
+<ol>
+<li><p>Create a blank repository</p></li>
+
+<li><p>Add the requisite files to the repository</p></li>
+
+<li><p>Add and commit them to the repo</p></li>
+
+<li><p>Force the repo to overwrite the <code>gh-pages</code> branch</p></li>
+</ol>
+
+<p>This had the unfortunate consequence of losing the history of what was previously hosted on the branch and could not tell me what commit to my development branches was responsible for a version of the docs. It took a little bit of playing but the revised script now:</p>
+
+<ol>
+<li><p>Clones the gh-pages branch</p></li>
+
+<li><p>Adds the requisite files into the reports</p></li>
+
+<li><p>Add and commit them to the repo</p></li>
+
+<li><p>Push the changes</p></li>
+</ol>
+
+<p>Using an environment variable ($TRAVIS_COMMIT) the commit message is the commit ID for the latest commit in the build that occurs on Travis, making it very easy to see what changes triggered a documentation update.</p>
+
+<p></p>
+                                <a class="btn btn-primary" href="http://lockelife.com/blog/2016-04-04-auto-deploying-documentation-better-change-tracking-artefacts/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockelife.com/blog/2016-03-24-r-package-news-tfsr-hibpwned-mockaroo/">R package news: tfsR, HIBPwned, mockaRoo</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>March 24, 2016</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                This is a brief update on my packages not currently on CRAN: tfsR, HIBPwned, and mockaRoo.
+tfsR tfsR is designed to help you work git repositories in Microsoft Team Foundation Server (TFS) and Visual Studio Team Services (VSTS). I wrote the package a while ago and it has/had just two functions; one for getting a list of git repositories, and one for making a new git repository. The release of httr 1.
+                                <a class="btn btn-primary" href="http://lockelife.com/blog/2016-03-24-r-package-news-tfsr-hibpwned-mockaroo/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockelife.com/blog/2016-03-23-satrdays-are-go/">satRdays are go!</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>March 23, 2016</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                I&#8217;m very pleased to say that the R Consortium agreed to the support the satRday project!
+The idea kicked off in November and I was over the moon with the response from the community, then we garnered support before submitting to the Consortium and I must have looped the moon a few times as we had more than 500 responses. Now the R Consortium are supporting us and we can turn all that enthusiasm into action.
+                                <a class="btn btn-primary" href="http://lockelife.com/blog/2016-03-23-satrdays-are-go/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                    
+    <div class="row">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-4" style="text-align: left; padding-left: 0px">
+                    
+                        <a class="btn btn-default" href="/blog/categories/r/page/3/" role="button" style="border-radius: 0px; display: block">Newer</a>
+                    
+                </div>
+                <div class="col-md-4 col-md-offset-4" style="text-align: right; padding-right: 0px">
+                    
+                        <a class="btn btn-default" href="/blog/categories/r/page/5/" role="button" style="border-radius: 0px; display: block">Older</a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                </div>
+   <div class="col-md-4">                    
+	
+<div class="row">
+    <div class="col-md-11 col-md-offset-1 card">
+        <h5>Locke Data Blog</h5>
+        <p>A description that will appear as a default if front matter does not exist</p>
+		<img class="avatar" src="img/ChibiSteph.svg"></img>
+    </div>
+</div>
+
+    <div class="row">
+    <div class="col-md-11 col-md-offset-1 card">
+        <h5>Search</h5>
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form">
+            <div class="input-group">
+                <input class="form-control" type="search" name="q" />
+                <span class="input-group-btn">
+                    <button class="btn btn-primary" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+                </span>
+            </div>
+            <input type="hidden" name="q" value="site:http://lockelife.com/blog/">
+        </form>
+    </div>
+</div>
+
+    
+    
+        <div class="row">
+            <div class="col-md-11 col-md-offset-1 card">
+                <h5>categories</h5>
+                <ul class="list-unstyled posts-recent">
+                    
+                        <li><a href="http://lockelife.com/blog/categories/r">r</a></li>
+                    
+                        <li><a href="http://lockelife.com/blog/categories/community">community</a></li>
+                    
+                        <li><a href="http://lockelife.com/blog/categories/microsoft-data-platform">microsoft-data-platform</a></li>
+                    
+                        <li><a href="http://lockelife.com/blog/categories/data-science">data-science</a></li>
+                    
+                        <li><a href="http://lockelife.com/blog/categories/misc-technology">misc-technology</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    
+
+    
+
+    
+
+
+</div>
+            </div>
+        </div>
+        <!-- Footer section -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <span class="copyright">
+          <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+        </span>
+      </div>
+      <div class="col-md-4">
+        <ul class="list-inline social-buttons">
+          
+            <li>
+              <a href="/blog/#"><i class='fa fa-twitter'></i></a>
+            </li>
+          
+            <li>
+              <a href="/blog/#"><i class='fa fa-facebook'></i></a>
+            </li>
+          
+            <li>
+              <a href="/blog/#"><i class='fa fa-linkedin'></i></a>
+            </li>
+          
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <ul class="list-inline quicklinks">
+          
+            <li>
+              <a href="http://lockelife.com/#company">Legalise and stuff</a>
+            </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+        <div id="back-to-top" class="hidden">
+    <a href="#top" class="well well-sm" onclick="$('html,body').animate({scrollTop:0},'slow');return false;">
+        <i class="glyphicon glyphicon-chevron-up"></i> Back to Top
+    </a>
+</div>
+<script src="http://lockelife.com/blog/js/jquery.min.js"></script>
+<script src="http://lockelife.com/blog/js/bootstrap.min.js"></script>
+<script src="http://lockelife.com/blog/js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script>
+    if(($(window).height() + 100) < $(document).height()) {
+        $('#back-to-top').removeClass('hidden').affix({
+            offset: {
+                top: 100
+            }
+        });
+    }
+</script>
+
+    
+        <script>
+            
+            [].forEach.call(document.querySelectorAll('.adsbygoogle'), function() {
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            });
+        </script>
+    
+
+
+    
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-XXXXX-YY', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+
+
+
+    </body>
+</html>

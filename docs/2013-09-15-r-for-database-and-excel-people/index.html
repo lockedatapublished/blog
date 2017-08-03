@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+    <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.25.1" />
+    <title>R for database and Excel people</title>
+    
+    
+    
+    <meta name="description" content="A description that will appear as a default if front matter does not exist" />
+    <meta name="keywords" content='analysis,mssql,r,sql server' />
+    
+        <meta name="author" content="Steph" />
+    
+    
+    <link href="" rel="alternate" type="application/rss+xml" title="Locke Data Blog" />
+    <link rel="stylesheet" href="http://lockelife.com/blog/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="http://lockelife.com/blog/css/highlightjs-themes/androidstudio.css" />
+    <link rel="stylesheet" href="http://lockelife.com/blog/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="http://lockelife.com/blog/css/lockedata.css" />
+    
+        
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({
+                    google_ad_client: "ca-pub-XXXXXX",
+                    enable_page_level_ads: true
+                });
+            </script>
+        
+    
+</head>
+
+    <body>
+        <!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+        <a class="navbar-brand page-scroll" href="/blog/#page-top">
+          
+          <img src="http://lockelife.com/blog/img/LockeDataTextNew.svg" class="img-responsive" alt="">
+        </a>
+      
+
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="hidden">
+          <a href="/blog/#page-top"></a>
+        </li>
+        
+          <li>
+            <a href="http://lockelife.com">Locke Data</a>
+          </li>
+        
+          <li>
+            <a href="/blog/blog/">Blog</a>
+          </li>
+        
+
+        
+        
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container-fluid -->
+</nav>
+
+        <div id="top" class="container">
+            <div class="row" id="content-main">
+                <div class="col-md-8">
+                    <div class="row">
+    <div class="col-md-12 content-card">
+        <h1>R for database and Excel people</h1>
+        
+            
+            <ul class="list-inline meta">
+                <li><i class="fa fa-calendar"></i>September 15, 2013</li>
+                <li><i class="fa fa-user"></i>Steph</li>
+                
+                    
+                    <li><i class="fa fa-folder"></i><a href="http://lockelife.com/categories/microsoft-data-platform">Microsoft Data Platform</a>, <a href="http://lockelife.com/categories/misc-technology">Misc Technology</a>, <a href="http://lockelife.com/categories/r">R</a></li>
+                
+            </ul>
+        
+        
+    <ul class="list-inline share" style="margin-top: 15px; margin-left: 0px">
+        <li class="facebook-share"><a target="_blank" href="http://www.facebook.com/sharer.php?u=http%3a%2f%2flockelife.com%2fblog%2f2013-09-15-r-for-database-and-excel-people%2f"><i class="fa fa-facebook fa-lg"></i>Facebook</a></li>
+        <li class="googleplus-share"><a target="_blank" href="https://plus.google.com/share?url=http%3a%2f%2flockelife.com%2fblog%2f2013-09-15-r-for-database-and-excel-people%2f"><i class="fa fa-google-plus fa-lg"></i>Google+</a></li>
+        <li class="twitter-share"><a target="_blank" href="https://twitter.com/share?url=http%3a%2f%2flockelife.com%2fblog%2f2013-09-15-r-for-database-and-excel-people%2f&amp;text=R%20for%20database%20and%20Excel%20people"><i class="fa fa-twitter fa-lg"></i>Twitter</a></li>
+        <li class="reddit-share"><a target="_blank" href="http://reddit.com/submit?url=http%3a%2f%2flockelife.com%2fblog%2f2013-09-15-r-for-database-and-excel-people%2f&amp;title=R%20for%20database%20and%20Excel%20people"><i class="fa fa-reddit fa-lg"></i>Reddit</a></li>
+        <li class="linkedin-share"><a target="_blank" href="http://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2flockelife.com%2fblog%2f2013-09-15-r-for-database-and-excel-people%2f"><i class="fa fa-linkedin fa-lg"></i>LinkedIn</a></li>
+        <li class="stumbleupon-share"><a target="_blank" href="http://www.stumbleupon.com/submit?url=http%3a%2f%2flockelife.com%2fblog%2f2013-09-15-r-for-database-and-excel-people%2f&amp;title=R%20for%20database%20and%20Excel%20people"><i class="fa fa-stumbleupon fa-lg"></i>StumbleUpon</a></li>
+    </ul>
+
+
+        <h3 id="what-is-r">What is R?</h3>
+
+<p>R is a statistical language for doing all sorts of analytics based on many different types of data and it&#8217;s also an open source platform that allows people to extend the base functionality.  <a href="http://www.r-project.org/about.html" target="_blank">More details</a> are available from the horse&#8217;s mouth.</p>
+
+<h3 id="how-can-i-give-it-a-go">How can I give it a go?</h3>
+
+<p>Download <a href="http://cran.rstudio.com/" target="_blank">R</a> and <a href="http://www.rstudio.com/ide/download/desktop" target="_blank">RStudio</a> an awesome development environment for R.  There is also an excellent online <a href="http://tryr.codeschool.com/" target="_blank">R learning site</a>.  I do not recommend sticking with just R &#8211; we&#8217;re used to a lot more convenience and good development bits and bobs like IntelliSense and Rstudio really delivers.</p>
+
+<p></p>
+
+<h3 id="why-should-i-care-about-it">Why should I care about it?</h3>
+
+<p>If you do reporting or analysis of any form, R can be *very* useful in addition to SQL, Excel, SSRS etc.</p>
+
+<p>If you&#8217;re a pure DBA with very little analytical responsibilities, you may still be interested in it because you can encourage others to utilise it for activities where SQL is not suitable for, thus reducing the database problems.</p>
+
+<p>For developers, it can give you the ability to produce interactive graphics and visualisations on the interweb using <a href="http://www.rstudio.com/shiny/" target="_blank">Shiny</a> or directly embedding in <a href="https://www.simple-talk.com/dotnet/asp.net/creating-a-business-intelligence-dashboard-with-r-and-asp.net-mvc-part-1/" target="_blank">ASP</a>.</p>
+
+<h3 id="why-8216-r-for-database-and-excel-people-8217">Why &#8216;R for database and Excel people&#8217;?</h3>
+
+<p>R was designed and built by academic statisticians who have been using S (the commercial R predecessor), MATLAB, SAS and other odd programs with an insular user group who speak a really weird language full of jackknifes and lassos.  You as someone who more likely comes from a technical/computing/general analytics background are unlikely to understand this easily without a google translate button.  This means the design choices, the language, and the help pages can be almost wholly impenetrable and would provide a constant source of frustration!  After six months grappling with R entirely on my own with just the internet for succour and help, I&#8217;d like to pass on my translations of hard won knowledge to you, the reader.</p>
+
+<p>I&#8217;ll cover topics in the order of relevance to someone with SQL and Excel knowledge would likely look to tackle them.  This means I won&#8217;t cover necessarily cover R topics in the way a stats person might approach them because the challenges we&#8217;ll face tend to be different from a statistician.  I also intend to bypass &#8216;base&#8217; methods for solving typical challenges and skip straight to the way I&#8217;ve found most intuitive after experimenting with different packages.</p>
+
+<h3 id="what-will-be-covered">What will be covered?</h3>
+
+<ul>
+<li>Setting up an R server</li>
+<li>Connecting to SQL Server</li>
+<li>Effective data storage and the data.table package</li>
+<li>Pivoting data</li>
+<li>Aggregations</li>
+<li>Dealing with time</li>
+<li>Producing charts</li>
+<li>Outputting to files</li>
+<li>Producing reports</li>
+<li>Building your own packages</li>
+<li>Source control</li>
+<li>Unit testing</li>
+<li>Best practices</li>
+</ul>
+
+<h3 id="when-will-these-be-covered">When will these be covered?</h3>
+
+<p>I plan on writing and outputting these once a week for your edification.</p>
+
+<p>&nbsp;</p>
+        
+    <ul class="list-inline tags" style="margin-top: 15px; margin-left: 0px">
+        
+            <li style=""><a href="http://lockelife.com/tags/analysis">analysis</a></li>
+        
+            <li style=""><a href="http://lockelife.com/tags/mssql">mssql</a></li>
+        
+            <li style=""><a href="http://lockelife.com/tags/r">r</a></li>
+        
+            <li style=""><a href="http://lockelife.com/tags/sql-server">sql server</a></li>
+        
+    </ul>
+
+
+    </div>
+</div>
+
+                    
+    
+        <div class="row">
+            <div class="col-md-12 content-card">
+                <div id="disqus_thread"></div>
+                <script>
+                    (function() {
+                        if (window.location.hostname == "localhost") {
+                            document.write("Disqus comments are unavailable while serving on localhost or 127.0.0.1");
+                            return;
+                        }
+                        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                        var disqus_shortname = 'shortname';
+                        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                    })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+            </div>
+        </div>
+    
+
+
+                </div>
+         <div class="col-md-4">                    
+	
+<div class="row">
+    <div class="col-md-11 col-md-offset-1 card">
+        <h5></h5>
+        <p></p>
+		<img class="avatar" src="img/ChibiSteph.svg"></img>
+    </div>
+</div>
+
+    <div class="row">
+    <div class="col-md-11 col-md-offset-1 card">
+        <h5>Search</h5>
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form">
+            <div class="input-group">
+                <input class="form-control" type="search" name="q" />
+                <span class="input-group-btn">
+                    <button class="btn btn-primary" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+                </span>
+            </div>
+            <input type="hidden" name="q" value="site:">
+        </form>
+    </div>
+</div>
+
+    
+
+</div>
+            </div>
+        </div>
+        <!-- Footer section -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <span class="copyright">
+          <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+        </span>
+      </div>
+      <div class="col-md-4">
+        <ul class="list-inline social-buttons">
+          
+            <li>
+              <a href="/blog/#"><i class='fa fa-twitter'></i></a>
+            </li>
+          
+            <li>
+              <a href="/blog/#"><i class='fa fa-facebook'></i></a>
+            </li>
+          
+            <li>
+              <a href="/blog/#"><i class='fa fa-linkedin'></i></a>
+            </li>
+          
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <ul class="list-inline quicklinks">
+          
+            <li>
+              <a href="http://lockelife.com/#company">Legalise and stuff</a>
+            </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+        <div id="back-to-top" class="hidden">
+    <a href="#top" class="well well-sm" onclick="$('html,body').animate({scrollTop:0},'slow');return false;">
+        <i class="glyphicon glyphicon-chevron-up"></i> Back to Top
+    </a>
+</div>
+<script src="http://lockelife.com/blog/js/jquery.min.js"></script>
+<script src="http://lockelife.com/blog/js/bootstrap.min.js"></script>
+<script src="http://lockelife.com/blog/js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script>
+    if(($(window).height() + 100) < $(document).height()) {
+        $('#back-to-top').removeClass('hidden').affix({
+            offset: {
+                top: 100
+            }
+        });
+    }
+</script>
+
+    
+        <script>
+            
+            [].forEach.call(document.querySelectorAll('.adsbygoogle'), function() {
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            });
+        </script>
+    
+
+
+    
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-XXXXX-YY', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+
+
+
+    </body>
+</html>

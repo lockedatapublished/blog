@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Test Coverage on Locke Data Blog</title>
+    <link>http://lockelife.com/blog/tags/test-coverage/</link>
+    <description>Recent content in Test Coverage on Locke Data Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
+    <lastBuildDate>Mon, 20 Apr 2015 09:06:36 +0000</lastBuildDate>
+    
+	<atom:link href="http://lockelife.com/blog/tags/test-coverage/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Easy Continuous Integration for R</title>
+      <link>http://lockelife.com/blog/2015-04-20-easy-continuous-integration-for-r/</link>
+      <pubDate>Mon, 20 Apr 2015 09:06:36 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2015-04-20-easy-continuous-integration-for-r/</guid>
+      <description>&lt;p&gt;With &lt;a href=&#34;http://r-pkgs.had.co.nz/&#34;&gt;excellent guidance&lt;/a&gt; and &lt;a href=&#34;http://cran.r-project.org/web/packages/devtools/&#34;&gt;tooling&lt;/a&gt; on making R packages, it&amp;#8217;s becoming really easy to make a package to hold your R functionality. This has a host of benefits, not least source control (via GitHub) and unit testing (via the &lt;a href=&#34;http://cran.r-project.org/web/packages/testthat/&#34;&gt;&lt;code&gt;testthat&lt;/code&gt;&lt;/a&gt; package). Once you have a package and unit tests, a great way of making sure that as you change things you don&amp;#8217;t break them is to perform &lt;a href=&#34;http://www.thoughtworks.com/continuous-integration&#34;&gt;Continuous integration&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;What this means is that &lt;strong&gt;every&lt;/strong&gt; time you make a change, your package is built and thoroughly checked for any issues. If issues are found the &amp;#8220;build&amp;#8217;s broke&amp;#8221; and you have to fix it ASAP.&lt;/p&gt;
+
+&lt;p&gt;The easiest, cheapest, and fastest way of setting up continuous integration for R stuff is to use &lt;a href=&#34;https://travis-ci.com/&#34;&gt;Travis-CI&lt;/a&gt;, which is free if you use &lt;a href=&#34;http://github.com&#34;&gt;GitHub&lt;/a&gt; as a remote server for your code.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;NB &amp;#8211; it doesn&amp;#8217;t have to be your only remote server&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

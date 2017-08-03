@@ -1,0 +1,2045 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://lockelife.com/blog/2017-06-17-presentation-site-hugo-walkthrough/</loc>
+    <lastmod>2017-06-17T09:29:42+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2017-06-13-why-data-people-dont-do-devops/</loc>
+    <lastmod>2017-06-13T16:44:19+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2017-06-13-using-purrr-with-apis/</loc>
+    <lastmod>2017-06-13T10:20:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2017-06-07-r-data-science-activities-london-june-27th-29th/</loc>
+    <lastmod>2017-06-07T09:27:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2017-05-26-versioning-r-model-objects-in-sql-server/</loc>
+    <lastmod>2017-05-26T08:00:04+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2017-05-22-change-no-match-found-no-code-qa-bot/</loc>
+    <lastmod>2017-05-22T08:24:04+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2017-05-19-improving-automatic-document-production-with-r/</loc>
+    <lastmod>2017-05-19T08:02:26+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2017-05-15-easy-peasy-qa-bot/</loc>
+    <lastmod>2017-05-15T08:00:27+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2017-05-12-interpreting-regression-cofficients/</loc>
+    <lastmod>2017-05-12T08:31:48+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2017-05-09-datasaurus-now-cran/</loc>
+    <lastmod>2017-05-09T10:02:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2017-05-08-r-quick-tip-sequential-yaml-headers-rmarkdown-parameter-re-use/</loc>
+    <lastmod>2017-05-08T08:32:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2017-05-05-minor-update-hibpwned/</loc>
+    <lastmod>2017-05-05T07:46:42+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2017-05-03-error-installing-latest-r-version-3-4-0-windows/</loc>
+    <lastmod>2017-05-03T17:57:13+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2017-05-02-the-making-of-datasaurus/</loc>
+    <lastmod>2017-05-02T12:10:32+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2017-05-02-getting-started-with-data-science-recommended-resources/</loc>
+    <lastmod>2017-05-02T07:41:04+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2017-04-28-upload-multiple-files-in-shiny-and-consolidate-into-a-dataset/</loc>
+    <lastmod>2017-04-28T10:27:55+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2017-04-24-r-training-environment/</loc>
+    <lastmod>2017-04-24T08:17:13+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2017-04-21-logistic-regressions-r/</loc>
+    <lastmod>2017-04-21T09:02:44+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2017-04-19-table-parameters-rmarkdown-reports/</loc>
+    <lastmod>2017-04-19T08:50:30+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2017-04-18-building-booth-presence/</loc>
+    <lastmod>2017-04-18T08:28:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2017-04-14-community-workshops/</loc>
+    <lastmod>2017-04-14T18:00:59+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2017-03-20-battle-beards-now-online/</loc>
+    <lastmod>2017-03-20T11:11:29+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2017-03-06-battle-beards-march-29th/</loc>
+    <lastmod>2017-03-06T12:26:08+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2017-03-01-microsoft-cognitive-services-text-analytics-api/</loc>
+    <lastmod>2017-03-01T09:40:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2017-02-27-community-r-workshops/</loc>
+    <lastmod>2017-02-27T09:24:14+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2017-02-22-quick-tip-knitr-python-windows-setup-checklist/</loc>
+    <lastmod>2017-02-22T16:01:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2017-02-20-is-my-time-series-additive-or-multiplicative/</loc>
+    <lastmod>2017-02-20T10:46:20+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2017-02-08-talking-data-and-docker/</loc>
+    <lastmod>2017-02-08T16:25:20+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2017-01-13-crisp-dm/</loc>
+    <lastmod>2017-01-13T15:28:32+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2017-01-04-going-solo/</loc>
+    <lastmod>2017-01-04T10:02:37+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2016-12-01-i-love-azure-functions/</loc>
+    <lastmod>2016-12-01T22:47:23+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2016-11-24-experiment-self-promotion-revive-old-posts/</loc>
+    <lastmod>2016-11-24T10:46:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2016-11-14-my-first-mvp-summit/</loc>
+    <lastmod>2016-11-14T10:29:45+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2016-11-08-note-potential-new-speakers-ok-not-perfect/</loc>
+    <lastmod>2016-11-08T10:42:48+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2016-10-30-passing-values-bash-script/</loc>
+    <lastmod>2016-10-30T14:53:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2016-10-28-girlswithdeeppockets-com/</loc>
+    <lastmod>2016-10-28T11:25:13+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2016-10-27-5-useful-css-sites/</loc>
+    <lastmod>2016-10-27T08:00:45+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2016-10-21-slack-all-the-things/</loc>
+    <lastmod>2016-10-21T14:59:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2016-10-13-stepping-sql-relay/</loc>
+    <lastmod>2016-10-13T08:35:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2016-10-10-unit-testing-in-ssdt-a-quick-intro/</loc>
+    <lastmod>2016-10-10T08:00:08+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2016-10-07-itsalocke-com-now-added-locks/</loc>
+    <lastmod>2016-10-07T08:46:31+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2016-10-06-2016-pass-board-of-directors-candidate-town-halls/</loc>
+    <lastmod>2016-10-06T09:27:57+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2016-09-27-reflections-sql-relay-coming/</loc>
+    <lastmod>2016-09-27T08:24:36+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2016-09-17-first-gamemaker-game/</loc>
+    <lastmod>2016-09-17T20:11:54+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2016-09-15-hibpwned-updated-cran/</loc>
+    <lastmod>2016-09-15T07:00:53+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2016-08-30-being-an-organised-sponsor/</loc>
+    <lastmod>2016-08-30T08:15:08+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2016-08-04-assessing-sponsorship-opportunities/</loc>
+    <lastmod>2016-08-04T10:35:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2016-08-02-sponsorship-basics/</loc>
+    <lastmod>2016-08-02T09:15:25+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2016-08-01-sponsoring-community-events/</loc>
+    <lastmod>2016-08-01T09:00:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2016-07-20-giving-back-code/</loc>
+    <lastmod>2016-07-20T14:00:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2016-07-12-ideas-lightning-talks/</loc>
+    <lastmod>2016-07-12T15:27:57+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2016-07-11-stumbling-into-azure-automation/</loc>
+    <lastmod>2016-07-11T09:46:12+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2016-07-07-bad-ways-run-user-group/</loc>
+    <lastmod>2016-07-07T12:53:09+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2016-06-29-not-an-expert/</loc>
+    <lastmod>2016-06-29T08:19:39+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2016-06-23-pass-summit-2016-submissions-feedback/</loc>
+    <lastmod>2016-06-23T11:59:34+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2016-06-23-use-rprofile-give-important-notifications/</loc>
+    <lastmod>2016-06-23T09:08:43+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2016-06-10-azure-storage-accounts-resource-groups-matter-to-powershell/</loc>
+    <lastmod>2016-06-10T09:00:21+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2016-06-09-hibpwned-on-cran/</loc>
+    <lastmod>2016-06-09T08:06:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2016-06-01-recent-presentations/</loc>
+    <lastmod>2016-06-01T08:09:32+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2016-05-27-satrdays-voting-closes-may-31st/</loc>
+    <lastmod>2016-05-27T12:00:56+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2016-05-11-satrday-location-voting/</loc>
+    <lastmod>2016-05-11T15:45:44+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2016-04-20-installing-sql-server-odbc-drivers-on-ubuntu-15-04/</loc>
+    <lastmod>2016-04-20T14:13:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2016-04-19-shiny-module-design-patterns-pass-module-input-to-other-modules/</loc>
+    <lastmod>2016-04-19T10:15:19+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2016-04-14-shiny-module-design-patterns-pass-module-inputs-modules/</loc>
+    <lastmod>2016-04-14T12:05:55+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2016-04-12-using-travis-make-sure-use-github-pat/</loc>
+    <lastmod>2016-04-12T10:27:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2016-04-08-shiny-module-design-pattern-pass-inputs-one-module-another/</loc>
+    <lastmod>2016-04-08T10:56:32+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2016-04-05-r-quick-tip-collapse-a-lists-of-data-frames-with-data-table/</loc>
+    <lastmod>2016-04-05T14:05:26+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2016-04-04-auto-deploying-documentation-better-change-tracking-artefacts/</loc>
+    <lastmod>2016-04-04T11:04:34+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2016-03-24-r-package-news-tfsr-hibpwned-mockaroo/</loc>
+    <lastmod>2016-03-24T15:44:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2016-03-23-satrdays-are-go/</loc>
+    <lastmod>2016-03-23T13:52:16+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2016-03-21-r-package-haveibeenpwned-com/</loc>
+    <lastmod>2016-03-21T15:02:08+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2016-03-15-sqlcardiff-return-beard-2016-03-30/</loc>
+    <lastmod>2016-03-15T09:59:42+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2016-03-14-ssh-tunnels-windows-r/</loc>
+    <lastmod>2016-03-14T13:41:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2016-03-09-beware-the-microsoft-edge-as-a-pdf-reader/</loc>
+    <lastmod>2016-03-09T14:08:53+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2016-03-08-mockaroo-making-realistic-test-data-in-r/</loc>
+    <lastmod>2016-03-08T14:00:54+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2016-03-07-upcoming-r-microsoft-training-days/</loc>
+    <lastmod>2016-03-07T09:55:13+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2016-03-03-declutter-a-shiny-reports-code-v2-0/</loc>
+    <lastmod>2016-03-03T13:40:34+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2016-03-01-my-life-my-universe-my-everything/</loc>
+    <lastmod>2016-03-01T20:08:37+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2016-01-13-fixing-the-tiny-icons-big-text-issue-on-my-xps13/</loc>
+    <lastmod>2016-01-13T17:32:14+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2016-01-06-satrdays-final-push/</loc>
+    <lastmod>2016-01-06T14:54:37+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2016-01-04-optirum-0-37-3-now-out/</loc>
+    <lastmod>2016-01-04T07:26:14+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2015-12-31-anchor-modelling-sixth-normal-form-databases/</loc>
+    <lastmod>2015-12-31T11:47:29+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2015-12-23-auto-deploying-documentation-rtraining/</loc>
+    <lastmod>2015-12-23T10:25:48+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2015-12-07-should-presenters-have-to-pay-to-attend/</loc>
+    <lastmod>2015-12-07T15:55:36+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2015-11-13-auto-deploying-documentation-faster/</loc>
+    <lastmod>2015-11-13T09:13:22+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2015-11-11-boris-presentation-agency-356-labs/</loc>
+    <lastmod>2015-11-11T09:43:11+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2015-11-07-optirum-0-37-1-now-out/</loc>
+    <lastmod>2015-11-07T19:26:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2015-11-04-sqlsaturdays-but-for-r/</loc>
+    <lastmod>2015-11-04T19:25:22+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2015-10-28-some-recent-posts-over-on-the-mango-blog/</loc>
+    <lastmod>2015-10-28T17:10:32+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2015-10-24-women-doing-technology/</loc>
+    <lastmod>2015-10-24T08:35:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2015-10-16-dataops-its-a-thing-honest/</loc>
+    <lastmod>2015-10-16T20:27:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2015-07-16-sql-relay-is-here/</loc>
+    <lastmod>2015-07-16T09:30:59+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2015-06-24-r-training-day-mk2-sqlsatmcr/</loc>
+    <lastmod>2015-06-24T08:35:09+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2015-06-17-custom-latex-beamer-style-templates-for-rmarkdown/</loc>
+    <lastmod>2015-06-17T12:34:22+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2015-06-05-auto-deploying-documentation-multiple-r-vignettes/</loc>
+    <lastmod>2015-06-05T08:38:44+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2015-06-04-my-first-sqlhangout/</loc>
+    <lastmod>2015-06-04T08:19:17+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2015-06-03-optirum-presentation/</loc>
+    <lastmod>2015-06-03T15:00:31+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2015-06-01-automated-documentation-hosting-on-github-via-travis-ci/</loc>
+    <lastmod>2015-06-01T09:29:21+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2015-05-25-how-many-is-too-many-conferences/</loc>
+    <lastmod>2015-05-25T17:55:16+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2015-05-18-sqlsaturday-portugal/</loc>
+    <lastmod>2015-05-18T09:42:13+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2015-04-26-sql-saturday-exeter-steph-ozs-slides/</loc>
+    <lastmod>2015-04-26T16:04:36+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2015-04-20-easy-continuous-integration-for-r/</loc>
+    <lastmod>2015-04-20T09:06:36+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2015-04-17-unified-diff-source-control-latex/</loc>
+    <lastmod>2015-04-17T09:44:38+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2015-04-16-optirum-gini-like-a-wizard/</loc>
+    <lastmod>2015-04-16T10:22:38+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2015-04-15-stuff-i-read-this-week-3/</loc>
+    <lastmod>2015-04-15T08:20:34+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2015-04-13-organised-speaking-improving-font-sizes/</loc>
+    <lastmod>2015-04-13T12:24:14+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2015-04-08-data-table-cookbook/</loc>
+    <lastmod>2015-04-08T11:47:08+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2015-04-07-stuff-i-read-this-bit-more-than-a-week/</loc>
+    <lastmod>2015-04-07T08:24:38+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2015-04-06-working-with-azure-blob-storage-rest-api/</loc>
+    <lastmod>2015-04-06T09:27:05+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2015-03-23-deployr-why-microsoft-bought-revolution/</loc>
+    <lastmod>2015-03-23T10:19:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2015-03-20-bride-of-frankenstein-tfs-r/</loc>
+    <lastmod>2015-03-20T10:44:35+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2015-03-14-overcoming-social-anxiety-to-attend-user-groups/</loc>
+    <lastmod>2015-03-14T14:13:17+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2015-02-27-stuff-i-read-this-week-2/</loc>
+    <lastmod>2015-02-27T13:01:49+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2015-02-24-where-do-i-fit-in-the-microsoft-future/</loc>
+    <lastmod>2015-02-24T10:41:45+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2015-02-22-stuff-i-read-this-week/</loc>
+    <lastmod>2015-02-22T12:08:49+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2015-02-18-declutter-a-shiny-reports-code/</loc>
+    <lastmod>2015-02-18T11:41:21+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2015-02-13-stuff-read-week/</loc>
+    <lastmod>2015-02-13T15:45:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2015-02-11-busy-month/</loc>
+    <lastmod>2015-02-11T15:15:36+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2015-02-09-magrittr-cleaner-program-flow/</loc>
+    <lastmod>2015-02-09T11:51:23+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2015-02-07-r-windows-weird-user-name-gotcha/</loc>
+    <lastmod>2015-02-07T18:40:09+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2015-02-06-paul-randal-offers-mentoring/</loc>
+    <lastmod>2015-02-06T19:20:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2015-01-24-r-pre-con-sqlsat-exeter/</loc>
+    <lastmod>2015-01-24T10:10:29+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2015-01-21-organised-speaking-intro-r-case-study/</loc>
+    <lastmod>2015-01-21T09:48:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2015-01-20-spell-check-spreadsheets/</loc>
+    <lastmod>2015-01-20T10:10:54+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2015-01-19-sqlsaturday-exeter-2015/</loc>
+    <lastmod>2015-01-19T20:09:35+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2015-01-18-organised-speaking-iterative-development/</loc>
+    <lastmod>2015-01-18T10:52:45+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2015-01-14-review-first-cardiff-r-user-group-meeting/</loc>
+    <lastmod>2015-01-14T14:25:05+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2015-01-13-photoshop-image-macro-something-even-better/</loc>
+    <lastmod>2015-01-13T10:59:21+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2015-01-12-organised-speaking-prioritising-events-to-speak-at/</loc>
+    <lastmod>2015-01-12T09:57:16+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2015-01-11-some-basic-web-scraping-in-r/</loc>
+    <lastmod>2015-01-11T16:56:22+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2015-01-10-organised-speaking-throw-1/</loc>
+    <lastmod>2015-01-10T09:59:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2015-01-09-starting-the-cardiff-r-user-group/</loc>
+    <lastmod>2015-01-09T15:41:19+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2015-01-08-throw-1-speak-1/</loc>
+    <lastmod>2015-01-08T10:33:25+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2015-01-03-updated-site/</loc>
+    <lastmod>2015-01-03T16:21:11+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2015-01-02-organised-speaking-session-abstracts/</loc>
+    <lastmod>2015-01-02T09:31:14+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2014-12-29-sql-cardiff-dates-announced/</loc>
+    <lastmod>2014-12-29T11:00:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2014-11-23-aggregate-on-a-lookup-in-ssrs/</loc>
+    <lastmod>2014-11-23T12:59:13+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2014-11-10-the-basics-of-common-table-expressions-ctes/</loc>
+    <lastmod>2014-11-10T15:40:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2014-11-06-database-bi-related-unit-testing-options/</loc>
+    <lastmod>2014-11-06T16:18:48+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2014-06-28-whereve-we-been/</loc>
+    <lastmod>2014-06-28T11:49:21+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2013-12-24-merry-christmas/</loc>
+    <lastmod>2013-12-24T21:54:30+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2013-11-28-fiddly-ssrs/</loc>
+    <lastmod>2013-11-28T01:15:25+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2013-09-25-sqlrelay-cardiff-nov-13th/</loc>
+    <lastmod>2013-09-25T20:44:54+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2013-09-15-r-for-database-and-excel-people/</loc>
+    <lastmod>2013-09-15T18:00:27+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2013-09-13-marketing-for-sqlrelay-two-weeks-in/</loc>
+    <lastmod>2013-09-13T18:45:19+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2013-09-07-tired-of-right-clicking-on-folders-and-going-to-properties-to-get-the-folder-size/</loc>
+    <lastmod>2013-09-07T18:31:12+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2013-09-01-marketing-for-sqlrelay-in-the-beginning/</loc>
+    <lastmod>2013-09-01T11:30:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2013-08-27-dynamic-named-range-generator/</loc>
+    <lastmod>2013-08-27T21:00:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2013-08-20-regex-functions-in-vba/</loc>
+    <lastmod>2013-08-20T18:55:37+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2013-08-16-ssis-basics-and-gotchas-presentation-and-resources/</loc>
+    <lastmod>2013-08-16T17:06:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2013-07-27-dynamic-named-ranges-the-basics/</loc>
+    <lastmod>2013-07-27T19:55:47+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2013-06-28-my-first-platformer/</loc>
+    <lastmod>2013-06-28T22:03:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2013-06-27-my-daynight-cycle-demo/</loc>
+    <lastmod>2013-06-27T20:25:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2013-05-31-user-group-presentation/</loc>
+    <lastmod>2013-05-31T20:19:42+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2013-05-29-synchronising-schema-between-mssql-mysql-with-ssis/</loc>
+    <lastmod>2013-05-29T16:25:47+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2013-05-25-making-charts-with-conditionally-coloured-series/</loc>
+    <lastmod>2013-05-25T16:05:54+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2013-05-24-center-across-selection/</loc>
+    <lastmod>2013-05-24T15:23:29+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2013-05-19-time-to-go-home/</loc>
+    <lastmod>2013-05-19T15:19:04+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2013-05-12-objectless-chec-boxes-using-vba/</loc>
+    <lastmod>2013-05-12T14:03:09+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/2013-05-11-setting-up-wordpress-on-azure/</loc>
+    <lastmod>2013-05-11T22:14:43+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/#statuspost/</loc>
+    <lastmod>2017-06-07T09:27:46+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/agile/</loc>
+    <lastmod>2017-02-08T16:25:20+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/analysis/</loc>
+    <lastmod>2013-09-15T18:00:27+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/anchor-model/</loc>
+    <lastmod>2015-12-31T11:47:29+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/api/</loc>
+    <lastmod>2017-06-13T10:20:40+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/asteroids/</loc>
+    <lastmod>2016-09-17T20:11:54+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/attendee/</loc>
+    <lastmod>2016-11-14T10:29:45+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/auto-deploying-r-documentation/</loc>
+    <lastmod>2017-05-19T08:02:26+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/aws/</loc>
+    <lastmod>2016-07-11T09:46:12+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/azure/</loc>
+    <lastmod>2016-12-01T22:47:23+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/azure-automation/</loc>
+    <lastmod>2016-07-11T09:46:12+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/azure-data-factory/</loc>
+    <lastmod>2015-05-18T09:42:13+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/azure-functions/</loc>
+    <lastmod>2017-05-22T08:24:04+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/azureml/</loc>
+    <lastmod>2016-06-01T08:09:32+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/bash/</loc>
+    <lastmod>2017-04-24T08:17:13+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/best-practices/</loc>
+    <lastmod>2017-05-26T08:00:04+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/blob-storage/</loc>
+    <lastmod>2016-06-10T09:00:21+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/blog/</loc>
+    <lastmod>2016-11-24T10:46:40+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/blogging/</loc>
+    <lastmod>2016-11-24T10:46:40+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/bot-services/</loc>
+    <lastmod>2017-05-22T08:24:04+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/bots/</loc>
+    <lastmod>2017-05-22T08:24:04+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/business/</loc>
+    <lastmod>2015-02-27T13:01:49+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/business-intelligence/</loc>
+    <lastmod>2016-03-07T09:55:13+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/call-for-contributors/</loc>
+    <lastmod>2016-10-28T11:25:13+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/cardiff/</loc>
+    <lastmod>2017-03-06T12:26:08+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/censornet/</loc>
+    <lastmod>2017-05-05T07:46:42+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/chart/</loc>
+    <lastmod>2013-05-25T16:05:54+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/check-boxes/</loc>
+    <lastmod>2013-05-12T14:03:09+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/chocolatey/</loc>
+    <lastmod>2016-06-01T08:09:32+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/code/</loc>
+    <lastmod>2014-11-23T12:59:13+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/community/</loc>
+    <lastmod>2017-06-17T09:29:42+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/categories/community/</loc>
+    <lastmod>2017-06-13T16:44:19+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/conferences/</loc>
+    <lastmod>2017-04-14T18:00:59+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/continuous-integration/</loc>
+    <lastmod>2017-05-19T08:02:26+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/coveralls/</loc>
+    <lastmod>2017-05-02T12:10:32+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/cran/</loc>
+    <lastmod>2017-05-09T10:02:18+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/css/</loc>
+    <lastmod>2016-10-27T08:00:45+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/data-analysis/</loc>
+    <lastmod>2015-01-11T16:56:22+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/data-breaches/</loc>
+    <lastmod>2016-06-09T08:06:58+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/data-mining/</loc>
+    <lastmod>2017-01-13T15:28:32+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/data-modelling/</loc>
+    <lastmod>2015-12-31T11:47:29+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/data-science/</loc>
+    <lastmod>2017-05-02T07:41:04+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/categories/data-science/</loc>
+    <lastmod>2017-06-13T10:20:40+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/data-visualisation/</loc>
+    <lastmod>2015-06-24T08:35:09+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/data.table/</loc>
+    <lastmod>2016-04-05T14:05:26+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/dataops/</loc>
+    <lastmod>2017-06-13T16:44:19+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/categories/dataops/</loc>
+    <lastmod>2017-06-17T09:29:42+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/datasaurus/</loc>
+    <lastmod>2017-05-09T10:02:18+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/datawarehouse/</loc>
+    <lastmod>2015-12-31T11:47:29+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/dell/</loc>
+    <lastmod>2016-01-13T17:32:14+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/diversity/</loc>
+    <lastmod>2016-07-07T12:53:09+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/dlm/</loc>
+    <lastmod>2015-10-16T20:27:03+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/docker/</loc>
+    <lastmod>2017-04-24T08:17:13+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/documentation/</loc>
+    <lastmod>2015-06-01T09:29:21+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/ec2/</loc>
+    <lastmod>2013-05-11T22:14:43+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/editing/</loc>
+    <lastmod>2015-04-07T08:24:38+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/elections/</loc>
+    <lastmod>2016-10-06T09:27:57+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/elitism/</loc>
+    <lastmod>2016-07-07T12:53:09+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/etl/</loc>
+    <lastmod>2016-07-11T09:46:12+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/excel/</loc>
+    <lastmod>2015-01-20T10:10:54+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/executive-briefing/</loc>
+    <lastmod>2017-06-07T09:27:46+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/experts/</loc>
+    <lastmod>2016-06-29T08:19:39+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/failures/</loc>
+    <lastmod>2016-07-11T09:46:12+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/feedback/</loc>
+    <lastmod>2016-06-23T11:59:34+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/fonts/</loc>
+    <lastmod>2015-04-13T12:24:14+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/game/</loc>
+    <lastmod>2016-09-17T20:11:54+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/gamemaker/</loc>
+    <lastmod>2016-09-17T20:11:54+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/get-started/</loc>
+    <lastmod>2017-05-02T07:41:04+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/gini-coefficient/</loc>
+    <lastmod>2015-04-16T10:22:38+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/git/</loc>
+    <lastmod>2017-05-02T12:10:32+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/github/</loc>
+    <lastmod>2017-05-02T12:10:32+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/gwdp/</loc>
+    <lastmod>2016-10-28T11:25:13+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/hacks/</loc>
+    <lastmod>2015-06-17T12:34:22+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/haveibeenpwned/</loc>
+    <lastmod>2017-05-05T07:46:42+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/hibpwned/</loc>
+    <lastmod>2017-05-05T07:46:42+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/httr/</loc>
+    <lastmod>2015-03-20T10:44:35+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/hugo/</loc>
+    <lastmod>2017-06-17T09:29:42+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/icons/</loc>
+    <lastmod>2016-01-13T17:32:14+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/knitr/</loc>
+    <lastmod>2017-02-22T16:01:15+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/latex/</loc>
+    <lastmod>2015-06-17T12:34:22+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/lightning-talks/</loc>
+    <lastmod>2016-07-12T15:27:57+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/linear-regression/</loc>
+    <lastmod>2017-05-12T08:31:48+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/linux/</loc>
+    <lastmod>2016-10-30T14:53:01+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/linux-from-windows/</loc>
+    <lastmod>2016-03-14T13:41:06+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/</loc>
+    <lastmod>2017-06-17T09:29:42+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/logistic-regression/</loc>
+    <lastmod>2015-04-16T10:22:38+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/logistic-regressions/</loc>
+    <lastmod>2017-05-12T08:31:48+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/lookup/</loc>
+    <lastmod>2014-11-23T12:59:13+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/machine-learning/</loc>
+    <lastmod>2016-10-28T11:25:13+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/macros/</loc>
+    <lastmod>2013-08-27T21:00:50+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/magick/</loc>
+    <lastmod>2017-04-24T08:17:13+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/magrittr/</loc>
+    <lastmod>2015-02-09T11:51:23+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/managing-a-team/</loc>
+    <lastmod>2015-04-07T08:24:38+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/mango/</loc>
+    <lastmod>2015-10-28T17:10:32+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/marketing/</loc>
+    <lastmod>2016-11-24T10:46:40+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/medrianchor/</loc>
+    <lastmod>2015-12-31T11:47:29+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/mentoring/</loc>
+    <lastmod>2015-11-11T09:43:11+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/merge/</loc>
+    <lastmod>2013-05-24T15:23:29+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/microsoft/</loc>
+    <lastmod>2016-03-07T09:55:13+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/microsoft-cognitive-services/</loc>
+    <lastmod>2017-06-13T10:20:40+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/categories/microsoft-data-platform/</loc>
+    <lastmod>2017-06-17T09:29:42+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/microsoft-edge/</loc>
+    <lastmod>2016-03-09T14:08:53+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/microsoft-r-server/</loc>
+    <lastmod>2017-05-26T08:00:04+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/categories/misc-technology/</loc>
+    <lastmod>2017-05-22T08:24:04+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/mockaroo/</loc>
+    <lastmod>2016-03-24T15:44:03+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/mssql/</loc>
+    <lastmod>2017-05-26T08:00:04+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/mvp/</loc>
+    <lastmod>2016-11-14T10:29:45+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/mvp-summit/</loc>
+    <lastmod>2016-11-14T10:29:45+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/mysql/</loc>
+    <lastmod>2015-01-03T16:21:11+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/odbc/</loc>
+    <lastmod>2016-04-20T14:13:28+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/open-source/</loc>
+    <lastmod>2017-05-02T12:10:32+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/opportunity/</loc>
+    <lastmod>2016-10-28T11:25:13+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/optirum/</loc>
+    <lastmod>2016-01-04T07:26:14+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/pageant/</loc>
+    <lastmod>2016-03-14T13:41:06+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/pass/</loc>
+    <lastmod>2016-10-06T09:27:57+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/pdf/</loc>
+    <lastmod>2016-03-09T14:08:53+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/photoshop/</loc>
+    <lastmod>2015-01-13T10:59:21+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/plink/</loc>
+    <lastmod>2016-03-14T13:41:06+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/powerbi/</loc>
+    <lastmod>2016-06-01T08:09:32+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/powershell/</loc>
+    <lastmod>2016-07-11T09:46:12+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/presentation/</loc>
+    <lastmod>2016-07-12T15:27:57+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/presentations/</loc>
+    <lastmod>2017-06-17T09:29:42+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/presenting/</loc>
+    <lastmod>2017-06-07T09:27:46+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/process/</loc>
+    <lastmod>2017-01-13T15:28:32+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/productivity/</loc>
+    <lastmod>2017-05-19T08:02:26+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/professional-development/</loc>
+    <lastmod>2017-01-13T15:28:32+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/purrr/</loc>
+    <lastmod>2017-06-13T10:20:40+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/putty/</loc>
+    <lastmod>2016-03-14T13:41:06+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/python/</loc>
+    <lastmod>2017-02-22T16:01:15+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/qnamaker/</loc>
+    <lastmod>2017-05-22T08:24:04+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/quick-tip/</loc>
+    <lastmod>2017-05-08T08:32:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/r/</loc>
+    <lastmod>2017-06-17T09:29:42+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/categories/r/</loc>
+    <lastmod>2017-06-17T09:29:42+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/r-basics/</loc>
+    <lastmod>2015-01-11T16:56:22+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/r-consortium/</loc>
+    <lastmod>2016-01-06T14:54:37+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/reports/</loc>
+    <lastmod>2015-02-18T11:41:21+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/resolution/</loc>
+    <lastmod>2016-01-13T17:32:14+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/ribbon/</loc>
+    <lastmod>2013-05-24T15:23:29+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/rmarkdown/</loc>
+    <lastmod>2017-05-19T08:02:26+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/rocker/</loc>
+    <lastmod>2017-04-24T08:17:13+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/rstudio/</loc>
+    <lastmod>2017-04-24T08:17:13+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/satrday/</loc>
+    <lastmod>2016-10-21T14:59:50+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/scaling/</loc>
+    <lastmod>2016-01-13T17:32:14+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/scripts/</loc>
+    <lastmod>2016-10-30T14:53:01+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/security/</loc>
+    <lastmod>2016-06-23T09:08:43+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/sentiment-analysis/</loc>
+    <lastmod>2017-06-13T10:20:40+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/shiny/</loc>
+    <lastmod>2017-04-28T10:27:55+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/shiny-design-patterns/</loc>
+    <lastmod>2016-04-19T10:15:19+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/sixth-normal-form/</loc>
+    <lastmod>2015-12-31T11:47:29+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/skype/</loc>
+    <lastmod>2017-05-15T08:00:27+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/slack/</loc>
+    <lastmod>2016-10-21T14:59:50+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/software-development/</loc>
+    <lastmod>2015-04-07T08:24:38+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/software-development-in-r/</loc>
+    <lastmod>2017-05-09T10:02:18+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/source-control/</loc>
+    <lastmod>2015-03-20T10:44:35+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/speaking/</loc>
+    <lastmod>2016-11-08T10:42:48+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/sponsor/</loc>
+    <lastmod>2016-08-01T09:00:10+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/sponsoring-community-events/</loc>
+    <lastmod>2017-04-18T08:28:40+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/sponsorship-basics/</loc>
+    <lastmod>2016-08-04T10:35:03+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/sql-fundamentals/</loc>
+    <lastmod>2014-11-10T15:40:15+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/sql-relay/</loc>
+    <lastmod>2016-10-13T08:35:58+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/sql-server/</loc>
+    <lastmod>2017-05-26T08:00:04+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/sql-tricks/</loc>
+    <lastmod>2016-03-15T09:59:42+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/sqlcardiff/</loc>
+    <lastmod>2016-03-15T09:59:42+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/sqlrelay/</loc>
+    <lastmod>2016-10-13T08:35:58+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/ssas/</loc>
+    <lastmod>2014-11-06T16:18:48+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/ssdt/</loc>
+    <lastmod>2016-10-10T08:00:08+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/ssh/</loc>
+    <lastmod>2016-03-14T13:41:06+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/ssh-tunnel/</loc>
+    <lastmod>2016-03-14T13:41:06+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/ssis/</loc>
+    <lastmod>2015-10-16T20:27:03+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/ssl/</loc>
+    <lastmod>2016-10-07T08:46:31+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/ssrs/</loc>
+    <lastmod>2015-10-16T20:27:03+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/statistics/</loc>
+    <lastmod>2017-05-12T08:31:48+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/statuses/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/stream-analytics/</loc>
+    <lastmod>2015-04-06T09:27:05+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/stuff-i-read-this-week/</loc>
+    <lastmod>2015-04-15T08:20:34+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/surviving/</loc>
+    <lastmod>2016-03-01T20:08:37+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/</loc>
+    <lastmod>2017-06-07T09:27:46+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/temporal-tables/</loc>
+    <lastmod>2017-05-26T08:00:04+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/test-coverage/</loc>
+    <lastmod>2015-04-20T09:06:36+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/text/</loc>
+    <lastmod>2016-01-13T17:32:14+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/tfs/</loc>
+    <lastmod>2015-03-20T10:44:35+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/tfsr/</loc>
+    <lastmod>2016-03-24T15:44:03+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/tick/</loc>
+    <lastmod>2013-05-12T14:03:09+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/time-series/</loc>
+    <lastmod>2017-02-20T10:46:20+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/tip/</loc>
+    <lastmod>2015-01-20T10:10:54+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/training/</loc>
+    <lastmod>2017-06-07T09:27:46+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/travis-ci/</loc>
+    <lastmod>2017-05-19T08:02:26+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/troubleshooting/</loc>
+    <lastmod>2017-05-03T17:57:13+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/tutorial/</loc>
+    <lastmod>2013-08-16T17:06:24+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/twitter/</loc>
+    <lastmod>2015-02-27T13:01:49+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/categories/uncategorized/</loc>
+    <lastmod>2017-01-04T10:02:37+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/unit-testing/</loc>
+    <lastmod>2016-10-10T08:00:08+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/user-group/</loc>
+    <lastmod>2017-06-07T09:27:46+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/vb/</loc>
+    <lastmod>2014-11-23T12:59:13+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/vba/</loc>
+    <lastmod>2013-08-27T21:00:50+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/video/</loc>
+    <lastmod>2017-04-21T09:02:44+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/visual-studio/</loc>
+    <lastmod>2015-04-13T12:24:14+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/visual-studio-online/</loc>
+    <lastmod>2015-03-20T10:44:35+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/visual-studio-team-services/</loc>
+    <lastmod>2015-03-20T10:44:35+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/wdt/</loc>
+    <lastmod>2015-10-24T08:35:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/web-scraping/</loc>
+    <lastmod>2015-01-11T16:56:22+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/windows/</loc>
+    <lastmod>2017-05-03T17:57:13+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/wit/</loc>
+    <lastmod>2016-07-07T12:53:09+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/wordpress/</loc>
+    <lastmod>2017-05-15T08:00:27+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/xps13/</loc>
+    <lastmod>2016-01-13T17:32:14+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lockelife.com/blog/tags/zoomit/</loc>
+    <lastmod>2015-04-13T12:24:14+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

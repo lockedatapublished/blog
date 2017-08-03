@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Continuous Integration on Locke Data Blog</title>
+    <link>http://lockelife.com/blog/tags/continuous-integration/</link>
+    <description>Recent content in Continuous Integration on Locke Data Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
+    <lastBuildDate>Fri, 19 May 2017 08:02:26 +0000</lastBuildDate>
+    
+	<atom:link href="http://lockelife.com/blog/tags/continuous-integration/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Improving automatic document production with R</title>
+      <link>http://lockelife.com/blog/2017-05-19-improving-automatic-document-production-with-r/</link>
+      <pubDate>Fri, 19 May 2017 08:02:26 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2017-05-19-improving-automatic-document-production-with-r/</guid>
+      <description>In this post, I describe the latest iteration of my automatic document production with R. It improves upon the methods used in Rtraining, and previous work on this topic can read by going to the auto deploying R documentation tag.
+I keep banging on about this area because reproducible research / analytical document pipelines is an area I&amp;#8217;ve a keen interest in. I see it as a core part of DataOps as it&amp;#8217;s vital for helping us ensure our models and analysis are correct in data science and boosting our productivity.</description>
+    </item>
+    
+    <item>
+      <title>The making of datasauRus</title>
+      <link>http://lockelife.com/blog/2017-05-02-the-making-of-datasaurus/</link>
+      <pubDate>Tue, 02 May 2017 12:10:32 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2017-05-02-the-making-of-datasaurus/</guid>
+      <description>Around 8:30pm I saw this tweet and duly retweeted
+https://t.co/WuyU9D6npK  &amp;mdash; Richie Cotton (@richierocks) May 1, 2017  It turns out awesome folks, George and Justin, had made a process whereby they can generate different distributions of points that retain the same summary statistics. They used this process for making some friends for Dino the Datasaurus who was created by Alberto Cairo. They made the data for Dino and the rest of the Datasaurus Dozen available for download.</description>
+    </item>
+    
+    <item>
+      <title>Auto-deploying documentation: better change tracking of artefacts</title>
+      <link>http://lockelife.com/blog/2016-04-04-auto-deploying-documentation-better-change-tracking-artefacts/</link>
+      <pubDate>Mon, 04 Apr 2016 11:04:34 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2016-04-04-auto-deploying-documentation-better-change-tracking-artefacts/</guid>
+      <description>&lt;p&gt;As part of my never-ending quest to deploy documentation better, I&amp;#8217;ve made yet another tweak to my scripts that deploy R vignettes or Rmarkdown documents to the &lt;code&gt;gh-pages&lt;/code&gt; branch of my github repositories via Travis-CI.&lt;/p&gt;
+
+&lt;p&gt;The script from &lt;a href=&#34;http://rmflight.github.io/posts/2014/11/travis_ci_gh_pages.html&#34;&gt;Robert Flight&lt;/a&gt; that&amp;#8217;s provided the basis for most of this work does something specific to update the web facing branch of the repository. It would:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Create a blank repository&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Add the requisite files to the repository&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Add and commit them to the repo&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Force the repo to overwrite the &lt;code&gt;gh-pages&lt;/code&gt; branch&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This had the unfortunate consequence of losing the history of what was previously hosted on the branch and could not tell me what commit to my development branches was responsible for a version of the docs. It took a little bit of playing but the revised script now:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Clones the gh-pages branch&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Adds the requisite files into the reports&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Add and commit them to the repo&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Push the changes&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Using an environment variable ($TRAVIS_COMMIT) the commit message is the commit ID for the latest commit in the build that occurs on Travis, making it very easy to see what changes triggered a documentation update.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>mockaRoo – making realistic test data in R</title>
+      <link>http://lockelife.com/blog/2016-03-08-mockaroo-making-realistic-test-data-in-r/</link>
+      <pubDate>Tue, 08 Mar 2016 14:00:54 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2016-03-08-mockaroo-making-realistic-test-data-in-r/</guid>
+      <description>&lt;p&gt;When I&amp;#8217;m building stuff in R like packages, models, etc. I find myself wishing for realistic looking test data without having to resort to getting data off my production server. To that end I&amp;#8217;ve been on the hunt for a way of generating decent test data. A few months back I stumbled upon the neat system &lt;a href=&#34;https://www.mockaroo.com/&#34;&gt;Mockaroo&lt;/a&gt; which provides a GUI to build some data that suits your needs.&lt;/p&gt;
+
+&lt;p&gt;Mockaroo is a really impressive service with a wide spread of different data types. They also have simple ways of adding things like within group differences to data so that you can mock realistic class differences. They use the freemium model so you can get a thousand rows per download, which is pretty sweet. The big BUT you can feel coming on is this &amp;#8211; it&amp;#8217;s a GUI! I don&amp;#8217;t want to have spend time hand cranking a data extract.&lt;/p&gt;
+
+&lt;p&gt;Thankfully, they have a GUI for getting data too and it&amp;#8217;s pretty simply to use so I&amp;#8217;ve started making a package for it.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#8217;ve started the package on &lt;a href=&#34;https://github.com/stephlocke/mockaRoo&#34;&gt;github&lt;/a&gt; and will be developing it over the next month or two. It&amp;#8217;s up and working, but only in the most primitive way as I&amp;#8217;d like to get some feedback from folks who might find this useful around how the interface for generating your desired data schema should work.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Auto-deploying documentation: Rtraining</title>
+      <link>http://lockelife.com/blog/2015-12-23-auto-deploying-documentation-rtraining/</link>
+      <pubDate>Wed, 23 Dec 2015 10:25:48 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2015-12-23-auto-deploying-documentation-rtraining/</guid>
+      <description>In my last post on using GitHub, Travis-CI, and rmarkdown/knitr for automatically building and deploying documentation, I covered how I was able to do it with a containerised approach so things were faster. I also said my Rtraining repository was still too brittle to blog about. This has changed &amp;#8211; WOO HOO!
+The main thanks for that goes out to the new package ezknitr from Dean Attali. ezknitr takes the pain out of working directories, making my hierarchies much more resilient.</description>
+    </item>
+    
+    <item>
+      <title>Auto-deploying documentation: FASTER!</title>
+      <link>http://lockelife.com/blog/2015-11-13-auto-deploying-documentation-faster/</link>
+      <pubDate>Fri, 13 Nov 2015 09:13:22 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2015-11-13-auto-deploying-documentation-faster/</guid>
+      <description>&lt;p&gt;Over the past few years I&amp;#8217;ve been delving deeper into automatically building and deploying documentation and reporting in R (with rmarkdown, LaTeX etc). This post covers another step forward on that journey towards awesomeness.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Auto-deploying documentation: multiple R vignettes</title>
+      <link>http://lockelife.com/blog/2015-06-05-auto-deploying-documentation-multiple-r-vignettes/</link>
+      <pubDate>Fri, 05 Jun 2015 08:38:44 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2015-06-05-auto-deploying-documentation-multiple-r-vignettes/</guid>
+      <description>&lt;p&gt;Following on from my post about the principles behind using travis-ci to commit to a &lt;code&gt;gh-pages&lt;/code&gt; I wanted to follow-up with how I tackled my &amp;#8220;intermediate&amp;#8221; use case.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;posts-in-this-series&#34;&gt;Posts in this series&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://itsalocke.com/automated-documentation-hosting-on-github-via-travis-ci/&#34;&gt;Automated documentation hosting on github via Travis-CI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://itsalocke.com/auto-deploying-documentation-multiple-r-vignettes/&#34;&gt;Auto-deploying documentation: multiple R vignettes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://itsalocke.com/auto-deploying-documentation-faster/&#34;&gt;Auto-deploying documentation: FASTER!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://itsalocke.com/auto-deploying-documentation-rtraining/&#34;&gt;Auto-deploying documentation: Rtraining&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://itsalocke.com/auto-deploying-documentation-better-change-tracking-artefacts/&#34;&gt;Auto-deploying documentation: better change tracking of artefacts&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;multiple-vignettes&#34;&gt;Multiple vignettes&lt;/h2&gt;
+
+&lt;p&gt;In &lt;a href=&#34;https://itsalocke.com/automated-documentation-hosting-on-github-via-travis-ci/&#34;&gt;my original post&lt;/a&gt; I show how I pushed the tfsR vignette to &lt;code&gt;gh-pages&lt;/code&gt;, which involved copying it and renaming it to index.html.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, this wouldn&amp;#8217;t work if I had multiple vignettes that I wanted to be accessible online.&lt;/p&gt;
+
+&lt;h3 id=&#34;requirements&#34;&gt;Requirements&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;An index.html file&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;A way of extracting any number of html files from the vignette folder&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Automated documentation hosting on github via Travis-CI</title>
+      <link>http://lockelife.com/blog/2015-06-01-automated-documentation-hosting-on-github-via-travis-ci/</link>
+      <pubDate>Mon, 01 Jun 2015 09:29:21 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2015-06-01-automated-documentation-hosting-on-github-via-travis-ci/</guid>
+      <description>&lt;p&gt;In this post, I&amp;#8217;m going to cover how you can use continuous integration and source control to build and host documentation (or any other static HTML) for free, and in a way that updates every time your code changes. I&amp;#8217;ll cover the generic capability, and then how I apply this to my simplest package, tfsR. In a later post (once I&amp;#8217;ve cracked the best method to do it) I&amp;#8217;ll cover my more complex use case of multiple documents and a dynamically constructed index page.&lt;/p&gt;
+
+&lt;p&gt;NB: This is kicked off from a &lt;a href=&#34;http://rmflight.github.io/posts/2014/11/travis_ci_gh_pages.html&#34;&gt;post&lt;/a&gt; from Robert Flight about applying to the technique to R package vignettes. It&amp;#8217;s a very useful post but it was quite specific to his situation and I wanted to understand the principles behind it before I started extending it to my more complex cases.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;posts-in-this-series&#34;&gt;Posts in this series&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://itsalocke.com/automated-documentation-hosting-on-github-via-travis-ci/&#34;&gt;Automated documentation hosting on github via Travis-CI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://itsalocke.com/auto-deploying-documentation-multiple-r-vignettes/&#34;&gt;Auto-deploying documentation: multiple R vignettes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://itsalocke.com/auto-deploying-documentation-faster/&#34;&gt;Auto-deploying documentation: FASTER!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://itsalocke.com/auto-deploying-documentation-rtraining/&#34;&gt;Auto-deploying documentation: Rtraining&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://itsalocke.com/auto-deploying-documentation-better-change-tracking-artefacts/&#34;&gt;Auto-deploying documentation: better change tracking of artefacts&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;requirements&#34;&gt;Requirements&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Must haves:
+
+&lt;ul&gt;
+&lt;li&gt;Travis-CI&lt;/li&gt;
+&lt;li&gt;GitHub&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Optional:
+
+&lt;ul&gt;
+&lt;li&gt;A linux machine (so you can test your bash script that Travis-CI will run)&lt;/li&gt;
+&lt;li&gt;R (for following the specific instructions)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;high-level-process&#34;&gt;High-level process&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Get an OAUTH token from github&lt;/li&gt;
+&lt;li&gt;Add OAUTH token to travis&lt;/li&gt;
+&lt;li&gt;Add a *.sh file that gets your HTML (depending on circumstance, you may also need to generate it) and pushes to gh-pages branch&lt;/li&gt;
+&lt;li&gt;Include your .sh file in the &lt;code&gt;after_success&lt;/code&gt; part of your travis file&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Commit &amp;amp; push!&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Easy Continuous Integration for R</title>
+      <link>http://lockelife.com/blog/2015-04-20-easy-continuous-integration-for-r/</link>
+      <pubDate>Mon, 20 Apr 2015 09:06:36 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2015-04-20-easy-continuous-integration-for-r/</guid>
+      <description>&lt;p&gt;With &lt;a href=&#34;http://r-pkgs.had.co.nz/&#34;&gt;excellent guidance&lt;/a&gt; and &lt;a href=&#34;http://cran.r-project.org/web/packages/devtools/&#34;&gt;tooling&lt;/a&gt; on making R packages, it&amp;#8217;s becoming really easy to make a package to hold your R functionality. This has a host of benefits, not least source control (via GitHub) and unit testing (via the &lt;a href=&#34;http://cran.r-project.org/web/packages/testthat/&#34;&gt;&lt;code&gt;testthat&lt;/code&gt;&lt;/a&gt; package). Once you have a package and unit tests, a great way of making sure that as you change things you don&amp;#8217;t break them is to perform &lt;a href=&#34;http://www.thoughtworks.com/continuous-integration&#34;&gt;Continuous integration&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;What this means is that &lt;strong&gt;every&lt;/strong&gt; time you make a change, your package is built and thoroughly checked for any issues. If issues are found the &amp;#8220;build&amp;#8217;s broke&amp;#8221; and you have to fix it ASAP.&lt;/p&gt;
+
+&lt;p&gt;The easiest, cheapest, and fastest way of setting up continuous integration for R stuff is to use &lt;a href=&#34;https://travis-ci.com/&#34;&gt;Travis-CI&lt;/a&gt;, which is free if you use &lt;a href=&#34;http://github.com&#34;&gt;GitHub&lt;/a&gt; as a remote server for your code.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;NB &amp;#8211; it doesn&amp;#8217;t have to be your only remote server&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Database / BI related unit testing options</title>
+      <link>http://lockelife.com/blog/2014-11-06-database-bi-related-unit-testing-options/</link>
+      <pubDate>Thu, 06 Nov 2014 16:18:48 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2014-11-06-database-bi-related-unit-testing-options/</guid>
+      <description>A quick list of frameworks available for doing unit testing, based on what I covered in today&amp;#8217;s SQL Lunch
+MSFT Database projects Purpose: unit testing database objects
+Method: SQL / GUI
+Site: http://msdn.microsoft.com/en-us/library/jj851200(v=vs.103).aspx
+Cost: Free
+Pros: Built-in, quite well documented
+Cons: Requires Visual Studio 2010 Pro or above
+Codeplex ssisUnit Purpose: SSIS unit testing
+Method: XML / GUI
+Site: https://ssisunit.codeplex.com
+Cost: Free
+Pros: Unique
+Cons: As of writing, only stable version was released in 2008</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+    <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.25.1" />
+    <title>Objectless Check Boxes using VBA</title>
+    
+    
+    
+    <meta name="description" content="A description that will appear as a default if front matter does not exist" />
+    <meta name="keywords" content='check boxes,Excel,macros,tick,vba' />
+    
+        <meta name="author" content="Oz" />
+    
+    
+    <link href="" rel="alternate" type="application/rss+xml" title="Locke Data Blog" />
+    <link rel="stylesheet" href="http://lockelife.com/blog/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="http://lockelife.com/blog/css/highlightjs-themes/androidstudio.css" />
+    <link rel="stylesheet" href="http://lockelife.com/blog/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="http://lockelife.com/blog/css/lockedata.css" />
+    
+        
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({
+                    google_ad_client: "ca-pub-XXXXXX",
+                    enable_page_level_ads: true
+                });
+            </script>
+        
+    
+</head>
+
+    <body>
+        <!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+        <a class="navbar-brand page-scroll" href="/blog/#page-top">
+          
+          <img src="http://lockelife.com/blog/img/LockeDataTextNew.svg" class="img-responsive" alt="">
+        </a>
+      
+
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="hidden">
+          <a href="/blog/#page-top"></a>
+        </li>
+        
+          <li>
+            <a href="http://lockelife.com">Locke Data</a>
+          </li>
+        
+          <li>
+            <a href="/blog/blog/">Blog</a>
+          </li>
+        
+
+        
+        
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container-fluid -->
+</nav>
+
+        <div id="top" class="container">
+            <div class="row" id="content-main">
+                <div class="col-md-8">
+                    <div class="row">
+    <div class="col-md-12 content-card">
+        <h1>Objectless Check Boxes using VBA</h1>
+        
+            
+            <ul class="list-inline meta">
+                <li><i class="fa fa-calendar"></i>May 12, 2013</li>
+                <li><i class="fa fa-user"></i>Oz</li>
+                
+                    
+                    <li><i class="fa fa-folder"></i><a href="http://lockelife.com/categories/misc-technology">Misc Technology</a></li>
+                
+            </ul>
+        
+        
+    <ul class="list-inline share" style="margin-top: 15px; margin-left: 0px">
+        <li class="facebook-share"><a target="_blank" href="http://www.facebook.com/sharer.php?u=http%3a%2f%2flockelife.com%2fblog%2f2013-05-12-objectless-chec-boxes-using-vba%2f"><i class="fa fa-facebook fa-lg"></i>Facebook</a></li>
+        <li class="googleplus-share"><a target="_blank" href="https://plus.google.com/share?url=http%3a%2f%2flockelife.com%2fblog%2f2013-05-12-objectless-chec-boxes-using-vba%2f"><i class="fa fa-google-plus fa-lg"></i>Google+</a></li>
+        <li class="twitter-share"><a target="_blank" href="https://twitter.com/share?url=http%3a%2f%2flockelife.com%2fblog%2f2013-05-12-objectless-chec-boxes-using-vba%2f&amp;text=Objectless%20Check%20Boxes%20using%20VBA"><i class="fa fa-twitter fa-lg"></i>Twitter</a></li>
+        <li class="reddit-share"><a target="_blank" href="http://reddit.com/submit?url=http%3a%2f%2flockelife.com%2fblog%2f2013-05-12-objectless-chec-boxes-using-vba%2f&amp;title=Objectless%20Check%20Boxes%20using%20VBA"><i class="fa fa-reddit fa-lg"></i>Reddit</a></li>
+        <li class="linkedin-share"><a target="_blank" href="http://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2flockelife.com%2fblog%2f2013-05-12-objectless-chec-boxes-using-vba%2f"><i class="fa fa-linkedin fa-lg"></i>LinkedIn</a></li>
+        <li class="stumbleupon-share"><a target="_blank" href="http://www.stumbleupon.com/submit?url=http%3a%2f%2flockelife.com%2fblog%2f2013-05-12-objectless-chec-boxes-using-vba%2f&amp;title=Objectless%20Check%20Boxes%20using%20VBA"><i class="fa fa-stumbleupon fa-lg"></i>StumbleUpon</a></li>
+    </ul>
+
+
+        <p>For my first ever blog post (be gentle with me!) I wanted to talk about an issue I have with Excel’s check box object, and my way of resolving it. It’s not perfect, and I’d love to hear of any other versions or ideas you may have. So here&#8217;s how I create check boxes in Excel without using Excel check boxes.</p>
+
+<p>&nbsp;</p>
+
+<h2 id="the-problem-with-check-box-objects">The Problem with Check Box Objects</h2>
+
+<p>They look good and they work well, there’s no denying they do what they’re supposed to, but they also annoy the heck out of me!</p>
+
+<p><li style="list-style-type: circle;">
+  As far as I’ve been able to find they can’t be properly bound to a cell; this means if you want to get rid of them you need to select them and delete them, which can be a big job
+</li>
+<li style="list-style-type: circle;">
+  If you want to refer to their state in simple terms you need to add a linked cell and refer to that, which to me is just plain messy
+</li>
+<li style="list-style-type: circle;">
+  They’re awkward to format and style and if you want a big tick you need a big box and as such you need a big cell… again, messy
+</li></p>
+
+<p>&nbsp;</p>
+
+<p><span style="color: #99cc00;"></span></p>
+
+<h2 id="my-solution-objectless-check-boxes">My solution; Objectless Check Boxes</h2>
+
+<p>So I wanted to create a way of adding a tick straight into a cell, and be able to add it or remove it by clicking the cell. Simple. I wanted to do this with VBA, and I wanted it to be as dynamic as possible. To do this I utilised the function BeforeDoubleClick, the condition If Not Application.Intersect and the ActiveCell cell reference.</p>
+
+<p>I created a table that included a column for the tick boxes:</p>
+
+<p><a href="http://res.cloudinary.com/lockedata/image/upload/v1499851103/Table-Image_zrre67_gbdy4v.png"><img class="size-full wp-image-1061 aligncenter" title=" The table in action!" alt="A table with ticked and unticked boxes" src="http://res.cloudinary.com/lockedata/image/upload/v1499851103/Table-Image_zrre67_gbdy4v.png" width="525" height="198" /></a></p>
+
+<p>To create the ticks I simply set the font for that column to Marlett because a letter a in Marlett creates that lovely tick. Then I used conditional formatting, using the simplest of formulas: =$E3=”a” to set the cells to green with cream text if the cell gets ticked. And that’s the table done. Time for the code!</p>
+
+<p>So here it is:</p>
+
+<pre lang="vb" line="1">Private Sub Worksheet_BeforeDoubleClick(ByVal Target As Range, Cancel As Boolean)
+'Auto Tick macro
+'Ticks or unticks a Done? cell if double clicked
+
+'The Macro:
+    'Detects if the active cell is within the range of the desired columns and only continues if it is
+If Not Application.Intersect(ActiveCell, Worksheets("Requests").Range("RequestData[Done]")) Is Nothing Then
+
+    'Unticks the cell if it is currently ticked
+If ActiveCell.Value = "a" Then
+ActiveCell.Value = ""
+
+    'Ticks the cell if it is currently unticked
+Else
+If ActiveCell.Value = "" Then
+ActiveCell.Value = "a"
+
+    'End of macro
+    End If
+    End If
+    End If
+    Cancel = True
+    End Sub</pre>
+
+<p>&nbsp;</p>
+
+<p>The code is put in the sheet the table is on.</p>
+
+<p>The function Worksheet_BeforeDoubleClick operates by detecting a double click anywhere within the sheet (and yes, this does mean you can’t use double clicks for anything else in the sheet) and runs the code. I use BeforeDoubleClick because I started off using a detect cell change function but that triggered even if you just passed over a cell with the arrow keys, which I found to be quite annoying, especially in another table I have that allows ticking colours used and as such has five columns (yep, the five colours of land in Magic the Gathering, I have a workbook for MTG, I’m that sad!)</p>
+
+<p>The condition If Not Application.Intersect looks to see if the cell you just double clicked is within the range of the Done? Column and if not then skips to the end of the macro. You may want to find a way to set the range dynamically, but for simplicity I’ve just set a long column length. The next line will ensure we can’t tick boxes further down the column than the table goes.</p>
+
+<p>Next up we have a simple ActiveCell.Offset value check. This looks three column s over to the left of the cell you clicked to see if it is populated. If it isn’t the macro assumes you have clicked further down the column than is needed and skips the macro if it finds that you did indeed click outside of the table. Again, coming up with a way of making the column range dynamic (I assume you’d use a dynamic named range as a function) you wouldn’t need this step.</p>
+
+<p>We then check to see if the cell is ticked or unticked, this way if the cell is ticked already then double clicking it again will untick it. All the macro does is set the cell value to a.</p>
+
+<p>Then we just wrap up the macro. Done!</p>
+
+<p>&nbsp;</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>Like I said, there are probably better ways of doing this, and I invite you all to share your ideas on that here, but for my own purposes this works really well. Most importantly it resolves the issues I have with using Excel check boxes.</p>
+
+<p>As a final note, if you are using Excel 2003 change the table range to a range of cells, so for instance change <code>ToDo[Done]</code> to <code>$F$2:$F$400</code>.</p>
+
+<p>And if you want to have multiple tick box columns simply change the table range to reflect this, so change:</p>
+
+<pre lang="vb" line="1">If Not Application.Intersect(ActiveCell, Worksheets("Requests").Range("RequestData[Done]")) Is Nothing Then</pre>
+
+<p>to</p>
+
+<pre lang="vb" line="1">If Not Application.Intersect(ActiveCell, Worksheets("Requests").Range("RequestData[Started]:RequestData[Done]")) Is Nothing Then</pre>
+
+<p>If doing this I found it helps to interchange the colour of the ticks:</p>
+
+<p><a href="http://res.cloudinary.com/lockedata/image/upload/v1499851103/Table-Image_zrre67_gbdy4v.png"><img class="size-full wp-image-1061 aligncenter" title=" The table in action!" alt="A table with ticked and unticked boxes" src="http://res.cloudinary.com/lockedata/image/upload/v1499851103/Table-Image_zrre67_gbdy4v.png" /></a></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+        
+    <ul class="list-inline tags" style="margin-top: 15px; margin-left: 0px">
+        
+            <li style=""><a href="http://lockelife.com/tags/check-boxes">check boxes</a></li>
+        
+            <li style=""><a href="http://lockelife.com/tags/excel">Excel</a></li>
+        
+            <li style=""><a href="http://lockelife.com/tags/macros">macros</a></li>
+        
+            <li style=""><a href="http://lockelife.com/tags/tick">tick</a></li>
+        
+            <li style=""><a href="http://lockelife.com/tags/vba">vba</a></li>
+        
+    </ul>
+
+
+    </div>
+</div>
+
+                    
+    
+        <div class="row">
+            <div class="col-md-12 content-card">
+                <div id="disqus_thread"></div>
+                <script>
+                    (function() {
+                        if (window.location.hostname == "localhost") {
+                            document.write("Disqus comments are unavailable while serving on localhost or 127.0.0.1");
+                            return;
+                        }
+                        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                        var disqus_shortname = 'shortname';
+                        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                    })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+            </div>
+        </div>
+    
+
+
+                </div>
+         <div class="col-md-4">                    
+	
+<div class="row">
+    <div class="col-md-11 col-md-offset-1 card">
+        <h5></h5>
+        <p></p>
+		<img class="avatar" src="img/ChibiSteph.svg"></img>
+    </div>
+</div>
+
+    <div class="row">
+    <div class="col-md-11 col-md-offset-1 card">
+        <h5>Search</h5>
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form">
+            <div class="input-group">
+                <input class="form-control" type="search" name="q" />
+                <span class="input-group-btn">
+                    <button class="btn btn-primary" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+                </span>
+            </div>
+            <input type="hidden" name="q" value="site:">
+        </form>
+    </div>
+</div>
+
+    
+
+</div>
+            </div>
+        </div>
+        <!-- Footer section -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <span class="copyright">
+          <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+        </span>
+      </div>
+      <div class="col-md-4">
+        <ul class="list-inline social-buttons">
+          
+            <li>
+              <a href="/blog/#"><i class='fa fa-twitter'></i></a>
+            </li>
+          
+            <li>
+              <a href="/blog/#"><i class='fa fa-facebook'></i></a>
+            </li>
+          
+            <li>
+              <a href="/blog/#"><i class='fa fa-linkedin'></i></a>
+            </li>
+          
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <ul class="list-inline quicklinks">
+          
+            <li>
+              <a href="http://lockelife.com/#company">Legalise and stuff</a>
+            </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+        <div id="back-to-top" class="hidden">
+    <a href="#top" class="well well-sm" onclick="$('html,body').animate({scrollTop:0},'slow');return false;">
+        <i class="glyphicon glyphicon-chevron-up"></i> Back to Top
+    </a>
+</div>
+<script src="http://lockelife.com/blog/js/jquery.min.js"></script>
+<script src="http://lockelife.com/blog/js/bootstrap.min.js"></script>
+<script src="http://lockelife.com/blog/js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script>
+    if(($(window).height() + 100) < $(document).height()) {
+        $('#back-to-top').removeClass('hidden').affix({
+            offset: {
+                top: 100
+            }
+        });
+    }
+</script>
+
+    
+        <script>
+            
+            [].forEach.call(document.querySelectorAll('.adsbygoogle'), function() {
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            });
+        </script>
+    
+
+
+    
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-XXXXX-YY', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+
+
+
+    </body>
+</html>

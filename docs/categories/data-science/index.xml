@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Science on Locke Data Blog</title>
+    <link>http://lockelife.com/blog/categories/data-science/</link>
+    <description>Recent content in Data Science on Locke Data Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
+    <lastBuildDate>Tue, 13 Jun 2017 10:20:40 +0000</lastBuildDate>
+    
+	<atom:link href="http://lockelife.com/blog/categories/data-science/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Using purrr with APIs – revamping my code</title>
+      <link>http://lockelife.com/blog/2017-06-13-using-purrr-with-apis/</link>
+      <pubDate>Tue, 13 Jun 2017 10:20:40 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2017-06-13-using-purrr-with-apis/</guid>
+      <description>I wrote a little while back about using Microsoft Cognitive Services APIs with R to first of all detect the language of pieces of text and then do sentiment analysis on them. I wasn&amp;#8217;t too happy with the some of the code as it was very inelegant. I knew I could code better than I had, especially as I&amp;#8217;ve been doing a lot more work with purrr recently. However, it had sat in drafts for a while.</description>
+    </item>
+    
+    <item>
+      <title>R and Data Science activities in London, June 27th – 29th</title>
+      <link>http://lockelife.com/blog/2017-06-07-r-data-science-activities-london-june-27th-29th/</link>
+      <pubDate>Wed, 07 Jun 2017 09:27:46 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2017-06-07-r-data-science-activities-london-june-27th-29th/</guid>
+      <description>Locke Data will be up to some shenanigans of various stripes in the big smoke. We hope to see you at some of them!
+June 26th &amp;#8212; Monday Introduction to R (Newcastle) I won&amp;#8217;t be in London for this but I&amp;#8217;ll be doing a day of Introduction to R in Newcastle. This is supporting the local user groups and costs up to £90 for the whole day.Intro to R in Newcastle, June 26th</description>
+    </item>
+    
+    <item>
+      <title>Versioning R model objects in SQL Server</title>
+      <link>http://lockelife.com/blog/2017-05-26-versioning-r-model-objects-in-sql-server/</link>
+      <pubDate>Fri, 26 May 2017 08:00:04 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2017-05-26-versioning-r-model-objects-in-sql-server/</guid>
+      <description>High-level info If you build a model and never update it you&amp;#8217;re missing a trick. Behaviours change so your model will tend to perform worse over time. You&amp;#8217;ve got to regularly refresh it, whether that&amp;#8217;s adjusting the existing model to fit the latest data (recalibration) or building a whole new model (retraining), but this means you&amp;#8217;ve got new versions of your model that you have to handle. You need to think about your methodology for versioning R model objects, ideally before you lose any versions.</description>
+    </item>
+    
+    <item>
+      <title>Improving automatic document production with R</title>
+      <link>http://lockelife.com/blog/2017-05-19-improving-automatic-document-production-with-r/</link>
+      <pubDate>Fri, 19 May 2017 08:02:26 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2017-05-19-improving-automatic-document-production-with-r/</guid>
+      <description>In this post, I describe the latest iteration of my automatic document production with R. It improves upon the methods used in Rtraining, and previous work on this topic can read by going to the auto deploying R documentation tag.
+I keep banging on about this area because reproducible research / analytical document pipelines is an area I&amp;#8217;ve a keen interest in. I see it as a core part of DataOps as it&amp;#8217;s vital for helping us ensure our models and analysis are correct in data science and boosting our productivity.</description>
+    </item>
+    
+    <item>
+      <title>How to go about interpreting regression cofficients</title>
+      <link>http://lockelife.com/blog/2017-05-12-interpreting-regression-cofficients/</link>
+      <pubDate>Fri, 12 May 2017 08:31:48 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2017-05-12-interpreting-regression-cofficients/</guid>
+      <description>Following my post about logistic regressions, Ryan got in touch about one bit of building logistic regressions models that I didn&amp;#8217;t cover in much detail &amp;#8211; interpreting&amp;nbsp;regression coefficients. This post will hopefully help Ryan (and others) out.
+This was so helpful. Thank you! I&#39;d love to see more about interpreting the glm coefficients.  &amp;mdash; Ryan (@RyanEs) April 21, 2017  What is a coefficient? Coefficients are what a line of best fit model produces.</description>
+    </item>
+    
+    <item>
+      <title>Getting started with data science – recommended resources</title>
+      <link>http://lockelife.com/blog/2017-05-02-getting-started-with-data-science-recommended-resources/</link>
+      <pubDate>Tue, 02 May 2017 07:41:04 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2017-05-02-getting-started-with-data-science-recommended-resources/</guid>
+      <description>An oft asked question is what resources can I recommend for getting started with data science? Here are my recommendations, and if you have others, please put them in the comments!
+ NB Links in this post may be affiliate links &amp;#8211; it doesn&amp;#8217;t change the prices you get but might earn me a little money
+ Books Data Science for Business Data Science for Business
+Data Science for Business is a great overview book.</description>
+    </item>
+    
+    <item>
+      <title>Logistic regressions (in R)</title>
+      <link>http://lockelife.com/blog/2017-04-21-logistic-regressions-r/</link>
+      <pubDate>Fri, 21 Apr 2017 09:02:44 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2017-04-21-logistic-regressions-r/</guid>
+      <description>Logistic regressions are a great tool for predicting outcomes that are categorical. They use a transformation function based on probability to perform a linear regression. This makes them easy to interpret and implement in other systems.
+Logistic regressions can be used to perform a classification for things like determining whether someone needs to go for a biopsy. They can also be used for a more nuanced view by using the probabilities of an outcome for thinks like prioritising interventions based on likelihood to default on a loan.</description>
+    </item>
+    
+    <item>
+      <title>Announcing community R workshops</title>
+      <link>http://lockelife.com/blog/2017-02-27-community-r-workshops/</link>
+      <pubDate>Mon, 27 Feb 2017 09:24:14 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2017-02-27-community-r-workshops/</guid>
+      <description>&lt;p&gt;A big part of why I&amp;#8217;ve launched Locke Data is so that I can give back more to my communities. I want to give more time and more support to others. One of the first steps is doing some activities that give financial support to community groups without damaging my startup cashflow! Community R workshops that fund local user groups is the first activity I&amp;#8217;ll be trialling.&lt;/p&gt;
+
+&lt;p&gt;Here&amp;#8217;s what&amp;#8217;s involved, and what you might want to consider if you&amp;#8217;d like to be a part of this endeavour:&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Quick tip: knitr Python Windows setup checklist</title>
+      <link>http://lockelife.com/blog/2017-02-22-quick-tip-knitr-python-windows-setup-checklist/</link>
+      <pubDate>Wed, 22 Feb 2017 16:01:15 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2017-02-22-quick-tip-knitr-python-windows-setup-checklist/</guid>
+      <description>One of the nifty things about using R is that you can use it for many different purposes and even other languages!
+If you want to use Python in your knitr docs or the newish RStudio R notebook functionality, you might encounter some fiddliness getting all the moving parts running on Windows. This is a quick knitr Python Windows setup checklist to make sure you don&amp;#8217;t miss any important steps.</description>
+    </item>
+    
+    <item>
+      <title>Is my time series additive or multiplicative?</title>
+      <link>http://lockelife.com/blog/2017-02-20-is-my-time-series-additive-or-multiplicative/</link>
+      <pubDate>Mon, 20 Feb 2017 10:46:20 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2017-02-20-is-my-time-series-additive-or-multiplicative/</guid>
+      <description>&lt;p&gt;Time series data is an important area of analysis, especially if you do a lot of web analytics. To be able to analyse time series effectively, it helps to understand the interaction between general seasonality in activity and the underlying trend.&lt;/p&gt;
+
+&lt;p&gt;The interactions between trend and seasonality are typically classified as either additive or multiplicative. This post looks at how we can classify a given time series as one or the other to facilitate further processing.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>CRISP-DM and why you should know about it</title>
+      <link>http://lockelife.com/blog/2017-01-13-crisp-dm/</link>
+      <pubDate>Fri, 13 Jan 2017 15:28:32 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2017-01-13-crisp-dm/</guid>
+      <description>&lt;p&gt;The Cross Industry Standard Process for Data Mining (CRISP-DM) was a concept developed 20 years ago now. I&amp;#8217;ve read about it in various data mining and related books and it&amp;#8217;s come in very handy over the years. In this post, I&amp;#8217;ll outline what the model is and why you should know about it, even if it has that terribly out of vogue phrase data mining in it! 😉&lt;/p&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34; data-width=&#34;525&#34;&gt;
+  &lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;
+    Data / R people. Do you know what the CRISP-DM model is?
+  &lt;/p&gt;
+  
+  &lt;p&gt;
+    &amp;mdash; Steph Locke (@SteffLocke) &lt;a href=&#34;https://twitter.com/SteffLocke/status/818148292060213250&#34;&gt;January 8, 2017&lt;/a&gt;
+  &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Going solo!</title>
+      <link>http://lockelife.com/blog/2017-01-04-going-solo/</link>
+      <pubDate>Wed, 04 Jan 2017 10:02:37 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2017-01-04-going-solo/</guid>
+      <description>The year has started out on a high for me. I&amp;#8217;ve handed in my notice Censornet and I was re-awarded the Data Platform MVP award by Microsoft. I handed in my notice not to go to a new job but to fly solo!
+I&amp;#8217;m starting Locke Data in February to help people embed data science skills in their organisations.
+Business intelligence has been a thing long enough that there&amp;#8217;s a whole department of people dedicated to it and it generally isn&amp;#8217;t disruptive to other areas of the business and IT.</description>
+    </item>
+    
+    <item>
+      <title>Giving back with code</title>
+      <link>http://lockelife.com/blog/2016-07-20-giving-back-code/</link>
+      <pubDate>Wed, 20 Jul 2016 14:00:50 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2016-07-20-giving-back-code/</guid>
+      <description>&lt;p&gt;From code in answers on Stack Overflow to R packages or full programs, there&amp;#8217;s a lot of code being written and given away. This post examines some of the reasons why the people writing all that code do it, why you should consider giving back with code, and how you can get started. Finally, I cap it all off with perspectives from some of my favourite coders!&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#reasons&#34;&gt;Because reasons&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#getstarted&#34;&gt;Get started&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#perspectives&#34;&gt;Perspectives&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;reasons&#34;&gt;Because reasons&lt;/h2&gt;
+
+&lt;p&gt;There are many reasons why you should consider writing code and making it available for public consumption.&lt;/p&gt;
+
+&lt;h3 id=&#34;altruistic&#34;&gt;Altruistic&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;If you&amp;#8217;re writing something to achieve a task, odds are someone else would have to write the same code &amp;#8211; why not help them out?&lt;/li&gt;
+&lt;li&gt;You&amp;#8217;re using a lot of open source software, whether you realise it or not. By open sourcing your code, you get to pay it forward&lt;/li&gt;
+&lt;li&gt;To give others something to contribute to&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;career&#34;&gt;Career&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Unknown quantities are risky hires, put your code out there for the world to see and employers get to see what you can do&lt;/li&gt;
+&lt;li&gt;Develop your skills for the next job, the one that requires you to be more skilled in something than you are now&lt;/li&gt;
+&lt;li&gt;You get to interact with a lot of different people who you build credibility with, and hopefully friendships!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;for-oneself&#34;&gt;For oneself&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Generally speaking, the more code you write, the better your coding skills so if you want to improve your skills this is an ideal way to do it&lt;/li&gt;
+&lt;li&gt;For the sheer fun of doing cool stuff, especially if you don&amp;#8217;t get to do cool stuff in the day job&lt;/li&gt;
+&lt;li&gt;To do it &amp;#8220;the way it should be done&amp;#8221;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Use your .Rprofile to give you important notifications</title>
+      <link>http://lockelife.com/blog/2016-06-23-use-rprofile-give-important-notifications/</link>
+      <pubDate>Thu, 23 Jun 2016 09:08:43 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2016-06-23-use-rprofile-give-important-notifications/</guid>
+      <description>In R, we can use a file called .Rprofile to do things in R based on a number of triggers. One thing I&amp;#8217;ve done is give myself a DIY notification of how many data breaches I&amp;#8217;ve been involved in!
+First of all, you need a file called .Rprofile that&amp;#8217;s stored in your working directory. Some useful resources about .Rprofiles can be found on .Rprofile CRAN docs and an .Rprofile intro.</description>
+    </item>
+    
+    <item>
+      <title>Shiny module design patterns: Pass module inputs to other modules</title>
+      <link>http://lockelife.com/blog/2016-04-19-shiny-module-design-patterns-pass-module-input-to-other-modules/</link>
+      <pubDate>Tue, 19 Apr 2016 10:15:19 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2016-04-19-shiny-module-design-patterns-pass-module-input-to-other-modules/</guid>
+      <description>&lt;p&gt;Continuing in the series of &lt;a href=&#34;https://itsalocke.com/tag/shiny-design-patterns/&#34;&gt;shiny module design patterns&lt;/a&gt;, this post covers how to pass all the inputs from one module to another.&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;Return &lt;code&gt;input&lt;/code&gt; from within the server call. Store the &lt;code&gt;callModule()&lt;/code&gt; result in a variable. Pass the variable into arguments for other modules. Access the variable like you would &lt;code&gt;input&lt;/code&gt;. &lt;a href=&#34;https://github.com/stephlocke/shinymodulesdesignpatterns&#34;&gt;Steal the code&lt;/a&gt; and, as always, if you can improve it do so!&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Shiny module design patterns: Pass module input to other modules</title>
+      <link>http://lockelife.com/blog/2016-04-14-shiny-module-design-patterns-pass-module-inputs-modules/</link>
+      <pubDate>Thu, 14 Apr 2016 12:05:55 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2016-04-14-shiny-module-design-patterns-pass-module-inputs-modules/</guid>
+      <description>&lt;p&gt;Following on from looking at the &lt;a href=&#34;https://itsalocke.com/shiny-module-design-pattern-pass-inputs-one-module-another/&#34;&gt;shiny modules design pattern of passing an input value to many modules&lt;/a&gt;, I&amp;#8217;m now going to look at a more complex shiny module design pattern: passing an input from one module to another.&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;Return the input in a reactive expression from within the server call. Store the &lt;code&gt;callModule()&lt;/code&gt; result in a variable. Pass the variable into arguments for other modules. &lt;a href=&#34;https://github.com/stephlocke/shinymodulesdesignpatterns&#34;&gt;Steal the code&lt;/a&gt; and, as always, if you can improve it do so!&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Using Travis? Make sure you use a Github PAT</title>
+      <link>http://lockelife.com/blog/2016-04-12-using-travis-make-sure-use-github-pat/</link>
+      <pubDate>Tue, 12 Apr 2016 10:27:03 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2016-04-12-using-travis-make-sure-use-github-pat/</guid>
+      <description>&lt;p&gt;We&amp;#8217;re in the fantastic situation where lots of people are using &lt;a href=&#34;https://travis-ci.org/&#34;&gt;Travis-CI&lt;/a&gt; to test their R packages or use it to test and deploy their analytics/ documentation / anything really. It&amp;#8217;s popularity has been having a negative side-effect recently though! GitHub &lt;a href=&#34;https://developer.github.com/v3/#rate-limiting&#34;&gt;rate limits&lt;/a&gt; API access to 5000 requests per hour so sometimes there are more R related jobs running on Travis per hour than this limit, causing builds to error typically with a message that includes&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;403 forbidden&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This error will cause your build to fail, even if you didn&amp;#8217;t do anything wrong. To solve it short-term you can wait a little while and restart your build.&lt;figure id=&#34;attachment_61598&#34; style=&#34;width: 768px&#34; class=&#34;wp-caption aligncenter&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;size-medium_large wp-image-61598&#34; src=&#34;http://res.cloudinary.com/lockedata/image/upload/h_131,w_750/v1499850336/restartbuilds_hsvpmp.png&#34; alt=&#34;How to restart a build in Travis-CI&#34; width=&#34;768&#34; height=&#34;134&#34; /&gt;&lt;figcaption class=&#34;wp-caption-text&#34;&gt;How to restart a build in Travis-CI&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;That is a very short-termist solution and does not solve the problem for future you or other users of the service. The real solution to resolving this issue is to get off the default API access credentials and use your own.&lt;/p&gt;
+
+&lt;p&gt;The R integration in Travis makes good use of the &lt;a href=&#34;https://cran.r-project.org/package=devtools&#34;&gt;devtools&lt;/a&gt;. The devtools package looks for an environment variable called &lt;code&gt;GITHUB_PAT&lt;/code&gt; that holds a &lt;a href=&#34;https://help.github.com/articles/creating-an-access-token-for-command-line-use/&#34;&gt;personal access token&lt;/a&gt; (PAT) for using the GitHub API and if it doesn&amp;#8217;t find one it uses a default token. When we get our own PAT and store it in Travis, devtools will pick up our token and use it, meaning you&amp;#8217;ll only ever get rate limited if you do more than 5000 builds in an hour, which is an achievement I&amp;#8217;d love to hear about.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Shiny module design patterns: Pass a single input to multiple modules</title>
+      <link>http://lockelife.com/blog/2016-04-08-shiny-module-design-pattern-pass-inputs-one-module-another/</link>
+      <pubDate>Fri, 08 Apr 2016 10:56:32 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2016-04-08-shiny-module-design-pattern-pass-inputs-one-module-another/</guid>
+      <description>&lt;p&gt;For the awesome &lt;a href=&#34;https://www.eventbrite.com/e/shiny-developer-conference-registration-19153967031&#34;&gt;Shiny Developers Conference&lt;/a&gt; back in January, I endeavoured to learn about shiny modules and &lt;a href=&#34;https://itsalocke.com/declutter-a-shiny-reports-code-v2-0/&#34;&gt;overhaul an application&lt;/a&gt; using them in the space of two days. I succeeded and almost immediately switched onto other projects, thereby losing most of the hard-won knowledge! As I rediscover shiny modules and start putting them into more active use, I&amp;#8217;ll be blogging about design patterns. This post takes you through the case of multiple modules receiving the same input value.&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;Stick overall config input objects at the app level and pass them in a reactive expression to &lt;code&gt;callModule()&lt;/code&gt;. Pass the results in as an extra argument into subsequent modules. These are reactive so don&amp;#8217;t forget the brackets. &lt;a href=&#34;https://github.com/stephlocke/shinymodulesdesignpatterns&#34;&gt;Steal the code&lt;/a&gt; and, as always, if you can improve it do so!&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>R Quick Tip: Collapse a lists of data.frames with data.table</title>
+      <link>http://lockelife.com/blog/2016-04-05-r-quick-tip-collapse-a-lists-of-data-frames-with-data-table/</link>
+      <pubDate>Tue, 05 Apr 2016 14:05:26 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2016-04-05-r-quick-tip-collapse-a-lists-of-data-frames-with-data-table/</guid>
+      <description>&lt;p&gt;With my &lt;a href=&#34;https://github.com/stephlocke/HIBPwned&#34;&gt;HIBPwned&lt;/a&gt; package, I consume the &lt;a href=&#34;https://haveibeenpwned.com/&#34;&gt;HaveIBeenPwned&lt;/a&gt; API and return back a list object with an element for each email address. Each element holds a data.frame of breach data or a stub response with a single column data.frame containing NA. Elements are named with the email addresses they relate to. I had a list of data.frames and I wanted a consolidated data.frame (well, I always want a data.table).&lt;/p&gt;
+
+&lt;p&gt;Enter data.table &amp;#8230;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://cran.r-project.org/package=data.table&#34;&gt;data.table&lt;/a&gt; has a very cool, and &lt;a href=&#34;http://stackoverflow.com/questions/15673550/why-is-rbindlist-better-than-rbind&#34;&gt;very fast&lt;/a&gt; function named &lt;code&gt;rbindlist()&lt;/code&gt;. This takes a list of data.frames and consolidates them into one data.table, which can, of course, be handled as a data.frame if you didn&amp;#8217;t want to use data.table for anything else.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Auto-deploying documentation: better change tracking of artefacts</title>
+      <link>http://lockelife.com/blog/2016-04-04-auto-deploying-documentation-better-change-tracking-artefacts/</link>
+      <pubDate>Mon, 04 Apr 2016 11:04:34 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2016-04-04-auto-deploying-documentation-better-change-tracking-artefacts/</guid>
+      <description>&lt;p&gt;As part of my never-ending quest to deploy documentation better, I&amp;#8217;ve made yet another tweak to my scripts that deploy R vignettes or Rmarkdown documents to the &lt;code&gt;gh-pages&lt;/code&gt; branch of my github repositories via Travis-CI.&lt;/p&gt;
+
+&lt;p&gt;The script from &lt;a href=&#34;http://rmflight.github.io/posts/2014/11/travis_ci_gh_pages.html&#34;&gt;Robert Flight&lt;/a&gt; that&amp;#8217;s provided the basis for most of this work does something specific to update the web facing branch of the repository. It would:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Create a blank repository&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Add the requisite files to the repository&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Add and commit them to the repo&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Force the repo to overwrite the &lt;code&gt;gh-pages&lt;/code&gt; branch&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This had the unfortunate consequence of losing the history of what was previously hosted on the branch and could not tell me what commit to my development branches was responsible for a version of the docs. It took a little bit of playing but the revised script now:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Clones the gh-pages branch&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Adds the requisite files into the reports&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Add and commit them to the repo&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Push the changes&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Using an environment variable ($TRAVIS_COMMIT) the commit message is the commit ID for the latest commit in the build that occurs on Travis, making it very easy to see what changes triggered a documentation update.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Declutter a shiny report’s code v2.0</title>
+      <link>http://lockelife.com/blog/2016-03-03-declutter-a-shiny-reports-code-v2-0/</link>
+      <pubDate>Thu, 03 Mar 2016 13:40:34 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2016-03-03-declutter-a-shiny-reports-code-v2-0/</guid>
+      <description>I wrote a year ago on a way to declutter shiny report code which involved putting objects into a sourced file, however, at that point in time the solution was a bit brittle and clunky. Now there&amp;#8217;s a better way to develop shiny applications &amp;#8211; shiny modules.
+In October, RStudio introduced the concept of modules which involves abstracting code out into self-contained blocks.
+Modules are ways of batching your code into discrete chunks &amp;#8211; you keep all the code related to the inputs, manipulation, and presentation for doing something in one module.</description>
+    </item>
+    
+    <item>
+      <title>Auto-deploying documentation: Rtraining</title>
+      <link>http://lockelife.com/blog/2015-12-23-auto-deploying-documentation-rtraining/</link>
+      <pubDate>Wed, 23 Dec 2015 10:25:48 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2015-12-23-auto-deploying-documentation-rtraining/</guid>
+      <description>In my last post on using GitHub, Travis-CI, and rmarkdown/knitr for automatically building and deploying documentation, I covered how I was able to do it with a containerised approach so things were faster. I also said my Rtraining repository was still too brittle to blog about. This has changed &amp;#8211; WOO HOO!
+The main thanks for that goes out to the new package ezknitr from Dean Attali. ezknitr takes the pain out of working directories, making my hierarchies much more resilient.</description>
+    </item>
+    
+    <item>
+      <title>Auto-deploying documentation: FASTER!</title>
+      <link>http://lockelife.com/blog/2015-11-13-auto-deploying-documentation-faster/</link>
+      <pubDate>Fri, 13 Nov 2015 09:13:22 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2015-11-13-auto-deploying-documentation-faster/</guid>
+      <description>&lt;p&gt;Over the past few years I&amp;#8217;ve been delving deeper into automatically building and deploying documentation and reporting in R (with rmarkdown, LaTeX etc). This post covers another step forward on that journey towards awesomeness.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Auto-deploying documentation: multiple R vignettes</title>
+      <link>http://lockelife.com/blog/2015-06-05-auto-deploying-documentation-multiple-r-vignettes/</link>
+      <pubDate>Fri, 05 Jun 2015 08:38:44 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2015-06-05-auto-deploying-documentation-multiple-r-vignettes/</guid>
+      <description>&lt;p&gt;Following on from my post about the principles behind using travis-ci to commit to a &lt;code&gt;gh-pages&lt;/code&gt; I wanted to follow-up with how I tackled my &amp;#8220;intermediate&amp;#8221; use case.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;posts-in-this-series&#34;&gt;Posts in this series&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://itsalocke.com/automated-documentation-hosting-on-github-via-travis-ci/&#34;&gt;Automated documentation hosting on github via Travis-CI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://itsalocke.com/auto-deploying-documentation-multiple-r-vignettes/&#34;&gt;Auto-deploying documentation: multiple R vignettes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://itsalocke.com/auto-deploying-documentation-faster/&#34;&gt;Auto-deploying documentation: FASTER!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://itsalocke.com/auto-deploying-documentation-rtraining/&#34;&gt;Auto-deploying documentation: Rtraining&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://itsalocke.com/auto-deploying-documentation-better-change-tracking-artefacts/&#34;&gt;Auto-deploying documentation: better change tracking of artefacts&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;multiple-vignettes&#34;&gt;Multiple vignettes&lt;/h2&gt;
+
+&lt;p&gt;In &lt;a href=&#34;https://itsalocke.com/automated-documentation-hosting-on-github-via-travis-ci/&#34;&gt;my original post&lt;/a&gt; I show how I pushed the tfsR vignette to &lt;code&gt;gh-pages&lt;/code&gt;, which involved copying it and renaming it to index.html.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, this wouldn&amp;#8217;t work if I had multiple vignettes that I wanted to be accessible online.&lt;/p&gt;
+
+&lt;h3 id=&#34;requirements&#34;&gt;Requirements&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;An index.html file&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;A way of extracting any number of html files from the vignette folder&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>optiRum – presentation</title>
+      <link>http://lockelife.com/blog/2015-06-03-optirum-presentation/</link>
+      <pubDate>Wed, 03 Jun 2015 15:00:31 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2015-06-03-optirum-presentation/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;http://cran.r-project.org/web/packages/optiRum/&#34; title=&#34;optiRum on CRAN&#34; target=&#34;_blank&#34;&gt;optiRum&lt;/a&gt;, the R package I built and support for Optimum on CRAN has gained some extra functions recently. Some of it uses currently experimental data.table functionality so I&amp;#8217;m eagerly awaiting the release to CRAN to deliver optiRum.&lt;/p&gt;
+
+&lt;p&gt;In the interim, I thought I&amp;#8217;d give some brief overviews of &lt;strong&gt;existing&lt;/strong&gt; functionality contained in the package.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The next part of &lt;a href=&#34;https://itsalocke.com/optirum-gini-like-a-wizard/&#34; target=&#34;_blank&#34;&gt;the coverage&lt;/a&gt; of &lt;a href=&#34;https://github.com/stephlocke/optiRum&#34; target=&#34;_blank&#34;&gt;optiRum&lt;/a&gt; functionality is to talk about the stuff that makes generating outputs easier!&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Automated documentation hosting on github via Travis-CI</title>
+      <link>http://lockelife.com/blog/2015-06-01-automated-documentation-hosting-on-github-via-travis-ci/</link>
+      <pubDate>Mon, 01 Jun 2015 09:29:21 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2015-06-01-automated-documentation-hosting-on-github-via-travis-ci/</guid>
+      <description>&lt;p&gt;In this post, I&amp;#8217;m going to cover how you can use continuous integration and source control to build and host documentation (or any other static HTML) for free, and in a way that updates every time your code changes. I&amp;#8217;ll cover the generic capability, and then how I apply this to my simplest package, tfsR. In a later post (once I&amp;#8217;ve cracked the best method to do it) I&amp;#8217;ll cover my more complex use case of multiple documents and a dynamically constructed index page.&lt;/p&gt;
+
+&lt;p&gt;NB: This is kicked off from a &lt;a href=&#34;http://rmflight.github.io/posts/2014/11/travis_ci_gh_pages.html&#34;&gt;post&lt;/a&gt; from Robert Flight about applying to the technique to R package vignettes. It&amp;#8217;s a very useful post but it was quite specific to his situation and I wanted to understand the principles behind it before I started extending it to my more complex cases.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;posts-in-this-series&#34;&gt;Posts in this series&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://itsalocke.com/automated-documentation-hosting-on-github-via-travis-ci/&#34;&gt;Automated documentation hosting on github via Travis-CI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://itsalocke.com/auto-deploying-documentation-multiple-r-vignettes/&#34;&gt;Auto-deploying documentation: multiple R vignettes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://itsalocke.com/auto-deploying-documentation-faster/&#34;&gt;Auto-deploying documentation: FASTER!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://itsalocke.com/auto-deploying-documentation-rtraining/&#34;&gt;Auto-deploying documentation: Rtraining&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://itsalocke.com/auto-deploying-documentation-better-change-tracking-artefacts/&#34;&gt;Auto-deploying documentation: better change tracking of artefacts&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;requirements&#34;&gt;Requirements&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Must haves:
+
+&lt;ul&gt;
+&lt;li&gt;Travis-CI&lt;/li&gt;
+&lt;li&gt;GitHub&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Optional:
+
+&lt;ul&gt;
+&lt;li&gt;A linux machine (so you can test your bash script that Travis-CI will run)&lt;/li&gt;
+&lt;li&gt;R (for following the specific instructions)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;high-level-process&#34;&gt;High-level process&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Get an OAUTH token from github&lt;/li&gt;
+&lt;li&gt;Add OAUTH token to travis&lt;/li&gt;
+&lt;li&gt;Add a *.sh file that gets your HTML (depending on circumstance, you may also need to generate it) and pushes to gh-pages branch&lt;/li&gt;
+&lt;li&gt;Include your .sh file in the &lt;code&gt;after_success&lt;/code&gt; part of your travis file&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Commit &amp;amp; push!&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Easy Continuous Integration for R</title>
+      <link>http://lockelife.com/blog/2015-04-20-easy-continuous-integration-for-r/</link>
+      <pubDate>Mon, 20 Apr 2015 09:06:36 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2015-04-20-easy-continuous-integration-for-r/</guid>
+      <description>&lt;p&gt;With &lt;a href=&#34;http://r-pkgs.had.co.nz/&#34;&gt;excellent guidance&lt;/a&gt; and &lt;a href=&#34;http://cran.r-project.org/web/packages/devtools/&#34;&gt;tooling&lt;/a&gt; on making R packages, it&amp;#8217;s becoming really easy to make a package to hold your R functionality. This has a host of benefits, not least source control (via GitHub) and unit testing (via the &lt;a href=&#34;http://cran.r-project.org/web/packages/testthat/&#34;&gt;&lt;code&gt;testthat&lt;/code&gt;&lt;/a&gt; package). Once you have a package and unit tests, a great way of making sure that as you change things you don&amp;#8217;t break them is to perform &lt;a href=&#34;http://www.thoughtworks.com/continuous-integration&#34;&gt;Continuous integration&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;What this means is that &lt;strong&gt;every&lt;/strong&gt; time you make a change, your package is built and thoroughly checked for any issues. If issues are found the &amp;#8220;build&amp;#8217;s broke&amp;#8221; and you have to fix it ASAP.&lt;/p&gt;
+
+&lt;p&gt;The easiest, cheapest, and fastest way of setting up continuous integration for R stuff is to use &lt;a href=&#34;https://travis-ci.com/&#34;&gt;Travis-CI&lt;/a&gt;, which is free if you use &lt;a href=&#34;http://github.com&#34;&gt;GitHub&lt;/a&gt; as a remote server for your code.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;NB &amp;#8211; it doesn&amp;#8217;t have to be your only remote server&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>optiRum – gini like a wizard</title>
+      <link>http://lockelife.com/blog/2015-04-16-optirum-gini-like-a-wizard/</link>
+      <pubDate>Thu, 16 Apr 2015 10:22:38 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2015-04-16-optirum-gini-like-a-wizard/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;http://cran.r-project.org/web/packages/optiRum/&#34; title=&#34;optiRum on CRAN&#34; target=&#34;_blank&#34;&gt;optiRum&lt;/a&gt;, the R package I built and maintain for Optimum on CRAN has gained some extra functions recently. Some of it uses currently experimental data.table functionality so I&amp;#8217;m eagerly awaiting the release to CRAN to deliver optiRum.&lt;/p&gt;
+
+&lt;p&gt;In the interim, I thought I&amp;#8217;d give some brief overviews of &lt;strong&gt;existing&lt;/strong&gt; functionality contained in the package.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I do a lot of regression models and one of the common tools for assessing a regression&amp;#8217;s ability to accurately model an event is to produce a Gini chart and a Gini coefficient. The higher the Gini coefficient, the more your model is able to discriminate probability accurately.&lt;/p&gt;
+
+&lt;p&gt;I simplify the process of producing gini charts (&lt;code&gt;giniChart&lt;/code&gt;) and coefficients (&lt;code&gt;giniCoef&lt;/code&gt;) so that I get a chart in one simple step.&lt;/p&gt;
+
+&lt;p&gt;Under the hood this uses the &lt;a href=&#34;http://cran.r-project.org/web/packages/AUC/&#34; title=&#34;AUC on CRAN&#34; target=&#34;_blank&#34;&gt;AUC&lt;/a&gt; package to get the coefficient, &lt;a href=&#34;http://cran.r-project.org/web/packages/scales/&#34; title=&#34;scales on CRAN&#34; target=&#34;_blank&#34;&gt;scales&lt;/a&gt; to format it and &lt;a href=&#34;http://docs.ggplot2.org/current/&#34; title=&#34;ggplot2 documentation&#34; target=&#34;_blank&#34;&gt;ggplot2&lt;/a&gt; to produce the chart. Using ggplot leads to a better looking chart that can also be tweaked to suit your needs since a ggplot object is returned by the function.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>An R data.table cookbook</title>
+      <link>http://lockelife.com/blog/2015-04-08-data-table-cookbook/</link>
+      <pubDate>Wed, 08 Apr 2015 11:47:08 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2015-04-08-data-table-cookbook/</guid>
+      <description>For my precon on R at the end of the month I&amp;#8217;m working on the takeaway &amp;#8212; the handout. This&amp;#8217;ll be thing that makes the training day able to be put into practice immediately, and refills all those drink and sleep depleted neurons back up with R knowledge.
+One of the things is a simple data.table cookbook. If you&amp;#8217;re a data.table user, what other tasks do you think should be on there?</description>
+    </item>
+    
+    <item>
+      <title>DeployR – why Microsoft bought Revolution?</title>
+      <link>http://lockelife.com/blog/2015-03-23-deployr-why-microsoft-bought-revolution/</link>
+      <pubDate>Mon, 23 Mar 2015 10:19:10 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2015-03-23-deployr-why-microsoft-bought-revolution/</guid>
+      <description>I&amp;#8217;ve been asked by a few people recently about why I don&amp;#8217;t use Azure Machine Learning (ML). I answer that I don&amp;#8217;t use it yet, and the reason being that at the moment the robust development life-cycle isn&amp;#8217;t in place around it. I think that will change &amp;#8211; one of the great reasons for the acquisition of Revolution Analytics (in my opinion) is their DeployR system.
+DeployR is essentially an R web service platform.</description>
+    </item>
+    
+    <item>
+      <title>magrittr: cleaner program flow</title>
+      <link>http://lockelife.com/blog/2015-02-09-magrittr-cleaner-program-flow/</link>
+      <pubDate>Mon, 09 Feb 2015 11:51:23 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2015-02-09-magrittr-cleaner-program-flow/</guid>
+      <description>&lt;p&gt;Last year I built a pretty sweet web service in R as part of the day job. However, not being well-versed in stuff like object-oriented programming, I did not do the best job of making the flow of my program particularly clear or robust. It wouldn&amp;#8217;t take multiple inputs properly and I found it to be tough to test. In spare moments, I took to cogitating how to improve things.&lt;/p&gt;
+
+&lt;p&gt;I tried simply refactoring some of the functions but found my structure too cumbersome to allow much change. I tried starting afresh with an &lt;a href=&#34;http://adv-r.had.co.nz/OO-essentials.html&#34; title=&#34;Advanced R - OO programming&#34; target=&#34;_blank&#34;&gt;S4 system&lt;/a&gt; but was soon in a death spiral of class proliferation and no experience in how to stop it. After dabbling with different methods, I was getting pretty frustrated &amp;#8211; I want my code to be better and more maintainable!&lt;/p&gt;
+
+&lt;p&gt;Now I&amp;#8217;m looking at &lt;a href=&#34;http://cran.r-project.org/web/packages/magrittr/vignettes/magrittr.html&#34; title=&#34;magrittr vignette on CRAN&#34; target=&#34;_blank&#34;&gt;magrittr&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;about-magrittr&#34;&gt;About magrittr&lt;/h2&gt;
+
+&lt;p&gt;&lt;code&gt;magrittr&lt;/code&gt; was designed to better facilitate &lt;a href=&#34;http://adv-r.had.co.nz/Functional-programming.html&#34; title=&#34;R for functional programming&#34; target=&#34;_blank&#34;&gt;functional programming&lt;/a&gt; based on piping inputs from one function to another. It&amp;#8217;s the same paradigm as the &lt;a href=&#34;http://powershell.com/cs/blogs/ebookv2/archive/2012/03/12/chapter-5-the-powershell-pipeline.aspx&#34; title=&#34;PowerShell Pipe operator explained&#34; target=&#34;_blank&#34;&gt;PowerShell operator &lt;code&gt;|&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This means you can more succinctly pass an input through various transformation steps (in contrast to my initial method) with a lot less code. The ability to add conditional functions or even new functions on the fly (aka &lt;a href=&#34;http://en.wikipedia.org/wiki/Anonymous_function&#34; title=&#34;Lambda functions on wikipedia&#34; target=&#34;_blank&#34;&gt;lambda functions&lt;/a&gt;) with a similarly low code burden gives the added benefit of helping with branching logic.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Conference sessions – basic web scraping in R</title>
+      <link>http://lockelife.com/blog/2015-01-11-some-basic-web-scraping-in-r/</link>
+      <pubDate>Sun, 11 Jan 2015 16:56:22 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2015-01-11-some-basic-web-scraping-in-r/</guid>
+      <description>&lt;p&gt;It&amp;#8217;s a bit sad but I enjoy dissecting what sessions are submitted to conferences I&amp;#8217;m involved in or speak at. Instead of doing it primarily by eye, I&amp;#8217;ve started dabbling in web scraping in R to do it. Initially, I used RCurl and my latest snippet uses rvest.&lt;/p&gt;
+
+&lt;p&gt;The first snippet for &lt;a href=&#34;http://sqlbits.com&#34; title=&#34;SQLBits&#34; target=&#34;_blank&#34;&gt;SQLBits&lt;/a&gt; bit of R code uses &lt;a href=&#34;http://cran.r-project.org/web/packages/RCurl/&#34; title=&#34;RCurl on CRAN&#34; target=&#34;_blank&#34;&gt;RCurl&lt;/a&gt; but it&amp;#8217;s cumbersome, plus for &lt;a href=&#34;https://www.sqlsaturday.com/372/schedule.aspx&#34; title=&#34;SQLSaturday Exeter&#34; target=&#34;_blank&#34;&gt;SQLSaturday Exeter&lt;/a&gt; there is SSL to contend with. Using &lt;a href=&#34;http://cran.r-project.org/web/packages/rvest/&#34; title=&#34;rvest on CRAN&#34; target=&#34;_blank&#34;&gt;rvest&lt;/a&gt; makes it really easy and it was an excellent excuse to get around to using &lt;a href=&#34;http://cran.r-project.org/web/packages/magrittr/&#34; title=&#34;magrittr on CRAN&#34; target=&#34;_blank&#34;&gt;magrittr&lt;/a&gt;, Hadley Wickham&amp;#8217;s pipe code paradigm for R.&lt;/p&gt;
+
+&lt;p&gt;Blogger tip: I also wanted the opportunity to see how Gists imported into WordPress &amp;#8211; you just c&amp;amp;p the url in (into the code, no URL markup) and WordPress automatically pulls in the Gist. For more info on this see &lt;a href=&#34;http://en.support.wordpress.com/gist/&#34; title=&#34;Wordpress support - Gist&#34; target=&#34;_blank&#34;&gt;WordPress&amp;#8217; article on Gist&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

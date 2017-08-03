@@ -1,0 +1,6 @@
+[submodule "themes/hugo-phlat-theme"]
+	path = themes/hugo-phlat-theme
+	url = https://github.com/nraboy/hugo-phlat-theme.git
+[submodule "themes/hugo-lockedata-blog"]
+	path = themes/hugo-lockedata-blog
+	url = git@github.com:lockedata/hugo-lockedata-blog.git

@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+    <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.25.1" />
+    <title>Locke Data Blog</title>
+    
+    
+    
+    <meta name="description" content="A description that will appear as a default if front matter does not exist" />
+    <meta name="keywords" content='default,keywords,if,no,front,matter' />
+    
+    
+    <link href="http://lockelife.com/blog/index.xml" rel="alternate" type="application/rss+xml" title="Locke Data Blog" />
+    <link rel="stylesheet" href="http://lockelife.com/blog/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="http://lockelife.com/blog/css/highlightjs-themes/androidstudio.css" />
+    <link rel="stylesheet" href="http://lockelife.com/blog/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="http://lockelife.com/blog/css/lockedata.css" />
+    
+        
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({
+                    google_ad_client: "ca-pub-XXXXXX",
+                    enable_page_level_ads: true
+                });
+            </script>
+        
+    
+</head>
+
+    <body>
+        <!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+        <a class="navbar-brand page-scroll" href="/blog/#page-top">
+          
+          <img src="http://lockelife.com/blog/img/LockeDataTextNew.svg" class="img-responsive" alt="">
+        </a>
+      
+
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="hidden">
+          <a href="/blog/#page-top"></a>
+        </li>
+        
+          <li>
+            <a href="http://lockelife.com">Locke Data</a>
+          </li>
+        
+          <li>
+            <a href="/blog/blog/">Blog</a>
+          </li>
+        
+
+        
+        
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container-fluid -->
+</nav>
+
+        <div id="top" class="container">
+            <div class="row" id="content-main">
+                <div class="col-md-8">
+                    
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockelife.com/blog/2017-05-08-r-quick-tip-sequential-yaml-headers-rmarkdown-parameter-re-use/">R Quick Tip: parameter re-use within rmarkdown YAML</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>May 8, 2017</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                Ever wondered how to make an rmarkdown title dynamic? Maybe, wanted to use a parameter in multiple locations? Maybe wanted to pass through a publication date? Advanced use of YAML headers can help!
+Normally, when we write rmarkdown, we might use something like the basic YAML header that the rmarkdown template gives us.
+--- title: &quot;My report&quot; date: &quot;18th April, 2017&quot; output: pdf_document ---  You may already know the trick about making the date dynamic to whatever date the report gets rendered on by using the inline R execution mode of rmarkdown to insert a value.
+                                <a class="btn btn-primary" href="http://lockelife.com/blog/2017-05-08-r-quick-tip-sequential-yaml-headers-rmarkdown-parameter-re-use/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockelife.com/blog/2017-05-05-minor-update-hibpwned/">Minor update to HIBPwned</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>May 5, 2017</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                A new version of HIBPwned has been accepted onto CRAN. This occurred yesterday so it could still be filtering into some mirrors.
+HIBPwned is an R wrapper for the useful website HaveIBeenPwned and if you don&#8217;t already utilise the package or the site &#8211; you should. HaveIBeenPwned tells you when your details are included in data breaches. This is vital information to get quickly as it means you can sooner protect yourself from people trying to use the breach information to break into your accounts.
+                                <a class="btn btn-primary" href="http://lockelife.com/blog/2017-05-05-minor-update-hibpwned/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockelife.com/blog/2017-05-03-error-installing-latest-r-version-3-4-0-windows/">Error installing latest R version (3.4.0) on Windows</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>May 3, 2017</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                UPDATE: R 3.4.1 does not have this problem so you can install that version instead
+If you&#8217;re getting the following error when you&#8217;ve installed R 3.4.0 on Windows, you&#8217;re not alone.
+ Error in if (file.exists(dest) &amp;&amp; file.mtime(dest) &gt; file.mtime(lib) &amp;&amp; :
+missing value where TRUE/FALSE needed
+ The R team have released a patched version but right now it&#8217;s a little difficult to find out about. If you need/want the patched version, it&#8217;s available at:
+                                <a class="btn btn-primary" href="http://lockelife.com/blog/2017-05-03-error-installing-latest-r-version-3-4-0-windows/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockelife.com/blog/2017-05-02-the-making-of-datasaurus/">The making of datasauRus</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>May 2, 2017</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                Around 8:30pm I saw this tweet and duly retweeted
+https://t.co/WuyU9D6npK  &mdash; Richie Cotton (@richierocks) May 1, 2017  It turns out awesome folks, George and Justin, had made a process whereby they can generate different distributions of points that retain the same summary statistics. They used this process for making some friends for Dino the Datasaurus who was created by Alberto Cairo. They made the data for Dino and the rest of the Datasaurus Dozen available for download.
+                                <a class="btn btn-primary" href="http://lockelife.com/blog/2017-05-02-the-making-of-datasaurus/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockelife.com/blog/2017-05-02-getting-started-with-data-science-recommended-resources/">Getting started with data science – recommended resources</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>May 2, 2017</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                An oft asked question is what resources can I recommend for getting started with data science? Here are my recommendations, and if you have others, please put them in the comments!
+ NB Links in this post may be affiliate links &#8211; it doesn&#8217;t change the prices you get but might earn me a little money
+ Books Data Science for Business Data Science for Business
+Data Science for Business is a great overview book.
+                                <a class="btn btn-primary" href="http://lockelife.com/blog/2017-05-02-getting-started-with-data-science-recommended-resources/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockelife.com/blog/2017-04-28-upload-multiple-files-in-shiny-and-consolidate-into-a-dataset/">R Quick Tip: Upload multiple files in shiny and consolidate into a dataset</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>April 28, 2017</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                In shiny, you can use the fileInput with the parameter multiple = TRUE to enable you to upload multiple files at once. But how do you process those multiple files in shiny and consolidate into a single dataset?
+The bit we need from shiny is the input$param$fileinputpath value.
+We can use lapply() with data.table&#8216;s fread() to read multiple CSVs from the fileInput(). Then to consolidate the data, we can use data.
+                                <a class="btn btn-primary" href="http://lockelife.com/blog/2017-04-28-upload-multiple-files-in-shiny-and-consolidate-into-a-dataset/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockelife.com/blog/2017-04-24-r-training-environment/">Building an R training environment</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>April 24, 2017</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                I recently delivered a day of training at SQLBits and I really upped my game in terms of infrastructure for it. The resultant solution was super smooth and mitigated all the install issues and preparation for attendees. This meant we got to spend the whole day doing R, instead of troubleshooting.
+I&#8217;m so happy with the solution for an online R training environment that I want to share the solution, so you can take it and use it for when you need to do training.
+                                <a class="btn btn-primary" href="http://lockelife.com/blog/2017-04-24-r-training-environment/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockelife.com/blog/2017-04-21-logistic-regressions-r/">Logistic regressions (in R)</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>April 21, 2017</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                Logistic regressions are a great tool for predicting outcomes that are categorical. They use a transformation function based on probability to perform a linear regression. This makes them easy to interpret and implement in other systems.
+Logistic regressions can be used to perform a classification for things like determining whether someone needs to go for a biopsy. They can also be used for a more nuanced view by using the probabilities of an outcome for thinks like prioritising interventions based on likelihood to default on a loan.
+                                <a class="btn btn-primary" href="http://lockelife.com/blog/2017-04-21-logistic-regressions-r/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockelife.com/blog/2017-04-19-table-parameters-rmarkdown-reports/">R Quick Tip: Table parameters for rmarkdown reports</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>April 19, 2017</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                The recent(ish) advent of parameters in rmarkdown reports is pretty nifty but there&#8217;s a little bit of behaviour that can come in handy but doesn&#8217;t come across in the documentation. You can use table parameters for rmarkdown reports.
+Previously, if you wanted to produce multiple reports based off a dataset, you would make the dataset available and then perform filtering in the report. Now we can pass the filtered data directly to the report, which keeps all the filtering logic in one place.
+                                <a class="btn btn-primary" href="http://lockelife.com/blog/2017-04-19-table-parameters-rmarkdown-reports/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockelife.com/blog/2017-04-18-building-booth-presence/">Building your booth presence (SCE p4)</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>April 18, 2017</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                <p>Building your booth presence is the fourth instalment of the <a href="https://itsalocke.com/sponsoring-community-events/">Sponsoring Community Events</a> series aimed at helping companies get to grips with sponsoring community events and getting the most out of them. This post covers some of the things that you should be thinking about when you are planning on having a booth at an event.</p>
+
+<p></p>
+                                <a class="btn btn-primary" href="http://lockelife.com/blog/2017-04-18-building-booth-presence/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                    
+    <div class="row">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-4" style="text-align: left; padding-left: 0px">
+                    
+                        <a class="btn btn-default" href="/blog/" role="button" style="border-radius: 0px; display: block">Newer</a>
+                    
+                </div>
+                <div class="col-md-4 col-md-offset-4" style="text-align: right; padding-right: 0px">
+                    
+                        <a class="btn btn-default" href="/blog/page/3/" role="button" style="border-radius: 0px; display: block">Older</a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                </div>
+                <div class="col-md-4">                    
+	
+<div class="row">
+    <div class="col-md-11 col-md-offset-1 card">
+        <h5>Locke Data Blog</h5>
+        <p>A description that will appear as a default if front matter does not exist</p>
+		<img class="avatar" src="img/ChibiSteph.svg"></img>
+    </div>
+</div>
+
+    <div class="row">
+    <div class="col-md-11 col-md-offset-1 card">
+        <h5>Search</h5>
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form">
+            <div class="input-group">
+                <input class="form-control" type="search" name="q" />
+                <span class="input-group-btn">
+                    <button class="btn btn-primary" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+                </span>
+            </div>
+            <input type="hidden" name="q" value="site:http://lockelife.com/blog/">
+        </form>
+    </div>
+</div>
+
+    
+    
+        <div class="row">
+            <div class="col-md-11 col-md-offset-1 card">
+                <h5>categories</h5>
+                <ul class="list-unstyled posts-recent">
+                    
+                        <li><a href="http://lockelife.com/blog/categories/r">r</a></li>
+                    
+                        <li><a href="http://lockelife.com/blog/categories/community">community</a></li>
+                    
+                        <li><a href="http://lockelife.com/blog/categories/microsoft-data-platform">microsoft-data-platform</a></li>
+                    
+                        <li><a href="http://lockelife.com/blog/categories/data-science">data-science</a></li>
+                    
+                        <li><a href="http://lockelife.com/blog/categories/misc-technology">misc-technology</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    
+
+    
+
+    
+
+
+</div>
+            </div>
+        </div>
+        <!-- Footer section -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <span class="copyright">
+          <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+        </span>
+      </div>
+      <div class="col-md-4">
+        <ul class="list-inline social-buttons">
+          
+            <li>
+              <a href="/blog/#"><i class='fa fa-twitter'></i></a>
+            </li>
+          
+            <li>
+              <a href="/blog/#"><i class='fa fa-facebook'></i></a>
+            </li>
+          
+            <li>
+              <a href="/blog/#"><i class='fa fa-linkedin'></i></a>
+            </li>
+          
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <ul class="list-inline quicklinks">
+          
+            <li>
+              <a href="http://lockelife.com/#company">Legalise and stuff</a>
+            </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+        <div id="back-to-top" class="hidden">
+    <a href="#top" class="well well-sm" onclick="$('html,body').animate({scrollTop:0},'slow');return false;">
+        <i class="glyphicon glyphicon-chevron-up"></i> Back to Top
+    </a>
+</div>
+<script src="http://lockelife.com/blog/js/jquery.min.js"></script>
+<script src="http://lockelife.com/blog/js/bootstrap.min.js"></script>
+<script src="http://lockelife.com/blog/js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script>
+    if(($(window).height() + 100) < $(document).height()) {
+        $('#back-to-top').removeClass('hidden').affix({
+            offset: {
+                top: 100
+            }
+        });
+    }
+</script>
+
+    
+        <script>
+            
+            [].forEach.call(document.querySelectorAll('.adsbygoogle'), function() {
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            });
+        </script>
+    
+
+
+    
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-XXXXX-YY', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+
+
+
+    </body>
+</html>

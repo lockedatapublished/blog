@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+    <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.25.1" />
+    <title>Working with Azure Blob Storage, some notes</title>
+    
+    
+    
+    <meta name="description" content="A description that will appear as a default if front matter does not exist" />
+    <meta name="keywords" content='api,azure,blob storage,microsoft,r,software development in r,stream analytics' />
+    
+        <meta name="author" content="Steph" />
+    
+    
+    <link href="" rel="alternate" type="application/rss+xml" title="Locke Data Blog" />
+    <link rel="stylesheet" href="http://lockelife.com/blog/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="http://lockelife.com/blog/css/highlightjs-themes/androidstudio.css" />
+    <link rel="stylesheet" href="http://lockelife.com/blog/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="http://lockelife.com/blog/css/lockedata.css" />
+    
+        
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({
+                    google_ad_client: "ca-pub-XXXXXX",
+                    enable_page_level_ads: true
+                });
+            </script>
+        
+    
+</head>
+
+    <body>
+        <!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+        <a class="navbar-brand page-scroll" href="/blog/#page-top">
+          
+          <img src="http://lockelife.com/blog/img/LockeDataTextNew.svg" class="img-responsive" alt="">
+        </a>
+      
+
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="hidden">
+          <a href="/blog/#page-top"></a>
+        </li>
+        
+          <li>
+            <a href="http://lockelife.com">Locke Data</a>
+          </li>
+        
+          <li>
+            <a href="/blog/blog/">Blog</a>
+          </li>
+        
+
+        
+        
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container-fluid -->
+</nav>
+
+        <div id="top" class="container">
+            <div class="row" id="content-main">
+                <div class="col-md-8">
+                    <div class="row">
+    <div class="col-md-12 content-card">
+        <h1>Working with Azure Blob Storage, some notes</h1>
+        
+            
+            <ul class="list-inline meta">
+                <li><i class="fa fa-calendar"></i>April 6, 2015</li>
+                <li><i class="fa fa-user"></i>Steph</li>
+                
+                    
+                    <li><i class="fa fa-folder"></i><a href="http://lockelife.com/categories/dataops">DataOps</a>, <a href="http://lockelife.com/categories/r">R</a></li>
+                
+            </ul>
+        
+        
+    <ul class="list-inline share" style="margin-top: 15px; margin-left: 0px">
+        <li class="facebook-share"><a target="_blank" href="http://www.facebook.com/sharer.php?u=http%3a%2f%2flockelife.com%2fblog%2f2015-04-06-working-with-azure-blob-storage-rest-api%2f"><i class="fa fa-facebook fa-lg"></i>Facebook</a></li>
+        <li class="googleplus-share"><a target="_blank" href="https://plus.google.com/share?url=http%3a%2f%2flockelife.com%2fblog%2f2015-04-06-working-with-azure-blob-storage-rest-api%2f"><i class="fa fa-google-plus fa-lg"></i>Google+</a></li>
+        <li class="twitter-share"><a target="_blank" href="https://twitter.com/share?url=http%3a%2f%2flockelife.com%2fblog%2f2015-04-06-working-with-azure-blob-storage-rest-api%2f&amp;text=Working%20with%20Azure%20Blob%20Storage%2c%20some%20notes"><i class="fa fa-twitter fa-lg"></i>Twitter</a></li>
+        <li class="reddit-share"><a target="_blank" href="http://reddit.com/submit?url=http%3a%2f%2flockelife.com%2fblog%2f2015-04-06-working-with-azure-blob-storage-rest-api%2f&amp;title=Working%20with%20Azure%20Blob%20Storage%2c%20some%20notes"><i class="fa fa-reddit fa-lg"></i>Reddit</a></li>
+        <li class="linkedin-share"><a target="_blank" href="http://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2flockelife.com%2fblog%2f2015-04-06-working-with-azure-blob-storage-rest-api%2f"><i class="fa fa-linkedin fa-lg"></i>LinkedIn</a></li>
+        <li class="stumbleupon-share"><a target="_blank" href="http://www.stumbleupon.com/submit?url=http%3a%2f%2flockelife.com%2fblog%2f2015-04-06-working-with-azure-blob-storage-rest-api%2f&amp;title=Working%20with%20Azure%20Blob%20Storage%2c%20some%20notes"><i class="fa fa-stumbleupon fa-lg"></i>StumbleUpon</a></li>
+    </ul>
+
+
+        <p>I&#8217;m working on building a snazzy <a href="https://github.com/stephlocke/Rtraining/blob/master/inst/slidedecks/shiny/Dashboards.Rmd" title="My shiny presentation" target="_blank">shiny</a> app that a) drops the inputs/parameter values into <a href="http://azure.microsoft.com/en-gb/documentation/articles/storage-introduction/" title="Azure storage intro" target="_blank">blob storage</a> and b) uses <a href="http://azure.microsoft.com/en-gb/services/stream-analytics/" title="Stream Analytics" target="_blank">Stream Analytics</a> to query the values and present back what people are saying at the moment. This&#8217;ll be a fab tool for <a href="https://itsalocke.com/index.php/r-pre-con-sqlsat-exeter/" title="My R Pre-Con: SQLSat Exeter" target="_blank">my pre-con next month</a> if I can get it working in time!</p>
+
+<p>Getting it working, does however mean utilising the <a href="https://msdn.microsoft.com/en-us/library/azure/dd179355.aspx" title="Storage API documentation" target="_blank">Azure Blob Storage API</a> in R which I confess is much harder than expected, especially after the ease of using the Visual Studio Online API for <a href="https://itsalocke.com/index.php/bride-of-frankenstein-tfs-r/" title="Bride of Frankenstein: TFS + R" target="_blank">tfsR</a>. To that end, I thought I&#8217;d write-up some of my findings before I do a bigger write-up that illustrates how to do everything (in R).</p>
+
+<p>I&#8217;m working my way through an <a href="http://justazure.com/azure-blob-storage-part-one-introduction/" title="Just Azure - working with blob storage">intro to azure storage</a> on the (hopefully reasonable) expectation that more knowledge will make it easier to work with. There&#8217;s additionally the <a href="https://msdn.microsoft.com/en-us/library/azure/dd135733.aspx" title="Blob Storage REST API" target="_blank">online reference</a>, although I found the <a href="https://www.visualstudio.com/en-us/integrate/api/overview" title="Visual Studio Online REST API documentation" target="_blank">VSO REST API</a> documentation easier to understand and get started with.</p>
+
+<p></p>
+
+<h2 id="necessary-info">Necessary info</h2>
+
+<p>To connect to an Azure Blob storage container you need to know your account name, access key, and container that you want to interact with.</p>
+
+<ul>
+<li>account name will be the blob storage account name</li>
+<li>the access key is either the primary or secondary access keys (either one is fine) and it&#8217;s worth noting that this is encoded in base64 already, so you may need to decode it before you can use it</li>
+<li>the container name you want to put blobs in</li>
+</ul>
+
+<h2 id="constructing-a-signature">Constructing a signature</h2>
+
+<p>It&#8217;s a bit weird (in my eyes anyway) but to <a href="https://msdn.microsoft.com/en-us/library/azure/dd179428.aspx" title="Azure Storage Authentication" target="_blank">authenticate your request</a> to use blob storage you have to send the request basically twice &#8211; once as the main request, and second as an identical but encoded signature in the headers of the main request.</p>
+
+<p>When you&#8217;re constructing your request you need to:</p>
+
+<ul>
+<li><p>Fix a date value to be used twice within the signature. This has to be a specific format and in R I create it via:</p>
+
+<p><code>x-ms-date &lt;- format(Sys.time(),&quot;%a, %d %b %Y %H:%M:%S %Z&quot;, tz=&quot;GMT&quot;)</code></p></li>
+
+<li><p>Construct a &#8220;Canonicalized Header&#8221; containing the x-ms-date and x-ms-version, separated with line breaks, in the format <code>headertitle:headervalue</code></p></li>
+
+<li><p>Similarly, build a &#8220;Canonicalized Resource&#8221; holding <code>/accountname/container</code> and all query parameters that appear in your API call, i.e. everything after the ?. These parameters needs to be in alphabetical order and separated with line breaks, in the format <code>headertitle:headervalue</code></p></li>
+
+<li><p>Construct a string of:</p>
+
+<ul>
+<li>the API call verb</li>
+<li>12 carriage returns</li>
+<li>the &#8220;Canonicalized Header&#8221;</li>
+<li>the &#8220;Canonicalized Resource&#8221;</li>
+</ul></li>
+</ul>
+
+<h2 id="encoding-the-signature">Encoding the signature</h2>
+
+<p>Using the (un-encoded) access key as the key or basis for this next bit you have to:</p>
+
+<ul>
+<li>Make sure your signature string is UTF8 encoded</li>
+<li>Encrypt this using HMAC using the SHA-256 algorithm</li>
+<li>Encode this into base64</li>
+</ul>
+
+<h2 id="sending-the-signature">Sending the signature</h2>
+
+<p>Phew! After all that work, the encoded signature string (as the Authorization header), the x-ms-date and x-ms-version all need to be sent in the header of the request.</p>
+
+<h2 id="my-next-steps">My next steps</h2>
+
+<p>I have <a href="https://github.com/stephlocke/Rtraining/tree/253b1584c045125ad2be89f65cbf45cc62133452/R" title="Rtraining Azure Blob Storage functions" target="_blank">work in progress R functions for this task in my Rtraining package</a>, I&#8217;m currently working on the sending of JSON to the BLOB storage and verifying how this needs to be handled in my signature string.</p>
+
+<p><strong>If you see any inaccuracies, misunderstandings, potential improvements, or rational explanations for the stuff above, please let me know by commenting!</strong></p>
+        
+    <ul class="list-inline tags" style="margin-top: 15px; margin-left: 0px">
+        
+            <li style=""><a href="http://lockelife.com/tags/api">api</a></li>
+        
+            <li style=""><a href="http://lockelife.com/tags/azure">azure</a></li>
+        
+            <li style=""><a href="http://lockelife.com/tags/blob-storage">blob storage</a></li>
+        
+            <li style=""><a href="http://lockelife.com/tags/microsoft">microsoft</a></li>
+        
+            <li style=""><a href="http://lockelife.com/tags/r">r</a></li>
+        
+            <li style=""><a href="http://lockelife.com/tags/software-development-in-r">software development in r</a></li>
+        
+            <li style=""><a href="http://lockelife.com/tags/stream-analytics">stream analytics</a></li>
+        
+    </ul>
+
+
+    </div>
+</div>
+
+                    
+    
+        <div class="row">
+            <div class="col-md-12 content-card">
+                <div id="disqus_thread"></div>
+                <script>
+                    (function() {
+                        if (window.location.hostname == "localhost") {
+                            document.write("Disqus comments are unavailable while serving on localhost or 127.0.0.1");
+                            return;
+                        }
+                        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                        var disqus_shortname = 'shortname';
+                        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                    })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+            </div>
+        </div>
+    
+
+
+                </div>
+         <div class="col-md-4">                    
+	
+<div class="row">
+    <div class="col-md-11 col-md-offset-1 card">
+        <h5></h5>
+        <p></p>
+		<img class="avatar" src="img/ChibiSteph.svg"></img>
+    </div>
+</div>
+
+    <div class="row">
+    <div class="col-md-11 col-md-offset-1 card">
+        <h5>Search</h5>
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form">
+            <div class="input-group">
+                <input class="form-control" type="search" name="q" />
+                <span class="input-group-btn">
+                    <button class="btn btn-primary" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+                </span>
+            </div>
+            <input type="hidden" name="q" value="site:">
+        </form>
+    </div>
+</div>
+
+    
+
+</div>
+            </div>
+        </div>
+        <!-- Footer section -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <span class="copyright">
+          <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+        </span>
+      </div>
+      <div class="col-md-4">
+        <ul class="list-inline social-buttons">
+          
+            <li>
+              <a href="/blog/#"><i class='fa fa-twitter'></i></a>
+            </li>
+          
+            <li>
+              <a href="/blog/#"><i class='fa fa-facebook'></i></a>
+            </li>
+          
+            <li>
+              <a href="/blog/#"><i class='fa fa-linkedin'></i></a>
+            </li>
+          
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <ul class="list-inline quicklinks">
+          
+            <li>
+              <a href="http://lockelife.com/#company">Legalise and stuff</a>
+            </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+        <div id="back-to-top" class="hidden">
+    <a href="#top" class="well well-sm" onclick="$('html,body').animate({scrollTop:0},'slow');return false;">
+        <i class="glyphicon glyphicon-chevron-up"></i> Back to Top
+    </a>
+</div>
+<script src="http://lockelife.com/blog/js/jquery.min.js"></script>
+<script src="http://lockelife.com/blog/js/bootstrap.min.js"></script>
+<script src="http://lockelife.com/blog/js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script>
+    if(($(window).height() + 100) < $(document).height()) {
+        $('#back-to-top').removeClass('hidden').affix({
+            offset: {
+                top: 100
+            }
+        });
+    }
+</script>
+
+    
+        <script>
+            
+            [].forEach.call(document.querySelectorAll('.adsbygoogle'), function() {
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            });
+        </script>
+    
+
+
+    
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-XXXXX-YY', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+
+
+
+    </body>
+</html>

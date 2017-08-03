@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mentoring on Locke Data Blog</title>
+    <link>http://lockelife.com/blog/tags/mentoring/</link>
+    <description>Recent content in Mentoring on Locke Data Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
+    <lastBuildDate>Wed, 11 Nov 2015 09:43:11 +0000</lastBuildDate>
+    
+	<atom:link href="http://lockelife.com/blog/tags/mentoring/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Boris’ presentation agency – 356labs</title>
+      <link>http://lockelife.com/blog/2015-11-11-boris-presentation-agency-356-labs/</link>
+      <pubDate>Wed, 11 Nov 2015 09:43:11 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2015-11-11-boris-presentation-agency-356-labs/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://borishristov.com/&#34;&gt;Boris Hristrov&lt;/a&gt;, Data Platform MVP, design whizz, and all-round great guy, recently launched &lt;a href=&#34;http://www.356labs.com/&#34;&gt;356labs&lt;/a&gt;. Boris wrote a great &lt;a href=&#34;http://www.pluralsight.com/courses/presentation-design-introduction&#34;&gt;Presentation Design course&lt;/a&gt; for &lt;a href=&#34;https://preview.pluralsight.com/&#34;&gt;PluralSight&lt;/a&gt;, you can sign up for a trial of PluralSight and watch the course if you&amp;#8217;d like to find out more.&lt;/p&gt;
+
+&lt;p&gt;Being an avid reader of design stuff I did find I knew some of the things on the course, but the context and application were very helpful. Off the back of his course, I went on to produce my most visually impressive presentation slide deck to date &amp;#8211; Agile BI.&lt;/p&gt;
+
+&lt;p&gt;I took a look over his site and asked a few questions since I was really curious. Here are the responses!&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Stuff I read this week</title>
+      <link>http://lockelife.com/blog/2015-02-13-stuff-read-week/</link>
+      <pubDate>Fri, 13 Feb 2015 15:45:58 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2015-02-13-stuff-read-week/</guid>
+      <description>Here&amp;#8217;s a selection of articles etc. that I found really interesting this week:
+ Gendered Language in Teacher Reviews Knowledge units &amp;#8211; the atoms of statistical education SQLBits in The Register Paul Randal: Want to be mentored by me? Replacing Middle Management with APIs R in Business Intelligence The RHS assignment operator in R Ooh R Can Microsoft make R easy?  </description>
+    </item>
+    
+    <item>
+      <title>Paul Randal offers mentoring</title>
+      <link>http://lockelife.com/blog/2015-02-06-paul-randal-offers-mentoring/</link>
+      <pubDate>Fri, 06 Feb 2015 19:20:50 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2015-02-06-paul-randal-offers-mentoring/</guid>
+      <description>&lt;p&gt;Hot off the back of his win in the &lt;a href=&#34;https://www.simple-talk.com/blogs/2015/01/20/tribal-awards-2014-winners-announcement/&#34; title=&#34;Tribal Awards winners&#34; target=&#34;_blank&#34;&gt;Tribal Awards&lt;/a&gt;, Paul is &lt;a href=&#34;http://www.sqlskills.com/blogs/paul/want-mentored/&#34; title=&#34;Paul Randal - mentoring opportunity&#34; target=&#34;_blank&#34;&gt;offering to mentor&lt;/a&gt; 3 men &amp;amp; 3 women for two months. To be in with a chance of getting mentored by Paul, you simply need to apply by writing a blog post about why you should be considered for mentoring and posting the link by the 15th Feb 2015.&lt;/p&gt;
+
+&lt;p&gt;I think it&amp;#8217;s an awesome offer that you should take up if possible (i.e. you&amp;#8217;re reading before the deadline) and whilst I&amp;#8217;m busy trying to convince you I&amp;#8217;m going to insert my application too. Hopefully, seeing my application will help you form your own.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-is-the-value-of-being-mentored&#34;&gt;What is the value of being mentored?&lt;/h2&gt;
+
+&lt;p&gt;Mentoring gives you the opportunity to have someone who can assist you in the way a senior techy can when you face a technical challenge. They can give valuable advice about hidden perils, shortcuts, and point out code smells.&lt;/p&gt;
+
+&lt;p&gt;That advice is valuable, but to get it you need to properly formulate your issue or challenge faced. Like posting on Stack Overflow, putting thought and preparation into the question gives you a deeper understanding before you even talk to your mentor.&lt;/p&gt;
+
+&lt;p&gt;It&amp;#8217;s worth noting that you can&amp;#8217;t be vague. &amp;#8220;I want to be the best&amp;#8221; or &amp;#8220;I want to know everything&amp;#8221; is never going to happen. Mentoring is not a panacea for your entire career &amp;#8211; especially with short duration mentoring like Paul&amp;#8217;s. To get the value, you need to settle on a specific issue or challenge that you want to tackle.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

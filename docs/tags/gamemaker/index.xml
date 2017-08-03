@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gamemaker on Locke Data Blog</title>
+    <link>http://lockelife.com/blog/tags/gamemaker/</link>
+    <description>Recent content in Gamemaker on Locke Data Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
+    <lastBuildDate>Sat, 17 Sep 2016 20:11:54 +0000</lastBuildDate>
+    
+	<atom:link href="http://lockelife.com/blog/tags/gamemaker/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Finished my first GameMaker Game</title>
+      <link>http://lockelife.com/blog/2016-09-17-first-gamemaker-game/</link>
+      <pubDate>Sat, 17 Sep 2016 20:11:54 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2016-09-17-first-gamemaker-game/</guid>
+      <description>Getting started with GameMaker, making Asteroids! I mean OK, it&amp;#8217;s just a clone of a classic, but isn&amp;#8217;t that how fledgling artists practice? Initially created following a tutorial, I then went through and added a lot of extra features, including music, splash screens, a pause function and much cleaner code.
+Embedding by i-frame is pretty ugly, so please follow the link below to try the game.
+Asteroids Game
+A/D or Left/Right to turn W or Up to move Space or Right Control to shoot Escape to pause You can download the gmz file, and import into your copy of Game Maker if you&amp;#8217;d like, using this link: https://dl.</description>
+    </item>
+    
+  </channel>
+</rss>

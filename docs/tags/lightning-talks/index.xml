@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lightning Talks on Locke Data Blog</title>
+    <link>http://lockelife.com/blog/tags/lightning-talks/</link>
+    <description>Recent content in Lightning Talks on Locke Data Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
+    <lastBuildDate>Tue, 12 Jul 2016 15:27:57 +0000</lastBuildDate>
+    
+	<atom:link href="http://lockelife.com/blog/tags/lightning-talks/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ideas for (lightning) talks</title>
+      <link>http://lockelife.com/blog/2016-07-12-ideas-lightning-talks/</link>
+      <pubDate>Tue, 12 Jul 2016 15:27:57 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2016-07-12-ideas-lightning-talks/</guid>
+      <description>I&amp;#8217;m trying to encourage more lightning talks at my user groups, and I started by writing a plea to folks at my local R user group, caRdiff. In it I included some ideas for lightning talks, and of course, these can be used as the basis for long talks too. We had some fun batting this list around and expanding it in the Cardiff dev group. I thought it was worth sharing, and getting some more ideas from you!</description>
+    </item>
+    
+  </channel>
+</rss>

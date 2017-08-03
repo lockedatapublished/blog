@@ -1,0 +1,77 @@
+baseurl                 = "http://lockelife.com/blog/"
+languageCode            = "en-gb"
+title                   = "Locke Data Blog"
+theme                   = "hugo-lockedata-blog"
+
+[permalinks]
+    post                = "/:title/"
+    page                = "/:title/"
+
+[taxonomies]
+    tag                 = "tags"
+    category            = "categories"
+	status              = "statuses"
+
+# The header menu will appear as an inline-list at the top right of the page
+[[languages.en.menu.prepend]]
+    name                = "Locke Data"
+    weight              = 1
+    url                 = "http://lockelife.com"
+
+[[languages.en.menu.prepend]]
+    name                = "Blog"
+    weight              = 3
+    url                 = "/"
+
+# The footer menu will appear as an inline-list at the bottom left of the footer found at the bottom of the screen
+  # Footer
+  [params.footer]
+    enable = true
+
+  [[languages.en.menu.social]]
+    weight = 10
+    name = "twitter"
+    pre = "<i class='fa fa-twitter'></i>"
+    url = "#"
+  [[languages.en.menu.social]]
+    weight = 20
+    name = "facebook"
+    pre = "<i class='fa fa-facebook'></i>"
+    url = "#"
+  [[languages.en.menu.social]]
+    weight = 30
+    name = "linkedin"
+    pre = "<i class='fa fa-linkedin'></i>"
+    url = "#"
+  [[languages.en.menu.footer]]
+    weight = 10
+    name = "Legalise and stuff"
+    url = "http://lockelife.com/#company"
+[params]
+    keywords            = ["default", "keywords", "if", "no", "front", "matter"]
+    description         = "A description that will appear as a default if front matter does not exist"
+    google_analytics    = "UA-XXXXX-YY"
+    google_adsense      = "ca-pub-XXXXXX"
+    disqus              = "shortname"
+    google_webmaster    = ""
+    bing_webmaster      = ""
+    alexa               = ""
+    favicon             = ""
+copyright = '<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.'
+
+  [params.navigation]
+    # Optional brand logo used in nav stored in 'static/img/'.
+    logo = "LockeDataTextNew.svg"
+	
+# Social media icons and links that appear in the footer
+[social]
+    twitter             = "https://www.twitter.com/NAME_HERE"
+    googleplus          = ""
+    linkedin            = "https://www.linkedin.com/in/NAME_HERE"
+    youtube             = "https://www.youtube.com/users/NAME_HERE"
+    paypal              = ""
+    instagram           = ""
+    reddit              = ""
+    email               = ""
+    pinterest           = ""
+    wordpress           = ""

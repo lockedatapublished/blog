@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+    <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.25.1" />
+    <title>How to change “No match found!” on your no-code Q&amp;A bot</title>
+    
+    
+    
+    <meta name="description" content="A description that will appear as a default if front matter does not exist" />
+    <meta name="keywords" content='azure functions,bot services,bots,qnamaker' />
+    
+        <meta name="author" content="Steph" />
+    
+    
+    <link href="" rel="alternate" type="application/rss+xml" title="Locke Data Blog" />
+    <link rel="stylesheet" href="http://lockelife.com/blog/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="http://lockelife.com/blog/css/highlightjs-themes/androidstudio.css" />
+    <link rel="stylesheet" href="http://lockelife.com/blog/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="http://lockelife.com/blog/css/lockedata.css" />
+    
+        
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({
+                    google_ad_client: "ca-pub-XXXXXX",
+                    enable_page_level_ads: true
+                });
+            </script>
+        
+    
+</head>
+
+    <body>
+        <!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+        <a class="navbar-brand page-scroll" href="/blog/#page-top">
+          
+          <img src="http://lockelife.com/blog/img/LockeDataTextNew.svg" class="img-responsive" alt="">
+        </a>
+      
+
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="hidden">
+          <a href="/blog/#page-top"></a>
+        </li>
+        
+          <li>
+            <a href="http://lockelife.com">Locke Data</a>
+          </li>
+        
+          <li>
+            <a href="/blog/blog/">Blog</a>
+          </li>
+        
+
+        
+        
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container-fluid -->
+</nav>
+
+        <div id="top" class="container">
+            <div class="row" id="content-main">
+                <div class="col-md-8">
+                    <div class="row">
+    <div class="col-md-12 content-card">
+        <h1>How to change “No match found!” on your no-code Q&amp;A bot</h1>
+        
+            
+            <ul class="list-inline meta">
+                <li><i class="fa fa-calendar"></i>May 22, 2017</li>
+                <li><i class="fa fa-user"></i>Steph</li>
+                
+                    
+                    <li><i class="fa fa-folder"></i><a href="http://lockelife.com/categories/microsoft-data-platform">Microsoft Data Platform</a>, <a href="http://lockelife.com/categories/misc-technology">Misc Technology</a></li>
+                
+            </ul>
+        
+        
+    <ul class="list-inline share" style="margin-top: 15px; margin-left: 0px">
+        <li class="facebook-share"><a target="_blank" href="http://www.facebook.com/sharer.php?u=http%3a%2f%2flockelife.com%2fblog%2f2017-05-22-change-no-match-found-no-code-qa-bot%2f"><i class="fa fa-facebook fa-lg"></i>Facebook</a></li>
+        <li class="googleplus-share"><a target="_blank" href="https://plus.google.com/share?url=http%3a%2f%2flockelife.com%2fblog%2f2017-05-22-change-no-match-found-no-code-qa-bot%2f"><i class="fa fa-google-plus fa-lg"></i>Google+</a></li>
+        <li class="twitter-share"><a target="_blank" href="https://twitter.com/share?url=http%3a%2f%2flockelife.com%2fblog%2f2017-05-22-change-no-match-found-no-code-qa-bot%2f&amp;text=How%20to%20change%20%e2%80%9cNo%20match%20found%21%e2%80%9d%20on%20your%20no-code%20Q%26A%20bot"><i class="fa fa-twitter fa-lg"></i>Twitter</a></li>
+        <li class="reddit-share"><a target="_blank" href="http://reddit.com/submit?url=http%3a%2f%2flockelife.com%2fblog%2f2017-05-22-change-no-match-found-no-code-qa-bot%2f&amp;title=How%20to%20change%20%e2%80%9cNo%20match%20found%21%e2%80%9d%20on%20your%20no-code%20Q%26A%20bot"><i class="fa fa-reddit fa-lg"></i>Reddit</a></li>
+        <li class="linkedin-share"><a target="_blank" href="http://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2flockelife.com%2fblog%2f2017-05-22-change-no-match-found-no-code-qa-bot%2f"><i class="fa fa-linkedin fa-lg"></i>LinkedIn</a></li>
+        <li class="stumbleupon-share"><a target="_blank" href="http://www.stumbleupon.com/submit?url=http%3a%2f%2flockelife.com%2fblog%2f2017-05-22-change-no-match-found-no-code-qa-bot%2f&amp;title=How%20to%20change%20%e2%80%9cNo%20match%20found%21%e2%80%9d%20on%20your%20no-code%20Q%26A%20bot"><i class="fa fa-stumbleupon fa-lg"></i>StumbleUpon</a></li>
+    </ul>
+
+
+        <p>Last week, I blogged about <a href="https://itsalocke.com/easy-peasy-qa-bot/">building a no-code Q&amp;A bot</a> for your website. One little niggle I had with the bot was the response when it could match a user input to a Q&amp;A. I wondered how to change &#8220;No match found!&#8221;.</p>
+
+<p>I looked around the <a href="https://qnamaker.ai">qnamaker.ai</a> site and couldn&#8217;t find a place I could change this. I submitted some feedback and the great people at the other of the Q&amp;A site responded super quickly. I&#8217;ve raised a number of feedback points with them and I must say they&#8217;ve absolutely amazing at responding. But I digress.</p>
+
+<p>They responded with this link: <a href="https://docs.microsoft.com/en-us/bot-framework/azure/azure-bot-service-template-question-and-answer">Create a question and answer bot</a></p>
+
+<p>That&#8217;s a great resource for techies but gibberish for someone trying to fudge their way through building these bots like I am!</p>
+
+<p>In essence, if you&#8217;ve already built your Q&amp;A bot, what you need to do change &#8220;No match found!&#8221; for your bot is:</p>
+
+<ul>
+<li>Go to <a href="https://portal.azure.com">the Azure portal</a></li>
+<li>Navigate to the Apps section and select your bot&#8217;s name
+
+<ul>
+<li>This will show a load of code and a file navigation tree on the left hand side</li>
+</ul></li>
+<li>Navigate to BasicQnAMakerDialog.csx</li>
+<li>Go to the line beginning with <code>public BasicQnAMakerDialog() :</code></li>
+<li>Scroll to the end of the line and put your cursor after the first closing bracket</li>
+<li>Type a comma (<code>,</code>) and then inside two speech marks (<code>&quot;</code>) the response you want to return</li>
+<li>Hit Save</li>
+</ul>
+
+<p>So the relevant line might go from</p>
+
+<pre><code>    public BasicQnAMakerDialog() : base(new QnAMakerService(new QnAMakerAttribute(Utils.GetAppSetting(&quot;QnASubscriptionKey&quot;), Utils.GetAppSetting(&quot;QnAKnowledgebaseId&quot;))))
+</code></pre>
+
+<p>to</p>
+
+<pre><code>    public BasicQnAMakerDialog() : base(new QnAMakerService(new QnAMakerAttribute(Utils.GetAppSetting(&quot;QnASubscriptionKey&quot;), Utils.GetAppSetting(&quot;QnAKnowledgebaseId&quot;), &quot;I'm sorry Dave, I'm afraid I can't do that.&quot;)))
+</code></pre>
+
+        
+    <ul class="list-inline tags" style="margin-top: 15px; margin-left: 0px">
+        
+            <li style=""><a href="http://lockelife.com/tags/azure-functions">azure functions</a></li>
+        
+            <li style=""><a href="http://lockelife.com/tags/bot-services">bot services</a></li>
+        
+            <li style=""><a href="http://lockelife.com/tags/bots">bots</a></li>
+        
+            <li style=""><a href="http://lockelife.com/tags/qnamaker">qnamaker</a></li>
+        
+    </ul>
+
+
+    </div>
+</div>
+
+                    
+    
+        <div class="row">
+            <div class="col-md-12 content-card">
+                <div id="disqus_thread"></div>
+                <script>
+                    (function() {
+                        if (window.location.hostname == "localhost") {
+                            document.write("Disqus comments are unavailable while serving on localhost or 127.0.0.1");
+                            return;
+                        }
+                        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                        var disqus_shortname = 'shortname';
+                        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                    })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+            </div>
+        </div>
+    
+
+
+                </div>
+         <div class="col-md-4">                    
+	
+<div class="row">
+    <div class="col-md-11 col-md-offset-1 card">
+        <h5></h5>
+        <p></p>
+		<img class="avatar" src="img/ChibiSteph.svg"></img>
+    </div>
+</div>
+
+    <div class="row">
+    <div class="col-md-11 col-md-offset-1 card">
+        <h5>Search</h5>
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form">
+            <div class="input-group">
+                <input class="form-control" type="search" name="q" />
+                <span class="input-group-btn">
+                    <button class="btn btn-primary" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+                </span>
+            </div>
+            <input type="hidden" name="q" value="site:">
+        </form>
+    </div>
+</div>
+
+    
+
+</div>
+            </div>
+        </div>
+        <!-- Footer section -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <span class="copyright">
+          <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+        </span>
+      </div>
+      <div class="col-md-4">
+        <ul class="list-inline social-buttons">
+          
+            <li>
+              <a href="/blog/#"><i class='fa fa-twitter'></i></a>
+            </li>
+          
+            <li>
+              <a href="/blog/#"><i class='fa fa-facebook'></i></a>
+            </li>
+          
+            <li>
+              <a href="/blog/#"><i class='fa fa-linkedin'></i></a>
+            </li>
+          
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <ul class="list-inline quicklinks">
+          
+            <li>
+              <a href="http://lockelife.com/#company">Legalise and stuff</a>
+            </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+        <div id="back-to-top" class="hidden">
+    <a href="#top" class="well well-sm" onclick="$('html,body').animate({scrollTop:0},'slow');return false;">
+        <i class="glyphicon glyphicon-chevron-up"></i> Back to Top
+    </a>
+</div>
+<script src="http://lockelife.com/blog/js/jquery.min.js"></script>
+<script src="http://lockelife.com/blog/js/bootstrap.min.js"></script>
+<script src="http://lockelife.com/blog/js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script>
+    if(($(window).height() + 100) < $(document).height()) {
+        $('#back-to-top').removeClass('hidden').affix({
+            offset: {
+                top: 100
+            }
+        });
+    }
+</script>
+
+    
+        <script>
+            
+            [].forEach.call(document.querySelectorAll('.adsbygoogle'), function() {
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            });
+        </script>
+    
+
+
+    
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-XXXXX-YY', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+
+
+
+    </body>
+</html>

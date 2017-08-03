@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tutorial on Locke Data Blog</title>
+    <link>http://lockelife.com/blog/tags/tutorial/</link>
+    <description>Recent content in Tutorial on Locke Data Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
+    <lastBuildDate>Fri, 16 Aug 2013 17:06:24 +0000</lastBuildDate>
+    
+	<atom:link href="http://lockelife.com/blog/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SSIS basics and gotchas – presentation and resources</title>
+      <link>http://lockelife.com/blog/2013-08-16-ssis-basics-and-gotchas-presentation-and-resources/</link>
+      <pubDate>Fri, 16 Aug 2013 17:06:24 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2013-08-16-ssis-basics-and-gotchas-presentation-and-resources/</guid>
+      <description>Follow up resources / places to go for way more detail:
+Stairway to SSIS
+MSFT SSIS tutorial package 1
+MSFT SSIS tutorial package 2
+MSFT SSIS tutorial package 3
+SQLCat SSIS best practices
+Bob Duffy SSIS best practices
+Connection Strings
+The BOL for SSIS 
+Design Patterns book
+Design patterns 24HOP vid</description>
+    </item>
+    
+  </channel>
+</rss>

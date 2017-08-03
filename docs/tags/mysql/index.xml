@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mysql on Locke Data Blog</title>
+    <link>http://lockelife.com/blog/tags/mysql/</link>
+    <description>Recent content in Mysql on Locke Data Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
+    <lastBuildDate>Sat, 03 Jan 2015 16:21:11 +0000</lastBuildDate>
+    
+	<atom:link href="http://lockelife.com/blog/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Updated site</title>
+      <link>http://lockelife.com/blog/2015-01-03-updated-site/</link>
+      <pubDate>Sat, 03 Jan 2015 16:21:11 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2015-01-03-updated-site/</guid>
+      <description>&lt;p&gt;As I&amp;#8217;ve been using this blog more recently, the page speed has been becoming much more frustrating. So today, I&amp;#8217;ve done some stuff to improve it and it&amp;#8217;s now twice as fast as it used to be. Please let me know what you think of the new style!&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Synchronising schema between MSSQL &amp; MySQL with SSIS</title>
+      <link>http://lockelife.com/blog/2013-05-29-synchronising-schema-between-mssql-mysql-with-ssis/</link>
+      <pubDate>Wed, 29 May 2013 16:25:47 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2013-05-29-synchronising-schema-between-mssql-mysql-with-ssis/</guid>
+      <description>&lt;p&gt;The problem:&lt;/p&gt;
+
+&lt;p&gt;A system we need to report on that is form based.  Whenever there is a new form, there is a new table, and whenever there is a new or amended* field on the form, there is a new column in the table.  Maintaining the imports of this data into a staging environment would require a lot of code and time to build manually from scratch.&lt;/p&gt;
+
+&lt;p&gt;What is required is something that goes through the two schema for all relevant objects and updates our staging area’s schema accordingly.&lt;/p&gt;
+
+&lt;p&gt;Points for consideration:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Due to the level of change in source system, all loads are dynamically generated SQL&lt;/li&gt;
+&lt;li&gt;Loads run from a data dictionary table, which needs to be updated when we update the schema&lt;/li&gt;
+&lt;li&gt;Loads occur daily&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

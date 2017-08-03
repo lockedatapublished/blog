@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Get Started on Locke Data Blog</title>
+    <link>http://lockelife.com/blog/tags/get-started/</link>
+    <description>Recent content in Get Started on Locke Data Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
+    <lastBuildDate>Tue, 02 May 2017 07:41:04 +0000</lastBuildDate>
+    
+	<atom:link href="http://lockelife.com/blog/tags/get-started/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Getting started with data science – recommended resources</title>
+      <link>http://lockelife.com/blog/2017-05-02-getting-started-with-data-science-recommended-resources/</link>
+      <pubDate>Tue, 02 May 2017 07:41:04 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2017-05-02-getting-started-with-data-science-recommended-resources/</guid>
+      <description>An oft asked question is what resources can I recommend for getting started with data science? Here are my recommendations, and if you have others, please put them in the comments!
+ NB Links in this post may be affiliate links &amp;#8211; it doesn&amp;#8217;t change the prices you get but might earn me a little money
+ Books Data Science for Business Data Science for Business
+Data Science for Business is a great overview book.</description>
+    </item>
+    
+  </channel>
+</rss>

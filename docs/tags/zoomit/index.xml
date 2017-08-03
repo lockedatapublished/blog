@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zoomit on Locke Data Blog</title>
+    <link>http://lockelife.com/blog/tags/zoomit/</link>
+    <description>Recent content in Zoomit on Locke Data Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
+    <lastBuildDate>Mon, 13 Apr 2015 12:24:14 +0000</lastBuildDate>
+    
+	<atom:link href="http://lockelife.com/blog/tags/zoomit/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Organised speaking – improving font sizes</title>
+      <link>http://lockelife.com/blog/2015-04-13-organised-speaking-improving-font-sizes/</link>
+      <pubDate>Mon, 13 Apr 2015 12:24:14 +0000</pubDate>
+      
+      <guid>http://lockelife.com/blog/2015-04-13-organised-speaking-improving-font-sizes/</guid>
+      <description>A recurring problem with my presentations is font size.
+ The inclusion of code in my Rmarkdown slides was by default too small. Upping the fontsize via CSS worked ok, but when I switched to a shiny app version for my intro to shiny, it reverted and I&amp;#8217;m afraid to say I didn&amp;#8217;t notice beforehand. I use PuTTY for showing how to do some stuff in the linux command line but the font&amp;#8217;s quite small by default and Gail Shaw&amp;#8217;s tip of Magnifier in my session was tough to use I&amp;#8217;ve upped my font size on my Rstudio IDE, but hadn&amp;#8217;t yet implemented this across other IDEs I tend to use my mouse cursor to draw attention to things.</description>
+    </item>
+    
+  </channel>
+</rss>
