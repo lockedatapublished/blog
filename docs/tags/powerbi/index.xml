@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Powerbi on Locke Data Blog</title>
-    <link>http://lockelife.com/blog/tags/powerbi/</link>
+    <link>http://lockedata.uk/itsalockeblog/tags/powerbi/</link>
     <description>Recent content in Powerbi on Locke Data Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
     <lastBuildDate>Wed, 01 Jun 2016 08:09:32 +0000</lastBuildDate>
     
-	<atom:link href="http://lockelife.com/blog/tags/powerbi/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://lockedata.uk/itsalockeblog/tags/powerbi/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Recent presentations</title>
-      <link>http://lockelife.com/blog/2016-06-01-recent-presentations/</link>
+      <link>http://lockedata.uk/itsalockeblog/2016-06-01-recent-presentations/</link>
       <pubDate>Wed, 01 Jun 2016 08:09:32 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2016-06-01-recent-presentations/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2016-06-01-recent-presentations/</guid>
       <description>The last month or so has been a whirlwind of awesomeness with a veritable bevvy of user group and conference talks on my part! I thought I would share the materials with you and provide some brief thoughts on how each presentation went.
 Sessions  SQL Saturday Exeter : Stats 101 London Business Analytics (LBAG) : Skilling up to code with data SQLBits &amp;amp; TUGA : Cut the R Learning Curve SQLBits &amp;amp; TUGA : R in the Microsoft Data Platform (full day of training) IT Pro Portugal : Being lazy with infrastructure  SQL Saturday Exeter My presentation, in my opinion, was exceedingly brave.</description>
     </item>
     
     <item>
       <title>@SQLCardiff: Return of the Beard (2016-03-30)</title>
-      <link>http://lockelife.com/blog/2016-03-15-sqlcardiff-return-beard-2016-03-30/</link>
+      <link>http://lockedata.uk/itsalockeblog/2016-03-15-sqlcardiff-return-beard-2016-03-30/</link>
       <pubDate>Tue, 15 Mar 2016 09:59:42 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2016-03-15-sqlcardiff-return-beard-2016-03-30/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2016-03-15-sqlcardiff-return-beard-2016-03-30/</guid>
       <description>Just a quick heads up to peeps in and around Cardiff, Wales. Later this month we&amp;#8217;re holding Battle of the Beards: Return of the Beard. Fantastic speakers with resplendent beards are joining us for our 6 sq. ft of pizza to present on advanced SQL Tricks, using PowerBI as a DBA, and stepping up to the challenge of the last minute audit.
 This is a great chance to meet folks interested in the Microsoft Data Platform and learn from some incredibly knowledgable speakers.</description>
     </item>

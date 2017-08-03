@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Coveralls on Locke Data Blog</title>
-    <link>http://lockelife.com/blog/tags/coveralls/</link>
+    <link>http://lockedata.uk/itsalockeblog/tags/coveralls/</link>
     <description>Recent content in Coveralls on Locke Data Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
     <lastBuildDate>Tue, 02 May 2017 12:10:32 +0000</lastBuildDate>
     
-	<atom:link href="http://lockelife.com/blog/tags/coveralls/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://lockedata.uk/itsalockeblog/tags/coveralls/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>The making of datasauRus</title>
-      <link>http://lockelife.com/blog/2017-05-02-the-making-of-datasaurus/</link>
+      <link>http://lockedata.uk/itsalockeblog/2017-05-02-the-making-of-datasaurus/</link>
       <pubDate>Tue, 02 May 2017 12:10:32 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2017-05-02-the-making-of-datasaurus/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2017-05-02-the-making-of-datasaurus/</guid>
       <description>Around 8:30pm I saw this tweet and duly retweeted
 https://t.co/WuyU9D6npK  &amp;mdash; Richie Cotton (@richierocks) May 1, 2017  It turns out awesome folks, George and Justin, had made a process whereby they can generate different distributions of points that retain the same summary statistics. They used this process for making some friends for Dino the Datasaurus who was created by Alberto Cairo. They made the data for Dino and the rest of the Datasaurus Dozen available for download.</description>
     </item>

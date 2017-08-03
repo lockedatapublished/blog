@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Agile on Locke Data Blog</title>
-    <link>http://lockelife.com/blog/tags/agile/</link>
+    <link>http://lockedata.uk/itsalockeblog/tags/agile/</link>
     <description>Recent content in Agile on Locke Data Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
     <lastBuildDate>Wed, 08 Feb 2017 16:25:20 +0000</lastBuildDate>
     
-	<atom:link href="http://lockelife.com/blog/tags/agile/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://lockedata.uk/itsalockeblog/tags/agile/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Talking Data and Docker</title>
-      <link>http://lockelife.com/blog/2017-02-08-talking-data-and-docker/</link>
+      <link>http://lockedata.uk/itsalockeblog/2017-02-08-talking-data-and-docker/</link>
       <pubDate>Wed, 08 Feb 2017 16:25:20 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2017-02-08-talking-data-and-docker/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2017-02-08-talking-data-and-docker/</guid>
       <description>If you need to know about persisting data in the world of containers then I recently did a talk and a spot on a podcast that should help you out. My NDC London talk Data + Docker = Disconbobulating? cover the basics and architectural decisions. In my podcast spot Data and Docker on .Net Rocks we go into more depth about the architectural decisions facing you when working with data and Docker.</description>
     </item>
     
     <item>
       <title>CRISP-DM and why you should know about it</title>
-      <link>http://lockelife.com/blog/2017-01-13-crisp-dm/</link>
+      <link>http://lockedata.uk/itsalockeblog/2017-01-13-crisp-dm/</link>
       <pubDate>Fri, 13 Jan 2017 15:28:32 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2017-01-13-crisp-dm/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2017-01-13-crisp-dm/</guid>
       <description>&lt;p&gt;The Cross Industry Standard Process for Data Mining (CRISP-DM) was a concept developed 20 years ago now. I&amp;#8217;ve read about it in various data mining and related books and it&amp;#8217;s come in very handy over the years. In this post, I&amp;#8217;ll outline what the model is and why you should know about it, even if it has that terribly out of vogue phrase data mining in it! 😉&lt;/p&gt;
 
 &lt;blockquote class=&#34;twitter-tweet&#34; data-width=&#34;525&#34;&gt;
@@ -44,10 +44,10 @@
     
     <item>
       <title>Anchor Modelling: Sixth Normal Form databases</title>
-      <link>http://lockelife.com/blog/2015-12-31-anchor-modelling-sixth-normal-form-databases/</link>
+      <link>http://lockedata.uk/itsalockeblog/2015-12-31-anchor-modelling-sixth-normal-form-databases/</link>
       <pubDate>Thu, 31 Dec 2015 11:47:29 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2015-12-31-anchor-modelling-sixth-normal-form-databases/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2015-12-31-anchor-modelling-sixth-normal-form-databases/</guid>
       <description>About Anchor Modelling Anchor Modelling moves you beyond third normal form and into sixth normal form. What does this mean?
  Not sure about the normal forms? See the normalization process in actions with this normalisation example
  Essentially it means that an attribute is stored independently against the key, not in a big table with other attributes. This means you can easily store metadata about that attribute and do full change tracking with ease.</description>
@@ -55,10 +55,10 @@
     
     <item>
       <title>SQLSaturday Portugal</title>
-      <link>http://lockelife.com/blog/2015-05-18-sqlsaturday-portugal/</link>
+      <link>http://lockedata.uk/itsalockeblog/2015-05-18-sqlsaturday-portugal/</link>
       <pubDate>Mon, 18 May 2015 09:42:13 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2015-05-18-sqlsaturday-portugal/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2015-05-18-sqlsaturday-portugal/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://www.sqlsaturday.com/369/EventHome.aspx&#34;&gt;SQLSaturday Portugal 2015&lt;/a&gt; has been a huge amount of fun but I&amp;#8217;ve also learnt a lot. A big thank you to the organisers!&lt;/p&gt;
 
 &lt;p&gt;Below are my slides and notes from sessions I attended.&lt;/p&gt;
@@ -72,10 +72,10 @@
     
     <item>
       <title>SQL Saturday Exeter: Steph &amp; Oz’s slides</title>
-      <link>http://lockelife.com/blog/2015-04-26-sql-saturday-exeter-steph-ozs-slides/</link>
+      <link>http://lockedata.uk/itsalockeblog/2015-04-26-sql-saturday-exeter-steph-ozs-slides/</link>
       <pubDate>Sun, 26 Apr 2015 16:04:36 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2015-04-26-sql-saturday-exeter-steph-ozs-slides/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2015-04-26-sql-saturday-exeter-steph-ozs-slides/</guid>
       <description>Well SQL Saturday Exeter flew by. T&amp;#8217;was great catching up with people, seeing folks learn how to use (old &amp;amp; new) tools better, and just generally watching everyone having a great time at one of the best organised conferences I have the pleasure of going to.
 Here are links to all the slide decks etc that we presented this weekend:
  My R: analysis to integration training day notes &amp;amp; source code My agile BI slide deck My Shiny: dashboards in R slide deck &amp;amp; source code Oz&amp;#8217;s SSRS: Beyond the basics slide deck &amp;amp; source code  If you attended any of our sessions, give us some constructive criticism!</description>

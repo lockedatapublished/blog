@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Community on Locke Data Blog</title>
-    <link>http://lockelife.com/blog/categories/community/</link>
+    <link>http://lockedata.uk/itsalockeblog/categories/community/</link>
     <description>Recent content in Community on Locke Data Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
     <lastBuildDate>Tue, 13 Jun 2017 16:44:19 +0000</lastBuildDate>
     
-	<atom:link href="http://lockelife.com/blog/categories/community/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://lockedata.uk/itsalockeblog/categories/community/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Why data people don’t do devops</title>
-      <link>http://lockelife.com/blog/2017-06-13-why-data-people-dont-do-devops/</link>
+      <link>http://lockedata.uk/itsalockeblog/2017-06-13-why-data-people-dont-do-devops/</link>
       <pubDate>Tue, 13 Jun 2017 16:44:19 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2017-06-13-why-data-people-dont-do-devops/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2017-06-13-why-data-people-dont-do-devops/</guid>
       <description>T-SQL TuesdayFor T-SQL Tuesday #91 the topic is databases and devops. Grant Fritchey asks us:
  How do we approach DevOps as developers, DBAs, report writers, analysts and database developers? How do we deal with data persistence, process, source control and all the rest of the tools and mechanisms, and most importantly, culture, that would enable us to get better, higher functioning teams put together? Please, tell me your DevOps stories.</description>
     </item>
     
     <item>
       <title>Getting started with data science – recommended resources</title>
-      <link>http://lockelife.com/blog/2017-05-02-getting-started-with-data-science-recommended-resources/</link>
+      <link>http://lockedata.uk/itsalockeblog/2017-05-02-getting-started-with-data-science-recommended-resources/</link>
       <pubDate>Tue, 02 May 2017 07:41:04 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2017-05-02-getting-started-with-data-science-recommended-resources/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2017-05-02-getting-started-with-data-science-recommended-resources/</guid>
       <description>An oft asked question is what resources can I recommend for getting started with data science? Here are my recommendations, and if you have others, please put them in the comments!
  NB Links in this post may be affiliate links &amp;#8211; it doesn&amp;#8217;t change the prices you get but might earn me a little money
  Books Data Science for Business Data Science for Business
@@ -36,10 +36,10 @@ Data Science for Business is a great overview book.</description>
     
     <item>
       <title>Building your booth presence (SCE p4)</title>
-      <link>http://lockelife.com/blog/2017-04-18-building-booth-presence/</link>
+      <link>http://lockedata.uk/itsalockeblog/2017-04-18-building-booth-presence/</link>
       <pubDate>Tue, 18 Apr 2017 08:28:40 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2017-04-18-building-booth-presence/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2017-04-18-building-booth-presence/</guid>
       <description>&lt;p&gt;Building your booth presence is the fourth instalment of the &lt;a href=&#34;https://itsalocke.com/sponsoring-community-events/&#34;&gt;Sponsoring Community Events&lt;/a&gt; series aimed at helping companies get to grips with sponsoring community events and getting the most out of them. This post covers some of the things that you should be thinking about when you are planning on having a booth at an event.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -47,20 +47,20 @@ Data Science for Business is a great overview book.</description>
     
     <item>
       <title>Community workshops</title>
-      <link>http://lockelife.com/blog/2017-04-14-community-workshops/</link>
+      <link>http://lockedata.uk/itsalockeblog/2017-04-14-community-workshops/</link>
       <pubDate>Fri, 14 Apr 2017 18:00:59 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2017-04-14-community-workshops/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2017-04-14-community-workshops/</guid>
       <description>Following on from when we announced the availability of our community workshops, we&amp;#8217;ve got three in the next three months that folks can attend.
 May 19th &amp;#8211; Data science project in a day We&amp;#8217;ll be in Kiev, Ukraine, doing a whole data science project in a day. This is intended to give people a little bit of code, process, and critical thinking along the whole data science workflow. This will enable folks to see how it hangs together and decide where and how much they want to invest their learning in future.</description>
     </item>
     
     <item>
       <title>Battle of the Beards: access it online</title>
-      <link>http://lockelife.com/blog/2017-03-20-battle-beards-now-online/</link>
+      <link>http://lockedata.uk/itsalockeblog/2017-03-20-battle-beards-now-online/</link>
       <pubDate>Mon, 20 Mar 2017 11:11:29 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2017-03-20-battle-beards-now-online/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2017-03-20-battle-beards-now-online/</guid>
       <description>A fortnight ago I wrote&amp;nbsp;Dear South Wales &amp;amp; Bristol readers: I need your help&amp;nbsp;as Battle of the Beards was failing. Well, we didn&amp;#8217;t manage to make it to the minimum amount of attendees to go forward with it and on Thursday it looked like I was going to have to cancel it.
 Then inspiration struck &amp;#8230; the major reasons why maybe people didn&amp;#8217;t want to attend are:
  Too far to travel Hard to get a day off work Not interested in all the talks  What would make it so people didn&amp;#8217;t have to travel, could watch from work, and see only the sessions they&amp;#8217;re interested in?</description>
@@ -68,10 +68,10 @@ Then inspiration struck &amp;#8230; the major reasons why maybe people didn&amp;
     
     <item>
       <title>Dear South Wales &amp; Bristol readers: I need your help</title>
-      <link>http://lockelife.com/blog/2017-03-06-battle-beards-march-29th/</link>
+      <link>http://lockedata.uk/itsalockeblog/2017-03-06-battle-beards-march-29th/</link>
       <pubDate>Mon, 06 Mar 2017 12:26:08 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2017-03-06-battle-beards-march-29th/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2017-03-06-battle-beards-march-29th/</guid>
       <description>&lt;p&gt;I need your help.&lt;/p&gt;
 
 &lt;p&gt;Battle of the Beards is an annual tech event in Cardiff that&amp;#8217;s previously been an evening affair but is now a day-long conference. We&amp;#8217;re hosting half-hour talks on security, infrastructure, software craftmanship, front-end development, and data visualisation. We&amp;#8217;re starting out the day with bacon baps and it just gets better from there. Tickets cost £15 and there&amp;#8217;s the option to add a donation to the charity we&amp;#8217;re supporting with the event, the &lt;a href=&#34;https://www.thecalmzone.net/&#34;&gt;Campaign Against Living Miserably&lt;/a&gt;.&lt;/p&gt;
@@ -90,10 +90,10 @@ Then inspiration struck &amp;#8230; the major reasons why maybe people didn&amp;
     
     <item>
       <title>Announcing community R workshops</title>
-      <link>http://lockelife.com/blog/2017-02-27-community-r-workshops/</link>
+      <link>http://lockedata.uk/itsalockeblog/2017-02-27-community-r-workshops/</link>
       <pubDate>Mon, 27 Feb 2017 09:24:14 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2017-02-27-community-r-workshops/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2017-02-27-community-r-workshops/</guid>
       <description>&lt;p&gt;A big part of why I&amp;#8217;ve launched Locke Data is so that I can give back more to my communities. I want to give more time and more support to others. One of the first steps is doing some activities that give financial support to community groups without damaging my startup cashflow! Community R workshops that fund local user groups is the first activity I&amp;#8217;ll be trialling.&lt;/p&gt;
 
 &lt;p&gt;Here&amp;#8217;s what&amp;#8217;s involved, and what you might want to consider if you&amp;#8217;d like to be a part of this endeavour:&lt;/p&gt;
@@ -103,39 +103,39 @@ Then inspiration struck &amp;#8230; the major reasons why maybe people didn&amp;
     
     <item>
       <title>My first MVP Summit – a fantastic reminder</title>
-      <link>http://lockelife.com/blog/2016-11-14-my-first-mvp-summit/</link>
+      <link>http://lockedata.uk/itsalockeblog/2016-11-14-my-first-mvp-summit/</link>
       <pubDate>Mon, 14 Nov 2016 10:29:45 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2016-11-14-my-first-mvp-summit/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2016-11-14-my-first-mvp-summit/</guid>
       <description>I had the tremendous pleasure of going to the Microsoft MVP Summit this week and it was a fantastic experience. It also taught me a valuable lesson &amp;#8211; I need to be an attendee more.
 Microsoft award ~4,000 people their Most Valued Professional (MVP) award each year. MVPs are influential, helpful people who work with Microsoft services. I&amp;#8217;m not sure what I did to get in when so many awesome folks I know haven&amp;#8217;t but I&amp;#8217;m very proud to be in receipt of the Award.</description>
     </item>
     
     <item>
       <title>A note to (potential) new speakers: It’s ok not to be perfect!</title>
-      <link>http://lockelife.com/blog/2016-11-08-note-potential-new-speakers-ok-not-perfect/</link>
+      <link>http://lockedata.uk/itsalockeblog/2016-11-08-note-potential-new-speakers-ok-not-perfect/</link>
       <pubDate>Tue, 08 Nov 2016 10:42:48 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2016-11-08-note-potential-new-speakers-ok-not-perfect/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2016-11-08-note-potential-new-speakers-ok-not-perfect/</guid>
       <description>This is a T-SQL Tuesday Post in response to Andy Bek&amp;#8217;s kick off about growing new speakers. You can write your own advice for new speakers, or blog your journey to speaking.
  I&amp;#8217;m always trying to encourage new speakers and the biggest fear I hear is &amp;#8220;I won&amp;#8217;t be any good at it&amp;#8221;. Well, you won&amp;#8217;t be perfect at it, that&amp;#8217;s for sure. You may start off really bad at it.</description>
     </item>
     
     <item>
       <title>Slack all the things!</title>
-      <link>http://lockelife.com/blog/2016-10-21-slack-all-the-things/</link>
+      <link>http://lockedata.uk/itsalockeblog/2016-10-21-slack-all-the-things/</link>
       <pubDate>Fri, 21 Oct 2016 14:59:50 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2016-10-21-slack-all-the-things/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2016-10-21-slack-all-the-things/</guid>
       <description>Slack all the things! OK, if you haven&amp;#8217;t heard of it before Slack is kinda like IRC, kinda like Dropbox, kinda like a lot of things &amp;#8211; it&amp;#8217;s a neat place to bring together communications between your team or community, and the integrations allow you to pipe in external feeds like twitter activity or RSS. It&amp;#8217;s a great way of collaborating online and I&amp;#8217;ve found it especially useful not just within a company but within a global community.</description>
     </item>
     
     <item>
       <title>Stepping down from SQL Relay</title>
-      <link>http://lockelife.com/blog/2016-10-13-stepping-sql-relay/</link>
+      <link>http://lockedata.uk/itsalockeblog/2016-10-13-stepping-sql-relay/</link>
       <pubDate>Thu, 13 Oct 2016 08:35:58 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2016-10-13-stepping-sql-relay/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2016-10-13-stepping-sql-relay/</guid>
       <description>Some folks may already know, but I handed in my resignation from SQL Relay as sponsorship lead and Cardiff organiser.
 Over my time in SQL Relay, I&amp;#8217;ve helped deliver 30 conferences. I&amp;#8217;ve attended about 15 of those! Being able to deliver so much learning to people all around the country has been an incredible experience and I&amp;#8217;m tremendously proud of everything SQL Relay has achieved.
 However, SQL Relay has become increasingly difficult for me to dedicate the time to.</description>
@@ -143,10 +143,10 @@ However, SQL Relay has become increasingly difficult for me to dedicate the time
     
     <item>
       <title>2016 PASS Board of Directors Candidate Town Halls</title>
-      <link>http://lockelife.com/blog/2016-10-06-2016-pass-board-of-directors-candidate-town-halls/</link>
+      <link>http://lockedata.uk/itsalockeblog/2016-10-06-2016-pass-board-of-directors-candidate-town-halls/</link>
       <pubDate>Thu, 06 Oct 2016 09:27:57 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2016-10-06-2016-pass-board-of-directors-candidate-town-halls/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2016-10-06-2016-pass-board-of-directors-candidate-town-halls/</guid>
       <description>&lt;p&gt;It&amp;#8217;s PASS Board of Directors elections again! After a number of twitter discussions last week about the applicability of PASS outside of the US and what I think PASS is good and bad at, I thought I would engage the process instead of just being a complainy-pants. I attended all 6 town hall webinars and asked questions to all the candidates. I recommend you watch them before voting.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Find out more about the candidates, the PASS Board of Director elections, and how to vote on the &lt;a href=&#34;http://www.sqlpass.org/Elections&#34;&gt;PASS website&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
@@ -156,59 +156,59 @@ However, SQL Relay has become increasingly difficult for me to dedicate the time
     
     <item>
       <title>Reflections: SQL Relay is coming</title>
-      <link>http://lockelife.com/blog/2016-09-27-reflections-sql-relay-coming/</link>
+      <link>http://lockedata.uk/itsalockeblog/2016-09-27-reflections-sql-relay-coming/</link>
       <pubDate>Tue, 27 Sep 2016 08:24:36 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2016-09-27-reflections-sql-relay-coming/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2016-09-27-reflections-sql-relay-coming/</guid>
       <description>I&amp;#8217;ve been pretty quiet recently, I haven&amp;#8217;t presented much, I haven&amp;#8217;t blogged much, I haven&amp;#8217;t worked on my open source projects much. All my energy left over from my major work project has been going into SQL Relay. SQL Relay is an ambitious project every year. We organise a conference that goes on tour. In previous years, I&amp;#8217;ve gone to 8 cities over two weeks. Over the past 4 years, I&amp;#8217;ve been part of organising 30 conferences.</description>
     </item>
     
     <item>
       <title>Being an Organised Sponsor (SCE p3)</title>
-      <link>http://lockelife.com/blog/2016-08-30-being-an-organised-sponsor/</link>
+      <link>http://lockedata.uk/itsalockeblog/2016-08-30-being-an-organised-sponsor/</link>
       <pubDate>Tue, 30 Aug 2016 08:15:08 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2016-08-30-being-an-organised-sponsor/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2016-08-30-being-an-organised-sponsor/</guid>
       <description>Being an Organised Sponsor is the third instalment of the Sponsoring Community Events series aimed at helping companies get to grips with sponsoring community events, and getting the most out of them. This post covers how to organise yourself and the common activities needed to get the most out of your sponsorship of a community event.
 Project management Rarely is sponsorship a simple transaction, there&amp;#8217;s often deliverables from both parties at different times over a period of anything up to a year.</description>
     </item>
     
     <item>
       <title>Assessing Sponsorship Opportunities (SCE p2)</title>
-      <link>http://lockelife.com/blog/2016-08-04-assessing-sponsorship-opportunities/</link>
+      <link>http://lockedata.uk/itsalockeblog/2016-08-04-assessing-sponsorship-opportunities/</link>
       <pubDate>Thu, 04 Aug 2016 10:35:03 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2016-08-04-assessing-sponsorship-opportunities/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2016-08-04-assessing-sponsorship-opportunities/</guid>
       <description>Assessing Sponsorship Opportunities is the second instalment of the Sponsoring Community Events series aimed at helping companies get to grips with sponsoring community events and getting the most out of them. This post covers some of the things that you should be thinking about when you are considering sponsoring an event.
 What&amp;#8217;s the point? Before entering into a sponsorship agreement you need to have a firm idea of what you&amp;#8217;re hoping to achieve.</description>
     </item>
     
     <item>
       <title>Sponsorship Basics (SCE p1)</title>
-      <link>http://lockelife.com/blog/2016-08-02-sponsorship-basics/</link>
+      <link>http://lockedata.uk/itsalockeblog/2016-08-02-sponsorship-basics/</link>
       <pubDate>Tue, 02 Aug 2016 09:15:25 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2016-08-02-sponsorship-basics/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2016-08-02-sponsorship-basics/</guid>
       <description>Sponsorship Basics is the first installment of the Sponsoring Community Events series aimed at helping companies get to grips with sponsoring community events, and getting the most out of them.
 What is a community event? A community event is one organised by members of the community, as opposed to one run by one or more companies with a financial interest in the community. These events are fundamentally different because they are not being run for profit, instead, they&amp;#8217;re run to assist other members of the community to increase their skills.</description>
     </item>
     
     <item>
       <title>Sponsoring community events (SCE)</title>
-      <link>http://lockelife.com/blog/2016-08-01-sponsoring-community-events/</link>
+      <link>http://lockedata.uk/itsalockeblog/2016-08-01-sponsoring-community-events/</link>
       <pubDate>Mon, 01 Aug 2016 09:00:10 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2016-08-01-sponsoring-community-events/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2016-08-01-sponsoring-community-events/</guid>
       <description>Sponsoring community events &amp;#8211; is it right for you? This series of posts will take you through the things you need to know to help you decide.
 Over the coming weeks, this new series will go through the in&amp;#8217;s and out&amp;#8217;s of sponsoring community events. Community events are fantastic from an attendee perspective, but when you&amp;#8217;re handing over cash you need to know what you&amp;#8217;re letting yourself in for and how you get return on investment (ROI).</description>
     </item>
     
     <item>
       <title>Giving back with code</title>
-      <link>http://lockelife.com/blog/2016-07-20-giving-back-code/</link>
+      <link>http://lockedata.uk/itsalockeblog/2016-07-20-giving-back-code/</link>
       <pubDate>Wed, 20 Jul 2016 14:00:50 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2016-07-20-giving-back-code/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2016-07-20-giving-back-code/</guid>
       <description>&lt;p&gt;From code in answers on Stack Overflow to R packages or full programs, there&amp;#8217;s a lot of code being written and given away. This post examines some of the reasons why the people writing all that code do it, why you should consider giving back with code, and how you can get started. Finally, I cap it all off with perspectives from some of my favourite coders!&lt;/p&gt;
 
 &lt;ul&gt;
@@ -250,39 +250,39 @@ Over the coming weeks, this new series will go through the in&amp;#8217;s and ou
     
     <item>
       <title>Ideas for (lightning) talks</title>
-      <link>http://lockelife.com/blog/2016-07-12-ideas-lightning-talks/</link>
+      <link>http://lockedata.uk/itsalockeblog/2016-07-12-ideas-lightning-talks/</link>
       <pubDate>Tue, 12 Jul 2016 15:27:57 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2016-07-12-ideas-lightning-talks/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2016-07-12-ideas-lightning-talks/</guid>
       <description>I&amp;#8217;m trying to encourage more lightning talks at my user groups, and I started by writing a plea to folks at my local R user group, caRdiff. In it I included some ideas for lightning talks, and of course, these can be used as the basis for long talks too. We had some fun batting this list around and expanding it in the Cardiff dev group. I thought it was worth sharing, and getting some more ideas from you!</description>
     </item>
     
     <item>
       <title>Bad ways to run a user group</title>
-      <link>http://lockelife.com/blog/2016-07-07-bad-ways-run-user-group/</link>
+      <link>http://lockedata.uk/itsalockeblog/2016-07-07-bad-ways-run-user-group/</link>
       <pubDate>Thu, 07 Jul 2016 12:53:09 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2016-07-07-bad-ways-run-user-group/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2016-07-07-bad-ways-run-user-group/</guid>
       <description>I love user groups and I always want there to be more. I&amp;#8217;m not a perfect organiser but I run reasonable groups. When I see organisers doing it badly, it makes me sad. There&amp;#8217;s lots of great ways to run a user group, but I thought I&amp;#8217;d cover some of the bad ways to run a user group. The anti-patterns if you will 😀
 Don&amp;#8217;t advertise Your group isn&amp;#8217;t on Twitter.</description>
     </item>
     
     <item>
       <title>Not an expert</title>
-      <link>http://lockelife.com/blog/2016-06-29-not-an-expert/</link>
+      <link>http://lockedata.uk/itsalockeblog/2016-06-29-not-an-expert/</link>
       <pubDate>Wed, 29 Jun 2016 08:19:39 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2016-06-29-not-an-expert/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2016-06-29-not-an-expert/</guid>
       <description>I don&amp;#8217;t think of myself as an expert because an expert is someone with very deep knowledge of a comparatively narrow field.
 For better or worse, a lot of my sense of satisfaction with life derives from throwing myself into some enterprise that I don&amp;#8217;t have the people skills, the knowledge, and/or the resources for succeeding. I welcome the failures, the dead ends, the crises of faith, because if it wasn&amp;#8217;t hard it wouldn&amp;#8217;t be worth doing.</description>
     </item>
     
     <item>
       <title>My PASS #Summit2016 submissions feedback</title>
-      <link>http://lockelife.com/blog/2016-06-23-pass-summit-2016-submissions-feedback/</link>
+      <link>http://lockedata.uk/itsalockeblog/2016-06-23-pass-summit-2016-submissions-feedback/</link>
       <pubDate>Thu, 23 Jun 2016 11:59:34 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2016-06-23-pass-summit-2016-submissions-feedback/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2016-06-23-pass-summit-2016-submissions-feedback/</guid>
       <description>&lt;p&gt;I really liked the way Brent showed us &lt;a href=&#34;https://ozar.me/2016/06/feedback-on-my-sqlpass-summit16-abstract-submissions/&#34;&gt;his feedback received&lt;/a&gt; and since mimicry is the best form of flattery, I thought I&amp;#8217;d go ahead and do it too!&lt;/p&gt;
 
 &lt;p&gt;I didn&amp;#8217;t get any accepted abstracts, and I&amp;#8217;m actually grateful. The recent stresses to do with the PASS dramas aside, I would have had to use 5 days holiday time, pay for flights and hotel, and then flown out a week later for MVP Summit. Now I can attend some other conferences and/or have a Christmas break! Woo hoo 😀&lt;/p&gt;
@@ -292,79 +292,79 @@ For better or worse, a lot of my sense of satisfaction with life derives from th
     
     <item>
       <title>satRday location voting now open</title>
-      <link>http://lockelife.com/blog/2016-05-11-satrday-location-voting/</link>
+      <link>http://lockedata.uk/itsalockeblog/2016-05-11-satrday-location-voting/</link>
       <pubDate>Wed, 11 May 2016 15:45:44 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2016-05-11-satrday-location-voting/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2016-05-11-satrday-location-voting/</guid>
       <description>satRdays, free R conferences, are a project being supported by the R Consortium. When Gergely and I submitted our proposal, we said we&amp;#8217;d be supporting three conferences:
  Budapest, Hungary (Gergely&amp;#8217;s home turf) Somewhere in the US Somewhere else in the world  We&amp;#8217;ve had an overwhelming response with 40 submitted conferences but for the fully-funded ones, there can only be three. We are looking at how the runners up can do the next wave of events but we want to get the ball rolling on the first three.</description>
     </item>
     
     <item>
       <title>satRdays are go!</title>
-      <link>http://lockelife.com/blog/2016-03-23-satrdays-are-go/</link>
+      <link>http://lockedata.uk/itsalockeblog/2016-03-23-satrdays-are-go/</link>
       <pubDate>Wed, 23 Mar 2016 13:52:16 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2016-03-23-satrdays-are-go/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2016-03-23-satrdays-are-go/</guid>
       <description>I&amp;#8217;m very pleased to say that the R Consortium agreed to the support the satRday project!
 The idea kicked off in November and I was over the moon with the response from the community, then we garnered support before submitting to the Consortium and I must have looped the moon a few times as we had more than 500 responses. Now the R Consortium are supporting us and we can turn all that enthusiasm into action.</description>
     </item>
     
     <item>
       <title>@SQLCardiff: Return of the Beard (2016-03-30)</title>
-      <link>http://lockelife.com/blog/2016-03-15-sqlcardiff-return-beard-2016-03-30/</link>
+      <link>http://lockedata.uk/itsalockeblog/2016-03-15-sqlcardiff-return-beard-2016-03-30/</link>
       <pubDate>Tue, 15 Mar 2016 09:59:42 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2016-03-15-sqlcardiff-return-beard-2016-03-30/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2016-03-15-sqlcardiff-return-beard-2016-03-30/</guid>
       <description>Just a quick heads up to peeps in and around Cardiff, Wales. Later this month we&amp;#8217;re holding Battle of the Beards: Return of the Beard. Fantastic speakers with resplendent beards are joining us for our 6 sq. ft of pizza to present on advanced SQL Tricks, using PowerBI as a DBA, and stepping up to the challenge of the last minute audit.
 This is a great chance to meet folks interested in the Microsoft Data Platform and learn from some incredibly knowledgable speakers.</description>
     </item>
     
     <item>
       <title>Upcoming R for Microsoft training days</title>
-      <link>http://lockelife.com/blog/2016-03-07-upcoming-r-microsoft-training-days/</link>
+      <link>http://lockedata.uk/itsalockeblog/2016-03-07-upcoming-r-microsoft-training-days/</link>
       <pubDate>Mon, 07 Mar 2016 09:55:13 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2016-03-07-upcoming-r-microsoft-training-days/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2016-03-07-upcoming-r-microsoft-training-days/</guid>
       <description>In May, I will be delivering two R for Microsoft training days. These two days will focus on some R fundamentals and applying these fundamentals within the Microsoft Data Platform. These training days are ideal if you know one half of the components &amp;#8211; whether that&amp;#8217;s the R bit or the Microsoft BI bit. Either way, you&amp;#8217;ll learn about the other half.
 SQLBits SQLBits XV is being held in Liverpool this year and my training day is on May 4th.</description>
     </item>
     
     <item>
       <title>My life, my universe, my everything</title>
-      <link>http://lockelife.com/blog/2016-03-01-my-life-my-universe-my-everything/</link>
+      <link>http://lockedata.uk/itsalockeblog/2016-03-01-my-life-my-universe-my-everything/</link>
       <pubDate>Tue, 01 Mar 2016 20:08:37 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2016-03-01-my-life-my-universe-my-everything/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2016-03-01-my-life-my-universe-my-everything/</guid>
       <description>Last year involved moving jobs to Mango as Principal Consultant, moving home, getting a dog, and Oz becoming the Purple Tadpole. That was on top of SQL Relay, copious presentations, and much travelling. By the end of the year I was pretty ill and exceedingly grumpy. Oz wasn&amp;#8217;t having a huge amount of fun either between me never being home and him having to hold the fort in a massive way.</description>
     </item>
     
     <item>
       <title>satRdays: final push</title>
-      <link>http://lockelife.com/blog/2016-01-06-satrdays-final-push/</link>
+      <link>http://lockedata.uk/itsalockeblog/2016-01-06-satrdays-final-push/</link>
       <pubDate>Wed, 06 Jan 2016 14:54:37 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2016-01-06-satrdays-final-push/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2016-01-06-satrdays-final-push/</guid>
       <description>I talked back in November about the idea of an RSaturday, which were free community-driven conferences on R. Since then, we created a GitHub repository and started hammering out the details for satRdays. The current proposal consists of:
  A name: satRday A proposition: Free/cheap (&amp;lt;£30) conferences organised by user groups around the world. Attendees get more access to training in R, with a much lower cost-barrier. We develop more speakers on R.</description>
     </item>
     
     <item>
       <title>Should presenters have to pay to attend?</title>
-      <link>http://lockelife.com/blog/2015-12-07-should-presenters-have-to-pay-to-attend/</link>
+      <link>http://lockedata.uk/itsalockeblog/2015-12-07-should-presenters-have-to-pay-to-attend/</link>
       <pubDate>Mon, 07 Dec 2015 15:55:36 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2015-12-07-should-presenters-have-to-pay-to-attend/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2015-12-07-should-presenters-have-to-pay-to-attend/</guid>
       <description>I recently did something for the first time: I declined to speak somewhere. It was never stated on the submission page, and was raised only after my session was accepted &amp;#8211; they wanted me to buy a ticket to attend and I refused&amp;nbsp;to do that.
 As a speaker I love donating my time and I really don&amp;#8217;t mind paying my own&amp;nbsp;Travel and Expenses (T&amp;amp;E) but to have to pay to get in the door of the place I&amp;#8217;m speaking at feels wrong.</description>
     </item>
     
     <item>
       <title>Boris’ presentation agency – 356labs</title>
-      <link>http://lockelife.com/blog/2015-11-11-boris-presentation-agency-356-labs/</link>
+      <link>http://lockedata.uk/itsalockeblog/2015-11-11-boris-presentation-agency-356-labs/</link>
       <pubDate>Wed, 11 Nov 2015 09:43:11 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2015-11-11-boris-presentation-agency-356-labs/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2015-11-11-boris-presentation-agency-356-labs/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://borishristov.com/&#34;&gt;Boris Hristrov&lt;/a&gt;, Data Platform MVP, design whizz, and all-round great guy, recently launched &lt;a href=&#34;http://www.356labs.com/&#34;&gt;356labs&lt;/a&gt;. Boris wrote a great &lt;a href=&#34;http://www.pluralsight.com/courses/presentation-design-introduction&#34;&gt;Presentation Design course&lt;/a&gt; for &lt;a href=&#34;https://preview.pluralsight.com/&#34;&gt;PluralSight&lt;/a&gt;, you can sign up for a trial of PluralSight and watch the course if you&amp;#8217;d like to find out more.&lt;/p&gt;
 
 &lt;p&gt;Being an avid reader of design stuff I did find I knew some of the things on the course, but the context and application were very helpful. Off the back of his course, I went on to produce my most visually impressive presentation slide deck to date &amp;#8211; Agile BI.&lt;/p&gt;
@@ -376,10 +376,10 @@ As a speaker I love donating my time and I really don&amp;#8217;t mind paying my
     
     <item>
       <title>SQLSaturdays but for R?</title>
-      <link>http://lockelife.com/blog/2015-11-04-sqlsaturdays-but-for-r/</link>
+      <link>http://lockedata.uk/itsalockeblog/2015-11-04-sqlsaturdays-but-for-r/</link>
       <pubDate>Wed, 04 Nov 2015 19:25:22 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2015-11-04-sqlsaturdays-but-for-r/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2015-11-04-sqlsaturdays-but-for-r/</guid>
       <description>&lt;p&gt;&lt;strong&gt;UPDATE: Proposal now being developed after fantastic community support. Check out satRdays on &lt;a href=&#34;https://github.com/stephlocke/RSaturday-proposal&#34;&gt;GitHub&lt;/a&gt; and contribute your opinions!&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;I had a contact from a very nice chap in Dallas a month ago about whether in the R world we do anything like SQLSaturdays.&lt;/p&gt;
@@ -395,10 +395,10 @@ As a speaker I love donating my time and I really don&amp;#8217;t mind paying my
     
     <item>
       <title>Women doing technology</title>
-      <link>http://lockelife.com/blog/2015-10-24-women-doing-technology/</link>
+      <link>http://lockedata.uk/itsalockeblog/2015-10-24-women-doing-technology/</link>
       <pubDate>Sat, 24 Oct 2015 08:35:00 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2015-10-24-women-doing-technology/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2015-10-24-women-doing-technology/</guid>
       <description>&lt;p&gt;Yesterday, another Women in Technology conference got forwarded around and looking at the agenda, I snapped. I asked to not see any more goddamn WiT conferences.&lt;/p&gt;
 
 &lt;p&gt;I&amp;#8217;m really fed up with women talking about being in tech. I don&amp;#8217;t perceive any value in attending a conference dedicated to that. I want to see more women talking about doing tech.&lt;/p&gt;
@@ -408,10 +408,10 @@ As a speaker I love donating my time and I really don&amp;#8217;t mind paying my
     
     <item>
       <title>SQL Relay is here!</title>
-      <link>http://lockelife.com/blog/2015-07-16-sql-relay-is-here/</link>
+      <link>http://lockedata.uk/itsalockeblog/2015-07-16-sql-relay-is-here/</link>
       <pubDate>Thu, 16 Jul 2015 09:30:59 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2015-07-16-sql-relay-is-here/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2015-07-16-sql-relay-is-here/</guid>
       <description>SQL Relay is back on tour! Our 6th event sees us yet again touring the country bringing awesome speakers to eight cities over 2 weeks.
 As usual we&amp;#8217;re improving things:
  A new platform called Attendee.Events which allows easier registration &amp;amp; speaker submission A whole bunch of webinars planned to get in the swing of things More breadth &amp;#8211; this year each event includes a dedicated track to R, machine learning etc, on top of SQL Server and business intelligence More content &amp;#8211; instead of swapping out existing slots for breadth, we added more tracks A green initiative &amp;#8230; see it on the day Improved speaker experience &amp;#8211; we&amp;#8217;re building on last year&amp;#8217;s fun bus with the help of SQL Sentry to make it easier and more fun for speakers to do multiple events, as well as offering first timers some mentoring as most of the organisers are also speakers  You&amp;#8217;ll see a lot of announcements about Relay over the next few months, but I hope this little post inspires you to check out our events 😀</description>
@@ -419,10 +419,10 @@ As usual we&amp;#8217;re improving things:
     
     <item>
       <title>Custom LaTeX Beamer style templates for rmarkdown</title>
-      <link>http://lockelife.com/blog/2015-06-17-custom-latex-beamer-style-templates-for-rmarkdown/</link>
+      <link>http://lockedata.uk/itsalockeblog/2015-06-17-custom-latex-beamer-style-templates-for-rmarkdown/</link>
       <pubDate>Wed, 17 Jun 2015 12:34:22 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2015-06-17-custom-latex-beamer-style-templates-for-rmarkdown/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2015-06-17-custom-latex-beamer-style-templates-for-rmarkdown/</guid>
       <description>&lt;p&gt;I&amp;#8217;ve been producing presentations via R using &lt;a href=&#34;http://rmarkdown.rstudio.com/&#34;&gt;rmarkdown&lt;/a&gt; and outputting to either ioslides or slidify. That was excellent, because I could provide a CSS that customised the look and feel (relatively) easily*.&lt;/p&gt;
 
 &lt;p&gt;However, when I wanted to produce a PDF version, I couldn&amp;#8217;t make ones that look as good as the pure LaTeX versions I could make on &lt;a href=&#34;http://overleaf.com&#34;&gt;overleaf.com&lt;/a&gt;. So I started RTFMing when I wanted to replicate the look and feel from my presentation, The LaTeX Show.&lt;/p&gt;
@@ -434,20 +434,20 @@ As usual we&amp;#8217;re improving things:
     
     <item>
       <title>How many is too many conferences?</title>
-      <link>http://lockelife.com/blog/2015-05-25-how-many-is-too-many-conferences/</link>
+      <link>http://lockedata.uk/itsalockeblog/2015-05-25-how-many-is-too-many-conferences/</link>
       <pubDate>Mon, 25 May 2015 17:55:16 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2015-05-25-how-many-is-too-many-conferences/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2015-05-25-how-many-is-too-many-conferences/</guid>
       <description>The SQL Server community has a lot of events. In the UK alone this year we will have/had in 2015:
  more than 75 user group meetings 5 SQL Saturdays 8 days of Relay 1 SQL in the City 3 to 5 days of SQLBits possibly a SQL Santa and probably more that I&amp;#8217;ve forgotten or not know about at the time of writing this  You could attend 2 days of conference per month (cpm from now on) on average in the UK alone, just at dedicated SQL events.</description>
     </item>
     
     <item>
       <title>SQLSaturday Portugal</title>
-      <link>http://lockelife.com/blog/2015-05-18-sqlsaturday-portugal/</link>
+      <link>http://lockedata.uk/itsalockeblog/2015-05-18-sqlsaturday-portugal/</link>
       <pubDate>Mon, 18 May 2015 09:42:13 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2015-05-18-sqlsaturday-portugal/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2015-05-18-sqlsaturday-portugal/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://www.sqlsaturday.com/369/EventHome.aspx&#34;&gt;SQLSaturday Portugal 2015&lt;/a&gt; has been a huge amount of fun but I&amp;#8217;ve also learnt a lot. A big thank you to the organisers!&lt;/p&gt;
 
 &lt;p&gt;Below are my slides and notes from sessions I attended.&lt;/p&gt;
@@ -461,10 +461,10 @@ As usual we&amp;#8217;re improving things:
     
     <item>
       <title>SQL Saturday Exeter: Steph &amp; Oz’s slides</title>
-      <link>http://lockelife.com/blog/2015-04-26-sql-saturday-exeter-steph-ozs-slides/</link>
+      <link>http://lockedata.uk/itsalockeblog/2015-04-26-sql-saturday-exeter-steph-ozs-slides/</link>
       <pubDate>Sun, 26 Apr 2015 16:04:36 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2015-04-26-sql-saturday-exeter-steph-ozs-slides/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2015-04-26-sql-saturday-exeter-steph-ozs-slides/</guid>
       <description>Well SQL Saturday Exeter flew by. T&amp;#8217;was great catching up with people, seeing folks learn how to use (old &amp;amp; new) tools better, and just generally watching everyone having a great time at one of the best organised conferences I have the pleasure of going to.
 Here are links to all the slide decks etc that we presented this weekend:
  My R: analysis to integration training day notes &amp;amp; source code My agile BI slide deck My Shiny: dashboards in R slide deck &amp;amp; source code Oz&amp;#8217;s SSRS: Beyond the basics slide deck &amp;amp; source code  If you attended any of our sessions, give us some constructive criticism!</description>
@@ -472,59 +472,59 @@ Here are links to all the slide decks etc that we presented this weekend:
     
     <item>
       <title>Unified.Diff: source control smells &amp; LaTeX</title>
-      <link>http://lockelife.com/blog/2015-04-17-unified-diff-source-control-latex/</link>
+      <link>http://lockedata.uk/itsalockeblog/2015-04-17-unified-diff-source-control-latex/</link>
       <pubDate>Fri, 17 Apr 2015 09:44:38 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2015-04-17-unified-diff-source-control-latex/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2015-04-17-unified-diff-source-control-latex/</guid>
       <description>I had the pleasure of presenting at unified.diff, a general programming user group in Cardiff, last night and was able to debut my LaTeX show!
 If you&amp;#8217;d like to talk at the group about anything tech related tweet them on @unifiedDiff. They&amp;#8217;re very flexible on time and topic so if you&amp;#8217;re based in Cardiff or are coming down to see a client, it&amp;#8217;s an easy way of delivering a talk and meeting some nice people.</description>
     </item>
     
     <item>
       <title>Stuff I read this week</title>
-      <link>http://lockelife.com/blog/2015-04-15-stuff-i-read-this-week-3/</link>
+      <link>http://lockedata.uk/itsalockeblog/2015-04-15-stuff-i-read-this-week-3/</link>
       <pubDate>Wed, 15 Apr 2015 08:20:34 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2015-04-15-stuff-i-read-this-week-3/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2015-04-15-stuff-i-read-this-week-3/</guid>
       <description> Maker&amp;#8217;s Schedule, Manager&amp;#8217;s Schedule  Reality Check: Counseling for Developer Hero Worshippers Comments on Joining Microsoft Giving back for the future of open source SQLBits videos &amp;#8211; watched not read though What they don&amp;#8217;t tell you about public speaking Toxicity in Reddit Communities: a Journey to the Darkest Depths of the Interwebs Owner of a Credit Card Processor Is Setting a New Minimum Wage: $70,000 a Year Use Datazen for free if you have SQL Server Enterprise   </description>
     </item>
     
     <item>
       <title>Organised speaking – improving font sizes</title>
-      <link>http://lockelife.com/blog/2015-04-13-organised-speaking-improving-font-sizes/</link>
+      <link>http://lockedata.uk/itsalockeblog/2015-04-13-organised-speaking-improving-font-sizes/</link>
       <pubDate>Mon, 13 Apr 2015 12:24:14 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2015-04-13-organised-speaking-improving-font-sizes/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2015-04-13-organised-speaking-improving-font-sizes/</guid>
       <description>A recurring problem with my presentations is font size.
  The inclusion of code in my Rmarkdown slides was by default too small. Upping the fontsize via CSS worked ok, but when I switched to a shiny app version for my intro to shiny, it reverted and I&amp;#8217;m afraid to say I didn&amp;#8217;t notice beforehand. I use PuTTY for showing how to do some stuff in the linux command line but the font&amp;#8217;s quite small by default and Gail Shaw&amp;#8217;s tip of Magnifier in my session was tough to use I&amp;#8217;ve upped my font size on my Rstudio IDE, but hadn&amp;#8217;t yet implemented this across other IDEs I tend to use my mouse cursor to draw attention to things.</description>
     </item>
     
     <item>
       <title>An R data.table cookbook</title>
-      <link>http://lockelife.com/blog/2015-04-08-data-table-cookbook/</link>
+      <link>http://lockedata.uk/itsalockeblog/2015-04-08-data-table-cookbook/</link>
       <pubDate>Wed, 08 Apr 2015 11:47:08 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2015-04-08-data-table-cookbook/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2015-04-08-data-table-cookbook/</guid>
       <description>For my precon on R at the end of the month I&amp;#8217;m working on the takeaway &amp;#8212; the handout. This&amp;#8217;ll be thing that makes the training day able to be put into practice immediately, and refills all those drink and sleep depleted neurons back up with R knowledge.
 One of the things is a simple data.table cookbook. If you&amp;#8217;re a data.table user, what other tasks do you think should be on there?</description>
     </item>
     
     <item>
       <title>Stuff I read this (bit more than a) week</title>
-      <link>http://lockelife.com/blog/2015-04-07-stuff-i-read-this-bit-more-than-a-week/</link>
+      <link>http://lockedata.uk/itsalockeblog/2015-04-07-stuff-i-read-this-bit-more-than-a-week/</link>
       <pubDate>Tue, 07 Apr 2015 08:24:38 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2015-04-07-stuff-i-read-this-bit-more-than-a-week/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2015-04-07-stuff-i-read-this-bit-more-than-a-week/</guid>
       <description>It&amp;#8217;s been a wee while due to SQLBits disruptions and a crazy work schedule but here&amp;#8217;s some of what I&amp;#8217;ve been reading recently:
  Introverts, Extroverts, and the Complexities of Team Dynamics Azure Blob Storage introduction Kevin Kline: Advice to new bloggers Editing for people who love to write too much ProBlogger generally after KK&amp;#8217;s recommendation Why oil prices came down. and won&amp;#8217;t any more Test Driven Analysis Standardising function names in R Microservices at Netflix Microsoft closes acquisition of Revolution Analytics  </description>
     </item>
     
     <item>
       <title>Overcoming social anxiety to attend user groups</title>
-      <link>http://lockelife.com/blog/2015-03-14-overcoming-social-anxiety-to-attend-user-groups/</link>
+      <link>http://lockedata.uk/itsalockeblog/2015-03-14-overcoming-social-anxiety-to-attend-user-groups/</link>
       <pubDate>Sat, 14 Mar 2015 14:13:17 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2015-03-14-overcoming-social-anxiety-to-attend-user-groups/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2015-03-14-overcoming-social-anxiety-to-attend-user-groups/</guid>
       <description>&lt;p&gt;For some people it might sound silly, but a frequent reason why people don&amp;#8217;t sign up or don&amp;#8217;t make it to their local user group is to do with social anxiety. I totally understand this &amp;#8211; a room full of people you don&amp;#8217;t know can be a daunting experience. I still get nervous when attending a new user group for the first time and I run three user groups, and speak at user groups and conferences all round the country!&lt;/p&gt;
 
 &lt;p&gt;This post takes you through the worries, and explains how I&amp;#8217;ve approached some of the issues. Hopefully, this&amp;#8217;ll help you get more people in to your local user group and learning, whether it&amp;#8217;s because you have the tools to help yourself, or understand and can help others.&lt;/p&gt;
@@ -534,19 +534,19 @@ One of the things is a simple data.table cookbook. If you&amp;#8217;re a data.ta
     
     <item>
       <title>Stuff I read this week</title>
-      <link>http://lockelife.com/blog/2015-02-27-stuff-i-read-this-week-2/</link>
+      <link>http://lockedata.uk/itsalockeblog/2015-02-27-stuff-i-read-this-week-2/</link>
       <pubDate>Fri, 27 Feb 2015 13:01:49 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2015-02-27-stuff-i-read-this-week-2/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2015-02-27-stuff-i-read-this-week-2/</guid>
       <description> The Unbearable Lightness of Tweeting  Hadley Wickham: Impact the world by being useful Academics should be made accountable for exaggerations in press releases about their own work Why Complex Decisions Inevitably Take Weeks Six sentence emails that get fast responses Average house prices: how expensive is your area? FCA Consumer Spotlight &amp;#8212; segmenting retail financial customers Making R Files Executable (under Windows) Shipping Culture Is Hurting Us   </description>
     </item>
     
     <item>
       <title>Where do I fit in the Microsoft future?</title>
-      <link>http://lockelife.com/blog/2015-02-24-where-do-i-fit-in-the-microsoft-future/</link>
+      <link>http://lockedata.uk/itsalockeblog/2015-02-24-where-do-i-fit-in-the-microsoft-future/</link>
       <pubDate>Tue, 24 Feb 2015 10:41:45 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2015-02-24-where-do-i-fit-in-the-microsoft-future/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2015-02-24-where-do-i-fit-in-the-microsoft-future/</guid>
       <description>&lt;p&gt;Entering into the world of SQL Server around the same time as the 2008 release has meant that until the past couple of years, change in the Microsoft BI world only happened in dribs and drabs for me. SQL Server and it&amp;#8217;s BI components were stable server products and the focus was on getting data and optimising &amp;#8220;central reporting&amp;#8221;. Recently though things have started to massively change due to Azure and Office 365.&lt;/p&gt;
 
 &lt;p&gt;No longer part of Server &amp;amp; Tools where products were considered in silos, SQL Server and BI are now part of the &lt;a href=&#34;http://blogs.technet.com/b/server-cloud/archive/2015/01/30/increasing-visibility-for-our-customers-announcing-the-cloud-platform-roadmap-site.aspx&#34; title=&#34;Cloud Platform roadmap&#34; target=&#34;_blank&#34;&gt;Cloud Platform&lt;/a&gt;. It&amp;#8217;s now a means of delivering the &lt;a href=&#34;http://news.microsoft.com/ceo/bold-ambition/index.html&#34; title=&#34;Satya Nadella&#39;s vision email&#34; target=&#34;_blank&#34;&gt;Cloud-first vision&lt;/a&gt; that Microsoft have aligned themselves to.&lt;/p&gt;
@@ -556,29 +556,29 @@ One of the things is a simple data.table cookbook. If you&amp;#8217;re a data.ta
     
     <item>
       <title>Stuff I read this week</title>
-      <link>http://lockelife.com/blog/2015-02-22-stuff-i-read-this-week/</link>
+      <link>http://lockedata.uk/itsalockeblog/2015-02-22-stuff-i-read-this-week/</link>
       <pubDate>Sun, 22 Feb 2015 12:08:49 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2015-02-22-stuff-i-read-this-week/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2015-02-22-stuff-i-read-this-week/</guid>
       <description> ONS Style guide for writing about statistics  Your coding style can give you away Automated Tinder and the Eigenface R-help mailing list to use cage-fighting to resolve conflicts Application Containers For Cloud Computing Managing Test Data as a Database CI Component &amp;#8211; Part 1 Let the Hackers In: Experts Say Traps Better than Walls How to Write a Blog Post   </description>
     </item>
     
     <item>
       <title>A busy month or so</title>
-      <link>http://lockelife.com/blog/2015-02-11-busy-month/</link>
+      <link>http://lockedata.uk/itsalockeblog/2015-02-11-busy-month/</link>
       <pubDate>Wed, 11 Feb 2015 15:15:36 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2015-02-11-busy-month/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2015-02-11-busy-month/</guid>
       <description>I&amp;#8217;m really looking forward to a few months of user group and conference awesomeness:
  Feb 24: CaRdiff presenting Shiny: Dashboards in R Feb 26: Oxford UG presenting Learning the ropes via the community Mar 4-6: Helping out at SQLBits Mar 7: SQLBits presenting Shiny: Dashboards in R Mar 9: SQL Cardiff with Jen &amp;amp; Sean McCown presenting Mar 17: Diff.Net with Scott Hanselman presenting Mar 31: SQL Cardiff with the Battle of the Beards  Then even more fun kicks in with a SQLSaturday Exeter precon, a visit to unified.</description>
     </item>
     
     <item>
       <title>Paul Randal offers mentoring</title>
-      <link>http://lockelife.com/blog/2015-02-06-paul-randal-offers-mentoring/</link>
+      <link>http://lockedata.uk/itsalockeblog/2015-02-06-paul-randal-offers-mentoring/</link>
       <pubDate>Fri, 06 Feb 2015 19:20:50 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2015-02-06-paul-randal-offers-mentoring/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2015-02-06-paul-randal-offers-mentoring/</guid>
       <description>&lt;p&gt;Hot off the back of his win in the &lt;a href=&#34;https://www.simple-talk.com/blogs/2015/01/20/tribal-awards-2014-winners-announcement/&#34; title=&#34;Tribal Awards winners&#34; target=&#34;_blank&#34;&gt;Tribal Awards&lt;/a&gt;, Paul is &lt;a href=&#34;http://www.sqlskills.com/blogs/paul/want-mentored/&#34; title=&#34;Paul Randal - mentoring opportunity&#34; target=&#34;_blank&#34;&gt;offering to mentor&lt;/a&gt; 3 men &amp;amp; 3 women for two months. To be in with a chance of getting mentored by Paul, you simply need to apply by writing a blog post about why you should be considered for mentoring and posting the link by the 15th Feb 2015.&lt;/p&gt;
 
 &lt;p&gt;I think it&amp;#8217;s an awesome offer that you should take up if possible (i.e. you&amp;#8217;re reading before the deadline) and whilst I&amp;#8217;m busy trying to convince you I&amp;#8217;m going to insert my application too. Hopefully, seeing my application will help you form your own.&lt;/p&gt;
@@ -596,10 +596,10 @@ One of the things is a simple data.table cookbook. If you&amp;#8217;re a data.ta
     
     <item>
       <title>My R Pre-Con: SQLSat Exeter</title>
-      <link>http://lockelife.com/blog/2015-01-24-r-pre-con-sqlsat-exeter/</link>
+      <link>http://lockedata.uk/itsalockeblog/2015-01-24-r-pre-con-sqlsat-exeter/</link>
       <pubDate>Sat, 24 Jan 2015 10:10:29 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2015-01-24-r-pre-con-sqlsat-exeter/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2015-01-24-r-pre-con-sqlsat-exeter/</guid>
       <description>&lt;p&gt;As I covered in &lt;a href=&#34;https://itsalocke.com/index.php/sqlsaturday-exeter-2015/&#34; title=&#34;SQLSaturday Exeter 2015&#34; target=&#34;_blank&#34;&gt;my post on SQLSaturday Exeter&lt;/a&gt;, I&amp;#8217;m going to be doing a full day of R training on &lt;a href=&#34;http://sqlsatexeter.azurewebsites.net/?page_id=342&#34; title=&#34;SQLSaturday Exeter, Steph Locke Pre-con details&#34; target=&#34;_blank&#34;&gt;April 24th&lt;/a&gt; that takes you from cabin boy to first mate in a day. You can&amp;#8217;t be captain because I&amp;#8217;m Captain&amp;#8230; until you go back to your own ship&amp;#8230; &lt;em&gt;then&lt;/em&gt; you can be captain.&lt;/p&gt;
 
 &lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
@@ -613,10 +613,10 @@ One of the things is a simple data.table cookbook. If you&amp;#8217;re a data.ta
     
     <item>
       <title>Organised speaking – Intro to R case study</title>
-      <link>http://lockelife.com/blog/2015-01-21-organised-speaking-intro-r-case-study/</link>
+      <link>http://lockedata.uk/itsalockeblog/2015-01-21-organised-speaking-intro-r-case-study/</link>
       <pubDate>Wed, 21 Jan 2015 09:48:28 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2015-01-21-organised-speaking-intro-r-case-study/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2015-01-21-organised-speaking-intro-r-case-study/</guid>
       <description>&lt;p&gt;In my &lt;a href=&#34;https://itsalocke.com/index.php/organised-speaking-iterative-development/&#34; title=&#34;Organised speaking – presentation design&#34; target=&#34;_blank&#34;&gt;iterative presentation design post&lt;/a&gt; I promised a case study. I thought I&amp;#8217;d cover my most presented session &lt;em&gt;Intro to R&lt;/em&gt;, in future called &lt;em&gt;Knowing your Rs from your elbow&lt;/em&gt; courtesy of &lt;a href=&#34;http://twitter.com/fatherjack&#34; title=&#34;Father Jack&#34; target=&#34;_blank&#34;&gt;@FatherJack&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&#34;a-brief-history&#34;&gt;A brief history&lt;/h2&gt;
@@ -639,10 +639,10 @@ One of the things is a simple data.table cookbook. If you&amp;#8217;re a data.ta
     
     <item>
       <title>SQLSaturday Exeter 2015</title>
-      <link>http://lockelife.com/blog/2015-01-19-sqlsaturday-exeter-2015/</link>
+      <link>http://lockedata.uk/itsalockeblog/2015-01-19-sqlsaturday-exeter-2015/</link>
       <pubDate>Mon, 19 Jan 2015 20:09:35 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2015-01-19-sqlsaturday-exeter-2015/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2015-01-19-sqlsaturday-exeter-2015/</guid>
       <description>&lt;p&gt;Woohoo! The kind and crazy folks at &lt;a href=&#34;https://www.sqlsaturday.com/372/eventhome.aspx&#34; title=&#34;SQLSaturday Exeter 2015 homepage&#34; target=&#34;_blank&#34;&gt;SQLSaturday Exeter&lt;/a&gt; accepted my submitted training day for their roster. Before I wax lyrical on the virtues of being locked in a room with me all day, I thought I&amp;#8217;d better cover the fundamentals of the event itself!&lt;/p&gt;
 
 &lt;p&gt;First, the awesome video&amp;#8230;&lt;/p&gt;
@@ -652,10 +652,10 @@ One of the things is a simple data.table cookbook. If you&amp;#8217;re a data.ta
     
     <item>
       <title>Organised speaking – presentation design</title>
-      <link>http://lockelife.com/blog/2015-01-18-organised-speaking-iterative-development/</link>
+      <link>http://lockedata.uk/itsalockeblog/2015-01-18-organised-speaking-iterative-development/</link>
       <pubDate>Sun, 18 Jan 2015 10:52:45 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2015-01-18-organised-speaking-iterative-development/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2015-01-18-organised-speaking-iterative-development/</guid>
       <description>&lt;p&gt;I wanted to outline my approach to presentation design, or development as I prefer to call it.&lt;/p&gt;
 
 &lt;p&gt;Why do I consider it development? Well, it&amp;#8217;s a product that can be manually done &amp;amp; delivered but with the potential to scale to thousands of users, I&amp;#8217;d rather the product be easy to maintain &amp;amp; deploy, deliver real value to the users, and keep up with cutting edge developments in the subject. Also, I call it development because now with the use of &lt;a href=&#34;http://rmarkdown.rstudio.com/&#34; title=&#34;Rmarkdown&#34; target=&#34;_blank&#34;&gt;rmarkdown&lt;/a&gt;, I do actually code my presentations.&lt;/p&gt;
@@ -681,10 +681,10 @@ One of the things is a simple data.table cookbook. If you&amp;#8217;re a data.ta
     
     <item>
       <title>Review: The first CaRdiff R User Group meeting</title>
-      <link>http://lockelife.com/blog/2015-01-14-review-first-cardiff-r-user-group-meeting/</link>
+      <link>http://lockedata.uk/itsalockeblog/2015-01-14-review-first-cardiff-r-user-group-meeting/</link>
       <pubDate>Wed, 14 Jan 2015 14:25:05 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2015-01-14-review-first-cardiff-r-user-group-meeting/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2015-01-14-review-first-cardiff-r-user-group-meeting/</guid>
       <description>&lt;p&gt;Last night was the first &lt;a href=&#34;http://www.meetup.com/Cardiff-R-User-Group/&#34; title=&#34;CaRdiff R User Group&#34; target=&#34;_blank&#34;&gt;Cardiff R User Group&lt;/a&gt; event. There were 6 people registered out of 24 CaRdiffians. In the end we had 8 people show up &amp;#8211; so a whopping third of our current membership base.&lt;/p&gt;
 
 &lt;p&gt;As we sat around the booth eating chips and drinking beer, we covered our experiences learning R to date, the trials and tribulations of our jobs and why you shouldn&amp;#8217;t drop a barbell on your nose. We had great discussions and most of us came away with new R functionality to look at!&lt;/p&gt;
@@ -702,10 +702,10 @@ One of the things is a simple data.table cookbook. If you&amp;#8217;re a data.ta
     
     <item>
       <title>Organised speaking – prioritising events to speak at</title>
-      <link>http://lockelife.com/blog/2015-01-12-organised-speaking-prioritising-events-to-speak-at/</link>
+      <link>http://lockedata.uk/itsalockeblog/2015-01-12-organised-speaking-prioritising-events-to-speak-at/</link>
       <pubDate>Mon, 12 Jan 2015 09:57:16 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2015-01-12-organised-speaking-prioritising-events-to-speak-at/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2015-01-12-organised-speaking-prioritising-events-to-speak-at/</guid>
       <description>&lt;p&gt;As part of my ongoing series about presenting at community events and conferences, I wanted to cover the my personal thought process when it comes to prioritising what events I&amp;#8217;d like to speak at for my goal &lt;a href=&#34;https://itsalocke.com/index.php/throw-1-speak-1/&#34; title=&#34;Throw 1, Speak 1&#34; target=&#34;_blank&#34;&gt;Throw 1, Speak 1&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;There are a massive amount of awesome SQL Server and other technology events happening out there. I even throw a SQL Server lunchtime session once a week for the user group! Then of course there&amp;#8217;s all those conferences in the UK and abroad that are worth attending. So how do I event start picking out where I&amp;#8217;d like to talk, and how do I go about getting selected for them?&lt;/p&gt;
@@ -715,20 +715,20 @@ One of the things is a simple data.table cookbook. If you&amp;#8217;re a data.ta
     
     <item>
       <title>Organised speaking – Throw 1</title>
-      <link>http://lockelife.com/blog/2015-01-10-organised-speaking-throw-1/</link>
+      <link>http://lockedata.uk/itsalockeblog/2015-01-10-organised-speaking-throw-1/</link>
       <pubDate>Sat, 10 Jan 2015 09:59:50 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2015-01-10-organised-speaking-throw-1/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2015-01-10-organised-speaking-throw-1/</guid>
       <description>Not quite part of being organised at speaking, but bundled up in part of my scheduling constraints for speaking is when I&amp;#8217;m throwing user group events. Here&amp;#8217;s the details of the user groups I&amp;#8217;m planning on throwing to meet my goal of 1 user group event a month (not including lunch time sessions!)
 SQL Server I run the SQL Server user group in Cardiff and have done a few years &amp;#8211; I&amp;#8217;m not giving it up any time soon.</description>
     </item>
     
     <item>
       <title>Starting the Cardiff R User Group</title>
-      <link>http://lockelife.com/blog/2015-01-09-starting-the-cardiff-r-user-group/</link>
+      <link>http://lockedata.uk/itsalockeblog/2015-01-09-starting-the-cardiff-r-user-group/</link>
       <pubDate>Fri, 09 Jan 2015 15:41:19 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2015-01-09-starting-the-cardiff-r-user-group/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2015-01-09-starting-the-cardiff-r-user-group/</guid>
       <description>&lt;p&gt;These days any hobby of mine ends up with a user group if there isn&amp;#8217;t one already.&lt;/p&gt;
 
 &lt;p&gt;The amount of value I derive from being able to hear experts in their fields talk about whether they&amp;#8217;re on stage or in the audience is phenomenal. Also, it&amp;#8217;s really great way to meet like-minded people.&lt;/p&gt;
@@ -740,10 +740,10 @@ SQL Server I run the SQL Server user group in Cardiff and have done a few years 
     
     <item>
       <title>Organised speaking – Throw 1, Speak 1</title>
-      <link>http://lockelife.com/blog/2015-01-08-throw-1-speak-1/</link>
+      <link>http://lockedata.uk/itsalockeblog/2015-01-08-throw-1-speak-1/</link>
       <pubDate>Thu, 08 Jan 2015 10:33:25 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2015-01-08-throw-1-speak-1/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2015-01-08-throw-1-speak-1/</guid>
       <description>&lt;p&gt;Following up from my last post on &lt;a href=&#34;https://itsalocke.com/index.php/organised-speaking-session-abstracts/&#34; title=&#34;Organised speaking – session abstracts&#34; target=&#34;_blank&#34;&gt;maintaining my session abstracts&lt;/a&gt;, I wanted to cover how I&amp;#8217;m doing my scheduling this year for speaking at events. Perhaps more importantly than tech, is the intention and the planning process so I&amp;#8217;ll be covering these factors in more detail than the tech.&lt;/p&gt;
 
 &lt;h2 id=&#34;technology&#34;&gt;Technology&lt;/h2&gt;
@@ -761,10 +761,10 @@ SQL Server I run the SQL Server user group in Cardiff and have done a few years 
     
     <item>
       <title>Organised speaking – session abstracts</title>
-      <link>http://lockelife.com/blog/2015-01-02-organised-speaking-session-abstracts/</link>
+      <link>http://lockedata.uk/itsalockeblog/2015-01-02-organised-speaking-session-abstracts/</link>
       <pubDate>Fri, 02 Jan 2015 09:31:14 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2015-01-02-organised-speaking-session-abstracts/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2015-01-02-organised-speaking-session-abstracts/</guid>
       <description>&lt;p&gt;Last year I spoke at 10&amp;nbsp;different events (I think) and was very lucky to be nominated in the Tribal Awards for my Intro to R session. I did just a couple of different session titles and I don&amp;#8217;t think I managed the whole process very well.&lt;/p&gt;
 
 &lt;p&gt;To be an easier speaker to deal with, I&amp;#8217;m trying to be more organised so that the selection process of myself &amp;amp; topics is easier whilst also ensuring I don&amp;#8217;t develop too many presentations at the last minute.&lt;/p&gt;
@@ -776,10 +776,10 @@ SQL Server I run the SQL Server user group in Cardiff and have done a few years 
     
     <item>
       <title>SQL Cardiff dates announced</title>
-      <link>http://lockelife.com/blog/2014-12-29-sql-cardiff-dates-announced/</link>
+      <link>http://lockedata.uk/itsalockeblog/2014-12-29-sql-cardiff-dates-announced/</link>
       <pubDate>Mon, 29 Dec 2014 11:00:02 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2014-12-29-sql-cardiff-dates-announced/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2014-12-29-sql-cardiff-dates-announced/</guid>
       <description>&lt;p&gt;This year we&amp;#8217;ll be continuing to maintain evening events on Tuesday nights and lunch time events on Thursdays.&lt;/p&gt;
 
 &lt;h2 id=&#34;evening-events&#34;&gt;Evening events&lt;/h2&gt;
@@ -805,10 +805,10 @@ SQL Server I run the SQL Server user group in Cardiff and have done a few years 
     
     <item>
       <title>Where’ve we been?</title>
-      <link>http://lockelife.com/blog/2014-06-28-whereve-we-been/</link>
+      <link>http://lockedata.uk/itsalockeblog/2014-06-28-whereve-we-been/</link>
       <pubDate>Sat, 28 Jun 2014 11:49:21 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2014-06-28-whereve-we-been/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2014-06-28-whereve-we-been/</guid>
       <description>Almost into July and I haven&amp;#8217;t posted a single thing in this blog!
 Shameful of me to be sure &amp;#8211; I&amp;#8217;ve been learning but not sharing. So what&amp;#8217;s been happening?
 Well I moved into a new job at a brand new startup where I&amp;#8217;ve been primarily doing R, modelling, and finally getting my hands back into SQL Server! That&amp;#8217;s been keeping my day&amp;#8217;s and parts of my nights busy. I&amp;#8217;m also working on a startup at home with Oz called Clocksmith Games.</description>
@@ -816,29 +816,29 @@ Well I moved into a new job at a brand new startup where I&amp;#8217;ve been pri
     
     <item>
       <title>Merry Christmas</title>
-      <link>http://lockelife.com/blog/2013-12-24-merry-christmas/</link>
+      <link>http://lockedata.uk/itsalockeblog/2013-12-24-merry-christmas/</link>
       <pubDate>Tue, 24 Dec 2013 21:54:30 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2013-12-24-merry-christmas/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2013-12-24-merry-christmas/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SQLRelay Cardiff – Nov 13th</title>
-      <link>http://lockelife.com/blog/2013-09-25-sqlrelay-cardiff-nov-13th/</link>
+      <link>http://lockedata.uk/itsalockeblog/2013-09-25-sqlrelay-cardiff-nov-13th/</link>
       <pubDate>Wed, 25 Sep 2013 20:44:54 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2013-09-25-sqlrelay-cardiff-nov-13th/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2013-09-25-sqlrelay-cardiff-nov-13th/</guid>
       <description>After dipping Cardiff&amp;#8217;s collective toes into the world of local SQL Server conferences, we&amp;#8217;re doing it again in November. We&amp;#8217;re taking registrations, and volunteers are always welcome. If an all day conference is a bit too much, why not try out a lunchtime or evening event?
 There are 9 other events around the country which you can attend as well as / instead of Cardiff, including Bristol where I&amp;#8217;ve the privilege of speaking along with some excellent folk like Klaus Aschenbrenner.</description>
     </item>
     
     <item>
       <title>Marketing for SQLRelay – In the beginning</title>
-      <link>http://lockelife.com/blog/2013-09-01-marketing-for-sqlrelay-in-the-beginning/</link>
+      <link>http://lockedata.uk/itsalockeblog/2013-09-01-marketing-for-sqlrelay-in-the-beginning/</link>
       <pubDate>Sun, 01 Sep 2013 11:30:40 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2013-09-01-marketing-for-sqlrelay-in-the-beginning/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2013-09-01-marketing-for-sqlrelay-in-the-beginning/</guid>
       <description>&lt;p&gt;After organising &lt;a href=&#34;http://sqlrelay-stef.eventbrite.com&#34; target=&#34;_blank&#34;&gt;SQLRelay&lt;/a&gt; for June 24th in Cardiff, as part of the national series of 8 events.  We&amp;#8217;re gearing up for November with the aim of being able to capitalise on the growing knowledge of SQL Server 2014 CTP and pushing the Relay into a less busy part of the UK community schedule.  The difficulty is that where we had more than 6 months to prep for the previous Relay, this time round we had less than 5.  What this means for me, is not only do I want to run a bigger and better Cardiff event, but I also (being a glutton for punishment) took on spearheading the marketing efforts for the whole shebang.&lt;/p&gt;
 
 &lt;p&gt;Details will be released next week on the launch, but given my lack of knowledge about anything social media this has already been a major undertaking for me, and I thought it might be of value for me, future me, and my dear readers to compile information and learnings as I go along so that it&amp;#8217;s easier to implement in future for other marketing endeavours.  It also provides an area for discussion.&lt;/p&gt;</description>
@@ -846,10 +846,10 @@ There are 9 other events around the country which you can attend as well as / in
     
     <item>
       <title>SSIS basics and gotchas – presentation and resources</title>
-      <link>http://lockelife.com/blog/2013-08-16-ssis-basics-and-gotchas-presentation-and-resources/</link>
+      <link>http://lockedata.uk/itsalockeblog/2013-08-16-ssis-basics-and-gotchas-presentation-and-resources/</link>
       <pubDate>Fri, 16 Aug 2013 17:06:24 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2013-08-16-ssis-basics-and-gotchas-presentation-and-resources/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2013-08-16-ssis-basics-and-gotchas-presentation-and-resources/</guid>
       <description>Follow up resources / places to go for way more detail:
 Stairway to SSIS
 MSFT SSIS tutorial package 1

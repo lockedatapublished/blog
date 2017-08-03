@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sql Relay on Locke Data Blog</title>
-    <link>http://lockelife.com/blog/tags/sql-relay/</link>
+    <link>http://lockedata.uk/itsalockeblog/tags/sql-relay/</link>
     <description>Recent content in Sql Relay on Locke Data Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
     <lastBuildDate>Thu, 13 Oct 2016 08:35:58 +0000</lastBuildDate>
     
-	<atom:link href="http://lockelife.com/blog/tags/sql-relay/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://lockedata.uk/itsalockeblog/tags/sql-relay/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Stepping down from SQL Relay</title>
-      <link>http://lockelife.com/blog/2016-10-13-stepping-sql-relay/</link>
+      <link>http://lockedata.uk/itsalockeblog/2016-10-13-stepping-sql-relay/</link>
       <pubDate>Thu, 13 Oct 2016 08:35:58 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2016-10-13-stepping-sql-relay/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2016-10-13-stepping-sql-relay/</guid>
       <description>Some folks may already know, but I handed in my resignation from SQL Relay as sponsorship lead and Cardiff organiser.
 Over my time in SQL Relay, I&amp;#8217;ve helped deliver 30 conferences. I&amp;#8217;ve attended about 15 of those! Being able to deliver so much learning to people all around the country has been an incredible experience and I&amp;#8217;m tremendously proud of everything SQL Relay has achieved.
 However, SQL Relay has become increasingly difficult for me to dedicate the time to.</description>
@@ -25,10 +25,10 @@ However, SQL Relay has become increasingly difficult for me to dedicate the time
     
     <item>
       <title>Reflections: SQL Relay is coming</title>
-      <link>http://lockelife.com/blog/2016-09-27-reflections-sql-relay-coming/</link>
+      <link>http://lockedata.uk/itsalockeblog/2016-09-27-reflections-sql-relay-coming/</link>
       <pubDate>Tue, 27 Sep 2016 08:24:36 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2016-09-27-reflections-sql-relay-coming/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2016-09-27-reflections-sql-relay-coming/</guid>
       <description>I&amp;#8217;ve been pretty quiet recently, I haven&amp;#8217;t presented much, I haven&amp;#8217;t blogged much, I haven&amp;#8217;t worked on my open source projects much. All my energy left over from my major work project has been going into SQL Relay. SQL Relay is an ambitious project every year. We organise a conference that goes on tour. In previous years, I&amp;#8217;ve gone to 8 cities over two weeks. Over the past 4 years, I&amp;#8217;ve been part of organising 30 conferences.</description>
     </item>
     

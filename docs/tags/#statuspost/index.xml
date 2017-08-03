@@ -2,42 +2,42 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>#Statuspost on Locke Data Blog</title>
-    <link>http://lockelife.com/blog/tags/#statuspost/</link>
+    <link>http://lockedata.uk/itsalockeblog/tags/#statuspost/</link>
     <description>Recent content in #Statuspost on Locke Data Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
     <lastBuildDate>Wed, 07 Jun 2017 09:27:46 +0000</lastBuildDate>
     
-	<atom:link href="http://lockelife.com/blog/tags/#statuspost/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://lockedata.uk/itsalockeblog/tags/#statuspost/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>R and Data Science activities in London, June 27th – 29th</title>
-      <link>http://lockelife.com/blog/2017-06-07-r-data-science-activities-london-june-27th-29th/</link>
+      <link>http://lockedata.uk/itsalockeblog/2017-06-07-r-data-science-activities-london-june-27th-29th/</link>
       <pubDate>Wed, 07 Jun 2017 09:27:46 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2017-06-07-r-data-science-activities-london-june-27th-29th/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2017-06-07-r-data-science-activities-london-june-27th-29th/</guid>
       <description>Locke Data will be up to some shenanigans of various stripes in the big smoke. We hope to see you at some of them!
 June 26th &amp;#8212; Monday Introduction to R (Newcastle) I won&amp;#8217;t be in London for this but I&amp;#8217;ll be doing a day of Introduction to R in Newcastle. This is supporting the local user groups and costs up to £90 for the whole day.Intro to R in Newcastle, June 26th</description>
     </item>
     
     <item>
       <title>Community workshops</title>
-      <link>http://lockelife.com/blog/2017-04-14-community-workshops/</link>
+      <link>http://lockedata.uk/itsalockeblog/2017-04-14-community-workshops/</link>
       <pubDate>Fri, 14 Apr 2017 18:00:59 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2017-04-14-community-workshops/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2017-04-14-community-workshops/</guid>
       <description>Following on from when we announced the availability of our community workshops, we&amp;#8217;ve got three in the next three months that folks can attend.
 May 19th &amp;#8211; Data science project in a day We&amp;#8217;ll be in Kiev, Ukraine, doing a whole data science project in a day. This is intended to give people a little bit of code, process, and critical thinking along the whole data science workflow. This will enable folks to see how it hangs together and decide where and how much they want to invest their learning in future.</description>
     </item>
     
     <item>
       <title>Battle of the Beards: access it online</title>
-      <link>http://lockelife.com/blog/2017-03-20-battle-beards-now-online/</link>
+      <link>http://lockedata.uk/itsalockeblog/2017-03-20-battle-beards-now-online/</link>
       <pubDate>Mon, 20 Mar 2017 11:11:29 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2017-03-20-battle-beards-now-online/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2017-03-20-battle-beards-now-online/</guid>
       <description>A fortnight ago I wrote&amp;nbsp;Dear South Wales &amp;amp; Bristol readers: I need your help&amp;nbsp;as Battle of the Beards was failing. Well, we didn&amp;#8217;t manage to make it to the minimum amount of attendees to go forward with it and on Thursday it looked like I was going to have to cancel it.
 Then inspiration struck &amp;#8230; the major reasons why maybe people didn&amp;#8217;t want to attend are:
  Too far to travel Hard to get a day off work Not interested in all the talks  What would make it so people didn&amp;#8217;t have to travel, could watch from work, and see only the sessions they&amp;#8217;re interested in?</description>
@@ -45,10 +45,10 @@ Then inspiration struck &amp;#8230; the major reasons why maybe people didn&amp;
     
     <item>
       <title>Dear South Wales &amp; Bristol readers: I need your help</title>
-      <link>http://lockelife.com/blog/2017-03-06-battle-beards-march-29th/</link>
+      <link>http://lockedata.uk/itsalockeblog/2017-03-06-battle-beards-march-29th/</link>
       <pubDate>Mon, 06 Mar 2017 12:26:08 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2017-03-06-battle-beards-march-29th/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2017-03-06-battle-beards-march-29th/</guid>
       <description>&lt;p&gt;I need your help.&lt;/p&gt;
 
 &lt;p&gt;Battle of the Beards is an annual tech event in Cardiff that&amp;#8217;s previously been an evening affair but is now a day-long conference. We&amp;#8217;re hosting half-hour talks on security, infrastructure, software craftmanship, front-end development, and data visualisation. We&amp;#8217;re starting out the day with bacon baps and it just gets better from there. Tickets cost £15 and there&amp;#8217;s the option to add a donation to the charity we&amp;#8217;re supporting with the event, the &lt;a href=&#34;https://www.thecalmzone.net/&#34;&gt;Campaign Against Living Miserably&lt;/a&gt;.&lt;/p&gt;
@@ -67,10 +67,10 @@ Then inspiration struck &amp;#8230; the major reasons why maybe people didn&amp;
     
     <item>
       <title>Announcing community R workshops</title>
-      <link>http://lockelife.com/blog/2017-02-27-community-r-workshops/</link>
+      <link>http://lockedata.uk/itsalockeblog/2017-02-27-community-r-workshops/</link>
       <pubDate>Mon, 27 Feb 2017 09:24:14 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2017-02-27-community-r-workshops/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2017-02-27-community-r-workshops/</guid>
       <description>&lt;p&gt;A big part of why I&amp;#8217;ve launched Locke Data is so that I can give back more to my communities. I want to give more time and more support to others. One of the first steps is doing some activities that give financial support to community groups without damaging my startup cashflow! Community R workshops that fund local user groups is the first activity I&amp;#8217;ll be trialling.&lt;/p&gt;
 
 &lt;p&gt;Here&amp;#8217;s what&amp;#8217;s involved, and what you might want to consider if you&amp;#8217;d like to be a part of this endeavour:&lt;/p&gt;
@@ -80,19 +80,19 @@ Then inspiration struck &amp;#8230; the major reasons why maybe people didn&amp;
     
     <item>
       <title>Talking Data and Docker</title>
-      <link>http://lockelife.com/blog/2017-02-08-talking-data-and-docker/</link>
+      <link>http://lockedata.uk/itsalockeblog/2017-02-08-talking-data-and-docker/</link>
       <pubDate>Wed, 08 Feb 2017 16:25:20 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2017-02-08-talking-data-and-docker/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2017-02-08-talking-data-and-docker/</guid>
       <description>If you need to know about persisting data in the world of containers then I recently did a talk and a spot on a podcast that should help you out. My NDC London talk Data + Docker = Disconbobulating? cover the basics and architectural decisions. In my podcast spot Data and Docker on .Net Rocks we go into more depth about the architectural decisions facing you when working with data and Docker.</description>
     </item>
     
     <item>
       <title>Going solo!</title>
-      <link>http://lockelife.com/blog/2017-01-04-going-solo/</link>
+      <link>http://lockedata.uk/itsalockeblog/2017-01-04-going-solo/</link>
       <pubDate>Wed, 04 Jan 2017 10:02:37 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2017-01-04-going-solo/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2017-01-04-going-solo/</guid>
       <description>The year has started out on a high for me. I&amp;#8217;ve handed in my notice Censornet and I was re-awarded the Data Platform MVP award by Microsoft. I handed in my notice not to go to a new job but to fly solo!
 I&amp;#8217;m starting Locke Data in February to help people embed data science skills in their organisations.
 Business intelligence has been a thing long enough that there&amp;#8217;s a whole department of people dedicated to it and it generally isn&amp;#8217;t disruptive to other areas of the business and IT.</description>
@@ -100,10 +100,10 @@ Business intelligence has been a thing long enough that there&amp;#8217;s a whol
     
     <item>
       <title>An experiment in self-promotion – Revive Old Posts</title>
-      <link>http://lockelife.com/blog/2016-11-24-experiment-self-promotion-revive-old-posts/</link>
+      <link>http://lockedata.uk/itsalockeblog/2016-11-24-experiment-self-promotion-revive-old-posts/</link>
       <pubDate>Thu, 24 Nov 2016 10:46:40 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2016-11-24-experiment-self-promotion-revive-old-posts/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2016-11-24-experiment-self-promotion-revive-old-posts/</guid>
       <description>&lt;p&gt;I&amp;#8217;ve been writing (not enough) blog posts for a while now and have built up some neat stuff in the backlog if I may so myself. Alas, a lot of this doesn&amp;#8217;t get seen because it&amp;#8217;s not on the front page or in the top 5 blog posts. Sad that posts like my one on &lt;a href=&#34;https://itsalocke.com/anchor-modelling-sixth-normal-form-databases/&#34;&gt;sixth normal form databases&lt;/a&gt; don&amp;#8217;t get enough love, I&amp;#8217;ve installed the WordPress plugin &lt;a href=&#34;https://en-gb.wordpress.org/plugins/tweet-old-post/&#34;&gt;Revive Old Posts&lt;/a&gt; (ROP) to try countering this!&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -111,30 +111,30 @@ Business intelligence has been a thing long enough that there&amp;#8217;s a whol
     
     <item>
       <title>My first MVP Summit – a fantastic reminder</title>
-      <link>http://lockelife.com/blog/2016-11-14-my-first-mvp-summit/</link>
+      <link>http://lockedata.uk/itsalockeblog/2016-11-14-my-first-mvp-summit/</link>
       <pubDate>Mon, 14 Nov 2016 10:29:45 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2016-11-14-my-first-mvp-summit/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2016-11-14-my-first-mvp-summit/</guid>
       <description>I had the tremendous pleasure of going to the Microsoft MVP Summit this week and it was a fantastic experience. It also taught me a valuable lesson &amp;#8211; I need to be an attendee more.
 Microsoft award ~4,000 people their Most Valued Professional (MVP) award each year. MVPs are influential, helpful people who work with Microsoft services. I&amp;#8217;m not sure what I did to get in when so many awesome folks I know haven&amp;#8217;t but I&amp;#8217;m very proud to be in receipt of the Award.</description>
     </item>
     
     <item>
       <title>GirlswithDeepPockets.com</title>
-      <link>http://lockelife.com/blog/2016-10-28-girlswithdeeppockets-com/</link>
+      <link>http://lockedata.uk/itsalockeblog/2016-10-28-girlswithdeeppockets-com/</link>
       <pubDate>Fri, 28 Oct 2016 11:25:13 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2016-10-28-girlswithdeeppockets-com/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2016-10-28-girlswithdeeppockets-com/</guid>
       <description>Ok, this post is about one of my latest crazy/harebrained/whacky ideas.
 I&amp;#8217;m fed up of having to carry my Galaxy Note 3 in my hand. I can&amp;#8217;t stand handbags and most women&amp;#8217;s clothing items don&amp;#8217;t have pockets or the pockets are insufficient. Given how easy it is to build a website these days, I thought I&amp;#8217;d become a sofa warrior for the campaign for pockets. I&amp;#8217;ve made a site and aim to make it an open &amp;amp; technical backend.</description>
     </item>
     
     <item>
       <title>Stepping down from SQL Relay</title>
-      <link>http://lockelife.com/blog/2016-10-13-stepping-sql-relay/</link>
+      <link>http://lockedata.uk/itsalockeblog/2016-10-13-stepping-sql-relay/</link>
       <pubDate>Thu, 13 Oct 2016 08:35:58 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2016-10-13-stepping-sql-relay/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2016-10-13-stepping-sql-relay/</guid>
       <description>Some folks may already know, but I handed in my resignation from SQL Relay as sponsorship lead and Cardiff organiser.
 Over my time in SQL Relay, I&amp;#8217;ve helped deliver 30 conferences. I&amp;#8217;ve attended about 15 of those! Being able to deliver so much learning to people all around the country has been an incredible experience and I&amp;#8217;m tremendously proud of everything SQL Relay has achieved.
 However, SQL Relay has become increasingly difficult for me to dedicate the time to.</description>
@@ -142,20 +142,20 @@ However, SQL Relay has become increasingly difficult for me to dedicate the time
     
     <item>
       <title>ItsALocke.com now with added locks</title>
-      <link>http://lockelife.com/blog/2016-10-07-itsalocke-com-now-added-locks/</link>
+      <link>http://lockedata.uk/itsalockeblog/2016-10-07-itsalocke-com-now-added-locks/</link>
       <pubDate>Fri, 07 Oct 2016 08:46:31 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2016-10-07-itsalocke-com-now-added-locks/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2016-10-07-itsalocke-com-now-added-locks/</guid>
       <description>This blog now has some extra locks, these are in the URL bar!
 It took my fantastic hosters WPEngine a little longer than I would have preferred to get a modern SSL policy. Now that they have, they did it in their typically awesome fashion. You can request a free Let&amp;#8217;s Encrypt SSL certificate from the admin dashboard, and configure how http etc should work in less than 15 minutes, and you don&amp;#8217;t have be a web wizard to do it.</description>
     </item>
     
     <item>
       <title>2016 PASS Board of Directors Candidate Town Halls</title>
-      <link>http://lockelife.com/blog/2016-10-06-2016-pass-board-of-directors-candidate-town-halls/</link>
+      <link>http://lockedata.uk/itsalockeblog/2016-10-06-2016-pass-board-of-directors-candidate-town-halls/</link>
       <pubDate>Thu, 06 Oct 2016 09:27:57 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2016-10-06-2016-pass-board-of-directors-candidate-town-halls/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2016-10-06-2016-pass-board-of-directors-candidate-town-halls/</guid>
       <description>&lt;p&gt;It&amp;#8217;s PASS Board of Directors elections again! After a number of twitter discussions last week about the applicability of PASS outside of the US and what I think PASS is good and bad at, I thought I would engage the process instead of just being a complainy-pants. I attended all 6 town hall webinars and asked questions to all the candidates. I recommend you watch them before voting.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Find out more about the candidates, the PASS Board of Director elections, and how to vote on the &lt;a href=&#34;http://www.sqlpass.org/Elections&#34;&gt;PASS website&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
@@ -165,19 +165,19 @@ It took my fantastic hosters WPEngine a little longer than I would have preferre
     
     <item>
       <title>Reflections: SQL Relay is coming</title>
-      <link>http://lockelife.com/blog/2016-09-27-reflections-sql-relay-coming/</link>
+      <link>http://lockedata.uk/itsalockeblog/2016-09-27-reflections-sql-relay-coming/</link>
       <pubDate>Tue, 27 Sep 2016 08:24:36 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2016-09-27-reflections-sql-relay-coming/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2016-09-27-reflections-sql-relay-coming/</guid>
       <description>I&amp;#8217;ve been pretty quiet recently, I haven&amp;#8217;t presented much, I haven&amp;#8217;t blogged much, I haven&amp;#8217;t worked on my open source projects much. All my energy left over from my major work project has been going into SQL Relay. SQL Relay is an ambitious project every year. We organise a conference that goes on tour. In previous years, I&amp;#8217;ve gone to 8 cities over two weeks. Over the past 4 years, I&amp;#8217;ve been part of organising 30 conferences.</description>
     </item>
     
     <item>
       <title>Finished my first GameMaker Game</title>
-      <link>http://lockelife.com/blog/2016-09-17-first-gamemaker-game/</link>
+      <link>http://lockedata.uk/itsalockeblog/2016-09-17-first-gamemaker-game/</link>
       <pubDate>Sat, 17 Sep 2016 20:11:54 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2016-09-17-first-gamemaker-game/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2016-09-17-first-gamemaker-game/</guid>
       <description>Getting started with GameMaker, making Asteroids! I mean OK, it&amp;#8217;s just a clone of a classic, but isn&amp;#8217;t that how fledgling artists practice? Initially created following a tutorial, I then went through and added a lot of extra features, including music, splash screens, a pause function and much cleaner code.
 Embedding by i-frame is pretty ugly, so please follow the link below to try the game.
 Asteroids Game
@@ -186,10 +186,10 @@ A/D or Left/Right to turn W or Up to move Space or Right Control to shoot Escape
     
     <item>
       <title>HIBPwned updated on CRAN</title>
-      <link>http://lockelife.com/blog/2016-09-15-hibpwned-updated-cran/</link>
+      <link>http://lockedata.uk/itsalockeblog/2016-09-15-hibpwned-updated-cran/</link>
       <pubDate>Thu, 15 Sep 2016 07:00:53 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2016-09-15-hibpwned-updated-cran/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2016-09-15-hibpwned-updated-cran/</guid>
       <description>Haveibeenpwned.com is a fantastic service that helps people find out if they&amp;#8217;ve been involved in a data breach. HIBPwned is an R wrapper for that service.
 Recently, due to abuse of the system, Troy Hunt had to add a limit of one request per 1.5s.
 The new version published on CRAN last night adds a delay into each call so that we can continue to use it in R.
@@ -198,10 +198,10 @@ Check out the package on CRAN for vignettes and more information on the package.
     
     <item>
       <title>My PASS #Summit2016 submissions feedback</title>
-      <link>http://lockelife.com/blog/2016-06-23-pass-summit-2016-submissions-feedback/</link>
+      <link>http://lockedata.uk/itsalockeblog/2016-06-23-pass-summit-2016-submissions-feedback/</link>
       <pubDate>Thu, 23 Jun 2016 11:59:34 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2016-06-23-pass-summit-2016-submissions-feedback/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2016-06-23-pass-summit-2016-submissions-feedback/</guid>
       <description>&lt;p&gt;I really liked the way Brent showed us &lt;a href=&#34;https://ozar.me/2016/06/feedback-on-my-sqlpass-summit16-abstract-submissions/&#34;&gt;his feedback received&lt;/a&gt; and since mimicry is the best form of flattery, I thought I&amp;#8217;d go ahead and do it too!&lt;/p&gt;
 
 &lt;p&gt;I didn&amp;#8217;t get any accepted abstracts, and I&amp;#8217;m actually grateful. The recent stresses to do with the PASS dramas aside, I would have had to use 5 days holiday time, pay for flights and hotel, and then flown out a week later for MVP Summit. Now I can attend some other conferences and/or have a Christmas break! Woo hoo 😀&lt;/p&gt;
@@ -211,10 +211,10 @@ Check out the package on CRAN for vignettes and more information on the package.
     
     <item>
       <title>HIBPwned on CRAN</title>
-      <link>http://lockelife.com/blog/2016-06-09-hibpwned-on-cran/</link>
+      <link>http://lockedata.uk/itsalockeblog/2016-06-09-hibpwned-on-cran/</link>
       <pubDate>Thu, 09 Jun 2016 08:06:58 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2016-06-09-hibpwned-on-cran/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2016-06-09-hibpwned-on-cran/</guid>
       <description>Part of my (slowly) working pipeline of coding projects has been an R package that wraps the fantastic HaveIBeenPwned.com API.
 If you&amp;#8217;re not already familiar with HaveIBeenPwned, rectify the situation, NOW! Don&amp;#8217;t worry about continuing to read the rest of the post; getting yourself signed up for account breach notifications is way more important!Go now!
 /giphy run
@@ -224,20 +224,20 @@ HIBPwned is a feature complete R package that allows you to use every (currently
     
     <item>
       <title>Recent presentations</title>
-      <link>http://lockelife.com/blog/2016-06-01-recent-presentations/</link>
+      <link>http://lockedata.uk/itsalockeblog/2016-06-01-recent-presentations/</link>
       <pubDate>Wed, 01 Jun 2016 08:09:32 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2016-06-01-recent-presentations/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2016-06-01-recent-presentations/</guid>
       <description>The last month or so has been a whirlwind of awesomeness with a veritable bevvy of user group and conference talks on my part! I thought I would share the materials with you and provide some brief thoughts on how each presentation went.
 Sessions  SQL Saturday Exeter : Stats 101 London Business Analytics (LBAG) : Skilling up to code with data SQLBits &amp;amp; TUGA : Cut the R Learning Curve SQLBits &amp;amp; TUGA : R in the Microsoft Data Platform (full day of training) IT Pro Portugal : Being lazy with infrastructure  SQL Saturday Exeter My presentation, in my opinion, was exceedingly brave.</description>
     </item>
     
     <item>
       <title>#satRdays voting closes May 31st</title>
-      <link>http://lockelife.com/blog/2016-05-27-satrdays-voting-closes-may-31st/</link>
+      <link>http://lockedata.uk/itsalockeblog/2016-05-27-satrdays-voting-closes-may-31st/</link>
       <pubDate>Fri, 27 May 2016 12:00:56 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2016-05-27-satrdays-voting-closes-may-31st/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2016-05-27-satrdays-voting-closes-may-31st/</guid>
       <description>Voting for 2 of the 3 locations for satRday conferences will be closing at the end of May 31st (GMT). It&amp;#8217;s been a phenomenal turnout with more than 1,500 votes so far.
 You can still vote if you haven&amp;#8217;t already!
 EU status Budapest, Hungary, is where Gergely will be throwing the EU event and it&amp;#8217;s tentatively set for September.
@@ -246,40 +246,40 @@ US status Chicago started out with a close runner of Washington DC, but that all
     
     <item>
       <title>satRday location voting now open</title>
-      <link>http://lockelife.com/blog/2016-05-11-satrday-location-voting/</link>
+      <link>http://lockedata.uk/itsalockeblog/2016-05-11-satrday-location-voting/</link>
       <pubDate>Wed, 11 May 2016 15:45:44 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2016-05-11-satrday-location-voting/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2016-05-11-satrday-location-voting/</guid>
       <description>satRdays, free R conferences, are a project being supported by the R Consortium. When Gergely and I submitted our proposal, we said we&amp;#8217;d be supporting three conferences:
  Budapest, Hungary (Gergely&amp;#8217;s home turf) Somewhere in the US Somewhere else in the world  We&amp;#8217;ve had an overwhelming response with 40 submitted conferences but for the fully-funded ones, there can only be three. We are looking at how the runners up can do the next wave of events but we want to get the ball rolling on the first three.</description>
     </item>
     
     <item>
       <title>R package news: tfsR, HIBPwned, mockaRoo</title>
-      <link>http://lockelife.com/blog/2016-03-24-r-package-news-tfsr-hibpwned-mockaroo/</link>
+      <link>http://lockedata.uk/itsalockeblog/2016-03-24-r-package-news-tfsr-hibpwned-mockaroo/</link>
       <pubDate>Thu, 24 Mar 2016 15:44:03 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2016-03-24-r-package-news-tfsr-hibpwned-mockaroo/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2016-03-24-r-package-news-tfsr-hibpwned-mockaroo/</guid>
       <description>This is a brief update on my packages not currently on CRAN: tfsR, HIBPwned, and mockaRoo.
 tfsR tfsR is designed to help you work git repositories in Microsoft Team Foundation Server (TFS) and Visual Studio Team Services (VSTS). I wrote the package a while ago and it has/had just two functions; one for getting a list of git repositories, and one for making a new git repository. The release of httr 1.</description>
     </item>
     
     <item>
       <title>satRdays are go!</title>
-      <link>http://lockelife.com/blog/2016-03-23-satrdays-are-go/</link>
+      <link>http://lockedata.uk/itsalockeblog/2016-03-23-satrdays-are-go/</link>
       <pubDate>Wed, 23 Mar 2016 13:52:16 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2016-03-23-satrdays-are-go/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2016-03-23-satrdays-are-go/</guid>
       <description>I&amp;#8217;m very pleased to say that the R Consortium agreed to the support the satRday project!
 The idea kicked off in November and I was over the moon with the response from the community, then we garnered support before submitting to the Consortium and I must have looped the moon a few times as we had more than 500 responses. Now the R Consortium are supporting us and we can turn all that enthusiasm into action.</description>
     </item>
     
     <item>
       <title>HIBPwned, an R package for HaveIBeenPwned.com</title>
-      <link>http://lockelife.com/blog/2016-03-21-r-package-haveibeenpwned-com/</link>
+      <link>http://lockedata.uk/itsalockeblog/2016-03-21-r-package-haveibeenpwned-com/</link>
       <pubDate>Mon, 21 Mar 2016 15:02:08 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2016-03-21-r-package-haveibeenpwned-com/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2016-03-21-r-package-haveibeenpwned-com/</guid>
       <description>&lt;p&gt;The answer in life to the inevitable question of &amp;#8220;How can I do that in R?&amp;#8221; should be &amp;#8220;There&amp;#8217;s a package for that&amp;#8221;. So when I wanted to query &lt;a href=&#34;https://haveibeenpwned.com&#34;&gt;HaveIBeenPwned.com&lt;/a&gt; (HIBP) to check whether a bunch of emails had been involved in data breaches and there wasn&amp;#8217;t an R package for HIBP, it meant that the responsibility for making one landed on my shoulders. Now, you can see if your accounts are at risk with the R package for HaveIBeenPwned.com, &lt;strong&gt;HIBPwned&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;figure id=&#34;attachment_61581&#34; style=&#34;width: 768px&#34; class=&#34;wp-caption alignnone&#34;&gt;&lt;img src=&#34;http://res.cloudinary.com/lockedata/image/upload/h_139,w_750/v1499850337/hibp_os8t5d.png&#34; alt=&#34;Have I Been Pwned | HaveIBeenPwned.com&#34; width=&#34;768&#34; height=&#34;142&#34; class=&#34;size-medium_large wp-image-61581&#34; /&gt;&lt;figcaption class=&#34;wp-caption-text&#34;&gt;Have I Been Pwned | HaveIBeenPwned.com&lt;/figcaption&gt;&lt;/figure&gt;
@@ -293,58 +293,58 @@ The idea kicked off in November and I was over the moon with the response from t
     
     <item>
       <title>@SQLCardiff: Return of the Beard (2016-03-30)</title>
-      <link>http://lockelife.com/blog/2016-03-15-sqlcardiff-return-beard-2016-03-30/</link>
+      <link>http://lockedata.uk/itsalockeblog/2016-03-15-sqlcardiff-return-beard-2016-03-30/</link>
       <pubDate>Tue, 15 Mar 2016 09:59:42 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2016-03-15-sqlcardiff-return-beard-2016-03-30/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2016-03-15-sqlcardiff-return-beard-2016-03-30/</guid>
       <description>Just a quick heads up to peeps in and around Cardiff, Wales. Later this month we&amp;#8217;re holding Battle of the Beards: Return of the Beard. Fantastic speakers with resplendent beards are joining us for our 6 sq. ft of pizza to present on advanced SQL Tricks, using PowerBI as a DBA, and stepping up to the challenge of the last minute audit.
 This is a great chance to meet folks interested in the Microsoft Data Platform and learn from some incredibly knowledgable speakers.</description>
     </item>
     
     <item>
       <title>Upcoming R for Microsoft training days</title>
-      <link>http://lockelife.com/blog/2016-03-07-upcoming-r-microsoft-training-days/</link>
+      <link>http://lockedata.uk/itsalockeblog/2016-03-07-upcoming-r-microsoft-training-days/</link>
       <pubDate>Mon, 07 Mar 2016 09:55:13 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2016-03-07-upcoming-r-microsoft-training-days/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2016-03-07-upcoming-r-microsoft-training-days/</guid>
       <description>In May, I will be delivering two R for Microsoft training days. These two days will focus on some R fundamentals and applying these fundamentals within the Microsoft Data Platform. These training days are ideal if you know one half of the components &amp;#8211; whether that&amp;#8217;s the R bit or the Microsoft BI bit. Either way, you&amp;#8217;ll learn about the other half.
 SQLBits SQLBits XV is being held in Liverpool this year and my training day is on May 4th.</description>
     </item>
     
     <item>
       <title>My life, my universe, my everything</title>
-      <link>http://lockelife.com/blog/2016-03-01-my-life-my-universe-my-everything/</link>
+      <link>http://lockedata.uk/itsalockeblog/2016-03-01-my-life-my-universe-my-everything/</link>
       <pubDate>Tue, 01 Mar 2016 20:08:37 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2016-03-01-my-life-my-universe-my-everything/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2016-03-01-my-life-my-universe-my-everything/</guid>
       <description>Last year involved moving jobs to Mango as Principal Consultant, moving home, getting a dog, and Oz becoming the Purple Tadpole. That was on top of SQL Relay, copious presentations, and much travelling. By the end of the year I was pretty ill and exceedingly grumpy. Oz wasn&amp;#8217;t having a huge amount of fun either between me never being home and him having to hold the fort in a massive way.</description>
     </item>
     
     <item>
       <title>satRdays: final push</title>
-      <link>http://lockelife.com/blog/2016-01-06-satrdays-final-push/</link>
+      <link>http://lockedata.uk/itsalockeblog/2016-01-06-satrdays-final-push/</link>
       <pubDate>Wed, 06 Jan 2016 14:54:37 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2016-01-06-satrdays-final-push/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2016-01-06-satrdays-final-push/</guid>
       <description>I talked back in November about the idea of an RSaturday, which were free community-driven conferences on R. Since then, we created a GitHub repository and started hammering out the details for satRdays. The current proposal consists of:
  A name: satRday A proposition: Free/cheap (&amp;lt;£30) conferences organised by user groups around the world. Attendees get more access to training in R, with a much lower cost-barrier. We develop more speakers on R.</description>
     </item>
     
     <item>
       <title>optiRum 0.37.3 now out</title>
-      <link>http://lockelife.com/blog/2016-01-04-optirum-0-37-3-now-out/</link>
+      <link>http://lockedata.uk/itsalockeblog/2016-01-04-optirum-0-37-3-now-out/</link>
       <pubDate>Mon, 04 Jan 2016 07:26:14 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2016-01-04-optirum-0-37-3-now-out/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2016-01-04-optirum-0-37-3-now-out/</guid>
       <description>Just a quick heads up to announce the availability of optiRum 0.37.3 &amp;#8211; this takes into account the new version of ggplot2 and is backwards compatible.</description>
     </item>
     
     <item>
       <title>optiRum 0.37.1 now out</title>
-      <link>http://lockelife.com/blog/2015-11-07-optirum-0-37-1-now-out/</link>
+      <link>http://lockedata.uk/itsalockeblog/2015-11-07-optirum-0-37-1-now-out/</link>
       <pubDate>Sat, 07 Nov 2015 19:26:10 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2015-11-07-optirum-0-37-1-now-out/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2015-11-07-optirum-0-37-1-now-out/</guid>
       <description>&lt;p&gt;A while back, I &lt;a href=&#34;https://itsalocke.com/optirum-gini-like-a-wizard/&#34;&gt;wrote about how I was waiting&lt;/a&gt; to be able to release &lt;a href=&#34;https://github.com/stephlocke/optiRum&#34;&gt;optiRum&lt;/a&gt; to CRAN, well data.table 1.9.6 was released (a key dependency for new functionality) and I&amp;#8217;ve finally had some quiet time. So optiRum 1.37.1 is now accepted and trickling through the CRAN publish processes.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -352,10 +352,10 @@ SQLBits SQLBits XV is being held in Liverpool this year and my training day is o
     
     <item>
       <title>SQLSaturdays but for R?</title>
-      <link>http://lockelife.com/blog/2015-11-04-sqlsaturdays-but-for-r/</link>
+      <link>http://lockedata.uk/itsalockeblog/2015-11-04-sqlsaturdays-but-for-r/</link>
       <pubDate>Wed, 04 Nov 2015 19:25:22 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2015-11-04-sqlsaturdays-but-for-r/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2015-11-04-sqlsaturdays-but-for-r/</guid>
       <description>&lt;p&gt;&lt;strong&gt;UPDATE: Proposal now being developed after fantastic community support. Check out satRdays on &lt;a href=&#34;https://github.com/stephlocke/RSaturday-proposal&#34;&gt;GitHub&lt;/a&gt; and contribute your opinions!&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;I had a contact from a very nice chap in Dallas a month ago about whether in the R world we do anything like SQLSaturdays.&lt;/p&gt;
@@ -371,20 +371,20 @@ SQLBits SQLBits XV is being held in Liverpool this year and my training day is o
     
     <item>
       <title>Some recent posts over on the Mango blog</title>
-      <link>http://lockelife.com/blog/2015-10-28-some-recent-posts-over-on-the-mango-blog/</link>
+      <link>http://lockedata.uk/itsalockeblog/2015-10-28-some-recent-posts-over-on-the-mango-blog/</link>
       <pubDate>Wed, 28 Oct 2015 17:10:32 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2015-10-28-some-recent-posts-over-on-the-mango-blog/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2015-10-28-some-recent-posts-over-on-the-mango-blog/</guid>
       <description>Since August, I&amp;#8217;ve had the pleasure to work at Mango Solutions, a data science consultancy, as a Principal Consultant.
 In that time, I&amp;#8217;ve been to EARL London, SQL Relay, and SQL in the City, so conference season has been in full swing with more to come in the form EARL Boston next week. Surprisingly, I&amp;#8217;ve also found some time to help some customers out and write some blog posts over on the Mango site.</description>
     </item>
     
     <item>
       <title>SQL Relay is here!</title>
-      <link>http://lockelife.com/blog/2015-07-16-sql-relay-is-here/</link>
+      <link>http://lockedata.uk/itsalockeblog/2015-07-16-sql-relay-is-here/</link>
       <pubDate>Thu, 16 Jul 2015 09:30:59 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2015-07-16-sql-relay-is-here/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2015-07-16-sql-relay-is-here/</guid>
       <description>SQL Relay is back on tour! Our 6th event sees us yet again touring the country bringing awesome speakers to eight cities over 2 weeks.
 As usual we&amp;#8217;re improving things:
  A new platform called Attendee.Events which allows easier registration &amp;amp; speaker submission A whole bunch of webinars planned to get in the swing of things More breadth &amp;#8211; this year each event includes a dedicated track to R, machine learning etc, on top of SQL Server and business intelligence More content &amp;#8211; instead of swapping out existing slots for breadth, we added more tracks A green initiative &amp;#8230; see it on the day Improved speaker experience &amp;#8211; we&amp;#8217;re building on last year&amp;#8217;s fun bus with the help of SQL Sentry to make it easier and more fun for speakers to do multiple events, as well as offering first timers some mentoring as most of the organisers are also speakers  You&amp;#8217;ll see a lot of announcements about Relay over the next few months, but I hope this little post inspires you to check out our events 😀</description>
@@ -392,10 +392,10 @@ As usual we&amp;#8217;re improving things:
     
     <item>
       <title>R training day mk2 – @SQLSatMcr</title>
-      <link>http://lockelife.com/blog/2015-06-24-r-training-day-mk2-sqlsatmcr/</link>
+      <link>http://lockedata.uk/itsalockeblog/2015-06-24-r-training-day-mk2-sqlsatmcr/</link>
       <pubDate>Wed, 24 Jun 2015 08:35:09 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2015-06-24-r-training-day-mk2-sqlsatmcr/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2015-06-24-r-training-day-mk2-sqlsatmcr/</guid>
       <description>&lt;p&gt;Back in April, for SQL Saturday Exeter I ran &lt;a href=&#34;https://itsalocke.com/sqlsaturday-exeter-2015/&#34;&gt;my first ever full day of training&lt;/a&gt;. Next month sees me taking my second tilt at it.&lt;/p&gt;
 
 &lt;p&gt;To sign up for my R training day, July 24th, in Manchester you can go to the pre-con homepage.&lt;/p&gt;
@@ -407,10 +407,10 @@ As usual we&amp;#8217;re improving things:
     
     <item>
       <title>My (first) #SQLHangout</title>
-      <link>http://lockelife.com/blog/2015-06-04-my-first-sqlhangout/</link>
+      <link>http://lockedata.uk/itsalockeblog/2015-06-04-my-first-sqlhangout/</link>
       <pubDate>Thu, 04 Jun 2015 08:19:17 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2015-06-04-my-first-sqlhangout/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2015-06-04-my-first-sqlhangout/</guid>
       <description>Yesterday I had the pleasure of hanging out &amp;#8220;on air&amp;#8221; with Boris Hristov.
 We talked open sourcing!
 You can download and/or contribute to the following projects I have going:
@@ -419,10 +419,10 @@ You can download and/or contribute to the following projects I have going:
     
     <item>
       <title>SQLSaturday Portugal</title>
-      <link>http://lockelife.com/blog/2015-05-18-sqlsaturday-portugal/</link>
+      <link>http://lockedata.uk/itsalockeblog/2015-05-18-sqlsaturday-portugal/</link>
       <pubDate>Mon, 18 May 2015 09:42:13 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2015-05-18-sqlsaturday-portugal/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2015-05-18-sqlsaturday-portugal/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://www.sqlsaturday.com/369/EventHome.aspx&#34;&gt;SQLSaturday Portugal 2015&lt;/a&gt; has been a huge amount of fun but I&amp;#8217;ve also learnt a lot. A big thank you to the organisers!&lt;/p&gt;
 
 &lt;p&gt;Below are my slides and notes from sessions I attended.&lt;/p&gt;
@@ -436,10 +436,10 @@ You can download and/or contribute to the following projects I have going:
     
     <item>
       <title>SQL Saturday Exeter: Steph &amp; Oz’s slides</title>
-      <link>http://lockelife.com/blog/2015-04-26-sql-saturday-exeter-steph-ozs-slides/</link>
+      <link>http://lockedata.uk/itsalockeblog/2015-04-26-sql-saturday-exeter-steph-ozs-slides/</link>
       <pubDate>Sun, 26 Apr 2015 16:04:36 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2015-04-26-sql-saturday-exeter-steph-ozs-slides/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2015-04-26-sql-saturday-exeter-steph-ozs-slides/</guid>
       <description>Well SQL Saturday Exeter flew by. T&amp;#8217;was great catching up with people, seeing folks learn how to use (old &amp;amp; new) tools better, and just generally watching everyone having a great time at one of the best organised conferences I have the pleasure of going to.
 Here are links to all the slide decks etc that we presented this weekend:
  My R: analysis to integration training day notes &amp;amp; source code My agile BI slide deck My Shiny: dashboards in R slide deck &amp;amp; source code Oz&amp;#8217;s SSRS: Beyond the basics slide deck &amp;amp; source code  If you attended any of our sessions, give us some constructive criticism!</description>
@@ -447,20 +447,20 @@ Here are links to all the slide decks etc that we presented this weekend:
     
     <item>
       <title>A busy month or so</title>
-      <link>http://lockelife.com/blog/2015-02-11-busy-month/</link>
+      <link>http://lockedata.uk/itsalockeblog/2015-02-11-busy-month/</link>
       <pubDate>Wed, 11 Feb 2015 15:15:36 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2015-02-11-busy-month/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2015-02-11-busy-month/</guid>
       <description>I&amp;#8217;m really looking forward to a few months of user group and conference awesomeness:
  Feb 24: CaRdiff presenting Shiny: Dashboards in R Feb 26: Oxford UG presenting Learning the ropes via the community Mar 4-6: Helping out at SQLBits Mar 7: SQLBits presenting Shiny: Dashboards in R Mar 9: SQL Cardiff with Jen &amp;amp; Sean McCown presenting Mar 17: Diff.Net with Scott Hanselman presenting Mar 31: SQL Cardiff with the Battle of the Beards  Then even more fun kicks in with a SQLSaturday Exeter precon, a visit to unified.</description>
     </item>
     
     <item>
       <title>Paul Randal offers mentoring</title>
-      <link>http://lockelife.com/blog/2015-02-06-paul-randal-offers-mentoring/</link>
+      <link>http://lockedata.uk/itsalockeblog/2015-02-06-paul-randal-offers-mentoring/</link>
       <pubDate>Fri, 06 Feb 2015 19:20:50 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2015-02-06-paul-randal-offers-mentoring/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2015-02-06-paul-randal-offers-mentoring/</guid>
       <description>&lt;p&gt;Hot off the back of his win in the &lt;a href=&#34;https://www.simple-talk.com/blogs/2015/01/20/tribal-awards-2014-winners-announcement/&#34; title=&#34;Tribal Awards winners&#34; target=&#34;_blank&#34;&gt;Tribal Awards&lt;/a&gt;, Paul is &lt;a href=&#34;http://www.sqlskills.com/blogs/paul/want-mentored/&#34; title=&#34;Paul Randal - mentoring opportunity&#34; target=&#34;_blank&#34;&gt;offering to mentor&lt;/a&gt; 3 men &amp;amp; 3 women for two months. To be in with a chance of getting mentored by Paul, you simply need to apply by writing a blog post about why you should be considered for mentoring and posting the link by the 15th Feb 2015.&lt;/p&gt;
 
 &lt;p&gt;I think it&amp;#8217;s an awesome offer that you should take up if possible (i.e. you&amp;#8217;re reading before the deadline) and whilst I&amp;#8217;m busy trying to convince you I&amp;#8217;m going to insert my application too. Hopefully, seeing my application will help you form your own.&lt;/p&gt;
@@ -478,10 +478,10 @@ Here are links to all the slide decks etc that we presented this weekend:
     
     <item>
       <title>My R Pre-Con: SQLSat Exeter</title>
-      <link>http://lockelife.com/blog/2015-01-24-r-pre-con-sqlsat-exeter/</link>
+      <link>http://lockedata.uk/itsalockeblog/2015-01-24-r-pre-con-sqlsat-exeter/</link>
       <pubDate>Sat, 24 Jan 2015 10:10:29 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2015-01-24-r-pre-con-sqlsat-exeter/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2015-01-24-r-pre-con-sqlsat-exeter/</guid>
       <description>&lt;p&gt;As I covered in &lt;a href=&#34;https://itsalocke.com/index.php/sqlsaturday-exeter-2015/&#34; title=&#34;SQLSaturday Exeter 2015&#34; target=&#34;_blank&#34;&gt;my post on SQLSaturday Exeter&lt;/a&gt;, I&amp;#8217;m going to be doing a full day of R training on &lt;a href=&#34;http://sqlsatexeter.azurewebsites.net/?page_id=342&#34; title=&#34;SQLSaturday Exeter, Steph Locke Pre-con details&#34; target=&#34;_blank&#34;&gt;April 24th&lt;/a&gt; that takes you from cabin boy to first mate in a day. You can&amp;#8217;t be captain because I&amp;#8217;m Captain&amp;#8230; until you go back to your own ship&amp;#8230; &lt;em&gt;then&lt;/em&gt; you can be captain.&lt;/p&gt;
 
 &lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
@@ -495,10 +495,10 @@ Here are links to all the slide decks etc that we presented this weekend:
     
     <item>
       <title>SQLSaturday Exeter 2015</title>
-      <link>http://lockelife.com/blog/2015-01-19-sqlsaturday-exeter-2015/</link>
+      <link>http://lockedata.uk/itsalockeblog/2015-01-19-sqlsaturday-exeter-2015/</link>
       <pubDate>Mon, 19 Jan 2015 20:09:35 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2015-01-19-sqlsaturday-exeter-2015/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2015-01-19-sqlsaturday-exeter-2015/</guid>
       <description>&lt;p&gt;Woohoo! The kind and crazy folks at &lt;a href=&#34;https://www.sqlsaturday.com/372/eventhome.aspx&#34; title=&#34;SQLSaturday Exeter 2015 homepage&#34; target=&#34;_blank&#34;&gt;SQLSaturday Exeter&lt;/a&gt; accepted my submitted training day for their roster. Before I wax lyrical on the virtues of being locked in a room with me all day, I thought I&amp;#8217;d better cover the fundamentals of the event itself!&lt;/p&gt;
 
 &lt;p&gt;First, the awesome video&amp;#8230;&lt;/p&gt;
@@ -508,10 +508,10 @@ Here are links to all the slide decks etc that we presented this weekend:
     
     <item>
       <title>Review: The first CaRdiff R User Group meeting</title>
-      <link>http://lockelife.com/blog/2015-01-14-review-first-cardiff-r-user-group-meeting/</link>
+      <link>http://lockedata.uk/itsalockeblog/2015-01-14-review-first-cardiff-r-user-group-meeting/</link>
       <pubDate>Wed, 14 Jan 2015 14:25:05 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2015-01-14-review-first-cardiff-r-user-group-meeting/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2015-01-14-review-first-cardiff-r-user-group-meeting/</guid>
       <description>&lt;p&gt;Last night was the first &lt;a href=&#34;http://www.meetup.com/Cardiff-R-User-Group/&#34; title=&#34;CaRdiff R User Group&#34; target=&#34;_blank&#34;&gt;Cardiff R User Group&lt;/a&gt; event. There were 6 people registered out of 24 CaRdiffians. In the end we had 8 people show up &amp;#8211; so a whopping third of our current membership base.&lt;/p&gt;
 
 &lt;p&gt;As we sat around the booth eating chips and drinking beer, we covered our experiences learning R to date, the trials and tribulations of our jobs and why you shouldn&amp;#8217;t drop a barbell on your nose. We had great discussions and most of us came away with new R functionality to look at!&lt;/p&gt;
@@ -529,20 +529,20 @@ Here are links to all the slide decks etc that we presented this weekend:
     
     <item>
       <title>Organised speaking – Throw 1</title>
-      <link>http://lockelife.com/blog/2015-01-10-organised-speaking-throw-1/</link>
+      <link>http://lockedata.uk/itsalockeblog/2015-01-10-organised-speaking-throw-1/</link>
       <pubDate>Sat, 10 Jan 2015 09:59:50 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2015-01-10-organised-speaking-throw-1/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2015-01-10-organised-speaking-throw-1/</guid>
       <description>Not quite part of being organised at speaking, but bundled up in part of my scheduling constraints for speaking is when I&amp;#8217;m throwing user group events. Here&amp;#8217;s the details of the user groups I&amp;#8217;m planning on throwing to meet my goal of 1 user group event a month (not including lunch time sessions!)
 SQL Server I run the SQL Server user group in Cardiff and have done a few years &amp;#8211; I&amp;#8217;m not giving it up any time soon.</description>
     </item>
     
     <item>
       <title>Starting the Cardiff R User Group</title>
-      <link>http://lockelife.com/blog/2015-01-09-starting-the-cardiff-r-user-group/</link>
+      <link>http://lockedata.uk/itsalockeblog/2015-01-09-starting-the-cardiff-r-user-group/</link>
       <pubDate>Fri, 09 Jan 2015 15:41:19 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2015-01-09-starting-the-cardiff-r-user-group/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2015-01-09-starting-the-cardiff-r-user-group/</guid>
       <description>&lt;p&gt;These days any hobby of mine ends up with a user group if there isn&amp;#8217;t one already.&lt;/p&gt;
 
 &lt;p&gt;The amount of value I derive from being able to hear experts in their fields talk about whether they&amp;#8217;re on stage or in the audience is phenomenal. Also, it&amp;#8217;s really great way to meet like-minded people.&lt;/p&gt;
@@ -554,10 +554,10 @@ SQL Server I run the SQL Server user group in Cardiff and have done a few years 
     
     <item>
       <title>Organised speaking – Throw 1, Speak 1</title>
-      <link>http://lockelife.com/blog/2015-01-08-throw-1-speak-1/</link>
+      <link>http://lockedata.uk/itsalockeblog/2015-01-08-throw-1-speak-1/</link>
       <pubDate>Thu, 08 Jan 2015 10:33:25 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2015-01-08-throw-1-speak-1/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2015-01-08-throw-1-speak-1/</guid>
       <description>&lt;p&gt;Following up from my last post on &lt;a href=&#34;https://itsalocke.com/index.php/organised-speaking-session-abstracts/&#34; title=&#34;Organised speaking – session abstracts&#34; target=&#34;_blank&#34;&gt;maintaining my session abstracts&lt;/a&gt;, I wanted to cover how I&amp;#8217;m doing my scheduling this year for speaking at events. Perhaps more importantly than tech, is the intention and the planning process so I&amp;#8217;ll be covering these factors in more detail than the tech.&lt;/p&gt;
 
 &lt;h2 id=&#34;technology&#34;&gt;Technology&lt;/h2&gt;
@@ -575,10 +575,10 @@ SQL Server I run the SQL Server user group in Cardiff and have done a few years 
     
     <item>
       <title>Updated site</title>
-      <link>http://lockelife.com/blog/2015-01-03-updated-site/</link>
+      <link>http://lockedata.uk/itsalockeblog/2015-01-03-updated-site/</link>
       <pubDate>Sat, 03 Jan 2015 16:21:11 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2015-01-03-updated-site/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2015-01-03-updated-site/</guid>
       <description>&lt;p&gt;As I&amp;#8217;ve been using this blog more recently, the page speed has been becoming much more frustrating. So today, I&amp;#8217;ve done some stuff to improve it and it&amp;#8217;s now twice as fast as it used to be. Please let me know what you think of the new style!&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -586,10 +586,10 @@ SQL Server I run the SQL Server user group in Cardiff and have done a few years 
     
     <item>
       <title>SQL Cardiff dates announced</title>
-      <link>http://lockelife.com/blog/2014-12-29-sql-cardiff-dates-announced/</link>
+      <link>http://lockedata.uk/itsalockeblog/2014-12-29-sql-cardiff-dates-announced/</link>
       <pubDate>Mon, 29 Dec 2014 11:00:02 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2014-12-29-sql-cardiff-dates-announced/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2014-12-29-sql-cardiff-dates-announced/</guid>
       <description>&lt;p&gt;This year we&amp;#8217;ll be continuing to maintain evening events on Tuesday nights and lunch time events on Thursdays.&lt;/p&gt;
 
 &lt;h2 id=&#34;evening-events&#34;&gt;Evening events&lt;/h2&gt;
@@ -615,10 +615,10 @@ SQL Server I run the SQL Server user group in Cardiff and have done a few years 
     
     <item>
       <title>Where’ve we been?</title>
-      <link>http://lockelife.com/blog/2014-06-28-whereve-we-been/</link>
+      <link>http://lockedata.uk/itsalockeblog/2014-06-28-whereve-we-been/</link>
       <pubDate>Sat, 28 Jun 2014 11:49:21 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2014-06-28-whereve-we-been/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2014-06-28-whereve-we-been/</guid>
       <description>Almost into July and I haven&amp;#8217;t posted a single thing in this blog!
 Shameful of me to be sure &amp;#8211; I&amp;#8217;ve been learning but not sharing. So what&amp;#8217;s been happening?
 Well I moved into a new job at a brand new startup where I&amp;#8217;ve been primarily doing R, modelling, and finally getting my hands back into SQL Server! That&amp;#8217;s been keeping my day&amp;#8217;s and parts of my nights busy. I&amp;#8217;m also working on a startup at home with Oz called Clocksmith Games.</description>
@@ -626,29 +626,29 @@ Well I moved into a new job at a brand new startup where I&amp;#8217;ve been pri
     
     <item>
       <title>Merry Christmas</title>
-      <link>http://lockelife.com/blog/2013-12-24-merry-christmas/</link>
+      <link>http://lockedata.uk/itsalockeblog/2013-12-24-merry-christmas/</link>
       <pubDate>Tue, 24 Dec 2013 21:54:30 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2013-12-24-merry-christmas/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2013-12-24-merry-christmas/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SQLRelay Cardiff – Nov 13th</title>
-      <link>http://lockelife.com/blog/2013-09-25-sqlrelay-cardiff-nov-13th/</link>
+      <link>http://lockedata.uk/itsalockeblog/2013-09-25-sqlrelay-cardiff-nov-13th/</link>
       <pubDate>Wed, 25 Sep 2013 20:44:54 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2013-09-25-sqlrelay-cardiff-nov-13th/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2013-09-25-sqlrelay-cardiff-nov-13th/</guid>
       <description>After dipping Cardiff&amp;#8217;s collective toes into the world of local SQL Server conferences, we&amp;#8217;re doing it again in November. We&amp;#8217;re taking registrations, and volunteers are always welcome. If an all day conference is a bit too much, why not try out a lunchtime or evening event?
 There are 9 other events around the country which you can attend as well as / instead of Cardiff, including Bristol where I&amp;#8217;ve the privilege of speaking along with some excellent folk like Klaus Aschenbrenner.</description>
     </item>
     
     <item>
       <title>Marketing for SQLRelay – two weeks in</title>
-      <link>http://lockelife.com/blog/2013-09-13-marketing-for-sqlrelay-two-weeks-in/</link>
+      <link>http://lockedata.uk/itsalockeblog/2013-09-13-marketing-for-sqlrelay-two-weeks-in/</link>
       <pubDate>Fri, 13 Sep 2013 18:45:19 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2013-09-13-marketing-for-sqlrelay-two-weeks-in/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2013-09-13-marketing-for-sqlrelay-two-weeks-in/</guid>
       <description>&lt;p&gt;Further to &lt;a href=&#34;https://itsalocke.com/index.php/marketing-for-sqlrelay-in-the-beginning/&#34; title=&#34;Marketing for SQLRelay – In the beginning&#34;&gt;the last post&lt;/a&gt; introducing my trials and tribulations, and a hectic week or two we&amp;#8217;ve made excellent progress on the Relay.  I&amp;#8217;ve enlisted Mark (@tsqltidy) the chair for the Relay and others to assist with the twittering and other activities which has really held me reduce my workload substantially.&lt;/p&gt;
 
 &lt;p&gt;All ten venues are going ahead:&lt;/p&gt;
@@ -776,10 +776,10 @@ There are 9 other events around the country which you can attend as well as / in
     
     <item>
       <title>Marketing for SQLRelay – In the beginning</title>
-      <link>http://lockelife.com/blog/2013-09-01-marketing-for-sqlrelay-in-the-beginning/</link>
+      <link>http://lockedata.uk/itsalockeblog/2013-09-01-marketing-for-sqlrelay-in-the-beginning/</link>
       <pubDate>Sun, 01 Sep 2013 11:30:40 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2013-09-01-marketing-for-sqlrelay-in-the-beginning/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2013-09-01-marketing-for-sqlrelay-in-the-beginning/</guid>
       <description>&lt;p&gt;After organising &lt;a href=&#34;http://sqlrelay-stef.eventbrite.com&#34; target=&#34;_blank&#34;&gt;SQLRelay&lt;/a&gt; for June 24th in Cardiff, as part of the national series of 8 events.  We&amp;#8217;re gearing up for November with the aim of being able to capitalise on the growing knowledge of SQL Server 2014 CTP and pushing the Relay into a less busy part of the UK community schedule.  The difficulty is that where we had more than 6 months to prep for the previous Relay, this time round we had less than 5.  What this means for me, is not only do I want to run a bigger and better Cardiff event, but I also (being a glutton for punishment) took on spearheading the marketing efforts for the whole shebang.&lt;/p&gt;
 
 &lt;p&gt;Details will be released next week on the launch, but given my lack of knowledge about anything social media this has already been a major undertaking for me, and I thought it might be of value for me, future me, and my dear readers to compile information and learnings as I go along so that it&amp;#8217;s easier to implement in future for other marketing endeavours.  It also provides an area for discussion.&lt;/p&gt;</description>
@@ -787,10 +787,10 @@ There are 9 other events around the country which you can attend as well as / in
     
     <item>
       <title>My First Platformer</title>
-      <link>http://lockelife.com/blog/2013-06-28-my-first-platformer/</link>
+      <link>http://lockedata.uk/itsalockeblog/2013-06-28-my-first-platformer/</link>
       <pubDate>Fri, 28 Jun 2013 22:03:28 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2013-06-28-my-first-platformer/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2013-06-28-my-first-platformer/</guid>
       <description>&lt;h1 id=&#34;my-platformer&#34;&gt;My Platformer&lt;/h1&gt;
 
 &lt;p&gt;Here&amp;#8217;s my first attempt at a platformer, built in Construct 2 and using sprites form Game Maker.&lt;/p&gt;
@@ -800,10 +800,10 @@ There are 9 other events around the country which you can attend as well as / in
     
     <item>
       <title>User Group presentation</title>
-      <link>http://lockelife.com/blog/2013-05-31-user-group-presentation/</link>
+      <link>http://lockedata.uk/itsalockeblog/2013-05-31-user-group-presentation/</link>
       <pubDate>Fri, 31 May 2013 20:19:42 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2013-05-31-user-group-presentation/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2013-05-31-user-group-presentation/</guid>
       <description></description>
     </item>
     

@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Knitr on Locke Data Blog</title>
-    <link>http://lockelife.com/blog/tags/knitr/</link>
+    <link>http://lockedata.uk/itsalockeblog/tags/knitr/</link>
     <description>Recent content in Knitr on Locke Data Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
     <lastBuildDate>Wed, 22 Feb 2017 16:01:15 +0000</lastBuildDate>
     
-	<atom:link href="http://lockelife.com/blog/tags/knitr/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://lockedata.uk/itsalockeblog/tags/knitr/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Quick tip: knitr Python Windows setup checklist</title>
-      <link>http://lockelife.com/blog/2017-02-22-quick-tip-knitr-python-windows-setup-checklist/</link>
+      <link>http://lockedata.uk/itsalockeblog/2017-02-22-quick-tip-knitr-python-windows-setup-checklist/</link>
       <pubDate>Wed, 22 Feb 2017 16:01:15 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2017-02-22-quick-tip-knitr-python-windows-setup-checklist/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2017-02-22-quick-tip-knitr-python-windows-setup-checklist/</guid>
       <description>One of the nifty things about using R is that you can use it for many different purposes and even other languages!
 If you want to use Python in your knitr docs or the newish RStudio R notebook functionality, you might encounter some fiddliness getting all the moving parts running on Windows. This is a quick knitr Python Windows setup checklist to make sure you don&amp;#8217;t miss any important steps.</description>
     </item>
     
     <item>
       <title>Auto-deploying documentation: better change tracking of artefacts</title>
-      <link>http://lockelife.com/blog/2016-04-04-auto-deploying-documentation-better-change-tracking-artefacts/</link>
+      <link>http://lockedata.uk/itsalockeblog/2016-04-04-auto-deploying-documentation-better-change-tracking-artefacts/</link>
       <pubDate>Mon, 04 Apr 2016 11:04:34 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2016-04-04-auto-deploying-documentation-better-change-tracking-artefacts/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2016-04-04-auto-deploying-documentation-better-change-tracking-artefacts/</guid>
       <description>&lt;p&gt;As part of my never-ending quest to deploy documentation better, I&amp;#8217;ve made yet another tweak to my scripts that deploy R vignettes or Rmarkdown documents to the &lt;code&gt;gh-pages&lt;/code&gt; branch of my github repositories via Travis-CI.&lt;/p&gt;
 
 &lt;p&gt;The script from &lt;a href=&#34;http://rmflight.github.io/posts/2014/11/travis_ci_gh_pages.html&#34;&gt;Robert Flight&lt;/a&gt; that&amp;#8217;s provided the basis for most of this work does something specific to update the web facing branch of the repository. It would:&lt;/p&gt;
@@ -61,20 +61,20 @@ If you want to use Python in your knitr docs or the newish RStudio R notebook fu
     
     <item>
       <title>Auto-deploying documentation: Rtraining</title>
-      <link>http://lockelife.com/blog/2015-12-23-auto-deploying-documentation-rtraining/</link>
+      <link>http://lockedata.uk/itsalockeblog/2015-12-23-auto-deploying-documentation-rtraining/</link>
       <pubDate>Wed, 23 Dec 2015 10:25:48 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2015-12-23-auto-deploying-documentation-rtraining/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2015-12-23-auto-deploying-documentation-rtraining/</guid>
       <description>In my last post on using GitHub, Travis-CI, and rmarkdown/knitr for automatically building and deploying documentation, I covered how I was able to do it with a containerised approach so things were faster. I also said my Rtraining repository was still too brittle to blog about. This has changed &amp;#8211; WOO HOO!
 The main thanks for that goes out to the new package ezknitr from Dean Attali. ezknitr takes the pain out of working directories, making my hierarchies much more resilient.</description>
     </item>
     
     <item>
       <title>Auto-deploying documentation: FASTER!</title>
-      <link>http://lockelife.com/blog/2015-11-13-auto-deploying-documentation-faster/</link>
+      <link>http://lockedata.uk/itsalockeblog/2015-11-13-auto-deploying-documentation-faster/</link>
       <pubDate>Fri, 13 Nov 2015 09:13:22 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2015-11-13-auto-deploying-documentation-faster/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2015-11-13-auto-deploying-documentation-faster/</guid>
       <description>&lt;p&gt;Over the past few years I&amp;#8217;ve been delving deeper into automatically building and deploying documentation and reporting in R (with rmarkdown, LaTeX etc). This post covers another step forward on that journey towards awesomeness.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -82,10 +82,10 @@ The main thanks for that goes out to the new package ezknitr from Dean Attali. e
     
     <item>
       <title>Auto-deploying documentation: multiple R vignettes</title>
-      <link>http://lockelife.com/blog/2015-06-05-auto-deploying-documentation-multiple-r-vignettes/</link>
+      <link>http://lockedata.uk/itsalockeblog/2015-06-05-auto-deploying-documentation-multiple-r-vignettes/</link>
       <pubDate>Fri, 05 Jun 2015 08:38:44 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2015-06-05-auto-deploying-documentation-multiple-r-vignettes/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2015-06-05-auto-deploying-documentation-multiple-r-vignettes/</guid>
       <description>&lt;p&gt;Following on from my post about the principles behind using travis-ci to commit to a &lt;code&gt;gh-pages&lt;/code&gt; I wanted to follow-up with how I tackled my &amp;#8220;intermediate&amp;#8221; use case.&lt;/p&gt;
 
 &lt;hr /&gt;
@@ -120,10 +120,10 @@ The main thanks for that goes out to the new package ezknitr from Dean Attali. e
     
     <item>
       <title>optiRum – presentation</title>
-      <link>http://lockelife.com/blog/2015-06-03-optirum-presentation/</link>
+      <link>http://lockedata.uk/itsalockeblog/2015-06-03-optirum-presentation/</link>
       <pubDate>Wed, 03 Jun 2015 15:00:31 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2015-06-03-optirum-presentation/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2015-06-03-optirum-presentation/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;&lt;a href=&#34;http://cran.r-project.org/web/packages/optiRum/&#34; title=&#34;optiRum on CRAN&#34; target=&#34;_blank&#34;&gt;optiRum&lt;/a&gt;, the R package I built and support for Optimum on CRAN has gained some extra functions recently. Some of it uses currently experimental data.table functionality so I&amp;#8217;m eagerly awaiting the release to CRAN to deliver optiRum.&lt;/p&gt;
 
@@ -137,10 +137,10 @@ The main thanks for that goes out to the new package ezknitr from Dean Attali. e
     
     <item>
       <title>Automated documentation hosting on github via Travis-CI</title>
-      <link>http://lockelife.com/blog/2015-06-01-automated-documentation-hosting-on-github-via-travis-ci/</link>
+      <link>http://lockedata.uk/itsalockeblog/2015-06-01-automated-documentation-hosting-on-github-via-travis-ci/</link>
       <pubDate>Mon, 01 Jun 2015 09:29:21 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2015-06-01-automated-documentation-hosting-on-github-via-travis-ci/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2015-06-01-automated-documentation-hosting-on-github-via-travis-ci/</guid>
       <description>&lt;p&gt;In this post, I&amp;#8217;m going to cover how you can use continuous integration and source control to build and host documentation (or any other static HTML) for free, and in a way that updates every time your code changes. I&amp;#8217;ll cover the generic capability, and then how I apply this to my simplest package, tfsR. In a later post (once I&amp;#8217;ve cracked the best method to do it) I&amp;#8217;ll cover my more complex use case of multiple documents and a dynamically constructed index page.&lt;/p&gt;
 
 &lt;p&gt;NB: This is kicked off from a &lt;a href=&#34;http://rmflight.github.io/posts/2014/11/travis_ci_gh_pages.html&#34;&gt;post&lt;/a&gt; from Robert Flight about applying to the technique to R package vignettes. It&amp;#8217;s a very useful post but it was quite specific to his situation and I wanted to understand the principles behind it before I started extending it to my more complex cases.&lt;/p&gt;
@@ -191,10 +191,10 @@ The main thanks for that goes out to the new package ezknitr from Dean Attali. e
     
     <item>
       <title>Organised speaking – presentation design</title>
-      <link>http://lockelife.com/blog/2015-01-18-organised-speaking-iterative-development/</link>
+      <link>http://lockedata.uk/itsalockeblog/2015-01-18-organised-speaking-iterative-development/</link>
       <pubDate>Sun, 18 Jan 2015 10:52:45 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2015-01-18-organised-speaking-iterative-development/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2015-01-18-organised-speaking-iterative-development/</guid>
       <description>&lt;p&gt;I wanted to outline my approach to presentation design, or development as I prefer to call it.&lt;/p&gt;
 
 &lt;p&gt;Why do I consider it development? Well, it&amp;#8217;s a product that can be manually done &amp;amp; delivered but with the potential to scale to thousands of users, I&amp;#8217;d rather the product be easy to maintain &amp;amp; deploy, deliver real value to the users, and keep up with cutting edge developments in the subject. Also, I call it development because now with the use of &lt;a href=&#34;http://rmarkdown.rstudio.com/&#34; title=&#34;Rmarkdown&#34; target=&#34;_blank&#34;&gt;rmarkdown&lt;/a&gt;, I do actually code my presentations.&lt;/p&gt;

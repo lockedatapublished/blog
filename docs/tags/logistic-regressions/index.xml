@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Logistic Regressions on Locke Data Blog</title>
-    <link>http://lockelife.com/blog/tags/logistic-regressions/</link>
+    <link>http://lockedata.uk/itsalockeblog/tags/logistic-regressions/</link>
     <description>Recent content in Logistic Regressions on Locke Data Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
     <lastBuildDate>Fri, 12 May 2017 08:31:48 +0000</lastBuildDate>
     
-	<atom:link href="http://lockelife.com/blog/tags/logistic-regressions/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://lockedata.uk/itsalockeblog/tags/logistic-regressions/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>How to go about interpreting regression cofficients</title>
-      <link>http://lockelife.com/blog/2017-05-12-interpreting-regression-cofficients/</link>
+      <link>http://lockedata.uk/itsalockeblog/2017-05-12-interpreting-regression-cofficients/</link>
       <pubDate>Fri, 12 May 2017 08:31:48 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2017-05-12-interpreting-regression-cofficients/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2017-05-12-interpreting-regression-cofficients/</guid>
       <description>Following my post about logistic regressions, Ryan got in touch about one bit of building logistic regressions models that I didn&amp;#8217;t cover in much detail &amp;#8211; interpreting&amp;nbsp;regression coefficients. This post will hopefully help Ryan (and others) out.
 This was so helpful. Thank you! I&#39;d love to see more about interpreting the glm coefficients.  &amp;mdash; Ryan (@RyanEs) April 21, 2017  What is a coefficient? Coefficients are what a line of best fit model produces.</description>
     </item>
     
     <item>
       <title>Logistic regressions (in R)</title>
-      <link>http://lockelife.com/blog/2017-04-21-logistic-regressions-r/</link>
+      <link>http://lockedata.uk/itsalockeblog/2017-04-21-logistic-regressions-r/</link>
       <pubDate>Fri, 21 Apr 2017 09:02:44 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2017-04-21-logistic-regressions-r/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2017-04-21-logistic-regressions-r/</guid>
       <description>Logistic regressions are a great tool for predicting outcomes that are categorical. They use a transformation function based on probability to perform a linear regression. This makes them easy to interpret and implement in other systems.
 Logistic regressions can be used to perform a classification for things like determining whether someone needs to go for a biopsy. They can also be used for a more nuanced view by using the probabilities of an outcome for thinks like prioritising interventions based on likelihood to default on a loan.</description>
     </item>

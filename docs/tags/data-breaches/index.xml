@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Data Breaches on Locke Data Blog</title>
-    <link>http://lockelife.com/blog/tags/data-breaches/</link>
+    <link>http://lockedata.uk/itsalockeblog/tags/data-breaches/</link>
     <description>Recent content in Data Breaches on Locke Data Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
     <lastBuildDate>Thu, 09 Jun 2016 08:06:58 +0000</lastBuildDate>
     
-	<atom:link href="http://lockelife.com/blog/tags/data-breaches/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://lockedata.uk/itsalockeblog/tags/data-breaches/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>HIBPwned on CRAN</title>
-      <link>http://lockelife.com/blog/2016-06-09-hibpwned-on-cran/</link>
+      <link>http://lockedata.uk/itsalockeblog/2016-06-09-hibpwned-on-cran/</link>
       <pubDate>Thu, 09 Jun 2016 08:06:58 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2016-06-09-hibpwned-on-cran/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2016-06-09-hibpwned-on-cran/</guid>
       <description>Part of my (slowly) working pipeline of coding projects has been an R package that wraps the fantastic HaveIBeenPwned.com API.
 If you&amp;#8217;re not already familiar with HaveIBeenPwned, rectify the situation, NOW! Don&amp;#8217;t worry about continuing to read the rest of the post; getting yourself signed up for account breach notifications is way more important!Go now!
 /giphy run

@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on Locke Data Blog</title>
-    <link>http://lockelife.com/blog/tags/hugo/</link>
+    <link>http://lockedata.uk/itsalockeblog/tags/hugo/</link>
     <description>Recent content in Hugo on Locke Data Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
     <lastBuildDate>Sat, 17 Jun 2017 09:29:42 +0000</lastBuildDate>
     
-	<atom:link href="http://lockelife.com/blog/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://lockedata.uk/itsalockeblog/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>All my talks in one place (plus a Hugo walkthrough!)</title>
-      <link>http://lockelife.com/blog/2017-06-17-presentation-site-hugo-walkthrough/</link>
+      <link>http://lockedata.uk/itsalockeblog/2017-06-17-presentation-site-hugo-walkthrough/</link>
       <pubDate>Sat, 17 Jun 2017 09:29:42 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2017-06-17-presentation-site-hugo-walkthrough/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2017-06-17-presentation-site-hugo-walkthrough/</guid>
       <description>I mentioned in an earlier post about how I&amp;#8217;m revamping my presentation slides process but that I hadn&amp;#8217;t tackled the user experience of browsing my slides, which wasted lots of the effort I put in. To tackle this part of it, I&amp;#8217;ve made lockedata.uk using Hugo to be a way of finding and browsing presentations on R, SQL, and more. As Hugo is so easy, I thought I&amp;#8217;d throw in a quick Hugo walkthrough too so that you could build your own blog/slides/company site if you wanted to.</description>
     </item>
     
     <item>
       <title>5 useful CSS sites</title>
-      <link>http://lockelife.com/blog/2016-10-27-5-useful-css-sites/</link>
+      <link>http://lockedata.uk/itsalockeblog/2016-10-27-5-useful-css-sites/</link>
       <pubDate>Thu, 27 Oct 2016 08:00:45 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2016-10-27-5-useful-css-sites/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2016-10-27-5-useful-css-sites/</guid>
       <description>I&amp;#8217;ve been doing a lot of web development recently, primarily via the magical Hugo platform. Between it and the great themes for it, it&amp;#8217;s making website building fairly painless. Of course, each theme often needs customising to the relevant brand a given site is for. That customising is usually just one by some fonts and by tweaking the CSS.*
 I&amp;#8217;ve been relying on some old, and some very new, funky tools to help with CSS hacking and I thought I would share them, in case they should prove useful to you in the future.</description>
     </item>

@@ -2,88 +2,88 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dataops on Locke Data Blog</title>
-    <link>http://lockelife.com/blog/categories/dataops/</link>
+    <link>http://lockedata.uk/itsalockeblog/categories/dataops/</link>
     <description>Recent content in Dataops on Locke Data Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
     <lastBuildDate>Sat, 17 Jun 2017 09:29:42 +0000</lastBuildDate>
     
-	<atom:link href="http://lockelife.com/blog/categories/dataops/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://lockedata.uk/itsalockeblog/categories/dataops/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>All my talks in one place (plus a Hugo walkthrough!)</title>
-      <link>http://lockelife.com/blog/2017-06-17-presentation-site-hugo-walkthrough/</link>
+      <link>http://lockedata.uk/itsalockeblog/2017-06-17-presentation-site-hugo-walkthrough/</link>
       <pubDate>Sat, 17 Jun 2017 09:29:42 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2017-06-17-presentation-site-hugo-walkthrough/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2017-06-17-presentation-site-hugo-walkthrough/</guid>
       <description>I mentioned in an earlier post about how I&amp;#8217;m revamping my presentation slides process but that I hadn&amp;#8217;t tackled the user experience of browsing my slides, which wasted lots of the effort I put in. To tackle this part of it, I&amp;#8217;ve made lockedata.uk using Hugo to be a way of finding and browsing presentations on R, SQL, and more. As Hugo is so easy, I thought I&amp;#8217;d throw in a quick Hugo walkthrough too so that you could build your own blog/slides/company site if you wanted to.</description>
     </item>
     
     <item>
       <title>Why data people don’t do devops</title>
-      <link>http://lockelife.com/blog/2017-06-13-why-data-people-dont-do-devops/</link>
+      <link>http://lockedata.uk/itsalockeblog/2017-06-13-why-data-people-dont-do-devops/</link>
       <pubDate>Tue, 13 Jun 2017 16:44:19 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2017-06-13-why-data-people-dont-do-devops/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2017-06-13-why-data-people-dont-do-devops/</guid>
       <description>T-SQL TuesdayFor T-SQL Tuesday #91 the topic is databases and devops. Grant Fritchey asks us:
  How do we approach DevOps as developers, DBAs, report writers, analysts and database developers? How do we deal with data persistence, process, source control and all the rest of the tools and mechanisms, and most importantly, culture, that would enable us to get better, higher functioning teams put together? Please, tell me your DevOps stories.</description>
     </item>
     
     <item>
       <title>Versioning R model objects in SQL Server</title>
-      <link>http://lockelife.com/blog/2017-05-26-versioning-r-model-objects-in-sql-server/</link>
+      <link>http://lockedata.uk/itsalockeblog/2017-05-26-versioning-r-model-objects-in-sql-server/</link>
       <pubDate>Fri, 26 May 2017 08:00:04 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2017-05-26-versioning-r-model-objects-in-sql-server/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2017-05-26-versioning-r-model-objects-in-sql-server/</guid>
       <description>High-level info If you build a model and never update it you&amp;#8217;re missing a trick. Behaviours change so your model will tend to perform worse over time. You&amp;#8217;ve got to regularly refresh it, whether that&amp;#8217;s adjusting the existing model to fit the latest data (recalibration) or building a whole new model (retraining), but this means you&amp;#8217;ve got new versions of your model that you have to handle. You need to think about your methodology for versioning R model objects, ideally before you lose any versions.</description>
     </item>
     
     <item>
       <title>Improving automatic document production with R</title>
-      <link>http://lockelife.com/blog/2017-05-19-improving-automatic-document-production-with-r/</link>
+      <link>http://lockedata.uk/itsalockeblog/2017-05-19-improving-automatic-document-production-with-r/</link>
       <pubDate>Fri, 19 May 2017 08:02:26 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2017-05-19-improving-automatic-document-production-with-r/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2017-05-19-improving-automatic-document-production-with-r/</guid>
       <description>In this post, I describe the latest iteration of my automatic document production with R. It improves upon the methods used in Rtraining, and previous work on this topic can read by going to the auto deploying R documentation tag.
 I keep banging on about this area because reproducible research / analytical document pipelines is an area I&amp;#8217;ve a keen interest in. I see it as a core part of DataOps as it&amp;#8217;s vital for helping us ensure our models and analysis are correct in data science and boosting our productivity.</description>
     </item>
     
     <item>
       <title>Building an R training environment</title>
-      <link>http://lockelife.com/blog/2017-04-24-r-training-environment/</link>
+      <link>http://lockedata.uk/itsalockeblog/2017-04-24-r-training-environment/</link>
       <pubDate>Mon, 24 Apr 2017 08:17:13 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2017-04-24-r-training-environment/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2017-04-24-r-training-environment/</guid>
       <description>I recently delivered a day of training at SQLBits and I really upped my game in terms of infrastructure for it. The resultant solution was super smooth and mitigated all the install issues and preparation for attendees. This meant we got to spend the whole day doing R, instead of troubleshooting.
 I&amp;#8217;m so happy with the solution for an online R training environment that I want to share the solution, so you can take it and use it for when you need to do training.</description>
     </item>
     
     <item>
       <title>Talking Data and Docker</title>
-      <link>http://lockelife.com/blog/2017-02-08-talking-data-and-docker/</link>
+      <link>http://lockedata.uk/itsalockeblog/2017-02-08-talking-data-and-docker/</link>
       <pubDate>Wed, 08 Feb 2017 16:25:20 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2017-02-08-talking-data-and-docker/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2017-02-08-talking-data-and-docker/</guid>
       <description>If you need to know about persisting data in the world of containers then I recently did a talk and a spot on a podcast that should help you out. My NDC London talk Data + Docker = Disconbobulating? cover the basics and architectural decisions. In my podcast spot Data and Docker on .Net Rocks we go into more depth about the architectural decisions facing you when working with data and Docker.</description>
     </item>
     
     <item>
       <title>I Love Azure Functions!</title>
-      <link>http://lockelife.com/blog/2016-12-01-i-love-azure-functions/</link>
+      <link>http://lockedata.uk/itsalockeblog/2016-12-01-i-love-azure-functions/</link>
       <pubDate>Thu, 01 Dec 2016 22:47:23 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2016-12-01-i-love-azure-functions/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2016-12-01-i-love-azure-functions/</guid>
       <description>A while ago, I started my Stumbling Into series. I started but only got one in &amp;#8211; I was gonna talk about how I failed with Azure Functions next. I was failing because the docs outside C# (and node.js) were so limited that I found it difficult to get things done. However, I persevered and overcame a little bit of C#-ophobia and I can honestly say it has been so worth it.</description>
     </item>
     
     <item>
       <title>Unit testing in SSDT – a quick intro</title>
-      <link>http://lockelife.com/blog/2016-10-10-unit-testing-in-ssdt-a-quick-intro/</link>
+      <link>http://lockedata.uk/itsalockeblog/2016-10-10-unit-testing-in-ssdt-a-quick-intro/</link>
       <pubDate>Mon, 10 Oct 2016 08:00:08 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2016-10-10-unit-testing-in-ssdt-a-quick-intro/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2016-10-10-unit-testing-in-ssdt-a-quick-intro/</guid>
       <description>&lt;p&gt;This post will give you a quick run-through of adding tSQLt to an existing database project destined for Azure SQL DB. This basically covers unit testing in SSDT and there is a lot of excellent info out there, so this focuses on getting you through the initial setup as quickly as possible. This post most especially relies on the information &lt;a href=&#34;https://agilesql.club/&#34;&gt;Ed Elliot&lt;/a&gt; and &lt;a href=&#34;https://kzhendev.wordpress.com/&#34;&gt;Ken Ross&lt;/a&gt; have published, so do check them out for more info on this topic!&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -91,10 +91,10 @@ I&amp;#8217;m so happy with the solution for an online R training environment th
     
     <item>
       <title>Giving back with code</title>
-      <link>http://lockelife.com/blog/2016-07-20-giving-back-code/</link>
+      <link>http://lockedata.uk/itsalockeblog/2016-07-20-giving-back-code/</link>
       <pubDate>Wed, 20 Jul 2016 14:00:50 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2016-07-20-giving-back-code/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2016-07-20-giving-back-code/</guid>
       <description>&lt;p&gt;From code in answers on Stack Overflow to R packages or full programs, there&amp;#8217;s a lot of code being written and given away. This post examines some of the reasons why the people writing all that code do it, why you should consider giving back with code, and how you can get started. Finally, I cap it all off with perspectives from some of my favourite coders!&lt;/p&gt;
 
 &lt;ul&gt;
@@ -136,10 +136,10 @@ I&amp;#8217;m so happy with the solution for an online R training environment th
     
     <item>
       <title>Stumbling into … Azure Automation</title>
-      <link>http://lockelife.com/blog/2016-07-11-stumbling-into-azure-automation/</link>
+      <link>http://lockedata.uk/itsalockeblog/2016-07-11-stumbling-into-azure-automation/</link>
       <pubDate>Mon, 11 Jul 2016 09:46:12 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2016-07-11-stumbling-into-azure-automation/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2016-07-11-stumbling-into-azure-automation/</guid>
       <description>&lt;p&gt;I&amp;#8217;ve recently been trying to solve the challenge of working extracting files from AWS and getting them into Azure in my desired format. I wanted a solution that kept everything on the cloud and completely avoid local tin. I wanted it to have built-in auditing and error handling. I wanted something whizzy and new, to be honest! One way in which I attempted to tackle the task was with &lt;a href=&#34;https://azure.microsoft.com/en-gb/services/automation/&#34;&gt;Azure Automation&lt;/a&gt;. In this post, I&amp;#8217;ll overview Automation and explore how it stacked up for what I was attempting to use it for.&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -159,10 +159,10 @@ I&amp;#8217;m so happy with the solution for an online R training environment th
     
     <item>
       <title>Azure Storage Accounts – Resource Groups matter to PowerShell!</title>
-      <link>http://lockelife.com/blog/2016-06-10-azure-storage-accounts-resource-groups-matter-to-powershell/</link>
+      <link>http://lockedata.uk/itsalockeblog/2016-06-10-azure-storage-accounts-resource-groups-matter-to-powershell/</link>
       <pubDate>Fri, 10 Jun 2016 09:00:21 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2016-06-10-azure-storage-accounts-resource-groups-matter-to-powershell/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2016-06-10-azure-storage-accounts-resource-groups-matter-to-powershell/</guid>
       <description>I&amp;#8217;m sure that all my PoSh friends out there, who use Azure and PowerShell all the time probably know this already but I thought I&amp;#8217;d share a little snippet of hard-won knowledge.
  When you put an Azure Storage Account into a Resource Group, you can no longer use the default Azure.Storage module. Instead, you&amp;#8217;ve got to use the AzureRM.Storage module.
  All the scripts I encountered whilst googling how to connect to blob storage via PowerShell, including the ones in the script gallery within Azure Automation seemed to all assume the azure storage account you wanted to connect to was standalone.</description>
@@ -170,20 +170,20 @@ I&amp;#8217;m so happy with the solution for an online R training environment th
     
     <item>
       <title>Recent presentations</title>
-      <link>http://lockelife.com/blog/2016-06-01-recent-presentations/</link>
+      <link>http://lockedata.uk/itsalockeblog/2016-06-01-recent-presentations/</link>
       <pubDate>Wed, 01 Jun 2016 08:09:32 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2016-06-01-recent-presentations/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2016-06-01-recent-presentations/</guid>
       <description>The last month or so has been a whirlwind of awesomeness with a veritable bevvy of user group and conference talks on my part! I thought I would share the materials with you and provide some brief thoughts on how each presentation went.
 Sessions  SQL Saturday Exeter : Stats 101 London Business Analytics (LBAG) : Skilling up to code with data SQLBits &amp;amp; TUGA : Cut the R Learning Curve SQLBits &amp;amp; TUGA : R in the Microsoft Data Platform (full day of training) IT Pro Portugal : Being lazy with infrastructure  SQL Saturday Exeter My presentation, in my opinion, was exceedingly brave.</description>
     </item>
     
     <item>
       <title>Installing SQL Server ODBC drivers on Ubuntu 15.04</title>
-      <link>http://lockelife.com/blog/2016-04-20-installing-sql-server-odbc-drivers-on-ubuntu-15-04/</link>
+      <link>http://lockedata.uk/itsalockeblog/2016-04-20-installing-sql-server-odbc-drivers-on-ubuntu-15-04/</link>
       <pubDate>Wed, 20 Apr 2016 14:13:28 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2016-04-20-installing-sql-server-odbc-drivers-on-ubuntu-15-04/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2016-04-20-installing-sql-server-odbc-drivers-on-ubuntu-15-04/</guid>
       <description>&lt;p&gt;&lt;strong&gt;UPDATE 2016-10-21 : You can now get the ODBC 13 driver for Linux with a much smoother install process than below. Get all the relevant information on &lt;a href=&#34;https://blogs.msdn.microsoft.com/sqlnativeclient/2016/10/20/odbc-driver-13-0-for-linux-released/&#34;&gt;the announcement from the Microsoft SQLNCli team blog&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Did you know you can now get &lt;a href=&#34;https://www.microsoft.com/en-gb/server-cloud/sql-server-on-linux.aspx&#34;&gt;SQL Server ODBC drivers for Ubuntu&lt;/a&gt;? Yes, no, maybe? It&amp;#8217;s ok even if you haven&amp;#8217;t since it&amp;#8217;s pretty new! Anyway, this presents me with an ideal opportunity to standardise my SQL Server ODBC connections across the operating systems I use R on i.e. Windows and Ubuntu. My first trial was to get it working on &lt;a href=&#34;https://travis-ci.org&#34;&gt;Travis-CI&lt;/a&gt; since that&amp;#8217;s where all my training magic happens and if it can&amp;#8217;t work on a clean build like Travis, then where can it work? Alas, the ODBC 13 driver doesn&amp;#8217;t work Ubuntu 14.04 so this set of instructions has been modified to provide code for Ubuntu 15.04 only.&lt;/p&gt;
@@ -205,10 +205,10 @@ Sessions  SQL Saturday Exeter : Stats 101 London Business Analytics (LBAG) : Ski
     
     <item>
       <title>Using Travis? Make sure you use a Github PAT</title>
-      <link>http://lockelife.com/blog/2016-04-12-using-travis-make-sure-use-github-pat/</link>
+      <link>http://lockedata.uk/itsalockeblog/2016-04-12-using-travis-make-sure-use-github-pat/</link>
       <pubDate>Tue, 12 Apr 2016 10:27:03 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2016-04-12-using-travis-make-sure-use-github-pat/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2016-04-12-using-travis-make-sure-use-github-pat/</guid>
       <description>&lt;p&gt;We&amp;#8217;re in the fantastic situation where lots of people are using &lt;a href=&#34;https://travis-ci.org/&#34;&gt;Travis-CI&lt;/a&gt; to test their R packages or use it to test and deploy their analytics/ documentation / anything really. It&amp;#8217;s popularity has been having a negative side-effect recently though! GitHub &lt;a href=&#34;https://developer.github.com/v3/#rate-limiting&#34;&gt;rate limits&lt;/a&gt; API access to 5000 requests per hour so sometimes there are more R related jobs running on Travis per hour than this limit, causing builds to error typically with a message that includes&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -228,10 +228,10 @@ Sessions  SQL Saturday Exeter : Stats 101 London Business Analytics (LBAG) : Ski
     
     <item>
       <title>Auto-deploying documentation: better change tracking of artefacts</title>
-      <link>http://lockelife.com/blog/2016-04-04-auto-deploying-documentation-better-change-tracking-artefacts/</link>
+      <link>http://lockedata.uk/itsalockeblog/2016-04-04-auto-deploying-documentation-better-change-tracking-artefacts/</link>
       <pubDate>Mon, 04 Apr 2016 11:04:34 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2016-04-04-auto-deploying-documentation-better-change-tracking-artefacts/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2016-04-04-auto-deploying-documentation-better-change-tracking-artefacts/</guid>
       <description>&lt;p&gt;As part of my never-ending quest to deploy documentation better, I&amp;#8217;ve made yet another tweak to my scripts that deploy R vignettes or Rmarkdown documents to the &lt;code&gt;gh-pages&lt;/code&gt; branch of my github repositories via Travis-CI.&lt;/p&gt;
 
 &lt;p&gt;The script from &lt;a href=&#34;http://rmflight.github.io/posts/2014/11/travis_ci_gh_pages.html&#34;&gt;Robert Flight&lt;/a&gt; that&amp;#8217;s provided the basis for most of this work does something specific to update the web facing branch of the repository. It would:&lt;/p&gt;
@@ -265,10 +265,10 @@ Sessions  SQL Saturday Exeter : Stats 101 London Business Analytics (LBAG) : Ski
     
     <item>
       <title>SSH tunnels on Windows for R</title>
-      <link>http://lockelife.com/blog/2016-03-14-ssh-tunnels-windows-r/</link>
+      <link>http://lockedata.uk/itsalockeblog/2016-03-14-ssh-tunnels-windows-r/</link>
       <pubDate>Mon, 14 Mar 2016 13:41:06 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2016-03-14-ssh-tunnels-windows-r/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2016-03-14-ssh-tunnels-windows-r/</guid>
       <description>&lt;p&gt;Recently I&amp;#8217;ve had to get to grips with SSH tunnels. SSH tunnels are really useful for maintaining remote network integrity and work in a secure fashion. It is, however, a pain to open PuTTY and log in all the time, mainly because I couldn&amp;#8217;t script it in R! It&amp;#8217;s been a trial, but like most things it turned out to be pretty simple in the end so I thought I&amp;#8217;d share it with you.&lt;/p&gt;
 
 &lt;h2 id=&#34;what-8217-s-required&#34;&gt;What&amp;#8217;s required?&lt;/h2&gt;
@@ -283,10 +283,10 @@ Sessions  SQL Saturday Exeter : Stats 101 London Business Analytics (LBAG) : Ski
     
     <item>
       <title>mockaRoo – making realistic test data in R</title>
-      <link>http://lockelife.com/blog/2016-03-08-mockaroo-making-realistic-test-data-in-r/</link>
+      <link>http://lockedata.uk/itsalockeblog/2016-03-08-mockaroo-making-realistic-test-data-in-r/</link>
       <pubDate>Tue, 08 Mar 2016 14:00:54 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2016-03-08-mockaroo-making-realistic-test-data-in-r/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2016-03-08-mockaroo-making-realistic-test-data-in-r/</guid>
       <description>&lt;p&gt;When I&amp;#8217;m building stuff in R like packages, models, etc. I find myself wishing for realistic looking test data without having to resort to getting data off my production server. To that end I&amp;#8217;ve been on the hunt for a way of generating decent test data. A few months back I stumbled upon the neat system &lt;a href=&#34;https://www.mockaroo.com/&#34;&gt;Mockaroo&lt;/a&gt; which provides a GUI to build some data that suits your needs.&lt;/p&gt;
 
 &lt;p&gt;Mockaroo is a really impressive service with a wide spread of different data types. They also have simple ways of adding things like within group differences to data so that you can mock realistic class differences. They use the freemium model so you can get a thousand rows per download, which is pretty sweet. The big BUT you can feel coming on is this &amp;#8211; it&amp;#8217;s a GUI! I don&amp;#8217;t want to have spend time hand cranking a data extract.&lt;/p&gt;
@@ -300,10 +300,10 @@ Sessions  SQL Saturday Exeter : Stats 101 London Business Analytics (LBAG) : Ski
     
     <item>
       <title>Anchor Modelling: Sixth Normal Form databases</title>
-      <link>http://lockelife.com/blog/2015-12-31-anchor-modelling-sixth-normal-form-databases/</link>
+      <link>http://lockedata.uk/itsalockeblog/2015-12-31-anchor-modelling-sixth-normal-form-databases/</link>
       <pubDate>Thu, 31 Dec 2015 11:47:29 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2015-12-31-anchor-modelling-sixth-normal-form-databases/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2015-12-31-anchor-modelling-sixth-normal-form-databases/</guid>
       <description>About Anchor Modelling Anchor Modelling moves you beyond third normal form and into sixth normal form. What does this mean?
  Not sure about the normal forms? See the normalization process in actions with this normalisation example
  Essentially it means that an attribute is stored independently against the key, not in a big table with other attributes. This means you can easily store metadata about that attribute and do full change tracking with ease.</description>
@@ -311,20 +311,20 @@ Sessions  SQL Saturday Exeter : Stats 101 London Business Analytics (LBAG) : Ski
     
     <item>
       <title>Auto-deploying documentation: Rtraining</title>
-      <link>http://lockelife.com/blog/2015-12-23-auto-deploying-documentation-rtraining/</link>
+      <link>http://lockedata.uk/itsalockeblog/2015-12-23-auto-deploying-documentation-rtraining/</link>
       <pubDate>Wed, 23 Dec 2015 10:25:48 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2015-12-23-auto-deploying-documentation-rtraining/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2015-12-23-auto-deploying-documentation-rtraining/</guid>
       <description>In my last post on using GitHub, Travis-CI, and rmarkdown/knitr for automatically building and deploying documentation, I covered how I was able to do it with a containerised approach so things were faster. I also said my Rtraining repository was still too brittle to blog about. This has changed &amp;#8211; WOO HOO!
 The main thanks for that goes out to the new package ezknitr from Dean Attali. ezknitr takes the pain out of working directories, making my hierarchies much more resilient.</description>
     </item>
     
     <item>
       <title>Auto-deploying documentation: FASTER!</title>
-      <link>http://lockelife.com/blog/2015-11-13-auto-deploying-documentation-faster/</link>
+      <link>http://lockedata.uk/itsalockeblog/2015-11-13-auto-deploying-documentation-faster/</link>
       <pubDate>Fri, 13 Nov 2015 09:13:22 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2015-11-13-auto-deploying-documentation-faster/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2015-11-13-auto-deploying-documentation-faster/</guid>
       <description>&lt;p&gt;Over the past few years I&amp;#8217;ve been delving deeper into automatically building and deploying documentation and reporting in R (with rmarkdown, LaTeX etc). This post covers another step forward on that journey towards awesomeness.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -332,10 +332,10 @@ The main thanks for that goes out to the new package ezknitr from Dean Attali. e
     
     <item>
       <title>DataOps – it’s a thing (honest)</title>
-      <link>http://lockelife.com/blog/2015-10-16-dataops-its-a-thing-honest/</link>
+      <link>http://lockedata.uk/itsalockeblog/2015-10-16-dataops-its-a-thing-honest/</link>
       <pubDate>Fri, 16 Oct 2015 20:27:03 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2015-10-16-dataops-its-a-thing-honest/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2015-10-16-dataops-its-a-thing-honest/</guid>
       <description>&lt;p&gt;Today, I presented a &lt;a href=&#34;https://1drv.ms/p/s!AiZm2P6YHtSfjye0xDn_fuL80eSp&#34;&gt;lightning talk on DataOps&lt;/a&gt; at &lt;a href=&#34;http://sqlinthecity.red-gate.com/london-2015/&#34;&gt;SQL in the City&lt;/a&gt;. It was a fantastic day and a great opportunity to catch up with how the database side of things is evolving to embrace &lt;a href=&#34;https://en.wikipedia.org/wiki/DevOps&#34;&gt;DevOps&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;My lightning talk was titled &lt;em&gt;DataOps &amp;#8211; it&amp;#8217;s a thing (honest)&lt;/em&gt; and focused on what is essentially DevOps ported out of the developer sphere and into the data professional sphere.&lt;/p&gt;
@@ -345,10 +345,10 @@ The main thanks for that goes out to the new package ezknitr from Dean Attali. e
     
     <item>
       <title>Auto-deploying documentation: multiple R vignettes</title>
-      <link>http://lockelife.com/blog/2015-06-05-auto-deploying-documentation-multiple-r-vignettes/</link>
+      <link>http://lockedata.uk/itsalockeblog/2015-06-05-auto-deploying-documentation-multiple-r-vignettes/</link>
       <pubDate>Fri, 05 Jun 2015 08:38:44 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2015-06-05-auto-deploying-documentation-multiple-r-vignettes/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2015-06-05-auto-deploying-documentation-multiple-r-vignettes/</guid>
       <description>&lt;p&gt;Following on from my post about the principles behind using travis-ci to commit to a &lt;code&gt;gh-pages&lt;/code&gt; I wanted to follow-up with how I tackled my &amp;#8220;intermediate&amp;#8221; use case.&lt;/p&gt;
 
 &lt;hr /&gt;
@@ -383,10 +383,10 @@ The main thanks for that goes out to the new package ezknitr from Dean Attali. e
     
     <item>
       <title>Automated documentation hosting on github via Travis-CI</title>
-      <link>http://lockelife.com/blog/2015-06-01-automated-documentation-hosting-on-github-via-travis-ci/</link>
+      <link>http://lockedata.uk/itsalockeblog/2015-06-01-automated-documentation-hosting-on-github-via-travis-ci/</link>
       <pubDate>Mon, 01 Jun 2015 09:29:21 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2015-06-01-automated-documentation-hosting-on-github-via-travis-ci/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2015-06-01-automated-documentation-hosting-on-github-via-travis-ci/</guid>
       <description>&lt;p&gt;In this post, I&amp;#8217;m going to cover how you can use continuous integration and source control to build and host documentation (or any other static HTML) for free, and in a way that updates every time your code changes. I&amp;#8217;ll cover the generic capability, and then how I apply this to my simplest package, tfsR. In a later post (once I&amp;#8217;ve cracked the best method to do it) I&amp;#8217;ll cover my more complex use case of multiple documents and a dynamically constructed index page.&lt;/p&gt;
 
 &lt;p&gt;NB: This is kicked off from a &lt;a href=&#34;http://rmflight.github.io/posts/2014/11/travis_ci_gh_pages.html&#34;&gt;post&lt;/a&gt; from Robert Flight about applying to the technique to R package vignettes. It&amp;#8217;s a very useful post but it was quite specific to his situation and I wanted to understand the principles behind it before I started extending it to my more complex cases.&lt;/p&gt;
@@ -437,10 +437,10 @@ The main thanks for that goes out to the new package ezknitr from Dean Attali. e
     
     <item>
       <title>Working with Azure Blob Storage, some notes</title>
-      <link>http://lockelife.com/blog/2015-04-06-working-with-azure-blob-storage-rest-api/</link>
+      <link>http://lockedata.uk/itsalockeblog/2015-04-06-working-with-azure-blob-storage-rest-api/</link>
       <pubDate>Mon, 06 Apr 2015 09:27:05 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2015-04-06-working-with-azure-blob-storage-rest-api/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2015-04-06-working-with-azure-blob-storage-rest-api/</guid>
       <description>&lt;p&gt;I&amp;#8217;m working on building a snazzy &lt;a href=&#34;https://github.com/stephlocke/Rtraining/blob/master/inst/slidedecks/shiny/Dashboards.Rmd&#34; title=&#34;My shiny presentation&#34; target=&#34;_blank&#34;&gt;shiny&lt;/a&gt; app that a) drops the inputs/parameter values into &lt;a href=&#34;http://azure.microsoft.com/en-gb/documentation/articles/storage-introduction/&#34; title=&#34;Azure storage intro&#34; target=&#34;_blank&#34;&gt;blob storage&lt;/a&gt; and b) uses &lt;a href=&#34;http://azure.microsoft.com/en-gb/services/stream-analytics/&#34; title=&#34;Stream Analytics&#34; target=&#34;_blank&#34;&gt;Stream Analytics&lt;/a&gt; to query the values and present back what people are saying at the moment. This&amp;#8217;ll be a fab tool for &lt;a href=&#34;https://itsalocke.com/index.php/r-pre-con-sqlsat-exeter/&#34; title=&#34;My R Pre-Con: SQLSat Exeter&#34; target=&#34;_blank&#34;&gt;my pre-con next month&lt;/a&gt; if I can get it working in time!&lt;/p&gt;
 
 &lt;p&gt;Getting it working, does however mean utilising the &lt;a href=&#34;https://msdn.microsoft.com/en-us/library/azure/dd179355.aspx&#34; title=&#34;Storage API documentation&#34; target=&#34;_blank&#34;&gt;Azure Blob Storage API&lt;/a&gt; in R which I confess is much harder than expected, especially after the ease of using the Visual Studio Online API for &lt;a href=&#34;https://itsalocke.com/index.php/bride-of-frankenstein-tfs-r/&#34; title=&#34;Bride of Frankenstein: TFS + R&#34; target=&#34;_blank&#34;&gt;tfsR&lt;/a&gt;. To that end, I thought I&amp;#8217;d write-up some of my findings before I do a bigger write-up that illustrates how to do everything (in R).&lt;/p&gt;
@@ -452,10 +452,10 @@ The main thanks for that goes out to the new package ezknitr from Dean Attali. e
     
     <item>
       <title>Bride of Frankenstein: TFS &#43; R</title>
-      <link>http://lockelife.com/blog/2015-03-20-bride-of-frankenstein-tfs-r/</link>
+      <link>http://lockedata.uk/itsalockeblog/2015-03-20-bride-of-frankenstein-tfs-r/</link>
       <pubDate>Fri, 20 Mar 2015 10:44:35 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2015-03-20-bride-of-frankenstein-tfs-r/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2015-03-20-bride-of-frankenstein-tfs-r/</guid>
       <description>&lt;p&gt;The unholy abomination of trying to use TFS as my central repository for my R code over the past year has been tough and you may or not be looking at the screen as if I&amp;#8217;m a crazy fool for even trying. Of course, now I have good news, because I&amp;#8217;ve broken the back of the main issue I had with TFS. The crucial link was being able to programatically create Git repositories within a single project for small projects.&lt;/p&gt;
 
 &lt;p&gt;Using the API, I&amp;#8217;ve been able to write an &lt;a title=&#34;tfsR&#34; href=&#34;https://github.com/stephlocke/tfsR&#34; target=&#34;_blank&#34;&gt;R package&lt;/a&gt; with functions that now save me at least 15 minutes of time and effort each time I want a new project. So I can happily holler &amp;#8220;IT&amp;#8217;S ALIVE!!&amp;#8221;&lt;/p&gt;

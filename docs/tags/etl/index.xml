@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Etl on Locke Data Blog</title>
-    <link>http://lockelife.com/blog/tags/etl/</link>
+    <link>http://lockedata.uk/itsalockeblog/tags/etl/</link>
     <description>Recent content in Etl on Locke Data Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
     <lastBuildDate>Mon, 11 Jul 2016 09:46:12 +0000</lastBuildDate>
     
-	<atom:link href="http://lockelife.com/blog/tags/etl/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://lockedata.uk/itsalockeblog/tags/etl/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Stumbling into … Azure Automation</title>
-      <link>http://lockelife.com/blog/2016-07-11-stumbling-into-azure-automation/</link>
+      <link>http://lockedata.uk/itsalockeblog/2016-07-11-stumbling-into-azure-automation/</link>
       <pubDate>Mon, 11 Jul 2016 09:46:12 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2016-07-11-stumbling-into-azure-automation/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2016-07-11-stumbling-into-azure-automation/</guid>
       <description>&lt;p&gt;I&amp;#8217;ve recently been trying to solve the challenge of working extracting files from AWS and getting them into Azure in my desired format. I wanted a solution that kept everything on the cloud and completely avoid local tin. I wanted it to have built-in auditing and error handling. I wanted something whizzy and new, to be honest! One way in which I attempted to tackle the task was with &lt;a href=&#34;https://azure.microsoft.com/en-gb/services/automation/&#34;&gt;Azure Automation&lt;/a&gt;. In this post, I&amp;#8217;ll overview Automation and explore how it stacked up for what I was attempting to use it for.&lt;/p&gt;
 
 &lt;blockquote&gt;

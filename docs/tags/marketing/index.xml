@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Marketing on Locke Data Blog</title>
-    <link>http://lockelife.com/blog/tags/marketing/</link>
+    <link>http://lockedata.uk/itsalockeblog/tags/marketing/</link>
     <description>Recent content in Marketing on Locke Data Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
     <lastBuildDate>Thu, 24 Nov 2016 10:46:40 +0000</lastBuildDate>
     
-	<atom:link href="http://lockelife.com/blog/tags/marketing/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://lockedata.uk/itsalockeblog/tags/marketing/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>An experiment in self-promotion – Revive Old Posts</title>
-      <link>http://lockelife.com/blog/2016-11-24-experiment-self-promotion-revive-old-posts/</link>
+      <link>http://lockedata.uk/itsalockeblog/2016-11-24-experiment-self-promotion-revive-old-posts/</link>
       <pubDate>Thu, 24 Nov 2016 10:46:40 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2016-11-24-experiment-self-promotion-revive-old-posts/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2016-11-24-experiment-self-promotion-revive-old-posts/</guid>
       <description>&lt;p&gt;I&amp;#8217;ve been writing (not enough) blog posts for a while now and have built up some neat stuff in the backlog if I may so myself. Alas, a lot of this doesn&amp;#8217;t get seen because it&amp;#8217;s not on the front page or in the top 5 blog posts. Sad that posts like my one on &lt;a href=&#34;https://itsalocke.com/anchor-modelling-sixth-normal-form-databases/&#34;&gt;sixth normal form databases&lt;/a&gt; don&amp;#8217;t get enough love, I&amp;#8217;ve installed the WordPress plugin &lt;a href=&#34;https://en-gb.wordpress.org/plugins/tweet-old-post/&#34;&gt;Revive Old Posts&lt;/a&gt; (ROP) to try countering this!&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -25,10 +25,10 @@
     
     <item>
       <title>Marketing for SQLRelay – two weeks in</title>
-      <link>http://lockelife.com/blog/2013-09-13-marketing-for-sqlrelay-two-weeks-in/</link>
+      <link>http://lockedata.uk/itsalockeblog/2013-09-13-marketing-for-sqlrelay-two-weeks-in/</link>
       <pubDate>Fri, 13 Sep 2013 18:45:19 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2013-09-13-marketing-for-sqlrelay-two-weeks-in/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2013-09-13-marketing-for-sqlrelay-two-weeks-in/</guid>
       <description>&lt;p&gt;Further to &lt;a href=&#34;https://itsalocke.com/index.php/marketing-for-sqlrelay-in-the-beginning/&#34; title=&#34;Marketing for SQLRelay – In the beginning&#34;&gt;the last post&lt;/a&gt; introducing my trials and tribulations, and a hectic week or two we&amp;#8217;ve made excellent progress on the Relay.  I&amp;#8217;ve enlisted Mark (@tsqltidy) the chair for the Relay and others to assist with the twittering and other activities which has really held me reduce my workload substantially.&lt;/p&gt;
 
 &lt;p&gt;All ten venues are going ahead:&lt;/p&gt;
@@ -156,10 +156,10 @@
     
     <item>
       <title>Marketing for SQLRelay – In the beginning</title>
-      <link>http://lockelife.com/blog/2013-09-01-marketing-for-sqlrelay-in-the-beginning/</link>
+      <link>http://lockedata.uk/itsalockeblog/2013-09-01-marketing-for-sqlrelay-in-the-beginning/</link>
       <pubDate>Sun, 01 Sep 2013 11:30:40 +0000</pubDate>
       
-      <guid>http://lockelife.com/blog/2013-09-01-marketing-for-sqlrelay-in-the-beginning/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/2013-09-01-marketing-for-sqlrelay-in-the-beginning/</guid>
       <description>&lt;p&gt;After organising &lt;a href=&#34;http://sqlrelay-stef.eventbrite.com&#34; target=&#34;_blank&#34;&gt;SQLRelay&lt;/a&gt; for June 24th in Cardiff, as part of the national series of 8 events.  We&amp;#8217;re gearing up for November with the aim of being able to capitalise on the growing knowledge of SQL Server 2014 CTP and pushing the Relay into a less busy part of the UK community schedule.  The difficulty is that where we had more than 6 months to prep for the previous Relay, this time round we had less than 5.  What this means for me, is not only do I want to run a bigger and better Cardiff event, but I also (being a glutton for punishment) took on spearheading the marketing efforts for the whole shebang.&lt;/p&gt;
 
 &lt;p&gt;Details will be released next week on the launch, but given my lack of knowledge about anything social media this has already been a major undertaking for me, and I thought it might be of value for me, future me, and my dear readers to compile information and learnings as I go along so that it&amp;#8217;s easier to implement in future for other marketing endeavours.  It also provides an area for discussion.&lt;/p&gt;</description>
