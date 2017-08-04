@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Data Science on Locke Data Blog</title>
-    <link>http://lockedata.uk/itsalockeblog/tags/data-science/</link>
+    <link>http://lockelife.com/blog/tags/data-science/</link>
     <description>Recent content in Data Science on Locke Data Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
     <lastBuildDate>Tue, 02 May 2017 07:41:04 +0000</lastBuildDate>
     
-	<atom:link href="http://lockedata.uk/itsalockeblog/tags/data-science/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://lockelife.com/blog/tags/data-science/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Getting started with data science – recommended resources</title>
-      <link>http://lockedata.uk/itsalockeblog/getting-started-with-data-science--recommended-resources/</link>
+      <link>http://lockelife.com/blog/getting-started-with-data-science--recommended-resources/</link>
       <pubDate>Tue, 02 May 2017 07:41:04 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/getting-started-with-data-science--recommended-resources/</guid>
+      <guid>http://lockelife.com/blog/getting-started-with-data-science--recommended-resources/</guid>
       <description>An oft asked question is what resources can I recommend for getting started with data science? Here are my recommendations, and if you have others, please put them in the comments!
  NB Links in this post may be affiliate links &amp;#8211; it doesn&amp;#8217;t change the prices you get but might earn me a little money
  Books Data Science for Business Data Science for Business
@@ -26,10 +26,10 @@ Data Science for Business is a great overview book.</description>
     
     <item>
       <title>Going solo!</title>
-      <link>http://lockedata.uk/itsalockeblog/going-solo/</link>
+      <link>http://lockelife.com/blog/going-solo/</link>
       <pubDate>Wed, 04 Jan 2017 10:02:37 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/going-solo/</guid>
+      <guid>http://lockelife.com/blog/going-solo/</guid>
       <description>The year has started out on a high for me. I&amp;#8217;ve handed in my notice Censornet and I was re-awarded the Data Platform MVP award by Microsoft. I handed in my notice not to go to a new job but to fly solo!
 I&amp;#8217;m starting Locke Data in February to help people embed data science skills in their organisations.
 Business intelligence has been a thing long enough that there&amp;#8217;s a whole department of people dedicated to it and it generally isn&amp;#8217;t disruptive to other areas of the business and IT.</description>

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mockaroo on Locke Data Blog</title>
-    <link>http://lockedata.uk/itsalockeblog/tags/mockaroo/</link>
+    <link>http://lockelife.com/blog/tags/mockaroo/</link>
     <description>Recent content in Mockaroo on Locke Data Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
     <lastBuildDate>Thu, 24 Mar 2016 15:44:03 +0000</lastBuildDate>
     
-	<atom:link href="http://lockedata.uk/itsalockeblog/tags/mockaroo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://lockelife.com/blog/tags/mockaroo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>R package news: tfsR, HIBPwned, mockaRoo</title>
-      <link>http://lockedata.uk/itsalockeblog/r-package-news-tfsr-hibpwned-mockaroo/</link>
+      <link>http://lockelife.com/blog/r-package-news-tfsr-hibpwned-mockaroo/</link>
       <pubDate>Thu, 24 Mar 2016 15:44:03 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/r-package-news-tfsr-hibpwned-mockaroo/</guid>
+      <guid>http://lockelife.com/blog/r-package-news-tfsr-hibpwned-mockaroo/</guid>
       <description>This is a brief update on my packages not currently on CRAN: tfsR, HIBPwned, and mockaRoo.
 tfsR tfsR is designed to help you work git repositories in Microsoft Team Foundation Server (TFS) and Visual Studio Team Services (VSTS). I wrote the package a while ago and it has/had just two functions; one for getting a list of git repositories, and one for making a new git repository. The release of httr 1.</description>
     </item>

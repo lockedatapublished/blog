@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tick on Locke Data Blog</title>
-    <link>http://lockedata.uk/itsalockeblog/tags/tick/</link>
+    <link>http://lockelife.com/blog/tags/tick/</link>
     <description>Recent content in Tick on Locke Data Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
     <lastBuildDate>Sun, 12 May 2013 14:03:09 +0000</lastBuildDate>
     
-	<atom:link href="http://lockedata.uk/itsalockeblog/tags/tick/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://lockelife.com/blog/tags/tick/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Objectless Check Boxes using VBA</title>
-      <link>http://lockedata.uk/itsalockeblog/objectless-check-boxes-using-vba/</link>
+      <link>http://lockelife.com/blog/objectless-check-boxes-using-vba/</link>
       <pubDate>Sun, 12 May 2013 14:03:09 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/objectless-check-boxes-using-vba/</guid>
+      <guid>http://lockelife.com/blog/objectless-check-boxes-using-vba/</guid>
       <description>&lt;p&gt;For my first ever blog post (be gentle with me!) I wanted to talk about an issue I have with Excel’s check box object, and my way of resolving it. It’s not perfect, and I’d love to hear of any other versions or ideas you may have. So here&amp;#8217;s how I create check boxes in Excel without using Excel check boxes.&lt;/p&gt;
 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;

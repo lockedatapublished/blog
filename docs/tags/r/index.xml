@@ -2,50 +2,50 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R on Locke Data Blog</title>
-    <link>http://lockedata.uk/itsalockeblog/tags/r/</link>
+    <link>http://lockelife.com/blog/tags/r/</link>
     <description>Recent content in R on Locke Data Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
     <lastBuildDate>Sat, 17 Jun 2017 09:29:42 +0000</lastBuildDate>
     
-	<atom:link href="http://lockedata.uk/itsalockeblog/tags/r/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://lockelife.com/blog/tags/r/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>All my talks in one place (plus a Hugo walkthrough!)</title>
-      <link>http://lockedata.uk/itsalockeblog/all-my-talks-in-one-place-plus-a-hugo-walkthrough/</link>
+      <link>http://lockelife.com/blog/all-my-talks-in-one-place-plus-a-hugo-walkthrough/</link>
       <pubDate>Sat, 17 Jun 2017 09:29:42 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/all-my-talks-in-one-place-plus-a-hugo-walkthrough/</guid>
+      <guid>http://lockelife.com/blog/all-my-talks-in-one-place-plus-a-hugo-walkthrough/</guid>
       <description>I mentioned in an earlier post about how I&amp;#8217;m revamping my presentation slides process but that I hadn&amp;#8217;t tackled the user experience of browsing my slides, which wasted lots of the effort I put in. To tackle this part of it, I&amp;#8217;ve made lockedata.uk using Hugo to be a way of finding and browsing presentations on R, SQL, and more. As Hugo is so easy, I thought I&amp;#8217;d throw in a quick Hugo walkthrough too so that you could build your own blog/slides/company site if you wanted to.</description>
     </item>
     
     <item>
       <title>Using purrr with APIs – revamping my code</title>
-      <link>http://lockedata.uk/itsalockeblog/using-purrr-with-apis--revamping-my-code/</link>
+      <link>http://lockelife.com/blog/using-purrr-with-apis--revamping-my-code/</link>
       <pubDate>Tue, 13 Jun 2017 10:20:40 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/using-purrr-with-apis--revamping-my-code/</guid>
+      <guid>http://lockelife.com/blog/using-purrr-with-apis--revamping-my-code/</guid>
       <description>I wrote a little while back about using Microsoft Cognitive Services APIs with R to first of all detect the language of pieces of text and then do sentiment analysis on them. I wasn&amp;#8217;t too happy with the some of the code as it was very inelegant. I knew I could code better than I had, especially as I&amp;#8217;ve been doing a lot more work with purrr recently. However, it had sat in drafts for a while.</description>
     </item>
     
     <item>
       <title>How to go about interpreting regression cofficients</title>
-      <link>http://lockedata.uk/itsalockeblog/how-to-go-about-interpreting-regression-cofficients/</link>
+      <link>http://lockelife.com/blog/how-to-go-about-interpreting-regression-cofficients/</link>
       <pubDate>Fri, 12 May 2017 08:31:48 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/how-to-go-about-interpreting-regression-cofficients/</guid>
+      <guid>http://lockelife.com/blog/how-to-go-about-interpreting-regression-cofficients/</guid>
       <description>Following my post about logistic regressions, Ryan got in touch about one bit of building logistic regressions models that I didn&amp;#8217;t cover in much detail &amp;#8211; interpreting&amp;nbsp;regression coefficients. This post will hopefully help Ryan (and others) out.
 This was so helpful. Thank you! I&#39;d love to see more about interpreting the glm coefficients.  &amp;mdash; Ryan (@RyanEs) April 21, 2017  What is a coefficient? Coefficients are what a line of best fit model produces.</description>
     </item>
     
     <item>
       <title>R Quick Tip: parameter re-use within rmarkdown YAML</title>
-      <link>http://lockedata.uk/itsalockeblog/r-quick-tip-parameter-re-use-within-rmarkdown-yaml/</link>
+      <link>http://lockelife.com/blog/r-quick-tip-parameter-re-use-within-rmarkdown-yaml/</link>
       <pubDate>Mon, 08 May 2017 08:32:00 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/r-quick-tip-parameter-re-use-within-rmarkdown-yaml/</guid>
+      <guid>http://lockelife.com/blog/r-quick-tip-parameter-re-use-within-rmarkdown-yaml/</guid>
       <description>Ever wondered how to make an rmarkdown title dynamic? Maybe, wanted to use a parameter in multiple locations? Maybe wanted to pass through a publication date? Advanced use of YAML headers can help!
 Normally, when we write rmarkdown, we might use something like the basic YAML header that the rmarkdown template gives us.
 --- title: &amp;quot;My report&amp;quot; date: &amp;quot;18th April, 2017&amp;quot; output: pdf_document ---  You may already know the trick about making the date dynamic to whatever date the report gets rendered on by using the inline R execution mode of rmarkdown to insert a value.</description>
@@ -53,20 +53,20 @@ Normally, when we write rmarkdown, we might use something like the basic YAML he
     
     <item>
       <title>Minor update to HIBPwned</title>
-      <link>http://lockedata.uk/itsalockeblog/minor-update-to-hibpwned/</link>
+      <link>http://lockelife.com/blog/minor-update-to-hibpwned/</link>
       <pubDate>Fri, 05 May 2017 07:46:42 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/minor-update-to-hibpwned/</guid>
+      <guid>http://lockelife.com/blog/minor-update-to-hibpwned/</guid>
       <description>A new version of HIBPwned has been accepted onto CRAN. This occurred yesterday so it could still be filtering into some mirrors.
 HIBPwned is an R wrapper for the useful website HaveIBeenPwned and if you don&amp;#8217;t already utilise the package or the site &amp;#8211; you should. HaveIBeenPwned tells you when your details are included in data breaches. This is vital information to get quickly as it means you can sooner protect yourself from people trying to use the breach information to break into your accounts.</description>
     </item>
     
     <item>
       <title>Error installing latest R version (3.4.0) on Windows</title>
-      <link>http://lockedata.uk/itsalockeblog/error-installing-latest-r-version-3.4.0-on-windows/</link>
+      <link>http://lockelife.com/blog/error-installing-latest-r-version-3.4.0-on-windows/</link>
       <pubDate>Wed, 03 May 2017 17:57:13 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/error-installing-latest-r-version-3.4.0-on-windows/</guid>
+      <guid>http://lockelife.com/blog/error-installing-latest-r-version-3.4.0-on-windows/</guid>
       <description>UPDATE: R 3.4.1 does not have this problem so you can install that version instead
 If you&amp;#8217;re getting the following error when you&amp;#8217;ve installed R 3.4.0 on Windows, you&amp;#8217;re not alone.
  Error in if (file.exists(dest) &amp;amp;&amp;amp; file.mtime(dest) &amp;gt; file.mtime(lib) &amp;amp;&amp;amp; :
@@ -76,20 +76,20 @@ missing value where TRUE/FALSE needed
     
     <item>
       <title>The making of datasauRus</title>
-      <link>http://lockedata.uk/itsalockeblog/the-making-of-datasaurus/</link>
+      <link>http://lockelife.com/blog/the-making-of-datasaurus/</link>
       <pubDate>Tue, 02 May 2017 12:10:32 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/the-making-of-datasaurus/</guid>
+      <guid>http://lockelife.com/blog/the-making-of-datasaurus/</guid>
       <description>Around 8:30pm I saw this tweet and duly retweeted
 https://t.co/WuyU9D6npK  &amp;mdash; Richie Cotton (@richierocks) May 1, 2017  It turns out awesome folks, George and Justin, had made a process whereby they can generate different distributions of points that retain the same summary statistics. They used this process for making some friends for Dino the Datasaurus who was created by Alberto Cairo. They made the data for Dino and the rest of the Datasaurus Dozen available for download.</description>
     </item>
     
     <item>
       <title>Getting started with data science – recommended resources</title>
-      <link>http://lockedata.uk/itsalockeblog/getting-started-with-data-science--recommended-resources/</link>
+      <link>http://lockelife.com/blog/getting-started-with-data-science--recommended-resources/</link>
       <pubDate>Tue, 02 May 2017 07:41:04 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/getting-started-with-data-science--recommended-resources/</guid>
+      <guid>http://lockelife.com/blog/getting-started-with-data-science--recommended-resources/</guid>
       <description>An oft asked question is what resources can I recommend for getting started with data science? Here are my recommendations, and if you have others, please put them in the comments!
  NB Links in this post may be affiliate links &amp;#8211; it doesn&amp;#8217;t change the prices you get but might earn me a little money
  Books Data Science for Business Data Science for Business
@@ -98,10 +98,10 @@ Data Science for Business is a great overview book.</description>
     
     <item>
       <title>R Quick Tip: Upload multiple files in shiny and consolidate into a dataset</title>
-      <link>http://lockedata.uk/itsalockeblog/r-quick-tip-upload-multiple-files-in-shiny-and-consolidate-into-a-dataset/</link>
+      <link>http://lockelife.com/blog/r-quick-tip-upload-multiple-files-in-shiny-and-consolidate-into-a-dataset/</link>
       <pubDate>Fri, 28 Apr 2017 10:27:55 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/r-quick-tip-upload-multiple-files-in-shiny-and-consolidate-into-a-dataset/</guid>
+      <guid>http://lockelife.com/blog/r-quick-tip-upload-multiple-files-in-shiny-and-consolidate-into-a-dataset/</guid>
       <description>In shiny, you can use the fileInput with the parameter multiple = TRUE to enable you to upload multiple files at once. But how do you process those multiple files in shiny and consolidate into a single dataset?
 The bit we need from shiny is the input$param$fileinputpath value.
 We can use lapply() with data.table&amp;#8216;s fread() to read multiple CSVs from the fileInput(). Then to consolidate the data, we can use data.</description>
@@ -109,40 +109,40 @@ We can use lapply() with data.table&amp;#8216;s fread() to read multiple CSVs fr
     
     <item>
       <title>Logistic regressions (in R)</title>
-      <link>http://lockedata.uk/itsalockeblog/logistic-regressions-in-r/</link>
+      <link>http://lockelife.com/blog/logistic-regressions-in-r/</link>
       <pubDate>Fri, 21 Apr 2017 09:02:44 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/logistic-regressions-in-r/</guid>
+      <guid>http://lockelife.com/blog/logistic-regressions-in-r/</guid>
       <description>Logistic regressions are a great tool for predicting outcomes that are categorical. They use a transformation function based on probability to perform a linear regression. This makes them easy to interpret and implement in other systems.
 Logistic regressions can be used to perform a classification for things like determining whether someone needs to go for a biopsy. They can also be used for a more nuanced view by using the probabilities of an outcome for thinks like prioritising interventions based on likelihood to default on a loan.</description>
     </item>
     
     <item>
       <title>R Quick Tip: Table parameters for rmarkdown reports</title>
-      <link>http://lockedata.uk/itsalockeblog/r-quick-tip-table-parameters-for-rmarkdown-reports/</link>
+      <link>http://lockelife.com/blog/r-quick-tip-table-parameters-for-rmarkdown-reports/</link>
       <pubDate>Wed, 19 Apr 2017 08:50:30 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/r-quick-tip-table-parameters-for-rmarkdown-reports/</guid>
+      <guid>http://lockelife.com/blog/r-quick-tip-table-parameters-for-rmarkdown-reports/</guid>
       <description>The recent(ish) advent of parameters in rmarkdown reports is pretty nifty but there&amp;#8217;s a little bit of behaviour that can come in handy but doesn&amp;#8217;t come across in the documentation. You can use table parameters for rmarkdown reports.
 Previously, if you wanted to produce multiple reports based off a dataset, you would make the dataset available and then perform filtering in the report. Now we can pass the filtered data directly to the report, which keeps all the filtering logic in one place.</description>
     </item>
     
     <item>
       <title>Community workshops</title>
-      <link>http://lockedata.uk/itsalockeblog/community-workshops/</link>
+      <link>http://lockelife.com/blog/community-workshops/</link>
       <pubDate>Fri, 14 Apr 2017 18:00:59 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/community-workshops/</guid>
+      <guid>http://lockelife.com/blog/community-workshops/</guid>
       <description>Following on from when we announced the availability of our community workshops, we&amp;#8217;ve got three in the next three months that folks can attend.
 May 19th &amp;#8211; Data science project in a day We&amp;#8217;ll be in Kiev, Ukraine, doing a whole data science project in a day. This is intended to give people a little bit of code, process, and critical thinking along the whole data science workflow. This will enable folks to see how it hangs together and decide where and how much they want to invest their learning in future.</description>
     </item>
     
     <item>
       <title>R Quick tip: Microsoft Cognitive Services’ Text Analytics API</title>
-      <link>http://lockedata.uk/itsalockeblog/r-quick-tip-microsoft-cognitive-services-text-analytics-api/</link>
+      <link>http://lockelife.com/blog/r-quick-tip-microsoft-cognitive-services-text-analytics-api/</link>
       <pubDate>Wed, 01 Mar 2017 09:40:46 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/r-quick-tip-microsoft-cognitive-services-text-analytics-api/</guid>
+      <guid>http://lockelife.com/blog/r-quick-tip-microsoft-cognitive-services-text-analytics-api/</guid>
       <description>&lt;p&gt;Today in class, I taught some fundamentals of API consumption in R. As it was aligned to some Microsoft content, we first used &lt;a href=&#34;https://haveibeenpwned.com&#34;&gt;HaveIBeenPwned.com&lt;/a&gt;&amp;#8216;s API and then played with &lt;a href=&#34;https://www.microsoft.com/cognitive-services/en-us/&#34;&gt;Microsoft Cognitive Services&lt;/a&gt;&amp;#8216; Text Analytics API. This brief post overviews what you need to get started, and how you can chain consecutive calls to these APIs in order to perform multi-lingual sentiment analysis.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;UPDATE: See improved code in &lt;a href=&#34;https://itsalocke.com/using-purrr-with-apis/&#34;&gt;Using purrr with APIs – revamping my code&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -152,10 +152,10 @@ May 19th &amp;#8211; Data science project in a day We&amp;#8217;ll be in Kiev, U
     
     <item>
       <title>Announcing community R workshops</title>
-      <link>http://lockedata.uk/itsalockeblog/announcing-community-r-workshops/</link>
+      <link>http://lockelife.com/blog/announcing-community-r-workshops/</link>
       <pubDate>Mon, 27 Feb 2017 09:24:14 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/announcing-community-r-workshops/</guid>
+      <guid>http://lockelife.com/blog/announcing-community-r-workshops/</guid>
       <description>&lt;p&gt;A big part of why I&amp;#8217;ve launched Locke Data is so that I can give back more to my communities. I want to give more time and more support to others. One of the first steps is doing some activities that give financial support to community groups without damaging my startup cashflow! Community R workshops that fund local user groups is the first activity I&amp;#8217;ll be trialling.&lt;/p&gt;
 
 &lt;p&gt;Here&amp;#8217;s what&amp;#8217;s involved, and what you might want to consider if you&amp;#8217;d like to be a part of this endeavour:&lt;/p&gt;
@@ -165,10 +165,10 @@ May 19th &amp;#8211; Data science project in a day We&amp;#8217;ll be in Kiev, U
     
     <item>
       <title>Is my time series additive or multiplicative?</title>
-      <link>http://lockedata.uk/itsalockeblog/is-my-time-series-additive-or-multiplicative/</link>
+      <link>http://lockelife.com/blog/is-my-time-series-additive-or-multiplicative/</link>
       <pubDate>Mon, 20 Feb 2017 10:46:20 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/is-my-time-series-additive-or-multiplicative/</guid>
+      <guid>http://lockelife.com/blog/is-my-time-series-additive-or-multiplicative/</guid>
       <description>&lt;p&gt;Time series data is an important area of analysis, especially if you do a lot of web analytics. To be able to analyse time series effectively, it helps to understand the interaction between general seasonality in activity and the underlying trend.&lt;/p&gt;
 
 &lt;p&gt;The interactions between trend and seasonality are typically classified as either additive or multiplicative. This post looks at how we can classify a given time series as one or the other to facilitate further processing.&lt;/p&gt;
@@ -178,20 +178,20 @@ May 19th &amp;#8211; Data science project in a day We&amp;#8217;ll be in Kiev, U
     
     <item>
       <title>Use your .Rprofile to give you important notifications</title>
-      <link>http://lockedata.uk/itsalockeblog/use-your-.rprofile-to-give-you-important-notifications/</link>
+      <link>http://lockelife.com/blog/use-your-.rprofile-to-give-you-important-notifications/</link>
       <pubDate>Thu, 23 Jun 2016 09:08:43 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/use-your-.rprofile-to-give-you-important-notifications/</guid>
+      <guid>http://lockelife.com/blog/use-your-.rprofile-to-give-you-important-notifications/</guid>
       <description>In R, we can use a file called .Rprofile to do things in R based on a number of triggers. One thing I&amp;#8217;ve done is give myself a DIY notification of how many data breaches I&amp;#8217;ve been involved in!
 First of all, you need a file called .Rprofile that&amp;#8217;s stored in your working directory. Some useful resources about .Rprofiles can be found on .Rprofile CRAN docs and an .Rprofile intro.</description>
     </item>
     
     <item>
       <title>HIBPwned on CRAN</title>
-      <link>http://lockedata.uk/itsalockeblog/hibpwned-on-cran/</link>
+      <link>http://lockelife.com/blog/hibpwned-on-cran/</link>
       <pubDate>Thu, 09 Jun 2016 08:06:58 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/hibpwned-on-cran/</guid>
+      <guid>http://lockelife.com/blog/hibpwned-on-cran/</guid>
       <description>Part of my (slowly) working pipeline of coding projects has been an R package that wraps the fantastic HaveIBeenPwned.com API.
 If you&amp;#8217;re not already familiar with HaveIBeenPwned, rectify the situation, NOW! Don&amp;#8217;t worry about continuing to read the rest of the post; getting yourself signed up for account breach notifications is way more important!Go now!
 /giphy run
@@ -201,20 +201,20 @@ HIBPwned is a feature complete R package that allows you to use every (currently
     
     <item>
       <title>Recent presentations</title>
-      <link>http://lockedata.uk/itsalockeblog/recent-presentations/</link>
+      <link>http://lockelife.com/blog/recent-presentations/</link>
       <pubDate>Wed, 01 Jun 2016 08:09:32 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/recent-presentations/</guid>
+      <guid>http://lockelife.com/blog/recent-presentations/</guid>
       <description>The last month or so has been a whirlwind of awesomeness with a veritable bevvy of user group and conference talks on my part! I thought I would share the materials with you and provide some brief thoughts on how each presentation went.
 Sessions  SQL Saturday Exeter : Stats 101 London Business Analytics (LBAG) : Skilling up to code with data SQLBits &amp;amp; TUGA : Cut the R Learning Curve SQLBits &amp;amp; TUGA : R in the Microsoft Data Platform (full day of training) IT Pro Portugal : Being lazy with infrastructure  SQL Saturday Exeter My presentation, in my opinion, was exceedingly brave.</description>
     </item>
     
     <item>
       <title>#satRdays voting closes May 31st</title>
-      <link>http://lockedata.uk/itsalockeblog/#satrdays-voting-closes-may-31st/</link>
+      <link>http://lockelife.com/blog/#satrdays-voting-closes-may-31st/</link>
       <pubDate>Fri, 27 May 2016 12:00:56 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/#satrdays-voting-closes-may-31st/</guid>
+      <guid>http://lockelife.com/blog/#satrdays-voting-closes-may-31st/</guid>
       <description>Voting for 2 of the 3 locations for satRday conferences will be closing at the end of May 31st (GMT). It&amp;#8217;s been a phenomenal turnout with more than 1,500 votes so far.
 You can still vote if you haven&amp;#8217;t already!
 EU status Budapest, Hungary, is where Gergely will be throwing the EU event and it&amp;#8217;s tentatively set for September.
@@ -223,20 +223,20 @@ US status Chicago started out with a close runner of Washington DC, but that all
     
     <item>
       <title>satRday location voting now open</title>
-      <link>http://lockedata.uk/itsalockeblog/satrday-location-voting-now-open/</link>
+      <link>http://lockelife.com/blog/satrday-location-voting-now-open/</link>
       <pubDate>Wed, 11 May 2016 15:45:44 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/satrday-location-voting-now-open/</guid>
+      <guid>http://lockelife.com/blog/satrday-location-voting-now-open/</guid>
       <description>satRdays, free R conferences, are a project being supported by the R Consortium. When Gergely and I submitted our proposal, we said we&amp;#8217;d be supporting three conferences:
  Budapest, Hungary (Gergely&amp;#8217;s home turf) Somewhere in the US Somewhere else in the world  We&amp;#8217;ve had an overwhelming response with 40 submitted conferences but for the fully-funded ones, there can only be three. We are looking at how the runners up can do the next wave of events but we want to get the ball rolling on the first three.</description>
     </item>
     
     <item>
       <title>Shiny module design patterns: Pass module inputs to other modules</title>
-      <link>http://lockedata.uk/itsalockeblog/shiny-module-design-patterns-pass-module-inputs-to-other-modules/</link>
+      <link>http://lockelife.com/blog/shiny-module-design-patterns-pass-module-inputs-to-other-modules/</link>
       <pubDate>Tue, 19 Apr 2016 10:15:19 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/shiny-module-design-patterns-pass-module-inputs-to-other-modules/</guid>
+      <guid>http://lockelife.com/blog/shiny-module-design-patterns-pass-module-inputs-to-other-modules/</guid>
       <description>&lt;p&gt;Continuing in the series of &lt;a href=&#34;https://itsalocke.com/tag/shiny-design-patterns/&#34;&gt;shiny module design patterns&lt;/a&gt;, this post covers how to pass all the inputs from one module to another.&lt;/p&gt;
 
 &lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
@@ -248,10 +248,10 @@ US status Chicago started out with a close runner of Washington DC, but that all
     
     <item>
       <title>Shiny module design patterns: Pass module input to other modules</title>
-      <link>http://lockedata.uk/itsalockeblog/shiny-module-design-patterns-pass-module-input-to-other-modules/</link>
+      <link>http://lockelife.com/blog/shiny-module-design-patterns-pass-module-input-to-other-modules/</link>
       <pubDate>Thu, 14 Apr 2016 12:05:55 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/shiny-module-design-patterns-pass-module-input-to-other-modules/</guid>
+      <guid>http://lockelife.com/blog/shiny-module-design-patterns-pass-module-input-to-other-modules/</guid>
       <description>&lt;p&gt;Following on from looking at the &lt;a href=&#34;https://itsalocke.com/shiny-module-design-pattern-pass-inputs-one-module-another/&#34;&gt;shiny modules design pattern of passing an input value to many modules&lt;/a&gt;, I&amp;#8217;m now going to look at a more complex shiny module design pattern: passing an input from one module to another.&lt;/p&gt;
 
 &lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
@@ -263,10 +263,10 @@ US status Chicago started out with a close runner of Washington DC, but that all
     
     <item>
       <title>Using Travis? Make sure you use a Github PAT</title>
-      <link>http://lockedata.uk/itsalockeblog/using-travis-make-sure-you-use-a-github-pat/</link>
+      <link>http://lockelife.com/blog/using-travis-make-sure-you-use-a-github-pat/</link>
       <pubDate>Tue, 12 Apr 2016 10:27:03 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/using-travis-make-sure-you-use-a-github-pat/</guid>
+      <guid>http://lockelife.com/blog/using-travis-make-sure-you-use-a-github-pat/</guid>
       <description>&lt;p&gt;We&amp;#8217;re in the fantastic situation where lots of people are using &lt;a href=&#34;https://travis-ci.org/&#34;&gt;Travis-CI&lt;/a&gt; to test their R packages or use it to test and deploy their analytics/ documentation / anything really. It&amp;#8217;s popularity has been having a negative side-effect recently though! GitHub &lt;a href=&#34;https://developer.github.com/v3/#rate-limiting&#34;&gt;rate limits&lt;/a&gt; API access to 5000 requests per hour so sometimes there are more R related jobs running on Travis per hour than this limit, causing builds to error typically with a message that includes&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -286,10 +286,10 @@ US status Chicago started out with a close runner of Washington DC, but that all
     
     <item>
       <title>Shiny module design patterns: Pass a single input to multiple modules</title>
-      <link>http://lockedata.uk/itsalockeblog/shiny-module-design-patterns-pass-a-single-input-to-multiple-modules/</link>
+      <link>http://lockelife.com/blog/shiny-module-design-patterns-pass-a-single-input-to-multiple-modules/</link>
       <pubDate>Fri, 08 Apr 2016 10:56:32 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/shiny-module-design-patterns-pass-a-single-input-to-multiple-modules/</guid>
+      <guid>http://lockelife.com/blog/shiny-module-design-patterns-pass-a-single-input-to-multiple-modules/</guid>
       <description>&lt;p&gt;For the awesome &lt;a href=&#34;https://www.eventbrite.com/e/shiny-developer-conference-registration-19153967031&#34;&gt;Shiny Developers Conference&lt;/a&gt; back in January, I endeavoured to learn about shiny modules and &lt;a href=&#34;https://itsalocke.com/declutter-a-shiny-reports-code-v2-0/&#34;&gt;overhaul an application&lt;/a&gt; using them in the space of two days. I succeeded and almost immediately switched onto other projects, thereby losing most of the hard-won knowledge! As I rediscover shiny modules and start putting them into more active use, I&amp;#8217;ll be blogging about design patterns. This post takes you through the case of multiple modules receiving the same input value.&lt;/p&gt;
 
 &lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
@@ -301,10 +301,10 @@ US status Chicago started out with a close runner of Washington DC, but that all
     
     <item>
       <title>R Quick Tip: Collapse a lists of data.frames with data.table</title>
-      <link>http://lockedata.uk/itsalockeblog/r-quick-tip-collapse-a-lists-of-data.frames-with-data.table/</link>
+      <link>http://lockelife.com/blog/r-quick-tip-collapse-a-lists-of-data.frames-with-data.table/</link>
       <pubDate>Tue, 05 Apr 2016 14:05:26 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/r-quick-tip-collapse-a-lists-of-data.frames-with-data.table/</guid>
+      <guid>http://lockelife.com/blog/r-quick-tip-collapse-a-lists-of-data.frames-with-data.table/</guid>
       <description>&lt;p&gt;With my &lt;a href=&#34;https://github.com/stephlocke/HIBPwned&#34;&gt;HIBPwned&lt;/a&gt; package, I consume the &lt;a href=&#34;https://haveibeenpwned.com/&#34;&gt;HaveIBeenPwned&lt;/a&gt; API and return back a list object with an element for each email address. Each element holds a data.frame of breach data or a stub response with a single column data.frame containing NA. Elements are named with the email addresses they relate to. I had a list of data.frames and I wanted a consolidated data.frame (well, I always want a data.table).&lt;/p&gt;
 
 &lt;p&gt;Enter data.table &amp;#8230;&lt;/p&gt;
@@ -316,10 +316,10 @@ US status Chicago started out with a close runner of Washington DC, but that all
     
     <item>
       <title>Auto-deploying documentation: better change tracking of artefacts</title>
-      <link>http://lockedata.uk/itsalockeblog/auto-deploying-documentation-better-change-tracking-of-artefacts/</link>
+      <link>http://lockelife.com/blog/auto-deploying-documentation-better-change-tracking-of-artefacts/</link>
       <pubDate>Mon, 04 Apr 2016 11:04:34 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/auto-deploying-documentation-better-change-tracking-of-artefacts/</guid>
+      <guid>http://lockelife.com/blog/auto-deploying-documentation-better-change-tracking-of-artefacts/</guid>
       <description>&lt;p&gt;As part of my never-ending quest to deploy documentation better, I&amp;#8217;ve made yet another tweak to my scripts that deploy R vignettes or Rmarkdown documents to the &lt;code&gt;gh-pages&lt;/code&gt; branch of my github repositories via Travis-CI.&lt;/p&gt;
 
 &lt;p&gt;The script from &lt;a href=&#34;http://rmflight.github.io/posts/2014/11/travis_ci_gh_pages.html&#34;&gt;Robert Flight&lt;/a&gt; that&amp;#8217;s provided the basis for most of this work does something specific to update the web facing branch of the repository. It would:&lt;/p&gt;
@@ -353,30 +353,30 @@ US status Chicago started out with a close runner of Washington DC, but that all
     
     <item>
       <title>R package news: tfsR, HIBPwned, mockaRoo</title>
-      <link>http://lockedata.uk/itsalockeblog/r-package-news-tfsr-hibpwned-mockaroo/</link>
+      <link>http://lockelife.com/blog/r-package-news-tfsr-hibpwned-mockaroo/</link>
       <pubDate>Thu, 24 Mar 2016 15:44:03 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/r-package-news-tfsr-hibpwned-mockaroo/</guid>
+      <guid>http://lockelife.com/blog/r-package-news-tfsr-hibpwned-mockaroo/</guid>
       <description>This is a brief update on my packages not currently on CRAN: tfsR, HIBPwned, and mockaRoo.
 tfsR tfsR is designed to help you work git repositories in Microsoft Team Foundation Server (TFS) and Visual Studio Team Services (VSTS). I wrote the package a while ago and it has/had just two functions; one for getting a list of git repositories, and one for making a new git repository. The release of httr 1.</description>
     </item>
     
     <item>
       <title>satRdays are go!</title>
-      <link>http://lockedata.uk/itsalockeblog/satrdays-are-go/</link>
+      <link>http://lockelife.com/blog/satrdays-are-go/</link>
       <pubDate>Wed, 23 Mar 2016 13:52:16 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/satrdays-are-go/</guid>
+      <guid>http://lockelife.com/blog/satrdays-are-go/</guid>
       <description>I&amp;#8217;m very pleased to say that the R Consortium agreed to the support the satRday project!
 The idea kicked off in November and I was over the moon with the response from the community, then we garnered support before submitting to the Consortium and I must have looped the moon a few times as we had more than 500 responses. Now the R Consortium are supporting us and we can turn all that enthusiasm into action.</description>
     </item>
     
     <item>
       <title>HIBPwned, an R package for HaveIBeenPwned.com</title>
-      <link>http://lockedata.uk/itsalockeblog/hibpwned-an-r-package-for-haveibeenpwned.com/</link>
+      <link>http://lockelife.com/blog/hibpwned-an-r-package-for-haveibeenpwned.com/</link>
       <pubDate>Mon, 21 Mar 2016 15:02:08 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/hibpwned-an-r-package-for-haveibeenpwned.com/</guid>
+      <guid>http://lockelife.com/blog/hibpwned-an-r-package-for-haveibeenpwned.com/</guid>
       <description>&lt;p&gt;The answer in life to the inevitable question of &amp;#8220;How can I do that in R?&amp;#8221; should be &amp;#8220;There&amp;#8217;s a package for that&amp;#8221;. So when I wanted to query &lt;a href=&#34;https://haveibeenpwned.com&#34;&gt;HaveIBeenPwned.com&lt;/a&gt; (HIBP) to check whether a bunch of emails had been involved in data breaches and there wasn&amp;#8217;t an R package for HIBP, it meant that the responsibility for making one landed on my shoulders. Now, you can see if your accounts are at risk with the R package for HaveIBeenPwned.com, &lt;strong&gt;HIBPwned&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;figure id=&#34;attachment_61581&#34; style=&#34;width: 768px&#34; class=&#34;wp-caption alignnone&#34;&gt;&lt;img src=&#34;http://res.cloudinary.com/lockedata/image/upload/h_139,w_750/v1499850337/hibp_os8t5d.png&#34; alt=&#34;Have I Been Pwned | HaveIBeenPwned.com&#34; width=&#34;768&#34; height=&#34;142&#34; class=&#34;size-medium_large wp-image-61581&#34; /&gt;&lt;figcaption class=&#34;wp-caption-text&#34;&gt;Have I Been Pwned | HaveIBeenPwned.com&lt;/figcaption&gt;&lt;/figure&gt;
@@ -390,10 +390,10 @@ The idea kicked off in November and I was over the moon with the response from t
     
     <item>
       <title>mockaRoo – making realistic test data in R</title>
-      <link>http://lockedata.uk/itsalockeblog/mockaroo--making-realistic-test-data-in-r/</link>
+      <link>http://lockelife.com/blog/mockaroo--making-realistic-test-data-in-r/</link>
       <pubDate>Tue, 08 Mar 2016 14:00:54 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/mockaroo--making-realistic-test-data-in-r/</guid>
+      <guid>http://lockelife.com/blog/mockaroo--making-realistic-test-data-in-r/</guid>
       <description>&lt;p&gt;When I&amp;#8217;m building stuff in R like packages, models, etc. I find myself wishing for realistic looking test data without having to resort to getting data off my production server. To that end I&amp;#8217;ve been on the hunt for a way of generating decent test data. A few months back I stumbled upon the neat system &lt;a href=&#34;https://www.mockaroo.com/&#34;&gt;Mockaroo&lt;/a&gt; which provides a GUI to build some data that suits your needs.&lt;/p&gt;
 
 &lt;p&gt;Mockaroo is a really impressive service with a wide spread of different data types. They also have simple ways of adding things like within group differences to data so that you can mock realistic class differences. They use the freemium model so you can get a thousand rows per download, which is pretty sweet. The big BUT you can feel coming on is this &amp;#8211; it&amp;#8217;s a GUI! I don&amp;#8217;t want to have spend time hand cranking a data extract.&lt;/p&gt;
@@ -407,49 +407,49 @@ The idea kicked off in November and I was over the moon with the response from t
     
     <item>
       <title>Upcoming R for Microsoft training days</title>
-      <link>http://lockedata.uk/itsalockeblog/upcoming-r-for-microsoft-training-days/</link>
+      <link>http://lockelife.com/blog/upcoming-r-for-microsoft-training-days/</link>
       <pubDate>Mon, 07 Mar 2016 09:55:13 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/upcoming-r-for-microsoft-training-days/</guid>
+      <guid>http://lockelife.com/blog/upcoming-r-for-microsoft-training-days/</guid>
       <description>In May, I will be delivering two R for Microsoft training days. These two days will focus on some R fundamentals and applying these fundamentals within the Microsoft Data Platform. These training days are ideal if you know one half of the components &amp;#8211; whether that&amp;#8217;s the R bit or the Microsoft BI bit. Either way, you&amp;#8217;ll learn about the other half.
 SQLBits SQLBits XV is being held in Liverpool this year and my training day is on May 4th.</description>
     </item>
     
     <item>
       <title>satRdays: final push</title>
-      <link>http://lockedata.uk/itsalockeblog/satrdays-final-push/</link>
+      <link>http://lockelife.com/blog/satrdays-final-push/</link>
       <pubDate>Wed, 06 Jan 2016 14:54:37 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/satrdays-final-push/</guid>
+      <guid>http://lockelife.com/blog/satrdays-final-push/</guid>
       <description>I talked back in November about the idea of an RSaturday, which were free community-driven conferences on R. Since then, we created a GitHub repository and started hammering out the details for satRdays. The current proposal consists of:
  A name: satRday A proposition: Free/cheap (&amp;lt;£30) conferences organised by user groups around the world. Attendees get more access to training in R, with a much lower cost-barrier. We develop more speakers on R.</description>
     </item>
     
     <item>
       <title>optiRum 0.37.3 now out</title>
-      <link>http://lockedata.uk/itsalockeblog/optirum-0.37.3-now-out/</link>
+      <link>http://lockelife.com/blog/optirum-0.37.3-now-out/</link>
       <pubDate>Mon, 04 Jan 2016 07:26:14 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/optirum-0.37.3-now-out/</guid>
+      <guid>http://lockelife.com/blog/optirum-0.37.3-now-out/</guid>
       <description>Just a quick heads up to announce the availability of optiRum 0.37.3 &amp;#8211; this takes into account the new version of ggplot2 and is backwards compatible.</description>
     </item>
     
     <item>
       <title>Auto-deploying documentation: Rtraining</title>
-      <link>http://lockedata.uk/itsalockeblog/auto-deploying-documentation-rtraining/</link>
+      <link>http://lockelife.com/blog/auto-deploying-documentation-rtraining/</link>
       <pubDate>Wed, 23 Dec 2015 10:25:48 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/auto-deploying-documentation-rtraining/</guid>
+      <guid>http://lockelife.com/blog/auto-deploying-documentation-rtraining/</guid>
       <description>In my last post on using GitHub, Travis-CI, and rmarkdown/knitr for automatically building and deploying documentation, I covered how I was able to do it with a containerised approach so things were faster. I also said my Rtraining repository was still too brittle to blog about. This has changed &amp;#8211; WOO HOO!
 The main thanks for that goes out to the new package ezknitr from Dean Attali. ezknitr takes the pain out of working directories, making my hierarchies much more resilient.</description>
     </item>
     
     <item>
       <title>Auto-deploying documentation: FASTER!</title>
-      <link>http://lockedata.uk/itsalockeblog/auto-deploying-documentation-faster/</link>
+      <link>http://lockelife.com/blog/auto-deploying-documentation-faster/</link>
       <pubDate>Fri, 13 Nov 2015 09:13:22 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/auto-deploying-documentation-faster/</guid>
+      <guid>http://lockelife.com/blog/auto-deploying-documentation-faster/</guid>
       <description>&lt;p&gt;Over the past few years I&amp;#8217;ve been delving deeper into automatically building and deploying documentation and reporting in R (with rmarkdown, LaTeX etc). This post covers another step forward on that journey towards awesomeness.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -457,10 +457,10 @@ The main thanks for that goes out to the new package ezknitr from Dean Attali. e
     
     <item>
       <title>optiRum 0.37.1 now out</title>
-      <link>http://lockedata.uk/itsalockeblog/optirum-0.37.1-now-out/</link>
+      <link>http://lockelife.com/blog/optirum-0.37.1-now-out/</link>
       <pubDate>Sat, 07 Nov 2015 19:26:10 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/optirum-0.37.1-now-out/</guid>
+      <guid>http://lockelife.com/blog/optirum-0.37.1-now-out/</guid>
       <description>&lt;p&gt;A while back, I &lt;a href=&#34;https://itsalocke.com/optirum-gini-like-a-wizard/&#34;&gt;wrote about how I was waiting&lt;/a&gt; to be able to release &lt;a href=&#34;https://github.com/stephlocke/optiRum&#34;&gt;optiRum&lt;/a&gt; to CRAN, well data.table 1.9.6 was released (a key dependency for new functionality) and I&amp;#8217;ve finally had some quiet time. So optiRum 1.37.1 is now accepted and trickling through the CRAN publish processes.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -468,10 +468,10 @@ The main thanks for that goes out to the new package ezknitr from Dean Attali. e
     
     <item>
       <title>SQLSaturdays but for R?</title>
-      <link>http://lockedata.uk/itsalockeblog/sqlsaturdays-but-for-r/</link>
+      <link>http://lockelife.com/blog/sqlsaturdays-but-for-r/</link>
       <pubDate>Wed, 04 Nov 2015 19:25:22 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/sqlsaturdays-but-for-r/</guid>
+      <guid>http://lockelife.com/blog/sqlsaturdays-but-for-r/</guid>
       <description>&lt;p&gt;&lt;strong&gt;UPDATE: Proposal now being developed after fantastic community support. Check out satRdays on &lt;a href=&#34;https://github.com/stephlocke/RSaturday-proposal&#34;&gt;GitHub&lt;/a&gt; and contribute your opinions!&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;I had a contact from a very nice chap in Dallas a month ago about whether in the R world we do anything like SQLSaturdays.&lt;/p&gt;
@@ -487,20 +487,20 @@ The main thanks for that goes out to the new package ezknitr from Dean Attali. e
     
     <item>
       <title>Some recent posts over on the Mango blog</title>
-      <link>http://lockedata.uk/itsalockeblog/some-recent-posts-over-on-the-mango-blog/</link>
+      <link>http://lockelife.com/blog/some-recent-posts-over-on-the-mango-blog/</link>
       <pubDate>Wed, 28 Oct 2015 17:10:32 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/some-recent-posts-over-on-the-mango-blog/</guid>
+      <guid>http://lockelife.com/blog/some-recent-posts-over-on-the-mango-blog/</guid>
       <description>Since August, I&amp;#8217;ve had the pleasure to work at Mango Solutions, a data science consultancy, as a Principal Consultant.
 In that time, I&amp;#8217;ve been to EARL London, SQL Relay, and SQL in the City, so conference season has been in full swing with more to come in the form EARL Boston next week. Surprisingly, I&amp;#8217;ve also found some time to help some customers out and write some blog posts over on the Mango site.</description>
     </item>
     
     <item>
       <title>R training day mk2 – @SQLSatMcr</title>
-      <link>http://lockedata.uk/itsalockeblog/r-training-day-mk2--sqlsatmcr/</link>
+      <link>http://lockelife.com/blog/r-training-day-mk2--sqlsatmcr/</link>
       <pubDate>Wed, 24 Jun 2015 08:35:09 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/r-training-day-mk2--sqlsatmcr/</guid>
+      <guid>http://lockelife.com/blog/r-training-day-mk2--sqlsatmcr/</guid>
       <description>&lt;p&gt;Back in April, for SQL Saturday Exeter I ran &lt;a href=&#34;https://itsalocke.com/sqlsaturday-exeter-2015/&#34;&gt;my first ever full day of training&lt;/a&gt;. Next month sees me taking my second tilt at it.&lt;/p&gt;
 
 &lt;p&gt;To sign up for my R training day, July 24th, in Manchester you can go to the pre-con homepage.&lt;/p&gt;
@@ -512,10 +512,10 @@ In that time, I&amp;#8217;ve been to EARL London, SQL Relay, and SQL in the City
     
     <item>
       <title>Custom LaTeX Beamer style templates for rmarkdown</title>
-      <link>http://lockedata.uk/itsalockeblog/custom-latex-beamer-style-templates-for-rmarkdown/</link>
+      <link>http://lockelife.com/blog/custom-latex-beamer-style-templates-for-rmarkdown/</link>
       <pubDate>Wed, 17 Jun 2015 12:34:22 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/custom-latex-beamer-style-templates-for-rmarkdown/</guid>
+      <guid>http://lockelife.com/blog/custom-latex-beamer-style-templates-for-rmarkdown/</guid>
       <description>&lt;p&gt;I&amp;#8217;ve been producing presentations via R using &lt;a href=&#34;http://rmarkdown.rstudio.com/&#34;&gt;rmarkdown&lt;/a&gt; and outputting to either ioslides or slidify. That was excellent, because I could provide a CSS that customised the look and feel (relatively) easily*.&lt;/p&gt;
 
 &lt;p&gt;However, when I wanted to produce a PDF version, I couldn&amp;#8217;t make ones that look as good as the pure LaTeX versions I could make on &lt;a href=&#34;http://overleaf.com&#34;&gt;overleaf.com&lt;/a&gt;. So I started RTFMing when I wanted to replicate the look and feel from my presentation, The LaTeX Show.&lt;/p&gt;
@@ -527,10 +527,10 @@ In that time, I&amp;#8217;ve been to EARL London, SQL Relay, and SQL in the City
     
     <item>
       <title>Auto-deploying documentation: multiple R vignettes</title>
-      <link>http://lockedata.uk/itsalockeblog/auto-deploying-documentation-multiple-r-vignettes/</link>
+      <link>http://lockelife.com/blog/auto-deploying-documentation-multiple-r-vignettes/</link>
       <pubDate>Fri, 05 Jun 2015 08:38:44 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/auto-deploying-documentation-multiple-r-vignettes/</guid>
+      <guid>http://lockelife.com/blog/auto-deploying-documentation-multiple-r-vignettes/</guid>
       <description>&lt;p&gt;Following on from my post about the principles behind using travis-ci to commit to a &lt;code&gt;gh-pages&lt;/code&gt; I wanted to follow-up with how I tackled my &amp;#8220;intermediate&amp;#8221; use case.&lt;/p&gt;
 
 &lt;hr /&gt;
@@ -565,10 +565,10 @@ In that time, I&amp;#8217;ve been to EARL London, SQL Relay, and SQL in the City
     
     <item>
       <title>optiRum – presentation</title>
-      <link>http://lockedata.uk/itsalockeblog/optirum--presentation/</link>
+      <link>http://lockelife.com/blog/optirum--presentation/</link>
       <pubDate>Wed, 03 Jun 2015 15:00:31 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/optirum--presentation/</guid>
+      <guid>http://lockelife.com/blog/optirum--presentation/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;&lt;a href=&#34;http://cran.r-project.org/web/packages/optiRum/&#34; title=&#34;optiRum on CRAN&#34; target=&#34;_blank&#34;&gt;optiRum&lt;/a&gt;, the R package I built and support for Optimum on CRAN has gained some extra functions recently. Some of it uses currently experimental data.table functionality so I&amp;#8217;m eagerly awaiting the release to CRAN to deliver optiRum.&lt;/p&gt;
 
@@ -582,10 +582,10 @@ In that time, I&amp;#8217;ve been to EARL London, SQL Relay, and SQL in the City
     
     <item>
       <title>Automated documentation hosting on github via Travis-CI</title>
-      <link>http://lockedata.uk/itsalockeblog/automated-documentation-hosting-on-github-via-travis-ci/</link>
+      <link>http://lockelife.com/blog/automated-documentation-hosting-on-github-via-travis-ci/</link>
       <pubDate>Mon, 01 Jun 2015 09:29:21 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/automated-documentation-hosting-on-github-via-travis-ci/</guid>
+      <guid>http://lockelife.com/blog/automated-documentation-hosting-on-github-via-travis-ci/</guid>
       <description>&lt;p&gt;In this post, I&amp;#8217;m going to cover how you can use continuous integration and source control to build and host documentation (or any other static HTML) for free, and in a way that updates every time your code changes. I&amp;#8217;ll cover the generic capability, and then how I apply this to my simplest package, tfsR. In a later post (once I&amp;#8217;ve cracked the best method to do it) I&amp;#8217;ll cover my more complex use case of multiple documents and a dynamically constructed index page.&lt;/p&gt;
 
 &lt;p&gt;NB: This is kicked off from a &lt;a href=&#34;http://rmflight.github.io/posts/2014/11/travis_ci_gh_pages.html&#34;&gt;post&lt;/a&gt; from Robert Flight about applying to the technique to R package vignettes. It&amp;#8217;s a very useful post but it was quite specific to his situation and I wanted to understand the principles behind it before I started extending it to my more complex cases.&lt;/p&gt;
@@ -636,10 +636,10 @@ In that time, I&amp;#8217;ve been to EARL London, SQL Relay, and SQL in the City
     
     <item>
       <title>SQL Saturday Exeter: Steph &amp; Oz’s slides</title>
-      <link>http://lockedata.uk/itsalockeblog/sql-saturday-exeter-steph--ozs-slides/</link>
+      <link>http://lockelife.com/blog/sql-saturday-exeter-steph--ozs-slides/</link>
       <pubDate>Sun, 26 Apr 2015 16:04:36 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/sql-saturday-exeter-steph--ozs-slides/</guid>
+      <guid>http://lockelife.com/blog/sql-saturday-exeter-steph--ozs-slides/</guid>
       <description>Well SQL Saturday Exeter flew by. T&amp;#8217;was great catching up with people, seeing folks learn how to use (old &amp;amp; new) tools better, and just generally watching everyone having a great time at one of the best organised conferences I have the pleasure of going to.
 Here are links to all the slide decks etc that we presented this weekend:
  My R: analysis to integration training day notes &amp;amp; source code My agile BI slide deck My Shiny: dashboards in R slide deck &amp;amp; source code Oz&amp;#8217;s SSRS: Beyond the basics slide deck &amp;amp; source code  If you attended any of our sessions, give us some constructive criticism!</description>
@@ -647,10 +647,10 @@ Here are links to all the slide decks etc that we presented this weekend:
     
     <item>
       <title>Easy Continuous Integration for R</title>
-      <link>http://lockedata.uk/itsalockeblog/easy-continuous-integration-for-r/</link>
+      <link>http://lockelife.com/blog/easy-continuous-integration-for-r/</link>
       <pubDate>Mon, 20 Apr 2015 09:06:36 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/easy-continuous-integration-for-r/</guid>
+      <guid>http://lockelife.com/blog/easy-continuous-integration-for-r/</guid>
       <description>&lt;p&gt;With &lt;a href=&#34;http://r-pkgs.had.co.nz/&#34;&gt;excellent guidance&lt;/a&gt; and &lt;a href=&#34;http://cran.r-project.org/web/packages/devtools/&#34;&gt;tooling&lt;/a&gt; on making R packages, it&amp;#8217;s becoming really easy to make a package to hold your R functionality. This has a host of benefits, not least source control (via GitHub) and unit testing (via the &lt;a href=&#34;http://cran.r-project.org/web/packages/testthat/&#34;&gt;&lt;code&gt;testthat&lt;/code&gt;&lt;/a&gt; package). Once you have a package and unit tests, a great way of making sure that as you change things you don&amp;#8217;t break them is to perform &lt;a href=&#34;http://www.thoughtworks.com/continuous-integration&#34;&gt;Continuous integration&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;What this means is that &lt;strong&gt;every&lt;/strong&gt; time you make a change, your package is built and thoroughly checked for any issues. If issues are found the &amp;#8220;build&amp;#8217;s broke&amp;#8221; and you have to fix it ASAP.&lt;/p&gt;
@@ -664,10 +664,10 @@ Here are links to all the slide decks etc that we presented this weekend:
     
     <item>
       <title>optiRum – gini like a wizard</title>
-      <link>http://lockedata.uk/itsalockeblog/optirum--gini-like-a-wizard/</link>
+      <link>http://lockelife.com/blog/optirum--gini-like-a-wizard/</link>
       <pubDate>Thu, 16 Apr 2015 10:22:38 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/optirum--gini-like-a-wizard/</guid>
+      <guid>http://lockelife.com/blog/optirum--gini-like-a-wizard/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;&lt;a href=&#34;http://cran.r-project.org/web/packages/optiRum/&#34; title=&#34;optiRum on CRAN&#34; target=&#34;_blank&#34;&gt;optiRum&lt;/a&gt;, the R package I built and maintain for Optimum on CRAN has gained some extra functions recently. Some of it uses currently experimental data.table functionality so I&amp;#8217;m eagerly awaiting the release to CRAN to deliver optiRum.&lt;/p&gt;
 
@@ -685,39 +685,39 @@ Here are links to all the slide decks etc that we presented this weekend:
     
     <item>
       <title>Stuff I read this week</title>
-      <link>http://lockedata.uk/itsalockeblog/stuff-i-read-this-week/</link>
+      <link>http://lockelife.com/blog/stuff-i-read-this-week/</link>
       <pubDate>Wed, 15 Apr 2015 08:20:34 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/stuff-i-read-this-week/</guid>
+      <guid>http://lockelife.com/blog/stuff-i-read-this-week/</guid>
       <description> Maker&amp;#8217;s Schedule, Manager&amp;#8217;s Schedule  Reality Check: Counseling for Developer Hero Worshippers Comments on Joining Microsoft Giving back for the future of open source SQLBits videos &amp;#8211; watched not read though What they don&amp;#8217;t tell you about public speaking Toxicity in Reddit Communities: a Journey to the Darkest Depths of the Interwebs Owner of a Credit Card Processor Is Setting a New Minimum Wage: $70,000 a Year Use Datazen for free if you have SQL Server Enterprise   </description>
     </item>
     
     <item>
       <title>An R data.table cookbook</title>
-      <link>http://lockedata.uk/itsalockeblog/an-r-data.table-cookbook/</link>
+      <link>http://lockelife.com/blog/an-r-data.table-cookbook/</link>
       <pubDate>Wed, 08 Apr 2015 11:47:08 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/an-r-data.table-cookbook/</guid>
+      <guid>http://lockelife.com/blog/an-r-data.table-cookbook/</guid>
       <description>For my precon on R at the end of the month I&amp;#8217;m working on the takeaway &amp;#8212; the handout. This&amp;#8217;ll be thing that makes the training day able to be put into practice immediately, and refills all those drink and sleep depleted neurons back up with R knowledge.
 One of the things is a simple data.table cookbook. If you&amp;#8217;re a data.table user, what other tasks do you think should be on there?</description>
     </item>
     
     <item>
       <title>Stuff I read this (bit more than a) week</title>
-      <link>http://lockedata.uk/itsalockeblog/stuff-i-read-this-bit-more-than-a-week/</link>
+      <link>http://lockelife.com/blog/stuff-i-read-this-bit-more-than-a-week/</link>
       <pubDate>Tue, 07 Apr 2015 08:24:38 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/stuff-i-read-this-bit-more-than-a-week/</guid>
+      <guid>http://lockelife.com/blog/stuff-i-read-this-bit-more-than-a-week/</guid>
       <description>It&amp;#8217;s been a wee while due to SQLBits disruptions and a crazy work schedule but here&amp;#8217;s some of what I&amp;#8217;ve been reading recently:
  Introverts, Extroverts, and the Complexities of Team Dynamics Azure Blob Storage introduction Kevin Kline: Advice to new bloggers Editing for people who love to write too much ProBlogger generally after KK&amp;#8217;s recommendation Why oil prices came down. and won&amp;#8217;t any more Test Driven Analysis Standardising function names in R Microservices at Netflix Microsoft closes acquisition of Revolution Analytics  </description>
     </item>
     
     <item>
       <title>Working with Azure Blob Storage, some notes</title>
-      <link>http://lockedata.uk/itsalockeblog/working-with-azure-blob-storage-some-notes/</link>
+      <link>http://lockelife.com/blog/working-with-azure-blob-storage-some-notes/</link>
       <pubDate>Mon, 06 Apr 2015 09:27:05 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/working-with-azure-blob-storage-some-notes/</guid>
+      <guid>http://lockelife.com/blog/working-with-azure-blob-storage-some-notes/</guid>
       <description>&lt;p&gt;I&amp;#8217;m working on building a snazzy &lt;a href=&#34;https://github.com/stephlocke/Rtraining/blob/master/inst/slidedecks/shiny/Dashboards.Rmd&#34; title=&#34;My shiny presentation&#34; target=&#34;_blank&#34;&gt;shiny&lt;/a&gt; app that a) drops the inputs/parameter values into &lt;a href=&#34;http://azure.microsoft.com/en-gb/documentation/articles/storage-introduction/&#34; title=&#34;Azure storage intro&#34; target=&#34;_blank&#34;&gt;blob storage&lt;/a&gt; and b) uses &lt;a href=&#34;http://azure.microsoft.com/en-gb/services/stream-analytics/&#34; title=&#34;Stream Analytics&#34; target=&#34;_blank&#34;&gt;Stream Analytics&lt;/a&gt; to query the values and present back what people are saying at the moment. This&amp;#8217;ll be a fab tool for &lt;a href=&#34;https://itsalocke.com/index.php/r-pre-con-sqlsat-exeter/&#34; title=&#34;My R Pre-Con: SQLSat Exeter&#34; target=&#34;_blank&#34;&gt;my pre-con next month&lt;/a&gt; if I can get it working in time!&lt;/p&gt;
 
 &lt;p&gt;Getting it working, does however mean utilising the &lt;a href=&#34;https://msdn.microsoft.com/en-us/library/azure/dd179355.aspx&#34; title=&#34;Storage API documentation&#34; target=&#34;_blank&#34;&gt;Azure Blob Storage API&lt;/a&gt; in R which I confess is much harder than expected, especially after the ease of using the Visual Studio Online API for &lt;a href=&#34;https://itsalocke.com/index.php/bride-of-frankenstein-tfs-r/&#34; title=&#34;Bride of Frankenstein: TFS + R&#34; target=&#34;_blank&#34;&gt;tfsR&lt;/a&gt;. To that end, I thought I&amp;#8217;d write-up some of my findings before I do a bigger write-up that illustrates how to do everything (in R).&lt;/p&gt;
@@ -729,20 +729,20 @@ One of the things is a simple data.table cookbook. If you&amp;#8217;re a data.ta
     
     <item>
       <title>DeployR – why Microsoft bought Revolution?</title>
-      <link>http://lockedata.uk/itsalockeblog/deployr--why-microsoft-bought-revolution/</link>
+      <link>http://lockelife.com/blog/deployr--why-microsoft-bought-revolution/</link>
       <pubDate>Mon, 23 Mar 2015 10:19:10 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/deployr--why-microsoft-bought-revolution/</guid>
+      <guid>http://lockelife.com/blog/deployr--why-microsoft-bought-revolution/</guid>
       <description>I&amp;#8217;ve been asked by a few people recently about why I don&amp;#8217;t use Azure Machine Learning (ML). I answer that I don&amp;#8217;t use it yet, and the reason being that at the moment the robust development life-cycle isn&amp;#8217;t in place around it. I think that will change &amp;#8211; one of the great reasons for the acquisition of Revolution Analytics (in my opinion) is their DeployR system.
 DeployR is essentially an R web service platform.</description>
     </item>
     
     <item>
       <title>Bride of Frankenstein: TFS &#43; R</title>
-      <link>http://lockedata.uk/itsalockeblog/bride-of-frankenstein-tfs---r/</link>
+      <link>http://lockelife.com/blog/bride-of-frankenstein-tfs---r/</link>
       <pubDate>Fri, 20 Mar 2015 10:44:35 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/bride-of-frankenstein-tfs---r/</guid>
+      <guid>http://lockelife.com/blog/bride-of-frankenstein-tfs---r/</guid>
       <description>&lt;p&gt;The unholy abomination of trying to use TFS as my central repository for my R code over the past year has been tough and you may or not be looking at the screen as if I&amp;#8217;m a crazy fool for even trying. Of course, now I have good news, because I&amp;#8217;ve broken the back of the main issue I had with TFS. The crucial link was being able to programatically create Git repositories within a single project for small projects.&lt;/p&gt;
 
 &lt;p&gt;Using the API, I&amp;#8217;ve been able to write an &lt;a title=&#34;tfsR&#34; href=&#34;https://github.com/stephlocke/tfsR&#34; target=&#34;_blank&#34;&gt;R package&lt;/a&gt; with functions that now save me at least 15 minutes of time and effort each time I want a new project. So I can happily holler &amp;#8220;IT&amp;#8217;S ALIVE!!&amp;#8221;&lt;/p&gt;
@@ -752,47 +752,47 @@ DeployR is essentially an R web service platform.</description>
     
     <item>
       <title>Stuff I read this week</title>
-      <link>http://lockedata.uk/itsalockeblog/stuff-i-read-this-week/</link>
+      <link>http://lockelife.com/blog/stuff-i-read-this-week/</link>
       <pubDate>Fri, 27 Feb 2015 13:01:49 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/stuff-i-read-this-week/</guid>
+      <guid>http://lockelife.com/blog/stuff-i-read-this-week/</guid>
       <description> The Unbearable Lightness of Tweeting  Hadley Wickham: Impact the world by being useful Academics should be made accountable for exaggerations in press releases about their own work Why Complex Decisions Inevitably Take Weeks Six sentence emails that get fast responses Average house prices: how expensive is your area? FCA Consumer Spotlight &amp;#8212; segmenting retail financial customers Making R Files Executable (under Windows) Shipping Culture Is Hurting Us   </description>
     </item>
     
     <item>
       <title>Stuff I read this week</title>
-      <link>http://lockedata.uk/itsalockeblog/stuff-i-read-this-week/</link>
+      <link>http://lockelife.com/blog/stuff-i-read-this-week/</link>
       <pubDate>Sun, 22 Feb 2015 12:08:49 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/stuff-i-read-this-week/</guid>
+      <guid>http://lockelife.com/blog/stuff-i-read-this-week/</guid>
       <description> ONS Style guide for writing about statistics  Your coding style can give you away Automated Tinder and the Eigenface R-help mailing list to use cage-fighting to resolve conflicts Application Containers For Cloud Computing Managing Test Data as a Database CI Component &amp;#8211; Part 1 Let the Hackers In: Experts Say Traps Better than Walls How to Write a Blog Post   </description>
     </item>
     
     <item>
       <title>Declutter a shiny report’s code</title>
-      <link>http://lockedata.uk/itsalockeblog/declutter-a-shiny-reports-code/</link>
+      <link>http://lockelife.com/blog/declutter-a-shiny-reports-code/</link>
       <pubDate>Wed, 18 Feb 2015 11:41:21 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/declutter-a-shiny-reports-code/</guid>
+      <guid>http://lockelife.com/blog/declutter-a-shiny-reports-code/</guid>
       <description>Shiny reports are awesome, but they sure do end up with many lines of code when adding lots of inputs and outputs. A ui.R file can rapidly exceed 50 lines of code and I prefer to keep things more compact. The best way I&amp;#8217;ve found of doing that in other languages and in R is to modularise my code &amp;#8211; break it down into independent chunks. Shiny already does this by having a server() and ui() section and allowing you to source other files.</description>
     </item>
     
     <item>
       <title>Stuff I read this week</title>
-      <link>http://lockedata.uk/itsalockeblog/stuff-i-read-this-week/</link>
+      <link>http://lockelife.com/blog/stuff-i-read-this-week/</link>
       <pubDate>Fri, 13 Feb 2015 15:45:58 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/stuff-i-read-this-week/</guid>
+      <guid>http://lockelife.com/blog/stuff-i-read-this-week/</guid>
       <description>Here&amp;#8217;s a selection of articles etc. that I found really interesting this week:
  Gendered Language in Teacher Reviews Knowledge units &amp;#8211; the atoms of statistical education SQLBits in The Register Paul Randal: Want to be mentored by me? Replacing Middle Management with APIs R in Business Intelligence The RHS assignment operator in R Ooh R Can Microsoft make R easy?  </description>
     </item>
     
     <item>
       <title>magrittr: cleaner program flow</title>
-      <link>http://lockedata.uk/itsalockeblog/magrittr-cleaner-program-flow/</link>
+      <link>http://lockelife.com/blog/magrittr-cleaner-program-flow/</link>
       <pubDate>Mon, 09 Feb 2015 11:51:23 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/magrittr-cleaner-program-flow/</guid>
+      <guid>http://lockelife.com/blog/magrittr-cleaner-program-flow/</guid>
       <description>&lt;p&gt;Last year I built a pretty sweet web service in R as part of the day job. However, not being well-versed in stuff like object-oriented programming, I did not do the best job of making the flow of my program particularly clear or robust. It wouldn&amp;#8217;t take multiple inputs properly and I found it to be tough to test. In spare moments, I took to cogitating how to improve things.&lt;/p&gt;
 
 &lt;p&gt;I tried simply refactoring some of the functions but found my structure too cumbersome to allow much change. I tried starting afresh with an &lt;a href=&#34;http://adv-r.had.co.nz/OO-essentials.html&#34; title=&#34;Advanced R - OO programming&#34; target=&#34;_blank&#34;&gt;S4 system&lt;/a&gt; but was soon in a death spiral of class proliferation and no experience in how to stop it. After dabbling with different methods, I was getting pretty frustrated &amp;#8211; I want my code to be better and more maintainable!&lt;/p&gt;
@@ -810,10 +810,10 @@ DeployR is essentially an R web service platform.</description>
     
     <item>
       <title>R on Windows – weird user name gotcha</title>
-      <link>http://lockedata.uk/itsalockeblog/r-on-windows--weird-user-name-gotcha/</link>
+      <link>http://lockelife.com/blog/r-on-windows--weird-user-name-gotcha/</link>
       <pubDate>Sat, 07 Feb 2015 18:40:09 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/r-on-windows--weird-user-name-gotcha/</guid>
+      <guid>http://lockelife.com/blog/r-on-windows--weird-user-name-gotcha/</guid>
       <description>&lt;p&gt;Oz and I being the lazy so and so&amp;#8217;s that we are, share a profile and use it across all our devices. Our username is &amp;#8220;Steph &amp;amp; Oz&amp;#8221; which means the user folder that Windows has for us is &lt;code&gt;C:UsersSteph &amp;amp; Oz&lt;/code&gt;. Having spaces and special characters is generally not recommended, and gives interesting issues when using R, primarily at initialization and when trying to do package installations.&lt;/p&gt;
 
 &lt;p&gt;By default, R will try make the user&amp;#8217;s personal folder the directory which it works under, i.e. limiting its impact on the computer overall, but it&amp;#8217;s Unix/Linux roots mean that it doesn&amp;#8217;t like you doing whacky things like ampersands in folder names.&lt;/p&gt;
@@ -830,10 +830,10 @@ DeployR is essentially an R web service platform.</description>
     
     <item>
       <title>My R Pre-Con: SQLSat Exeter</title>
-      <link>http://lockedata.uk/itsalockeblog/my-r-pre-con-sqlsat-exeter/</link>
+      <link>http://lockelife.com/blog/my-r-pre-con-sqlsat-exeter/</link>
       <pubDate>Sat, 24 Jan 2015 10:10:29 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/my-r-pre-con-sqlsat-exeter/</guid>
+      <guid>http://lockelife.com/blog/my-r-pre-con-sqlsat-exeter/</guid>
       <description>&lt;p&gt;As I covered in &lt;a href=&#34;https://itsalocke.com/index.php/sqlsaturday-exeter-2015/&#34; title=&#34;SQLSaturday Exeter 2015&#34; target=&#34;_blank&#34;&gt;my post on SQLSaturday Exeter&lt;/a&gt;, I&amp;#8217;m going to be doing a full day of R training on &lt;a href=&#34;http://sqlsatexeter.azurewebsites.net/?page_id=342&#34; title=&#34;SQLSaturday Exeter, Steph Locke Pre-con details&#34; target=&#34;_blank&#34;&gt;April 24th&lt;/a&gt; that takes you from cabin boy to first mate in a day. You can&amp;#8217;t be captain because I&amp;#8217;m Captain&amp;#8230; until you go back to your own ship&amp;#8230; &lt;em&gt;then&lt;/em&gt; you can be captain.&lt;/p&gt;
 
 &lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
@@ -847,10 +847,10 @@ DeployR is essentially an R web service platform.</description>
     
     <item>
       <title>SQLSaturday Exeter 2015</title>
-      <link>http://lockedata.uk/itsalockeblog/sqlsaturday-exeter-2015/</link>
+      <link>http://lockelife.com/blog/sqlsaturday-exeter-2015/</link>
       <pubDate>Mon, 19 Jan 2015 20:09:35 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/sqlsaturday-exeter-2015/</guid>
+      <guid>http://lockelife.com/blog/sqlsaturday-exeter-2015/</guid>
       <description>&lt;p&gt;Woohoo! The kind and crazy folks at &lt;a href=&#34;https://www.sqlsaturday.com/372/eventhome.aspx&#34; title=&#34;SQLSaturday Exeter 2015 homepage&#34; target=&#34;_blank&#34;&gt;SQLSaturday Exeter&lt;/a&gt; accepted my submitted training day for their roster. Before I wax lyrical on the virtues of being locked in a room with me all day, I thought I&amp;#8217;d better cover the fundamentals of the event itself!&lt;/p&gt;
 
 &lt;p&gt;First, the awesome video&amp;#8230;&lt;/p&gt;
@@ -860,10 +860,10 @@ DeployR is essentially an R web service platform.</description>
     
     <item>
       <title>Organised speaking – presentation design</title>
-      <link>http://lockedata.uk/itsalockeblog/organised-speaking--presentation-design/</link>
+      <link>http://lockelife.com/blog/organised-speaking--presentation-design/</link>
       <pubDate>Sun, 18 Jan 2015 10:52:45 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/organised-speaking--presentation-design/</guid>
+      <guid>http://lockelife.com/blog/organised-speaking--presentation-design/</guid>
       <description>&lt;p&gt;I wanted to outline my approach to presentation design, or development as I prefer to call it.&lt;/p&gt;
 
 &lt;p&gt;Why do I consider it development? Well, it&amp;#8217;s a product that can be manually done &amp;amp; delivered but with the potential to scale to thousands of users, I&amp;#8217;d rather the product be easy to maintain &amp;amp; deploy, deliver real value to the users, and keep up with cutting edge developments in the subject. Also, I call it development because now with the use of &lt;a href=&#34;http://rmarkdown.rstudio.com/&#34; title=&#34;Rmarkdown&#34; target=&#34;_blank&#34;&gt;rmarkdown&lt;/a&gt;, I do actually code my presentations.&lt;/p&gt;
@@ -889,10 +889,10 @@ DeployR is essentially an R web service platform.</description>
     
     <item>
       <title>Review: The first CaRdiff R User Group meeting</title>
-      <link>http://lockedata.uk/itsalockeblog/review-the-first-cardiff-r-user-group-meeting/</link>
+      <link>http://lockelife.com/blog/review-the-first-cardiff-r-user-group-meeting/</link>
       <pubDate>Wed, 14 Jan 2015 14:25:05 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/review-the-first-cardiff-r-user-group-meeting/</guid>
+      <guid>http://lockelife.com/blog/review-the-first-cardiff-r-user-group-meeting/</guid>
       <description>&lt;p&gt;Last night was the first &lt;a href=&#34;http://www.meetup.com/Cardiff-R-User-Group/&#34; title=&#34;CaRdiff R User Group&#34; target=&#34;_blank&#34;&gt;Cardiff R User Group&lt;/a&gt; event. There were 6 people registered out of 24 CaRdiffians. In the end we had 8 people show up &amp;#8211; so a whopping third of our current membership base.&lt;/p&gt;
 
 &lt;p&gt;As we sat around the booth eating chips and drinking beer, we covered our experiences learning R to date, the trials and tribulations of our jobs and why you shouldn&amp;#8217;t drop a barbell on your nose. We had great discussions and most of us came away with new R functionality to look at!&lt;/p&gt;
@@ -910,10 +910,10 @@ DeployR is essentially an R web service platform.</description>
     
     <item>
       <title>Conference sessions – basic web scraping in R</title>
-      <link>http://lockedata.uk/itsalockeblog/conference-sessions--basic-web-scraping-in-r/</link>
+      <link>http://lockelife.com/blog/conference-sessions--basic-web-scraping-in-r/</link>
       <pubDate>Sun, 11 Jan 2015 16:56:22 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/conference-sessions--basic-web-scraping-in-r/</guid>
+      <guid>http://lockelife.com/blog/conference-sessions--basic-web-scraping-in-r/</guid>
       <description>&lt;p&gt;It&amp;#8217;s a bit sad but I enjoy dissecting what sessions are submitted to conferences I&amp;#8217;m involved in or speak at. Instead of doing it primarily by eye, I&amp;#8217;ve started dabbling in web scraping in R to do it. Initially, I used RCurl and my latest snippet uses rvest.&lt;/p&gt;
 
 &lt;p&gt;The first snippet for &lt;a href=&#34;http://sqlbits.com&#34; title=&#34;SQLBits&#34; target=&#34;_blank&#34;&gt;SQLBits&lt;/a&gt; bit of R code uses &lt;a href=&#34;http://cran.r-project.org/web/packages/RCurl/&#34; title=&#34;RCurl on CRAN&#34; target=&#34;_blank&#34;&gt;RCurl&lt;/a&gt; but it&amp;#8217;s cumbersome, plus for &lt;a href=&#34;https://www.sqlsaturday.com/372/schedule.aspx&#34; title=&#34;SQLSaturday Exeter&#34; target=&#34;_blank&#34;&gt;SQLSaturday Exeter&lt;/a&gt; there is SSL to contend with. Using &lt;a href=&#34;http://cran.r-project.org/web/packages/rvest/&#34; title=&#34;rvest on CRAN&#34; target=&#34;_blank&#34;&gt;rvest&lt;/a&gt; makes it really easy and it was an excellent excuse to get around to using &lt;a href=&#34;http://cran.r-project.org/web/packages/magrittr/&#34; title=&#34;magrittr on CRAN&#34; target=&#34;_blank&#34;&gt;magrittr&lt;/a&gt;, Hadley Wickham&amp;#8217;s pipe code paradigm for R.&lt;/p&gt;
@@ -925,10 +925,10 @@ DeployR is essentially an R web service platform.</description>
     
     <item>
       <title>Starting the Cardiff R User Group</title>
-      <link>http://lockedata.uk/itsalockeblog/starting-the-cardiff-r-user-group/</link>
+      <link>http://lockelife.com/blog/starting-the-cardiff-r-user-group/</link>
       <pubDate>Fri, 09 Jan 2015 15:41:19 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/starting-the-cardiff-r-user-group/</guid>
+      <guid>http://lockelife.com/blog/starting-the-cardiff-r-user-group/</guid>
       <description>&lt;p&gt;These days any hobby of mine ends up with a user group if there isn&amp;#8217;t one already.&lt;/p&gt;
 
 &lt;p&gt;The amount of value I derive from being able to hear experts in their fields talk about whether they&amp;#8217;re on stage or in the audience is phenomenal. Also, it&amp;#8217;s really great way to meet like-minded people.&lt;/p&gt;
@@ -940,10 +940,10 @@ DeployR is essentially an R web service platform.</description>
     
     <item>
       <title>R for database and Excel people</title>
-      <link>http://lockedata.uk/itsalockeblog/r-for-database-and-excel-people/</link>
+      <link>http://lockelife.com/blog/r-for-database-and-excel-people/</link>
       <pubDate>Sun, 15 Sep 2013 18:00:27 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/r-for-database-and-excel-people/</guid>
+      <guid>http://lockelife.com/blog/r-for-database-and-excel-people/</guid>
       <description>&lt;h3 id=&#34;what-is-r&#34;&gt;What is R?&lt;/h3&gt;
 
 &lt;p&gt;R is a statistical language for doing all sorts of analytics based on many different types of data and it&amp;#8217;s also an open source platform that allows people to extend the base functionality.  &lt;a href=&#34;http://www.r-project.org/about.html&#34; target=&#34;_blank&#34;&gt;More details&lt;/a&gt; are available from the horse&amp;#8217;s mouth.&lt;/p&gt;

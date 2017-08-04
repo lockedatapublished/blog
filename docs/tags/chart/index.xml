@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Chart on Locke Data Blog</title>
-    <link>http://lockedata.uk/itsalockeblog/tags/chart/</link>
+    <link>http://lockelife.com/blog/tags/chart/</link>
     <description>Recent content in Chart on Locke Data Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
     <lastBuildDate>Sat, 25 May 2013 16:05:54 +0000</lastBuildDate>
     
-	<atom:link href="http://lockedata.uk/itsalockeblog/tags/chart/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://lockelife.com/blog/tags/chart/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Making charts with conditionally coloured series</title>
-      <link>http://lockedata.uk/itsalockeblog/making-charts-with-conditionally-coloured-series/</link>
+      <link>http://lockelife.com/blog/making-charts-with-conditionally-coloured-series/</link>
       <pubDate>Sat, 25 May 2013 16:05:54 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/making-charts-with-conditionally-coloured-series/</guid>
+      <guid>http://lockelife.com/blog/making-charts-with-conditionally-coloured-series/</guid>
       <description>The example I&amp;#8217;m running through is available at http://sdrv.ms/11lH3KR
 &amp;nbsp;
 The scenario we&amp;#8217;re looking at is where we want to be able to convey quality within a chart by having differently coloured columns, based on different conditions that we want to specify. Unfortunately, the ability to natively apply conditional formatting isn&amp;#8217;t yet present, but we can mimic it by overlaying series of the same size that are coloured differently.

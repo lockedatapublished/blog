@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Css on Locke Data Blog</title>
-    <link>http://lockedata.uk/itsalockeblog/tags/css/</link>
+    <link>http://lockelife.com/blog/tags/css/</link>
     <description>Recent content in Css on Locke Data Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
     <lastBuildDate>Thu, 27 Oct 2016 08:00:45 +0000</lastBuildDate>
     
-	<atom:link href="http://lockedata.uk/itsalockeblog/tags/css/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://lockelife.com/blog/tags/css/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>5 useful CSS sites</title>
-      <link>http://lockedata.uk/itsalockeblog/5-useful-css-sites/</link>
+      <link>http://lockelife.com/blog/5-useful-css-sites/</link>
       <pubDate>Thu, 27 Oct 2016 08:00:45 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/5-useful-css-sites/</guid>
+      <guid>http://lockelife.com/blog/5-useful-css-sites/</guid>
       <description>I&amp;#8217;ve been doing a lot of web development recently, primarily via the magical Hugo platform. Between it and the great themes for it, it&amp;#8217;s making website building fairly painless. Of course, each theme often needs customising to the relevant brand a given site is for. That customising is usually just one by some fonts and by tweaking the CSS.*
 I&amp;#8217;ve been relying on some old, and some very new, funky tools to help with CSS hacking and I thought I would share them, in case they should prove useful to you in the future.</description>
     </item>

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Professional Development on Locke Data Blog</title>
-    <link>http://lockedata.uk/itsalockeblog/tags/professional-development/</link>
+    <link>http://lockelife.com/blog/tags/professional-development/</link>
     <description>Recent content in Professional Development on Locke Data Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
     <lastBuildDate>Fri, 13 Jan 2017 15:28:32 +0000</lastBuildDate>
     
-	<atom:link href="http://lockedata.uk/itsalockeblog/tags/professional-development/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://lockelife.com/blog/tags/professional-development/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>CRISP-DM and why you should know about it</title>
-      <link>http://lockedata.uk/itsalockeblog/crisp-dm-and-why-you-should-know-about-it/</link>
+      <link>http://lockelife.com/blog/crisp-dm-and-why-you-should-know-about-it/</link>
       <pubDate>Fri, 13 Jan 2017 15:28:32 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/crisp-dm-and-why-you-should-know-about-it/</guid>
+      <guid>http://lockelife.com/blog/crisp-dm-and-why-you-should-know-about-it/</guid>
       <description>&lt;p&gt;The Cross Industry Standard Process for Data Mining (CRISP-DM) was a concept developed 20 years ago now. I&amp;#8217;ve read about it in various data mining and related books and it&amp;#8217;s come in very handy over the years. In this post, I&amp;#8217;ll outline what the model is and why you should know about it, even if it has that terribly out of vogue phrase data mining in it! 😉&lt;/p&gt;
 
 &lt;blockquote class=&#34;twitter-tweet&#34; data-width=&#34;525&#34;&gt;
@@ -35,10 +35,10 @@
     
     <item>
       <title>Going solo!</title>
-      <link>http://lockedata.uk/itsalockeblog/going-solo/</link>
+      <link>http://lockelife.com/blog/going-solo/</link>
       <pubDate>Wed, 04 Jan 2017 10:02:37 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/going-solo/</guid>
+      <guid>http://lockelife.com/blog/going-solo/</guid>
       <description>The year has started out on a high for me. I&amp;#8217;ve handed in my notice Censornet and I was re-awarded the Data Platform MVP award by Microsoft. I handed in my notice not to go to a new job but to fly solo!
 I&amp;#8217;m starting Locke Data in February to help people embed data science skills in their organisations.
 Business intelligence has been a thing long enough that there&amp;#8217;s a whole department of people dedicated to it and it generally isn&amp;#8217;t disruptive to other areas of the business and IT.</description>
@@ -46,10 +46,10 @@ Business intelligence has been a thing long enough that there&amp;#8217;s a whol
     
     <item>
       <title>Giving back with code</title>
-      <link>http://lockedata.uk/itsalockeblog/giving-back-with-code/</link>
+      <link>http://lockelife.com/blog/giving-back-with-code/</link>
       <pubDate>Wed, 20 Jul 2016 14:00:50 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/giving-back-with-code/</guid>
+      <guid>http://lockelife.com/blog/giving-back-with-code/</guid>
       <description>&lt;p&gt;From code in answers on Stack Overflow to R packages or full programs, there&amp;#8217;s a lot of code being written and given away. This post examines some of the reasons why the people writing all that code do it, why you should consider giving back with code, and how you can get started. Finally, I cap it all off with perspectives from some of my favourite coders!&lt;/p&gt;
 
 &lt;ul&gt;
@@ -91,20 +91,20 @@ Business intelligence has been a thing long enough that there&amp;#8217;s a whol
     
     <item>
       <title>Not an expert</title>
-      <link>http://lockedata.uk/itsalockeblog/not-an-expert/</link>
+      <link>http://lockelife.com/blog/not-an-expert/</link>
       <pubDate>Wed, 29 Jun 2016 08:19:39 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/not-an-expert/</guid>
+      <guid>http://lockelife.com/blog/not-an-expert/</guid>
       <description>I don&amp;#8217;t think of myself as an expert because an expert is someone with very deep knowledge of a comparatively narrow field.
 For better or worse, a lot of my sense of satisfaction with life derives from throwing myself into some enterprise that I don&amp;#8217;t have the people skills, the knowledge, and/or the resources for succeeding. I welcome the failures, the dead ends, the crises of faith, because if it wasn&amp;#8217;t hard it wouldn&amp;#8217;t be worth doing.</description>
     </item>
     
     <item>
       <title>SQLSaturdays but for R?</title>
-      <link>http://lockedata.uk/itsalockeblog/sqlsaturdays-but-for-r/</link>
+      <link>http://lockelife.com/blog/sqlsaturdays-but-for-r/</link>
       <pubDate>Wed, 04 Nov 2015 19:25:22 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/sqlsaturdays-but-for-r/</guid>
+      <guid>http://lockelife.com/blog/sqlsaturdays-but-for-r/</guid>
       <description>&lt;p&gt;&lt;strong&gt;UPDATE: Proposal now being developed after fantastic community support. Check out satRdays on &lt;a href=&#34;https://github.com/stephlocke/RSaturday-proposal&#34;&gt;GitHub&lt;/a&gt; and contribute your opinions!&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;I had a contact from a very nice chap in Dallas a month ago about whether in the R world we do anything like SQLSaturdays.&lt;/p&gt;
@@ -120,10 +120,10 @@ For better or worse, a lot of my sense of satisfaction with life derives from th
     
     <item>
       <title>SQL Relay is here!</title>
-      <link>http://lockedata.uk/itsalockeblog/sql-relay-is-here/</link>
+      <link>http://lockelife.com/blog/sql-relay-is-here/</link>
       <pubDate>Thu, 16 Jul 2015 09:30:59 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/sql-relay-is-here/</guid>
+      <guid>http://lockelife.com/blog/sql-relay-is-here/</guid>
       <description>SQL Relay is back on tour! Our 6th event sees us yet again touring the country bringing awesome speakers to eight cities over 2 weeks.
 As usual we&amp;#8217;re improving things:
  A new platform called Attendee.Events which allows easier registration &amp;amp; speaker submission A whole bunch of webinars planned to get in the swing of things More breadth &amp;#8211; this year each event includes a dedicated track to R, machine learning etc, on top of SQL Server and business intelligence More content &amp;#8211; instead of swapping out existing slots for breadth, we added more tracks A green initiative &amp;#8230; see it on the day Improved speaker experience &amp;#8211; we&amp;#8217;re building on last year&amp;#8217;s fun bus with the help of SQL Sentry to make it easier and more fun for speakers to do multiple events, as well as offering first timers some mentoring as most of the organisers are also speakers  You&amp;#8217;ll see a lot of announcements about Relay over the next few months, but I hope this little post inspires you to check out our events 😀</description>
@@ -131,10 +131,10 @@ As usual we&amp;#8217;re improving things:
     
     <item>
       <title>My (first) #SQLHangout</title>
-      <link>http://lockedata.uk/itsalockeblog/my-first-#sqlhangout/</link>
+      <link>http://lockelife.com/blog/my-first-#sqlhangout/</link>
       <pubDate>Thu, 04 Jun 2015 08:19:17 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/my-first-#sqlhangout/</guid>
+      <guid>http://lockelife.com/blog/my-first-#sqlhangout/</guid>
       <description>Yesterday I had the pleasure of hanging out &amp;#8220;on air&amp;#8221; with Boris Hristov.
 We talked open sourcing!
 You can download and/or contribute to the following projects I have going:
@@ -143,29 +143,29 @@ You can download and/or contribute to the following projects I have going:
     
     <item>
       <title>How many is too many conferences?</title>
-      <link>http://lockedata.uk/itsalockeblog/how-many-is-too-many-conferences/</link>
+      <link>http://lockelife.com/blog/how-many-is-too-many-conferences/</link>
       <pubDate>Mon, 25 May 2015 17:55:16 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/how-many-is-too-many-conferences/</guid>
+      <guid>http://lockelife.com/blog/how-many-is-too-many-conferences/</guid>
       <description>The SQL Server community has a lot of events. In the UK alone this year we will have/had in 2015:
  more than 75 user group meetings 5 SQL Saturdays 8 days of Relay 1 SQL in the City 3 to 5 days of SQLBits possibly a SQL Santa and probably more that I&amp;#8217;ve forgotten or not know about at the time of writing this  You could attend 2 days of conference per month (cpm from now on) on average in the UK alone, just at dedicated SQL events.</description>
     </item>
     
     <item>
       <title>Stuff I read this week</title>
-      <link>http://lockedata.uk/itsalockeblog/stuff-i-read-this-week/</link>
+      <link>http://lockelife.com/blog/stuff-i-read-this-week/</link>
       <pubDate>Wed, 15 Apr 2015 08:20:34 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/stuff-i-read-this-week/</guid>
+      <guid>http://lockelife.com/blog/stuff-i-read-this-week/</guid>
       <description> Maker&amp;#8217;s Schedule, Manager&amp;#8217;s Schedule  Reality Check: Counseling for Developer Hero Worshippers Comments on Joining Microsoft Giving back for the future of open source SQLBits videos &amp;#8211; watched not read though What they don&amp;#8217;t tell you about public speaking Toxicity in Reddit Communities: a Journey to the Darkest Depths of the Interwebs Owner of a Credit Card Processor Is Setting a New Minimum Wage: $70,000 a Year Use Datazen for free if you have SQL Server Enterprise   </description>
     </item>
     
     <item>
       <title>Overcoming social anxiety to attend user groups</title>
-      <link>http://lockedata.uk/itsalockeblog/overcoming-social-anxiety-to-attend-user-groups/</link>
+      <link>http://lockelife.com/blog/overcoming-social-anxiety-to-attend-user-groups/</link>
       <pubDate>Sat, 14 Mar 2015 14:13:17 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/overcoming-social-anxiety-to-attend-user-groups/</guid>
+      <guid>http://lockelife.com/blog/overcoming-social-anxiety-to-attend-user-groups/</guid>
       <description>&lt;p&gt;For some people it might sound silly, but a frequent reason why people don&amp;#8217;t sign up or don&amp;#8217;t make it to their local user group is to do with social anxiety. I totally understand this &amp;#8211; a room full of people you don&amp;#8217;t know can be a daunting experience. I still get nervous when attending a new user group for the first time and I run three user groups, and speak at user groups and conferences all round the country!&lt;/p&gt;
 
 &lt;p&gt;This post takes you through the worries, and explains how I&amp;#8217;ve approached some of the issues. Hopefully, this&amp;#8217;ll help you get more people in to your local user group and learning, whether it&amp;#8217;s because you have the tools to help yourself, or understand and can help others.&lt;/p&gt;
@@ -175,19 +175,19 @@ You can download and/or contribute to the following projects I have going:
     
     <item>
       <title>Stuff I read this week</title>
-      <link>http://lockedata.uk/itsalockeblog/stuff-i-read-this-week/</link>
+      <link>http://lockelife.com/blog/stuff-i-read-this-week/</link>
       <pubDate>Fri, 27 Feb 2015 13:01:49 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/stuff-i-read-this-week/</guid>
+      <guid>http://lockelife.com/blog/stuff-i-read-this-week/</guid>
       <description> The Unbearable Lightness of Tweeting  Hadley Wickham: Impact the world by being useful Academics should be made accountable for exaggerations in press releases about their own work Why Complex Decisions Inevitably Take Weeks Six sentence emails that get fast responses Average house prices: how expensive is your area? FCA Consumer Spotlight &amp;#8212; segmenting retail financial customers Making R Files Executable (under Windows) Shipping Culture Is Hurting Us   </description>
     </item>
     
     <item>
       <title>Where do I fit in the Microsoft future?</title>
-      <link>http://lockedata.uk/itsalockeblog/where-do-i-fit-in-the-microsoft-future/</link>
+      <link>http://lockelife.com/blog/where-do-i-fit-in-the-microsoft-future/</link>
       <pubDate>Tue, 24 Feb 2015 10:41:45 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/where-do-i-fit-in-the-microsoft-future/</guid>
+      <guid>http://lockelife.com/blog/where-do-i-fit-in-the-microsoft-future/</guid>
       <description>&lt;p&gt;Entering into the world of SQL Server around the same time as the 2008 release has meant that until the past couple of years, change in the Microsoft BI world only happened in dribs and drabs for me. SQL Server and it&amp;#8217;s BI components were stable server products and the focus was on getting data and optimising &amp;#8220;central reporting&amp;#8221;. Recently though things have started to massively change due to Azure and Office 365.&lt;/p&gt;
 
 &lt;p&gt;No longer part of Server &amp;amp; Tools where products were considered in silos, SQL Server and BI are now part of the &lt;a href=&#34;http://blogs.technet.com/b/server-cloud/archive/2015/01/30/increasing-visibility-for-our-customers-announcing-the-cloud-platform-roadmap-site.aspx&#34; title=&#34;Cloud Platform roadmap&#34; target=&#34;_blank&#34;&gt;Cloud Platform&lt;/a&gt;. It&amp;#8217;s now a means of delivering the &lt;a href=&#34;http://news.microsoft.com/ceo/bold-ambition/index.html&#34; title=&#34;Satya Nadella&#39;s vision email&#34; target=&#34;_blank&#34;&gt;Cloud-first vision&lt;/a&gt; that Microsoft have aligned themselves to.&lt;/p&gt;
@@ -197,20 +197,20 @@ You can download and/or contribute to the following projects I have going:
     
     <item>
       <title>Stuff I read this week</title>
-      <link>http://lockedata.uk/itsalockeblog/stuff-i-read-this-week/</link>
+      <link>http://lockelife.com/blog/stuff-i-read-this-week/</link>
       <pubDate>Fri, 13 Feb 2015 15:45:58 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/stuff-i-read-this-week/</guid>
+      <guid>http://lockelife.com/blog/stuff-i-read-this-week/</guid>
       <description>Here&amp;#8217;s a selection of articles etc. that I found really interesting this week:
  Gendered Language in Teacher Reviews Knowledge units &amp;#8211; the atoms of statistical education SQLBits in The Register Paul Randal: Want to be mentored by me? Replacing Middle Management with APIs R in Business Intelligence The RHS assignment operator in R Ooh R Can Microsoft make R easy?  </description>
     </item>
     
     <item>
       <title>Paul Randal offers mentoring</title>
-      <link>http://lockedata.uk/itsalockeblog/paul-randal-offers-mentoring/</link>
+      <link>http://lockelife.com/blog/paul-randal-offers-mentoring/</link>
       <pubDate>Fri, 06 Feb 2015 19:20:50 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/paul-randal-offers-mentoring/</guid>
+      <guid>http://lockelife.com/blog/paul-randal-offers-mentoring/</guid>
       <description>&lt;p&gt;Hot off the back of his win in the &lt;a href=&#34;https://www.simple-talk.com/blogs/2015/01/20/tribal-awards-2014-winners-announcement/&#34; title=&#34;Tribal Awards winners&#34; target=&#34;_blank&#34;&gt;Tribal Awards&lt;/a&gt;, Paul is &lt;a href=&#34;http://www.sqlskills.com/blogs/paul/want-mentored/&#34; title=&#34;Paul Randal - mentoring opportunity&#34; target=&#34;_blank&#34;&gt;offering to mentor&lt;/a&gt; 3 men &amp;amp; 3 women for two months. To be in with a chance of getting mentored by Paul, you simply need to apply by writing a blog post about why you should be considered for mentoring and posting the link by the 15th Feb 2015.&lt;/p&gt;
 
 &lt;p&gt;I think it&amp;#8217;s an awesome offer that you should take up if possible (i.e. you&amp;#8217;re reading before the deadline) and whilst I&amp;#8217;m busy trying to convince you I&amp;#8217;m going to insert my application too. Hopefully, seeing my application will help you form your own.&lt;/p&gt;

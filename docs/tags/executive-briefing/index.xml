@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Executive Briefing on Locke Data Blog</title>
-    <link>http://lockedata.uk/itsalockeblog/tags/executive-briefing/</link>
+    <link>http://lockelife.com/blog/tags/executive-briefing/</link>
     <description>Recent content in Executive Briefing on Locke Data Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
     <lastBuildDate>Wed, 07 Jun 2017 09:27:46 +0000</lastBuildDate>
     
-	<atom:link href="http://lockedata.uk/itsalockeblog/tags/executive-briefing/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://lockelife.com/blog/tags/executive-briefing/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>R and Data Science activities in London, June 27th – 29th</title>
-      <link>http://lockedata.uk/itsalockeblog/r-and-data-science-activities-in-london-june-27th--29th/</link>
+      <link>http://lockelife.com/blog/r-and-data-science-activities-in-london-june-27th--29th/</link>
       <pubDate>Wed, 07 Jun 2017 09:27:46 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/r-and-data-science-activities-in-london-june-27th--29th/</guid>
+      <guid>http://lockelife.com/blog/r-and-data-science-activities-in-london-june-27th--29th/</guid>
       <description>Locke Data will be up to some shenanigans of various stripes in the big smoke. We hope to see you at some of them!
 June 26th &amp;#8212; Monday Introduction to R (Newcastle) I won&amp;#8217;t be in London for this but I&amp;#8217;ll be doing a day of Introduction to R in Newcastle. This is supporting the local user groups and costs up to £90 for the whole day.Intro to R in Newcastle, June 26th</description>
     </item>

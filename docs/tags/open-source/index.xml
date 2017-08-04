@@ -2,69 +2,69 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Open Source on Locke Data Blog</title>
-    <link>http://lockedata.uk/itsalockeblog/tags/open-source/</link>
+    <link>http://lockelife.com/blog/tags/open-source/</link>
     <description>Recent content in Open Source on Locke Data Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
     <lastBuildDate>Tue, 02 May 2017 12:10:32 +0000</lastBuildDate>
     
-	<atom:link href="http://lockedata.uk/itsalockeblog/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://lockelife.com/blog/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>The making of datasauRus</title>
-      <link>http://lockedata.uk/itsalockeblog/the-making-of-datasaurus/</link>
+      <link>http://lockelife.com/blog/the-making-of-datasaurus/</link>
       <pubDate>Tue, 02 May 2017 12:10:32 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/the-making-of-datasaurus/</guid>
+      <guid>http://lockelife.com/blog/the-making-of-datasaurus/</guid>
       <description>Around 8:30pm I saw this tweet and duly retweeted
 https://t.co/WuyU9D6npK  &amp;mdash; Richie Cotton (@richierocks) May 1, 2017  It turns out awesome folks, George and Justin, had made a process whereby they can generate different distributions of points that retain the same summary statistics. They used this process for making some friends for Dino the Datasaurus who was created by Alberto Cairo. They made the data for Dino and the rest of the Datasaurus Dozen available for download.</description>
     </item>
     
     <item>
       <title>Talking Data and Docker</title>
-      <link>http://lockedata.uk/itsalockeblog/talking-data-and-docker/</link>
+      <link>http://lockelife.com/blog/talking-data-and-docker/</link>
       <pubDate>Wed, 08 Feb 2017 16:25:20 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/talking-data-and-docker/</guid>
+      <guid>http://lockelife.com/blog/talking-data-and-docker/</guid>
       <description>If you need to know about persisting data in the world of containers then I recently did a talk and a spot on a podcast that should help you out. My NDC London talk Data + Docker = Disconbobulating? cover the basics and architectural decisions. In my podcast spot Data and Docker on .Net Rocks we go into more depth about the architectural decisions facing you when working with data and Docker.</description>
     </item>
     
     <item>
       <title>I Love Azure Functions!</title>
-      <link>http://lockedata.uk/itsalockeblog/i-love-azure-functions/</link>
+      <link>http://lockelife.com/blog/i-love-azure-functions/</link>
       <pubDate>Thu, 01 Dec 2016 22:47:23 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/i-love-azure-functions/</guid>
+      <guid>http://lockelife.com/blog/i-love-azure-functions/</guid>
       <description>A while ago, I started my Stumbling Into series. I started but only got one in &amp;#8211; I was gonna talk about how I failed with Azure Functions next. I was failing because the docs outside C# (and node.js) were so limited that I found it difficult to get things done. However, I persevered and overcame a little bit of C#-ophobia and I can honestly say it has been so worth it.</description>
     </item>
     
     <item>
       <title>GirlswithDeepPockets.com</title>
-      <link>http://lockedata.uk/itsalockeblog/girlswithdeeppockets.com/</link>
+      <link>http://lockelife.com/blog/girlswithdeeppockets.com/</link>
       <pubDate>Fri, 28 Oct 2016 11:25:13 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/girlswithdeeppockets.com/</guid>
+      <guid>http://lockelife.com/blog/girlswithdeeppockets.com/</guid>
       <description>Ok, this post is about one of my latest crazy/harebrained/whacky ideas.
 I&amp;#8217;m fed up of having to carry my Galaxy Note 3 in my hand. I can&amp;#8217;t stand handbags and most women&amp;#8217;s clothing items don&amp;#8217;t have pockets or the pockets are insufficient. Given how easy it is to build a website these days, I thought I&amp;#8217;d become a sofa warrior for the campaign for pockets. I&amp;#8217;ve made a site and aim to make it an open &amp;amp; technical backend.</description>
     </item>
     
     <item>
       <title>Slack all the things!</title>
-      <link>http://lockedata.uk/itsalockeblog/slack-all-the-things/</link>
+      <link>http://lockelife.com/blog/slack-all-the-things/</link>
       <pubDate>Fri, 21 Oct 2016 14:59:50 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/slack-all-the-things/</guid>
+      <guid>http://lockelife.com/blog/slack-all-the-things/</guid>
       <description>Slack all the things! OK, if you haven&amp;#8217;t heard of it before Slack is kinda like IRC, kinda like Dropbox, kinda like a lot of things &amp;#8211; it&amp;#8217;s a neat place to bring together communications between your team or community, and the integrations allow you to pipe in external feeds like twitter activity or RSS. It&amp;#8217;s a great way of collaborating online and I&amp;#8217;ve found it especially useful not just within a company but within a global community.</description>
     </item>
     
     <item>
       <title>Giving back with code</title>
-      <link>http://lockedata.uk/itsalockeblog/giving-back-with-code/</link>
+      <link>http://lockelife.com/blog/giving-back-with-code/</link>
       <pubDate>Wed, 20 Jul 2016 14:00:50 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/giving-back-with-code/</guid>
+      <guid>http://lockelife.com/blog/giving-back-with-code/</guid>
       <description>&lt;p&gt;From code in answers on Stack Overflow to R packages or full programs, there&amp;#8217;s a lot of code being written and given away. This post examines some of the reasons why the people writing all that code do it, why you should consider giving back with code, and how you can get started. Finally, I cap it all off with perspectives from some of my favourite coders!&lt;/p&gt;
 
 &lt;ul&gt;
@@ -106,10 +106,10 @@ I&amp;#8217;m fed up of having to carry my Galaxy Note 3 in my hand. I can&amp;#
     
     <item>
       <title>Anchor Modelling: Sixth Normal Form databases</title>
-      <link>http://lockedata.uk/itsalockeblog/anchor-modelling-sixth-normal-form-databases/</link>
+      <link>http://lockelife.com/blog/anchor-modelling-sixth-normal-form-databases/</link>
       <pubDate>Thu, 31 Dec 2015 11:47:29 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/anchor-modelling-sixth-normal-form-databases/</guid>
+      <guid>http://lockelife.com/blog/anchor-modelling-sixth-normal-form-databases/</guid>
       <description>About Anchor Modelling Anchor Modelling moves you beyond third normal form and into sixth normal form. What does this mean?
  Not sure about the normal forms? See the normalization process in actions with this normalisation example
  Essentially it means that an attribute is stored independently against the key, not in a big table with other attributes. This means you can easily store metadata about that attribute and do full change tracking with ease.</description>
@@ -117,10 +117,10 @@ I&amp;#8217;m fed up of having to carry my Galaxy Note 3 in my hand. I can&amp;#
     
     <item>
       <title>R training day mk2 – @SQLSatMcr</title>
-      <link>http://lockedata.uk/itsalockeblog/r-training-day-mk2--sqlsatmcr/</link>
+      <link>http://lockelife.com/blog/r-training-day-mk2--sqlsatmcr/</link>
       <pubDate>Wed, 24 Jun 2015 08:35:09 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/r-training-day-mk2--sqlsatmcr/</guid>
+      <guid>http://lockelife.com/blog/r-training-day-mk2--sqlsatmcr/</guid>
       <description>&lt;p&gt;Back in April, for SQL Saturday Exeter I ran &lt;a href=&#34;https://itsalocke.com/sqlsaturday-exeter-2015/&#34;&gt;my first ever full day of training&lt;/a&gt;. Next month sees me taking my second tilt at it.&lt;/p&gt;
 
 &lt;p&gt;To sign up for my R training day, July 24th, in Manchester you can go to the pre-con homepage.&lt;/p&gt;
@@ -132,10 +132,10 @@ I&amp;#8217;m fed up of having to carry my Galaxy Note 3 in my hand. I can&amp;#
     
     <item>
       <title>My (first) #SQLHangout</title>
-      <link>http://lockedata.uk/itsalockeblog/my-first-#sqlhangout/</link>
+      <link>http://lockelife.com/blog/my-first-#sqlhangout/</link>
       <pubDate>Thu, 04 Jun 2015 08:19:17 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/my-first-#sqlhangout/</guid>
+      <guid>http://lockelife.com/blog/my-first-#sqlhangout/</guid>
       <description>Yesterday I had the pleasure of hanging out &amp;#8220;on air&amp;#8221; with Boris Hristov.
 We talked open sourcing!
 You can download and/or contribute to the following projects I have going:
@@ -144,10 +144,10 @@ You can download and/or contribute to the following projects I have going:
     
     <item>
       <title>Stuff I read this week</title>
-      <link>http://lockedata.uk/itsalockeblog/stuff-i-read-this-week/</link>
+      <link>http://lockelife.com/blog/stuff-i-read-this-week/</link>
       <pubDate>Fri, 27 Feb 2015 13:01:49 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/stuff-i-read-this-week/</guid>
+      <guid>http://lockelife.com/blog/stuff-i-read-this-week/</guid>
       <description> The Unbearable Lightness of Tweeting  Hadley Wickham: Impact the world by being useful Academics should be made accountable for exaggerations in press releases about their own work Why Complex Decisions Inevitably Take Weeks Six sentence emails that get fast responses Average house prices: how expensive is your area? FCA Consumer Spotlight &amp;#8212; segmenting retail financial customers Making R Files Executable (under Windows) Shipping Culture Is Hurting Us   </description>
     </item>
     

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Windows on Locke Data Blog</title>
-    <link>http://lockedata.uk/itsalockeblog/tags/windows/</link>
+    <link>http://lockelife.com/blog/tags/windows/</link>
     <description>Recent content in Windows on Locke Data Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
     <lastBuildDate>Wed, 03 May 2017 17:57:13 +0000</lastBuildDate>
     
-	<atom:link href="http://lockedata.uk/itsalockeblog/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://lockelife.com/blog/tags/windows/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Error installing latest R version (3.4.0) on Windows</title>
-      <link>http://lockedata.uk/itsalockeblog/error-installing-latest-r-version-3.4.0-on-windows/</link>
+      <link>http://lockelife.com/blog/error-installing-latest-r-version-3.4.0-on-windows/</link>
       <pubDate>Wed, 03 May 2017 17:57:13 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/error-installing-latest-r-version-3.4.0-on-windows/</guid>
+      <guid>http://lockelife.com/blog/error-installing-latest-r-version-3.4.0-on-windows/</guid>
       <description>UPDATE: R 3.4.1 does not have this problem so you can install that version instead
 If you&amp;#8217;re getting the following error when you&amp;#8217;ve installed R 3.4.0 on Windows, you&amp;#8217;re not alone.
  Error in if (file.exists(dest) &amp;amp;&amp;amp; file.mtime(dest) &amp;gt; file.mtime(lib) &amp;amp;&amp;amp; :
@@ -27,20 +27,20 @@ missing value where TRUE/FALSE needed
     
     <item>
       <title>Quick tip: knitr Python Windows setup checklist</title>
-      <link>http://lockedata.uk/itsalockeblog/quick-tip-knitr-python-windows-setup-checklist/</link>
+      <link>http://lockelife.com/blog/quick-tip-knitr-python-windows-setup-checklist/</link>
       <pubDate>Wed, 22 Feb 2017 16:01:15 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/quick-tip-knitr-python-windows-setup-checklist/</guid>
+      <guid>http://lockelife.com/blog/quick-tip-knitr-python-windows-setup-checklist/</guid>
       <description>One of the nifty things about using R is that you can use it for many different purposes and even other languages!
 If you want to use Python in your knitr docs or the newish RStudio R notebook functionality, you might encounter some fiddliness getting all the moving parts running on Windows. This is a quick knitr Python Windows setup checklist to make sure you don&amp;#8217;t miss any important steps.</description>
     </item>
     
     <item>
       <title>R on Windows – weird user name gotcha</title>
-      <link>http://lockedata.uk/itsalockeblog/r-on-windows--weird-user-name-gotcha/</link>
+      <link>http://lockelife.com/blog/r-on-windows--weird-user-name-gotcha/</link>
       <pubDate>Sat, 07 Feb 2015 18:40:09 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/r-on-windows--weird-user-name-gotcha/</guid>
+      <guid>http://lockelife.com/blog/r-on-windows--weird-user-name-gotcha/</guid>
       <description>&lt;p&gt;Oz and I being the lazy so and so&amp;#8217;s that we are, share a profile and use it across all our devices. Our username is &amp;#8220;Steph &amp;amp; Oz&amp;#8221; which means the user folder that Windows has for us is &lt;code&gt;C:UsersSteph &amp;amp; Oz&lt;/code&gt;. Having spaces and special characters is generally not recommended, and gives interesting issues when using R, primarily at initialization and when trying to do package installations.&lt;/p&gt;
 
 &lt;p&gt;By default, R will try make the user&amp;#8217;s personal folder the directory which it works under, i.e. limiting its impact on the computer overall, but it&amp;#8217;s Unix/Linux roots mean that it doesn&amp;#8217;t like you doing whacky things like ampersands in folder names.&lt;/p&gt;
@@ -57,10 +57,10 @@ If you want to use Python in your knitr docs or the newish RStudio R notebook fu
     
     <item>
       <title>Tired of right-clicking on folders and going to properties to get the folder size?</title>
-      <link>http://lockedata.uk/itsalockeblog/tired-of-right-clicking-on-folders-and-going-to-properties-to-get-the-folder-size/</link>
+      <link>http://lockelife.com/blog/tired-of-right-clicking-on-folders-and-going-to-properties-to-get-the-folder-size/</link>
       <pubDate>Sat, 07 Sep 2013 18:31:12 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/tired-of-right-clicking-on-folders-and-going-to-properties-to-get-the-folder-size/</guid>
+      <guid>http://lockelife.com/blog/tired-of-right-clicking-on-folders-and-going-to-properties-to-get-the-folder-size/</guid>
       <description>&lt;p class=&#34;wp-caption-dt&#34;&gt;
   It&amp;#8217;s a nightmare when I&amp;#8217;m trying to find out what&amp;#8217;s clogging up my hard drive, particularly now that I have an SSD and can no longer be quite so lazy and sprawling with myriad files and downloads.  This is the case even after moving most contents to Dropbox and putting this on my slow 1Tb harddrive. It can get really tiresome to be running out of space and having to trawl through, right-clicking on different folders.  It was boring but it was how you did it, well now I am enlightened, and now I don&amp;#8217;t have to pour my time down the drain.  
 &lt;/p&gt;

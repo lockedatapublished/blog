@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Editing on Locke Data Blog</title>
-    <link>http://lockedata.uk/itsalockeblog/tags/editing/</link>
+    <link>http://lockelife.com/blog/tags/editing/</link>
     <description>Recent content in Editing on Locke Data Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
     <lastBuildDate>Tue, 07 Apr 2015 08:24:38 +0000</lastBuildDate>
     
-	<atom:link href="http://lockedata.uk/itsalockeblog/tags/editing/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://lockelife.com/blog/tags/editing/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Stuff I read this (bit more than a) week</title>
-      <link>http://lockedata.uk/itsalockeblog/stuff-i-read-this-bit-more-than-a-week/</link>
+      <link>http://lockelife.com/blog/stuff-i-read-this-bit-more-than-a-week/</link>
       <pubDate>Tue, 07 Apr 2015 08:24:38 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/stuff-i-read-this-bit-more-than-a-week/</guid>
+      <guid>http://lockelife.com/blog/stuff-i-read-this-bit-more-than-a-week/</guid>
       <description>It&amp;#8217;s been a wee while due to SQLBits disruptions and a crazy work schedule but here&amp;#8217;s some of what I&amp;#8217;ve been reading recently:
  Introverts, Extroverts, and the Complexities of Team Dynamics Azure Blob Storage introduction Kevin Kline: Advice to new bloggers Editing for people who love to write too much ProBlogger generally after KK&amp;#8217;s recommendation Why oil prices came down. and won&amp;#8217;t any more Test Driven Analysis Standardising function names in R Microservices at Netflix Microsoft closes acquisition of Revolution Analytics  </description>
     </item>

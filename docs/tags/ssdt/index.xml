@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ssdt on Locke Data Blog</title>
-    <link>http://lockedata.uk/itsalockeblog/tags/ssdt/</link>
+    <link>http://lockelife.com/blog/tags/ssdt/</link>
     <description>Recent content in Ssdt on Locke Data Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
     <lastBuildDate>Mon, 10 Oct 2016 08:00:08 +0000</lastBuildDate>
     
-	<atom:link href="http://lockedata.uk/itsalockeblog/tags/ssdt/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://lockelife.com/blog/tags/ssdt/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Unit testing in SSDT – a quick intro</title>
-      <link>http://lockedata.uk/itsalockeblog/unit-testing-in-ssdt--a-quick-intro/</link>
+      <link>http://lockelife.com/blog/unit-testing-in-ssdt--a-quick-intro/</link>
       <pubDate>Mon, 10 Oct 2016 08:00:08 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/unit-testing-in-ssdt--a-quick-intro/</guid>
+      <guid>http://lockelife.com/blog/unit-testing-in-ssdt--a-quick-intro/</guid>
       <description>&lt;p&gt;This post will give you a quick run-through of adding tSQLt to an existing database project destined for Azure SQL DB. This basically covers unit testing in SSDT and there is a lot of excellent info out there, so this focuses on getting you through the initial setup as quickly as possible. This post most especially relies on the information &lt;a href=&#34;https://agilesql.club/&#34;&gt;Ed Elliot&lt;/a&gt; and &lt;a href=&#34;https://kzhendev.wordpress.com/&#34;&gt;Ken Ross&lt;/a&gt; have published, so do check them out for more info on this topic!&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>

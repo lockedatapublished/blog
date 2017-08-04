@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Shiny on Locke Data Blog</title>
-    <link>http://lockedata.uk/itsalockeblog/tags/shiny/</link>
+    <link>http://lockelife.com/blog/tags/shiny/</link>
     <description>Recent content in Shiny on Locke Data Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
     <lastBuildDate>Fri, 28 Apr 2017 10:27:55 +0000</lastBuildDate>
     
-	<atom:link href="http://lockedata.uk/itsalockeblog/tags/shiny/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://lockelife.com/blog/tags/shiny/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>R Quick Tip: Upload multiple files in shiny and consolidate into a dataset</title>
-      <link>http://lockedata.uk/itsalockeblog/r-quick-tip-upload-multiple-files-in-shiny-and-consolidate-into-a-dataset/</link>
+      <link>http://lockelife.com/blog/r-quick-tip-upload-multiple-files-in-shiny-and-consolidate-into-a-dataset/</link>
       <pubDate>Fri, 28 Apr 2017 10:27:55 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/r-quick-tip-upload-multiple-files-in-shiny-and-consolidate-into-a-dataset/</guid>
+      <guid>http://lockelife.com/blog/r-quick-tip-upload-multiple-files-in-shiny-and-consolidate-into-a-dataset/</guid>
       <description>In shiny, you can use the fileInput with the parameter multiple = TRUE to enable you to upload multiple files at once. But how do you process those multiple files in shiny and consolidate into a single dataset?
 The bit we need from shiny is the input$param$fileinputpath value.
 We can use lapply() with data.table&amp;#8216;s fread() to read multiple CSVs from the fileInput(). Then to consolidate the data, we can use data.</description>
@@ -25,10 +25,10 @@ We can use lapply() with data.table&amp;#8216;s fread() to read multiple CSVs fr
     
     <item>
       <title>Shiny module design patterns: Pass module inputs to other modules</title>
-      <link>http://lockedata.uk/itsalockeblog/shiny-module-design-patterns-pass-module-inputs-to-other-modules/</link>
+      <link>http://lockelife.com/blog/shiny-module-design-patterns-pass-module-inputs-to-other-modules/</link>
       <pubDate>Tue, 19 Apr 2016 10:15:19 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/shiny-module-design-patterns-pass-module-inputs-to-other-modules/</guid>
+      <guid>http://lockelife.com/blog/shiny-module-design-patterns-pass-module-inputs-to-other-modules/</guid>
       <description>&lt;p&gt;Continuing in the series of &lt;a href=&#34;https://itsalocke.com/tag/shiny-design-patterns/&#34;&gt;shiny module design patterns&lt;/a&gt;, this post covers how to pass all the inputs from one module to another.&lt;/p&gt;
 
 &lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
@@ -40,10 +40,10 @@ We can use lapply() with data.table&amp;#8216;s fread() to read multiple CSVs fr
     
     <item>
       <title>Shiny module design patterns: Pass module input to other modules</title>
-      <link>http://lockedata.uk/itsalockeblog/shiny-module-design-patterns-pass-module-input-to-other-modules/</link>
+      <link>http://lockelife.com/blog/shiny-module-design-patterns-pass-module-input-to-other-modules/</link>
       <pubDate>Thu, 14 Apr 2016 12:05:55 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/shiny-module-design-patterns-pass-module-input-to-other-modules/</guid>
+      <guid>http://lockelife.com/blog/shiny-module-design-patterns-pass-module-input-to-other-modules/</guid>
       <description>&lt;p&gt;Following on from looking at the &lt;a href=&#34;https://itsalocke.com/shiny-module-design-pattern-pass-inputs-one-module-another/&#34;&gt;shiny modules design pattern of passing an input value to many modules&lt;/a&gt;, I&amp;#8217;m now going to look at a more complex shiny module design pattern: passing an input from one module to another.&lt;/p&gt;
 
 &lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
@@ -55,10 +55,10 @@ We can use lapply() with data.table&amp;#8216;s fread() to read multiple CSVs fr
     
     <item>
       <title>Shiny module design patterns: Pass a single input to multiple modules</title>
-      <link>http://lockedata.uk/itsalockeblog/shiny-module-design-patterns-pass-a-single-input-to-multiple-modules/</link>
+      <link>http://lockelife.com/blog/shiny-module-design-patterns-pass-a-single-input-to-multiple-modules/</link>
       <pubDate>Fri, 08 Apr 2016 10:56:32 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/shiny-module-design-patterns-pass-a-single-input-to-multiple-modules/</guid>
+      <guid>http://lockelife.com/blog/shiny-module-design-patterns-pass-a-single-input-to-multiple-modules/</guid>
       <description>&lt;p&gt;For the awesome &lt;a href=&#34;https://www.eventbrite.com/e/shiny-developer-conference-registration-19153967031&#34;&gt;Shiny Developers Conference&lt;/a&gt; back in January, I endeavoured to learn about shiny modules and &lt;a href=&#34;https://itsalocke.com/declutter-a-shiny-reports-code-v2-0/&#34;&gt;overhaul an application&lt;/a&gt; using them in the space of two days. I succeeded and almost immediately switched onto other projects, thereby losing most of the hard-won knowledge! As I rediscover shiny modules and start putting them into more active use, I&amp;#8217;ll be blogging about design patterns. This post takes you through the case of multiple modules receiving the same input value.&lt;/p&gt;
 
 &lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
@@ -70,10 +70,10 @@ We can use lapply() with data.table&amp;#8216;s fread() to read multiple CSVs fr
     
     <item>
       <title>Declutter a shiny report’s code v2.0</title>
-      <link>http://lockedata.uk/itsalockeblog/declutter-a-shiny-reports-code-v2.0/</link>
+      <link>http://lockelife.com/blog/declutter-a-shiny-reports-code-v2.0/</link>
       <pubDate>Thu, 03 Mar 2016 13:40:34 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/declutter-a-shiny-reports-code-v2.0/</guid>
+      <guid>http://lockelife.com/blog/declutter-a-shiny-reports-code-v2.0/</guid>
       <description>I wrote a year ago on a way to declutter shiny report code which involved putting objects into a sourced file, however, at that point in time the solution was a bit brittle and clunky. Now there&amp;#8217;s a better way to develop shiny applications &amp;#8211; shiny modules.
 In October, RStudio introduced the concept of modules which involves abstracting code out into self-contained blocks.
 Modules are ways of batching your code into discrete chunks &amp;#8211; you keep all the code related to the inputs, manipulation, and presentation for doing something in one module.</description>
@@ -81,10 +81,10 @@ Modules are ways of batching your code into discrete chunks &amp;#8211; you keep
     
     <item>
       <title>SQL Saturday Exeter: Steph &amp; Oz’s slides</title>
-      <link>http://lockedata.uk/itsalockeblog/sql-saturday-exeter-steph--ozs-slides/</link>
+      <link>http://lockelife.com/blog/sql-saturday-exeter-steph--ozs-slides/</link>
       <pubDate>Sun, 26 Apr 2015 16:04:36 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/sql-saturday-exeter-steph--ozs-slides/</guid>
+      <guid>http://lockelife.com/blog/sql-saturday-exeter-steph--ozs-slides/</guid>
       <description>Well SQL Saturday Exeter flew by. T&amp;#8217;was great catching up with people, seeing folks learn how to use (old &amp;amp; new) tools better, and just generally watching everyone having a great time at one of the best organised conferences I have the pleasure of going to.
 Here are links to all the slide decks etc that we presented this weekend:
  My R: analysis to integration training day notes &amp;amp; source code My agile BI slide deck My Shiny: dashboards in R slide deck &amp;amp; source code Oz&amp;#8217;s SSRS: Beyond the basics slide deck &amp;amp; source code  If you attended any of our sessions, give us some constructive criticism!</description>
@@ -92,20 +92,20 @@ Here are links to all the slide decks etc that we presented this weekend:
     
     <item>
       <title>Organised speaking – improving font sizes</title>
-      <link>http://lockedata.uk/itsalockeblog/organised-speaking--improving-font-sizes/</link>
+      <link>http://lockelife.com/blog/organised-speaking--improving-font-sizes/</link>
       <pubDate>Mon, 13 Apr 2015 12:24:14 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/organised-speaking--improving-font-sizes/</guid>
+      <guid>http://lockelife.com/blog/organised-speaking--improving-font-sizes/</guid>
       <description>A recurring problem with my presentations is font size.
  The inclusion of code in my Rmarkdown slides was by default too small. Upping the fontsize via CSS worked ok, but when I switched to a shiny app version for my intro to shiny, it reverted and I&amp;#8217;m afraid to say I didn&amp;#8217;t notice beforehand. I use PuTTY for showing how to do some stuff in the linux command line but the font&amp;#8217;s quite small by default and Gail Shaw&amp;#8217;s tip of Magnifier in my session was tough to use I&amp;#8217;ve upped my font size on my Rstudio IDE, but hadn&amp;#8217;t yet implemented this across other IDEs I tend to use my mouse cursor to draw attention to things.</description>
     </item>
     
     <item>
       <title>Declutter a shiny report’s code</title>
-      <link>http://lockedata.uk/itsalockeblog/declutter-a-shiny-reports-code/</link>
+      <link>http://lockelife.com/blog/declutter-a-shiny-reports-code/</link>
       <pubDate>Wed, 18 Feb 2015 11:41:21 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/declutter-a-shiny-reports-code/</guid>
+      <guid>http://lockelife.com/blog/declutter-a-shiny-reports-code/</guid>
       <description>Shiny reports are awesome, but they sure do end up with many lines of code when adding lots of inputs and outputs. A ui.R file can rapidly exceed 50 lines of code and I prefer to keep things more compact. The best way I&amp;#8217;ve found of doing that in other languages and in R is to modularise my code &amp;#8211; break it down into independent chunks. Shiny already does this by having a server() and ui() section and allowing you to source other files.</description>
     </item>
     

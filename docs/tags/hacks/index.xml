@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hacks on Locke Data Blog</title>
-    <link>http://lockedata.uk/itsalockeblog/tags/hacks/</link>
+    <link>http://lockelife.com/blog/tags/hacks/</link>
     <description>Recent content in Hacks on Locke Data Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
     <lastBuildDate>Wed, 17 Jun 2015 12:34:22 +0000</lastBuildDate>
     
-	<atom:link href="http://lockedata.uk/itsalockeblog/tags/hacks/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://lockelife.com/blog/tags/hacks/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Custom LaTeX Beamer style templates for rmarkdown</title>
-      <link>http://lockedata.uk/itsalockeblog/custom-latex-beamer-style-templates-for-rmarkdown/</link>
+      <link>http://lockelife.com/blog/custom-latex-beamer-style-templates-for-rmarkdown/</link>
       <pubDate>Wed, 17 Jun 2015 12:34:22 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/custom-latex-beamer-style-templates-for-rmarkdown/</guid>
+      <guid>http://lockelife.com/blog/custom-latex-beamer-style-templates-for-rmarkdown/</guid>
       <description>&lt;p&gt;I&amp;#8217;ve been producing presentations via R using &lt;a href=&#34;http://rmarkdown.rstudio.com/&#34;&gt;rmarkdown&lt;/a&gt; and outputting to either ioslides or slidify. That was excellent, because I could provide a CSS that customised the look and feel (relatively) easily*.&lt;/p&gt;
 
 &lt;p&gt;However, when I wanted to produce a PDF version, I couldn&amp;#8217;t make ones that look as good as the pure LaTeX versions I could make on &lt;a href=&#34;http://overleaf.com&#34;&gt;overleaf.com&lt;/a&gt;. So I started RTFMing when I wanted to replicate the look and feel from my presentation, The LaTeX Show.&lt;/p&gt;
@@ -29,10 +29,10 @@
     
     <item>
       <title>Photoshop image macro (or something even better!)</title>
-      <link>http://lockedata.uk/itsalockeblog/photoshop-image-macro-or-something-even-better/</link>
+      <link>http://lockelife.com/blog/photoshop-image-macro-or-something-even-better/</link>
       <pubDate>Tue, 13 Jan 2015 10:59:21 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/photoshop-image-macro-or-something-even-better/</guid>
+      <guid>http://lockelife.com/blog/photoshop-image-macro-or-something-even-better/</guid>
       <description>&lt;p&gt;I spend &lt;em&gt;a lot&lt;/em&gt; of time in Photoshop for someone in BI. Between cleaning up images, building logos for my latest project, or producing material for user groups, I probably use it at least once a week. Through it all, I usually need to produce variants, in different file formats and sizes. So it can quickly become a dozen uses of the Save As&amp;#8230; or Save for Web functions.&lt;/p&gt;
 
 &lt;p&gt;I hate manual work, so you can see why it was frustrating in the extreme. Then I realised how silly I was being by not having already googled for it!&lt;/p&gt;
@@ -44,10 +44,10 @@
     
     <item>
       <title>Aggregate on a Lookup in SSRS</title>
-      <link>http://lockedata.uk/itsalockeblog/aggregate-on-a-lookup-in-ssrs/</link>
+      <link>http://lockelife.com/blog/aggregate-on-a-lookup-in-ssrs/</link>
       <pubDate>Sun, 23 Nov 2014 12:59:13 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/aggregate-on-a-lookup-in-ssrs/</guid>
+      <guid>http://lockelife.com/blog/aggregate-on-a-lookup-in-ssrs/</guid>
       <description>&lt;h2 id=&#34;the-what&#34;&gt;The What&lt;/h2&gt;
 
 &lt;p&gt;If you need to join multiple datasets inside SSRS, perhaps because of different sources, grains of detail etc, then you often need to aggregate over both datasets.&lt;/p&gt;

@@ -2,41 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Satrday on Locke Data Blog</title>
-    <link>http://lockedata.uk/itsalockeblog/tags/satrday/</link>
+    <link>http://lockelife.com/blog/tags/satrday/</link>
     <description>Recent content in Satrday on Locke Data Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
     <lastBuildDate>Fri, 21 Oct 2016 14:59:50 +0000</lastBuildDate>
     
-	<atom:link href="http://lockedata.uk/itsalockeblog/tags/satrday/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://lockelife.com/blog/tags/satrday/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Slack all the things!</title>
-      <link>http://lockedata.uk/itsalockeblog/slack-all-the-things/</link>
+      <link>http://lockelife.com/blog/slack-all-the-things/</link>
       <pubDate>Fri, 21 Oct 2016 14:59:50 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/slack-all-the-things/</guid>
+      <guid>http://lockelife.com/blog/slack-all-the-things/</guid>
       <description>Slack all the things! OK, if you haven&amp;#8217;t heard of it before Slack is kinda like IRC, kinda like Dropbox, kinda like a lot of things &amp;#8211; it&amp;#8217;s a neat place to bring together communications between your team or community, and the integrations allow you to pipe in external feeds like twitter activity or RSS. It&amp;#8217;s a great way of collaborating online and I&amp;#8217;ve found it especially useful not just within a company but within a global community.</description>
     </item>
     
     <item>
       <title>Sponsoring community events (SCE)</title>
-      <link>http://lockedata.uk/itsalockeblog/sponsoring-community-events-sce/</link>
+      <link>http://lockelife.com/blog/sponsoring-community-events-sce/</link>
       <pubDate>Mon, 01 Aug 2016 09:00:10 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/sponsoring-community-events-sce/</guid>
+      <guid>http://lockelife.com/blog/sponsoring-community-events-sce/</guid>
       <description>Sponsoring community events &amp;#8211; is it right for you? This series of posts will take you through the things you need to know to help you decide.
 Over the coming weeks, this new series will go through the in&amp;#8217;s and out&amp;#8217;s of sponsoring community events. Community events are fantastic from an attendee perspective, but when you&amp;#8217;re handing over cash you need to know what you&amp;#8217;re letting yourself in for and how you get return on investment (ROI).</description>
     </item>
     
     <item>
       <title>#satRdays voting closes May 31st</title>
-      <link>http://lockedata.uk/itsalockeblog/#satrdays-voting-closes-may-31st/</link>
+      <link>http://lockelife.com/blog/#satrdays-voting-closes-may-31st/</link>
       <pubDate>Fri, 27 May 2016 12:00:56 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/#satrdays-voting-closes-may-31st/</guid>
+      <guid>http://lockelife.com/blog/#satrdays-voting-closes-may-31st/</guid>
       <description>Voting for 2 of the 3 locations for satRday conferences will be closing at the end of May 31st (GMT). It&amp;#8217;s been a phenomenal turnout with more than 1,500 votes so far.
 You can still vote if you haven&amp;#8217;t already!
 EU status Budapest, Hungary, is where Gergely will be throwing the EU event and it&amp;#8217;s tentatively set for September.
@@ -45,40 +45,40 @@ US status Chicago started out with a close runner of Washington DC, but that all
     
     <item>
       <title>satRday location voting now open</title>
-      <link>http://lockedata.uk/itsalockeblog/satrday-location-voting-now-open/</link>
+      <link>http://lockelife.com/blog/satrday-location-voting-now-open/</link>
       <pubDate>Wed, 11 May 2016 15:45:44 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/satrday-location-voting-now-open/</guid>
+      <guid>http://lockelife.com/blog/satrday-location-voting-now-open/</guid>
       <description>satRdays, free R conferences, are a project being supported by the R Consortium. When Gergely and I submitted our proposal, we said we&amp;#8217;d be supporting three conferences:
  Budapest, Hungary (Gergely&amp;#8217;s home turf) Somewhere in the US Somewhere else in the world  We&amp;#8217;ve had an overwhelming response with 40 submitted conferences but for the fully-funded ones, there can only be three. We are looking at how the runners up can do the next wave of events but we want to get the ball rolling on the first three.</description>
     </item>
     
     <item>
       <title>satRdays are go!</title>
-      <link>http://lockedata.uk/itsalockeblog/satrdays-are-go/</link>
+      <link>http://lockelife.com/blog/satrdays-are-go/</link>
       <pubDate>Wed, 23 Mar 2016 13:52:16 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/satrdays-are-go/</guid>
+      <guid>http://lockelife.com/blog/satrdays-are-go/</guid>
       <description>I&amp;#8217;m very pleased to say that the R Consortium agreed to the support the satRday project!
 The idea kicked off in November and I was over the moon with the response from the community, then we garnered support before submitting to the Consortium and I must have looped the moon a few times as we had more than 500 responses. Now the R Consortium are supporting us and we can turn all that enthusiasm into action.</description>
     </item>
     
     <item>
       <title>satRdays: final push</title>
-      <link>http://lockedata.uk/itsalockeblog/satrdays-final-push/</link>
+      <link>http://lockelife.com/blog/satrdays-final-push/</link>
       <pubDate>Wed, 06 Jan 2016 14:54:37 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/satrdays-final-push/</guid>
+      <guid>http://lockelife.com/blog/satrdays-final-push/</guid>
       <description>I talked back in November about the idea of an RSaturday, which were free community-driven conferences on R. Since then, we created a GitHub repository and started hammering out the details for satRdays. The current proposal consists of:
  A name: satRday A proposition: Free/cheap (&amp;lt;£30) conferences organised by user groups around the world. Attendees get more access to training in R, with a much lower cost-barrier. We develop more speakers on R.</description>
     </item>
     
     <item>
       <title>SQLSaturdays but for R?</title>
-      <link>http://lockedata.uk/itsalockeblog/sqlsaturdays-but-for-r/</link>
+      <link>http://lockelife.com/blog/sqlsaturdays-but-for-r/</link>
       <pubDate>Wed, 04 Nov 2015 19:25:22 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/sqlsaturdays-but-for-r/</guid>
+      <guid>http://lockelife.com/blog/sqlsaturdays-but-for-r/</guid>
       <description>&lt;p&gt;&lt;strong&gt;UPDATE: Proposal now being developed after fantastic community support. Check out satRdays on &lt;a href=&#34;https://github.com/stephlocke/RSaturday-proposal&#34;&gt;GitHub&lt;/a&gt; and contribute your opinions!&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;I had a contact from a very nice chap in Dallas a month ago about whether in the R world we do anything like SQLSaturdays.&lt;/p&gt;

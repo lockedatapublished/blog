@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dlm on Locke Data Blog</title>
-    <link>http://lockedata.uk/itsalockeblog/tags/dlm/</link>
+    <link>http://lockelife.com/blog/tags/dlm/</link>
     <description>Recent content in Dlm on Locke Data Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
     <lastBuildDate>Fri, 16 Oct 2015 20:27:03 +0000</lastBuildDate>
     
-	<atom:link href="http://lockedata.uk/itsalockeblog/tags/dlm/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://lockelife.com/blog/tags/dlm/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>DataOps – it’s a thing (honest)</title>
-      <link>http://lockedata.uk/itsalockeblog/dataops--its-a-thing-honest/</link>
+      <link>http://lockelife.com/blog/dataops--its-a-thing-honest/</link>
       <pubDate>Fri, 16 Oct 2015 20:27:03 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/dataops--its-a-thing-honest/</guid>
+      <guid>http://lockelife.com/blog/dataops--its-a-thing-honest/</guid>
       <description>&lt;p&gt;Today, I presented a &lt;a href=&#34;https://1drv.ms/p/s!AiZm2P6YHtSfjye0xDn_fuL80eSp&#34;&gt;lightning talk on DataOps&lt;/a&gt; at &lt;a href=&#34;http://sqlinthecity.red-gate.com/london-2015/&#34;&gt;SQL in the City&lt;/a&gt;. It was a fantastic day and a great opportunity to catch up with how the database side of things is evolving to embrace &lt;a href=&#34;https://en.wikipedia.org/wiki/DevOps&#34;&gt;DevOps&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;My lightning talk was titled &lt;em&gt;DataOps &amp;#8211; it&amp;#8217;s a thing (honest)&lt;/em&gt; and focused on what is essentially DevOps ported out of the developer sphere and into the data professional sphere.&lt;/p&gt;

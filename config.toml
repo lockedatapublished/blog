@@ -1,4 +1,4 @@
-baseurl                 = "http://lockedata.uk/itsalockeblog/"
+baseurl                 = "http://lockelife.com/blog/"
 languageCode            = "en-gb"
 title                   = "Locke Data Blog"
 theme                   = "hugo-lockedata-blog"

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Odbc on Locke Data Blog</title>
-    <link>http://lockedata.uk/itsalockeblog/tags/odbc/</link>
+    <link>http://lockelife.com/blog/tags/odbc/</link>
     <description>Recent content in Odbc on Locke Data Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
     <lastBuildDate>Wed, 20 Apr 2016 14:13:28 +0000</lastBuildDate>
     
-	<atom:link href="http://lockedata.uk/itsalockeblog/tags/odbc/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://lockelife.com/blog/tags/odbc/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Installing SQL Server ODBC drivers on Ubuntu 15.04</title>
-      <link>http://lockedata.uk/itsalockeblog/installing-sql-server-odbc-drivers-on-ubuntu-15.04/</link>
+      <link>http://lockelife.com/blog/installing-sql-server-odbc-drivers-on-ubuntu-15.04/</link>
       <pubDate>Wed, 20 Apr 2016 14:13:28 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/installing-sql-server-odbc-drivers-on-ubuntu-15.04/</guid>
+      <guid>http://lockelife.com/blog/installing-sql-server-odbc-drivers-on-ubuntu-15.04/</guid>
       <description>&lt;p&gt;&lt;strong&gt;UPDATE 2016-10-21 : You can now get the ODBC 13 driver for Linux with a much smoother install process than below. Get all the relevant information on &lt;a href=&#34;https://blogs.msdn.microsoft.com/sqlnativeclient/2016/10/20/odbc-driver-13-0-for-linux-released/&#34;&gt;the announcement from the Microsoft SQLNCli team blog&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Did you know you can now get &lt;a href=&#34;https://www.microsoft.com/en-gb/server-cloud/sql-server-on-linux.aspx&#34;&gt;SQL Server ODBC drivers for Ubuntu&lt;/a&gt;? Yes, no, maybe? It&amp;#8217;s ok even if you haven&amp;#8217;t since it&amp;#8217;s pretty new! Anyway, this presents me with an ideal opportunity to standardise my SQL Server ODBC connections across the operating systems I use R on i.e. Windows and Ubuntu. My first trial was to get it working on &lt;a href=&#34;https://travis-ci.org&#34;&gt;Travis-CI&lt;/a&gt; since that&amp;#8217;s where all my training magic happens and if it can&amp;#8217;t work on a clean build like Travis, then where can it work? Alas, the ODBC 13 driver doesn&amp;#8217;t work Ubuntu 14.04 so this set of instructions has been modified to provide code for Ubuntu 15.04 only.&lt;/p&gt;

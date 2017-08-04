@@ -2,41 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Api on Locke Data Blog</title>
-    <link>http://lockedata.uk/itsalockeblog/tags/api/</link>
+    <link>http://lockelife.com/blog/tags/api/</link>
     <description>Recent content in Api on Locke Data Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
     <lastBuildDate>Tue, 13 Jun 2017 10:20:40 +0000</lastBuildDate>
     
-	<atom:link href="http://lockedata.uk/itsalockeblog/tags/api/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://lockelife.com/blog/tags/api/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Using purrr with APIs – revamping my code</title>
-      <link>http://lockedata.uk/itsalockeblog/using-purrr-with-apis--revamping-my-code/</link>
+      <link>http://lockelife.com/blog/using-purrr-with-apis--revamping-my-code/</link>
       <pubDate>Tue, 13 Jun 2017 10:20:40 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/using-purrr-with-apis--revamping-my-code/</guid>
+      <guid>http://lockelife.com/blog/using-purrr-with-apis--revamping-my-code/</guid>
       <description>I wrote a little while back about using Microsoft Cognitive Services APIs with R to first of all detect the language of pieces of text and then do sentiment analysis on them. I wasn&amp;#8217;t too happy with the some of the code as it was very inelegant. I knew I could code better than I had, especially as I&amp;#8217;ve been doing a lot more work with purrr recently. However, it had sat in drafts for a while.</description>
     </item>
     
     <item>
       <title>Minor update to HIBPwned</title>
-      <link>http://lockedata.uk/itsalockeblog/minor-update-to-hibpwned/</link>
+      <link>http://lockelife.com/blog/minor-update-to-hibpwned/</link>
       <pubDate>Fri, 05 May 2017 07:46:42 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/minor-update-to-hibpwned/</guid>
+      <guid>http://lockelife.com/blog/minor-update-to-hibpwned/</guid>
       <description>A new version of HIBPwned has been accepted onto CRAN. This occurred yesterday so it could still be filtering into some mirrors.
 HIBPwned is an R wrapper for the useful website HaveIBeenPwned and if you don&amp;#8217;t already utilise the package or the site &amp;#8211; you should. HaveIBeenPwned tells you when your details are included in data breaches. This is vital information to get quickly as it means you can sooner protect yourself from people trying to use the breach information to break into your accounts.</description>
     </item>
     
     <item>
       <title>R Quick tip: Microsoft Cognitive Services’ Text Analytics API</title>
-      <link>http://lockedata.uk/itsalockeblog/r-quick-tip-microsoft-cognitive-services-text-analytics-api/</link>
+      <link>http://lockelife.com/blog/r-quick-tip-microsoft-cognitive-services-text-analytics-api/</link>
       <pubDate>Wed, 01 Mar 2017 09:40:46 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/r-quick-tip-microsoft-cognitive-services-text-analytics-api/</guid>
+      <guid>http://lockelife.com/blog/r-quick-tip-microsoft-cognitive-services-text-analytics-api/</guid>
       <description>&lt;p&gt;Today in class, I taught some fundamentals of API consumption in R. As it was aligned to some Microsoft content, we first used &lt;a href=&#34;https://haveibeenpwned.com&#34;&gt;HaveIBeenPwned.com&lt;/a&gt;&amp;#8216;s API and then played with &lt;a href=&#34;https://www.microsoft.com/cognitive-services/en-us/&#34;&gt;Microsoft Cognitive Services&lt;/a&gt;&amp;#8216; Text Analytics API. This brief post overviews what you need to get started, and how you can chain consecutive calls to these APIs in order to perform multi-lingual sentiment analysis.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;UPDATE: See improved code in &lt;a href=&#34;https://itsalocke.com/using-purrr-with-apis/&#34;&gt;Using purrr with APIs – revamping my code&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -46,10 +46,10 @@ HIBPwned is an R wrapper for the useful website HaveIBeenPwned and if you don&am
     
     <item>
       <title>HIBPwned, an R package for HaveIBeenPwned.com</title>
-      <link>http://lockedata.uk/itsalockeblog/hibpwned-an-r-package-for-haveibeenpwned.com/</link>
+      <link>http://lockelife.com/blog/hibpwned-an-r-package-for-haveibeenpwned.com/</link>
       <pubDate>Mon, 21 Mar 2016 15:02:08 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/hibpwned-an-r-package-for-haveibeenpwned.com/</guid>
+      <guid>http://lockelife.com/blog/hibpwned-an-r-package-for-haveibeenpwned.com/</guid>
       <description>&lt;p&gt;The answer in life to the inevitable question of &amp;#8220;How can I do that in R?&amp;#8221; should be &amp;#8220;There&amp;#8217;s a package for that&amp;#8221;. So when I wanted to query &lt;a href=&#34;https://haveibeenpwned.com&#34;&gt;HaveIBeenPwned.com&lt;/a&gt; (HIBP) to check whether a bunch of emails had been involved in data breaches and there wasn&amp;#8217;t an R package for HIBP, it meant that the responsibility for making one landed on my shoulders. Now, you can see if your accounts are at risk with the R package for HaveIBeenPwned.com, &lt;strong&gt;HIBPwned&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;figure id=&#34;attachment_61581&#34; style=&#34;width: 768px&#34; class=&#34;wp-caption alignnone&#34;&gt;&lt;img src=&#34;http://res.cloudinary.com/lockedata/image/upload/h_139,w_750/v1499850337/hibp_os8t5d.png&#34; alt=&#34;Have I Been Pwned | HaveIBeenPwned.com&#34; width=&#34;768&#34; height=&#34;142&#34; class=&#34;size-medium_large wp-image-61581&#34; /&gt;&lt;figcaption class=&#34;wp-caption-text&#34;&gt;Have I Been Pwned | HaveIBeenPwned.com&lt;/figcaption&gt;&lt;/figure&gt;
@@ -63,10 +63,10 @@ HIBPwned is an R wrapper for the useful website HaveIBeenPwned and if you don&am
     
     <item>
       <title>Working with Azure Blob Storage, some notes</title>
-      <link>http://lockedata.uk/itsalockeblog/working-with-azure-blob-storage-some-notes/</link>
+      <link>http://lockelife.com/blog/working-with-azure-blob-storage-some-notes/</link>
       <pubDate>Mon, 06 Apr 2015 09:27:05 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/working-with-azure-blob-storage-some-notes/</guid>
+      <guid>http://lockelife.com/blog/working-with-azure-blob-storage-some-notes/</guid>
       <description>&lt;p&gt;I&amp;#8217;m working on building a snazzy &lt;a href=&#34;https://github.com/stephlocke/Rtraining/blob/master/inst/slidedecks/shiny/Dashboards.Rmd&#34; title=&#34;My shiny presentation&#34; target=&#34;_blank&#34;&gt;shiny&lt;/a&gt; app that a) drops the inputs/parameter values into &lt;a href=&#34;http://azure.microsoft.com/en-gb/documentation/articles/storage-introduction/&#34; title=&#34;Azure storage intro&#34; target=&#34;_blank&#34;&gt;blob storage&lt;/a&gt; and b) uses &lt;a href=&#34;http://azure.microsoft.com/en-gb/services/stream-analytics/&#34; title=&#34;Stream Analytics&#34; target=&#34;_blank&#34;&gt;Stream Analytics&lt;/a&gt; to query the values and present back what people are saying at the moment. This&amp;#8217;ll be a fab tool for &lt;a href=&#34;https://itsalocke.com/index.php/r-pre-con-sqlsat-exeter/&#34; title=&#34;My R Pre-Con: SQLSat Exeter&#34; target=&#34;_blank&#34;&gt;my pre-con next month&lt;/a&gt; if I can get it working in time!&lt;/p&gt;
 
 &lt;p&gt;Getting it working, does however mean utilising the &lt;a href=&#34;https://msdn.microsoft.com/en-us/library/azure/dd179355.aspx&#34; title=&#34;Storage API documentation&#34; target=&#34;_blank&#34;&gt;Azure Blob Storage API&lt;/a&gt; in R which I confess is much harder than expected, especially after the ease of using the Visual Studio Online API for &lt;a href=&#34;https://itsalocke.com/index.php/bride-of-frankenstein-tfs-r/&#34; title=&#34;Bride of Frankenstein: TFS + R&#34; target=&#34;_blank&#34;&gt;tfsR&lt;/a&gt;. To that end, I thought I&amp;#8217;d write-up some of my findings before I do a bigger write-up that illustrates how to do everything (in R).&lt;/p&gt;
