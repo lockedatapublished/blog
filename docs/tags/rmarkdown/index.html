@@ -78,25 +78,78 @@
 
         <div id="top" class="container">
             <div class="row" id="content-main">
+   <div class="col-md-4">                    
+	
+<div class="row">
+    <div class="col-md-11 card">
+        <h5>Locke Data Blog</h5>
+        <p>A description that will appear as a default if front matter does not exist</p>
+		<img class="avatar" src=http://lockedata.uk/itsalockeblog/img/ChibiSteph.svg></img>
+    </div>
+</div>
+
+    <div class="row">
+    <div class="col-md-11 card">
+        <h5>Search</h5>
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form">
+            <div class="input-group">
+                <input class="form-control" type="search" name="q" />
+                <span class="input-group-btn">
+                    <button class="btn btn-primary" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+                </span>
+            </div>
+            <input type="hidden" name="q" value="site:http://lockedata.uk/itsalockeblog/">
+        </form>
+    </div>
+</div>
+
+    
+    
+        <div class="row">
+            <div class="col-md-11  card">
+                <h5>categories</h5>
+                <ul class="list-unstyled posts-recent">
+                    
+                        <li><a href="http://lockedata.uk/itsalockeblog/categories/r">r</a></li>
+                    
+                        <li><a href="http://lockedata.uk/itsalockeblog/categories/community">community</a></li>
+                    
+                        <li><a href="http://lockedata.uk/itsalockeblog/categories/microsoft-data-platform">microsoft-data-platform</a></li>
+                    
+                        <li><a href="http://lockedata.uk/itsalockeblog/categories/data-science">data-science</a></li>
+                    
+                        <li><a href="http://lockedata.uk/itsalockeblog/categories/misc-technology">misc-technology</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    
+
+    
+
+    
+
+
+</div>
                 <div class="col-md-8">
                     
                     
                         <div class="row">
                             <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2017-05-19-improving-automatic-document-production-with-r/">Improving automatic document production with R</a></h1>
+                                <h1><a href="http://lockedata.uk/itsalockeblog/improving-automatic-document-production-with-r/">Improving automatic document production with R</a></h1>
                                 <ul class="list-inline">
                                     <li><i class="fa fa-calendar"></i>May 19, 2017</li>
                                     <li><i class="fa fa-user"></i>Steph</li>
                                 </ul>
                                 In this post, I describe the latest iteration of my automatic document production with R. It improves upon the methods used in Rtraining, and previous work on this topic can read by going to the auto deploying R documentation tag.
 I keep banging on about this area because reproducible research / analytical document pipelines is an area I&#8217;ve a keen interest in. I see it as a core part of DataOps as it&#8217;s vital for helping us ensure our models and analysis are correct in data science and boosting our productivity.
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2017-05-19-improving-automatic-document-production-with-r/" role="button">Read More</a>
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/improving-automatic-document-production-with-r/" role="button">Read More</a>
                             </div>
                         </div>
                     
                         <div class="row">
                             <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2017-05-08-r-quick-tip-sequential-yaml-headers-rmarkdown-parameter-re-use/">R Quick Tip: parameter re-use within rmarkdown YAML</a></h1>
+                                <h1><a href="http://lockedata.uk/itsalockeblog/r-quick-tip-parameter-re-use-within-rmarkdown-yaml/">R Quick Tip: parameter re-use within rmarkdown YAML</a></h1>
                                 <ul class="list-inline">
                                     <li><i class="fa fa-calendar"></i>May 8, 2017</li>
                                     <li><i class="fa fa-user"></i>Steph</li>
@@ -104,26 +157,26 @@ I keep banging on about this area because reproducible research / analytical doc
                                 Ever wondered how to make an rmarkdown title dynamic? Maybe, wanted to use a parameter in multiple locations? Maybe wanted to pass through a publication date? Advanced use of YAML headers can help!
 Normally, when we write rmarkdown, we might use something like the basic YAML header that the rmarkdown template gives us.
 --- title: &quot;My report&quot; date: &quot;18th April, 2017&quot; output: pdf_document ---  You may already know the trick about making the date dynamic to whatever date the report gets rendered on by using the inline R execution mode of rmarkdown to insert a value.
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2017-05-08-r-quick-tip-sequential-yaml-headers-rmarkdown-parameter-re-use/" role="button">Read More</a>
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/r-quick-tip-parameter-re-use-within-rmarkdown-yaml/" role="button">Read More</a>
                             </div>
                         </div>
                     
                         <div class="row">
                             <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2017-04-19-table-parameters-rmarkdown-reports/">R Quick Tip: Table parameters for rmarkdown reports</a></h1>
+                                <h1><a href="http://lockedata.uk/itsalockeblog/r-quick-tip-table-parameters-for-rmarkdown-reports/">R Quick Tip: Table parameters for rmarkdown reports</a></h1>
                                 <ul class="list-inline">
                                     <li><i class="fa fa-calendar"></i>April 19, 2017</li>
                                     <li><i class="fa fa-user"></i>Steph</li>
                                 </ul>
                                 The recent(ish) advent of parameters in rmarkdown reports is pretty nifty but there&#8217;s a little bit of behaviour that can come in handy but doesn&#8217;t come across in the documentation. You can use table parameters for rmarkdown reports.
 Previously, if you wanted to produce multiple reports based off a dataset, you would make the dataset available and then perform filtering in the report. Now we can pass the filtered data directly to the report, which keeps all the filtering logic in one place.
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2017-04-19-table-parameters-rmarkdown-reports/" role="button">Read More</a>
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/r-quick-tip-table-parameters-for-rmarkdown-reports/" role="button">Read More</a>
                             </div>
                         </div>
                     
                         <div class="row">
                             <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2016-04-04-auto-deploying-documentation-better-change-tracking-artefacts/">Auto-deploying documentation: better change tracking of artefacts</a></h1>
+                                <h1><a href="http://lockedata.uk/itsalockeblog/auto-deploying-documentation-better-change-tracking-of-artefacts/">Auto-deploying documentation: better change tracking of artefacts</a></h1>
                                 <ul class="list-inline">
                                     <li><i class="fa fa-calendar"></i>April 4, 2016</li>
                                     <li><i class="fa fa-user"></i>Steph</li>
@@ -157,26 +210,26 @@ Previously, if you wanted to produce multiple reports based off a dataset, you w
 <p>Using an environment variable ($TRAVIS_COMMIT) the commit message is the commit ID for the latest commit in the build that occurs on Travis, making it very easy to see what changes triggered a documentation update.</p>
 
 <p></p>
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2016-04-04-auto-deploying-documentation-better-change-tracking-artefacts/" role="button">Read More</a>
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/auto-deploying-documentation-better-change-tracking-of-artefacts/" role="button">Read More</a>
                             </div>
                         </div>
                     
                         <div class="row">
                             <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2015-12-23-auto-deploying-documentation-rtraining/">Auto-deploying documentation: Rtraining</a></h1>
+                                <h1><a href="http://lockedata.uk/itsalockeblog/auto-deploying-documentation-rtraining/">Auto-deploying documentation: Rtraining</a></h1>
                                 <ul class="list-inline">
                                     <li><i class="fa fa-calendar"></i>December 23, 2015</li>
                                     <li><i class="fa fa-user"></i>Steph</li>
                                 </ul>
                                 In my last post on using GitHub, Travis-CI, and rmarkdown/knitr for automatically building and deploying documentation, I covered how I was able to do it with a containerised approach so things were faster. I also said my Rtraining repository was still too brittle to blog about. This has changed &#8211; WOO HOO!
 The main thanks for that goes out to the new package ezknitr from Dean Attali. ezknitr takes the pain out of working directories, making my hierarchies much more resilient.
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2015-12-23-auto-deploying-documentation-rtraining/" role="button">Read More</a>
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/auto-deploying-documentation-rtraining/" role="button">Read More</a>
                             </div>
                         </div>
                     
                         <div class="row">
                             <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2015-11-13-auto-deploying-documentation-faster/">Auto-deploying documentation: FASTER!</a></h1>
+                                <h1><a href="http://lockedata.uk/itsalockeblog/auto-deploying-documentation-faster/">Auto-deploying documentation: FASTER!</a></h1>
                                 <ul class="list-inline">
                                     <li><i class="fa fa-calendar"></i>November 13, 2015</li>
                                     <li><i class="fa fa-user"></i>Steph</li>
@@ -184,13 +237,13 @@ The main thanks for that goes out to the new package ezknitr from Dean Attali. e
                                 <p>Over the past few years I&#8217;ve been delving deeper into automatically building and deploying documentation and reporting in R (with rmarkdown, LaTeX etc). This post covers another step forward on that journey towards awesomeness.</p>
 
 <p></p>
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2015-11-13-auto-deploying-documentation-faster/" role="button">Read More</a>
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/auto-deploying-documentation-faster/" role="button">Read More</a>
                             </div>
                         </div>
                     
                         <div class="row">
                             <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2015-06-17-custom-latex-beamer-style-templates-for-rmarkdown/">Custom LaTeX Beamer style templates for rmarkdown</a></h1>
+                                <h1><a href="http://lockedata.uk/itsalockeblog/custom-latex-beamer-style-templates-for-rmarkdown/">Custom LaTeX Beamer style templates for rmarkdown</a></h1>
                                 <ul class="list-inline">
                                     <li><i class="fa fa-calendar"></i>June 17, 2015</li>
                                     <li><i class="fa fa-user"></i>Steph</li>
@@ -202,13 +255,13 @@ The main thanks for that goes out to the new package ezknitr from Dean Attali. e
 <p>I didn&#8217;t want to spend a huge amount of time on it, so this little story of hack and slash may feel a bit dirty to you!</p>
 
 <p></p>
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2015-06-17-custom-latex-beamer-style-templates-for-rmarkdown/" role="button">Read More</a>
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/custom-latex-beamer-style-templates-for-rmarkdown/" role="button">Read More</a>
                             </div>
                         </div>
                     
                         <div class="row">
                             <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2015-06-05-auto-deploying-documentation-multiple-r-vignettes/">Auto-deploying documentation: multiple R vignettes</a></h1>
+                                <h1><a href="http://lockedata.uk/itsalockeblog/auto-deploying-documentation-multiple-r-vignettes/">Auto-deploying documentation: multiple R vignettes</a></h1>
                                 <ul class="list-inline">
                                     <li><i class="fa fa-calendar"></i>June 5, 2015</li>
                                     <li><i class="fa fa-user"></i>Steph</li>
@@ -243,13 +296,13 @@ The main thanks for that goes out to the new package ezknitr from Dean Attali. e
 <li><p>A way of extracting any number of html files from the vignette folder</p>
 
 <p></p>
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2015-06-05-auto-deploying-documentation-multiple-r-vignettes/" role="button">Read More</a>
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/auto-deploying-documentation-multiple-r-vignettes/" role="button">Read More</a>
                             </div>
                         </div>
                     
                         <div class="row">
                             <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2015-06-01-automated-documentation-hosting-on-github-via-travis-ci/">Automated documentation hosting on github via Travis-CI</a></h1>
+                                <h1><a href="http://lockedata.uk/itsalockeblog/automated-documentation-hosting-on-github-via-travis-ci/">Automated documentation hosting on github via Travis-CI</a></h1>
                                 <ul class="list-inline">
                                     <li><i class="fa fa-calendar"></i>June 1, 2015</li>
                                     <li><i class="fa fa-user"></i>Steph</li>
@@ -300,20 +353,20 @@ The main thanks for that goes out to the new package ezknitr from Dean Attali. e
 <li><p>Commit &amp; push!</p>
 
 <p></p>
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2015-06-01-automated-documentation-hosting-on-github-via-travis-ci/" role="button">Read More</a>
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/automated-documentation-hosting-on-github-via-travis-ci/" role="button">Read More</a>
                             </div>
                         </div>
                     
                         <div class="row">
                             <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2015-04-13-organised-speaking-improving-font-sizes/">Organised speaking – improving font sizes</a></h1>
+                                <h1><a href="http://lockedata.uk/itsalockeblog/organised-speaking--improving-font-sizes/">Organised speaking – improving font sizes</a></h1>
                                 <ul class="list-inline">
                                     <li><i class="fa fa-calendar"></i>April 13, 2015</li>
                                     <li><i class="fa fa-user"></i>Steph</li>
                                 </ul>
                                 A recurring problem with my presentations is font size.
  The inclusion of code in my Rmarkdown slides was by default too small. Upping the fontsize via CSS worked ok, but when I switched to a shiny app version for my intro to shiny, it reverted and I&#8217;m afraid to say I didn&#8217;t notice beforehand. I use PuTTY for showing how to do some stuff in the linux command line but the font&#8217;s quite small by default and Gail Shaw&#8217;s tip of Magnifier in my session was tough to use I&#8217;ve upped my font size on my Rstudio IDE, but hadn&#8217;t yet implemented this across other IDEs I tend to use my mouse cursor to draw attention to things.
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2015-04-13-organised-speaking-improving-font-sizes/" role="button">Read More</a>
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/organised-speaking--improving-font-sizes/" role="button">Read More</a>
                             </div>
                         </div>
                     
@@ -335,59 +388,6 @@ The main thanks for that goes out to the new package ezknitr from Dean Attali. e
 
 
                 </div>
-   <div class="col-md-4">                    
-	
-<div class="row">
-    <div class="col-md-11 col-md-offset-1 card">
-        <h5>Locke Data Blog</h5>
-        <p>A description that will appear as a default if front matter does not exist</p>
-		<img class="avatar" src="img/ChibiSteph.svg"></img>
-    </div>
-</div>
-
-    <div class="row">
-    <div class="col-md-11 col-md-offset-1 card">
-        <h5>Search</h5>
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form">
-            <div class="input-group">
-                <input class="form-control" type="search" name="q" />
-                <span class="input-group-btn">
-                    <button class="btn btn-primary" type="submit"><span class="glyphicon glyphicon-search"></span></button>
-                </span>
-            </div>
-            <input type="hidden" name="q" value="site:http://lockedata.uk/itsalockeblog/">
-        </form>
-    </div>
-</div>
-
-    
-    
-        <div class="row">
-            <div class="col-md-11 col-md-offset-1 card">
-                <h5>categories</h5>
-                <ul class="list-unstyled posts-recent">
-                    
-                        <li><a href="http://lockedata.uk/itsalockeblog/categories/r">r</a></li>
-                    
-                        <li><a href="http://lockedata.uk/itsalockeblog/categories/community">community</a></li>
-                    
-                        <li><a href="http://lockedata.uk/itsalockeblog/categories/microsoft-data-platform">microsoft-data-platform</a></li>
-                    
-                        <li><a href="http://lockedata.uk/itsalockeblog/categories/data-science">data-science</a></li>
-                    
-                        <li><a href="http://lockedata.uk/itsalockeblog/categories/misc-technology">misc-technology</a></li>
-                    
-                </ul>
-            </div>
-        </div>
-    
-
-    
-
-    
-
-
-</div>
             </div>
         </div>
         <!-- Footer section -->

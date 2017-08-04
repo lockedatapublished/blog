@@ -78,12 +78,65 @@
 
         <div id="top" class="container">
             <div class="row" id="content-main">
+   <div class="col-md-4">                    
+	
+<div class="row">
+    <div class="col-md-11 card">
+        <h5>Locke Data Blog</h5>
+        <p>A description that will appear as a default if front matter does not exist</p>
+		<img class="avatar" src=http://lockedata.uk/itsalockeblog/img/ChibiSteph.svg></img>
+    </div>
+</div>
+
+    <div class="row">
+    <div class="col-md-11 card">
+        <h5>Search</h5>
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form">
+            <div class="input-group">
+                <input class="form-control" type="search" name="q" />
+                <span class="input-group-btn">
+                    <button class="btn btn-primary" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+                </span>
+            </div>
+            <input type="hidden" name="q" value="site:http://lockedata.uk/itsalockeblog/">
+        </form>
+    </div>
+</div>
+
+    
+    
+        <div class="row">
+            <div class="col-md-11  card">
+                <h5>categories</h5>
+                <ul class="list-unstyled posts-recent">
+                    
+                        <li><a href="http://lockedata.uk/itsalockeblog/categories/r">r</a></li>
+                    
+                        <li><a href="http://lockedata.uk/itsalockeblog/categories/community">community</a></li>
+                    
+                        <li><a href="http://lockedata.uk/itsalockeblog/categories/microsoft-data-platform">microsoft-data-platform</a></li>
+                    
+                        <li><a href="http://lockedata.uk/itsalockeblog/categories/data-science">data-science</a></li>
+                    
+                        <li><a href="http://lockedata.uk/itsalockeblog/categories/misc-technology">misc-technology</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    
+
+    
+
+    
+
+
+</div>
                 <div class="col-md-8">
                     
                     
                         <div class="row">
                             <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2016-04-08-shiny-module-design-pattern-pass-inputs-one-module-another/">Shiny module design patterns: Pass a single input to multiple modules</a></h1>
+                                <h1><a href="http://lockedata.uk/itsalockeblog/shiny-module-design-patterns-pass-a-single-input-to-multiple-modules/">Shiny module design patterns: Pass a single input to multiple modules</a></h1>
                                 <ul class="list-inline">
                                     <li><i class="fa fa-calendar"></i>April 8, 2016</li>
                                     <li><i class="fa fa-user"></i>Steph</li>
@@ -95,13 +148,13 @@
 <p>Stick overall config input objects at the app level and pass them in a reactive expression to <code>callModule()</code>. Pass the results in as an extra argument into subsequent modules. These are reactive so don&#8217;t forget the brackets. <a href="https://github.com/stephlocke/shinymodulesdesignpatterns">Steal the code</a> and, as always, if you can improve it do so!</p>
 
 <p></p>
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2016-04-08-shiny-module-design-pattern-pass-inputs-one-module-another/" role="button">Read More</a>
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/shiny-module-design-patterns-pass-a-single-input-to-multiple-modules/" role="button">Read More</a>
                             </div>
                         </div>
                     
                         <div class="row">
                             <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2016-04-04-auto-deploying-documentation-better-change-tracking-artefacts/">Auto-deploying documentation: better change tracking of artefacts</a></h1>
+                                <h1><a href="http://lockedata.uk/itsalockeblog/auto-deploying-documentation-better-change-tracking-of-artefacts/">Auto-deploying documentation: better change tracking of artefacts</a></h1>
                                 <ul class="list-inline">
                                     <li><i class="fa fa-calendar"></i>April 4, 2016</li>
                                     <li><i class="fa fa-user"></i>Steph</li>
@@ -135,13 +188,13 @@
 <p>Using an environment variable ($TRAVIS_COMMIT) the commit message is the commit ID for the latest commit in the build that occurs on Travis, making it very easy to see what changes triggered a documentation update.</p>
 
 <p></p>
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2016-04-04-auto-deploying-documentation-better-change-tracking-artefacts/" role="button">Read More</a>
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/auto-deploying-documentation-better-change-tracking-of-artefacts/" role="button">Read More</a>
                             </div>
                         </div>
                     
                         <div class="row">
                             <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2016-03-08-mockaroo-making-realistic-test-data-in-r/">mockaRoo – making realistic test data in R</a></h1>
+                                <h1><a href="http://lockedata.uk/itsalockeblog/mockaroo--making-realistic-test-data-in-r/">mockaRoo – making realistic test data in R</a></h1>
                                 <ul class="list-inline">
                                     <li><i class="fa fa-calendar"></i>March 8, 2016</li>
                                     <li><i class="fa fa-user"></i>Steph</li>
@@ -155,26 +208,26 @@
 <p>I&#8217;ve started the package on <a href="https://github.com/stephlocke/mockaRoo">github</a> and will be developing it over the next month or two. It&#8217;s up and working, but only in the most primitive way as I&#8217;d like to get some feedback from folks who might find this useful around how the interface for generating your desired data schema should work.</p>
 
 <p></p>
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2016-03-08-mockaroo-making-realistic-test-data-in-r/" role="button">Read More</a>
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/mockaroo--making-realistic-test-data-in-r/" role="button">Read More</a>
                             </div>
                         </div>
                     
                         <div class="row">
                             <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2015-12-23-auto-deploying-documentation-rtraining/">Auto-deploying documentation: Rtraining</a></h1>
+                                <h1><a href="http://lockedata.uk/itsalockeblog/auto-deploying-documentation-rtraining/">Auto-deploying documentation: Rtraining</a></h1>
                                 <ul class="list-inline">
                                     <li><i class="fa fa-calendar"></i>December 23, 2015</li>
                                     <li><i class="fa fa-user"></i>Steph</li>
                                 </ul>
                                 In my last post on using GitHub, Travis-CI, and rmarkdown/knitr for automatically building and deploying documentation, I covered how I was able to do it with a containerised approach so things were faster. I also said my Rtraining repository was still too brittle to blog about. This has changed &#8211; WOO HOO!
 The main thanks for that goes out to the new package ezknitr from Dean Attali. ezknitr takes the pain out of working directories, making my hierarchies much more resilient.
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2015-12-23-auto-deploying-documentation-rtraining/" role="button">Read More</a>
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/auto-deploying-documentation-rtraining/" role="button">Read More</a>
                             </div>
                         </div>
                     
                         <div class="row">
                             <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2015-11-13-auto-deploying-documentation-faster/">Auto-deploying documentation: FASTER!</a></h1>
+                                <h1><a href="http://lockedata.uk/itsalockeblog/auto-deploying-documentation-faster/">Auto-deploying documentation: FASTER!</a></h1>
                                 <ul class="list-inline">
                                     <li><i class="fa fa-calendar"></i>November 13, 2015</li>
                                     <li><i class="fa fa-user"></i>Steph</li>
@@ -182,13 +235,13 @@ The main thanks for that goes out to the new package ezknitr from Dean Attali. e
                                 <p>Over the past few years I&#8217;ve been delving deeper into automatically building and deploying documentation and reporting in R (with rmarkdown, LaTeX etc). This post covers another step forward on that journey towards awesomeness.</p>
 
 <p></p>
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2015-11-13-auto-deploying-documentation-faster/" role="button">Read More</a>
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/auto-deploying-documentation-faster/" role="button">Read More</a>
                             </div>
                         </div>
                     
                         <div class="row">
                             <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2015-10-16-dataops-its-a-thing-honest/">DataOps – it’s a thing (honest)</a></h1>
+                                <h1><a href="http://lockedata.uk/itsalockeblog/dataops--its-a-thing-honest/">DataOps – it’s a thing (honest)</a></h1>
                                 <ul class="list-inline">
                                     <li><i class="fa fa-calendar"></i>October 16, 2015</li>
                                     <li><i class="fa fa-user"></i>Steph</li>
@@ -198,13 +251,13 @@ The main thanks for that goes out to the new package ezknitr from Dean Attali. e
 <p>My lightning talk was titled <em>DataOps &#8211; it&#8217;s a thing (honest)</em> and focused on what is essentially DevOps ported out of the developer sphere and into the data professional sphere.</p>
 
 <p></p>
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2015-10-16-dataops-its-a-thing-honest/" role="button">Read More</a>
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/dataops--its-a-thing-honest/" role="button">Read More</a>
                             </div>
                         </div>
                     
                         <div class="row">
                             <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2015-06-05-auto-deploying-documentation-multiple-r-vignettes/">Auto-deploying documentation: multiple R vignettes</a></h1>
+                                <h1><a href="http://lockedata.uk/itsalockeblog/auto-deploying-documentation-multiple-r-vignettes/">Auto-deploying documentation: multiple R vignettes</a></h1>
                                 <ul class="list-inline">
                                     <li><i class="fa fa-calendar"></i>June 5, 2015</li>
                                     <li><i class="fa fa-user"></i>Steph</li>
@@ -239,13 +292,13 @@ The main thanks for that goes out to the new package ezknitr from Dean Attali. e
 <li><p>A way of extracting any number of html files from the vignette folder</p>
 
 <p></p>
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2015-06-05-auto-deploying-documentation-multiple-r-vignettes/" role="button">Read More</a>
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/auto-deploying-documentation-multiple-r-vignettes/" role="button">Read More</a>
                             </div>
                         </div>
                     
                         <div class="row">
                             <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2015-06-01-automated-documentation-hosting-on-github-via-travis-ci/">Automated documentation hosting on github via Travis-CI</a></h1>
+                                <h1><a href="http://lockedata.uk/itsalockeblog/automated-documentation-hosting-on-github-via-travis-ci/">Automated documentation hosting on github via Travis-CI</a></h1>
                                 <ul class="list-inline">
                                     <li><i class="fa fa-calendar"></i>June 1, 2015</li>
                                     <li><i class="fa fa-user"></i>Steph</li>
@@ -296,13 +349,13 @@ The main thanks for that goes out to the new package ezknitr from Dean Attali. e
 <li><p>Commit &amp; push!</p>
 
 <p></p>
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2015-06-01-automated-documentation-hosting-on-github-via-travis-ci/" role="button">Read More</a>
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/automated-documentation-hosting-on-github-via-travis-ci/" role="button">Read More</a>
                             </div>
                         </div>
                     
                         <div class="row">
                             <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2014-11-06-database-bi-related-unit-testing-options/">Database / BI related unit testing options</a></h1>
+                                <h1><a href="http://lockedata.uk/itsalockeblog/database-/-bi-related-unit-testing-options/">Database / BI related unit testing options</a></h1>
                                 <ul class="list-inline">
                                     <li><i class="fa fa-calendar"></i>November 6, 2014</li>
                                     <li><i class="fa fa-user"></i>Steph</li>
@@ -320,7 +373,7 @@ Site: https://ssisunit.codeplex.com
 Cost: Free
 Pros: Unique
 Cons: As of writing, only stable version was released in 2008
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2014-11-06-database-bi-related-unit-testing-options/" role="button">Read More</a>
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/database-/-bi-related-unit-testing-options/" role="button">Read More</a>
                             </div>
                         </div>
                     
@@ -342,59 +395,6 @@ Cons: As of writing, only stable version was released in 2008
 
 
                 </div>
-   <div class="col-md-4">                    
-	
-<div class="row">
-    <div class="col-md-11 col-md-offset-1 card">
-        <h5>Locke Data Blog</h5>
-        <p>A description that will appear as a default if front matter does not exist</p>
-		<img class="avatar" src="img/ChibiSteph.svg"></img>
-    </div>
-</div>
-
-    <div class="row">
-    <div class="col-md-11 col-md-offset-1 card">
-        <h5>Search</h5>
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form">
-            <div class="input-group">
-                <input class="form-control" type="search" name="q" />
-                <span class="input-group-btn">
-                    <button class="btn btn-primary" type="submit"><span class="glyphicon glyphicon-search"></span></button>
-                </span>
-            </div>
-            <input type="hidden" name="q" value="site:http://lockedata.uk/itsalockeblog/">
-        </form>
-    </div>
-</div>
-
-    
-    
-        <div class="row">
-            <div class="col-md-11 col-md-offset-1 card">
-                <h5>categories</h5>
-                <ul class="list-unstyled posts-recent">
-                    
-                        <li><a href="http://lockedata.uk/itsalockeblog/categories/r">r</a></li>
-                    
-                        <li><a href="http://lockedata.uk/itsalockeblog/categories/community">community</a></li>
-                    
-                        <li><a href="http://lockedata.uk/itsalockeblog/categories/microsoft-data-platform">microsoft-data-platform</a></li>
-                    
-                        <li><a href="http://lockedata.uk/itsalockeblog/categories/data-science">data-science</a></li>
-                    
-                        <li><a href="http://lockedata.uk/itsalockeblog/categories/misc-technology">misc-technology</a></li>
-                    
-                </ul>
-            </div>
-        </div>
-    
-
-    
-
-    
-
-
-</div>
             </div>
         </div>
         <!-- Footer section -->

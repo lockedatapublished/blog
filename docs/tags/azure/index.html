@@ -78,210 +78,18 @@
 
         <div id="top" class="container">
             <div class="row" id="content-main">
-                <div class="col-md-8">
-                    
-                    
-                        <div class="row">
-                            <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2016-12-01-i-love-azure-functions/">I Love Azure Functions!</a></h1>
-                                <ul class="list-inline">
-                                    <li><i class="fa fa-calendar"></i>December 1, 2016</li>
-                                    <li><i class="fa fa-user"></i>Steph</li>
-                                </ul>
-                                A while ago, I started my Stumbling Into series. I started but only got one in &#8211; I was gonna talk about how I failed with Azure Functions next. I was failing because the docs outside C# (and node.js) were so limited that I found it difficult to get things done. However, I persevered and overcame a little bit of C#-ophobia and I can honestly say it has been so worth it.
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2016-12-01-i-love-azure-functions/" role="button">Read More</a>
-                            </div>
-                        </div>
-                    
-                        <div class="row">
-                            <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2016-10-21-slack-all-the-things/">Slack all the things!</a></h1>
-                                <ul class="list-inline">
-                                    <li><i class="fa fa-calendar"></i>October 21, 2016</li>
-                                    <li><i class="fa fa-user"></i>Steph</li>
-                                </ul>
-                                Slack all the things! OK, if you haven&#8217;t heard of it before Slack is kinda like IRC, kinda like Dropbox, kinda like a lot of things &#8211; it&#8217;s a neat place to bring together communications between your team or community, and the integrations allow you to pipe in external feeds like twitter activity or RSS. It&#8217;s a great way of collaborating online and I&#8217;ve found it especially useful not just within a company but within a global community.
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2016-10-21-slack-all-the-things/" role="button">Read More</a>
-                            </div>
-                        </div>
-                    
-                        <div class="row">
-                            <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2016-07-11-stumbling-into-azure-automation/">Stumbling into … Azure Automation</a></h1>
-                                <ul class="list-inline">
-                                    <li><i class="fa fa-calendar"></i>July 11, 2016</li>
-                                    <li><i class="fa fa-user"></i>Steph</li>
-                                </ul>
-                                <p>I&#8217;ve recently been trying to solve the challenge of working extracting files from AWS and getting them into Azure in my desired format. I wanted a solution that kept everything on the cloud and completely avoid local tin. I wanted it to have built-in auditing and error handling. I wanted something whizzy and new, to be honest! One way in which I attempted to tackle the task was with <a href="https://azure.microsoft.com/en-gb/services/automation/">Azure Automation</a>. In this post, I&#8217;ll overview Automation and explore how it stacked up for what I was attempting to use it for.</p>
-
-<blockquote>
-<p>Overall Task: Get compressed (.tar.gz) files from AWS S3 to Azure, decompress the files, concatenate the contents and put in a different container for analytics magic</p>
-</blockquote>
-
-<p>Like with most things I dropped myself into the deep-end on it so had fairly minimal knowledge of PowerShell and the Azure modules, therefore I fully expect more knowledgeable folks to wince at my stuff. General advice, &#8220;you should do it like this, then this&#8230;&#8221;&#8216;s, and resource recommendations are all very welcome &#8211; leave a comment with them in!</p>
-
-<h2 id="azure-automation">Azure Automation</h2>
-
-<p>Azure Automation is essentially a hosted PowerShell script execution service. It seems to be aimed primarily at managing Azure resources, particularly via <a href="https://www.simple-talk.com/sysadmin/powershell/powershell-desired-state-configuration-the-basics/">Desired State Configurations</a>.</p>
-
-<p>It is, however, a general PowerShell powerhouse, with scheduling capabilities and a bunch of useful features for the safe storage of credentials etc. This makes it an excellent tool if you&#8217;re looking to do something with PowerShell on a regular basis and need to interact with Azure.</p>
-
-<p></p>
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2016-07-11-stumbling-into-azure-automation/" role="button">Read More</a>
-                            </div>
-                        </div>
-                    
-                        <div class="row">
-                            <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2016-06-10-azure-storage-accounts-resource-groups-matter-to-powershell/">Azure Storage Accounts – Resource Groups matter to PowerShell!</a></h1>
-                                <ul class="list-inline">
-                                    <li><i class="fa fa-calendar"></i>June 10, 2016</li>
-                                    <li><i class="fa fa-user"></i>Steph</li>
-                                </ul>
-                                I&#8217;m sure that all my PoSh friends out there, who use Azure and PowerShell all the time probably know this already but I thought I&#8217;d share a little snippet of hard-won knowledge.
- When you put an Azure Storage Account into a Resource Group, you can no longer use the default Azure.Storage module. Instead, you&#8217;ve got to use the AzureRM.Storage module.
- All the scripts I encountered whilst googling how to connect to blob storage via PowerShell, including the ones in the script gallery within Azure Automation seemed to all assume the azure storage account you wanted to connect to was standalone.
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2016-06-10-azure-storage-accounts-resource-groups-matter-to-powershell/" role="button">Read More</a>
-                            </div>
-                        </div>
-                    
-                        <div class="row">
-                            <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2016-04-20-installing-sql-server-odbc-drivers-on-ubuntu-15-04/">Installing SQL Server ODBC drivers on Ubuntu 15.04</a></h1>
-                                <ul class="list-inline">
-                                    <li><i class="fa fa-calendar"></i>April 20, 2016</li>
-                                    <li><i class="fa fa-user"></i>Steph</li>
-                                </ul>
-                                <p><strong>UPDATE 2016-10-21 : You can now get the ODBC 13 driver for Linux with a much smoother install process than below. Get all the relevant information on <a href="https://blogs.msdn.microsoft.com/sqlnativeclient/2016/10/20/odbc-driver-13-0-for-linux-released/">the announcement from the Microsoft SQLNCli team blog</a>.</strong></p>
-
-<p>Did you know you can now get <a href="https://www.microsoft.com/en-gb/server-cloud/sql-server-on-linux.aspx">SQL Server ODBC drivers for Ubuntu</a>? Yes, no, maybe? It&#8217;s ok even if you haven&#8217;t since it&#8217;s pretty new! Anyway, this presents me with an ideal opportunity to standardise my SQL Server ODBC connections across the operating systems I use R on i.e. Windows and Ubuntu. My first trial was to get it working on <a href="https://travis-ci.org">Travis-CI</a> since that&#8217;s where all my training magic happens and if it can&#8217;t work on a clean build like Travis, then where can it work? Alas, the ODBC 13 driver doesn&#8217;t work Ubuntu 14.04 so this set of instructions has been modified to provide code for Ubuntu 15.04 only.</p>
-
-<h2 id="tl-dr">TL;DR</h2>
-
-<p>It works, but it&#8217;s really hacky right now. Definitely looking forward to the next iterations of this driver.</p>
-
-<h2 id="disclaimer">Disclaimer</h2>
-
-<ul>
-<li>This will work for Ubuntu 15.04 but 14.04 has a different set of C compilers</li>
-<li>This is currently hacky, and Microsoft are on the case for improving it so this post could quickly become out of date.</li>
-<li>Be very careful installing the driver on an existing machine. Due to the overwriting of unixODBC if already installed and potential compatibility issues with other driver managers you may have installed.</li>
-</ul>
-
-<p></p>
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2016-04-20-installing-sql-server-odbc-drivers-on-ubuntu-15-04/" role="button">Read More</a>
-                            </div>
-                        </div>
-                    
-                        <div class="row">
-                            <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2015-06-04-my-first-sqlhangout/">My (first) #SQLHangout</a></h1>
-                                <ul class="list-inline">
-                                    <li><i class="fa fa-calendar"></i>June 4, 2015</li>
-                                    <li><i class="fa fa-user"></i>Steph</li>
-                                </ul>
-                                Yesterday I had the pleasure of hanging out &#8220;on air&#8221; with Boris Hristov.
-We talked open sourcing!
-You can download and/or contribute to the following projects I have going:
- MeDriAnchor: the Metadata Driven Anchor model system. You get to have a lot of fun with 6NF! optiRum: a useful package for R, especially for the UK tfsR: for my own special brand of crazy, working with TFS git repositories in R  James Skipwith (the other major developer on MeDriAnchor) presented on automation and covers MeDriAnchor &#8211; you can check it out at SQLBits.
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2015-06-04-my-first-sqlhangout/" role="button">Read More</a>
-                            </div>
-                        </div>
-                    
-                        <div class="row">
-                            <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2015-05-18-sqlsaturday-portugal/">SQLSaturday Portugal</a></h1>
-                                <ul class="list-inline">
-                                    <li><i class="fa fa-calendar"></i>May 18, 2015</li>
-                                    <li><i class="fa fa-user"></i>Steph</li>
-                                </ul>
-                                <p><a href="http://www.sqlsaturday.com/369/EventHome.aspx">SQLSaturday Portugal 2015</a> has been a huge amount of fun but I&#8217;ve also learnt a lot. A big thank you to the organisers!</p>
-
-<p>Below are my slides and notes from sessions I attended.</p>
-
-<h2 id="agile-bi">Agile BI</h2>
-
-<p>My session slides:</p>
-
-<p></p>
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2015-05-18-sqlsaturday-portugal/" role="button">Read More</a>
-                            </div>
-                        </div>
-                    
-                        <div class="row">
-                            <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2015-04-07-stuff-i-read-this-bit-more-than-a-week/">Stuff I read this (bit more than a) week</a></h1>
-                                <ul class="list-inline">
-                                    <li><i class="fa fa-calendar"></i>April 7, 2015</li>
-                                    <li><i class="fa fa-user"></i>Steph</li>
-                                </ul>
-                                It&#8217;s been a wee while due to SQLBits disruptions and a crazy work schedule but here&#8217;s some of what I&#8217;ve been reading recently:
- Introverts, Extroverts, and the Complexities of Team Dynamics Azure Blob Storage introduction Kevin Kline: Advice to new bloggers Editing for people who love to write too much ProBlogger generally after KK&#8217;s recommendation Why oil prices came down. and won&#8217;t any more Test Driven Analysis Standardising function names in R Microservices at Netflix Microsoft closes acquisition of Revolution Analytics  
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2015-04-07-stuff-i-read-this-bit-more-than-a-week/" role="button">Read More</a>
-                            </div>
-                        </div>
-                    
-                        <div class="row">
-                            <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2015-04-06-working-with-azure-blob-storage-rest-api/">Working with Azure Blob Storage, some notes</a></h1>
-                                <ul class="list-inline">
-                                    <li><i class="fa fa-calendar"></i>April 6, 2015</li>
-                                    <li><i class="fa fa-user"></i>Steph</li>
-                                </ul>
-                                <p>I&#8217;m working on building a snazzy <a href="https://github.com/stephlocke/Rtraining/blob/master/inst/slidedecks/shiny/Dashboards.Rmd" title="My shiny presentation" target="_blank">shiny</a> app that a) drops the inputs/parameter values into <a href="http://azure.microsoft.com/en-gb/documentation/articles/storage-introduction/" title="Azure storage intro" target="_blank">blob storage</a> and b) uses <a href="http://azure.microsoft.com/en-gb/services/stream-analytics/" title="Stream Analytics" target="_blank">Stream Analytics</a> to query the values and present back what people are saying at the moment. This&#8217;ll be a fab tool for <a href="https://itsalocke.com/index.php/r-pre-con-sqlsat-exeter/" title="My R Pre-Con: SQLSat Exeter" target="_blank">my pre-con next month</a> if I can get it working in time!</p>
-
-<p>Getting it working, does however mean utilising the <a href="https://msdn.microsoft.com/en-us/library/azure/dd179355.aspx" title="Storage API documentation" target="_blank">Azure Blob Storage API</a> in R which I confess is much harder than expected, especially after the ease of using the Visual Studio Online API for <a href="https://itsalocke.com/index.php/bride-of-frankenstein-tfs-r/" title="Bride of Frankenstein: TFS + R" target="_blank">tfsR</a>. To that end, I thought I&#8217;d write-up some of my findings before I do a bigger write-up that illustrates how to do everything (in R).</p>
-
-<p>I&#8217;m working my way through an <a href="http://justazure.com/azure-blob-storage-part-one-introduction/" title="Just Azure - working with blob storage">intro to azure storage</a> on the (hopefully reasonable) expectation that more knowledge will make it easier to work with. There&#8217;s additionally the <a href="https://msdn.microsoft.com/en-us/library/azure/dd135733.aspx" title="Blob Storage REST API" target="_blank">online reference</a>, although I found the <a href="https://www.visualstudio.com/en-us/integrate/api/overview" title="Visual Studio Online REST API documentation" target="_blank">VSO REST API</a> documentation easier to understand and get started with.</p>
-
-<p></p>
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2015-04-06-working-with-azure-blob-storage-rest-api/" role="button">Read More</a>
-                            </div>
-                        </div>
-                    
-                        <div class="row">
-                            <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2015-03-23-deployr-why-microsoft-bought-revolution/">DeployR – why Microsoft bought Revolution?</a></h1>
-                                <ul class="list-inline">
-                                    <li><i class="fa fa-calendar"></i>March 23, 2015</li>
-                                    <li><i class="fa fa-user"></i>Steph</li>
-                                </ul>
-                                I&#8217;ve been asked by a few people recently about why I don&#8217;t use Azure Machine Learning (ML). I answer that I don&#8217;t use it yet, and the reason being that at the moment the robust development life-cycle isn&#8217;t in place around it. I think that will change &#8211; one of the great reasons for the acquisition of Revolution Analytics (in my opinion) is their DeployR system.
-DeployR is essentially an R web service platform.
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2015-03-23-deployr-why-microsoft-bought-revolution/" role="button">Read More</a>
-                            </div>
-                        </div>
-                    
-                    
-    <div class="row">
-        <div class="col-md-12">
-            <div class="row">
-                <div class="col-md-4" style="text-align: left; padding-left: 0px">
-                    
-                </div>
-                <div class="col-md-4 col-md-offset-4" style="text-align: right; padding-right: 0px">
-                    
-                        <a class="btn btn-default" href="/itsalockeblog/tags/azure/page/2/" role="button" style="border-radius: 0px; display: block">Older</a>
-                    
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-                </div>
    <div class="col-md-4">                    
 	
 <div class="row">
-    <div class="col-md-11 col-md-offset-1 card">
+    <div class="col-md-11 card">
         <h5>Locke Data Blog</h5>
         <p>A description that will appear as a default if front matter does not exist</p>
-		<img class="avatar" src="img/ChibiSteph.svg"></img>
+		<img class="avatar" src=http://lockedata.uk/itsalockeblog/img/ChibiSteph.svg></img>
     </div>
 </div>
 
     <div class="row">
-    <div class="col-md-11 col-md-offset-1 card">
+    <div class="col-md-11 card">
         <h5>Search</h5>
         <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form">
             <div class="input-group">
@@ -298,7 +106,7 @@ DeployR is essentially an R web service platform.
     
     
         <div class="row">
-            <div class="col-md-11 col-md-offset-1 card">
+            <div class="col-md-11  card">
                 <h5>categories</h5>
                 <ul class="list-unstyled posts-recent">
                     
@@ -323,6 +131,198 @@ DeployR is essentially an R web service platform.
 
 
 </div>
+                <div class="col-md-8">
+                    
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockedata.uk/itsalockeblog/i-love-azure-functions/">I Love Azure Functions!</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>December 1, 2016</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                A while ago, I started my Stumbling Into series. I started but only got one in &#8211; I was gonna talk about how I failed with Azure Functions next. I was failing because the docs outside C# (and node.js) were so limited that I found it difficult to get things done. However, I persevered and overcame a little bit of C#-ophobia and I can honestly say it has been so worth it.
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/i-love-azure-functions/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockedata.uk/itsalockeblog/slack-all-the-things/">Slack all the things!</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>October 21, 2016</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                Slack all the things! OK, if you haven&#8217;t heard of it before Slack is kinda like IRC, kinda like Dropbox, kinda like a lot of things &#8211; it&#8217;s a neat place to bring together communications between your team or community, and the integrations allow you to pipe in external feeds like twitter activity or RSS. It&#8217;s a great way of collaborating online and I&#8217;ve found it especially useful not just within a company but within a global community.
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/slack-all-the-things/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockedata.uk/itsalockeblog/stumbling-into--azure-automation/">Stumbling into … Azure Automation</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>July 11, 2016</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                <p>I&#8217;ve recently been trying to solve the challenge of working extracting files from AWS and getting them into Azure in my desired format. I wanted a solution that kept everything on the cloud and completely avoid local tin. I wanted it to have built-in auditing and error handling. I wanted something whizzy and new, to be honest! One way in which I attempted to tackle the task was with <a href="https://azure.microsoft.com/en-gb/services/automation/">Azure Automation</a>. In this post, I&#8217;ll overview Automation and explore how it stacked up for what I was attempting to use it for.</p>
+
+<blockquote>
+<p>Overall Task: Get compressed (.tar.gz) files from AWS S3 to Azure, decompress the files, concatenate the contents and put in a different container for analytics magic</p>
+</blockquote>
+
+<p>Like with most things I dropped myself into the deep-end on it so had fairly minimal knowledge of PowerShell and the Azure modules, therefore I fully expect more knowledgeable folks to wince at my stuff. General advice, &#8220;you should do it like this, then this&#8230;&#8221;&#8216;s, and resource recommendations are all very welcome &#8211; leave a comment with them in!</p>
+
+<h2 id="azure-automation">Azure Automation</h2>
+
+<p>Azure Automation is essentially a hosted PowerShell script execution service. It seems to be aimed primarily at managing Azure resources, particularly via <a href="https://www.simple-talk.com/sysadmin/powershell/powershell-desired-state-configuration-the-basics/">Desired State Configurations</a>.</p>
+
+<p>It is, however, a general PowerShell powerhouse, with scheduling capabilities and a bunch of useful features for the safe storage of credentials etc. This makes it an excellent tool if you&#8217;re looking to do something with PowerShell on a regular basis and need to interact with Azure.</p>
+
+<p></p>
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/stumbling-into--azure-automation/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockedata.uk/itsalockeblog/azure-storage-accounts--resource-groups-matter-to-powershell/">Azure Storage Accounts – Resource Groups matter to PowerShell!</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>June 10, 2016</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                I&#8217;m sure that all my PoSh friends out there, who use Azure and PowerShell all the time probably know this already but I thought I&#8217;d share a little snippet of hard-won knowledge.
+ When you put an Azure Storage Account into a Resource Group, you can no longer use the default Azure.Storage module. Instead, you&#8217;ve got to use the AzureRM.Storage module.
+ All the scripts I encountered whilst googling how to connect to blob storage via PowerShell, including the ones in the script gallery within Azure Automation seemed to all assume the azure storage account you wanted to connect to was standalone.
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/azure-storage-accounts--resource-groups-matter-to-powershell/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockedata.uk/itsalockeblog/installing-sql-server-odbc-drivers-on-ubuntu-15.04/">Installing SQL Server ODBC drivers on Ubuntu 15.04</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>April 20, 2016</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                <p><strong>UPDATE 2016-10-21 : You can now get the ODBC 13 driver for Linux with a much smoother install process than below. Get all the relevant information on <a href="https://blogs.msdn.microsoft.com/sqlnativeclient/2016/10/20/odbc-driver-13-0-for-linux-released/">the announcement from the Microsoft SQLNCli team blog</a>.</strong></p>
+
+<p>Did you know you can now get <a href="https://www.microsoft.com/en-gb/server-cloud/sql-server-on-linux.aspx">SQL Server ODBC drivers for Ubuntu</a>? Yes, no, maybe? It&#8217;s ok even if you haven&#8217;t since it&#8217;s pretty new! Anyway, this presents me with an ideal opportunity to standardise my SQL Server ODBC connections across the operating systems I use R on i.e. Windows and Ubuntu. My first trial was to get it working on <a href="https://travis-ci.org">Travis-CI</a> since that&#8217;s where all my training magic happens and if it can&#8217;t work on a clean build like Travis, then where can it work? Alas, the ODBC 13 driver doesn&#8217;t work Ubuntu 14.04 so this set of instructions has been modified to provide code for Ubuntu 15.04 only.</p>
+
+<h2 id="tl-dr">TL;DR</h2>
+
+<p>It works, but it&#8217;s really hacky right now. Definitely looking forward to the next iterations of this driver.</p>
+
+<h2 id="disclaimer">Disclaimer</h2>
+
+<ul>
+<li>This will work for Ubuntu 15.04 but 14.04 has a different set of C compilers</li>
+<li>This is currently hacky, and Microsoft are on the case for improving it so this post could quickly become out of date.</li>
+<li>Be very careful installing the driver on an existing machine. Due to the overwriting of unixODBC if already installed and potential compatibility issues with other driver managers you may have installed.</li>
+</ul>
+
+<p></p>
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/installing-sql-server-odbc-drivers-on-ubuntu-15.04/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockedata.uk/itsalockeblog/my-first-#sqlhangout/">My (first) #SQLHangout</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>June 4, 2015</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                Yesterday I had the pleasure of hanging out &#8220;on air&#8221; with Boris Hristov.
+We talked open sourcing!
+You can download and/or contribute to the following projects I have going:
+ MeDriAnchor: the Metadata Driven Anchor model system. You get to have a lot of fun with 6NF! optiRum: a useful package for R, especially for the UK tfsR: for my own special brand of crazy, working with TFS git repositories in R  James Skipwith (the other major developer on MeDriAnchor) presented on automation and covers MeDriAnchor &#8211; you can check it out at SQLBits.
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/my-first-#sqlhangout/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockedata.uk/itsalockeblog/sqlsaturday-portugal/">SQLSaturday Portugal</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>May 18, 2015</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                <p><a href="http://www.sqlsaturday.com/369/EventHome.aspx">SQLSaturday Portugal 2015</a> has been a huge amount of fun but I&#8217;ve also learnt a lot. A big thank you to the organisers!</p>
+
+<p>Below are my slides and notes from sessions I attended.</p>
+
+<h2 id="agile-bi">Agile BI</h2>
+
+<p>My session slides:</p>
+
+<p></p>
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/sqlsaturday-portugal/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockedata.uk/itsalockeblog/stuff-i-read-this-bit-more-than-a-week/">Stuff I read this (bit more than a) week</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>April 7, 2015</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                It&#8217;s been a wee while due to SQLBits disruptions and a crazy work schedule but here&#8217;s some of what I&#8217;ve been reading recently:
+ Introverts, Extroverts, and the Complexities of Team Dynamics Azure Blob Storage introduction Kevin Kline: Advice to new bloggers Editing for people who love to write too much ProBlogger generally after KK&#8217;s recommendation Why oil prices came down. and won&#8217;t any more Test Driven Analysis Standardising function names in R Microservices at Netflix Microsoft closes acquisition of Revolution Analytics  
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/stuff-i-read-this-bit-more-than-a-week/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockedata.uk/itsalockeblog/working-with-azure-blob-storage-some-notes/">Working with Azure Blob Storage, some notes</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>April 6, 2015</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                <p>I&#8217;m working on building a snazzy <a href="https://github.com/stephlocke/Rtraining/blob/master/inst/slidedecks/shiny/Dashboards.Rmd" title="My shiny presentation" target="_blank">shiny</a> app that a) drops the inputs/parameter values into <a href="http://azure.microsoft.com/en-gb/documentation/articles/storage-introduction/" title="Azure storage intro" target="_blank">blob storage</a> and b) uses <a href="http://azure.microsoft.com/en-gb/services/stream-analytics/" title="Stream Analytics" target="_blank">Stream Analytics</a> to query the values and present back what people are saying at the moment. This&#8217;ll be a fab tool for <a href="https://itsalocke.com/index.php/r-pre-con-sqlsat-exeter/" title="My R Pre-Con: SQLSat Exeter" target="_blank">my pre-con next month</a> if I can get it working in time!</p>
+
+<p>Getting it working, does however mean utilising the <a href="https://msdn.microsoft.com/en-us/library/azure/dd179355.aspx" title="Storage API documentation" target="_blank">Azure Blob Storage API</a> in R which I confess is much harder than expected, especially after the ease of using the Visual Studio Online API for <a href="https://itsalocke.com/index.php/bride-of-frankenstein-tfs-r/" title="Bride of Frankenstein: TFS + R" target="_blank">tfsR</a>. To that end, I thought I&#8217;d write-up some of my findings before I do a bigger write-up that illustrates how to do everything (in R).</p>
+
+<p>I&#8217;m working my way through an <a href="http://justazure.com/azure-blob-storage-part-one-introduction/" title="Just Azure - working with blob storage">intro to azure storage</a> on the (hopefully reasonable) expectation that more knowledge will make it easier to work with. There&#8217;s additionally the <a href="https://msdn.microsoft.com/en-us/library/azure/dd135733.aspx" title="Blob Storage REST API" target="_blank">online reference</a>, although I found the <a href="https://www.visualstudio.com/en-us/integrate/api/overview" title="Visual Studio Online REST API documentation" target="_blank">VSO REST API</a> documentation easier to understand and get started with.</p>
+
+<p></p>
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/working-with-azure-blob-storage-some-notes/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockedata.uk/itsalockeblog/deployr--why-microsoft-bought-revolution/">DeployR – why Microsoft bought Revolution?</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>March 23, 2015</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                I&#8217;ve been asked by a few people recently about why I don&#8217;t use Azure Machine Learning (ML). I answer that I don&#8217;t use it yet, and the reason being that at the moment the robust development life-cycle isn&#8217;t in place around it. I think that will change &#8211; one of the great reasons for the acquisition of Revolution Analytics (in my opinion) is their DeployR system.
+DeployR is essentially an R web service platform.
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/deployr--why-microsoft-bought-revolution/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                    
+    <div class="row">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-4" style="text-align: left; padding-left: 0px">
+                    
+                </div>
+                <div class="col-md-4 col-md-offset-4" style="text-align: right; padding-right: 0px">
+                    
+                        <a class="btn btn-default" href="/itsalockeblog/tags/azure/page/2/" role="button" style="border-radius: 0px; display: block">Older</a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                </div>
             </div>
         </div>
         <!-- Footer section -->

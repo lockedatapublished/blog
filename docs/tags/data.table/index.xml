@@ -14,10 +14,10 @@
     
     <item>
       <title>R Quick Tip: Collapse a lists of data.frames with data.table</title>
-      <link>http://lockedata.uk/itsalockeblog/2016-04-05-r-quick-tip-collapse-a-lists-of-data-frames-with-data-table/</link>
+      <link>http://lockedata.uk/itsalockeblog/r-quick-tip-collapse-a-lists-of-data.frames-with-data.table/</link>
       <pubDate>Tue, 05 Apr 2016 14:05:26 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2016-04-05-r-quick-tip-collapse-a-lists-of-data-frames-with-data-table/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/r-quick-tip-collapse-a-lists-of-data.frames-with-data.table/</guid>
       <description>&lt;p&gt;With my &lt;a href=&#34;https://github.com/stephlocke/HIBPwned&#34;&gt;HIBPwned&lt;/a&gt; package, I consume the &lt;a href=&#34;https://haveibeenpwned.com/&#34;&gt;HaveIBeenPwned&lt;/a&gt; API and return back a list object with an element for each email address. Each element holds a data.frame of breach data or a stub response with a single column data.frame containing NA. Elements are named with the email addresses they relate to. I had a list of data.frames and I wanted a consolidated data.frame (well, I always want a data.table).&lt;/p&gt;
 
 &lt;p&gt;Enter data.table &amp;#8230;&lt;/p&gt;
@@ -29,10 +29,10 @@
     
     <item>
       <title>An R data.table cookbook</title>
-      <link>http://lockedata.uk/itsalockeblog/2015-04-08-data-table-cookbook/</link>
+      <link>http://lockedata.uk/itsalockeblog/an-r-data.table-cookbook/</link>
       <pubDate>Wed, 08 Apr 2015 11:47:08 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2015-04-08-data-table-cookbook/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/an-r-data.table-cookbook/</guid>
       <description>For my precon on R at the end of the month I&amp;#8217;m working on the takeaway &amp;#8212; the handout. This&amp;#8217;ll be thing that makes the training day able to be put into practice immediately, and refills all those drink and sleep depleted neurons back up with R knowledge.
 One of the things is a simple data.table cookbook. If you&amp;#8217;re a data.table user, what other tasks do you think should be on there?</description>
     </item>

@@ -14,10 +14,10 @@
     
     <item>
       <title>Error installing latest R version (3.4.0) on Windows</title>
-      <link>http://lockedata.uk/itsalockeblog/2017-05-03-error-installing-latest-r-version-3-4-0-windows/</link>
+      <link>http://lockedata.uk/itsalockeblog/error-installing-latest-r-version-3.4.0-on-windows/</link>
       <pubDate>Wed, 03 May 2017 17:57:13 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2017-05-03-error-installing-latest-r-version-3-4-0-windows/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/error-installing-latest-r-version-3.4.0-on-windows/</guid>
       <description>UPDATE: R 3.4.1 does not have this problem so you can install that version instead
 If you&amp;#8217;re getting the following error when you&amp;#8217;ve installed R 3.4.0 on Windows, you&amp;#8217;re not alone.
  Error in if (file.exists(dest) &amp;amp;&amp;amp; file.mtime(dest) &amp;gt; file.mtime(lib) &amp;amp;&amp;amp; :

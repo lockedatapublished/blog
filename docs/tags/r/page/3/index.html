@@ -78,12 +78,65 @@
 
         <div id="top" class="container">
             <div class="row" id="content-main">
+   <div class="col-md-4">                    
+	
+<div class="row">
+    <div class="col-md-11 card">
+        <h5>Locke Data Blog</h5>
+        <p>A description that will appear as a default if front matter does not exist</p>
+		<img class="avatar" src=http://lockedata.uk/itsalockeblog/img/ChibiSteph.svg></img>
+    </div>
+</div>
+
+    <div class="row">
+    <div class="col-md-11 card">
+        <h5>Search</h5>
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form">
+            <div class="input-group">
+                <input class="form-control" type="search" name="q" />
+                <span class="input-group-btn">
+                    <button class="btn btn-primary" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+                </span>
+            </div>
+            <input type="hidden" name="q" value="site:http://lockedata.uk/itsalockeblog/">
+        </form>
+    </div>
+</div>
+
+    
+    
+        <div class="row">
+            <div class="col-md-11  card">
+                <h5>categories</h5>
+                <ul class="list-unstyled posts-recent">
+                    
+                        <li><a href="http://lockedata.uk/itsalockeblog/categories/r">r</a></li>
+                    
+                        <li><a href="http://lockedata.uk/itsalockeblog/categories/community">community</a></li>
+                    
+                        <li><a href="http://lockedata.uk/itsalockeblog/categories/microsoft-data-platform">microsoft-data-platform</a></li>
+                    
+                        <li><a href="http://lockedata.uk/itsalockeblog/categories/data-science">data-science</a></li>
+                    
+                        <li><a href="http://lockedata.uk/itsalockeblog/categories/misc-technology">misc-technology</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    
+
+    
+
+    
+
+
+</div>
                 <div class="col-md-8">
                     
                     
                         <div class="row">
                             <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2016-04-19-shiny-module-design-patterns-pass-module-input-to-other-modules/">Shiny module design patterns: Pass module inputs to other modules</a></h1>
+                                <h1><a href="http://lockedata.uk/itsalockeblog/shiny-module-design-patterns-pass-module-inputs-to-other-modules/">Shiny module design patterns: Pass module inputs to other modules</a></h1>
                                 <ul class="list-inline">
                                     <li><i class="fa fa-calendar"></i>April 19, 2016</li>
                                     <li><i class="fa fa-user"></i>Steph</li>
@@ -95,13 +148,13 @@
 <p>Return <code>input</code> from within the server call. Store the <code>callModule()</code> result in a variable. Pass the variable into arguments for other modules. Access the variable like you would <code>input</code>. <a href="https://github.com/stephlocke/shinymodulesdesignpatterns">Steal the code</a> and, as always, if you can improve it do so!</p>
 
 <p></p>
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2016-04-19-shiny-module-design-patterns-pass-module-input-to-other-modules/" role="button">Read More</a>
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/shiny-module-design-patterns-pass-module-inputs-to-other-modules/" role="button">Read More</a>
                             </div>
                         </div>
                     
                         <div class="row">
                             <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2016-04-14-shiny-module-design-patterns-pass-module-inputs-modules/">Shiny module design patterns: Pass module input to other modules</a></h1>
+                                <h1><a href="http://lockedata.uk/itsalockeblog/shiny-module-design-patterns-pass-module-input-to-other-modules/">Shiny module design patterns: Pass module input to other modules</a></h1>
                                 <ul class="list-inline">
                                     <li><i class="fa fa-calendar"></i>April 14, 2016</li>
                                     <li><i class="fa fa-user"></i>Steph</li>
@@ -113,13 +166,13 @@
 <p>Return the input in a reactive expression from within the server call. Store the <code>callModule()</code> result in a variable. Pass the variable into arguments for other modules. <a href="https://github.com/stephlocke/shinymodulesdesignpatterns">Steal the code</a> and, as always, if you can improve it do so!</p>
 
 <p></p>
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2016-04-14-shiny-module-design-patterns-pass-module-inputs-modules/" role="button">Read More</a>
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/shiny-module-design-patterns-pass-module-input-to-other-modules/" role="button">Read More</a>
                             </div>
                         </div>
                     
                         <div class="row">
                             <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2016-04-12-using-travis-make-sure-use-github-pat/">Using Travis? Make sure you use a Github PAT</a></h1>
+                                <h1><a href="http://lockedata.uk/itsalockeblog/using-travis-make-sure-you-use-a-github-pat/">Using Travis? Make sure you use a Github PAT</a></h1>
                                 <ul class="list-inline">
                                     <li><i class="fa fa-calendar"></i>April 12, 2016</li>
                                     <li><i class="fa fa-user"></i>Steph</li>
@@ -139,13 +192,13 @@
 <p>The R integration in Travis makes good use of the <a href="https://cran.r-project.org/package=devtools">devtools</a>. The devtools package looks for an environment variable called <code>GITHUB_PAT</code> that holds a <a href="https://help.github.com/articles/creating-an-access-token-for-command-line-use/">personal access token</a> (PAT) for using the GitHub API and if it doesn&#8217;t find one it uses a default token. When we get our own PAT and store it in Travis, devtools will pick up our token and use it, meaning you&#8217;ll only ever get rate limited if you do more than 5000 builds in an hour, which is an achievement I&#8217;d love to hear about.</p>
 
 <p></p>
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2016-04-12-using-travis-make-sure-use-github-pat/" role="button">Read More</a>
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/using-travis-make-sure-you-use-a-github-pat/" role="button">Read More</a>
                             </div>
                         </div>
                     
                         <div class="row">
                             <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2016-04-08-shiny-module-design-pattern-pass-inputs-one-module-another/">Shiny module design patterns: Pass a single input to multiple modules</a></h1>
+                                <h1><a href="http://lockedata.uk/itsalockeblog/shiny-module-design-patterns-pass-a-single-input-to-multiple-modules/">Shiny module design patterns: Pass a single input to multiple modules</a></h1>
                                 <ul class="list-inline">
                                     <li><i class="fa fa-calendar"></i>April 8, 2016</li>
                                     <li><i class="fa fa-user"></i>Steph</li>
@@ -157,13 +210,13 @@
 <p>Stick overall config input objects at the app level and pass them in a reactive expression to <code>callModule()</code>. Pass the results in as an extra argument into subsequent modules. These are reactive so don&#8217;t forget the brackets. <a href="https://github.com/stephlocke/shinymodulesdesignpatterns">Steal the code</a> and, as always, if you can improve it do so!</p>
 
 <p></p>
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2016-04-08-shiny-module-design-pattern-pass-inputs-one-module-another/" role="button">Read More</a>
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/shiny-module-design-patterns-pass-a-single-input-to-multiple-modules/" role="button">Read More</a>
                             </div>
                         </div>
                     
                         <div class="row">
                             <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2016-04-05-r-quick-tip-collapse-a-lists-of-data-frames-with-data-table/">R Quick Tip: Collapse a lists of data.frames with data.table</a></h1>
+                                <h1><a href="http://lockedata.uk/itsalockeblog/r-quick-tip-collapse-a-lists-of-data.frames-with-data.table/">R Quick Tip: Collapse a lists of data.frames with data.table</a></h1>
                                 <ul class="list-inline">
                                     <li><i class="fa fa-calendar"></i>April 5, 2016</li>
                                     <li><i class="fa fa-user"></i>Steph</li>
@@ -175,13 +228,13 @@
 <p><a href="https://cran.r-project.org/package=data.table">data.table</a> has a very cool, and <a href="http://stackoverflow.com/questions/15673550/why-is-rbindlist-better-than-rbind">very fast</a> function named <code>rbindlist()</code>. This takes a list of data.frames and consolidates them into one data.table, which can, of course, be handled as a data.frame if you didn&#8217;t want to use data.table for anything else.</p>
 
 <p></p>
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2016-04-05-r-quick-tip-collapse-a-lists-of-data-frames-with-data-table/" role="button">Read More</a>
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/r-quick-tip-collapse-a-lists-of-data.frames-with-data.table/" role="button">Read More</a>
                             </div>
                         </div>
                     
                         <div class="row">
                             <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2016-04-04-auto-deploying-documentation-better-change-tracking-artefacts/">Auto-deploying documentation: better change tracking of artefacts</a></h1>
+                                <h1><a href="http://lockedata.uk/itsalockeblog/auto-deploying-documentation-better-change-tracking-of-artefacts/">Auto-deploying documentation: better change tracking of artefacts</a></h1>
                                 <ul class="list-inline">
                                     <li><i class="fa fa-calendar"></i>April 4, 2016</li>
                                     <li><i class="fa fa-user"></i>Steph</li>
@@ -215,39 +268,39 @@
 <p>Using an environment variable ($TRAVIS_COMMIT) the commit message is the commit ID for the latest commit in the build that occurs on Travis, making it very easy to see what changes triggered a documentation update.</p>
 
 <p></p>
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2016-04-04-auto-deploying-documentation-better-change-tracking-artefacts/" role="button">Read More</a>
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/auto-deploying-documentation-better-change-tracking-of-artefacts/" role="button">Read More</a>
                             </div>
                         </div>
                     
                         <div class="row">
                             <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2016-03-24-r-package-news-tfsr-hibpwned-mockaroo/">R package news: tfsR, HIBPwned, mockaRoo</a></h1>
+                                <h1><a href="http://lockedata.uk/itsalockeblog/r-package-news-tfsr-hibpwned-mockaroo/">R package news: tfsR, HIBPwned, mockaRoo</a></h1>
                                 <ul class="list-inline">
                                     <li><i class="fa fa-calendar"></i>March 24, 2016</li>
                                     <li><i class="fa fa-user"></i>Steph</li>
                                 </ul>
                                 This is a brief update on my packages not currently on CRAN: tfsR, HIBPwned, and mockaRoo.
 tfsR tfsR is designed to help you work git repositories in Microsoft Team Foundation Server (TFS) and Visual Studio Team Services (VSTS). I wrote the package a while ago and it has/had just two functions; one for getting a list of git repositories, and one for making a new git repository. The release of httr 1.
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2016-03-24-r-package-news-tfsr-hibpwned-mockaroo/" role="button">Read More</a>
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/r-package-news-tfsr-hibpwned-mockaroo/" role="button">Read More</a>
                             </div>
                         </div>
                     
                         <div class="row">
                             <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2016-03-23-satrdays-are-go/">satRdays are go!</a></h1>
+                                <h1><a href="http://lockedata.uk/itsalockeblog/satrdays-are-go/">satRdays are go!</a></h1>
                                 <ul class="list-inline">
                                     <li><i class="fa fa-calendar"></i>March 23, 2016</li>
                                     <li><i class="fa fa-user"></i>Steph</li>
                                 </ul>
                                 I&#8217;m very pleased to say that the R Consortium agreed to the support the satRday project!
 The idea kicked off in November and I was over the moon with the response from the community, then we garnered support before submitting to the Consortium and I must have looped the moon a few times as we had more than 500 responses. Now the R Consortium are supporting us and we can turn all that enthusiasm into action.
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2016-03-23-satrdays-are-go/" role="button">Read More</a>
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/satrdays-are-go/" role="button">Read More</a>
                             </div>
                         </div>
                     
                         <div class="row">
                             <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2016-03-21-r-package-haveibeenpwned-com/">HIBPwned, an R package for HaveIBeenPwned.com</a></h1>
+                                <h1><a href="http://lockedata.uk/itsalockeblog/hibpwned-an-r-package-for-haveibeenpwned.com/">HIBPwned, an R package for HaveIBeenPwned.com</a></h1>
                                 <ul class="list-inline">
                                     <li><i class="fa fa-calendar"></i>March 21, 2016</li>
                                     <li><i class="fa fa-user"></i>Steph</li>
@@ -261,13 +314,13 @@ The idea kicked off in November and I was over the moon with the response from t
 <p>The package is currently available on github @ <a href="https://github.com/stephlocke/HIBPwned">stephlocke/HIBPwned</a>, but I intend to submit to CRAN after getting some feedback from y&#8217;all.</p>
 
 <p></p>
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2016-03-21-r-package-haveibeenpwned-com/" role="button">Read More</a>
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/hibpwned-an-r-package-for-haveibeenpwned.com/" role="button">Read More</a>
                             </div>
                         </div>
                     
                         <div class="row">
                             <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2016-03-08-mockaroo-making-realistic-test-data-in-r/">mockaRoo – making realistic test data in R</a></h1>
+                                <h1><a href="http://lockedata.uk/itsalockeblog/mockaroo--making-realistic-test-data-in-r/">mockaRoo – making realistic test data in R</a></h1>
                                 <ul class="list-inline">
                                     <li><i class="fa fa-calendar"></i>March 8, 2016</li>
                                     <li><i class="fa fa-user"></i>Steph</li>
@@ -281,7 +334,7 @@ The idea kicked off in November and I was over the moon with the response from t
 <p>I&#8217;ve started the package on <a href="https://github.com/stephlocke/mockaRoo">github</a> and will be developing it over the next month or two. It&#8217;s up and working, but only in the most primitive way as I&#8217;d like to get some feedback from folks who might find this useful around how the interface for generating your desired data schema should work.</p>
 
 <p></p>
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2016-03-08-mockaroo-making-realistic-test-data-in-r/" role="button">Read More</a>
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/mockaroo--making-realistic-test-data-in-r/" role="button">Read More</a>
                             </div>
                         </div>
                     
@@ -305,59 +358,6 @@ The idea kicked off in November and I was over the moon with the response from t
 
 
                 </div>
-   <div class="col-md-4">                    
-	
-<div class="row">
-    <div class="col-md-11 col-md-offset-1 card">
-        <h5>Locke Data Blog</h5>
-        <p>A description that will appear as a default if front matter does not exist</p>
-		<img class="avatar" src="img/ChibiSteph.svg"></img>
-    </div>
-</div>
-
-    <div class="row">
-    <div class="col-md-11 col-md-offset-1 card">
-        <h5>Search</h5>
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form">
-            <div class="input-group">
-                <input class="form-control" type="search" name="q" />
-                <span class="input-group-btn">
-                    <button class="btn btn-primary" type="submit"><span class="glyphicon glyphicon-search"></span></button>
-                </span>
-            </div>
-            <input type="hidden" name="q" value="site:http://lockedata.uk/itsalockeblog/">
-        </form>
-    </div>
-</div>
-
-    
-    
-        <div class="row">
-            <div class="col-md-11 col-md-offset-1 card">
-                <h5>categories</h5>
-                <ul class="list-unstyled posts-recent">
-                    
-                        <li><a href="http://lockedata.uk/itsalockeblog/categories/r">r</a></li>
-                    
-                        <li><a href="http://lockedata.uk/itsalockeblog/categories/community">community</a></li>
-                    
-                        <li><a href="http://lockedata.uk/itsalockeblog/categories/microsoft-data-platform">microsoft-data-platform</a></li>
-                    
-                        <li><a href="http://lockedata.uk/itsalockeblog/categories/data-science">data-science</a></li>
-                    
-                        <li><a href="http://lockedata.uk/itsalockeblog/categories/misc-technology">misc-technology</a></li>
-                    
-                </ul>
-            </div>
-        </div>
-    
-
-    
-
-    
-
-
-</div>
             </div>
         </div>
         <!-- Footer section -->

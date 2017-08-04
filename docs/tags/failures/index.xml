@@ -14,10 +14,10 @@
     
     <item>
       <title>Stumbling into … Azure Automation</title>
-      <link>http://lockedata.uk/itsalockeblog/2016-07-11-stumbling-into-azure-automation/</link>
+      <link>http://lockedata.uk/itsalockeblog/stumbling-into--azure-automation/</link>
       <pubDate>Mon, 11 Jul 2016 09:46:12 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2016-07-11-stumbling-into-azure-automation/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/stumbling-into--azure-automation/</guid>
       <description>&lt;p&gt;I&amp;#8217;ve recently been trying to solve the challenge of working extracting files from AWS and getting them into Azure in my desired format. I wanted a solution that kept everything on the cloud and completely avoid local tin. I wanted it to have built-in auditing and error handling. I wanted something whizzy and new, to be honest! One way in which I attempted to tackle the task was with &lt;a href=&#34;https://azure.microsoft.com/en-gb/services/automation/&#34;&gt;Azure Automation&lt;/a&gt;. In this post, I&amp;#8217;ll overview Automation and explore how it stacked up for what I was attempting to use it for.&lt;/p&gt;
 
 &lt;blockquote&gt;

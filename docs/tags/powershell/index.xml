@@ -14,10 +14,10 @@
     
     <item>
       <title>Stumbling into … Azure Automation</title>
-      <link>http://lockedata.uk/itsalockeblog/2016-07-11-stumbling-into-azure-automation/</link>
+      <link>http://lockedata.uk/itsalockeblog/stumbling-into--azure-automation/</link>
       <pubDate>Mon, 11 Jul 2016 09:46:12 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2016-07-11-stumbling-into-azure-automation/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/stumbling-into--azure-automation/</guid>
       <description>&lt;p&gt;I&amp;#8217;ve recently been trying to solve the challenge of working extracting files from AWS and getting them into Azure in my desired format. I wanted a solution that kept everything on the cloud and completely avoid local tin. I wanted it to have built-in auditing and error handling. I wanted something whizzy and new, to be honest! One way in which I attempted to tackle the task was with &lt;a href=&#34;https://azure.microsoft.com/en-gb/services/automation/&#34;&gt;Azure Automation&lt;/a&gt;. In this post, I&amp;#8217;ll overview Automation and explore how it stacked up for what I was attempting to use it for.&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -37,10 +37,10 @@
     
     <item>
       <title>Azure Storage Accounts – Resource Groups matter to PowerShell!</title>
-      <link>http://lockedata.uk/itsalockeblog/2016-06-10-azure-storage-accounts-resource-groups-matter-to-powershell/</link>
+      <link>http://lockedata.uk/itsalockeblog/azure-storage-accounts--resource-groups-matter-to-powershell/</link>
       <pubDate>Fri, 10 Jun 2016 09:00:21 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2016-06-10-azure-storage-accounts-resource-groups-matter-to-powershell/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/azure-storage-accounts--resource-groups-matter-to-powershell/</guid>
       <description>I&amp;#8217;m sure that all my PoSh friends out there, who use Azure and PowerShell all the time probably know this already but I thought I&amp;#8217;d share a little snippet of hard-won knowledge.
  When you put an Azure Storage Account into a Resource Group, you can no longer use the default Azure.Storage module. Instead, you&amp;#8217;ve got to use the AzureRM.Storage module.
  All the scripts I encountered whilst googling how to connect to blob storage via PowerShell, including the ones in the script gallery within Azure Automation seemed to all assume the azure storage account you wanted to connect to was standalone.</description>

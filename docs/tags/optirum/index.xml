@@ -14,19 +14,19 @@
     
     <item>
       <title>optiRum 0.37.3 now out</title>
-      <link>http://lockedata.uk/itsalockeblog/2016-01-04-optirum-0-37-3-now-out/</link>
+      <link>http://lockedata.uk/itsalockeblog/optirum-0.37.3-now-out/</link>
       <pubDate>Mon, 04 Jan 2016 07:26:14 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2016-01-04-optirum-0-37-3-now-out/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/optirum-0.37.3-now-out/</guid>
       <description>Just a quick heads up to announce the availability of optiRum 0.37.3 &amp;#8211; this takes into account the new version of ggplot2 and is backwards compatible.</description>
     </item>
     
     <item>
       <title>optiRum 0.37.1 now out</title>
-      <link>http://lockedata.uk/itsalockeblog/2015-11-07-optirum-0-37-1-now-out/</link>
+      <link>http://lockedata.uk/itsalockeblog/optirum-0.37.1-now-out/</link>
       <pubDate>Sat, 07 Nov 2015 19:26:10 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2015-11-07-optirum-0-37-1-now-out/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/optirum-0.37.1-now-out/</guid>
       <description>&lt;p&gt;A while back, I &lt;a href=&#34;https://itsalocke.com/optirum-gini-like-a-wizard/&#34;&gt;wrote about how I was waiting&lt;/a&gt; to be able to release &lt;a href=&#34;https://github.com/stephlocke/optiRum&#34;&gt;optiRum&lt;/a&gt; to CRAN, well data.table 1.9.6 was released (a key dependency for new functionality) and I&amp;#8217;ve finally had some quiet time. So optiRum 1.37.1 is now accepted and trickling through the CRAN publish processes.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -34,10 +34,10 @@
     
     <item>
       <title>optiRum – presentation</title>
-      <link>http://lockedata.uk/itsalockeblog/2015-06-03-optirum-presentation/</link>
+      <link>http://lockedata.uk/itsalockeblog/optirum--presentation/</link>
       <pubDate>Wed, 03 Jun 2015 15:00:31 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2015-06-03-optirum-presentation/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/optirum--presentation/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;&lt;a href=&#34;http://cran.r-project.org/web/packages/optiRum/&#34; title=&#34;optiRum on CRAN&#34; target=&#34;_blank&#34;&gt;optiRum&lt;/a&gt;, the R package I built and support for Optimum on CRAN has gained some extra functions recently. Some of it uses currently experimental data.table functionality so I&amp;#8217;m eagerly awaiting the release to CRAN to deliver optiRum.&lt;/p&gt;
 
@@ -51,10 +51,10 @@
     
     <item>
       <title>optiRum – gini like a wizard</title>
-      <link>http://lockedata.uk/itsalockeblog/2015-04-16-optirum-gini-like-a-wizard/</link>
+      <link>http://lockedata.uk/itsalockeblog/optirum--gini-like-a-wizard/</link>
       <pubDate>Thu, 16 Apr 2015 10:22:38 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2015-04-16-optirum-gini-like-a-wizard/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/optirum--gini-like-a-wizard/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;&lt;a href=&#34;http://cran.r-project.org/web/packages/optiRum/&#34; title=&#34;optiRum on CRAN&#34; target=&#34;_blank&#34;&gt;optiRum&lt;/a&gt;, the R package I built and maintain for Optimum on CRAN has gained some extra functions recently. Some of it uses currently experimental data.table functionality so I&amp;#8217;m eagerly awaiting the release to CRAN to deliver optiRum.&lt;/p&gt;
 

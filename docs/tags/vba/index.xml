@@ -14,10 +14,10 @@
     
     <item>
       <title>Dynamic named range generator</title>
-      <link>http://lockedata.uk/itsalockeblog/2013-08-27-dynamic-named-range-generator/</link>
+      <link>http://lockedata.uk/itsalockeblog/dynamic-named-range-generator/</link>
       <pubDate>Tue, 27 Aug 2013 21:00:50 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2013-08-27-dynamic-named-range-generator/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/dynamic-named-range-generator/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Why do I use &lt;a title=&#34;Dynamic named ranges – the basics&#34; href=&#34;https://itsalocke.com/index.php/dynamic-named-ranges-the-basics/&#34; target=&#34;_blank&#34;&gt;dynamic named ranges&lt;/a&gt;?&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Where I work, most reports are exposed via a web front-end and Excel can create an external connection and retrieve the information.&amp;nbsp; This is much safer than using direct database connections in workbooks.&amp;nbsp; A problem with web queries though is that they cannot be converted to Tables in order for referencing columns and the dataset as a whole to be made easier.&amp;nbsp; As a result, dynamic named ranges are a necessity for producing easy to develop and manage spreadsheets since the volumes in the raw data can change over time.&lt;/p&gt;
@@ -49,39 +49,39 @@
     
     <item>
       <title>RegEx functions in VBA</title>
-      <link>http://lockedata.uk/itsalockeblog/2013-08-20-regex-functions-in-vba/</link>
+      <link>http://lockedata.uk/itsalockeblog/regex-functions-in-vba/</link>
       <pubDate>Tue, 20 Aug 2013 18:55:37 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2013-08-20-regex-functions-in-vba/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/regex-functions-in-vba/</guid>
       <description>Regular Expressions (RegEx) is a common string processing technique for handling strings that conform to patterns, as opposed to fixed strings.XKCD Perl Problems
 It is an excellent set of functionality that is available in most programming languages, and even in SQL. It is however not readily available in Excel or VBA. This has it downsides if you&amp;#8217;re trying to complex string matching and extraction, so in my personal workbook, I include the RegEx functions available at http://www.</description>
     </item>
     
     <item>
       <title>Center across selection</title>
-      <link>http://lockedata.uk/itsalockeblog/2013-05-24-center-across-selection/</link>
+      <link>http://lockedata.uk/itsalockeblog/center-across-selection/</link>
       <pubDate>Fri, 24 May 2013 15:23:29 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2013-05-24-center-across-selection/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/center-across-selection/</guid>
       <description>Merging cells is easily done and can help make a spreadsheet look neat, but what you really, really should be doing instead is centering across the selection so it looks merged but isn&amp;#8217;t. Center across selection though is hidden away and therefore time-consuming to use &amp;#8211; no wonder people have bad habits! I wanted to do things the better way, but was lazy, so in the end I made a macro to go in my personal workbook and assigned it to my ribbon (I do this a lot).</description>
     </item>
     
     <item>
       <title>Time to go home…</title>
-      <link>http://lockedata.uk/itsalockeblog/2013-05-19-time-to-go-home/</link>
+      <link>http://lockedata.uk/itsalockeblog/time-to-go-home/</link>
       <pubDate>Sun, 19 May 2013 15:19:04 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2013-05-19-time-to-go-home/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/time-to-go-home/</guid>
       <description>I do a lot of work in spreadsheets and some cannot be left open on my PC as that&amp;#8217;d make them locked for the morning report refresh. After a bunch of times having to buy cakes for so delaying the reports, I put something in place to stop it. It also had the very nice side effect of telling me to go home.
 The first thing to do is make sure you have a personal workbook.</description>
     </item>
     
     <item>
       <title>Objectless Check Boxes using VBA</title>
-      <link>http://lockedata.uk/itsalockeblog/2013-05-12-objectless-chec-boxes-using-vba/</link>
+      <link>http://lockedata.uk/itsalockeblog/objectless-check-boxes-using-vba/</link>
       <pubDate>Sun, 12 May 2013 14:03:09 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2013-05-12-objectless-chec-boxes-using-vba/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/objectless-check-boxes-using-vba/</guid>
       <description>&lt;p&gt;For my first ever blog post (be gentle with me!) I wanted to talk about an issue I have with Excel’s check box object, and my way of resolving it. It’s not perfect, and I’d love to hear of any other versions or ideas you may have. So here&amp;#8217;s how I create check boxes in Excel without using Excel check boxes.&lt;/p&gt;
 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;

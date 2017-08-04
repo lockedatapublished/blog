@@ -78,52 +78,18 @@
 
         <div id="top" class="container">
             <div class="row" id="content-main">
-                <div class="col-md-8">
-                    
-                    
-                        <div class="row">
-                            <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2016-04-20-installing-sql-server-odbc-drivers-on-ubuntu-15-04/">Installing SQL Server ODBC drivers on Ubuntu 15.04</a></h1>
-                                <ul class="list-inline">
-                                    <li><i class="fa fa-calendar"></i>April 20, 2016</li>
-                                    <li><i class="fa fa-user"></i>Steph</li>
-                                </ul>
-                                <p><strong>UPDATE 2016-10-21 : You can now get the ODBC 13 driver for Linux with a much smoother install process than below. Get all the relevant information on <a href="https://blogs.msdn.microsoft.com/sqlnativeclient/2016/10/20/odbc-driver-13-0-for-linux-released/">the announcement from the Microsoft SQLNCli team blog</a>.</strong></p>
-
-<p>Did you know you can now get <a href="https://www.microsoft.com/en-gb/server-cloud/sql-server-on-linux.aspx">SQL Server ODBC drivers for Ubuntu</a>? Yes, no, maybe? It&#8217;s ok even if you haven&#8217;t since it&#8217;s pretty new! Anyway, this presents me with an ideal opportunity to standardise my SQL Server ODBC connections across the operating systems I use R on i.e. Windows and Ubuntu. My first trial was to get it working on <a href="https://travis-ci.org">Travis-CI</a> since that&#8217;s where all my training magic happens and if it can&#8217;t work on a clean build like Travis, then where can it work? Alas, the ODBC 13 driver doesn&#8217;t work Ubuntu 14.04 so this set of instructions has been modified to provide code for Ubuntu 15.04 only.</p>
-
-<h2 id="tl-dr">TL;DR</h2>
-
-<p>It works, but it&#8217;s really hacky right now. Definitely looking forward to the next iterations of this driver.</p>
-
-<h2 id="disclaimer">Disclaimer</h2>
-
-<ul>
-<li>This will work for Ubuntu 15.04 but 14.04 has a different set of C compilers</li>
-<li>This is currently hacky, and Microsoft are on the case for improving it so this post could quickly become out of date.</li>
-<li>Be very careful installing the driver on an existing machine. Due to the overwriting of unixODBC if already installed and potential compatibility issues with other driver managers you may have installed.</li>
-</ul>
-
-<p></p>
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2016-04-20-installing-sql-server-odbc-drivers-on-ubuntu-15-04/" role="button">Read More</a>
-                            </div>
-                        </div>
-                    
-                    
-
-                </div>
    <div class="col-md-4">                    
 	
 <div class="row">
-    <div class="col-md-11 col-md-offset-1 card">
+    <div class="col-md-11 card">
         <h5>Locke Data Blog</h5>
         <p>A description that will appear as a default if front matter does not exist</p>
-		<img class="avatar" src="img/ChibiSteph.svg"></img>
+		<img class="avatar" src=http://lockedata.uk/itsalockeblog/img/ChibiSteph.svg></img>
     </div>
 </div>
 
     <div class="row">
-    <div class="col-md-11 col-md-offset-1 card">
+    <div class="col-md-11 card">
         <h5>Search</h5>
         <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form">
             <div class="input-group">
@@ -140,7 +106,7 @@
     
     
         <div class="row">
-            <div class="col-md-11 col-md-offset-1 card">
+            <div class="col-md-11  card">
                 <h5>categories</h5>
                 <ul class="list-unstyled posts-recent">
                     
@@ -165,6 +131,40 @@
 
 
 </div>
+                <div class="col-md-8">
+                    
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockedata.uk/itsalockeblog/installing-sql-server-odbc-drivers-on-ubuntu-15.04/">Installing SQL Server ODBC drivers on Ubuntu 15.04</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>April 20, 2016</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                <p><strong>UPDATE 2016-10-21 : You can now get the ODBC 13 driver for Linux with a much smoother install process than below. Get all the relevant information on <a href="https://blogs.msdn.microsoft.com/sqlnativeclient/2016/10/20/odbc-driver-13-0-for-linux-released/">the announcement from the Microsoft SQLNCli team blog</a>.</strong></p>
+
+<p>Did you know you can now get <a href="https://www.microsoft.com/en-gb/server-cloud/sql-server-on-linux.aspx">SQL Server ODBC drivers for Ubuntu</a>? Yes, no, maybe? It&#8217;s ok even if you haven&#8217;t since it&#8217;s pretty new! Anyway, this presents me with an ideal opportunity to standardise my SQL Server ODBC connections across the operating systems I use R on i.e. Windows and Ubuntu. My first trial was to get it working on <a href="https://travis-ci.org">Travis-CI</a> since that&#8217;s where all my training magic happens and if it can&#8217;t work on a clean build like Travis, then where can it work? Alas, the ODBC 13 driver doesn&#8217;t work Ubuntu 14.04 so this set of instructions has been modified to provide code for Ubuntu 15.04 only.</p>
+
+<h2 id="tl-dr">TL;DR</h2>
+
+<p>It works, but it&#8217;s really hacky right now. Definitely looking forward to the next iterations of this driver.</p>
+
+<h2 id="disclaimer">Disclaimer</h2>
+
+<ul>
+<li>This will work for Ubuntu 15.04 but 14.04 has a different set of C compilers</li>
+<li>This is currently hacky, and Microsoft are on the case for improving it so this post could quickly become out of date.</li>
+<li>Be very careful installing the driver on an existing machine. Due to the overwriting of unixODBC if already installed and potential compatibility issues with other driver managers you may have installed.</li>
+</ul>
+
+<p></p>
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/installing-sql-server-odbc-drivers-on-ubuntu-15.04/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                    
+
+                </div>
             </div>
         </div>
         <!-- Footer section -->

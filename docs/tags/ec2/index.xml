@@ -14,10 +14,10 @@
     
     <item>
       <title>Setting up WordPress on Azure</title>
-      <link>http://lockedata.uk/itsalockeblog/2013-05-11-setting-up-wordpress-on-azure/</link>
+      <link>http://lockedata.uk/itsalockeblog/setting-up-wordpress-on-azure/</link>
       <pubDate>Sat, 11 May 2013 22:14:43 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2013-05-11-setting-up-wordpress-on-azure/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/setting-up-wordpress-on-azure/</guid>
       <description>&lt;p&gt;This blog was configured super rapidly with goDaddy and Azure, instead of my previous implementation on EC2.  I&amp;#8217;ve forgone the multi-site installation, with attendant subdomains, and gone for a straight wordpress Website (one of the Azure features).&lt;/p&gt;
 
 &lt;p&gt;I already had an Azure account I&amp;#8217;d gone through the billing setup for &amp;#8211; but that was really simple anyway, so getting the blog up and running consisted of:&lt;/p&gt;

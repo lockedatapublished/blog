@@ -14,10 +14,10 @@
     
     <item>
       <title>HIBPwned on CRAN</title>
-      <link>http://lockedata.uk/itsalockeblog/2016-06-09-hibpwned-on-cran/</link>
+      <link>http://lockedata.uk/itsalockeblog/hibpwned-on-cran/</link>
       <pubDate>Thu, 09 Jun 2016 08:06:58 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2016-06-09-hibpwned-on-cran/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/hibpwned-on-cran/</guid>
       <description>Part of my (slowly) working pipeline of coding projects has been an R package that wraps the fantastic HaveIBeenPwned.com API.
 If you&amp;#8217;re not already familiar with HaveIBeenPwned, rectify the situation, NOW! Don&amp;#8217;t worry about continuing to read the rest of the post; getting yourself signed up for account breach notifications is way more important!Go now!
 /giphy run

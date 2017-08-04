@@ -14,10 +14,10 @@
     
     <item>
       <title>Unit testing in SSDT – a quick intro</title>
-      <link>http://lockedata.uk/itsalockeblog/2016-10-10-unit-testing-in-ssdt-a-quick-intro/</link>
+      <link>http://lockedata.uk/itsalockeblog/unit-testing-in-ssdt--a-quick-intro/</link>
       <pubDate>Mon, 10 Oct 2016 08:00:08 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2016-10-10-unit-testing-in-ssdt-a-quick-intro/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/unit-testing-in-ssdt--a-quick-intro/</guid>
       <description>&lt;p&gt;This post will give you a quick run-through of adding tSQLt to an existing database project destined for Azure SQL DB. This basically covers unit testing in SSDT and there is a lot of excellent info out there, so this focuses on getting you through the initial setup as quickly as possible. This post most especially relies on the information &lt;a href=&#34;https://agilesql.club/&#34;&gt;Ed Elliot&lt;/a&gt; and &lt;a href=&#34;https://kzhendev.wordpress.com/&#34;&gt;Ken Ross&lt;/a&gt; have published, so do check them out for more info on this topic!&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -25,20 +25,20 @@
     
     <item>
       <title>R package news: tfsR, HIBPwned, mockaRoo</title>
-      <link>http://lockedata.uk/itsalockeblog/2016-03-24-r-package-news-tfsr-hibpwned-mockaroo/</link>
+      <link>http://lockedata.uk/itsalockeblog/r-package-news-tfsr-hibpwned-mockaroo/</link>
       <pubDate>Thu, 24 Mar 2016 15:44:03 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2016-03-24-r-package-news-tfsr-hibpwned-mockaroo/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/r-package-news-tfsr-hibpwned-mockaroo/</guid>
       <description>This is a brief update on my packages not currently on CRAN: tfsR, HIBPwned, and mockaRoo.
 tfsR tfsR is designed to help you work git repositories in Microsoft Team Foundation Server (TFS) and Visual Studio Team Services (VSTS). I wrote the package a while ago and it has/had just two functions; one for getting a list of git repositories, and one for making a new git repository. The release of httr 1.</description>
     </item>
     
     <item>
       <title>HIBPwned, an R package for HaveIBeenPwned.com</title>
-      <link>http://lockedata.uk/itsalockeblog/2016-03-21-r-package-haveibeenpwned-com/</link>
+      <link>http://lockedata.uk/itsalockeblog/hibpwned-an-r-package-for-haveibeenpwned.com/</link>
       <pubDate>Mon, 21 Mar 2016 15:02:08 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2016-03-21-r-package-haveibeenpwned-com/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/hibpwned-an-r-package-for-haveibeenpwned.com/</guid>
       <description>&lt;p&gt;The answer in life to the inevitable question of &amp;#8220;How can I do that in R?&amp;#8221; should be &amp;#8220;There&amp;#8217;s a package for that&amp;#8221;. So when I wanted to query &lt;a href=&#34;https://haveibeenpwned.com&#34;&gt;HaveIBeenPwned.com&lt;/a&gt; (HIBP) to check whether a bunch of emails had been involved in data breaches and there wasn&amp;#8217;t an R package for HIBP, it meant that the responsibility for making one landed on my shoulders. Now, you can see if your accounts are at risk with the R package for HaveIBeenPwned.com, &lt;strong&gt;HIBPwned&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;figure id=&#34;attachment_61581&#34; style=&#34;width: 768px&#34; class=&#34;wp-caption alignnone&#34;&gt;&lt;img src=&#34;http://res.cloudinary.com/lockedata/image/upload/h_139,w_750/v1499850337/hibp_os8t5d.png&#34; alt=&#34;Have I Been Pwned | HaveIBeenPwned.com&#34; width=&#34;768&#34; height=&#34;142&#34; class=&#34;size-medium_large wp-image-61581&#34; /&gt;&lt;figcaption class=&#34;wp-caption-text&#34;&gt;Have I Been Pwned | HaveIBeenPwned.com&lt;/figcaption&gt;&lt;/figure&gt;
@@ -52,10 +52,10 @@ tfsR tfsR is designed to help you work git repositories in Microsoft Team Founda
     
     <item>
       <title>mockaRoo – making realistic test data in R</title>
-      <link>http://lockedata.uk/itsalockeblog/2016-03-08-mockaroo-making-realistic-test-data-in-r/</link>
+      <link>http://lockedata.uk/itsalockeblog/mockaroo--making-realistic-test-data-in-r/</link>
       <pubDate>Tue, 08 Mar 2016 14:00:54 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2016-03-08-mockaroo-making-realistic-test-data-in-r/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/mockaroo--making-realistic-test-data-in-r/</guid>
       <description>&lt;p&gt;When I&amp;#8217;m building stuff in R like packages, models, etc. I find myself wishing for realistic looking test data without having to resort to getting data off my production server. To that end I&amp;#8217;ve been on the hunt for a way of generating decent test data. A few months back I stumbled upon the neat system &lt;a href=&#34;https://www.mockaroo.com/&#34;&gt;Mockaroo&lt;/a&gt; which provides a GUI to build some data that suits your needs.&lt;/p&gt;
 
 &lt;p&gt;Mockaroo is a really impressive service with a wide spread of different data types. They also have simple ways of adding things like within group differences to data so that you can mock realistic class differences. They use the freemium model so you can get a thousand rows per download, which is pretty sweet. The big BUT you can feel coming on is this &amp;#8211; it&amp;#8217;s a GUI! I don&amp;#8217;t want to have spend time hand cranking a data extract.&lt;/p&gt;
@@ -69,10 +69,10 @@ tfsR tfsR is designed to help you work git repositories in Microsoft Team Founda
     
     <item>
       <title>DataOps – it’s a thing (honest)</title>
-      <link>http://lockedata.uk/itsalockeblog/2015-10-16-dataops-its-a-thing-honest/</link>
+      <link>http://lockedata.uk/itsalockeblog/dataops--its-a-thing-honest/</link>
       <pubDate>Fri, 16 Oct 2015 20:27:03 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2015-10-16-dataops-its-a-thing-honest/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/dataops--its-a-thing-honest/</guid>
       <description>&lt;p&gt;Today, I presented a &lt;a href=&#34;https://1drv.ms/p/s!AiZm2P6YHtSfjye0xDn_fuL80eSp&#34;&gt;lightning talk on DataOps&lt;/a&gt; at &lt;a href=&#34;http://sqlinthecity.red-gate.com/london-2015/&#34;&gt;SQL in the City&lt;/a&gt;. It was a fantastic day and a great opportunity to catch up with how the database side of things is evolving to embrace &lt;a href=&#34;https://en.wikipedia.org/wiki/DevOps&#34;&gt;DevOps&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;My lightning talk was titled &lt;em&gt;DataOps &amp;#8211; it&amp;#8217;s a thing (honest)&lt;/em&gt; and focused on what is essentially DevOps ported out of the developer sphere and into the data professional sphere.&lt;/p&gt;
@@ -82,10 +82,10 @@ tfsR tfsR is designed to help you work git repositories in Microsoft Team Founda
     
     <item>
       <title>Easy Continuous Integration for R</title>
-      <link>http://lockedata.uk/itsalockeblog/2015-04-20-easy-continuous-integration-for-r/</link>
+      <link>http://lockedata.uk/itsalockeblog/easy-continuous-integration-for-r/</link>
       <pubDate>Mon, 20 Apr 2015 09:06:36 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2015-04-20-easy-continuous-integration-for-r/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/easy-continuous-integration-for-r/</guid>
       <description>&lt;p&gt;With &lt;a href=&#34;http://r-pkgs.had.co.nz/&#34;&gt;excellent guidance&lt;/a&gt; and &lt;a href=&#34;http://cran.r-project.org/web/packages/devtools/&#34;&gt;tooling&lt;/a&gt; on making R packages, it&amp;#8217;s becoming really easy to make a package to hold your R functionality. This has a host of benefits, not least source control (via GitHub) and unit testing (via the &lt;a href=&#34;http://cran.r-project.org/web/packages/testthat/&#34;&gt;&lt;code&gt;testthat&lt;/code&gt;&lt;/a&gt; package). Once you have a package and unit tests, a great way of making sure that as you change things you don&amp;#8217;t break them is to perform &lt;a href=&#34;http://www.thoughtworks.com/continuous-integration&#34;&gt;Continuous integration&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;What this means is that &lt;strong&gt;every&lt;/strong&gt; time you make a change, your package is built and thoroughly checked for any issues. If issues are found the &amp;#8220;build&amp;#8217;s broke&amp;#8221; and you have to fix it ASAP.&lt;/p&gt;
@@ -99,10 +99,10 @@ tfsR tfsR is designed to help you work git repositories in Microsoft Team Founda
     
     <item>
       <title>Database / BI related unit testing options</title>
-      <link>http://lockedata.uk/itsalockeblog/2014-11-06-database-bi-related-unit-testing-options/</link>
+      <link>http://lockedata.uk/itsalockeblog/database-/-bi-related-unit-testing-options/</link>
       <pubDate>Thu, 06 Nov 2014 16:18:48 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2014-11-06-database-bi-related-unit-testing-options/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/database-/-bi-related-unit-testing-options/</guid>
       <description>A quick list of frameworks available for doing unit testing, based on what I covered in today&amp;#8217;s SQL Lunch
 MSFT Database projects Purpose: unit testing database objects
 Method: SQL / GUI

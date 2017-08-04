@@ -14,10 +14,10 @@
     
     <item>
       <title>Unit testing in SSDT – a quick intro</title>
-      <link>http://lockedata.uk/itsalockeblog/2016-10-10-unit-testing-in-ssdt-a-quick-intro/</link>
+      <link>http://lockedata.uk/itsalockeblog/unit-testing-in-ssdt--a-quick-intro/</link>
       <pubDate>Mon, 10 Oct 2016 08:00:08 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2016-10-10-unit-testing-in-ssdt-a-quick-intro/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/unit-testing-in-ssdt--a-quick-intro/</guid>
       <description>&lt;p&gt;This post will give you a quick run-through of adding tSQLt to an existing database project destined for Azure SQL DB. This basically covers unit testing in SSDT and there is a lot of excellent info out there, so this focuses on getting you through the initial setup as quickly as possible. This post most especially relies on the information &lt;a href=&#34;https://agilesql.club/&#34;&gt;Ed Elliot&lt;/a&gt; and &lt;a href=&#34;https://kzhendev.wordpress.com/&#34;&gt;Ken Ross&lt;/a&gt; have published, so do check them out for more info on this topic!&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>

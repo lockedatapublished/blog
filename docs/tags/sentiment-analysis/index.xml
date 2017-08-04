@@ -14,19 +14,19 @@
     
     <item>
       <title>Using purrr with APIs – revamping my code</title>
-      <link>http://lockedata.uk/itsalockeblog/2017-06-13-using-purrr-with-apis/</link>
+      <link>http://lockedata.uk/itsalockeblog/using-purrr-with-apis--revamping-my-code/</link>
       <pubDate>Tue, 13 Jun 2017 10:20:40 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2017-06-13-using-purrr-with-apis/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/using-purrr-with-apis--revamping-my-code/</guid>
       <description>I wrote a little while back about using Microsoft Cognitive Services APIs with R to first of all detect the language of pieces of text and then do sentiment analysis on them. I wasn&amp;#8217;t too happy with the some of the code as it was very inelegant. I knew I could code better than I had, especially as I&amp;#8217;ve been doing a lot more work with purrr recently. However, it had sat in drafts for a while.</description>
     </item>
     
     <item>
       <title>R Quick tip: Microsoft Cognitive Services’ Text Analytics API</title>
-      <link>http://lockedata.uk/itsalockeblog/2017-03-01-microsoft-cognitive-services-text-analytics-api/</link>
+      <link>http://lockedata.uk/itsalockeblog/r-quick-tip-microsoft-cognitive-services-text-analytics-api/</link>
       <pubDate>Wed, 01 Mar 2017 09:40:46 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2017-03-01-microsoft-cognitive-services-text-analytics-api/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/r-quick-tip-microsoft-cognitive-services-text-analytics-api/</guid>
       <description>&lt;p&gt;Today in class, I taught some fundamentals of API consumption in R. As it was aligned to some Microsoft content, we first used &lt;a href=&#34;https://haveibeenpwned.com&#34;&gt;HaveIBeenPwned.com&lt;/a&gt;&amp;#8216;s API and then played with &lt;a href=&#34;https://www.microsoft.com/cognitive-services/en-us/&#34;&gt;Microsoft Cognitive Services&lt;/a&gt;&amp;#8216; Text Analytics API. This brief post overviews what you need to get started, and how you can chain consecutive calls to these APIs in order to perform multi-lingual sentiment analysis.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;UPDATE: See improved code in &lt;a href=&#34;https://itsalocke.com/using-purrr-with-apis/&#34;&gt;Using purrr with APIs – revamping my code&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;

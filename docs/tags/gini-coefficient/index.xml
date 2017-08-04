@@ -14,10 +14,10 @@
     
     <item>
       <title>optiRum – gini like a wizard</title>
-      <link>http://lockedata.uk/itsalockeblog/2015-04-16-optirum-gini-like-a-wizard/</link>
+      <link>http://lockedata.uk/itsalockeblog/optirum--gini-like-a-wizard/</link>
       <pubDate>Thu, 16 Apr 2015 10:22:38 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2015-04-16-optirum-gini-like-a-wizard/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/optirum--gini-like-a-wizard/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;&lt;a href=&#34;http://cran.r-project.org/web/packages/optiRum/&#34; title=&#34;optiRum on CRAN&#34; target=&#34;_blank&#34;&gt;optiRum&lt;/a&gt;, the R package I built and maintain for Optimum on CRAN has gained some extra functions recently. Some of it uses currently experimental data.table functionality so I&amp;#8217;m eagerly awaiting the release to CRAN to deliver optiRum.&lt;/p&gt;
 

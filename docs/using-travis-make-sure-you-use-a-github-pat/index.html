@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+    <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.25.1" />
+    <title>Using Travis? Make sure you use a Github PAT</title>
+    
+    
+    
+    <meta name="description" content="A description that will appear as a default if front matter does not exist" />
+    <meta name="keywords" content='auto deploying r documentation,git,quick tip,r,software development in r,travis-ci' />
+    
+        <meta name="author" content="Steph" />
+    
+    
+    <link href="" rel="alternate" type="application/rss+xml" title="Locke Data Blog" />
+    <link rel="stylesheet" href="http://lockedata.uk/itsalockeblog/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="http://lockedata.uk/itsalockeblog/css/highlightjs-themes/androidstudio.css" />
+    <link rel="stylesheet" href="http://lockedata.uk/itsalockeblog/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="http://lockedata.uk/itsalockeblog/css/lockedata.css" />
+    
+        
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({
+                    google_ad_client: "ca-pub-XXXXXX",
+                    enable_page_level_ads: true
+                });
+            </script>
+        
+    
+</head>
+
+    <body>
+        <!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+        <a class="navbar-brand page-scroll" href="/itsalockeblog/#page-top">
+          
+          <img src="http://lockedata.uk/itsalockeblog/img/LockeDataTextNew.svg" class="img-responsive" alt="">
+        </a>
+      
+
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="hidden">
+          <a href="/itsalockeblog/#page-top"></a>
+        </li>
+        
+          <li>
+            <a href="http://lockelife.com">Locke Data</a>
+          </li>
+        
+          <li>
+            <a href="/itsalockeblog/itsalockeblog/">Blog</a>
+          </li>
+        
+
+        
+        
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container-fluid -->
+</nav>
+
+        <div id="top" class="container">
+            <div class="row" id="content-main">
+                    <div class="row">
+    <div class="col-md-12 content-card">
+        <h1>Using Travis? Make sure you use a Github PAT</h1>
+        
+            
+            <ul class="list-inline meta">
+                <li><i class="fa fa-calendar"></i>April 12, 2016</li>
+                <li><i class="fa fa-user"></i>Steph</li>
+                
+                    
+                    <li><i class="fa fa-folder"></i><a href="http://lockedata.uk/categories/data-science">Data Science</a>, <a href="http://lockedata.uk/categories/dataops">DataOps</a>, <a href="http://lockedata.uk/categories/r">R</a></li>
+                
+            </ul>
+        
+        
+    <ul class="list-inline tags" style="margin-top: 15px; margin-left: 0px">
+        
+            <li style=""><a href="http://lockedata.uk/tags/auto-deploying-r-documentation">auto deploying r documentation</a></li>
+        
+            <li style=""><a href="http://lockedata.uk/tags/git">git</a></li>
+        
+            <li style=""><a href="http://lockedata.uk/tags/quick-tip">quick tip</a></li>
+        
+            <li style=""><a href="http://lockedata.uk/tags/r">r</a></li>
+        
+            <li style=""><a href="http://lockedata.uk/tags/software-development-in-r">software development in r</a></li>
+        
+            <li style=""><a href="http://lockedata.uk/tags/travis-ci">travis-ci</a></li>
+        
+    </ul>
+
+
+        <p>We&#8217;re in the fantastic situation where lots of people are using <a href="https://travis-ci.org/">Travis-CI</a> to test their R packages or use it to test and deploy their analytics/ documentation / anything really. It&#8217;s popularity has been having a negative side-effect recently though! GitHub <a href="https://developer.github.com/v3/#rate-limiting">rate limits</a> API access to 5000 requests per hour so sometimes there are more R related jobs running on Travis per hour than this limit, causing builds to error typically with a message that includes</p>
+
+<blockquote>
+<p>403 forbidden</p>
+</blockquote>
+
+<p>This error will cause your build to fail, even if you didn&#8217;t do anything wrong. To solve it short-term you can wait a little while and restart your build.<figure id="attachment_61598" style="width: 768px" class="wp-caption aligncenter"></p>
+
+<p><img class="size-medium_large wp-image-61598" src="http://res.cloudinary.com/lockedata/image/upload/h_131,w_750/v1499850336/restartbuilds_hsvpmp.png" alt="How to restart a build in Travis-CI" width="768" height="134" /><figcaption class="wp-caption-text">How to restart a build in Travis-CI</figcaption></figure></p>
+
+<p>That is a very short-termist solution and does not solve the problem for future you or other users of the service. The real solution to resolving this issue is to get off the default API access credentials and use your own.</p>
+
+<p>The R integration in Travis makes good use of the <a href="https://cran.r-project.org/package=devtools">devtools</a>. The devtools package looks for an environment variable called <code>GITHUB_PAT</code> that holds a <a href="https://help.github.com/articles/creating-an-access-token-for-command-line-use/">personal access token</a> (PAT) for using the GitHub API and if it doesn&#8217;t find one it uses a default token. When we get our own PAT and store it in Travis, devtools will pick up our token and use it, meaning you&#8217;ll only ever get rate limited if you do more than 5000 builds in an hour, which is an achievement I&#8217;d love to hear about.</p>
+
+<p></p>
+
+<h2 id="how-to">How to</h2>
+
+<ol>
+<li><a href="https://github.com/settings/tokens">Create a PAT</a> with no permissions i.e. untick all the permissions boxes</li>
+<li>Copy the key</li>
+<li>Go to your repo&#8217;s settings on Travis e.g. <a href="https://travis-ci.org/stephlocke/Rtraining/settings">https://travis-ci.org/stephlocke/Rtraining/settings</a></li>
+<li>Add an environment variable called GITHUB_PAT and paste in your key. There is a toggle next to it that defaults to not show the value in the log. This key has no permissions but still, keep it private and don&#8217;t toggle!</li>
+</ol>
+
+<h2 id="stay-secure">Stay secure</h2>
+
+<p>If you followed the instructions above your key will be conforming to the <a href="https://en.wikipedia.org/wiki/Principle_of_least_privilege">principle of least privileges</a> because it will only be able to perform public actions that anyone can take i.e. read and clone a public repository. That being said, it&#8217;s never wise to let credentials escape out into the wilderness unless you can avoid it. This is where the bit about ensuring the value doesn&#8217;t get printed to the log comes in. If it never gets printed, the only time this key is available for stealing is when you&#8217;re creating it and adding it to Travis.</p>
+
+<h2 id="verifying-it-worked">Verifying it worked</h2>
+
+<p>When you next run a build, you should see some (or all) of the following signs of success, over and above a lack of a 403 error:</p>
+
+<pre><code>Setting environment variables from repository settings
+$ export GITHUB_PAT=[secure]
+
+
+$ Rscript -e 'devtools::install_github(&quot;stephlocke/tfsR&quot;,dependencies=TRUE)'
+Using GitHub PAT from envvar GITHUB_PAT
+</code></pre>
+		</div>
+		
+</div>
+    <div class="row">
+    <div class="col-md-12 card">
+        <h5>Search</h5>
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form">
+            <div class="input-group">
+                <input class="form-control" type="search" name="q" />
+                <span class="input-group-btn">
+                    <button class="btn btn-primary" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+                </span>
+            </div>
+            <input type="hidden" name="q" value="site:http://lockedata.uk/itsalockeblog/">
+        </form>
+    </div>
+</div>
+
+<div class="row">
+		  <div class="col-md-12 content-card">
+        
+    <ul class="list-inline share" style="margin-top: 15px; margin-left: 0px">
+        <li class="facebook-share"><a target="_blank" href="http://www.facebook.com/sharer.php?u=http%3a%2f%2flockedata.uk%2fitsalockeblog%2fusing-travis-make-sure-you-use-a-github-pat%2f"><i class="fa fa-facebook fa-lg"></i>Facebook</a></li>
+        <li class="googleplus-share"><a target="_blank" href="https://plus.google.com/share?url=http%3a%2f%2flockedata.uk%2fitsalockeblog%2fusing-travis-make-sure-you-use-a-github-pat%2f"><i class="fa fa-google-plus fa-lg"></i>Google+</a></li>
+        <li class="twitter-share"><a target="_blank" href="https://twitter.com/share?url=http%3a%2f%2flockedata.uk%2fitsalockeblog%2fusing-travis-make-sure-you-use-a-github-pat%2f&amp;text=Using%20Travis%3f%20Make%20sure%20you%20use%20a%20Github%20PAT"><i class="fa fa-twitter fa-lg"></i>Twitter</a></li>
+        <li class="reddit-share"><a target="_blank" href="http://reddit.com/submit?url=http%3a%2f%2flockedata.uk%2fitsalockeblog%2fusing-travis-make-sure-you-use-a-github-pat%2f&amp;title=Using%20Travis%3f%20Make%20sure%20you%20use%20a%20Github%20PAT"><i class="fa fa-reddit fa-lg"></i>Reddit</a></li>
+        <li class="linkedin-share"><a target="_blank" href="http://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2flockedata.uk%2fitsalockeblog%2fusing-travis-make-sure-you-use-a-github-pat%2f"><i class="fa fa-linkedin fa-lg"></i>LinkedIn</a></li>
+        <li class="stumbleupon-share"><a target="_blank" href="http://www.stumbleupon.com/submit?url=http%3a%2f%2flockedata.uk%2fitsalockeblog%2fusing-travis-make-sure-you-use-a-github-pat%2f&amp;title=Using%20Travis%3f%20Make%20sure%20you%20use%20a%20Github%20PAT"><i class="fa fa-stumbleupon fa-lg"></i>StumbleUpon</a></li>
+    </ul>
+
+
+    </div>
+	</div>
+
+                    
+    
+        <div class="row">
+            <div class="col-md-12 content-card">
+                <div id="disqus_thread"></div>
+                <script>
+                    (function() {
+                        if (window.location.hostname == "localhost") {
+                            document.write("Disqus comments are unavailable while serving on localhost or 127.0.0.1");
+                            return;
+                        }
+                        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                        var disqus_shortname = 'shortname';
+                        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                    })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+            </div>
+        </div>
+    
+
+
+            </div>
+        </div>
+        <!-- Footer section -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <span class="copyright">
+          <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+        </span>
+      </div>
+      <div class="col-md-4">
+        <ul class="list-inline social-buttons">
+          
+            <li>
+              <a href="/itsalockeblog/#"><i class='fa fa-twitter'></i></a>
+            </li>
+          
+            <li>
+              <a href="/itsalockeblog/#"><i class='fa fa-facebook'></i></a>
+            </li>
+          
+            <li>
+              <a href="/itsalockeblog/#"><i class='fa fa-linkedin'></i></a>
+            </li>
+          
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <ul class="list-inline quicklinks">
+          
+            <li>
+              <a href="http://lockelife.com/#company">Legalise and stuff</a>
+            </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+        <div id="back-to-top" class="hidden">
+    <a href="#top" class="well well-sm" onclick="$('html,body').animate({scrollTop:0},'slow');return false;">
+        <i class="glyphicon glyphicon-chevron-up"></i> Back to Top
+    </a>
+</div>
+<script src="http://lockedata.uk/itsalockeblog/js/jquery.min.js"></script>
+<script src="http://lockedata.uk/itsalockeblog/js/bootstrap.min.js"></script>
+<script src="http://lockedata.uk/itsalockeblog/js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script>
+    if(($(window).height() + 100) < $(document).height()) {
+        $('#back-to-top').removeClass('hidden').affix({
+            offset: {
+                top: 100
+            }
+        });
+    }
+</script>
+
+    
+        <script>
+            
+            [].forEach.call(document.querySelectorAll('.adsbygoogle'), function() {
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            });
+        </script>
+    
+
+
+    
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-XXXXX-YY', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+
+
+
+    </body>
+</html>

@@ -14,10 +14,10 @@
     
     <item>
       <title>SSH tunnels on Windows for R</title>
-      <link>http://lockedata.uk/itsalockeblog/2016-03-14-ssh-tunnels-windows-r/</link>
+      <link>http://lockedata.uk/itsalockeblog/ssh-tunnels-on-windows-for-r/</link>
       <pubDate>Mon, 14 Mar 2016 13:41:06 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2016-03-14-ssh-tunnels-windows-r/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/ssh-tunnels-on-windows-for-r/</guid>
       <description>&lt;p&gt;Recently I&amp;#8217;ve had to get to grips with SSH tunnels. SSH tunnels are really useful for maintaining remote network integrity and work in a secure fashion. It is, however, a pain to open PuTTY and log in all the time, mainly because I couldn&amp;#8217;t script it in R! It&amp;#8217;s been a trial, but like most things it turned out to be pretty simple in the end so I thought I&amp;#8217;d share it with you.&lt;/p&gt;
 
 &lt;h2 id=&#34;what-8217-s-required&#34;&gt;What&amp;#8217;s required?&lt;/h2&gt;

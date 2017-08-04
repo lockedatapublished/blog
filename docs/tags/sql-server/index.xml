@@ -14,19 +14,19 @@
     
     <item>
       <title>Versioning R model objects in SQL Server</title>
-      <link>http://lockedata.uk/itsalockeblog/2017-05-26-versioning-r-model-objects-in-sql-server/</link>
+      <link>http://lockedata.uk/itsalockeblog/versioning-r-model-objects-in-sql-server/</link>
       <pubDate>Fri, 26 May 2017 08:00:04 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2017-05-26-versioning-r-model-objects-in-sql-server/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/versioning-r-model-objects-in-sql-server/</guid>
       <description>High-level info If you build a model and never update it you&amp;#8217;re missing a trick. Behaviours change so your model will tend to perform worse over time. You&amp;#8217;ve got to regularly refresh it, whether that&amp;#8217;s adjusting the existing model to fit the latest data (recalibration) or building a whole new model (retraining), but this means you&amp;#8217;ve got new versions of your model that you have to handle. You need to think about your methodology for versioning R model objects, ideally before you lose any versions.</description>
     </item>
     
     <item>
       <title>Unit testing in SSDT – a quick intro</title>
-      <link>http://lockedata.uk/itsalockeblog/2016-10-10-unit-testing-in-ssdt-a-quick-intro/</link>
+      <link>http://lockedata.uk/itsalockeblog/unit-testing-in-ssdt--a-quick-intro/</link>
       <pubDate>Mon, 10 Oct 2016 08:00:08 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2016-10-10-unit-testing-in-ssdt-a-quick-intro/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/unit-testing-in-ssdt--a-quick-intro/</guid>
       <description>&lt;p&gt;This post will give you a quick run-through of adding tSQLt to an existing database project destined for Azure SQL DB. This basically covers unit testing in SSDT and there is a lot of excellent info out there, so this focuses on getting you through the initial setup as quickly as possible. This post most especially relies on the information &lt;a href=&#34;https://agilesql.club/&#34;&gt;Ed Elliot&lt;/a&gt; and &lt;a href=&#34;https://kzhendev.wordpress.com/&#34;&gt;Ken Ross&lt;/a&gt; have published, so do check them out for more info on this topic!&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -34,20 +34,20 @@
     
     <item>
       <title>Recent presentations</title>
-      <link>http://lockedata.uk/itsalockeblog/2016-06-01-recent-presentations/</link>
+      <link>http://lockedata.uk/itsalockeblog/recent-presentations/</link>
       <pubDate>Wed, 01 Jun 2016 08:09:32 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2016-06-01-recent-presentations/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/recent-presentations/</guid>
       <description>The last month or so has been a whirlwind of awesomeness with a veritable bevvy of user group and conference talks on my part! I thought I would share the materials with you and provide some brief thoughts on how each presentation went.
 Sessions  SQL Saturday Exeter : Stats 101 London Business Analytics (LBAG) : Skilling up to code with data SQLBits &amp;amp; TUGA : Cut the R Learning Curve SQLBits &amp;amp; TUGA : R in the Microsoft Data Platform (full day of training) IT Pro Portugal : Being lazy with infrastructure  SQL Saturday Exeter My presentation, in my opinion, was exceedingly brave.</description>
     </item>
     
     <item>
       <title>Installing SQL Server ODBC drivers on Ubuntu 15.04</title>
-      <link>http://lockedata.uk/itsalockeblog/2016-04-20-installing-sql-server-odbc-drivers-on-ubuntu-15-04/</link>
+      <link>http://lockedata.uk/itsalockeblog/installing-sql-server-odbc-drivers-on-ubuntu-15.04/</link>
       <pubDate>Wed, 20 Apr 2016 14:13:28 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2016-04-20-installing-sql-server-odbc-drivers-on-ubuntu-15-04/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/installing-sql-server-odbc-drivers-on-ubuntu-15.04/</guid>
       <description>&lt;p&gt;&lt;strong&gt;UPDATE 2016-10-21 : You can now get the ODBC 13 driver for Linux with a much smoother install process than below. Get all the relevant information on &lt;a href=&#34;https://blogs.msdn.microsoft.com/sqlnativeclient/2016/10/20/odbc-driver-13-0-for-linux-released/&#34;&gt;the announcement from the Microsoft SQLNCli team blog&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Did you know you can now get &lt;a href=&#34;https://www.microsoft.com/en-gb/server-cloud/sql-server-on-linux.aspx&#34;&gt;SQL Server ODBC drivers for Ubuntu&lt;/a&gt;? Yes, no, maybe? It&amp;#8217;s ok even if you haven&amp;#8217;t since it&amp;#8217;s pretty new! Anyway, this presents me with an ideal opportunity to standardise my SQL Server ODBC connections across the operating systems I use R on i.e. Windows and Ubuntu. My first trial was to get it working on &lt;a href=&#34;https://travis-ci.org&#34;&gt;Travis-CI&lt;/a&gt; since that&amp;#8217;s where all my training magic happens and if it can&amp;#8217;t work on a clean build like Travis, then where can it work? Alas, the ODBC 13 driver doesn&amp;#8217;t work Ubuntu 14.04 so this set of instructions has been modified to provide code for Ubuntu 15.04 only.&lt;/p&gt;
@@ -69,30 +69,30 @@ Sessions  SQL Saturday Exeter : Stats 101 London Business Analytics (LBAG) : Ski
     
     <item>
       <title>@SQLCardiff: Return of the Beard (2016-03-30)</title>
-      <link>http://lockedata.uk/itsalockeblog/2016-03-15-sqlcardiff-return-beard-2016-03-30/</link>
+      <link>http://lockedata.uk/itsalockeblog/sqlcardiff-return-of-the-beard-2016-03-30/</link>
       <pubDate>Tue, 15 Mar 2016 09:59:42 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2016-03-15-sqlcardiff-return-beard-2016-03-30/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/sqlcardiff-return-of-the-beard-2016-03-30/</guid>
       <description>Just a quick heads up to peeps in and around Cardiff, Wales. Later this month we&amp;#8217;re holding Battle of the Beards: Return of the Beard. Fantastic speakers with resplendent beards are joining us for our 6 sq. ft of pizza to present on advanced SQL Tricks, using PowerBI as a DBA, and stepping up to the challenge of the last minute audit.
 This is a great chance to meet folks interested in the Microsoft Data Platform and learn from some incredibly knowledgable speakers.</description>
     </item>
     
     <item>
       <title>Upcoming R for Microsoft training days</title>
-      <link>http://lockedata.uk/itsalockeblog/2016-03-07-upcoming-r-microsoft-training-days/</link>
+      <link>http://lockedata.uk/itsalockeblog/upcoming-r-for-microsoft-training-days/</link>
       <pubDate>Mon, 07 Mar 2016 09:55:13 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2016-03-07-upcoming-r-microsoft-training-days/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/upcoming-r-for-microsoft-training-days/</guid>
       <description>In May, I will be delivering two R for Microsoft training days. These two days will focus on some R fundamentals and applying these fundamentals within the Microsoft Data Platform. These training days are ideal if you know one half of the components &amp;#8211; whether that&amp;#8217;s the R bit or the Microsoft BI bit. Either way, you&amp;#8217;ll learn about the other half.
 SQLBits SQLBits XV is being held in Liverpool this year and my training day is on May 4th.</description>
     </item>
     
     <item>
       <title>Anchor Modelling: Sixth Normal Form databases</title>
-      <link>http://lockedata.uk/itsalockeblog/2015-12-31-anchor-modelling-sixth-normal-form-databases/</link>
+      <link>http://lockedata.uk/itsalockeblog/anchor-modelling-sixth-normal-form-databases/</link>
       <pubDate>Thu, 31 Dec 2015 11:47:29 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2015-12-31-anchor-modelling-sixth-normal-form-databases/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/anchor-modelling-sixth-normal-form-databases/</guid>
       <description>About Anchor Modelling Anchor Modelling moves you beyond third normal form and into sixth normal form. What does this mean?
  Not sure about the normal forms? See the normalization process in actions with this normalisation example
  Essentially it means that an attribute is stored independently against the key, not in a big table with other attributes. This means you can easily store metadata about that attribute and do full change tracking with ease.</description>
@@ -100,10 +100,10 @@ SQLBits SQLBits XV is being held in Liverpool this year and my training day is o
     
     <item>
       <title>DataOps – it’s a thing (honest)</title>
-      <link>http://lockedata.uk/itsalockeblog/2015-10-16-dataops-its-a-thing-honest/</link>
+      <link>http://lockedata.uk/itsalockeblog/dataops--its-a-thing-honest/</link>
       <pubDate>Fri, 16 Oct 2015 20:27:03 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2015-10-16-dataops-its-a-thing-honest/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/dataops--its-a-thing-honest/</guid>
       <description>&lt;p&gt;Today, I presented a &lt;a href=&#34;https://1drv.ms/p/s!AiZm2P6YHtSfjye0xDn_fuL80eSp&#34;&gt;lightning talk on DataOps&lt;/a&gt; at &lt;a href=&#34;http://sqlinthecity.red-gate.com/london-2015/&#34;&gt;SQL in the City&lt;/a&gt;. It was a fantastic day and a great opportunity to catch up with how the database side of things is evolving to embrace &lt;a href=&#34;https://en.wikipedia.org/wiki/DevOps&#34;&gt;DevOps&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;My lightning talk was titled &lt;em&gt;DataOps &amp;#8211; it&amp;#8217;s a thing (honest)&lt;/em&gt; and focused on what is essentially DevOps ported out of the developer sphere and into the data professional sphere.&lt;/p&gt;
@@ -113,10 +113,10 @@ SQLBits SQLBits XV is being held in Liverpool this year and my training day is o
     
     <item>
       <title>SQL Relay is here!</title>
-      <link>http://lockedata.uk/itsalockeblog/2015-07-16-sql-relay-is-here/</link>
+      <link>http://lockedata.uk/itsalockeblog/sql-relay-is-here/</link>
       <pubDate>Thu, 16 Jul 2015 09:30:59 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2015-07-16-sql-relay-is-here/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/sql-relay-is-here/</guid>
       <description>SQL Relay is back on tour! Our 6th event sees us yet again touring the country bringing awesome speakers to eight cities over 2 weeks.
 As usual we&amp;#8217;re improving things:
  A new platform called Attendee.Events which allows easier registration &amp;amp; speaker submission A whole bunch of webinars planned to get in the swing of things More breadth &amp;#8211; this year each event includes a dedicated track to R, machine learning etc, on top of SQL Server and business intelligence More content &amp;#8211; instead of swapping out existing slots for breadth, we added more tracks A green initiative &amp;#8230; see it on the day Improved speaker experience &amp;#8211; we&amp;#8217;re building on last year&amp;#8217;s fun bus with the help of SQL Sentry to make it easier and more fun for speakers to do multiple events, as well as offering first timers some mentoring as most of the organisers are also speakers  You&amp;#8217;ll see a lot of announcements about Relay over the next few months, but I hope this little post inspires you to check out our events 😀</description>
@@ -124,10 +124,10 @@ As usual we&amp;#8217;re improving things:
     
     <item>
       <title>My (first) #SQLHangout</title>
-      <link>http://lockedata.uk/itsalockeblog/2015-06-04-my-first-sqlhangout/</link>
+      <link>http://lockedata.uk/itsalockeblog/my-first-#sqlhangout/</link>
       <pubDate>Thu, 04 Jun 2015 08:19:17 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2015-06-04-my-first-sqlhangout/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/my-first-#sqlhangout/</guid>
       <description>Yesterday I had the pleasure of hanging out &amp;#8220;on air&amp;#8221; with Boris Hristov.
 We talked open sourcing!
 You can download and/or contribute to the following projects I have going:
@@ -136,20 +136,20 @@ You can download and/or contribute to the following projects I have going:
     
     <item>
       <title>How many is too many conferences?</title>
-      <link>http://lockedata.uk/itsalockeblog/2015-05-25-how-many-is-too-many-conferences/</link>
+      <link>http://lockedata.uk/itsalockeblog/how-many-is-too-many-conferences/</link>
       <pubDate>Mon, 25 May 2015 17:55:16 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2015-05-25-how-many-is-too-many-conferences/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/how-many-is-too-many-conferences/</guid>
       <description>The SQL Server community has a lot of events. In the UK alone this year we will have/had in 2015:
  more than 75 user group meetings 5 SQL Saturdays 8 days of Relay 1 SQL in the City 3 to 5 days of SQLBits possibly a SQL Santa and probably more that I&amp;#8217;ve forgotten or not know about at the time of writing this  You could attend 2 days of conference per month (cpm from now on) on average in the UK alone, just at dedicated SQL events.</description>
     </item>
     
     <item>
       <title>Where do I fit in the Microsoft future?</title>
-      <link>http://lockedata.uk/itsalockeblog/2015-02-24-where-do-i-fit-in-the-microsoft-future/</link>
+      <link>http://lockedata.uk/itsalockeblog/where-do-i-fit-in-the-microsoft-future/</link>
       <pubDate>Tue, 24 Feb 2015 10:41:45 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2015-02-24-where-do-i-fit-in-the-microsoft-future/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/where-do-i-fit-in-the-microsoft-future/</guid>
       <description>&lt;p&gt;Entering into the world of SQL Server around the same time as the 2008 release has meant that until the past couple of years, change in the Microsoft BI world only happened in dribs and drabs for me. SQL Server and it&amp;#8217;s BI components were stable server products and the focus was on getting data and optimising &amp;#8220;central reporting&amp;#8221;. Recently though things have started to massively change due to Azure and Office 365.&lt;/p&gt;
 
 &lt;p&gt;No longer part of Server &amp;amp; Tools where products were considered in silos, SQL Server and BI are now part of the &lt;a href=&#34;http://blogs.technet.com/b/server-cloud/archive/2015/01/30/increasing-visibility-for-our-customers-announcing-the-cloud-platform-roadmap-site.aspx&#34; title=&#34;Cloud Platform roadmap&#34; target=&#34;_blank&#34;&gt;Cloud Platform&lt;/a&gt;. It&amp;#8217;s now a means of delivering the &lt;a href=&#34;http://news.microsoft.com/ceo/bold-ambition/index.html&#34; title=&#34;Satya Nadella&#39;s vision email&#34; target=&#34;_blank&#34;&gt;Cloud-first vision&lt;/a&gt; that Microsoft have aligned themselves to.&lt;/p&gt;
@@ -159,30 +159,30 @@ You can download and/or contribute to the following projects I have going:
     
     <item>
       <title>Stuff I read this week</title>
-      <link>http://lockedata.uk/itsalockeblog/2015-02-13-stuff-read-week/</link>
+      <link>http://lockedata.uk/itsalockeblog/stuff-i-read-this-week/</link>
       <pubDate>Fri, 13 Feb 2015 15:45:58 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2015-02-13-stuff-read-week/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/stuff-i-read-this-week/</guid>
       <description>Here&amp;#8217;s a selection of articles etc. that I found really interesting this week:
  Gendered Language in Teacher Reviews Knowledge units &amp;#8211; the atoms of statistical education SQLBits in The Register Paul Randal: Want to be mentored by me? Replacing Middle Management with APIs R in Business Intelligence The RHS assignment operator in R Ooh R Can Microsoft make R easy?  </description>
     </item>
     
     <item>
       <title>A busy month or so</title>
-      <link>http://lockedata.uk/itsalockeblog/2015-02-11-busy-month/</link>
+      <link>http://lockedata.uk/itsalockeblog/a-busy-month-or-so/</link>
       <pubDate>Wed, 11 Feb 2015 15:15:36 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2015-02-11-busy-month/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/a-busy-month-or-so/</guid>
       <description>I&amp;#8217;m really looking forward to a few months of user group and conference awesomeness:
  Feb 24: CaRdiff presenting Shiny: Dashboards in R Feb 26: Oxford UG presenting Learning the ropes via the community Mar 4-6: Helping out at SQLBits Mar 7: SQLBits presenting Shiny: Dashboards in R Mar 9: SQL Cardiff with Jen &amp;amp; Sean McCown presenting Mar 17: Diff.Net with Scott Hanselman presenting Mar 31: SQL Cardiff with the Battle of the Beards  Then even more fun kicks in with a SQLSaturday Exeter precon, a visit to unified.</description>
     </item>
     
     <item>
       <title>SQLSaturday Exeter 2015</title>
-      <link>http://lockedata.uk/itsalockeblog/2015-01-19-sqlsaturday-exeter-2015/</link>
+      <link>http://lockedata.uk/itsalockeblog/sqlsaturday-exeter-2015/</link>
       <pubDate>Mon, 19 Jan 2015 20:09:35 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2015-01-19-sqlsaturday-exeter-2015/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/sqlsaturday-exeter-2015/</guid>
       <description>&lt;p&gt;Woohoo! The kind and crazy folks at &lt;a href=&#34;https://www.sqlsaturday.com/372/eventhome.aspx&#34; title=&#34;SQLSaturday Exeter 2015 homepage&#34; target=&#34;_blank&#34;&gt;SQLSaturday Exeter&lt;/a&gt; accepted my submitted training day for their roster. Before I wax lyrical on the virtues of being locked in a room with me all day, I thought I&amp;#8217;d better cover the fundamentals of the event itself!&lt;/p&gt;
 
 &lt;p&gt;First, the awesome video&amp;#8230;&lt;/p&gt;
@@ -192,20 +192,20 @@ You can download and/or contribute to the following projects I have going:
     
     <item>
       <title>Organised speaking – Throw 1</title>
-      <link>http://lockedata.uk/itsalockeblog/2015-01-10-organised-speaking-throw-1/</link>
+      <link>http://lockedata.uk/itsalockeblog/organised-speaking--throw-1/</link>
       <pubDate>Sat, 10 Jan 2015 09:59:50 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2015-01-10-organised-speaking-throw-1/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/organised-speaking--throw-1/</guid>
       <description>Not quite part of being organised at speaking, but bundled up in part of my scheduling constraints for speaking is when I&amp;#8217;m throwing user group events. Here&amp;#8217;s the details of the user groups I&amp;#8217;m planning on throwing to meet my goal of 1 user group event a month (not including lunch time sessions!)
 SQL Server I run the SQL Server user group in Cardiff and have done a few years &amp;#8211; I&amp;#8217;m not giving it up any time soon.</description>
     </item>
     
     <item>
       <title>SQL Cardiff dates announced</title>
-      <link>http://lockedata.uk/itsalockeblog/2014-12-29-sql-cardiff-dates-announced/</link>
+      <link>http://lockedata.uk/itsalockeblog/sql-cardiff-dates-announced/</link>
       <pubDate>Mon, 29 Dec 2014 11:00:02 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2014-12-29-sql-cardiff-dates-announced/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/sql-cardiff-dates-announced/</guid>
       <description>&lt;p&gt;This year we&amp;#8217;ll be continuing to maintain evening events on Tuesday nights and lunch time events on Thursdays.&lt;/p&gt;
 
 &lt;h2 id=&#34;evening-events&#34;&gt;Evening events&lt;/h2&gt;
@@ -231,10 +231,10 @@ SQL Server I run the SQL Server user group in Cardiff and have done a few years 
     
     <item>
       <title>The basics of Common Table Expressions (CTEs)</title>
-      <link>http://lockedata.uk/itsalockeblog/2014-11-10-the-basics-of-common-table-expressions-ctes/</link>
+      <link>http://lockedata.uk/itsalockeblog/the-basics-of-common-table-expressions-ctes/</link>
       <pubDate>Mon, 10 Nov 2014 15:40:15 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2014-11-10-the-basics-of-common-table-expressions-ctes/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/the-basics-of-common-table-expressions-ctes/</guid>
       <description>Another quick post off the back of a SQL Lunch a did a while ago. Explore it via SQLFiddle: http://sqlfiddle.com/#!6/ad7f5/7/0
 What is a CTE? A Common Table Expression (CTE) is essentially a function defining a relation instead of a table.
 This function outputs a table (like all queries) that is only present within the session, but data isn&amp;#8217;t stored in tempdb like with a temporary table.
@@ -243,10 +243,10 @@ Why CTE&amp;#8217;s? CTEs are designed primarily to allow recursion within SQL &
     
     <item>
       <title>Database / BI related unit testing options</title>
-      <link>http://lockedata.uk/itsalockeblog/2014-11-06-database-bi-related-unit-testing-options/</link>
+      <link>http://lockedata.uk/itsalockeblog/database-/-bi-related-unit-testing-options/</link>
       <pubDate>Thu, 06 Nov 2014 16:18:48 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2014-11-06-database-bi-related-unit-testing-options/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/database-/-bi-related-unit-testing-options/</guid>
       <description>A quick list of frameworks available for doing unit testing, based on what I covered in today&amp;#8217;s SQL Lunch
 MSFT Database projects Purpose: unit testing database objects
 Method: SQL / GUI
@@ -264,20 +264,20 @@ Cons: As of writing, only stable version was released in 2008</description>
     
     <item>
       <title>SQLRelay Cardiff – Nov 13th</title>
-      <link>http://lockedata.uk/itsalockeblog/2013-09-25-sqlrelay-cardiff-nov-13th/</link>
+      <link>http://lockedata.uk/itsalockeblog/sqlrelay-cardiff--nov-13th/</link>
       <pubDate>Wed, 25 Sep 2013 20:44:54 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2013-09-25-sqlrelay-cardiff-nov-13th/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/sqlrelay-cardiff--nov-13th/</guid>
       <description>After dipping Cardiff&amp;#8217;s collective toes into the world of local SQL Server conferences, we&amp;#8217;re doing it again in November. We&amp;#8217;re taking registrations, and volunteers are always welcome. If an all day conference is a bit too much, why not try out a lunchtime or evening event?
 There are 9 other events around the country which you can attend as well as / instead of Cardiff, including Bristol where I&amp;#8217;ve the privilege of speaking along with some excellent folk like Klaus Aschenbrenner.</description>
     </item>
     
     <item>
       <title>R for database and Excel people</title>
-      <link>http://lockedata.uk/itsalockeblog/2013-09-15-r-for-database-and-excel-people/</link>
+      <link>http://lockedata.uk/itsalockeblog/r-for-database-and-excel-people/</link>
       <pubDate>Sun, 15 Sep 2013 18:00:27 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2013-09-15-r-for-database-and-excel-people/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/r-for-database-and-excel-people/</guid>
       <description>&lt;h3 id=&#34;what-is-r&#34;&gt;What is R?&lt;/h3&gt;
 
 &lt;p&gt;R is a statistical language for doing all sorts of analytics based on many different types of data and it&amp;#8217;s also an open source platform that allows people to extend the base functionality.  &lt;a href=&#34;http://www.r-project.org/about.html&#34; target=&#34;_blank&#34;&gt;More details&lt;/a&gt; are available from the horse&amp;#8217;s mouth.&lt;/p&gt;
@@ -291,10 +291,10 @@ There are 9 other events around the country which you can attend as well as / in
     
     <item>
       <title>Marketing for SQLRelay – two weeks in</title>
-      <link>http://lockedata.uk/itsalockeblog/2013-09-13-marketing-for-sqlrelay-two-weeks-in/</link>
+      <link>http://lockedata.uk/itsalockeblog/marketing-for-sqlrelay--two-weeks-in/</link>
       <pubDate>Fri, 13 Sep 2013 18:45:19 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2013-09-13-marketing-for-sqlrelay-two-weeks-in/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/marketing-for-sqlrelay--two-weeks-in/</guid>
       <description>&lt;p&gt;Further to &lt;a href=&#34;https://itsalocke.com/index.php/marketing-for-sqlrelay-in-the-beginning/&#34; title=&#34;Marketing for SQLRelay – In the beginning&#34;&gt;the last post&lt;/a&gt; introducing my trials and tribulations, and a hectic week or two we&amp;#8217;ve made excellent progress on the Relay.  I&amp;#8217;ve enlisted Mark (@tsqltidy) the chair for the Relay and others to assist with the twittering and other activities which has really held me reduce my workload substantially.&lt;/p&gt;
 
 &lt;p&gt;All ten venues are going ahead:&lt;/p&gt;
@@ -422,10 +422,10 @@ There are 9 other events around the country which you can attend as well as / in
     
     <item>
       <title>Marketing for SQLRelay – In the beginning</title>
-      <link>http://lockedata.uk/itsalockeblog/2013-09-01-marketing-for-sqlrelay-in-the-beginning/</link>
+      <link>http://lockedata.uk/itsalockeblog/marketing-for-sqlrelay--in-the-beginning/</link>
       <pubDate>Sun, 01 Sep 2013 11:30:40 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2013-09-01-marketing-for-sqlrelay-in-the-beginning/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/marketing-for-sqlrelay--in-the-beginning/</guid>
       <description>&lt;p&gt;After organising &lt;a href=&#34;http://sqlrelay-stef.eventbrite.com&#34; target=&#34;_blank&#34;&gt;SQLRelay&lt;/a&gt; for June 24th in Cardiff, as part of the national series of 8 events.  We&amp;#8217;re gearing up for November with the aim of being able to capitalise on the growing knowledge of SQL Server 2014 CTP and pushing the Relay into a less busy part of the UK community schedule.  The difficulty is that where we had more than 6 months to prep for the previous Relay, this time round we had less than 5.  What this means for me, is not only do I want to run a bigger and better Cardiff event, but I also (being a glutton for punishment) took on spearheading the marketing efforts for the whole shebang.&lt;/p&gt;
 
 &lt;p&gt;Details will be released next week on the launch, but given my lack of knowledge about anything social media this has already been a major undertaking for me, and I thought it might be of value for me, future me, and my dear readers to compile information and learnings as I go along so that it&amp;#8217;s easier to implement in future for other marketing endeavours.  It also provides an area for discussion.&lt;/p&gt;</description>
@@ -433,10 +433,10 @@ There are 9 other events around the country which you can attend as well as / in
     
     <item>
       <title>User Group presentation</title>
-      <link>http://lockedata.uk/itsalockeblog/2013-05-31-user-group-presentation/</link>
+      <link>http://lockedata.uk/itsalockeblog/user-group-presentation/</link>
       <pubDate>Fri, 31 May 2013 20:19:42 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2013-05-31-user-group-presentation/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/user-group-presentation/</guid>
       <description></description>
     </item>
     

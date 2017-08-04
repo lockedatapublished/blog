@@ -14,20 +14,20 @@
     
     <item>
       <title>Minor update to HIBPwned</title>
-      <link>http://lockedata.uk/itsalockeblog/2017-05-05-minor-update-hibpwned/</link>
+      <link>http://lockedata.uk/itsalockeblog/minor-update-to-hibpwned/</link>
       <pubDate>Fri, 05 May 2017 07:46:42 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2017-05-05-minor-update-hibpwned/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/minor-update-to-hibpwned/</guid>
       <description>A new version of HIBPwned has been accepted onto CRAN. This occurred yesterday so it could still be filtering into some mirrors.
 HIBPwned is an R wrapper for the useful website HaveIBeenPwned and if you don&amp;#8217;t already utilise the package or the site &amp;#8211; you should. HaveIBeenPwned tells you when your details are included in data breaches. This is vital information to get quickly as it means you can sooner protect yourself from people trying to use the breach information to break into your accounts.</description>
     </item>
     
     <item>
       <title>HIBPwned updated on CRAN</title>
-      <link>http://lockedata.uk/itsalockeblog/2016-09-15-hibpwned-updated-cran/</link>
+      <link>http://lockedata.uk/itsalockeblog/hibpwned-updated-on-cran/</link>
       <pubDate>Thu, 15 Sep 2016 07:00:53 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2016-09-15-hibpwned-updated-cran/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/hibpwned-updated-on-cran/</guid>
       <description>Haveibeenpwned.com is a fantastic service that helps people find out if they&amp;#8217;ve been involved in a data breach. HIBPwned is an R wrapper for that service.
 Recently, due to abuse of the system, Troy Hunt had to add a limit of one request per 1.5s.
 The new version published on CRAN last night adds a delay into each call so that we can continue to use it in R.
@@ -36,20 +36,20 @@ Check out the package on CRAN for vignettes and more information on the package.
     
     <item>
       <title>Use your .Rprofile to give you important notifications</title>
-      <link>http://lockedata.uk/itsalockeblog/2016-06-23-use-rprofile-give-important-notifications/</link>
+      <link>http://lockedata.uk/itsalockeblog/use-your-.rprofile-to-give-you-important-notifications/</link>
       <pubDate>Thu, 23 Jun 2016 09:08:43 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2016-06-23-use-rprofile-give-important-notifications/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/use-your-.rprofile-to-give-you-important-notifications/</guid>
       <description>In R, we can use a file called .Rprofile to do things in R based on a number of triggers. One thing I&amp;#8217;ve done is give myself a DIY notification of how many data breaches I&amp;#8217;ve been involved in!
 First of all, you need a file called .Rprofile that&amp;#8217;s stored in your working directory. Some useful resources about .Rprofiles can be found on .Rprofile CRAN docs and an .Rprofile intro.</description>
     </item>
     
     <item>
       <title>HIBPwned on CRAN</title>
-      <link>http://lockedata.uk/itsalockeblog/2016-06-09-hibpwned-on-cran/</link>
+      <link>http://lockedata.uk/itsalockeblog/hibpwned-on-cran/</link>
       <pubDate>Thu, 09 Jun 2016 08:06:58 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2016-06-09-hibpwned-on-cran/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/hibpwned-on-cran/</guid>
       <description>Part of my (slowly) working pipeline of coding projects has been an R package that wraps the fantastic HaveIBeenPwned.com API.
 If you&amp;#8217;re not already familiar with HaveIBeenPwned, rectify the situation, NOW! Don&amp;#8217;t worry about continuing to read the rest of the post; getting yourself signed up for account breach notifications is way more important!Go now!
 /giphy run
@@ -59,10 +59,10 @@ HIBPwned is a feature complete R package that allows you to use every (currently
     
     <item>
       <title>R package news: tfsR, HIBPwned, mockaRoo</title>
-      <link>http://lockedata.uk/itsalockeblog/2016-03-24-r-package-news-tfsr-hibpwned-mockaroo/</link>
+      <link>http://lockedata.uk/itsalockeblog/r-package-news-tfsr-hibpwned-mockaroo/</link>
       <pubDate>Thu, 24 Mar 2016 15:44:03 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2016-03-24-r-package-news-tfsr-hibpwned-mockaroo/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/r-package-news-tfsr-hibpwned-mockaroo/</guid>
       <description>This is a brief update on my packages not currently on CRAN: tfsR, HIBPwned, and mockaRoo.
 tfsR tfsR is designed to help you work git repositories in Microsoft Team Foundation Server (TFS) and Visual Studio Team Services (VSTS). I wrote the package a while ago and it has/had just two functions; one for getting a list of git repositories, and one for making a new git repository. The release of httr 1.</description>
     </item>

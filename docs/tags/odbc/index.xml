@@ -14,10 +14,10 @@
     
     <item>
       <title>Installing SQL Server ODBC drivers on Ubuntu 15.04</title>
-      <link>http://lockedata.uk/itsalockeblog/2016-04-20-installing-sql-server-odbc-drivers-on-ubuntu-15-04/</link>
+      <link>http://lockedata.uk/itsalockeblog/installing-sql-server-odbc-drivers-on-ubuntu-15.04/</link>
       <pubDate>Wed, 20 Apr 2016 14:13:28 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2016-04-20-installing-sql-server-odbc-drivers-on-ubuntu-15-04/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/installing-sql-server-odbc-drivers-on-ubuntu-15.04/</guid>
       <description>&lt;p&gt;&lt;strong&gt;UPDATE 2016-10-21 : You can now get the ODBC 13 driver for Linux with a much smoother install process than below. Get all the relevant information on &lt;a href=&#34;https://blogs.msdn.microsoft.com/sqlnativeclient/2016/10/20/odbc-driver-13-0-for-linux-released/&#34;&gt;the announcement from the Microsoft SQLNCli team blog&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Did you know you can now get &lt;a href=&#34;https://www.microsoft.com/en-gb/server-cloud/sql-server-on-linux.aspx&#34;&gt;SQL Server ODBC drivers for Ubuntu&lt;/a&gt;? Yes, no, maybe? It&amp;#8217;s ok even if you haven&amp;#8217;t since it&amp;#8217;s pretty new! Anyway, this presents me with an ideal opportunity to standardise my SQL Server ODBC connections across the operating systems I use R on i.e. Windows and Ubuntu. My first trial was to get it working on &lt;a href=&#34;https://travis-ci.org&#34;&gt;Travis-CI&lt;/a&gt; since that&amp;#8217;s where all my training magic happens and if it can&amp;#8217;t work on a clean build like Travis, then where can it work? Alas, the ODBC 13 driver doesn&amp;#8217;t work Ubuntu 14.04 so this set of instructions has been modified to provide code for Ubuntu 15.04 only.&lt;/p&gt;

@@ -78,25 +78,78 @@
 
         <div id="top" class="container">
             <div class="row" id="content-main">
+   <div class="col-md-4">                    
+	
+<div class="row">
+    <div class="col-md-11 card">
+        <h5>Locke Data Blog</h5>
+        <p>A description that will appear as a default if front matter does not exist</p>
+		<img class="avatar" src=http://lockedata.uk/itsalockeblog/img/ChibiSteph.svg></img>
+    </div>
+</div>
+
+    <div class="row">
+    <div class="col-md-11 card">
+        <h5>Search</h5>
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form">
+            <div class="input-group">
+                <input class="form-control" type="search" name="q" />
+                <span class="input-group-btn">
+                    <button class="btn btn-primary" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+                </span>
+            </div>
+            <input type="hidden" name="q" value="site:http://lockedata.uk/itsalockeblog/">
+        </form>
+    </div>
+</div>
+
+    
+    
+        <div class="row">
+            <div class="col-md-11  card">
+                <h5>categories</h5>
+                <ul class="list-unstyled posts-recent">
+                    
+                        <li><a href="http://lockedata.uk/itsalockeblog/categories/r">r</a></li>
+                    
+                        <li><a href="http://lockedata.uk/itsalockeblog/categories/community">community</a></li>
+                    
+                        <li><a href="http://lockedata.uk/itsalockeblog/categories/microsoft-data-platform">microsoft-data-platform</a></li>
+                    
+                        <li><a href="http://lockedata.uk/itsalockeblog/categories/data-science">data-science</a></li>
+                    
+                        <li><a href="http://lockedata.uk/itsalockeblog/categories/misc-technology">misc-technology</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    
+
+    
+
+    
+
+
+</div>
                 <div class="col-md-8">
                     
                     
                         <div class="row">
                             <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2017-02-22-quick-tip-knitr-python-windows-setup-checklist/">Quick tip: knitr Python Windows setup checklist</a></h1>
+                                <h1><a href="http://lockedata.uk/itsalockeblog/quick-tip-knitr-python-windows-setup-checklist/">Quick tip: knitr Python Windows setup checklist</a></h1>
                                 <ul class="list-inline">
                                     <li><i class="fa fa-calendar"></i>February 22, 2017</li>
                                     <li><i class="fa fa-user"></i>Steph</li>
                                 </ul>
                                 One of the nifty things about using R is that you can use it for many different purposes and even other languages!
 If you want to use Python in your knitr docs or the newish RStudio R notebook functionality, you might encounter some fiddliness getting all the moving parts running on Windows. This is a quick knitr Python Windows setup checklist to make sure you don&#8217;t miss any important steps.
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2017-02-22-quick-tip-knitr-python-windows-setup-checklist/" role="button">Read More</a>
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/quick-tip-knitr-python-windows-setup-checklist/" role="button">Read More</a>
                             </div>
                         </div>
                     
                         <div class="row">
                             <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2016-04-04-auto-deploying-documentation-better-change-tracking-artefacts/">Auto-deploying documentation: better change tracking of artefacts</a></h1>
+                                <h1><a href="http://lockedata.uk/itsalockeblog/auto-deploying-documentation-better-change-tracking-of-artefacts/">Auto-deploying documentation: better change tracking of artefacts</a></h1>
                                 <ul class="list-inline">
                                     <li><i class="fa fa-calendar"></i>April 4, 2016</li>
                                     <li><i class="fa fa-user"></i>Steph</li>
@@ -130,26 +183,26 @@ If you want to use Python in your knitr docs or the newish RStudio R notebook fu
 <p>Using an environment variable ($TRAVIS_COMMIT) the commit message is the commit ID for the latest commit in the build that occurs on Travis, making it very easy to see what changes triggered a documentation update.</p>
 
 <p></p>
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2016-04-04-auto-deploying-documentation-better-change-tracking-artefacts/" role="button">Read More</a>
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/auto-deploying-documentation-better-change-tracking-of-artefacts/" role="button">Read More</a>
                             </div>
                         </div>
                     
                         <div class="row">
                             <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2015-12-23-auto-deploying-documentation-rtraining/">Auto-deploying documentation: Rtraining</a></h1>
+                                <h1><a href="http://lockedata.uk/itsalockeblog/auto-deploying-documentation-rtraining/">Auto-deploying documentation: Rtraining</a></h1>
                                 <ul class="list-inline">
                                     <li><i class="fa fa-calendar"></i>December 23, 2015</li>
                                     <li><i class="fa fa-user"></i>Steph</li>
                                 </ul>
                                 In my last post on using GitHub, Travis-CI, and rmarkdown/knitr for automatically building and deploying documentation, I covered how I was able to do it with a containerised approach so things were faster. I also said my Rtraining repository was still too brittle to blog about. This has changed &#8211; WOO HOO!
 The main thanks for that goes out to the new package ezknitr from Dean Attali. ezknitr takes the pain out of working directories, making my hierarchies much more resilient.
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2015-12-23-auto-deploying-documentation-rtraining/" role="button">Read More</a>
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/auto-deploying-documentation-rtraining/" role="button">Read More</a>
                             </div>
                         </div>
                     
                         <div class="row">
                             <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2015-11-13-auto-deploying-documentation-faster/">Auto-deploying documentation: FASTER!</a></h1>
+                                <h1><a href="http://lockedata.uk/itsalockeblog/auto-deploying-documentation-faster/">Auto-deploying documentation: FASTER!</a></h1>
                                 <ul class="list-inline">
                                     <li><i class="fa fa-calendar"></i>November 13, 2015</li>
                                     <li><i class="fa fa-user"></i>Steph</li>
@@ -157,13 +210,13 @@ The main thanks for that goes out to the new package ezknitr from Dean Attali. e
                                 <p>Over the past few years I&#8217;ve been delving deeper into automatically building and deploying documentation and reporting in R (with rmarkdown, LaTeX etc). This post covers another step forward on that journey towards awesomeness.</p>
 
 <p></p>
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2015-11-13-auto-deploying-documentation-faster/" role="button">Read More</a>
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/auto-deploying-documentation-faster/" role="button">Read More</a>
                             </div>
                         </div>
                     
                         <div class="row">
                             <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2015-06-05-auto-deploying-documentation-multiple-r-vignettes/">Auto-deploying documentation: multiple R vignettes</a></h1>
+                                <h1><a href="http://lockedata.uk/itsalockeblog/auto-deploying-documentation-multiple-r-vignettes/">Auto-deploying documentation: multiple R vignettes</a></h1>
                                 <ul class="list-inline">
                                     <li><i class="fa fa-calendar"></i>June 5, 2015</li>
                                     <li><i class="fa fa-user"></i>Steph</li>
@@ -198,13 +251,13 @@ The main thanks for that goes out to the new package ezknitr from Dean Attali. e
 <li><p>A way of extracting any number of html files from the vignette folder</p>
 
 <p></p>
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2015-06-05-auto-deploying-documentation-multiple-r-vignettes/" role="button">Read More</a>
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/auto-deploying-documentation-multiple-r-vignettes/" role="button">Read More</a>
                             </div>
                         </div>
                     
                         <div class="row">
                             <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2015-06-03-optirum-presentation/">optiRum – presentation</a></h1>
+                                <h1><a href="http://lockedata.uk/itsalockeblog/optirum--presentation/">optiRum – presentation</a></h1>
                                 <ul class="list-inline">
                                     <li><i class="fa fa-calendar"></i>June 3, 2015</li>
                                     <li><i class="fa fa-user"></i>Steph</li>
@@ -218,13 +271,13 @@ The main thanks for that goes out to the new package ezknitr from Dean Attali. e
 <p>The next part of <a href="https://itsalocke.com/optirum-gini-like-a-wizard/" target="_blank">the coverage</a> of <a href="https://github.com/stephlocke/optiRum" target="_blank">optiRum</a> functionality is to talk about the stuff that makes generating outputs easier!</p>
 
 <p></p>
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2015-06-03-optirum-presentation/" role="button">Read More</a>
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/optirum--presentation/" role="button">Read More</a>
                             </div>
                         </div>
                     
                         <div class="row">
                             <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2015-06-01-automated-documentation-hosting-on-github-via-travis-ci/">Automated documentation hosting on github via Travis-CI</a></h1>
+                                <h1><a href="http://lockedata.uk/itsalockeblog/automated-documentation-hosting-on-github-via-travis-ci/">Automated documentation hosting on github via Travis-CI</a></h1>
                                 <ul class="list-inline">
                                     <li><i class="fa fa-calendar"></i>June 1, 2015</li>
                                     <li><i class="fa fa-user"></i>Steph</li>
@@ -275,13 +328,13 @@ The main thanks for that goes out to the new package ezknitr from Dean Attali. e
 <li><p>Commit &amp; push!</p>
 
 <p></p>
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2015-06-01-automated-documentation-hosting-on-github-via-travis-ci/" role="button">Read More</a>
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/automated-documentation-hosting-on-github-via-travis-ci/" role="button">Read More</a>
                             </div>
                         </div>
                     
                         <div class="row">
                             <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2015-01-18-organised-speaking-iterative-development/">Organised speaking – presentation design</a></h1>
+                                <h1><a href="http://lockedata.uk/itsalockeblog/organised-speaking--presentation-design/">Organised speaking – presentation design</a></h1>
                                 <ul class="list-inline">
                                     <li><i class="fa fa-calendar"></i>January 18, 2015</li>
                                     <li><i class="fa fa-user"></i>Steph</li>
@@ -307,66 +360,13 @@ The main thanks for that goes out to the new package ezknitr from Dean Attali. e
 <p>In my opinion, you should always write the abstract first as not only can you write more abstracts than you can presentations but it distills the idea down and helps you think of your audience first.</p>
 
 <p></p>
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2015-01-18-organised-speaking-iterative-development/" role="button">Read More</a>
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/organised-speaking--presentation-design/" role="button">Read More</a>
                             </div>
                         </div>
                     
                     
 
                 </div>
-   <div class="col-md-4">                    
-	
-<div class="row">
-    <div class="col-md-11 col-md-offset-1 card">
-        <h5>Locke Data Blog</h5>
-        <p>A description that will appear as a default if front matter does not exist</p>
-		<img class="avatar" src="img/ChibiSteph.svg"></img>
-    </div>
-</div>
-
-    <div class="row">
-    <div class="col-md-11 col-md-offset-1 card">
-        <h5>Search</h5>
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form">
-            <div class="input-group">
-                <input class="form-control" type="search" name="q" />
-                <span class="input-group-btn">
-                    <button class="btn btn-primary" type="submit"><span class="glyphicon glyphicon-search"></span></button>
-                </span>
-            </div>
-            <input type="hidden" name="q" value="site:http://lockedata.uk/itsalockeblog/">
-        </form>
-    </div>
-</div>
-
-    
-    
-        <div class="row">
-            <div class="col-md-11 col-md-offset-1 card">
-                <h5>categories</h5>
-                <ul class="list-unstyled posts-recent">
-                    
-                        <li><a href="http://lockedata.uk/itsalockeblog/categories/r">r</a></li>
-                    
-                        <li><a href="http://lockedata.uk/itsalockeblog/categories/community">community</a></li>
-                    
-                        <li><a href="http://lockedata.uk/itsalockeblog/categories/microsoft-data-platform">microsoft-data-platform</a></li>
-                    
-                        <li><a href="http://lockedata.uk/itsalockeblog/categories/data-science">data-science</a></li>
-                    
-                        <li><a href="http://lockedata.uk/itsalockeblog/categories/misc-technology">misc-technology</a></li>
-                    
-                </ul>
-            </div>
-        </div>
-    
-
-    
-
-    
-
-
-</div>
             </div>
         </div>
         <!-- Footer section -->

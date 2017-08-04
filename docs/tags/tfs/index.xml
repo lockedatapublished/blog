@@ -14,10 +14,10 @@
     
     <item>
       <title>Bride of Frankenstein: TFS &#43; R</title>
-      <link>http://lockedata.uk/itsalockeblog/2015-03-20-bride-of-frankenstein-tfs-r/</link>
+      <link>http://lockedata.uk/itsalockeblog/bride-of-frankenstein-tfs---r/</link>
       <pubDate>Fri, 20 Mar 2015 10:44:35 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2015-03-20-bride-of-frankenstein-tfs-r/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/bride-of-frankenstein-tfs---r/</guid>
       <description>&lt;p&gt;The unholy abomination of trying to use TFS as my central repository for my R code over the past year has been tough and you may or not be looking at the screen as if I&amp;#8217;m a crazy fool for even trying. Of course, now I have good news, because I&amp;#8217;ve broken the back of the main issue I had with TFS. The crucial link was being able to programatically create Git repositories within a single project for small projects.&lt;/p&gt;
 
 &lt;p&gt;Using the API, I&amp;#8217;ve been able to write an &lt;a title=&#34;tfsR&#34; href=&#34;https://github.com/stephlocke/tfsR&#34; target=&#34;_blank&#34;&gt;R package&lt;/a&gt; with functions that now save me at least 15 minutes of time and effort each time I want a new project. So I can happily holler &amp;#8220;IT&amp;#8217;S ALIVE!!&amp;#8221;&lt;/p&gt;

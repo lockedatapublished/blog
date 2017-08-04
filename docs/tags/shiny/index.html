@@ -78,145 +78,18 @@
 
         <div id="top" class="container">
             <div class="row" id="content-main">
-                <div class="col-md-8">
-                    
-                    
-                        <div class="row">
-                            <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2017-04-28-upload-multiple-files-in-shiny-and-consolidate-into-a-dataset/">R Quick Tip: Upload multiple files in shiny and consolidate into a dataset</a></h1>
-                                <ul class="list-inline">
-                                    <li><i class="fa fa-calendar"></i>April 28, 2017</li>
-                                    <li><i class="fa fa-user"></i>Steph</li>
-                                </ul>
-                                In shiny, you can use the fileInput with the parameter multiple = TRUE to enable you to upload multiple files at once. But how do you process those multiple files in shiny and consolidate into a single dataset?
-The bit we need from shiny is the input$param$fileinputpath value.
-We can use lapply() with data.table&#8216;s fread() to read multiple CSVs from the fileInput(). Then to consolidate the data, we can use data.
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2017-04-28-upload-multiple-files-in-shiny-and-consolidate-into-a-dataset/" role="button">Read More</a>
-                            </div>
-                        </div>
-                    
-                        <div class="row">
-                            <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2016-04-19-shiny-module-design-patterns-pass-module-input-to-other-modules/">Shiny module design patterns: Pass module inputs to other modules</a></h1>
-                                <ul class="list-inline">
-                                    <li><i class="fa fa-calendar"></i>April 19, 2016</li>
-                                    <li><i class="fa fa-user"></i>Steph</li>
-                                </ul>
-                                <p>Continuing in the series of <a href="https://itsalocke.com/tag/shiny-design-patterns/">shiny module design patterns</a>, this post covers how to pass all the inputs from one module to another.</p>
-
-<h2 id="tl-dr">TL;DR</h2>
-
-<p>Return <code>input</code> from within the server call. Store the <code>callModule()</code> result in a variable. Pass the variable into arguments for other modules. Access the variable like you would <code>input</code>. <a href="https://github.com/stephlocke/shinymodulesdesignpatterns">Steal the code</a> and, as always, if you can improve it do so!</p>
-
-<p></p>
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2016-04-19-shiny-module-design-patterns-pass-module-input-to-other-modules/" role="button">Read More</a>
-                            </div>
-                        </div>
-                    
-                        <div class="row">
-                            <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2016-04-14-shiny-module-design-patterns-pass-module-inputs-modules/">Shiny module design patterns: Pass module input to other modules</a></h1>
-                                <ul class="list-inline">
-                                    <li><i class="fa fa-calendar"></i>April 14, 2016</li>
-                                    <li><i class="fa fa-user"></i>Steph</li>
-                                </ul>
-                                <p>Following on from looking at the <a href="https://itsalocke.com/shiny-module-design-pattern-pass-inputs-one-module-another/">shiny modules design pattern of passing an input value to many modules</a>, I&#8217;m now going to look at a more complex shiny module design pattern: passing an input from one module to another.</p>
-
-<h2 id="tl-dr">TL;DR</h2>
-
-<p>Return the input in a reactive expression from within the server call. Store the <code>callModule()</code> result in a variable. Pass the variable into arguments for other modules. <a href="https://github.com/stephlocke/shinymodulesdesignpatterns">Steal the code</a> and, as always, if you can improve it do so!</p>
-
-<p></p>
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2016-04-14-shiny-module-design-patterns-pass-module-inputs-modules/" role="button">Read More</a>
-                            </div>
-                        </div>
-                    
-                        <div class="row">
-                            <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2016-04-08-shiny-module-design-pattern-pass-inputs-one-module-another/">Shiny module design patterns: Pass a single input to multiple modules</a></h1>
-                                <ul class="list-inline">
-                                    <li><i class="fa fa-calendar"></i>April 8, 2016</li>
-                                    <li><i class="fa fa-user"></i>Steph</li>
-                                </ul>
-                                <p>For the awesome <a href="https://www.eventbrite.com/e/shiny-developer-conference-registration-19153967031">Shiny Developers Conference</a> back in January, I endeavoured to learn about shiny modules and <a href="https://itsalocke.com/declutter-a-shiny-reports-code-v2-0/">overhaul an application</a> using them in the space of two days. I succeeded and almost immediately switched onto other projects, thereby losing most of the hard-won knowledge! As I rediscover shiny modules and start putting them into more active use, I&#8217;ll be blogging about design patterns. This post takes you through the case of multiple modules receiving the same input value.</p>
-
-<h2 id="tl-dr">TL;DR</h2>
-
-<p>Stick overall config input objects at the app level and pass them in a reactive expression to <code>callModule()</code>. Pass the results in as an extra argument into subsequent modules. These are reactive so don&#8217;t forget the brackets. <a href="https://github.com/stephlocke/shinymodulesdesignpatterns">Steal the code</a> and, as always, if you can improve it do so!</p>
-
-<p></p>
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2016-04-08-shiny-module-design-pattern-pass-inputs-one-module-another/" role="button">Read More</a>
-                            </div>
-                        </div>
-                    
-                        <div class="row">
-                            <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2016-03-03-declutter-a-shiny-reports-code-v2-0/">Declutter a shiny report’s code v2.0</a></h1>
-                                <ul class="list-inline">
-                                    <li><i class="fa fa-calendar"></i>March 3, 2016</li>
-                                    <li><i class="fa fa-user"></i>Steph</li>
-                                </ul>
-                                I wrote a year ago on a way to declutter shiny report code which involved putting objects into a sourced file, however, at that point in time the solution was a bit brittle and clunky. Now there&#8217;s a better way to develop shiny applications &#8211; shiny modules.
-In October, RStudio introduced the concept of modules which involves abstracting code out into self-contained blocks.
-Modules are ways of batching your code into discrete chunks &#8211; you keep all the code related to the inputs, manipulation, and presentation for doing something in one module.
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2016-03-03-declutter-a-shiny-reports-code-v2-0/" role="button">Read More</a>
-                            </div>
-                        </div>
-                    
-                        <div class="row">
-                            <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2015-04-26-sql-saturday-exeter-steph-ozs-slides/">SQL Saturday Exeter: Steph &amp; Oz’s slides</a></h1>
-                                <ul class="list-inline">
-                                    <li><i class="fa fa-calendar"></i>April 26, 2015</li>
-                                    <li><i class="fa fa-user"></i>Steph</li>
-                                </ul>
-                                Well SQL Saturday Exeter flew by. T&#8217;was great catching up with people, seeing folks learn how to use (old &amp; new) tools better, and just generally watching everyone having a great time at one of the best organised conferences I have the pleasure of going to.
-Here are links to all the slide decks etc that we presented this weekend:
- My R: analysis to integration training day notes &amp; source code My agile BI slide deck My Shiny: dashboards in R slide deck &amp; source code Oz&#8217;s SSRS: Beyond the basics slide deck &amp; source code  If you attended any of our sessions, give us some constructive criticism!
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2015-04-26-sql-saturday-exeter-steph-ozs-slides/" role="button">Read More</a>
-                            </div>
-                        </div>
-                    
-                        <div class="row">
-                            <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2015-04-13-organised-speaking-improving-font-sizes/">Organised speaking – improving font sizes</a></h1>
-                                <ul class="list-inline">
-                                    <li><i class="fa fa-calendar"></i>April 13, 2015</li>
-                                    <li><i class="fa fa-user"></i>Steph</li>
-                                </ul>
-                                A recurring problem with my presentations is font size.
- The inclusion of code in my Rmarkdown slides was by default too small. Upping the fontsize via CSS worked ok, but when I switched to a shiny app version for my intro to shiny, it reverted and I&#8217;m afraid to say I didn&#8217;t notice beforehand. I use PuTTY for showing how to do some stuff in the linux command line but the font&#8217;s quite small by default and Gail Shaw&#8217;s tip of Magnifier in my session was tough to use I&#8217;ve upped my font size on my Rstudio IDE, but hadn&#8217;t yet implemented this across other IDEs I tend to use my mouse cursor to draw attention to things.
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2015-04-13-organised-speaking-improving-font-sizes/" role="button">Read More</a>
-                            </div>
-                        </div>
-                    
-                        <div class="row">
-                            <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2015-02-18-declutter-a-shiny-reports-code/">Declutter a shiny report’s code</a></h1>
-                                <ul class="list-inline">
-                                    <li><i class="fa fa-calendar"></i>February 18, 2015</li>
-                                    <li><i class="fa fa-user"></i>Steph</li>
-                                </ul>
-                                Shiny reports are awesome, but they sure do end up with many lines of code when adding lots of inputs and outputs. A ui.R file can rapidly exceed 50 lines of code and I prefer to keep things more compact. The best way I&#8217;ve found of doing that in other languages and in R is to modularise my code &#8211; break it down into independent chunks. Shiny already does this by having a server() and ui() section and allowing you to source other files.
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2015-02-18-declutter-a-shiny-reports-code/" role="button">Read More</a>
-                            </div>
-                        </div>
-                    
-                    
-
-                </div>
    <div class="col-md-4">                    
 	
 <div class="row">
-    <div class="col-md-11 col-md-offset-1 card">
+    <div class="col-md-11 card">
         <h5>Locke Data Blog</h5>
         <p>A description that will appear as a default if front matter does not exist</p>
-		<img class="avatar" src="img/ChibiSteph.svg"></img>
+		<img class="avatar" src=http://lockedata.uk/itsalockeblog/img/ChibiSteph.svg></img>
     </div>
 </div>
 
     <div class="row">
-    <div class="col-md-11 col-md-offset-1 card">
+    <div class="col-md-11 card">
         <h5>Search</h5>
         <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form">
             <div class="input-group">
@@ -233,7 +106,7 @@ Here are links to all the slide decks etc that we presented this weekend:
     
     
         <div class="row">
-            <div class="col-md-11 col-md-offset-1 card">
+            <div class="col-md-11  card">
                 <h5>categories</h5>
                 <ul class="list-unstyled posts-recent">
                     
@@ -258,6 +131,133 @@ Here are links to all the slide decks etc that we presented this weekend:
 
 
 </div>
+                <div class="col-md-8">
+                    
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockedata.uk/itsalockeblog/r-quick-tip-upload-multiple-files-in-shiny-and-consolidate-into-a-dataset/">R Quick Tip: Upload multiple files in shiny and consolidate into a dataset</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>April 28, 2017</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                In shiny, you can use the fileInput with the parameter multiple = TRUE to enable you to upload multiple files at once. But how do you process those multiple files in shiny and consolidate into a single dataset?
+The bit we need from shiny is the input$param$fileinputpath value.
+We can use lapply() with data.table&#8216;s fread() to read multiple CSVs from the fileInput(). Then to consolidate the data, we can use data.
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/r-quick-tip-upload-multiple-files-in-shiny-and-consolidate-into-a-dataset/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockedata.uk/itsalockeblog/shiny-module-design-patterns-pass-module-inputs-to-other-modules/">Shiny module design patterns: Pass module inputs to other modules</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>April 19, 2016</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                <p>Continuing in the series of <a href="https://itsalocke.com/tag/shiny-design-patterns/">shiny module design patterns</a>, this post covers how to pass all the inputs from one module to another.</p>
+
+<h2 id="tl-dr">TL;DR</h2>
+
+<p>Return <code>input</code> from within the server call. Store the <code>callModule()</code> result in a variable. Pass the variable into arguments for other modules. Access the variable like you would <code>input</code>. <a href="https://github.com/stephlocke/shinymodulesdesignpatterns">Steal the code</a> and, as always, if you can improve it do so!</p>
+
+<p></p>
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/shiny-module-design-patterns-pass-module-inputs-to-other-modules/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockedata.uk/itsalockeblog/shiny-module-design-patterns-pass-module-input-to-other-modules/">Shiny module design patterns: Pass module input to other modules</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>April 14, 2016</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                <p>Following on from looking at the <a href="https://itsalocke.com/shiny-module-design-pattern-pass-inputs-one-module-another/">shiny modules design pattern of passing an input value to many modules</a>, I&#8217;m now going to look at a more complex shiny module design pattern: passing an input from one module to another.</p>
+
+<h2 id="tl-dr">TL;DR</h2>
+
+<p>Return the input in a reactive expression from within the server call. Store the <code>callModule()</code> result in a variable. Pass the variable into arguments for other modules. <a href="https://github.com/stephlocke/shinymodulesdesignpatterns">Steal the code</a> and, as always, if you can improve it do so!</p>
+
+<p></p>
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/shiny-module-design-patterns-pass-module-input-to-other-modules/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockedata.uk/itsalockeblog/shiny-module-design-patterns-pass-a-single-input-to-multiple-modules/">Shiny module design patterns: Pass a single input to multiple modules</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>April 8, 2016</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                <p>For the awesome <a href="https://www.eventbrite.com/e/shiny-developer-conference-registration-19153967031">Shiny Developers Conference</a> back in January, I endeavoured to learn about shiny modules and <a href="https://itsalocke.com/declutter-a-shiny-reports-code-v2-0/">overhaul an application</a> using them in the space of two days. I succeeded and almost immediately switched onto other projects, thereby losing most of the hard-won knowledge! As I rediscover shiny modules and start putting them into more active use, I&#8217;ll be blogging about design patterns. This post takes you through the case of multiple modules receiving the same input value.</p>
+
+<h2 id="tl-dr">TL;DR</h2>
+
+<p>Stick overall config input objects at the app level and pass them in a reactive expression to <code>callModule()</code>. Pass the results in as an extra argument into subsequent modules. These are reactive so don&#8217;t forget the brackets. <a href="https://github.com/stephlocke/shinymodulesdesignpatterns">Steal the code</a> and, as always, if you can improve it do so!</p>
+
+<p></p>
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/shiny-module-design-patterns-pass-a-single-input-to-multiple-modules/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockedata.uk/itsalockeblog/declutter-a-shiny-reports-code-v2.0/">Declutter a shiny report’s code v2.0</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>March 3, 2016</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                I wrote a year ago on a way to declutter shiny report code which involved putting objects into a sourced file, however, at that point in time the solution was a bit brittle and clunky. Now there&#8217;s a better way to develop shiny applications &#8211; shiny modules.
+In October, RStudio introduced the concept of modules which involves abstracting code out into self-contained blocks.
+Modules are ways of batching your code into discrete chunks &#8211; you keep all the code related to the inputs, manipulation, and presentation for doing something in one module.
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/declutter-a-shiny-reports-code-v2.0/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockedata.uk/itsalockeblog/sql-saturday-exeter-steph--ozs-slides/">SQL Saturday Exeter: Steph &amp; Oz’s slides</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>April 26, 2015</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                Well SQL Saturday Exeter flew by. T&#8217;was great catching up with people, seeing folks learn how to use (old &amp; new) tools better, and just generally watching everyone having a great time at one of the best organised conferences I have the pleasure of going to.
+Here are links to all the slide decks etc that we presented this weekend:
+ My R: analysis to integration training day notes &amp; source code My agile BI slide deck My Shiny: dashboards in R slide deck &amp; source code Oz&#8217;s SSRS: Beyond the basics slide deck &amp; source code  If you attended any of our sessions, give us some constructive criticism!
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/sql-saturday-exeter-steph--ozs-slides/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockedata.uk/itsalockeblog/organised-speaking--improving-font-sizes/">Organised speaking – improving font sizes</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>April 13, 2015</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                A recurring problem with my presentations is font size.
+ The inclusion of code in my Rmarkdown slides was by default too small. Upping the fontsize via CSS worked ok, but when I switched to a shiny app version for my intro to shiny, it reverted and I&#8217;m afraid to say I didn&#8217;t notice beforehand. I use PuTTY for showing how to do some stuff in the linux command line but the font&#8217;s quite small by default and Gail Shaw&#8217;s tip of Magnifier in my session was tough to use I&#8217;ve upped my font size on my Rstudio IDE, but hadn&#8217;t yet implemented this across other IDEs I tend to use my mouse cursor to draw attention to things.
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/organised-speaking--improving-font-sizes/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockedata.uk/itsalockeblog/declutter-a-shiny-reports-code/">Declutter a shiny report’s code</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>February 18, 2015</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                Shiny reports are awesome, but they sure do end up with many lines of code when adding lots of inputs and outputs. A ui.R file can rapidly exceed 50 lines of code and I prefer to keep things more compact. The best way I&#8217;ve found of doing that in other languages and in R is to modularise my code &#8211; break it down into independent chunks. Shiny already does this by having a server() and ui() section and allowing you to source other files.
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/declutter-a-shiny-reports-code/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                    
+
+                </div>
             </div>
         </div>
         <!-- Footer section -->

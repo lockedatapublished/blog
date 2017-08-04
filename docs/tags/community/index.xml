@@ -14,29 +14,29 @@
     
     <item>
       <title>All my talks in one place (plus a Hugo walkthrough!)</title>
-      <link>http://lockedata.uk/itsalockeblog/2017-06-17-presentation-site-hugo-walkthrough/</link>
+      <link>http://lockedata.uk/itsalockeblog/all-my-talks-in-one-place-plus-a-hugo-walkthrough/</link>
       <pubDate>Sat, 17 Jun 2017 09:29:42 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2017-06-17-presentation-site-hugo-walkthrough/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/all-my-talks-in-one-place-plus-a-hugo-walkthrough/</guid>
       <description>I mentioned in an earlier post about how I&amp;#8217;m revamping my presentation slides process but that I hadn&amp;#8217;t tackled the user experience of browsing my slides, which wasted lots of the effort I put in. To tackle this part of it, I&amp;#8217;ve made lockedata.uk using Hugo to be a way of finding and browsing presentations on R, SQL, and more. As Hugo is so easy, I thought I&amp;#8217;d throw in a quick Hugo walkthrough too so that you could build your own blog/slides/company site if you wanted to.</description>
     </item>
     
     <item>
       <title>R and Data Science activities in London, June 27th – 29th</title>
-      <link>http://lockedata.uk/itsalockeblog/2017-06-07-r-data-science-activities-london-june-27th-29th/</link>
+      <link>http://lockedata.uk/itsalockeblog/r-and-data-science-activities-in-london-june-27th--29th/</link>
       <pubDate>Wed, 07 Jun 2017 09:27:46 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2017-06-07-r-data-science-activities-london-june-27th-29th/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/r-and-data-science-activities-in-london-june-27th--29th/</guid>
       <description>Locke Data will be up to some shenanigans of various stripes in the big smoke. We hope to see you at some of them!
 June 26th &amp;#8212; Monday Introduction to R (Newcastle) I won&amp;#8217;t be in London for this but I&amp;#8217;ll be doing a day of Introduction to R in Newcastle. This is supporting the local user groups and costs up to £90 for the whole day.Intro to R in Newcastle, June 26th</description>
     </item>
     
     <item>
       <title>Getting started with data science – recommended resources</title>
-      <link>http://lockedata.uk/itsalockeblog/2017-05-02-getting-started-with-data-science-recommended-resources/</link>
+      <link>http://lockedata.uk/itsalockeblog/getting-started-with-data-science--recommended-resources/</link>
       <pubDate>Tue, 02 May 2017 07:41:04 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2017-05-02-getting-started-with-data-science-recommended-resources/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/getting-started-with-data-science--recommended-resources/</guid>
       <description>An oft asked question is what resources can I recommend for getting started with data science? Here are my recommendations, and if you have others, please put them in the comments!
  NB Links in this post may be affiliate links &amp;#8211; it doesn&amp;#8217;t change the prices you get but might earn me a little money
  Books Data Science for Business Data Science for Business
@@ -45,20 +45,20 @@ Data Science for Business is a great overview book.</description>
     
     <item>
       <title>Community workshops</title>
-      <link>http://lockedata.uk/itsalockeblog/2017-04-14-community-workshops/</link>
+      <link>http://lockedata.uk/itsalockeblog/community-workshops/</link>
       <pubDate>Fri, 14 Apr 2017 18:00:59 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2017-04-14-community-workshops/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/community-workshops/</guid>
       <description>Following on from when we announced the availability of our community workshops, we&amp;#8217;ve got three in the next three months that folks can attend.
 May 19th &amp;#8211; Data science project in a day We&amp;#8217;ll be in Kiev, Ukraine, doing a whole data science project in a day. This is intended to give people a little bit of code, process, and critical thinking along the whole data science workflow. This will enable folks to see how it hangs together and decide where and how much they want to invest their learning in future.</description>
     </item>
     
     <item>
       <title>Dear South Wales &amp; Bristol readers: I need your help</title>
-      <link>http://lockedata.uk/itsalockeblog/2017-03-06-battle-beards-march-29th/</link>
+      <link>http://lockedata.uk/itsalockeblog/dear-south-wales--bristol-readers-i-need-your-help/</link>
       <pubDate>Mon, 06 Mar 2017 12:26:08 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2017-03-06-battle-beards-march-29th/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/dear-south-wales--bristol-readers-i-need-your-help/</guid>
       <description>&lt;p&gt;I need your help.&lt;/p&gt;
 
 &lt;p&gt;Battle of the Beards is an annual tech event in Cardiff that&amp;#8217;s previously been an evening affair but is now a day-long conference. We&amp;#8217;re hosting half-hour talks on security, infrastructure, software craftmanship, front-end development, and data visualisation. We&amp;#8217;re starting out the day with bacon baps and it just gets better from there. Tickets cost £15 and there&amp;#8217;s the option to add a donation to the charity we&amp;#8217;re supporting with the event, the &lt;a href=&#34;https://www.thecalmzone.net/&#34;&gt;Campaign Against Living Miserably&lt;/a&gt;.&lt;/p&gt;
@@ -77,10 +77,10 @@ May 19th &amp;#8211; Data science project in a day We&amp;#8217;ll be in Kiev, U
     
     <item>
       <title>Announcing community R workshops</title>
-      <link>http://lockedata.uk/itsalockeblog/2017-02-27-community-r-workshops/</link>
+      <link>http://lockedata.uk/itsalockeblog/announcing-community-r-workshops/</link>
       <pubDate>Mon, 27 Feb 2017 09:24:14 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2017-02-27-community-r-workshops/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/announcing-community-r-workshops/</guid>
       <description>&lt;p&gt;A big part of why I&amp;#8217;ve launched Locke Data is so that I can give back more to my communities. I want to give more time and more support to others. One of the first steps is doing some activities that give financial support to community groups without damaging my startup cashflow! Community R workshops that fund local user groups is the first activity I&amp;#8217;ll be trialling.&lt;/p&gt;
 
 &lt;p&gt;Here&amp;#8217;s what&amp;#8217;s involved, and what you might want to consider if you&amp;#8217;d like to be a part of this endeavour:&lt;/p&gt;
@@ -90,10 +90,10 @@ May 19th &amp;#8211; Data science project in a day We&amp;#8217;ll be in Kiev, U
     
     <item>
       <title>Giving back with code</title>
-      <link>http://lockedata.uk/itsalockeblog/2016-07-20-giving-back-code/</link>
+      <link>http://lockedata.uk/itsalockeblog/giving-back-with-code/</link>
       <pubDate>Wed, 20 Jul 2016 14:00:50 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2016-07-20-giving-back-code/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/giving-back-with-code/</guid>
       <description>&lt;p&gt;From code in answers on Stack Overflow to R packages or full programs, there&amp;#8217;s a lot of code being written and given away. This post examines some of the reasons why the people writing all that code do it, why you should consider giving back with code, and how you can get started. Finally, I cap it all off with perspectives from some of my favourite coders!&lt;/p&gt;
 
 &lt;ul&gt;
@@ -135,10 +135,10 @@ May 19th &amp;#8211; Data science project in a day We&amp;#8217;ll be in Kiev, U
     
     <item>
       <title>SQLSaturdays but for R?</title>
-      <link>http://lockedata.uk/itsalockeblog/2015-11-04-sqlsaturdays-but-for-r/</link>
+      <link>http://lockedata.uk/itsalockeblog/sqlsaturdays-but-for-r/</link>
       <pubDate>Wed, 04 Nov 2015 19:25:22 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2015-11-04-sqlsaturdays-but-for-r/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/sqlsaturdays-but-for-r/</guid>
       <description>&lt;p&gt;&lt;strong&gt;UPDATE: Proposal now being developed after fantastic community support. Check out satRdays on &lt;a href=&#34;https://github.com/stephlocke/RSaturday-proposal&#34;&gt;GitHub&lt;/a&gt; and contribute your opinions!&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;I had a contact from a very nice chap in Dallas a month ago about whether in the R world we do anything like SQLSaturdays.&lt;/p&gt;

@@ -14,10 +14,10 @@
     
     <item>
       <title>Quick tip: Passing values to a bash script</title>
-      <link>http://lockedata.uk/itsalockeblog/2016-10-30-passing-values-bash-script/</link>
+      <link>http://lockedata.uk/itsalockeblog/quick-tip-passing-values-to-a-bash-script/</link>
       <pubDate>Sun, 30 Oct 2016 14:53:01 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2016-10-30-passing-values-bash-script/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/quick-tip-passing-values-to-a-bash-script/</guid>
       <description>This is a very quick post on how you can make a bash script that allows you to provide it values via the command line. Passing values to a bash script uses a 1-based array convention inside the script, that are referenced by prefixing with $ inside the script.
 This means that if I provide .\dummyscript.sh value1 value2, inside the dummyscript.sh I can retrieve these by referencing their positions:
 echo $1 + $2  For improved clarity, you could assign them to new variables</description>

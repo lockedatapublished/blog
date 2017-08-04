@@ -14,10 +14,10 @@
     
     <item>
       <title>datasauRus now on CRAN</title>
-      <link>http://lockedata.uk/itsalockeblog/2017-05-09-datasaurus-now-cran/</link>
+      <link>http://lockedata.uk/itsalockeblog/datasaurus-now-on-cran/</link>
       <pubDate>Tue, 09 May 2017 10:02:18 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2017-05-09-datasaurus-now-cran/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/datasaurus-now-on-cran/</guid>
       <description>datasauRus is a package storing the datasets from the paper Same Stats, Different Graphs: Generating Datasets with Varied Appearance and Identical Statistics through Simulated Annealing. It&amp;#8217;s a useful package for:
  Having a dinosaur dataset Showing a dinosaur related variant of Anscombe&amp;#8217;s Quartet  You can now get datasauRus on CRAN, though it might not be on all mirrors just yet.
 install.packages(&amp;quot;datasauRus&amp;quot;)  Credit This package wouldn&amp;#8217;t exist without some nifty people:</description>

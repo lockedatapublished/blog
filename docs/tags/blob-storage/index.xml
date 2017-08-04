@@ -14,10 +14,10 @@
     
     <item>
       <title>Azure Storage Accounts – Resource Groups matter to PowerShell!</title>
-      <link>http://lockedata.uk/itsalockeblog/2016-06-10-azure-storage-accounts-resource-groups-matter-to-powershell/</link>
+      <link>http://lockedata.uk/itsalockeblog/azure-storage-accounts--resource-groups-matter-to-powershell/</link>
       <pubDate>Fri, 10 Jun 2016 09:00:21 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2016-06-10-azure-storage-accounts-resource-groups-matter-to-powershell/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/azure-storage-accounts--resource-groups-matter-to-powershell/</guid>
       <description>I&amp;#8217;m sure that all my PoSh friends out there, who use Azure and PowerShell all the time probably know this already but I thought I&amp;#8217;d share a little snippet of hard-won knowledge.
  When you put an Azure Storage Account into a Resource Group, you can no longer use the default Azure.Storage module. Instead, you&amp;#8217;ve got to use the AzureRM.Storage module.
  All the scripts I encountered whilst googling how to connect to blob storage via PowerShell, including the ones in the script gallery within Azure Automation seemed to all assume the azure storage account you wanted to connect to was standalone.</description>
@@ -25,10 +25,10 @@
     
     <item>
       <title>Working with Azure Blob Storage, some notes</title>
-      <link>http://lockedata.uk/itsalockeblog/2015-04-06-working-with-azure-blob-storage-rest-api/</link>
+      <link>http://lockedata.uk/itsalockeblog/working-with-azure-blob-storage-some-notes/</link>
       <pubDate>Mon, 06 Apr 2015 09:27:05 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2015-04-06-working-with-azure-blob-storage-rest-api/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/working-with-azure-blob-storage-some-notes/</guid>
       <description>&lt;p&gt;I&amp;#8217;m working on building a snazzy &lt;a href=&#34;https://github.com/stephlocke/Rtraining/blob/master/inst/slidedecks/shiny/Dashboards.Rmd&#34; title=&#34;My shiny presentation&#34; target=&#34;_blank&#34;&gt;shiny&lt;/a&gt; app that a) drops the inputs/parameter values into &lt;a href=&#34;http://azure.microsoft.com/en-gb/documentation/articles/storage-introduction/&#34; title=&#34;Azure storage intro&#34; target=&#34;_blank&#34;&gt;blob storage&lt;/a&gt; and b) uses &lt;a href=&#34;http://azure.microsoft.com/en-gb/services/stream-analytics/&#34; title=&#34;Stream Analytics&#34; target=&#34;_blank&#34;&gt;Stream Analytics&lt;/a&gt; to query the values and present back what people are saying at the moment. This&amp;#8217;ll be a fab tool for &lt;a href=&#34;https://itsalocke.com/index.php/r-pre-con-sqlsat-exeter/&#34; title=&#34;My R Pre-Con: SQLSat Exeter&#34; target=&#34;_blank&#34;&gt;my pre-con next month&lt;/a&gt; if I can get it working in time!&lt;/p&gt;
 
 &lt;p&gt;Getting it working, does however mean utilising the &lt;a href=&#34;https://msdn.microsoft.com/en-us/library/azure/dd179355.aspx&#34; title=&#34;Storage API documentation&#34; target=&#34;_blank&#34;&gt;Azure Blob Storage API&lt;/a&gt; in R which I confess is much harder than expected, especially after the ease of using the Visual Studio Online API for &lt;a href=&#34;https://itsalocke.com/index.php/bride-of-frankenstein-tfs-r/&#34; title=&#34;Bride of Frankenstein: TFS + R&#34; target=&#34;_blank&#34;&gt;tfsR&lt;/a&gt;. To that end, I thought I&amp;#8217;d write-up some of my findings before I do a bigger write-up that illustrates how to do everything (in R).&lt;/p&gt;

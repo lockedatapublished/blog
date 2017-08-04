@@ -14,10 +14,10 @@
     
     <item>
       <title>Updated site</title>
-      <link>http://lockedata.uk/itsalockeblog/2015-01-03-updated-site/</link>
+      <link>http://lockedata.uk/itsalockeblog/updated-site/</link>
       <pubDate>Sat, 03 Jan 2015 16:21:11 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2015-01-03-updated-site/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/updated-site/</guid>
       <description>&lt;p&gt;As I&amp;#8217;ve been using this blog more recently, the page speed has been becoming much more frustrating. So today, I&amp;#8217;ve done some stuff to improve it and it&amp;#8217;s now twice as fast as it used to be. Please let me know what you think of the new style!&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -25,10 +25,10 @@
     
     <item>
       <title>Synchronising schema between MSSQL &amp; MySQL with SSIS</title>
-      <link>http://lockedata.uk/itsalockeblog/2013-05-29-synchronising-schema-between-mssql-mysql-with-ssis/</link>
+      <link>http://lockedata.uk/itsalockeblog/synchronising-schema-between-mssql--mysql-with-ssis/</link>
       <pubDate>Wed, 29 May 2013 16:25:47 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2013-05-29-synchronising-schema-between-mssql-mysql-with-ssis/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/synchronising-schema-between-mssql--mysql-with-ssis/</guid>
       <description>&lt;p&gt;The problem:&lt;/p&gt;
 
 &lt;p&gt;A system we need to report on that is form based.  Whenever there is a new form, there is a new table, and whenever there is a new or amended* field on the form, there is a new column in the table.  Maintaining the imports of this data into a staging environment would require a lot of code and time to build manually from scratch.&lt;/p&gt;

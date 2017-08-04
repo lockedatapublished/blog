@@ -14,10 +14,10 @@
     
     <item>
       <title>datasauRus now on CRAN</title>
-      <link>http://lockedata.uk/itsalockeblog/2017-05-09-datasaurus-now-cran/</link>
+      <link>http://lockedata.uk/itsalockeblog/datasaurus-now-on-cran/</link>
       <pubDate>Tue, 09 May 2017 10:02:18 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2017-05-09-datasaurus-now-cran/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/datasaurus-now-on-cran/</guid>
       <description>datasauRus is a package storing the datasets from the paper Same Stats, Different Graphs: Generating Datasets with Varied Appearance and Identical Statistics through Simulated Annealing. It&amp;#8217;s a useful package for:
  Having a dinosaur dataset Showing a dinosaur related variant of Anscombe&amp;#8217;s Quartet  You can now get datasauRus on CRAN, though it might not be on all mirrors just yet.
 install.packages(&amp;quot;datasauRus&amp;quot;)  Credit This package wouldn&amp;#8217;t exist without some nifty people:</description>
@@ -25,20 +25,20 @@ install.packages(&amp;quot;datasauRus&amp;quot;)  Credit This package wouldn&amp
     
     <item>
       <title>The making of datasauRus</title>
-      <link>http://lockedata.uk/itsalockeblog/2017-05-02-the-making-of-datasaurus/</link>
+      <link>http://lockedata.uk/itsalockeblog/the-making-of-datasaurus/</link>
       <pubDate>Tue, 02 May 2017 12:10:32 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2017-05-02-the-making-of-datasaurus/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/the-making-of-datasaurus/</guid>
       <description>Around 8:30pm I saw this tweet and duly retweeted
 https://t.co/WuyU9D6npK  &amp;mdash; Richie Cotton (@richierocks) May 1, 2017  It turns out awesome folks, George and Justin, had made a process whereby they can generate different distributions of points that retain the same summary statistics. They used this process for making some friends for Dino the Datasaurus who was created by Alberto Cairo. They made the data for Dino and the rest of the Datasaurus Dozen available for download.</description>
     </item>
     
     <item>
       <title>Getting started with data science – recommended resources</title>
-      <link>http://lockedata.uk/itsalockeblog/2017-05-02-getting-started-with-data-science-recommended-resources/</link>
+      <link>http://lockedata.uk/itsalockeblog/getting-started-with-data-science--recommended-resources/</link>
       <pubDate>Tue, 02 May 2017 07:41:04 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2017-05-02-getting-started-with-data-science-recommended-resources/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/getting-started-with-data-science--recommended-resources/</guid>
       <description>An oft asked question is what resources can I recommend for getting started with data science? Here are my recommendations, and if you have others, please put them in the comments!
  NB Links in this post may be affiliate links &amp;#8211; it doesn&amp;#8217;t change the prices you get but might earn me a little money
  Books Data Science for Business Data Science for Business
@@ -47,10 +47,10 @@ Data Science for Business is a great overview book.</description>
     
     <item>
       <title>Giving back with code</title>
-      <link>http://lockedata.uk/itsalockeblog/2016-07-20-giving-back-code/</link>
+      <link>http://lockedata.uk/itsalockeblog/giving-back-with-code/</link>
       <pubDate>Wed, 20 Jul 2016 14:00:50 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2016-07-20-giving-back-code/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/giving-back-with-code/</guid>
       <description>&lt;p&gt;From code in answers on Stack Overflow to R packages or full programs, there&amp;#8217;s a lot of code being written and given away. This post examines some of the reasons why the people writing all that code do it, why you should consider giving back with code, and how you can get started. Finally, I cap it all off with perspectives from some of my favourite coders!&lt;/p&gt;
 
 &lt;ul&gt;
@@ -92,20 +92,20 @@ Data Science for Business is a great overview book.</description>
     
     <item>
       <title>Recent presentations</title>
-      <link>http://lockedata.uk/itsalockeblog/2016-06-01-recent-presentations/</link>
+      <link>http://lockedata.uk/itsalockeblog/recent-presentations/</link>
       <pubDate>Wed, 01 Jun 2016 08:09:32 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2016-06-01-recent-presentations/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/recent-presentations/</guid>
       <description>The last month or so has been a whirlwind of awesomeness with a veritable bevvy of user group and conference talks on my part! I thought I would share the materials with you and provide some brief thoughts on how each presentation went.
 Sessions  SQL Saturday Exeter : Stats 101 London Business Analytics (LBAG) : Skilling up to code with data SQLBits &amp;amp; TUGA : Cut the R Learning Curve SQLBits &amp;amp; TUGA : R in the Microsoft Data Platform (full day of training) IT Pro Portugal : Being lazy with infrastructure  SQL Saturday Exeter My presentation, in my opinion, was exceedingly brave.</description>
     </item>
     
     <item>
       <title>Shiny module design patterns: Pass module inputs to other modules</title>
-      <link>http://lockedata.uk/itsalockeblog/2016-04-19-shiny-module-design-patterns-pass-module-input-to-other-modules/</link>
+      <link>http://lockedata.uk/itsalockeblog/shiny-module-design-patterns-pass-module-inputs-to-other-modules/</link>
       <pubDate>Tue, 19 Apr 2016 10:15:19 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2016-04-19-shiny-module-design-patterns-pass-module-input-to-other-modules/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/shiny-module-design-patterns-pass-module-inputs-to-other-modules/</guid>
       <description>&lt;p&gt;Continuing in the series of &lt;a href=&#34;https://itsalocke.com/tag/shiny-design-patterns/&#34;&gt;shiny module design patterns&lt;/a&gt;, this post covers how to pass all the inputs from one module to another.&lt;/p&gt;
 
 &lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
@@ -117,10 +117,10 @@ Sessions  SQL Saturday Exeter : Stats 101 London Business Analytics (LBAG) : Ski
     
     <item>
       <title>Shiny module design patterns: Pass module input to other modules</title>
-      <link>http://lockedata.uk/itsalockeblog/2016-04-14-shiny-module-design-patterns-pass-module-inputs-modules/</link>
+      <link>http://lockedata.uk/itsalockeblog/shiny-module-design-patterns-pass-module-input-to-other-modules/</link>
       <pubDate>Thu, 14 Apr 2016 12:05:55 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2016-04-14-shiny-module-design-patterns-pass-module-inputs-modules/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/shiny-module-design-patterns-pass-module-input-to-other-modules/</guid>
       <description>&lt;p&gt;Following on from looking at the &lt;a href=&#34;https://itsalocke.com/shiny-module-design-pattern-pass-inputs-one-module-another/&#34;&gt;shiny modules design pattern of passing an input value to many modules&lt;/a&gt;, I&amp;#8217;m now going to look at a more complex shiny module design pattern: passing an input from one module to another.&lt;/p&gt;
 
 &lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
@@ -132,10 +132,10 @@ Sessions  SQL Saturday Exeter : Stats 101 London Business Analytics (LBAG) : Ski
     
     <item>
       <title>Using Travis? Make sure you use a Github PAT</title>
-      <link>http://lockedata.uk/itsalockeblog/2016-04-12-using-travis-make-sure-use-github-pat/</link>
+      <link>http://lockedata.uk/itsalockeblog/using-travis-make-sure-you-use-a-github-pat/</link>
       <pubDate>Tue, 12 Apr 2016 10:27:03 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2016-04-12-using-travis-make-sure-use-github-pat/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/using-travis-make-sure-you-use-a-github-pat/</guid>
       <description>&lt;p&gt;We&amp;#8217;re in the fantastic situation where lots of people are using &lt;a href=&#34;https://travis-ci.org/&#34;&gt;Travis-CI&lt;/a&gt; to test their R packages or use it to test and deploy their analytics/ documentation / anything really. It&amp;#8217;s popularity has been having a negative side-effect recently though! GitHub &lt;a href=&#34;https://developer.github.com/v3/#rate-limiting&#34;&gt;rate limits&lt;/a&gt; API access to 5000 requests per hour so sometimes there are more R related jobs running on Travis per hour than this limit, causing builds to error typically with a message that includes&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -155,10 +155,10 @@ Sessions  SQL Saturday Exeter : Stats 101 London Business Analytics (LBAG) : Ski
     
     <item>
       <title>Shiny module design patterns: Pass a single input to multiple modules</title>
-      <link>http://lockedata.uk/itsalockeblog/2016-04-08-shiny-module-design-pattern-pass-inputs-one-module-another/</link>
+      <link>http://lockedata.uk/itsalockeblog/shiny-module-design-patterns-pass-a-single-input-to-multiple-modules/</link>
       <pubDate>Fri, 08 Apr 2016 10:56:32 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2016-04-08-shiny-module-design-pattern-pass-inputs-one-module-another/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/shiny-module-design-patterns-pass-a-single-input-to-multiple-modules/</guid>
       <description>&lt;p&gt;For the awesome &lt;a href=&#34;https://www.eventbrite.com/e/shiny-developer-conference-registration-19153967031&#34;&gt;Shiny Developers Conference&lt;/a&gt; back in January, I endeavoured to learn about shiny modules and &lt;a href=&#34;https://itsalocke.com/declutter-a-shiny-reports-code-v2-0/&#34;&gt;overhaul an application&lt;/a&gt; using them in the space of two days. I succeeded and almost immediately switched onto other projects, thereby losing most of the hard-won knowledge! As I rediscover shiny modules and start putting them into more active use, I&amp;#8217;ll be blogging about design patterns. This post takes you through the case of multiple modules receiving the same input value.&lt;/p&gt;
 
 &lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
@@ -170,10 +170,10 @@ Sessions  SQL Saturday Exeter : Stats 101 London Business Analytics (LBAG) : Ski
     
     <item>
       <title>Auto-deploying documentation: better change tracking of artefacts</title>
-      <link>http://lockedata.uk/itsalockeblog/2016-04-04-auto-deploying-documentation-better-change-tracking-artefacts/</link>
+      <link>http://lockedata.uk/itsalockeblog/auto-deploying-documentation-better-change-tracking-of-artefacts/</link>
       <pubDate>Mon, 04 Apr 2016 11:04:34 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2016-04-04-auto-deploying-documentation-better-change-tracking-artefacts/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/auto-deploying-documentation-better-change-tracking-of-artefacts/</guid>
       <description>&lt;p&gt;As part of my never-ending quest to deploy documentation better, I&amp;#8217;ve made yet another tweak to my scripts that deploy R vignettes or Rmarkdown documents to the &lt;code&gt;gh-pages&lt;/code&gt; branch of my github repositories via Travis-CI.&lt;/p&gt;
 
 &lt;p&gt;The script from &lt;a href=&#34;http://rmflight.github.io/posts/2014/11/travis_ci_gh_pages.html&#34;&gt;Robert Flight&lt;/a&gt; that&amp;#8217;s provided the basis for most of this work does something specific to update the web facing branch of the repository. It would:&lt;/p&gt;
@@ -207,20 +207,20 @@ Sessions  SQL Saturday Exeter : Stats 101 London Business Analytics (LBAG) : Ski
     
     <item>
       <title>R package news: tfsR, HIBPwned, mockaRoo</title>
-      <link>http://lockedata.uk/itsalockeblog/2016-03-24-r-package-news-tfsr-hibpwned-mockaroo/</link>
+      <link>http://lockedata.uk/itsalockeblog/r-package-news-tfsr-hibpwned-mockaroo/</link>
       <pubDate>Thu, 24 Mar 2016 15:44:03 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2016-03-24-r-package-news-tfsr-hibpwned-mockaroo/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/r-package-news-tfsr-hibpwned-mockaroo/</guid>
       <description>This is a brief update on my packages not currently on CRAN: tfsR, HIBPwned, and mockaRoo.
 tfsR tfsR is designed to help you work git repositories in Microsoft Team Foundation Server (TFS) and Visual Studio Team Services (VSTS). I wrote the package a while ago and it has/had just two functions; one for getting a list of git repositories, and one for making a new git repository. The release of httr 1.</description>
     </item>
     
     <item>
       <title>HIBPwned, an R package for HaveIBeenPwned.com</title>
-      <link>http://lockedata.uk/itsalockeblog/2016-03-21-r-package-haveibeenpwned-com/</link>
+      <link>http://lockedata.uk/itsalockeblog/hibpwned-an-r-package-for-haveibeenpwned.com/</link>
       <pubDate>Mon, 21 Mar 2016 15:02:08 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2016-03-21-r-package-haveibeenpwned-com/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/hibpwned-an-r-package-for-haveibeenpwned.com/</guid>
       <description>&lt;p&gt;The answer in life to the inevitable question of &amp;#8220;How can I do that in R?&amp;#8221; should be &amp;#8220;There&amp;#8217;s a package for that&amp;#8221;. So when I wanted to query &lt;a href=&#34;https://haveibeenpwned.com&#34;&gt;HaveIBeenPwned.com&lt;/a&gt; (HIBP) to check whether a bunch of emails had been involved in data breaches and there wasn&amp;#8217;t an R package for HIBP, it meant that the responsibility for making one landed on my shoulders. Now, you can see if your accounts are at risk with the R package for HaveIBeenPwned.com, &lt;strong&gt;HIBPwned&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;figure id=&#34;attachment_61581&#34; style=&#34;width: 768px&#34; class=&#34;wp-caption alignnone&#34;&gt;&lt;img src=&#34;http://res.cloudinary.com/lockedata/image/upload/h_139,w_750/v1499850337/hibp_os8t5d.png&#34; alt=&#34;Have I Been Pwned | HaveIBeenPwned.com&#34; width=&#34;768&#34; height=&#34;142&#34; class=&#34;size-medium_large wp-image-61581&#34; /&gt;&lt;figcaption class=&#34;wp-caption-text&#34;&gt;Have I Been Pwned | HaveIBeenPwned.com&lt;/figcaption&gt;&lt;/figure&gt;
@@ -234,10 +234,10 @@ tfsR tfsR is designed to help you work git repositories in Microsoft Team Founda
     
     <item>
       <title>mockaRoo – making realistic test data in R</title>
-      <link>http://lockedata.uk/itsalockeblog/2016-03-08-mockaroo-making-realistic-test-data-in-r/</link>
+      <link>http://lockedata.uk/itsalockeblog/mockaroo--making-realistic-test-data-in-r/</link>
       <pubDate>Tue, 08 Mar 2016 14:00:54 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2016-03-08-mockaroo-making-realistic-test-data-in-r/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/mockaroo--making-realistic-test-data-in-r/</guid>
       <description>&lt;p&gt;When I&amp;#8217;m building stuff in R like packages, models, etc. I find myself wishing for realistic looking test data without having to resort to getting data off my production server. To that end I&amp;#8217;ve been on the hunt for a way of generating decent test data. A few months back I stumbled upon the neat system &lt;a href=&#34;https://www.mockaroo.com/&#34;&gt;Mockaroo&lt;/a&gt; which provides a GUI to build some data that suits your needs.&lt;/p&gt;
 
 &lt;p&gt;Mockaroo is a really impressive service with a wide spread of different data types. They also have simple ways of adding things like within group differences to data so that you can mock realistic class differences. They use the freemium model so you can get a thousand rows per download, which is pretty sweet. The big BUT you can feel coming on is this &amp;#8211; it&amp;#8217;s a GUI! I don&amp;#8217;t want to have spend time hand cranking a data extract.&lt;/p&gt;
@@ -251,10 +251,10 @@ tfsR tfsR is designed to help you work git repositories in Microsoft Team Founda
     
     <item>
       <title>Declutter a shiny report’s code v2.0</title>
-      <link>http://lockedata.uk/itsalockeblog/2016-03-03-declutter-a-shiny-reports-code-v2-0/</link>
+      <link>http://lockedata.uk/itsalockeblog/declutter-a-shiny-reports-code-v2.0/</link>
       <pubDate>Thu, 03 Mar 2016 13:40:34 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2016-03-03-declutter-a-shiny-reports-code-v2-0/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/declutter-a-shiny-reports-code-v2.0/</guid>
       <description>I wrote a year ago on a way to declutter shiny report code which involved putting objects into a sourced file, however, at that point in time the solution was a bit brittle and clunky. Now there&amp;#8217;s a better way to develop shiny applications &amp;#8211; shiny modules.
 In October, RStudio introduced the concept of modules which involves abstracting code out into self-contained blocks.
 Modules are ways of batching your code into discrete chunks &amp;#8211; you keep all the code related to the inputs, manipulation, and presentation for doing something in one module.</description>
@@ -262,30 +262,30 @@ Modules are ways of batching your code into discrete chunks &amp;#8211; you keep
     
     <item>
       <title>satRdays: final push</title>
-      <link>http://lockedata.uk/itsalockeblog/2016-01-06-satrdays-final-push/</link>
+      <link>http://lockedata.uk/itsalockeblog/satrdays-final-push/</link>
       <pubDate>Wed, 06 Jan 2016 14:54:37 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2016-01-06-satrdays-final-push/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/satrdays-final-push/</guid>
       <description>I talked back in November about the idea of an RSaturday, which were free community-driven conferences on R. Since then, we created a GitHub repository and started hammering out the details for satRdays. The current proposal consists of:
  A name: satRday A proposition: Free/cheap (&amp;lt;£30) conferences organised by user groups around the world. Attendees get more access to training in R, with a much lower cost-barrier. We develop more speakers on R.</description>
     </item>
     
     <item>
       <title>Auto-deploying documentation: Rtraining</title>
-      <link>http://lockedata.uk/itsalockeblog/2015-12-23-auto-deploying-documentation-rtraining/</link>
+      <link>http://lockedata.uk/itsalockeblog/auto-deploying-documentation-rtraining/</link>
       <pubDate>Wed, 23 Dec 2015 10:25:48 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2015-12-23-auto-deploying-documentation-rtraining/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/auto-deploying-documentation-rtraining/</guid>
       <description>In my last post on using GitHub, Travis-CI, and rmarkdown/knitr for automatically building and deploying documentation, I covered how I was able to do it with a containerised approach so things were faster. I also said my Rtraining repository was still too brittle to blog about. This has changed &amp;#8211; WOO HOO!
 The main thanks for that goes out to the new package ezknitr from Dean Attali. ezknitr takes the pain out of working directories, making my hierarchies much more resilient.</description>
     </item>
     
     <item>
       <title>Auto-deploying documentation: FASTER!</title>
-      <link>http://lockedata.uk/itsalockeblog/2015-11-13-auto-deploying-documentation-faster/</link>
+      <link>http://lockedata.uk/itsalockeblog/auto-deploying-documentation-faster/</link>
       <pubDate>Fri, 13 Nov 2015 09:13:22 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2015-11-13-auto-deploying-documentation-faster/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/auto-deploying-documentation-faster/</guid>
       <description>&lt;p&gt;Over the past few years I&amp;#8217;ve been delving deeper into automatically building and deploying documentation and reporting in R (with rmarkdown, LaTeX etc). This post covers another step forward on that journey towards awesomeness.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -293,20 +293,20 @@ The main thanks for that goes out to the new package ezknitr from Dean Attali. e
     
     <item>
       <title>Some recent posts over on the Mango blog</title>
-      <link>http://lockedata.uk/itsalockeblog/2015-10-28-some-recent-posts-over-on-the-mango-blog/</link>
+      <link>http://lockedata.uk/itsalockeblog/some-recent-posts-over-on-the-mango-blog/</link>
       <pubDate>Wed, 28 Oct 2015 17:10:32 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2015-10-28-some-recent-posts-over-on-the-mango-blog/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/some-recent-posts-over-on-the-mango-blog/</guid>
       <description>Since August, I&amp;#8217;ve had the pleasure to work at Mango Solutions, a data science consultancy, as a Principal Consultant.
 In that time, I&amp;#8217;ve been to EARL London, SQL Relay, and SQL in the City, so conference season has been in full swing with more to come in the form EARL Boston next week. Surprisingly, I&amp;#8217;ve also found some time to help some customers out and write some blog posts over on the Mango site.</description>
     </item>
     
     <item>
       <title>R training day mk2 – @SQLSatMcr</title>
-      <link>http://lockedata.uk/itsalockeblog/2015-06-24-r-training-day-mk2-sqlsatmcr/</link>
+      <link>http://lockedata.uk/itsalockeblog/r-training-day-mk2--sqlsatmcr/</link>
       <pubDate>Wed, 24 Jun 2015 08:35:09 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2015-06-24-r-training-day-mk2-sqlsatmcr/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/r-training-day-mk2--sqlsatmcr/</guid>
       <description>&lt;p&gt;Back in April, for SQL Saturday Exeter I ran &lt;a href=&#34;https://itsalocke.com/sqlsaturday-exeter-2015/&#34;&gt;my first ever full day of training&lt;/a&gt;. Next month sees me taking my second tilt at it.&lt;/p&gt;
 
 &lt;p&gt;To sign up for my R training day, July 24th, in Manchester you can go to the pre-con homepage.&lt;/p&gt;
@@ -318,10 +318,10 @@ In that time, I&amp;#8217;ve been to EARL London, SQL Relay, and SQL in the City
     
     <item>
       <title>Auto-deploying documentation: multiple R vignettes</title>
-      <link>http://lockedata.uk/itsalockeblog/2015-06-05-auto-deploying-documentation-multiple-r-vignettes/</link>
+      <link>http://lockedata.uk/itsalockeblog/auto-deploying-documentation-multiple-r-vignettes/</link>
       <pubDate>Fri, 05 Jun 2015 08:38:44 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2015-06-05-auto-deploying-documentation-multiple-r-vignettes/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/auto-deploying-documentation-multiple-r-vignettes/</guid>
       <description>&lt;p&gt;Following on from my post about the principles behind using travis-ci to commit to a &lt;code&gt;gh-pages&lt;/code&gt; I wanted to follow-up with how I tackled my &amp;#8220;intermediate&amp;#8221; use case.&lt;/p&gt;
 
 &lt;hr /&gt;
@@ -356,10 +356,10 @@ In that time, I&amp;#8217;ve been to EARL London, SQL Relay, and SQL in the City
     
     <item>
       <title>My (first) #SQLHangout</title>
-      <link>http://lockedata.uk/itsalockeblog/2015-06-04-my-first-sqlhangout/</link>
+      <link>http://lockedata.uk/itsalockeblog/my-first-#sqlhangout/</link>
       <pubDate>Thu, 04 Jun 2015 08:19:17 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2015-06-04-my-first-sqlhangout/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/my-first-#sqlhangout/</guid>
       <description>Yesterday I had the pleasure of hanging out &amp;#8220;on air&amp;#8221; with Boris Hristov.
 We talked open sourcing!
 You can download and/or contribute to the following projects I have going:
@@ -368,10 +368,10 @@ You can download and/or contribute to the following projects I have going:
     
     <item>
       <title>Automated documentation hosting on github via Travis-CI</title>
-      <link>http://lockedata.uk/itsalockeblog/2015-06-01-automated-documentation-hosting-on-github-via-travis-ci/</link>
+      <link>http://lockedata.uk/itsalockeblog/automated-documentation-hosting-on-github-via-travis-ci/</link>
       <pubDate>Mon, 01 Jun 2015 09:29:21 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2015-06-01-automated-documentation-hosting-on-github-via-travis-ci/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/automated-documentation-hosting-on-github-via-travis-ci/</guid>
       <description>&lt;p&gt;In this post, I&amp;#8217;m going to cover how you can use continuous integration and source control to build and host documentation (or any other static HTML) for free, and in a way that updates every time your code changes. I&amp;#8217;ll cover the generic capability, and then how I apply this to my simplest package, tfsR. In a later post (once I&amp;#8217;ve cracked the best method to do it) I&amp;#8217;ll cover my more complex use case of multiple documents and a dynamically constructed index page.&lt;/p&gt;
 
 &lt;p&gt;NB: This is kicked off from a &lt;a href=&#34;http://rmflight.github.io/posts/2014/11/travis_ci_gh_pages.html&#34;&gt;post&lt;/a&gt; from Robert Flight about applying to the technique to R package vignettes. It&amp;#8217;s a very useful post but it was quite specific to his situation and I wanted to understand the principles behind it before I started extending it to my more complex cases.&lt;/p&gt;
@@ -422,10 +422,10 @@ You can download and/or contribute to the following projects I have going:
     
     <item>
       <title>Easy Continuous Integration for R</title>
-      <link>http://lockedata.uk/itsalockeblog/2015-04-20-easy-continuous-integration-for-r/</link>
+      <link>http://lockedata.uk/itsalockeblog/easy-continuous-integration-for-r/</link>
       <pubDate>Mon, 20 Apr 2015 09:06:36 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2015-04-20-easy-continuous-integration-for-r/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/easy-continuous-integration-for-r/</guid>
       <description>&lt;p&gt;With &lt;a href=&#34;http://r-pkgs.had.co.nz/&#34;&gt;excellent guidance&lt;/a&gt; and &lt;a href=&#34;http://cran.r-project.org/web/packages/devtools/&#34;&gt;tooling&lt;/a&gt; on making R packages, it&amp;#8217;s becoming really easy to make a package to hold your R functionality. This has a host of benefits, not least source control (via GitHub) and unit testing (via the &lt;a href=&#34;http://cran.r-project.org/web/packages/testthat/&#34;&gt;&lt;code&gt;testthat&lt;/code&gt;&lt;/a&gt; package). Once you have a package and unit tests, a great way of making sure that as you change things you don&amp;#8217;t break them is to perform &lt;a href=&#34;http://www.thoughtworks.com/continuous-integration&#34;&gt;Continuous integration&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;What this means is that &lt;strong&gt;every&lt;/strong&gt; time you make a change, your package is built and thoroughly checked for any issues. If issues are found the &amp;#8220;build&amp;#8217;s broke&amp;#8221; and you have to fix it ASAP.&lt;/p&gt;
@@ -439,10 +439,10 @@ You can download and/or contribute to the following projects I have going:
     
     <item>
       <title>optiRum – gini like a wizard</title>
-      <link>http://lockedata.uk/itsalockeblog/2015-04-16-optirum-gini-like-a-wizard/</link>
+      <link>http://lockedata.uk/itsalockeblog/optirum--gini-like-a-wizard/</link>
       <pubDate>Thu, 16 Apr 2015 10:22:38 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2015-04-16-optirum-gini-like-a-wizard/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/optirum--gini-like-a-wizard/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;&lt;a href=&#34;http://cran.r-project.org/web/packages/optiRum/&#34; title=&#34;optiRum on CRAN&#34; target=&#34;_blank&#34;&gt;optiRum&lt;/a&gt;, the R package I built and maintain for Optimum on CRAN has gained some extra functions recently. Some of it uses currently experimental data.table functionality so I&amp;#8217;m eagerly awaiting the release to CRAN to deliver optiRum.&lt;/p&gt;
 
@@ -460,10 +460,10 @@ You can download and/or contribute to the following projects I have going:
     
     <item>
       <title>Working with Azure Blob Storage, some notes</title>
-      <link>http://lockedata.uk/itsalockeblog/2015-04-06-working-with-azure-blob-storage-rest-api/</link>
+      <link>http://lockedata.uk/itsalockeblog/working-with-azure-blob-storage-some-notes/</link>
       <pubDate>Mon, 06 Apr 2015 09:27:05 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2015-04-06-working-with-azure-blob-storage-rest-api/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/working-with-azure-blob-storage-some-notes/</guid>
       <description>&lt;p&gt;I&amp;#8217;m working on building a snazzy &lt;a href=&#34;https://github.com/stephlocke/Rtraining/blob/master/inst/slidedecks/shiny/Dashboards.Rmd&#34; title=&#34;My shiny presentation&#34; target=&#34;_blank&#34;&gt;shiny&lt;/a&gt; app that a) drops the inputs/parameter values into &lt;a href=&#34;http://azure.microsoft.com/en-gb/documentation/articles/storage-introduction/&#34; title=&#34;Azure storage intro&#34; target=&#34;_blank&#34;&gt;blob storage&lt;/a&gt; and b) uses &lt;a href=&#34;http://azure.microsoft.com/en-gb/services/stream-analytics/&#34; title=&#34;Stream Analytics&#34; target=&#34;_blank&#34;&gt;Stream Analytics&lt;/a&gt; to query the values and present back what people are saying at the moment. This&amp;#8217;ll be a fab tool for &lt;a href=&#34;https://itsalocke.com/index.php/r-pre-con-sqlsat-exeter/&#34; title=&#34;My R Pre-Con: SQLSat Exeter&#34; target=&#34;_blank&#34;&gt;my pre-con next month&lt;/a&gt; if I can get it working in time!&lt;/p&gt;
 
 &lt;p&gt;Getting it working, does however mean utilising the &lt;a href=&#34;https://msdn.microsoft.com/en-us/library/azure/dd179355.aspx&#34; title=&#34;Storage API documentation&#34; target=&#34;_blank&#34;&gt;Azure Blob Storage API&lt;/a&gt; in R which I confess is much harder than expected, especially after the ease of using the Visual Studio Online API for &lt;a href=&#34;https://itsalocke.com/index.php/bride-of-frankenstein-tfs-r/&#34; title=&#34;Bride of Frankenstein: TFS + R&#34; target=&#34;_blank&#34;&gt;tfsR&lt;/a&gt;. To that end, I thought I&amp;#8217;d write-up some of my findings before I do a bigger write-up that illustrates how to do everything (in R).&lt;/p&gt;
@@ -475,20 +475,20 @@ You can download and/or contribute to the following projects I have going:
     
     <item>
       <title>DeployR – why Microsoft bought Revolution?</title>
-      <link>http://lockedata.uk/itsalockeblog/2015-03-23-deployr-why-microsoft-bought-revolution/</link>
+      <link>http://lockedata.uk/itsalockeblog/deployr--why-microsoft-bought-revolution/</link>
       <pubDate>Mon, 23 Mar 2015 10:19:10 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2015-03-23-deployr-why-microsoft-bought-revolution/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/deployr--why-microsoft-bought-revolution/</guid>
       <description>I&amp;#8217;ve been asked by a few people recently about why I don&amp;#8217;t use Azure Machine Learning (ML). I answer that I don&amp;#8217;t use it yet, and the reason being that at the moment the robust development life-cycle isn&amp;#8217;t in place around it. I think that will change &amp;#8211; one of the great reasons for the acquisition of Revolution Analytics (in my opinion) is their DeployR system.
 DeployR is essentially an R web service platform.</description>
     </item>
     
     <item>
       <title>Bride of Frankenstein: TFS &#43; R</title>
-      <link>http://lockedata.uk/itsalockeblog/2015-03-20-bride-of-frankenstein-tfs-r/</link>
+      <link>http://lockedata.uk/itsalockeblog/bride-of-frankenstein-tfs---r/</link>
       <pubDate>Fri, 20 Mar 2015 10:44:35 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2015-03-20-bride-of-frankenstein-tfs-r/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/bride-of-frankenstein-tfs---r/</guid>
       <description>&lt;p&gt;The unholy abomination of trying to use TFS as my central repository for my R code over the past year has been tough and you may or not be looking at the screen as if I&amp;#8217;m a crazy fool for even trying. Of course, now I have good news, because I&amp;#8217;ve broken the back of the main issue I had with TFS. The crucial link was being able to programatically create Git repositories within a single project for small projects.&lt;/p&gt;
 
 &lt;p&gt;Using the API, I&amp;#8217;ve been able to write an &lt;a title=&#34;tfsR&#34; href=&#34;https://github.com/stephlocke/tfsR&#34; target=&#34;_blank&#34;&gt;R package&lt;/a&gt; with functions that now save me at least 15 minutes of time and effort each time I want a new project. So I can happily holler &amp;#8220;IT&amp;#8217;S ALIVE!!&amp;#8221;&lt;/p&gt;
@@ -498,38 +498,38 @@ DeployR is essentially an R web service platform.</description>
     
     <item>
       <title>Stuff I read this week</title>
-      <link>http://lockedata.uk/itsalockeblog/2015-02-27-stuff-i-read-this-week-2/</link>
+      <link>http://lockedata.uk/itsalockeblog/stuff-i-read-this-week/</link>
       <pubDate>Fri, 27 Feb 2015 13:01:49 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2015-02-27-stuff-i-read-this-week-2/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/stuff-i-read-this-week/</guid>
       <description> The Unbearable Lightness of Tweeting  Hadley Wickham: Impact the world by being useful Academics should be made accountable for exaggerations in press releases about their own work Why Complex Decisions Inevitably Take Weeks Six sentence emails that get fast responses Average house prices: how expensive is your area? FCA Consumer Spotlight &amp;#8212; segmenting retail financial customers Making R Files Executable (under Windows) Shipping Culture Is Hurting Us   </description>
     </item>
     
     <item>
       <title>Declutter a shiny report’s code</title>
-      <link>http://lockedata.uk/itsalockeblog/2015-02-18-declutter-a-shiny-reports-code/</link>
+      <link>http://lockedata.uk/itsalockeblog/declutter-a-shiny-reports-code/</link>
       <pubDate>Wed, 18 Feb 2015 11:41:21 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2015-02-18-declutter-a-shiny-reports-code/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/declutter-a-shiny-reports-code/</guid>
       <description>Shiny reports are awesome, but they sure do end up with many lines of code when adding lots of inputs and outputs. A ui.R file can rapidly exceed 50 lines of code and I prefer to keep things more compact. The best way I&amp;#8217;ve found of doing that in other languages and in R is to modularise my code &amp;#8211; break it down into independent chunks. Shiny already does this by having a server() and ui() section and allowing you to source other files.</description>
     </item>
     
     <item>
       <title>Stuff I read this week</title>
-      <link>http://lockedata.uk/itsalockeblog/2015-02-13-stuff-read-week/</link>
+      <link>http://lockedata.uk/itsalockeblog/stuff-i-read-this-week/</link>
       <pubDate>Fri, 13 Feb 2015 15:45:58 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2015-02-13-stuff-read-week/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/stuff-i-read-this-week/</guid>
       <description>Here&amp;#8217;s a selection of articles etc. that I found really interesting this week:
  Gendered Language in Teacher Reviews Knowledge units &amp;#8211; the atoms of statistical education SQLBits in The Register Paul Randal: Want to be mentored by me? Replacing Middle Management with APIs R in Business Intelligence The RHS assignment operator in R Ooh R Can Microsoft make R easy?  </description>
     </item>
     
     <item>
       <title>magrittr: cleaner program flow</title>
-      <link>http://lockedata.uk/itsalockeblog/2015-02-09-magrittr-cleaner-program-flow/</link>
+      <link>http://lockedata.uk/itsalockeblog/magrittr-cleaner-program-flow/</link>
       <pubDate>Mon, 09 Feb 2015 11:51:23 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2015-02-09-magrittr-cleaner-program-flow/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/magrittr-cleaner-program-flow/</guid>
       <description>&lt;p&gt;Last year I built a pretty sweet web service in R as part of the day job. However, not being well-versed in stuff like object-oriented programming, I did not do the best job of making the flow of my program particularly clear or robust. It wouldn&amp;#8217;t take multiple inputs properly and I found it to be tough to test. In spare moments, I took to cogitating how to improve things.&lt;/p&gt;
 
 &lt;p&gt;I tried simply refactoring some of the functions but found my structure too cumbersome to allow much change. I tried starting afresh with an &lt;a href=&#34;http://adv-r.had.co.nz/OO-essentials.html&#34; title=&#34;Advanced R - OO programming&#34; target=&#34;_blank&#34;&gt;S4 system&lt;/a&gt; but was soon in a death spiral of class proliferation and no experience in how to stop it. After dabbling with different methods, I was getting pretty frustrated &amp;#8211; I want my code to be better and more maintainable!&lt;/p&gt;

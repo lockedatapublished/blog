@@ -14,10 +14,10 @@
     
     <item>
       <title>Objectless Check Boxes using VBA</title>
-      <link>http://lockedata.uk/itsalockeblog/2013-05-12-objectless-chec-boxes-using-vba/</link>
+      <link>http://lockedata.uk/itsalockeblog/objectless-check-boxes-using-vba/</link>
       <pubDate>Sun, 12 May 2013 14:03:09 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2013-05-12-objectless-chec-boxes-using-vba/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/objectless-check-boxes-using-vba/</guid>
       <description>&lt;p&gt;For my first ever blog post (be gentle with me!) I wanted to talk about an issue I have with Excel’s check box object, and my way of resolving it. It’s not perfect, and I’d love to hear of any other versions or ideas you may have. So here&amp;#8217;s how I create check boxes in Excel without using Excel check boxes.&lt;/p&gt;
 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;

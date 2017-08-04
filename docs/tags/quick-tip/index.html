@@ -78,192 +78,18 @@
 
         <div id="top" class="container">
             <div class="row" id="content-main">
-                <div class="col-md-8">
-                    
-                    
-                        <div class="row">
-                            <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2017-05-08-r-quick-tip-sequential-yaml-headers-rmarkdown-parameter-re-use/">R Quick Tip: parameter re-use within rmarkdown YAML</a></h1>
-                                <ul class="list-inline">
-                                    <li><i class="fa fa-calendar"></i>May 8, 2017</li>
-                                    <li><i class="fa fa-user"></i>Steph</li>
-                                </ul>
-                                Ever wondered how to make an rmarkdown title dynamic? Maybe, wanted to use a parameter in multiple locations? Maybe wanted to pass through a publication date? Advanced use of YAML headers can help!
-Normally, when we write rmarkdown, we might use something like the basic YAML header that the rmarkdown template gives us.
---- title: &quot;My report&quot; date: &quot;18th April, 2017&quot; output: pdf_document ---  You may already know the trick about making the date dynamic to whatever date the report gets rendered on by using the inline R execution mode of rmarkdown to insert a value.
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2017-05-08-r-quick-tip-sequential-yaml-headers-rmarkdown-parameter-re-use/" role="button">Read More</a>
-                            </div>
-                        </div>
-                    
-                        <div class="row">
-                            <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2017-04-28-upload-multiple-files-in-shiny-and-consolidate-into-a-dataset/">R Quick Tip: Upload multiple files in shiny and consolidate into a dataset</a></h1>
-                                <ul class="list-inline">
-                                    <li><i class="fa fa-calendar"></i>April 28, 2017</li>
-                                    <li><i class="fa fa-user"></i>Steph</li>
-                                </ul>
-                                In shiny, you can use the fileInput with the parameter multiple = TRUE to enable you to upload multiple files at once. But how do you process those multiple files in shiny and consolidate into a single dataset?
-The bit we need from shiny is the input$param$fileinputpath value.
-We can use lapply() with data.table&#8216;s fread() to read multiple CSVs from the fileInput(). Then to consolidate the data, we can use data.
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2017-04-28-upload-multiple-files-in-shiny-and-consolidate-into-a-dataset/" role="button">Read More</a>
-                            </div>
-                        </div>
-                    
-                        <div class="row">
-                            <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2017-04-19-table-parameters-rmarkdown-reports/">R Quick Tip: Table parameters for rmarkdown reports</a></h1>
-                                <ul class="list-inline">
-                                    <li><i class="fa fa-calendar"></i>April 19, 2017</li>
-                                    <li><i class="fa fa-user"></i>Steph</li>
-                                </ul>
-                                The recent(ish) advent of parameters in rmarkdown reports is pretty nifty but there&#8217;s a little bit of behaviour that can come in handy but doesn&#8217;t come across in the documentation. You can use table parameters for rmarkdown reports.
-Previously, if you wanted to produce multiple reports based off a dataset, you would make the dataset available and then perform filtering in the report. Now we can pass the filtered data directly to the report, which keeps all the filtering logic in one place.
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2017-04-19-table-parameters-rmarkdown-reports/" role="button">Read More</a>
-                            </div>
-                        </div>
-                    
-                        <div class="row">
-                            <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2017-03-01-microsoft-cognitive-services-text-analytics-api/">R Quick tip: Microsoft Cognitive Services’ Text Analytics API</a></h1>
-                                <ul class="list-inline">
-                                    <li><i class="fa fa-calendar"></i>March 1, 2017</li>
-                                    <li><i class="fa fa-user"></i>Steph</li>
-                                </ul>
-                                <p>Today in class, I taught some fundamentals of API consumption in R. As it was aligned to some Microsoft content, we first used <a href="https://haveibeenpwned.com">HaveIBeenPwned.com</a>&#8216;s API and then played with <a href="https://www.microsoft.com/cognitive-services/en-us/">Microsoft Cognitive Services</a>&#8216; Text Analytics API. This brief post overviews what you need to get started, and how you can chain consecutive calls to these APIs in order to perform multi-lingual sentiment analysis.</p>
-
-<p><strong>UPDATE: See improved code in <a href="https://itsalocke.com/using-purrr-with-apis/">Using purrr with APIs – revamping my code</a></strong></p>
-
-<p></p>
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2017-03-01-microsoft-cognitive-services-text-analytics-api/" role="button">Read More</a>
-                            </div>
-                        </div>
-                    
-                        <div class="row">
-                            <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2017-02-22-quick-tip-knitr-python-windows-setup-checklist/">Quick tip: knitr Python Windows setup checklist</a></h1>
-                                <ul class="list-inline">
-                                    <li><i class="fa fa-calendar"></i>February 22, 2017</li>
-                                    <li><i class="fa fa-user"></i>Steph</li>
-                                </ul>
-                                One of the nifty things about using R is that you can use it for many different purposes and even other languages!
-If you want to use Python in your knitr docs or the newish RStudio R notebook functionality, you might encounter some fiddliness getting all the moving parts running on Windows. This is a quick knitr Python Windows setup checklist to make sure you don&#8217;t miss any important steps.
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2017-02-22-quick-tip-knitr-python-windows-setup-checklist/" role="button">Read More</a>
-                            </div>
-                        </div>
-                    
-                        <div class="row">
-                            <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2016-10-30-passing-values-bash-script/">Quick tip: Passing values to a bash script</a></h1>
-                                <ul class="list-inline">
-                                    <li><i class="fa fa-calendar"></i>October 30, 2016</li>
-                                    <li><i class="fa fa-user"></i>Steph</li>
-                                </ul>
-                                This is a very quick post on how you can make a bash script that allows you to provide it values via the command line. Passing values to a bash script uses a 1-based array convention inside the script, that are referenced by prefixing with $ inside the script.
-This means that if I provide .\dummyscript.sh value1 value2, inside the dummyscript.sh I can retrieve these by referencing their positions:
-echo $1 + $2  For improved clarity, you could assign them to new variables
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2016-10-30-passing-values-bash-script/" role="button">Read More</a>
-                            </div>
-                        </div>
-                    
-                        <div class="row">
-                            <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2016-10-27-5-useful-css-sites/">5 useful CSS sites</a></h1>
-                                <ul class="list-inline">
-                                    <li><i class="fa fa-calendar"></i>October 27, 2016</li>
-                                    <li><i class="fa fa-user"></i>Steph</li>
-                                </ul>
-                                I&#8217;ve been doing a lot of web development recently, primarily via the magical Hugo platform. Between it and the great themes for it, it&#8217;s making website building fairly painless. Of course, each theme often needs customising to the relevant brand a given site is for. That customising is usually just one by some fonts and by tweaking the CSS.*
-I&#8217;ve been relying on some old, and some very new, funky tools to help with CSS hacking and I thought I would share them, in case they should prove useful to you in the future.
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2016-10-27-5-useful-css-sites/" role="button">Read More</a>
-                            </div>
-                        </div>
-                    
-                        <div class="row">
-                            <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2016-04-12-using-travis-make-sure-use-github-pat/">Using Travis? Make sure you use a Github PAT</a></h1>
-                                <ul class="list-inline">
-                                    <li><i class="fa fa-calendar"></i>April 12, 2016</li>
-                                    <li><i class="fa fa-user"></i>Steph</li>
-                                </ul>
-                                <p>We&#8217;re in the fantastic situation where lots of people are using <a href="https://travis-ci.org/">Travis-CI</a> to test their R packages or use it to test and deploy their analytics/ documentation / anything really. It&#8217;s popularity has been having a negative side-effect recently though! GitHub <a href="https://developer.github.com/v3/#rate-limiting">rate limits</a> API access to 5000 requests per hour so sometimes there are more R related jobs running on Travis per hour than this limit, causing builds to error typically with a message that includes</p>
-
-<blockquote>
-<p>403 forbidden</p>
-</blockquote>
-
-<p>This error will cause your build to fail, even if you didn&#8217;t do anything wrong. To solve it short-term you can wait a little while and restart your build.<figure id="attachment_61598" style="width: 768px" class="wp-caption aligncenter"></p>
-
-<p><img class="size-medium_large wp-image-61598" src="http://res.cloudinary.com/lockedata/image/upload/h_131,w_750/v1499850336/restartbuilds_hsvpmp.png" alt="How to restart a build in Travis-CI" width="768" height="134" /><figcaption class="wp-caption-text">How to restart a build in Travis-CI</figcaption></figure></p>
-
-<p>That is a very short-termist solution and does not solve the problem for future you or other users of the service. The real solution to resolving this issue is to get off the default API access credentials and use your own.</p>
-
-<p>The R integration in Travis makes good use of the <a href="https://cran.r-project.org/package=devtools">devtools</a>. The devtools package looks for an environment variable called <code>GITHUB_PAT</code> that holds a <a href="https://help.github.com/articles/creating-an-access-token-for-command-line-use/">personal access token</a> (PAT) for using the GitHub API and if it doesn&#8217;t find one it uses a default token. When we get our own PAT and store it in Travis, devtools will pick up our token and use it, meaning you&#8217;ll only ever get rate limited if you do more than 5000 builds in an hour, which is an achievement I&#8217;d love to hear about.</p>
-
-<p></p>
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2016-04-12-using-travis-make-sure-use-github-pat/" role="button">Read More</a>
-                            </div>
-                        </div>
-                    
-                        <div class="row">
-                            <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2016-04-05-r-quick-tip-collapse-a-lists-of-data-frames-with-data-table/">R Quick Tip: Collapse a lists of data.frames with data.table</a></h1>
-                                <ul class="list-inline">
-                                    <li><i class="fa fa-calendar"></i>April 5, 2016</li>
-                                    <li><i class="fa fa-user"></i>Steph</li>
-                                </ul>
-                                <p>With my <a href="https://github.com/stephlocke/HIBPwned">HIBPwned</a> package, I consume the <a href="https://haveibeenpwned.com/">HaveIBeenPwned</a> API and return back a list object with an element for each email address. Each element holds a data.frame of breach data or a stub response with a single column data.frame containing NA. Elements are named with the email addresses they relate to. I had a list of data.frames and I wanted a consolidated data.frame (well, I always want a data.table).</p>
-
-<p>Enter data.table &#8230;</p>
-
-<p><a href="https://cran.r-project.org/package=data.table">data.table</a> has a very cool, and <a href="http://stackoverflow.com/questions/15673550/why-is-rbindlist-better-than-rbind">very fast</a> function named <code>rbindlist()</code>. This takes a list of data.frames and consolidates them into one data.table, which can, of course, be handled as a data.frame if you didn&#8217;t want to use data.table for anything else.</p>
-
-<p></p>
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2016-04-05-r-quick-tip-collapse-a-lists-of-data-frames-with-data-table/" role="button">Read More</a>
-                            </div>
-                        </div>
-                    
-                        <div class="row">
-                            <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2016-03-09-beware-the-microsoft-edge-as-a-pdf-reader/">Beware the Microsoft Edge as a PDF reader</a></h1>
-                                <ul class="list-inline">
-                                    <li><i class="fa fa-calendar"></i>March 9, 2016</li>
-                                    <li><i class="fa fa-user"></i>Steph</li>
-                                </ul>
-                                Just a heads-up for people like me who&#8217;ve gotten a Windows 10 machine and have used Edge as a PDF reader. I was too lazy to install Adobe Reader and was instead using Edge as my default reader. This gave me a mini-heart attack when I received a proof for my super cool NFC-tag laptop stickers and the colour was wrong. WTF right, I mean we did send it as CMYK and all that jazz so it should be right, a printer wouldn&#8217;t screw that up, right?
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2016-03-09-beware-the-microsoft-edge-as-a-pdf-reader/" role="button">Read More</a>
-                            </div>
-                        </div>
-                    
-                    
-    <div class="row">
-        <div class="col-md-12">
-            <div class="row">
-                <div class="col-md-4" style="text-align: left; padding-left: 0px">
-                    
-                </div>
-                <div class="col-md-4 col-md-offset-4" style="text-align: right; padding-right: 0px">
-                    
-                        <a class="btn btn-default" href="/itsalockeblog/tags/quick-tip/page/2/" role="button" style="border-radius: 0px; display: block">Older</a>
-                    
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-                </div>
    <div class="col-md-4">                    
 	
 <div class="row">
-    <div class="col-md-11 col-md-offset-1 card">
+    <div class="col-md-11 card">
         <h5>Locke Data Blog</h5>
         <p>A description that will appear as a default if front matter does not exist</p>
-		<img class="avatar" src="img/ChibiSteph.svg"></img>
+		<img class="avatar" src=http://lockedata.uk/itsalockeblog/img/ChibiSteph.svg></img>
     </div>
 </div>
 
     <div class="row">
-    <div class="col-md-11 col-md-offset-1 card">
+    <div class="col-md-11 card">
         <h5>Search</h5>
         <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form">
             <div class="input-group">
@@ -280,7 +106,7 @@ I&#8217;ve been relying on some old, and some very new, funky tools to help with
     
     
         <div class="row">
-            <div class="col-md-11 col-md-offset-1 card">
+            <div class="col-md-11  card">
                 <h5>categories</h5>
                 <ul class="list-unstyled posts-recent">
                     
@@ -305,6 +131,180 @@ I&#8217;ve been relying on some old, and some very new, funky tools to help with
 
 
 </div>
+                <div class="col-md-8">
+                    
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockedata.uk/itsalockeblog/r-quick-tip-parameter-re-use-within-rmarkdown-yaml/">R Quick Tip: parameter re-use within rmarkdown YAML</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>May 8, 2017</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                Ever wondered how to make an rmarkdown title dynamic? Maybe, wanted to use a parameter in multiple locations? Maybe wanted to pass through a publication date? Advanced use of YAML headers can help!
+Normally, when we write rmarkdown, we might use something like the basic YAML header that the rmarkdown template gives us.
+--- title: &quot;My report&quot; date: &quot;18th April, 2017&quot; output: pdf_document ---  You may already know the trick about making the date dynamic to whatever date the report gets rendered on by using the inline R execution mode of rmarkdown to insert a value.
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/r-quick-tip-parameter-re-use-within-rmarkdown-yaml/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockedata.uk/itsalockeblog/r-quick-tip-upload-multiple-files-in-shiny-and-consolidate-into-a-dataset/">R Quick Tip: Upload multiple files in shiny and consolidate into a dataset</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>April 28, 2017</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                In shiny, you can use the fileInput with the parameter multiple = TRUE to enable you to upload multiple files at once. But how do you process those multiple files in shiny and consolidate into a single dataset?
+The bit we need from shiny is the input$param$fileinputpath value.
+We can use lapply() with data.table&#8216;s fread() to read multiple CSVs from the fileInput(). Then to consolidate the data, we can use data.
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/r-quick-tip-upload-multiple-files-in-shiny-and-consolidate-into-a-dataset/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockedata.uk/itsalockeblog/r-quick-tip-table-parameters-for-rmarkdown-reports/">R Quick Tip: Table parameters for rmarkdown reports</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>April 19, 2017</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                The recent(ish) advent of parameters in rmarkdown reports is pretty nifty but there&#8217;s a little bit of behaviour that can come in handy but doesn&#8217;t come across in the documentation. You can use table parameters for rmarkdown reports.
+Previously, if you wanted to produce multiple reports based off a dataset, you would make the dataset available and then perform filtering in the report. Now we can pass the filtered data directly to the report, which keeps all the filtering logic in one place.
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/r-quick-tip-table-parameters-for-rmarkdown-reports/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockedata.uk/itsalockeblog/r-quick-tip-microsoft-cognitive-services-text-analytics-api/">R Quick tip: Microsoft Cognitive Services’ Text Analytics API</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>March 1, 2017</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                <p>Today in class, I taught some fundamentals of API consumption in R. As it was aligned to some Microsoft content, we first used <a href="https://haveibeenpwned.com">HaveIBeenPwned.com</a>&#8216;s API and then played with <a href="https://www.microsoft.com/cognitive-services/en-us/">Microsoft Cognitive Services</a>&#8216; Text Analytics API. This brief post overviews what you need to get started, and how you can chain consecutive calls to these APIs in order to perform multi-lingual sentiment analysis.</p>
+
+<p><strong>UPDATE: See improved code in <a href="https://itsalocke.com/using-purrr-with-apis/">Using purrr with APIs – revamping my code</a></strong></p>
+
+<p></p>
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/r-quick-tip-microsoft-cognitive-services-text-analytics-api/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockedata.uk/itsalockeblog/quick-tip-knitr-python-windows-setup-checklist/">Quick tip: knitr Python Windows setup checklist</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>February 22, 2017</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                One of the nifty things about using R is that you can use it for many different purposes and even other languages!
+If you want to use Python in your knitr docs or the newish RStudio R notebook functionality, you might encounter some fiddliness getting all the moving parts running on Windows. This is a quick knitr Python Windows setup checklist to make sure you don&#8217;t miss any important steps.
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/quick-tip-knitr-python-windows-setup-checklist/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockedata.uk/itsalockeblog/quick-tip-passing-values-to-a-bash-script/">Quick tip: Passing values to a bash script</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>October 30, 2016</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                This is a very quick post on how you can make a bash script that allows you to provide it values via the command line. Passing values to a bash script uses a 1-based array convention inside the script, that are referenced by prefixing with $ inside the script.
+This means that if I provide .\dummyscript.sh value1 value2, inside the dummyscript.sh I can retrieve these by referencing their positions:
+echo $1 + $2  For improved clarity, you could assign them to new variables
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/quick-tip-passing-values-to-a-bash-script/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockedata.uk/itsalockeblog/5-useful-css-sites/">5 useful CSS sites</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>October 27, 2016</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                I&#8217;ve been doing a lot of web development recently, primarily via the magical Hugo platform. Between it and the great themes for it, it&#8217;s making website building fairly painless. Of course, each theme often needs customising to the relevant brand a given site is for. That customising is usually just one by some fonts and by tweaking the CSS.*
+I&#8217;ve been relying on some old, and some very new, funky tools to help with CSS hacking and I thought I would share them, in case they should prove useful to you in the future.
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/5-useful-css-sites/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockedata.uk/itsalockeblog/using-travis-make-sure-you-use-a-github-pat/">Using Travis? Make sure you use a Github PAT</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>April 12, 2016</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                <p>We&#8217;re in the fantastic situation where lots of people are using <a href="https://travis-ci.org/">Travis-CI</a> to test their R packages or use it to test and deploy their analytics/ documentation / anything really. It&#8217;s popularity has been having a negative side-effect recently though! GitHub <a href="https://developer.github.com/v3/#rate-limiting">rate limits</a> API access to 5000 requests per hour so sometimes there are more R related jobs running on Travis per hour than this limit, causing builds to error typically with a message that includes</p>
+
+<blockquote>
+<p>403 forbidden</p>
+</blockquote>
+
+<p>This error will cause your build to fail, even if you didn&#8217;t do anything wrong. To solve it short-term you can wait a little while and restart your build.<figure id="attachment_61598" style="width: 768px" class="wp-caption aligncenter"></p>
+
+<p><img class="size-medium_large wp-image-61598" src="http://res.cloudinary.com/lockedata/image/upload/h_131,w_750/v1499850336/restartbuilds_hsvpmp.png" alt="How to restart a build in Travis-CI" width="768" height="134" /><figcaption class="wp-caption-text">How to restart a build in Travis-CI</figcaption></figure></p>
+
+<p>That is a very short-termist solution and does not solve the problem for future you or other users of the service. The real solution to resolving this issue is to get off the default API access credentials and use your own.</p>
+
+<p>The R integration in Travis makes good use of the <a href="https://cran.r-project.org/package=devtools">devtools</a>. The devtools package looks for an environment variable called <code>GITHUB_PAT</code> that holds a <a href="https://help.github.com/articles/creating-an-access-token-for-command-line-use/">personal access token</a> (PAT) for using the GitHub API and if it doesn&#8217;t find one it uses a default token. When we get our own PAT and store it in Travis, devtools will pick up our token and use it, meaning you&#8217;ll only ever get rate limited if you do more than 5000 builds in an hour, which is an achievement I&#8217;d love to hear about.</p>
+
+<p></p>
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/using-travis-make-sure-you-use-a-github-pat/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockedata.uk/itsalockeblog/r-quick-tip-collapse-a-lists-of-data.frames-with-data.table/">R Quick Tip: Collapse a lists of data.frames with data.table</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>April 5, 2016</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                <p>With my <a href="https://github.com/stephlocke/HIBPwned">HIBPwned</a> package, I consume the <a href="https://haveibeenpwned.com/">HaveIBeenPwned</a> API and return back a list object with an element for each email address. Each element holds a data.frame of breach data or a stub response with a single column data.frame containing NA. Elements are named with the email addresses they relate to. I had a list of data.frames and I wanted a consolidated data.frame (well, I always want a data.table).</p>
+
+<p>Enter data.table &#8230;</p>
+
+<p><a href="https://cran.r-project.org/package=data.table">data.table</a> has a very cool, and <a href="http://stackoverflow.com/questions/15673550/why-is-rbindlist-better-than-rbind">very fast</a> function named <code>rbindlist()</code>. This takes a list of data.frames and consolidates them into one data.table, which can, of course, be handled as a data.frame if you didn&#8217;t want to use data.table for anything else.</p>
+
+<p></p>
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/r-quick-tip-collapse-a-lists-of-data.frames-with-data.table/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockedata.uk/itsalockeblog/beware-the-microsoft-edge-as-a-pdf-reader/">Beware the Microsoft Edge as a PDF reader</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>March 9, 2016</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                Just a heads-up for people like me who&#8217;ve gotten a Windows 10 machine and have used Edge as a PDF reader. I was too lazy to install Adobe Reader and was instead using Edge as my default reader. This gave me a mini-heart attack when I received a proof for my super cool NFC-tag laptop stickers and the colour was wrong. WTF right, I mean we did send it as CMYK and all that jazz so it should be right, a printer wouldn&#8217;t screw that up, right?
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/beware-the-microsoft-edge-as-a-pdf-reader/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                    
+    <div class="row">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-4" style="text-align: left; padding-left: 0px">
+                    
+                </div>
+                <div class="col-md-4 col-md-offset-4" style="text-align: right; padding-right: 0px">
+                    
+                        <a class="btn btn-default" href="/itsalockeblog/tags/quick-tip/page/2/" role="button" style="border-radius: 0px; display: block">Older</a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                </div>
             </div>
         </div>
         <!-- Footer section -->

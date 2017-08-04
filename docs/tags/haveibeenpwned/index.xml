@@ -14,20 +14,20 @@
     
     <item>
       <title>Minor update to HIBPwned</title>
-      <link>http://lockedata.uk/itsalockeblog/2017-05-05-minor-update-hibpwned/</link>
+      <link>http://lockedata.uk/itsalockeblog/minor-update-to-hibpwned/</link>
       <pubDate>Fri, 05 May 2017 07:46:42 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2017-05-05-minor-update-hibpwned/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/minor-update-to-hibpwned/</guid>
       <description>A new version of HIBPwned has been accepted onto CRAN. This occurred yesterday so it could still be filtering into some mirrors.
 HIBPwned is an R wrapper for the useful website HaveIBeenPwned and if you don&amp;#8217;t already utilise the package or the site &amp;#8211; you should. HaveIBeenPwned tells you when your details are included in data breaches. This is vital information to get quickly as it means you can sooner protect yourself from people trying to use the breach information to break into your accounts.</description>
     </item>
     
     <item>
       <title>HIBPwned updated on CRAN</title>
-      <link>http://lockedata.uk/itsalockeblog/2016-09-15-hibpwned-updated-cran/</link>
+      <link>http://lockedata.uk/itsalockeblog/hibpwned-updated-on-cran/</link>
       <pubDate>Thu, 15 Sep 2016 07:00:53 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2016-09-15-hibpwned-updated-cran/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/hibpwned-updated-on-cran/</guid>
       <description>Haveibeenpwned.com is a fantastic service that helps people find out if they&amp;#8217;ve been involved in a data breach. HIBPwned is an R wrapper for that service.
 Recently, due to abuse of the system, Troy Hunt had to add a limit of one request per 1.5s.
 The new version published on CRAN last night adds a delay into each call so that we can continue to use it in R.
@@ -36,10 +36,10 @@ Check out the package on CRAN for vignettes and more information on the package.
     
     <item>
       <title>HIBPwned, an R package for HaveIBeenPwned.com</title>
-      <link>http://lockedata.uk/itsalockeblog/2016-03-21-r-package-haveibeenpwned-com/</link>
+      <link>http://lockedata.uk/itsalockeblog/hibpwned-an-r-package-for-haveibeenpwned.com/</link>
       <pubDate>Mon, 21 Mar 2016 15:02:08 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2016-03-21-r-package-haveibeenpwned-com/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/hibpwned-an-r-package-for-haveibeenpwned.com/</guid>
       <description>&lt;p&gt;The answer in life to the inevitable question of &amp;#8220;How can I do that in R?&amp;#8221; should be &amp;#8220;There&amp;#8217;s a package for that&amp;#8221;. So when I wanted to query &lt;a href=&#34;https://haveibeenpwned.com&#34;&gt;HaveIBeenPwned.com&lt;/a&gt; (HIBP) to check whether a bunch of emails had been involved in data breaches and there wasn&amp;#8217;t an R package for HIBP, it meant that the responsibility for making one landed on my shoulders. Now, you can see if your accounts are at risk with the R package for HaveIBeenPwned.com, &lt;strong&gt;HIBPwned&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;figure id=&#34;attachment_61581&#34; style=&#34;width: 768px&#34; class=&#34;wp-caption alignnone&#34;&gt;&lt;img src=&#34;http://res.cloudinary.com/lockedata/image/upload/h_139,w_750/v1499850337/hibp_os8t5d.png&#34; alt=&#34;Have I Been Pwned | HaveIBeenPwned.com&#34; width=&#34;768&#34; height=&#34;142&#34; class=&#34;size-medium_large wp-image-61581&#34; /&gt;&lt;figcaption class=&#34;wp-caption-text&#34;&gt;Have I Been Pwned | HaveIBeenPwned.com&lt;/figcaption&gt;&lt;/figure&gt;

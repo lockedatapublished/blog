@@ -14,10 +14,10 @@
     
     <item>
       <title>Using purrr with APIs – revamping my code</title>
-      <link>http://lockedata.uk/itsalockeblog/2017-06-13-using-purrr-with-apis/</link>
+      <link>http://lockedata.uk/itsalockeblog/using-purrr-with-apis--revamping-my-code/</link>
       <pubDate>Tue, 13 Jun 2017 10:20:40 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2017-06-13-using-purrr-with-apis/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/using-purrr-with-apis--revamping-my-code/</guid>
       <description>I wrote a little while back about using Microsoft Cognitive Services APIs with R to first of all detect the language of pieces of text and then do sentiment analysis on them. I wasn&amp;#8217;t too happy with the some of the code as it was very inelegant. I knew I could code better than I had, especially as I&amp;#8217;ve been doing a lot more work with purrr recently. However, it had sat in drafts for a while.</description>
     </item>
     

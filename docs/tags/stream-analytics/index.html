@@ -78,42 +78,18 @@
 
         <div id="top" class="container">
             <div class="row" id="content-main">
-                <div class="col-md-8">
-                    
-                    
-                        <div class="row">
-                            <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2015-04-06-working-with-azure-blob-storage-rest-api/">Working with Azure Blob Storage, some notes</a></h1>
-                                <ul class="list-inline">
-                                    <li><i class="fa fa-calendar"></i>April 6, 2015</li>
-                                    <li><i class="fa fa-user"></i>Steph</li>
-                                </ul>
-                                <p>I&#8217;m working on building a snazzy <a href="https://github.com/stephlocke/Rtraining/blob/master/inst/slidedecks/shiny/Dashboards.Rmd" title="My shiny presentation" target="_blank">shiny</a> app that a) drops the inputs/parameter values into <a href="http://azure.microsoft.com/en-gb/documentation/articles/storage-introduction/" title="Azure storage intro" target="_blank">blob storage</a> and b) uses <a href="http://azure.microsoft.com/en-gb/services/stream-analytics/" title="Stream Analytics" target="_blank">Stream Analytics</a> to query the values and present back what people are saying at the moment. This&#8217;ll be a fab tool for <a href="https://itsalocke.com/index.php/r-pre-con-sqlsat-exeter/" title="My R Pre-Con: SQLSat Exeter" target="_blank">my pre-con next month</a> if I can get it working in time!</p>
-
-<p>Getting it working, does however mean utilising the <a href="https://msdn.microsoft.com/en-us/library/azure/dd179355.aspx" title="Storage API documentation" target="_blank">Azure Blob Storage API</a> in R which I confess is much harder than expected, especially after the ease of using the Visual Studio Online API for <a href="https://itsalocke.com/index.php/bride-of-frankenstein-tfs-r/" title="Bride of Frankenstein: TFS + R" target="_blank">tfsR</a>. To that end, I thought I&#8217;d write-up some of my findings before I do a bigger write-up that illustrates how to do everything (in R).</p>
-
-<p>I&#8217;m working my way through an <a href="http://justazure.com/azure-blob-storage-part-one-introduction/" title="Just Azure - working with blob storage">intro to azure storage</a> on the (hopefully reasonable) expectation that more knowledge will make it easier to work with. There&#8217;s additionally the <a href="https://msdn.microsoft.com/en-us/library/azure/dd135733.aspx" title="Blob Storage REST API" target="_blank">online reference</a>, although I found the <a href="https://www.visualstudio.com/en-us/integrate/api/overview" title="Visual Studio Online REST API documentation" target="_blank">VSO REST API</a> documentation easier to understand and get started with.</p>
-
-<p></p>
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2015-04-06-working-with-azure-blob-storage-rest-api/" role="button">Read More</a>
-                            </div>
-                        </div>
-                    
-                    
-
-                </div>
    <div class="col-md-4">                    
 	
 <div class="row">
-    <div class="col-md-11 col-md-offset-1 card">
+    <div class="col-md-11 card">
         <h5>Locke Data Blog</h5>
         <p>A description that will appear as a default if front matter does not exist</p>
-		<img class="avatar" src="img/ChibiSteph.svg"></img>
+		<img class="avatar" src=http://lockedata.uk/itsalockeblog/img/ChibiSteph.svg></img>
     </div>
 </div>
 
     <div class="row">
-    <div class="col-md-11 col-md-offset-1 card">
+    <div class="col-md-11 card">
         <h5>Search</h5>
         <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form">
             <div class="input-group">
@@ -130,7 +106,7 @@
     
     
         <div class="row">
-            <div class="col-md-11 col-md-offset-1 card">
+            <div class="col-md-11  card">
                 <h5>categories</h5>
                 <ul class="list-unstyled posts-recent">
                     
@@ -155,6 +131,30 @@
 
 
 </div>
+                <div class="col-md-8">
+                    
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockedata.uk/itsalockeblog/working-with-azure-blob-storage-some-notes/">Working with Azure Blob Storage, some notes</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>April 6, 2015</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                <p>I&#8217;m working on building a snazzy <a href="https://github.com/stephlocke/Rtraining/blob/master/inst/slidedecks/shiny/Dashboards.Rmd" title="My shiny presentation" target="_blank">shiny</a> app that a) drops the inputs/parameter values into <a href="http://azure.microsoft.com/en-gb/documentation/articles/storage-introduction/" title="Azure storage intro" target="_blank">blob storage</a> and b) uses <a href="http://azure.microsoft.com/en-gb/services/stream-analytics/" title="Stream Analytics" target="_blank">Stream Analytics</a> to query the values and present back what people are saying at the moment. This&#8217;ll be a fab tool for <a href="https://itsalocke.com/index.php/r-pre-con-sqlsat-exeter/" title="My R Pre-Con: SQLSat Exeter" target="_blank">my pre-con next month</a> if I can get it working in time!</p>
+
+<p>Getting it working, does however mean utilising the <a href="https://msdn.microsoft.com/en-us/library/azure/dd179355.aspx" title="Storage API documentation" target="_blank">Azure Blob Storage API</a> in R which I confess is much harder than expected, especially after the ease of using the Visual Studio Online API for <a href="https://itsalocke.com/index.php/bride-of-frankenstein-tfs-r/" title="Bride of Frankenstein: TFS + R" target="_blank">tfsR</a>. To that end, I thought I&#8217;d write-up some of my findings before I do a bigger write-up that illustrates how to do everything (in R).</p>
+
+<p>I&#8217;m working my way through an <a href="http://justazure.com/azure-blob-storage-part-one-introduction/" title="Just Azure - working with blob storage">intro to azure storage</a> on the (hopefully reasonable) expectation that more knowledge will make it easier to work with. There&#8217;s additionally the <a href="https://msdn.microsoft.com/en-us/library/azure/dd135733.aspx" title="Blob Storage REST API" target="_blank">online reference</a>, although I found the <a href="https://www.visualstudio.com/en-us/integrate/api/overview" title="Visual Studio Online REST API documentation" target="_blank">VSO REST API</a> documentation easier to understand and get started with.</p>
+
+<p></p>
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/working-with-azure-blob-storage-some-notes/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                    
+
+                </div>
             </div>
         </div>
         <!-- Footer section -->

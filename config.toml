@@ -4,8 +4,8 @@ title                   = "Locke Data Blog"
 theme                   = "hugo-lockedata-blog"
 
 [permalinks]
-    post                = "/:title/"
-    page                = "/:title/"
+  posts = "/:title/"
+  page                = "/:title/"
 
 [taxonomies]
     tag                 = "tags"

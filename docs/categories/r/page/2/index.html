@@ -78,180 +78,18 @@
 
         <div id="top" class="container">
             <div class="row" id="content-main">
-                <div class="col-md-8">
-                    
-                    
-                        <div class="row">
-                            <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2017-05-02-the-making-of-datasaurus/">The making of datasauRus</a></h1>
-                                <ul class="list-inline">
-                                    <li><i class="fa fa-calendar"></i>May 2, 2017</li>
-                                    <li><i class="fa fa-user"></i>Steph</li>
-                                </ul>
-                                Around 8:30pm I saw this tweet and duly retweeted
-https://t.co/WuyU9D6npK  &mdash; Richie Cotton (@richierocks) May 1, 2017  It turns out awesome folks, George and Justin, had made a process whereby they can generate different distributions of points that retain the same summary statistics. They used this process for making some friends for Dino the Datasaurus who was created by Alberto Cairo. They made the data for Dino and the rest of the Datasaurus Dozen available for download.
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2017-05-02-the-making-of-datasaurus/" role="button">Read More</a>
-                            </div>
-                        </div>
-                    
-                        <div class="row">
-                            <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2017-05-02-getting-started-with-data-science-recommended-resources/">Getting started with data science – recommended resources</a></h1>
-                                <ul class="list-inline">
-                                    <li><i class="fa fa-calendar"></i>May 2, 2017</li>
-                                    <li><i class="fa fa-user"></i>Steph</li>
-                                </ul>
-                                An oft asked question is what resources can I recommend for getting started with data science? Here are my recommendations, and if you have others, please put them in the comments!
- NB Links in this post may be affiliate links &#8211; it doesn&#8217;t change the prices you get but might earn me a little money
- Books Data Science for Business Data Science for Business
-Data Science for Business is a great overview book.
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2017-05-02-getting-started-with-data-science-recommended-resources/" role="button">Read More</a>
-                            </div>
-                        </div>
-                    
-                        <div class="row">
-                            <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2017-04-28-upload-multiple-files-in-shiny-and-consolidate-into-a-dataset/">R Quick Tip: Upload multiple files in shiny and consolidate into a dataset</a></h1>
-                                <ul class="list-inline">
-                                    <li><i class="fa fa-calendar"></i>April 28, 2017</li>
-                                    <li><i class="fa fa-user"></i>Steph</li>
-                                </ul>
-                                In shiny, you can use the fileInput with the parameter multiple = TRUE to enable you to upload multiple files at once. But how do you process those multiple files in shiny and consolidate into a single dataset?
-The bit we need from shiny is the input$param$fileinputpath value.
-We can use lapply() with data.table&#8216;s fread() to read multiple CSVs from the fileInput(). Then to consolidate the data, we can use data.
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2017-04-28-upload-multiple-files-in-shiny-and-consolidate-into-a-dataset/" role="button">Read More</a>
-                            </div>
-                        </div>
-                    
-                        <div class="row">
-                            <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2017-04-24-r-training-environment/">Building an R training environment</a></h1>
-                                <ul class="list-inline">
-                                    <li><i class="fa fa-calendar"></i>April 24, 2017</li>
-                                    <li><i class="fa fa-user"></i>Steph</li>
-                                </ul>
-                                I recently delivered a day of training at SQLBits and I really upped my game in terms of infrastructure for it. The resultant solution was super smooth and mitigated all the install issues and preparation for attendees. This meant we got to spend the whole day doing R, instead of troubleshooting.
-I&#8217;m so happy with the solution for an online R training environment that I want to share the solution, so you can take it and use it for when you need to do training.
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2017-04-24-r-training-environment/" role="button">Read More</a>
-                            </div>
-                        </div>
-                    
-                        <div class="row">
-                            <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2017-04-21-logistic-regressions-r/">Logistic regressions (in R)</a></h1>
-                                <ul class="list-inline">
-                                    <li><i class="fa fa-calendar"></i>April 21, 2017</li>
-                                    <li><i class="fa fa-user"></i>Steph</li>
-                                </ul>
-                                Logistic regressions are a great tool for predicting outcomes that are categorical. They use a transformation function based on probability to perform a linear regression. This makes them easy to interpret and implement in other systems.
-Logistic regressions can be used to perform a classification for things like determining whether someone needs to go for a biopsy. They can also be used for a more nuanced view by using the probabilities of an outcome for thinks like prioritising interventions based on likelihood to default on a loan.
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2017-04-21-logistic-regressions-r/" role="button">Read More</a>
-                            </div>
-                        </div>
-                    
-                        <div class="row">
-                            <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2017-04-19-table-parameters-rmarkdown-reports/">R Quick Tip: Table parameters for rmarkdown reports</a></h1>
-                                <ul class="list-inline">
-                                    <li><i class="fa fa-calendar"></i>April 19, 2017</li>
-                                    <li><i class="fa fa-user"></i>Steph</li>
-                                </ul>
-                                The recent(ish) advent of parameters in rmarkdown reports is pretty nifty but there&#8217;s a little bit of behaviour that can come in handy but doesn&#8217;t come across in the documentation. You can use table parameters for rmarkdown reports.
-Previously, if you wanted to produce multiple reports based off a dataset, you would make the dataset available and then perform filtering in the report. Now we can pass the filtered data directly to the report, which keeps all the filtering logic in one place.
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2017-04-19-table-parameters-rmarkdown-reports/" role="button">Read More</a>
-                            </div>
-                        </div>
-                    
-                        <div class="row">
-                            <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2017-04-14-community-workshops/">Community workshops</a></h1>
-                                <ul class="list-inline">
-                                    <li><i class="fa fa-calendar"></i>April 14, 2017</li>
-                                    <li><i class="fa fa-user"></i>Steph</li>
-                                </ul>
-                                Following on from when we announced the availability of our community workshops, we&#8217;ve got three in the next three months that folks can attend.
-May 19th &#8211; Data science project in a day We&#8217;ll be in Kiev, Ukraine, doing a whole data science project in a day. This is intended to give people a little bit of code, process, and critical thinking along the whole data science workflow. This will enable folks to see how it hangs together and decide where and how much they want to invest their learning in future.
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2017-04-14-community-workshops/" role="button">Read More</a>
-                            </div>
-                        </div>
-                    
-                        <div class="row">
-                            <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2017-03-01-microsoft-cognitive-services-text-analytics-api/">R Quick tip: Microsoft Cognitive Services’ Text Analytics API</a></h1>
-                                <ul class="list-inline">
-                                    <li><i class="fa fa-calendar"></i>March 1, 2017</li>
-                                    <li><i class="fa fa-user"></i>Steph</li>
-                                </ul>
-                                <p>Today in class, I taught some fundamentals of API consumption in R. As it was aligned to some Microsoft content, we first used <a href="https://haveibeenpwned.com">HaveIBeenPwned.com</a>&#8216;s API and then played with <a href="https://www.microsoft.com/cognitive-services/en-us/">Microsoft Cognitive Services</a>&#8216; Text Analytics API. This brief post overviews what you need to get started, and how you can chain consecutive calls to these APIs in order to perform multi-lingual sentiment analysis.</p>
-
-<p><strong>UPDATE: See improved code in <a href="https://itsalocke.com/using-purrr-with-apis/">Using purrr with APIs – revamping my code</a></strong></p>
-
-<p></p>
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2017-03-01-microsoft-cognitive-services-text-analytics-api/" role="button">Read More</a>
-                            </div>
-                        </div>
-                    
-                        <div class="row">
-                            <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2017-02-27-community-r-workshops/">Announcing community R workshops</a></h1>
-                                <ul class="list-inline">
-                                    <li><i class="fa fa-calendar"></i>February 27, 2017</li>
-                                    <li><i class="fa fa-user"></i>Steph</li>
-                                </ul>
-                                <p>A big part of why I&#8217;ve launched Locke Data is so that I can give back more to my communities. I want to give more time and more support to others. One of the first steps is doing some activities that give financial support to community groups without damaging my startup cashflow! Community R workshops that fund local user groups is the first activity I&#8217;ll be trialling.</p>
-
-<p>Here&#8217;s what&#8217;s involved, and what you might want to consider if you&#8217;d like to be a part of this endeavour:</p>
-
-<p></p>
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2017-02-27-community-r-workshops/" role="button">Read More</a>
-                            </div>
-                        </div>
-                    
-                        <div class="row">
-                            <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2017-02-22-quick-tip-knitr-python-windows-setup-checklist/">Quick tip: knitr Python Windows setup checklist</a></h1>
-                                <ul class="list-inline">
-                                    <li><i class="fa fa-calendar"></i>February 22, 2017</li>
-                                    <li><i class="fa fa-user"></i>Steph</li>
-                                </ul>
-                                One of the nifty things about using R is that you can use it for many different purposes and even other languages!
-If you want to use Python in your knitr docs or the newish RStudio R notebook functionality, you might encounter some fiddliness getting all the moving parts running on Windows. This is a quick knitr Python Windows setup checklist to make sure you don&#8217;t miss any important steps.
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2017-02-22-quick-tip-knitr-python-windows-setup-checklist/" role="button">Read More</a>
-                            </div>
-                        </div>
-                    
-                    
-    <div class="row">
-        <div class="col-md-12">
-            <div class="row">
-                <div class="col-md-4" style="text-align: left; padding-left: 0px">
-                    
-                        <a class="btn btn-default" href="/itsalockeblog/categories/r/" role="button" style="border-radius: 0px; display: block">Newer</a>
-                    
-                </div>
-                <div class="col-md-4 col-md-offset-4" style="text-align: right; padding-right: 0px">
-                    
-                        <a class="btn btn-default" href="/itsalockeblog/categories/r/page/3/" role="button" style="border-radius: 0px; display: block">Older</a>
-                    
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-                </div>
    <div class="col-md-4">                    
 	
 <div class="row">
-    <div class="col-md-11 col-md-offset-1 card">
+    <div class="col-md-11 card">
         <h5>Locke Data Blog</h5>
         <p>A description that will appear as a default if front matter does not exist</p>
-		<img class="avatar" src="img/ChibiSteph.svg"></img>
+		<img class="avatar" src=http://lockedata.uk/itsalockeblog/img/ChibiSteph.svg></img>
     </div>
 </div>
 
     <div class="row">
-    <div class="col-md-11 col-md-offset-1 card">
+    <div class="col-md-11 card">
         <h5>Search</h5>
         <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form">
             <div class="input-group">
@@ -268,7 +106,7 @@ If you want to use Python in your knitr docs or the newish RStudio R notebook fu
     
     
         <div class="row">
-            <div class="col-md-11 col-md-offset-1 card">
+            <div class="col-md-11  card">
                 <h5>categories</h5>
                 <ul class="list-unstyled posts-recent">
                     
@@ -293,6 +131,168 @@ If you want to use Python in your knitr docs or the newish RStudio R notebook fu
 
 
 </div>
+                <div class="col-md-8">
+                    
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockedata.uk/itsalockeblog/the-making-of-datasaurus/">The making of datasauRus</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>May 2, 2017</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                Around 8:30pm I saw this tweet and duly retweeted
+https://t.co/WuyU9D6npK  &mdash; Richie Cotton (@richierocks) May 1, 2017  It turns out awesome folks, George and Justin, had made a process whereby they can generate different distributions of points that retain the same summary statistics. They used this process for making some friends for Dino the Datasaurus who was created by Alberto Cairo. They made the data for Dino and the rest of the Datasaurus Dozen available for download.
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/the-making-of-datasaurus/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockedata.uk/itsalockeblog/getting-started-with-data-science--recommended-resources/">Getting started with data science – recommended resources</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>May 2, 2017</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                An oft asked question is what resources can I recommend for getting started with data science? Here are my recommendations, and if you have others, please put them in the comments!
+ NB Links in this post may be affiliate links &#8211; it doesn&#8217;t change the prices you get but might earn me a little money
+ Books Data Science for Business Data Science for Business
+Data Science for Business is a great overview book.
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/getting-started-with-data-science--recommended-resources/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockedata.uk/itsalockeblog/r-quick-tip-upload-multiple-files-in-shiny-and-consolidate-into-a-dataset/">R Quick Tip: Upload multiple files in shiny and consolidate into a dataset</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>April 28, 2017</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                In shiny, you can use the fileInput with the parameter multiple = TRUE to enable you to upload multiple files at once. But how do you process those multiple files in shiny and consolidate into a single dataset?
+The bit we need from shiny is the input$param$fileinputpath value.
+We can use lapply() with data.table&#8216;s fread() to read multiple CSVs from the fileInput(). Then to consolidate the data, we can use data.
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/r-quick-tip-upload-multiple-files-in-shiny-and-consolidate-into-a-dataset/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockedata.uk/itsalockeblog/building-an-r-training-environment/">Building an R training environment</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>April 24, 2017</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                I recently delivered a day of training at SQLBits and I really upped my game in terms of infrastructure for it. The resultant solution was super smooth and mitigated all the install issues and preparation for attendees. This meant we got to spend the whole day doing R, instead of troubleshooting.
+I&#8217;m so happy with the solution for an online R training environment that I want to share the solution, so you can take it and use it for when you need to do training.
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/building-an-r-training-environment/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockedata.uk/itsalockeblog/logistic-regressions-in-r/">Logistic regressions (in R)</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>April 21, 2017</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                Logistic regressions are a great tool for predicting outcomes that are categorical. They use a transformation function based on probability to perform a linear regression. This makes them easy to interpret and implement in other systems.
+Logistic regressions can be used to perform a classification for things like determining whether someone needs to go for a biopsy. They can also be used for a more nuanced view by using the probabilities of an outcome for thinks like prioritising interventions based on likelihood to default on a loan.
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/logistic-regressions-in-r/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockedata.uk/itsalockeblog/r-quick-tip-table-parameters-for-rmarkdown-reports/">R Quick Tip: Table parameters for rmarkdown reports</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>April 19, 2017</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                The recent(ish) advent of parameters in rmarkdown reports is pretty nifty but there&#8217;s a little bit of behaviour that can come in handy but doesn&#8217;t come across in the documentation. You can use table parameters for rmarkdown reports.
+Previously, if you wanted to produce multiple reports based off a dataset, you would make the dataset available and then perform filtering in the report. Now we can pass the filtered data directly to the report, which keeps all the filtering logic in one place.
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/r-quick-tip-table-parameters-for-rmarkdown-reports/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockedata.uk/itsalockeblog/community-workshops/">Community workshops</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>April 14, 2017</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                Following on from when we announced the availability of our community workshops, we&#8217;ve got three in the next three months that folks can attend.
+May 19th &#8211; Data science project in a day We&#8217;ll be in Kiev, Ukraine, doing a whole data science project in a day. This is intended to give people a little bit of code, process, and critical thinking along the whole data science workflow. This will enable folks to see how it hangs together and decide where and how much they want to invest their learning in future.
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/community-workshops/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockedata.uk/itsalockeblog/r-quick-tip-microsoft-cognitive-services-text-analytics-api/">R Quick tip: Microsoft Cognitive Services’ Text Analytics API</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>March 1, 2017</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                <p>Today in class, I taught some fundamentals of API consumption in R. As it was aligned to some Microsoft content, we first used <a href="https://haveibeenpwned.com">HaveIBeenPwned.com</a>&#8216;s API and then played with <a href="https://www.microsoft.com/cognitive-services/en-us/">Microsoft Cognitive Services</a>&#8216; Text Analytics API. This brief post overviews what you need to get started, and how you can chain consecutive calls to these APIs in order to perform multi-lingual sentiment analysis.</p>
+
+<p><strong>UPDATE: See improved code in <a href="https://itsalocke.com/using-purrr-with-apis/">Using purrr with APIs – revamping my code</a></strong></p>
+
+<p></p>
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/r-quick-tip-microsoft-cognitive-services-text-analytics-api/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockedata.uk/itsalockeblog/announcing-community-r-workshops/">Announcing community R workshops</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>February 27, 2017</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                <p>A big part of why I&#8217;ve launched Locke Data is so that I can give back more to my communities. I want to give more time and more support to others. One of the first steps is doing some activities that give financial support to community groups without damaging my startup cashflow! Community R workshops that fund local user groups is the first activity I&#8217;ll be trialling.</p>
+
+<p>Here&#8217;s what&#8217;s involved, and what you might want to consider if you&#8217;d like to be a part of this endeavour:</p>
+
+<p></p>
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/announcing-community-r-workshops/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockedata.uk/itsalockeblog/quick-tip-knitr-python-windows-setup-checklist/">Quick tip: knitr Python Windows setup checklist</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>February 22, 2017</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                One of the nifty things about using R is that you can use it for many different purposes and even other languages!
+If you want to use Python in your knitr docs or the newish RStudio R notebook functionality, you might encounter some fiddliness getting all the moving parts running on Windows. This is a quick knitr Python Windows setup checklist to make sure you don&#8217;t miss any important steps.
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/quick-tip-knitr-python-windows-setup-checklist/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                    
+    <div class="row">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-4" style="text-align: left; padding-left: 0px">
+                    
+                        <a class="btn btn-default" href="/itsalockeblog/categories/r/" role="button" style="border-radius: 0px; display: block">Newer</a>
+                    
+                </div>
+                <div class="col-md-4 col-md-offset-4" style="text-align: right; padding-right: 0px">
+                    
+                        <a class="btn btn-default" href="/itsalockeblog/categories/r/page/3/" role="button" style="border-radius: 0px; display: block">Older</a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                </div>
             </div>
         </div>
         <!-- Footer section -->

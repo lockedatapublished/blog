@@ -14,10 +14,10 @@
     
     <item>
       <title>Center across selection</title>
-      <link>http://lockedata.uk/itsalockeblog/2013-05-24-center-across-selection/</link>
+      <link>http://lockedata.uk/itsalockeblog/center-across-selection/</link>
       <pubDate>Fri, 24 May 2013 15:23:29 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2013-05-24-center-across-selection/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/center-across-selection/</guid>
       <description>Merging cells is easily done and can help make a spreadsheet look neat, but what you really, really should be doing instead is centering across the selection so it looks merged but isn&amp;#8217;t. Center across selection though is hidden away and therefore time-consuming to use &amp;#8211; no wonder people have bad habits! I wanted to do things the better way, but was lazy, so in the end I made a macro to go in my personal workbook and assigned it to my ribbon (I do this a lot).</description>
     </item>
     

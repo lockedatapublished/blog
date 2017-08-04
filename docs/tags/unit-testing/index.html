@@ -78,151 +78,18 @@
 
         <div id="top" class="container">
             <div class="row" id="content-main">
-                <div class="col-md-8">
-                    
-                    
-                        <div class="row">
-                            <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2016-10-10-unit-testing-in-ssdt-a-quick-intro/">Unit testing in SSDT – a quick intro</a></h1>
-                                <ul class="list-inline">
-                                    <li><i class="fa fa-calendar"></i>October 10, 2016</li>
-                                    <li><i class="fa fa-user"></i>Steph</li>
-                                </ul>
-                                <p>This post will give you a quick run-through of adding tSQLt to an existing database project destined for Azure SQL DB. This basically covers unit testing in SSDT and there is a lot of excellent info out there, so this focuses on getting you through the initial setup as quickly as possible. This post most especially relies on the information <a href="https://agilesql.club/">Ed Elliot</a> and <a href="https://kzhendev.wordpress.com/">Ken Ross</a> have published, so do check them out for more info on this topic!</p>
-
-<p></p>
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2016-10-10-unit-testing-in-ssdt-a-quick-intro/" role="button">Read More</a>
-                            </div>
-                        </div>
-                    
-                        <div class="row">
-                            <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2016-03-24-r-package-news-tfsr-hibpwned-mockaroo/">R package news: tfsR, HIBPwned, mockaRoo</a></h1>
-                                <ul class="list-inline">
-                                    <li><i class="fa fa-calendar"></i>March 24, 2016</li>
-                                    <li><i class="fa fa-user"></i>Steph</li>
-                                </ul>
-                                This is a brief update on my packages not currently on CRAN: tfsR, HIBPwned, and mockaRoo.
-tfsR tfsR is designed to help you work git repositories in Microsoft Team Foundation Server (TFS) and Visual Studio Team Services (VSTS). I wrote the package a while ago and it has/had just two functions; one for getting a list of git repositories, and one for making a new git repository. The release of httr 1.
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2016-03-24-r-package-news-tfsr-hibpwned-mockaroo/" role="button">Read More</a>
-                            </div>
-                        </div>
-                    
-                        <div class="row">
-                            <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2016-03-21-r-package-haveibeenpwned-com/">HIBPwned, an R package for HaveIBeenPwned.com</a></h1>
-                                <ul class="list-inline">
-                                    <li><i class="fa fa-calendar"></i>March 21, 2016</li>
-                                    <li><i class="fa fa-user"></i>Steph</li>
-                                </ul>
-                                <p>The answer in life to the inevitable question of &#8220;How can I do that in R?&#8221; should be &#8220;There&#8217;s a package for that&#8221;. So when I wanted to query <a href="https://haveibeenpwned.com">HaveIBeenPwned.com</a> (HIBP) to check whether a bunch of emails had been involved in data breaches and there wasn&#8217;t an R package for HIBP, it meant that the responsibility for making one landed on my shoulders. Now, you can see if your accounts are at risk with the R package for HaveIBeenPwned.com, <strong>HIBPwned</strong>.</p>
-
-<figure id="attachment_61581" style="width: 768px" class="wp-caption alignnone"><img src="http://res.cloudinary.com/lockedata/image/upload/h_139,w_750/v1499850337/hibp_os8t5d.png" alt="Have I Been Pwned | HaveIBeenPwned.com" width="768" height="142" class="size-medium_large wp-image-61581" /><figcaption class="wp-caption-text">Have I Been Pwned | HaveIBeenPwned.com</figcaption></figure>
-
-<h2 id="current-status">Current status</h2>
-
-<p>The package is currently available on github @ <a href="https://github.com/stephlocke/HIBPwned">stephlocke/HIBPwned</a>, but I intend to submit to CRAN after getting some feedback from y&#8217;all.</p>
-
-<p></p>
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2016-03-21-r-package-haveibeenpwned-com/" role="button">Read More</a>
-                            </div>
-                        </div>
-                    
-                        <div class="row">
-                            <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2016-03-08-mockaroo-making-realistic-test-data-in-r/">mockaRoo – making realistic test data in R</a></h1>
-                                <ul class="list-inline">
-                                    <li><i class="fa fa-calendar"></i>March 8, 2016</li>
-                                    <li><i class="fa fa-user"></i>Steph</li>
-                                </ul>
-                                <p>When I&#8217;m building stuff in R like packages, models, etc. I find myself wishing for realistic looking test data without having to resort to getting data off my production server. To that end I&#8217;ve been on the hunt for a way of generating decent test data. A few months back I stumbled upon the neat system <a href="https://www.mockaroo.com/">Mockaroo</a> which provides a GUI to build some data that suits your needs.</p>
-
-<p>Mockaroo is a really impressive service with a wide spread of different data types. They also have simple ways of adding things like within group differences to data so that you can mock realistic class differences. They use the freemium model so you can get a thousand rows per download, which is pretty sweet. The big BUT you can feel coming on is this &#8211; it&#8217;s a GUI! I don&#8217;t want to have spend time hand cranking a data extract.</p>
-
-<p>Thankfully, they have a GUI for getting data too and it&#8217;s pretty simply to use so I&#8217;ve started making a package for it.</p>
-
-<p>I&#8217;ve started the package on <a href="https://github.com/stephlocke/mockaRoo">github</a> and will be developing it over the next month or two. It&#8217;s up and working, but only in the most primitive way as I&#8217;d like to get some feedback from folks who might find this useful around how the interface for generating your desired data schema should work.</p>
-
-<p></p>
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2016-03-08-mockaroo-making-realistic-test-data-in-r/" role="button">Read More</a>
-                            </div>
-                        </div>
-                    
-                        <div class="row">
-                            <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2015-10-16-dataops-its-a-thing-honest/">DataOps – it’s a thing (honest)</a></h1>
-                                <ul class="list-inline">
-                                    <li><i class="fa fa-calendar"></i>October 16, 2015</li>
-                                    <li><i class="fa fa-user"></i>Steph</li>
-                                </ul>
-                                <p>Today, I presented a <a href="https://1drv.ms/p/s!AiZm2P6YHtSfjye0xDn_fuL80eSp">lightning talk on DataOps</a> at <a href="http://sqlinthecity.red-gate.com/london-2015/">SQL in the City</a>. It was a fantastic day and a great opportunity to catch up with how the database side of things is evolving to embrace <a href="https://en.wikipedia.org/wiki/DevOps">DevOps</a>.</p>
-
-<p>My lightning talk was titled <em>DataOps &#8211; it&#8217;s a thing (honest)</em> and focused on what is essentially DevOps ported out of the developer sphere and into the data professional sphere.</p>
-
-<p></p>
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2015-10-16-dataops-its-a-thing-honest/" role="button">Read More</a>
-                            </div>
-                        </div>
-                    
-                        <div class="row">
-                            <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2015-04-20-easy-continuous-integration-for-r/">Easy Continuous Integration for R</a></h1>
-                                <ul class="list-inline">
-                                    <li><i class="fa fa-calendar"></i>April 20, 2015</li>
-                                    <li><i class="fa fa-user"></i>Steph</li>
-                                </ul>
-                                <p>With <a href="http://r-pkgs.had.co.nz/">excellent guidance</a> and <a href="http://cran.r-project.org/web/packages/devtools/">tooling</a> on making R packages, it&#8217;s becoming really easy to make a package to hold your R functionality. This has a host of benefits, not least source control (via GitHub) and unit testing (via the <a href="http://cran.r-project.org/web/packages/testthat/"><code>testthat</code></a> package). Once you have a package and unit tests, a great way of making sure that as you change things you don&#8217;t break them is to perform <a href="http://www.thoughtworks.com/continuous-integration">Continuous integration</a>.</p>
-
-<p>What this means is that <strong>every</strong> time you make a change, your package is built and thoroughly checked for any issues. If issues are found the &#8220;build&#8217;s broke&#8221; and you have to fix it ASAP.</p>
-
-<p>The easiest, cheapest, and fastest way of setting up continuous integration for R stuff is to use <a href="https://travis-ci.com/">Travis-CI</a>, which is free if you use <a href="http://github.com">GitHub</a> as a remote server for your code.</p>
-
-<p><em>NB &#8211; it doesn&#8217;t have to be your only remote server</em></p>
-
-<p></p>
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2015-04-20-easy-continuous-integration-for-r/" role="button">Read More</a>
-                            </div>
-                        </div>
-                    
-                        <div class="row">
-                            <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2014-11-06-database-bi-related-unit-testing-options/">Database / BI related unit testing options</a></h1>
-                                <ul class="list-inline">
-                                    <li><i class="fa fa-calendar"></i>November 6, 2014</li>
-                                    <li><i class="fa fa-user"></i>Steph</li>
-                                </ul>
-                                A quick list of frameworks available for doing unit testing, based on what I covered in today&#8217;s SQL Lunch
-MSFT Database projects Purpose: unit testing database objects
-Method: SQL / GUI
-Site: http://msdn.microsoft.com/en-us/library/jj851200(v=vs.103).aspx
-Cost: Free
-Pros: Built-in, quite well documented
-Cons: Requires Visual Studio 2010 Pro or above
-Codeplex ssisUnit Purpose: SSIS unit testing
-Method: XML / GUI
-Site: https://ssisunit.codeplex.com
-Cost: Free
-Pros: Unique
-Cons: As of writing, only stable version was released in 2008
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2014-11-06-database-bi-related-unit-testing-options/" role="button">Read More</a>
-                            </div>
-                        </div>
-                    
-                    
-
-                </div>
    <div class="col-md-4">                    
 	
 <div class="row">
-    <div class="col-md-11 col-md-offset-1 card">
+    <div class="col-md-11 card">
         <h5>Locke Data Blog</h5>
         <p>A description that will appear as a default if front matter does not exist</p>
-		<img class="avatar" src="img/ChibiSteph.svg"></img>
+		<img class="avatar" src=http://lockedata.uk/itsalockeblog/img/ChibiSteph.svg></img>
     </div>
 </div>
 
     <div class="row">
-    <div class="col-md-11 col-md-offset-1 card">
+    <div class="col-md-11 card">
         <h5>Search</h5>
         <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form">
             <div class="input-group">
@@ -239,7 +106,7 @@ Cons: As of writing, only stable version was released in 2008
     
     
         <div class="row">
-            <div class="col-md-11 col-md-offset-1 card">
+            <div class="col-md-11  card">
                 <h5>categories</h5>
                 <ul class="list-unstyled posts-recent">
                     
@@ -264,6 +131,139 @@ Cons: As of writing, only stable version was released in 2008
 
 
 </div>
+                <div class="col-md-8">
+                    
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockedata.uk/itsalockeblog/unit-testing-in-ssdt--a-quick-intro/">Unit testing in SSDT – a quick intro</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>October 10, 2016</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                <p>This post will give you a quick run-through of adding tSQLt to an existing database project destined for Azure SQL DB. This basically covers unit testing in SSDT and there is a lot of excellent info out there, so this focuses on getting you through the initial setup as quickly as possible. This post most especially relies on the information <a href="https://agilesql.club/">Ed Elliot</a> and <a href="https://kzhendev.wordpress.com/">Ken Ross</a> have published, so do check them out for more info on this topic!</p>
+
+<p></p>
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/unit-testing-in-ssdt--a-quick-intro/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockedata.uk/itsalockeblog/r-package-news-tfsr-hibpwned-mockaroo/">R package news: tfsR, HIBPwned, mockaRoo</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>March 24, 2016</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                This is a brief update on my packages not currently on CRAN: tfsR, HIBPwned, and mockaRoo.
+tfsR tfsR is designed to help you work git repositories in Microsoft Team Foundation Server (TFS) and Visual Studio Team Services (VSTS). I wrote the package a while ago and it has/had just two functions; one for getting a list of git repositories, and one for making a new git repository. The release of httr 1.
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/r-package-news-tfsr-hibpwned-mockaroo/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockedata.uk/itsalockeblog/hibpwned-an-r-package-for-haveibeenpwned.com/">HIBPwned, an R package for HaveIBeenPwned.com</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>March 21, 2016</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                <p>The answer in life to the inevitable question of &#8220;How can I do that in R?&#8221; should be &#8220;There&#8217;s a package for that&#8221;. So when I wanted to query <a href="https://haveibeenpwned.com">HaveIBeenPwned.com</a> (HIBP) to check whether a bunch of emails had been involved in data breaches and there wasn&#8217;t an R package for HIBP, it meant that the responsibility for making one landed on my shoulders. Now, you can see if your accounts are at risk with the R package for HaveIBeenPwned.com, <strong>HIBPwned</strong>.</p>
+
+<figure id="attachment_61581" style="width: 768px" class="wp-caption alignnone"><img src="http://res.cloudinary.com/lockedata/image/upload/h_139,w_750/v1499850337/hibp_os8t5d.png" alt="Have I Been Pwned | HaveIBeenPwned.com" width="768" height="142" class="size-medium_large wp-image-61581" /><figcaption class="wp-caption-text">Have I Been Pwned | HaveIBeenPwned.com</figcaption></figure>
+
+<h2 id="current-status">Current status</h2>
+
+<p>The package is currently available on github @ <a href="https://github.com/stephlocke/HIBPwned">stephlocke/HIBPwned</a>, but I intend to submit to CRAN after getting some feedback from y&#8217;all.</p>
+
+<p></p>
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/hibpwned-an-r-package-for-haveibeenpwned.com/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockedata.uk/itsalockeblog/mockaroo--making-realistic-test-data-in-r/">mockaRoo – making realistic test data in R</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>March 8, 2016</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                <p>When I&#8217;m building stuff in R like packages, models, etc. I find myself wishing for realistic looking test data without having to resort to getting data off my production server. To that end I&#8217;ve been on the hunt for a way of generating decent test data. A few months back I stumbled upon the neat system <a href="https://www.mockaroo.com/">Mockaroo</a> which provides a GUI to build some data that suits your needs.</p>
+
+<p>Mockaroo is a really impressive service with a wide spread of different data types. They also have simple ways of adding things like within group differences to data so that you can mock realistic class differences. They use the freemium model so you can get a thousand rows per download, which is pretty sweet. The big BUT you can feel coming on is this &#8211; it&#8217;s a GUI! I don&#8217;t want to have spend time hand cranking a data extract.</p>
+
+<p>Thankfully, they have a GUI for getting data too and it&#8217;s pretty simply to use so I&#8217;ve started making a package for it.</p>
+
+<p>I&#8217;ve started the package on <a href="https://github.com/stephlocke/mockaRoo">github</a> and will be developing it over the next month or two. It&#8217;s up and working, but only in the most primitive way as I&#8217;d like to get some feedback from folks who might find this useful around how the interface for generating your desired data schema should work.</p>
+
+<p></p>
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/mockaroo--making-realistic-test-data-in-r/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockedata.uk/itsalockeblog/dataops--its-a-thing-honest/">DataOps – it’s a thing (honest)</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>October 16, 2015</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                <p>Today, I presented a <a href="https://1drv.ms/p/s!AiZm2P6YHtSfjye0xDn_fuL80eSp">lightning talk on DataOps</a> at <a href="http://sqlinthecity.red-gate.com/london-2015/">SQL in the City</a>. It was a fantastic day and a great opportunity to catch up with how the database side of things is evolving to embrace <a href="https://en.wikipedia.org/wiki/DevOps">DevOps</a>.</p>
+
+<p>My lightning talk was titled <em>DataOps &#8211; it&#8217;s a thing (honest)</em> and focused on what is essentially DevOps ported out of the developer sphere and into the data professional sphere.</p>
+
+<p></p>
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/dataops--its-a-thing-honest/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockedata.uk/itsalockeblog/easy-continuous-integration-for-r/">Easy Continuous Integration for R</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>April 20, 2015</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                <p>With <a href="http://r-pkgs.had.co.nz/">excellent guidance</a> and <a href="http://cran.r-project.org/web/packages/devtools/">tooling</a> on making R packages, it&#8217;s becoming really easy to make a package to hold your R functionality. This has a host of benefits, not least source control (via GitHub) and unit testing (via the <a href="http://cran.r-project.org/web/packages/testthat/"><code>testthat</code></a> package). Once you have a package and unit tests, a great way of making sure that as you change things you don&#8217;t break them is to perform <a href="http://www.thoughtworks.com/continuous-integration">Continuous integration</a>.</p>
+
+<p>What this means is that <strong>every</strong> time you make a change, your package is built and thoroughly checked for any issues. If issues are found the &#8220;build&#8217;s broke&#8221; and you have to fix it ASAP.</p>
+
+<p>The easiest, cheapest, and fastest way of setting up continuous integration for R stuff is to use <a href="https://travis-ci.com/">Travis-CI</a>, which is free if you use <a href="http://github.com">GitHub</a> as a remote server for your code.</p>
+
+<p><em>NB &#8211; it doesn&#8217;t have to be your only remote server</em></p>
+
+<p></p>
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/easy-continuous-integration-for-r/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockedata.uk/itsalockeblog/database-/-bi-related-unit-testing-options/">Database / BI related unit testing options</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>November 6, 2014</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                A quick list of frameworks available for doing unit testing, based on what I covered in today&#8217;s SQL Lunch
+MSFT Database projects Purpose: unit testing database objects
+Method: SQL / GUI
+Site: http://msdn.microsoft.com/en-us/library/jj851200(v=vs.103).aspx
+Cost: Free
+Pros: Built-in, quite well documented
+Cons: Requires Visual Studio 2010 Pro or above
+Codeplex ssisUnit Purpose: SSIS unit testing
+Method: XML / GUI
+Site: https://ssisunit.codeplex.com
+Cost: Free
+Pros: Unique
+Cons: As of writing, only stable version was released in 2008
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/database-/-bi-related-unit-testing-options/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                    
+
+                </div>
             </div>
         </div>
         <!-- Footer section -->

@@ -14,10 +14,10 @@
     
     <item>
       <title>How to go about interpreting regression cofficients</title>
-      <link>http://lockedata.uk/itsalockeblog/2017-05-12-interpreting-regression-cofficients/</link>
+      <link>http://lockedata.uk/itsalockeblog/how-to-go-about-interpreting-regression-cofficients/</link>
       <pubDate>Fri, 12 May 2017 08:31:48 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2017-05-12-interpreting-regression-cofficients/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/how-to-go-about-interpreting-regression-cofficients/</guid>
       <description>Following my post about logistic regressions, Ryan got in touch about one bit of building logistic regressions models that I didn&amp;#8217;t cover in much detail &amp;#8211; interpreting&amp;nbsp;regression coefficients. This post will hopefully help Ryan (and others) out.
 This was so helpful. Thank you! I&#39;d love to see more about interpreting the glm coefficients.  &amp;mdash; Ryan (@RyanEs) April 21, 2017  What is a coefficient? Coefficients are what a line of best fit model produces.</description>
     </item>

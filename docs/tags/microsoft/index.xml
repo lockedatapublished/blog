@@ -14,20 +14,20 @@
     
     <item>
       <title>Upcoming R for Microsoft training days</title>
-      <link>http://lockedata.uk/itsalockeblog/2016-03-07-upcoming-r-microsoft-training-days/</link>
+      <link>http://lockedata.uk/itsalockeblog/upcoming-r-for-microsoft-training-days/</link>
       <pubDate>Mon, 07 Mar 2016 09:55:13 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2016-03-07-upcoming-r-microsoft-training-days/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/upcoming-r-for-microsoft-training-days/</guid>
       <description>In May, I will be delivering two R for Microsoft training days. These two days will focus on some R fundamentals and applying these fundamentals within the Microsoft Data Platform. These training days are ideal if you know one half of the components &amp;#8211; whether that&amp;#8217;s the R bit or the Microsoft BI bit. Either way, you&amp;#8217;ll learn about the other half.
 SQLBits SQLBits XV is being held in Liverpool this year and my training day is on May 4th.</description>
     </item>
     
     <item>
       <title>Working with Azure Blob Storage, some notes</title>
-      <link>http://lockedata.uk/itsalockeblog/2015-04-06-working-with-azure-blob-storage-rest-api/</link>
+      <link>http://lockedata.uk/itsalockeblog/working-with-azure-blob-storage-some-notes/</link>
       <pubDate>Mon, 06 Apr 2015 09:27:05 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2015-04-06-working-with-azure-blob-storage-rest-api/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/working-with-azure-blob-storage-some-notes/</guid>
       <description>&lt;p&gt;I&amp;#8217;m working on building a snazzy &lt;a href=&#34;https://github.com/stephlocke/Rtraining/blob/master/inst/slidedecks/shiny/Dashboards.Rmd&#34; title=&#34;My shiny presentation&#34; target=&#34;_blank&#34;&gt;shiny&lt;/a&gt; app that a) drops the inputs/parameter values into &lt;a href=&#34;http://azure.microsoft.com/en-gb/documentation/articles/storage-introduction/&#34; title=&#34;Azure storage intro&#34; target=&#34;_blank&#34;&gt;blob storage&lt;/a&gt; and b) uses &lt;a href=&#34;http://azure.microsoft.com/en-gb/services/stream-analytics/&#34; title=&#34;Stream Analytics&#34; target=&#34;_blank&#34;&gt;Stream Analytics&lt;/a&gt; to query the values and present back what people are saying at the moment. This&amp;#8217;ll be a fab tool for &lt;a href=&#34;https://itsalocke.com/index.php/r-pre-con-sqlsat-exeter/&#34; title=&#34;My R Pre-Con: SQLSat Exeter&#34; target=&#34;_blank&#34;&gt;my pre-con next month&lt;/a&gt; if I can get it working in time!&lt;/p&gt;
 
 &lt;p&gt;Getting it working, does however mean utilising the &lt;a href=&#34;https://msdn.microsoft.com/en-us/library/azure/dd179355.aspx&#34; title=&#34;Storage API documentation&#34; target=&#34;_blank&#34;&gt;Azure Blob Storage API&lt;/a&gt; in R which I confess is much harder than expected, especially after the ease of using the Visual Studio Online API for &lt;a href=&#34;https://itsalocke.com/index.php/bride-of-frankenstein-tfs-r/&#34; title=&#34;Bride of Frankenstein: TFS + R&#34; target=&#34;_blank&#34;&gt;tfsR&lt;/a&gt;. To that end, I thought I&amp;#8217;d write-up some of my findings before I do a bigger write-up that illustrates how to do everything (in R).&lt;/p&gt;
@@ -39,20 +39,20 @@ SQLBits SQLBits XV is being held in Liverpool this year and my training day is o
     
     <item>
       <title>DeployR – why Microsoft bought Revolution?</title>
-      <link>http://lockedata.uk/itsalockeblog/2015-03-23-deployr-why-microsoft-bought-revolution/</link>
+      <link>http://lockedata.uk/itsalockeblog/deployr--why-microsoft-bought-revolution/</link>
       <pubDate>Mon, 23 Mar 2015 10:19:10 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2015-03-23-deployr-why-microsoft-bought-revolution/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/deployr--why-microsoft-bought-revolution/</guid>
       <description>I&amp;#8217;ve been asked by a few people recently about why I don&amp;#8217;t use Azure Machine Learning (ML). I answer that I don&amp;#8217;t use it yet, and the reason being that at the moment the robust development life-cycle isn&amp;#8217;t in place around it. I think that will change &amp;#8211; one of the great reasons for the acquisition of Revolution Analytics (in my opinion) is their DeployR system.
 DeployR is essentially an R web service platform.</description>
     </item>
     
     <item>
       <title>Where do I fit in the Microsoft future?</title>
-      <link>http://lockedata.uk/itsalockeblog/2015-02-24-where-do-i-fit-in-the-microsoft-future/</link>
+      <link>http://lockedata.uk/itsalockeblog/where-do-i-fit-in-the-microsoft-future/</link>
       <pubDate>Tue, 24 Feb 2015 10:41:45 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2015-02-24-where-do-i-fit-in-the-microsoft-future/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/where-do-i-fit-in-the-microsoft-future/</guid>
       <description>&lt;p&gt;Entering into the world of SQL Server around the same time as the 2008 release has meant that until the past couple of years, change in the Microsoft BI world only happened in dribs and drabs for me. SQL Server and it&amp;#8217;s BI components were stable server products and the focus was on getting data and optimising &amp;#8220;central reporting&amp;#8221;. Recently though things have started to massively change due to Azure and Office 365.&lt;/p&gt;
 
 &lt;p&gt;No longer part of Server &amp;amp; Tools where products were considered in silos, SQL Server and BI are now part of the &lt;a href=&#34;http://blogs.technet.com/b/server-cloud/archive/2015/01/30/increasing-visibility-for-our-customers-announcing-the-cloud-platform-roadmap-site.aspx&#34; title=&#34;Cloud Platform roadmap&#34; target=&#34;_blank&#34;&gt;Cloud Platform&lt;/a&gt;. It&amp;#8217;s now a means of delivering the &lt;a href=&#34;http://news.microsoft.com/ceo/bold-ambition/index.html&#34; title=&#34;Satya Nadella&#39;s vision email&#34; target=&#34;_blank&#34;&gt;Cloud-first vision&lt;/a&gt; that Microsoft have aligned themselves to.&lt;/p&gt;

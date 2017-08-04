@@ -14,10 +14,10 @@
     
     <item>
       <title>Shiny module design patterns: Pass module inputs to other modules</title>
-      <link>http://lockedata.uk/itsalockeblog/2016-04-19-shiny-module-design-patterns-pass-module-input-to-other-modules/</link>
+      <link>http://lockedata.uk/itsalockeblog/shiny-module-design-patterns-pass-module-inputs-to-other-modules/</link>
       <pubDate>Tue, 19 Apr 2016 10:15:19 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2016-04-19-shiny-module-design-patterns-pass-module-input-to-other-modules/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/shiny-module-design-patterns-pass-module-inputs-to-other-modules/</guid>
       <description>&lt;p&gt;Continuing in the series of &lt;a href=&#34;https://itsalocke.com/tag/shiny-design-patterns/&#34;&gt;shiny module design patterns&lt;/a&gt;, this post covers how to pass all the inputs from one module to another.&lt;/p&gt;
 
 &lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
@@ -29,10 +29,10 @@
     
     <item>
       <title>Shiny module design patterns: Pass module input to other modules</title>
-      <link>http://lockedata.uk/itsalockeblog/2016-04-14-shiny-module-design-patterns-pass-module-inputs-modules/</link>
+      <link>http://lockedata.uk/itsalockeblog/shiny-module-design-patterns-pass-module-input-to-other-modules/</link>
       <pubDate>Thu, 14 Apr 2016 12:05:55 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2016-04-14-shiny-module-design-patterns-pass-module-inputs-modules/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/shiny-module-design-patterns-pass-module-input-to-other-modules/</guid>
       <description>&lt;p&gt;Following on from looking at the &lt;a href=&#34;https://itsalocke.com/shiny-module-design-pattern-pass-inputs-one-module-another/&#34;&gt;shiny modules design pattern of passing an input value to many modules&lt;/a&gt;, I&amp;#8217;m now going to look at a more complex shiny module design pattern: passing an input from one module to another.&lt;/p&gt;
 
 &lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
@@ -44,10 +44,10 @@
     
     <item>
       <title>Shiny module design patterns: Pass a single input to multiple modules</title>
-      <link>http://lockedata.uk/itsalockeblog/2016-04-08-shiny-module-design-pattern-pass-inputs-one-module-another/</link>
+      <link>http://lockedata.uk/itsalockeblog/shiny-module-design-patterns-pass-a-single-input-to-multiple-modules/</link>
       <pubDate>Fri, 08 Apr 2016 10:56:32 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2016-04-08-shiny-module-design-pattern-pass-inputs-one-module-another/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/shiny-module-design-patterns-pass-a-single-input-to-multiple-modules/</guid>
       <description>&lt;p&gt;For the awesome &lt;a href=&#34;https://www.eventbrite.com/e/shiny-developer-conference-registration-19153967031&#34;&gt;Shiny Developers Conference&lt;/a&gt; back in January, I endeavoured to learn about shiny modules and &lt;a href=&#34;https://itsalocke.com/declutter-a-shiny-reports-code-v2-0/&#34;&gt;overhaul an application&lt;/a&gt; using them in the space of two days. I succeeded and almost immediately switched onto other projects, thereby losing most of the hard-won knowledge! As I rediscover shiny modules and start putting them into more active use, I&amp;#8217;ll be blogging about design patterns. This post takes you through the case of multiple modules receiving the same input value.&lt;/p&gt;
 
 &lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;

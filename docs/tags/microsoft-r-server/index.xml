@@ -14,10 +14,10 @@
     
     <item>
       <title>Versioning R model objects in SQL Server</title>
-      <link>http://lockedata.uk/itsalockeblog/2017-05-26-versioning-r-model-objects-in-sql-server/</link>
+      <link>http://lockedata.uk/itsalockeblog/versioning-r-model-objects-in-sql-server/</link>
       <pubDate>Fri, 26 May 2017 08:00:04 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2017-05-26-versioning-r-model-objects-in-sql-server/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/versioning-r-model-objects-in-sql-server/</guid>
       <description>High-level info If you build a model and never update it you&amp;#8217;re missing a trick. Behaviours change so your model will tend to perform worse over time. You&amp;#8217;ve got to regularly refresh it, whether that&amp;#8217;s adjusting the existing model to fit the latest data (recalibration) or building a whole new model (retraining), but this means you&amp;#8217;ve got new versions of your model that you have to handle. You need to think about your methodology for versioning R model objects, ideally before you lose any versions.</description>
     </item>
     

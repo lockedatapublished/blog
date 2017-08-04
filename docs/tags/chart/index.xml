@@ -14,10 +14,10 @@
     
     <item>
       <title>Making charts with conditionally coloured series</title>
-      <link>http://lockedata.uk/itsalockeblog/2013-05-25-making-charts-with-conditionally-coloured-series/</link>
+      <link>http://lockedata.uk/itsalockeblog/making-charts-with-conditionally-coloured-series/</link>
       <pubDate>Sat, 25 May 2013 16:05:54 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2013-05-25-making-charts-with-conditionally-coloured-series/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/making-charts-with-conditionally-coloured-series/</guid>
       <description>The example I&amp;#8217;m running through is available at http://sdrv.ms/11lH3KR
 &amp;nbsp;
 The scenario we&amp;#8217;re looking at is where we want to be able to convey quality within a chart by having differently coloured columns, based on different conditions that we want to specify. Unfortunately, the ability to natively apply conditional formatting isn&amp;#8217;t yet present, but we can mimic it by overlaying series of the same size that are coloured differently.

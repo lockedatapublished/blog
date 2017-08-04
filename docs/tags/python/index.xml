@@ -14,10 +14,10 @@
     
     <item>
       <title>Quick tip: knitr Python Windows setup checklist</title>
-      <link>http://lockedata.uk/itsalockeblog/2017-02-22-quick-tip-knitr-python-windows-setup-checklist/</link>
+      <link>http://lockedata.uk/itsalockeblog/quick-tip-knitr-python-windows-setup-checklist/</link>
       <pubDate>Wed, 22 Feb 2017 16:01:15 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2017-02-22-quick-tip-knitr-python-windows-setup-checklist/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/quick-tip-knitr-python-windows-setup-checklist/</guid>
       <description>One of the nifty things about using R is that you can use it for many different purposes and even other languages!
 If you want to use Python in your knitr docs or the newish RStudio R notebook functionality, you might encounter some fiddliness getting all the moving parts running on Windows. This is a quick knitr Python Windows setup checklist to make sure you don&amp;#8217;t miss any important steps.</description>
     </item>

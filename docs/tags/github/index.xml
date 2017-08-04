@@ -14,20 +14,20 @@
     
     <item>
       <title>The making of datasauRus</title>
-      <link>http://lockedata.uk/itsalockeblog/2017-05-02-the-making-of-datasaurus/</link>
+      <link>http://lockedata.uk/itsalockeblog/the-making-of-datasaurus/</link>
       <pubDate>Tue, 02 May 2017 12:10:32 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2017-05-02-the-making-of-datasaurus/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/the-making-of-datasaurus/</guid>
       <description>Around 8:30pm I saw this tweet and duly retweeted
 https://t.co/WuyU9D6npK  &amp;mdash; Richie Cotton (@richierocks) May 1, 2017  It turns out awesome folks, George and Justin, had made a process whereby they can generate different distributions of points that retain the same summary statistics. They used this process for making some friends for Dino the Datasaurus who was created by Alberto Cairo. They made the data for Dino and the rest of the Datasaurus Dozen available for download.</description>
     </item>
     
     <item>
       <title>Automated documentation hosting on github via Travis-CI</title>
-      <link>http://lockedata.uk/itsalockeblog/2015-06-01-automated-documentation-hosting-on-github-via-travis-ci/</link>
+      <link>http://lockedata.uk/itsalockeblog/automated-documentation-hosting-on-github-via-travis-ci/</link>
       <pubDate>Mon, 01 Jun 2015 09:29:21 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2015-06-01-automated-documentation-hosting-on-github-via-travis-ci/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/automated-documentation-hosting-on-github-via-travis-ci/</guid>
       <description>&lt;p&gt;In this post, I&amp;#8217;m going to cover how you can use continuous integration and source control to build and host documentation (or any other static HTML) for free, and in a way that updates every time your code changes. I&amp;#8217;ll cover the generic capability, and then how I apply this to my simplest package, tfsR. In a later post (once I&amp;#8217;ve cracked the best method to do it) I&amp;#8217;ll cover my more complex use case of multiple documents and a dynamically constructed index page.&lt;/p&gt;
 
 &lt;p&gt;NB: This is kicked off from a &lt;a href=&#34;http://rmflight.github.io/posts/2014/11/travis_ci_gh_pages.html&#34;&gt;post&lt;/a&gt; from Robert Flight about applying to the technique to R package vignettes. It&amp;#8217;s a very useful post but it was quite specific to his situation and I wanted to understand the principles behind it before I started extending it to my more complex cases.&lt;/p&gt;

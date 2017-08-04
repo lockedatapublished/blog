@@ -14,10 +14,10 @@
     
     <item>
       <title>DataOps – it’s a thing (honest)</title>
-      <link>http://lockedata.uk/itsalockeblog/2015-10-16-dataops-its-a-thing-honest/</link>
+      <link>http://lockedata.uk/itsalockeblog/dataops--its-a-thing-honest/</link>
       <pubDate>Fri, 16 Oct 2015 20:27:03 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2015-10-16-dataops-its-a-thing-honest/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/dataops--its-a-thing-honest/</guid>
       <description>&lt;p&gt;Today, I presented a &lt;a href=&#34;https://1drv.ms/p/s!AiZm2P6YHtSfjye0xDn_fuL80eSp&#34;&gt;lightning talk on DataOps&lt;/a&gt; at &lt;a href=&#34;http://sqlinthecity.red-gate.com/london-2015/&#34;&gt;SQL in the City&lt;/a&gt;. It was a fantastic day and a great opportunity to catch up with how the database side of things is evolving to embrace &lt;a href=&#34;https://en.wikipedia.org/wiki/DevOps&#34;&gt;DevOps&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;My lightning talk was titled &lt;em&gt;DataOps &amp;#8211; it&amp;#8217;s a thing (honest)&lt;/em&gt; and focused on what is essentially DevOps ported out of the developer sphere and into the data professional sphere.&lt;/p&gt;
@@ -27,10 +27,10 @@
     
     <item>
       <title>SQL Relay is here!</title>
-      <link>http://lockedata.uk/itsalockeblog/2015-07-16-sql-relay-is-here/</link>
+      <link>http://lockedata.uk/itsalockeblog/sql-relay-is-here/</link>
       <pubDate>Thu, 16 Jul 2015 09:30:59 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2015-07-16-sql-relay-is-here/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/sql-relay-is-here/</guid>
       <description>SQL Relay is back on tour! Our 6th event sees us yet again touring the country bringing awesome speakers to eight cities over 2 weeks.
 As usual we&amp;#8217;re improving things:
  A new platform called Attendee.Events which allows easier registration &amp;amp; speaker submission A whole bunch of webinars planned to get in the swing of things More breadth &amp;#8211; this year each event includes a dedicated track to R, machine learning etc, on top of SQL Server and business intelligence More content &amp;#8211; instead of swapping out existing slots for breadth, we added more tracks A green initiative &amp;#8230; see it on the day Improved speaker experience &amp;#8211; we&amp;#8217;re building on last year&amp;#8217;s fun bus with the help of SQL Sentry to make it easier and more fun for speakers to do multiple events, as well as offering first timers some mentoring as most of the organisers are also speakers  You&amp;#8217;ll see a lot of announcements about Relay over the next few months, but I hope this little post inspires you to check out our events 😀</description>
@@ -38,10 +38,10 @@ As usual we&amp;#8217;re improving things:
     
     <item>
       <title>SQL Saturday Exeter: Steph &amp; Oz’s slides</title>
-      <link>http://lockedata.uk/itsalockeblog/2015-04-26-sql-saturday-exeter-steph-ozs-slides/</link>
+      <link>http://lockedata.uk/itsalockeblog/sql-saturday-exeter-steph--ozs-slides/</link>
       <pubDate>Sun, 26 Apr 2015 16:04:36 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2015-04-26-sql-saturday-exeter-steph-ozs-slides/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/sql-saturday-exeter-steph--ozs-slides/</guid>
       <description>Well SQL Saturday Exeter flew by. T&amp;#8217;was great catching up with people, seeing folks learn how to use (old &amp;amp; new) tools better, and just generally watching everyone having a great time at one of the best organised conferences I have the pleasure of going to.
 Here are links to all the slide decks etc that we presented this weekend:
  My R: analysis to integration training day notes &amp;amp; source code My agile BI slide deck My Shiny: dashboards in R slide deck &amp;amp; source code Oz&amp;#8217;s SSRS: Beyond the basics slide deck &amp;amp; source code  If you attended any of our sessions, give us some constructive criticism!</description>
@@ -49,10 +49,10 @@ Here are links to all the slide decks etc that we presented this weekend:
     
     <item>
       <title>Where do I fit in the Microsoft future?</title>
-      <link>http://lockedata.uk/itsalockeblog/2015-02-24-where-do-i-fit-in-the-microsoft-future/</link>
+      <link>http://lockedata.uk/itsalockeblog/where-do-i-fit-in-the-microsoft-future/</link>
       <pubDate>Tue, 24 Feb 2015 10:41:45 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2015-02-24-where-do-i-fit-in-the-microsoft-future/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/where-do-i-fit-in-the-microsoft-future/</guid>
       <description>&lt;p&gt;Entering into the world of SQL Server around the same time as the 2008 release has meant that until the past couple of years, change in the Microsoft BI world only happened in dribs and drabs for me. SQL Server and it&amp;#8217;s BI components were stable server products and the focus was on getting data and optimising &amp;#8220;central reporting&amp;#8221;. Recently though things have started to massively change due to Azure and Office 365.&lt;/p&gt;
 
 &lt;p&gt;No longer part of Server &amp;amp; Tools where products were considered in silos, SQL Server and BI are now part of the &lt;a href=&#34;http://blogs.technet.com/b/server-cloud/archive/2015/01/30/increasing-visibility-for-our-customers-announcing-the-cloud-platform-roadmap-site.aspx&#34; title=&#34;Cloud Platform roadmap&#34; target=&#34;_blank&#34;&gt;Cloud Platform&lt;/a&gt;. It&amp;#8217;s now a means of delivering the &lt;a href=&#34;http://news.microsoft.com/ceo/bold-ambition/index.html&#34; title=&#34;Satya Nadella&#39;s vision email&#34; target=&#34;_blank&#34;&gt;Cloud-first vision&lt;/a&gt; that Microsoft have aligned themselves to.&lt;/p&gt;
@@ -62,10 +62,10 @@ Here are links to all the slide decks etc that we presented this weekend:
     
     <item>
       <title>SQLSaturday Exeter 2015</title>
-      <link>http://lockedata.uk/itsalockeblog/2015-01-19-sqlsaturday-exeter-2015/</link>
+      <link>http://lockedata.uk/itsalockeblog/sqlsaturday-exeter-2015/</link>
       <pubDate>Mon, 19 Jan 2015 20:09:35 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2015-01-19-sqlsaturday-exeter-2015/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/sqlsaturday-exeter-2015/</guid>
       <description>&lt;p&gt;Woohoo! The kind and crazy folks at &lt;a href=&#34;https://www.sqlsaturday.com/372/eventhome.aspx&#34; title=&#34;SQLSaturday Exeter 2015 homepage&#34; target=&#34;_blank&#34;&gt;SQLSaturday Exeter&lt;/a&gt; accepted my submitted training day for their roster. Before I wax lyrical on the virtues of being locked in a room with me all day, I thought I&amp;#8217;d better cover the fundamentals of the event itself!&lt;/p&gt;
 
 &lt;p&gt;First, the awesome video&amp;#8230;&lt;/p&gt;
@@ -75,10 +75,10 @@ Here are links to all the slide decks etc that we presented this weekend:
     
     <item>
       <title>Aggregate on a Lookup in SSRS</title>
-      <link>http://lockedata.uk/itsalockeblog/2014-11-23-aggregate-on-a-lookup-in-ssrs/</link>
+      <link>http://lockedata.uk/itsalockeblog/aggregate-on-a-lookup-in-ssrs/</link>
       <pubDate>Sun, 23 Nov 2014 12:59:13 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2014-11-23-aggregate-on-a-lookup-in-ssrs/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/aggregate-on-a-lookup-in-ssrs/</guid>
       <description>&lt;h2 id=&#34;the-what&#34;&gt;The What&lt;/h2&gt;
 
 &lt;p&gt;If you need to join multiple datasets inside SSRS, perhaps because of different sources, grains of detail etc, then you often need to aggregate over both datasets.&lt;/p&gt;
@@ -98,10 +98,10 @@ Here are links to all the slide decks etc that we presented this weekend:
     
     <item>
       <title>Database / BI related unit testing options</title>
-      <link>http://lockedata.uk/itsalockeblog/2014-11-06-database-bi-related-unit-testing-options/</link>
+      <link>http://lockedata.uk/itsalockeblog/database-/-bi-related-unit-testing-options/</link>
       <pubDate>Thu, 06 Nov 2014 16:18:48 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2014-11-06-database-bi-related-unit-testing-options/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/database-/-bi-related-unit-testing-options/</guid>
       <description>A quick list of frameworks available for doing unit testing, based on what I covered in today&amp;#8217;s SQL Lunch
 MSFT Database projects Purpose: unit testing database objects
 Method: SQL / GUI
@@ -119,10 +119,10 @@ Cons: As of writing, only stable version was released in 2008</description>
     
     <item>
       <title>Fiddly SSRS</title>
-      <link>http://lockedata.uk/itsalockeblog/2013-11-28-fiddly-ssrs/</link>
+      <link>http://lockedata.uk/itsalockeblog/fiddly-ssrs/</link>
       <pubDate>Thu, 28 Nov 2013 01:15:25 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2013-11-28-fiddly-ssrs/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/fiddly-ssrs/</guid>
       <description></description>
     </item>
     

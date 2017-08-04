@@ -78,81 +78,18 @@
 
         <div id="top" class="container">
             <div class="row" id="content-main">
-                <div class="col-md-8">
-                    
-                    
-                        <div class="row">
-                            <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2015-02-09-magrittr-cleaner-program-flow/">magrittr: cleaner program flow</a></h1>
-                                <ul class="list-inline">
-                                    <li><i class="fa fa-calendar"></i>February 9, 2015</li>
-                                    <li><i class="fa fa-user"></i>Steph</li>
-                                </ul>
-                                <p>Last year I built a pretty sweet web service in R as part of the day job. However, not being well-versed in stuff like object-oriented programming, I did not do the best job of making the flow of my program particularly clear or robust. It wouldn&#8217;t take multiple inputs properly and I found it to be tough to test. In spare moments, I took to cogitating how to improve things.</p>
-
-<p>I tried simply refactoring some of the functions but found my structure too cumbersome to allow much change. I tried starting afresh with an <a href="http://adv-r.had.co.nz/OO-essentials.html" title="Advanced R - OO programming" target="_blank">S4 system</a> but was soon in a death spiral of class proliferation and no experience in how to stop it. After dabbling with different methods, I was getting pretty frustrated &#8211; I want my code to be better and more maintainable!</p>
-
-<p>Now I&#8217;m looking at <a href="http://cran.r-project.org/web/packages/magrittr/vignettes/magrittr.html" title="magrittr vignette on CRAN" target="_blank">magrittr</a>.</p>
-
-<h2 id="about-magrittr">About magrittr</h2>
-
-<p><code>magrittr</code> was designed to better facilitate <a href="http://adv-r.had.co.nz/Functional-programming.html" title="R for functional programming" target="_blank">functional programming</a> based on piping inputs from one function to another. It&#8217;s the same paradigm as the <a href="http://powershell.com/cs/blogs/ebookv2/archive/2012/03/12/chapter-5-the-powershell-pipeline.aspx" title="PowerShell Pipe operator explained" target="_blank">PowerShell operator <code>|</code></a>.</p>
-
-<p>This means you can more succinctly pass an input through various transformation steps (in contrast to my initial method) with a lot less code. The ability to add conditional functions or even new functions on the fly (aka <a href="http://en.wikipedia.org/wiki/Anonymous_function" title="Lambda functions on wikipedia" target="_blank">lambda functions</a>) with a similarly low code burden gives the added benefit of helping with branching logic.</p>
-
-<p></p>
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2015-02-09-magrittr-cleaner-program-flow/" role="button">Read More</a>
-                            </div>
-                        </div>
-                    
-                        <div class="row">
-                            <div class="col-md-12 content-card">
-                                <h1><a href="http://lockedata.uk/itsalockeblog/2015-01-11-some-basic-web-scraping-in-r/">Conference sessions – basic web scraping in R</a></h1>
-                                <ul class="list-inline">
-                                    <li><i class="fa fa-calendar"></i>January 11, 2015</li>
-                                    <li><i class="fa fa-user"></i>Steph</li>
-                                </ul>
-                                <p>It&#8217;s a bit sad but I enjoy dissecting what sessions are submitted to conferences I&#8217;m involved in or speak at. Instead of doing it primarily by eye, I&#8217;ve started dabbling in web scraping in R to do it. Initially, I used RCurl and my latest snippet uses rvest.</p>
-
-<p>The first snippet for <a href="http://sqlbits.com" title="SQLBits" target="_blank">SQLBits</a> bit of R code uses <a href="http://cran.r-project.org/web/packages/RCurl/" title="RCurl on CRAN" target="_blank">RCurl</a> but it&#8217;s cumbersome, plus for <a href="https://www.sqlsaturday.com/372/schedule.aspx" title="SQLSaturday Exeter" target="_blank">SQLSaturday Exeter</a> there is SSL to contend with. Using <a href="http://cran.r-project.org/web/packages/rvest/" title="rvest on CRAN" target="_blank">rvest</a> makes it really easy and it was an excellent excuse to get around to using <a href="http://cran.r-project.org/web/packages/magrittr/" title="magrittr on CRAN" target="_blank">magrittr</a>, Hadley Wickham&#8217;s pipe code paradigm for R.</p>
-
-<p>Blogger tip: I also wanted the opportunity to see how Gists imported into WordPress &#8211; you just c&amp;p the url in (into the code, no URL markup) and WordPress automatically pulls in the Gist. For more info on this see <a href="http://en.support.wordpress.com/gist/" title="Wordpress support - Gist" target="_blank">WordPress&#8217; article on Gist</a>.</p>
-
-<p></p>
-                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/2015-01-11-some-basic-web-scraping-in-r/" role="button">Read More</a>
-                            </div>
-                        </div>
-                    
-                    
-    <div class="row">
-        <div class="col-md-12">
-            <div class="row">
-                <div class="col-md-4" style="text-align: left; padding-left: 0px">
-                    
-                        <a class="btn btn-default" href="/itsalockeblog/categories/data-science/page/3/" role="button" style="border-radius: 0px; display: block">Newer</a>
-                    
-                </div>
-                <div class="col-md-4 col-md-offset-4" style="text-align: right; padding-right: 0px">
-                    
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-                </div>
    <div class="col-md-4">                    
 	
 <div class="row">
-    <div class="col-md-11 col-md-offset-1 card">
+    <div class="col-md-11 card">
         <h5>Locke Data Blog</h5>
         <p>A description that will appear as a default if front matter does not exist</p>
-		<img class="avatar" src="img/ChibiSteph.svg"></img>
+		<img class="avatar" src=http://lockedata.uk/itsalockeblog/img/ChibiSteph.svg></img>
     </div>
 </div>
 
     <div class="row">
-    <div class="col-md-11 col-md-offset-1 card">
+    <div class="col-md-11 card">
         <h5>Search</h5>
         <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form">
             <div class="input-group">
@@ -169,7 +106,7 @@
     
     
         <div class="row">
-            <div class="col-md-11 col-md-offset-1 card">
+            <div class="col-md-11  card">
                 <h5>categories</h5>
                 <ul class="list-unstyled posts-recent">
                     
@@ -194,6 +131,69 @@
 
 
 </div>
+                <div class="col-md-8">
+                    
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockedata.uk/itsalockeblog/magrittr-cleaner-program-flow/">magrittr: cleaner program flow</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>February 9, 2015</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                <p>Last year I built a pretty sweet web service in R as part of the day job. However, not being well-versed in stuff like object-oriented programming, I did not do the best job of making the flow of my program particularly clear or robust. It wouldn&#8217;t take multiple inputs properly and I found it to be tough to test. In spare moments, I took to cogitating how to improve things.</p>
+
+<p>I tried simply refactoring some of the functions but found my structure too cumbersome to allow much change. I tried starting afresh with an <a href="http://adv-r.had.co.nz/OO-essentials.html" title="Advanced R - OO programming" target="_blank">S4 system</a> but was soon in a death spiral of class proliferation and no experience in how to stop it. After dabbling with different methods, I was getting pretty frustrated &#8211; I want my code to be better and more maintainable!</p>
+
+<p>Now I&#8217;m looking at <a href="http://cran.r-project.org/web/packages/magrittr/vignettes/magrittr.html" title="magrittr vignette on CRAN" target="_blank">magrittr</a>.</p>
+
+<h2 id="about-magrittr">About magrittr</h2>
+
+<p><code>magrittr</code> was designed to better facilitate <a href="http://adv-r.had.co.nz/Functional-programming.html" title="R for functional programming" target="_blank">functional programming</a> based on piping inputs from one function to another. It&#8217;s the same paradigm as the <a href="http://powershell.com/cs/blogs/ebookv2/archive/2012/03/12/chapter-5-the-powershell-pipeline.aspx" title="PowerShell Pipe operator explained" target="_blank">PowerShell operator <code>|</code></a>.</p>
+
+<p>This means you can more succinctly pass an input through various transformation steps (in contrast to my initial method) with a lot less code. The ability to add conditional functions or even new functions on the fly (aka <a href="http://en.wikipedia.org/wiki/Anonymous_function" title="Lambda functions on wikipedia" target="_blank">lambda functions</a>) with a similarly low code burden gives the added benefit of helping with branching logic.</p>
+
+<p></p>
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/magrittr-cleaner-program-flow/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-12 content-card">
+                                <h1><a href="http://lockedata.uk/itsalockeblog/conference-sessions--basic-web-scraping-in-r/">Conference sessions – basic web scraping in R</a></h1>
+                                <ul class="list-inline">
+                                    <li><i class="fa fa-calendar"></i>January 11, 2015</li>
+                                    <li><i class="fa fa-user"></i>Steph</li>
+                                </ul>
+                                <p>It&#8217;s a bit sad but I enjoy dissecting what sessions are submitted to conferences I&#8217;m involved in or speak at. Instead of doing it primarily by eye, I&#8217;ve started dabbling in web scraping in R to do it. Initially, I used RCurl and my latest snippet uses rvest.</p>
+
+<p>The first snippet for <a href="http://sqlbits.com" title="SQLBits" target="_blank">SQLBits</a> bit of R code uses <a href="http://cran.r-project.org/web/packages/RCurl/" title="RCurl on CRAN" target="_blank">RCurl</a> but it&#8217;s cumbersome, plus for <a href="https://www.sqlsaturday.com/372/schedule.aspx" title="SQLSaturday Exeter" target="_blank">SQLSaturday Exeter</a> there is SSL to contend with. Using <a href="http://cran.r-project.org/web/packages/rvest/" title="rvest on CRAN" target="_blank">rvest</a> makes it really easy and it was an excellent excuse to get around to using <a href="http://cran.r-project.org/web/packages/magrittr/" title="magrittr on CRAN" target="_blank">magrittr</a>, Hadley Wickham&#8217;s pipe code paradigm for R.</p>
+
+<p>Blogger tip: I also wanted the opportunity to see how Gists imported into WordPress &#8211; you just c&amp;p the url in (into the code, no URL markup) and WordPress automatically pulls in the Gist. For more info on this see <a href="http://en.support.wordpress.com/gist/" title="Wordpress support - Gist" target="_blank">WordPress&#8217; article on Gist</a>.</p>
+
+<p></p>
+                                <a class="btn btn-primary" href="http://lockedata.uk/itsalockeblog/conference-sessions--basic-web-scraping-in-r/" role="button">Read More</a>
+                            </div>
+                        </div>
+                    
+                    
+    <div class="row">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-4" style="text-align: left; padding-left: 0px">
+                    
+                        <a class="btn btn-default" href="/itsalockeblog/categories/data-science/page/3/" role="button" style="border-radius: 0px; display: block">Newer</a>
+                    
+                </div>
+                <div class="col-md-4 col-md-offset-4" style="text-align: right; padding-right: 0px">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                </div>
             </div>
         </div>
         <!-- Footer section -->

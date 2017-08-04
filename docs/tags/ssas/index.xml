@@ -14,10 +14,10 @@
     
     <item>
       <title>Database / BI related unit testing options</title>
-      <link>http://lockedata.uk/itsalockeblog/2014-11-06-database-bi-related-unit-testing-options/</link>
+      <link>http://lockedata.uk/itsalockeblog/database-/-bi-related-unit-testing-options/</link>
       <pubDate>Thu, 06 Nov 2014 16:18:48 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2014-11-06-database-bi-related-unit-testing-options/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/database-/-bi-related-unit-testing-options/</guid>
       <description>A quick list of frameworks available for doing unit testing, based on what I covered in today&amp;#8217;s SQL Lunch
 MSFT Database projects Purpose: unit testing database objects
 Method: SQL / GUI

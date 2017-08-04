@@ -14,10 +14,10 @@
     
     <item>
       <title>Custom LaTeX Beamer style templates for rmarkdown</title>
-      <link>http://lockedata.uk/itsalockeblog/2015-06-17-custom-latex-beamer-style-templates-for-rmarkdown/</link>
+      <link>http://lockedata.uk/itsalockeblog/custom-latex-beamer-style-templates-for-rmarkdown/</link>
       <pubDate>Wed, 17 Jun 2015 12:34:22 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2015-06-17-custom-latex-beamer-style-templates-for-rmarkdown/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/custom-latex-beamer-style-templates-for-rmarkdown/</guid>
       <description>&lt;p&gt;I&amp;#8217;ve been producing presentations via R using &lt;a href=&#34;http://rmarkdown.rstudio.com/&#34;&gt;rmarkdown&lt;/a&gt; and outputting to either ioslides or slidify. That was excellent, because I could provide a CSS that customised the look and feel (relatively) easily*.&lt;/p&gt;
 
 &lt;p&gt;However, when I wanted to produce a PDF version, I couldn&amp;#8217;t make ones that look as good as the pure LaTeX versions I could make on &lt;a href=&#34;http://overleaf.com&#34;&gt;overleaf.com&lt;/a&gt;. So I started RTFMing when I wanted to replicate the look and feel from my presentation, The LaTeX Show.&lt;/p&gt;
@@ -29,10 +29,10 @@
     
     <item>
       <title>optiRum – presentation</title>
-      <link>http://lockedata.uk/itsalockeblog/2015-06-03-optirum-presentation/</link>
+      <link>http://lockedata.uk/itsalockeblog/optirum--presentation/</link>
       <pubDate>Wed, 03 Jun 2015 15:00:31 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2015-06-03-optirum-presentation/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/optirum--presentation/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;&lt;a href=&#34;http://cran.r-project.org/web/packages/optiRum/&#34; title=&#34;optiRum on CRAN&#34; target=&#34;_blank&#34;&gt;optiRum&lt;/a&gt;, the R package I built and support for Optimum on CRAN has gained some extra functions recently. Some of it uses currently experimental data.table functionality so I&amp;#8217;m eagerly awaiting the release to CRAN to deliver optiRum.&lt;/p&gt;
 
@@ -46,10 +46,10 @@
     
     <item>
       <title>Unified.Diff: source control smells &amp; LaTeX</title>
-      <link>http://lockedata.uk/itsalockeblog/2015-04-17-unified-diff-source-control-latex/</link>
+      <link>http://lockedata.uk/itsalockeblog/unified.diff-source-control-smells--latex/</link>
       <pubDate>Fri, 17 Apr 2015 09:44:38 +0000</pubDate>
       
-      <guid>http://lockedata.uk/itsalockeblog/2015-04-17-unified-diff-source-control-latex/</guid>
+      <guid>http://lockedata.uk/itsalockeblog/unified.diff-source-control-smells--latex/</guid>
       <description>I had the pleasure of presenting at unified.diff, a general programming user group in Cardiff, last night and was able to debut my LaTeX show!
 If you&amp;#8217;d like to talk at the group about anything tech related tweet them on @unifiedDiff. They&amp;#8217;re very flexible on time and topic so if you&amp;#8217;re based in Cardiff or are coming down to see a client, it&amp;#8217;s an easy way of delivering a talk and meeting some nice people.</description>
     </item>
