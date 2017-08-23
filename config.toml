@@ -3,6 +3,7 @@ languageCode            = "en-gb"
 title                   = "Locke Data Blog"
 theme                   = "hugo-lockedata-blog"
 
+
 [permalinks]
   posts = "/:title/"
   page                = "/:title/"
@@ -48,8 +49,8 @@ theme                   = "hugo-lockedata-blog"
     name = "Legalise and stuff"
     url = "http://lockelife.com/#company"
 [params]
-    keywords            = ["default", "keywords", "if", "no", "front", "matter"]
-    description         = "A description that will appear as a default if front matter does not exist"
+    keywords            = ["data science", "consultancy", "predictive analytics", "advanced analytics"]
+    description         = "Locke Data helps organisations along their data science journey. We can help you start yours."
     google_analytics    = "UA-XXXXX-YY"
     google_adsense      = "ca-pub-XXXXXX"
     disqus              = "shortname"
@@ -65,7 +66,7 @@ copyright = '<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa
 	
 # Social media icons and links that appear in the footer
 [social]
-    twitter             = "https://www.twitter.com/NAME_HERE"
+    twitter             = "lockedata"
     googleplus          = ""
     linkedin            = "https://www.linkedin.com/in/NAME_HERE"
     youtube             = "https://www.youtube.com/users/NAME_HERE"
