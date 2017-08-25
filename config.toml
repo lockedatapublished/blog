@@ -16,13 +16,13 @@ theme                   = "hugo-lockedata-blog"
 # The header menu will appear as an inline-list at the top right of the page
 [[languages.en.menu.prepend]]
     name                = "Locke Data"
-    weight              = 1
+    weight              = 2
     url                 = "http://lockelife.com"
 
 [[languages.en.menu.prepend]]
     name                = "Blog"
-    weight              = 3
-    url                 = "/"
+    weight              = 1
+    url                 = "http://lockelife.com/blog/"
 
 # The footer menu will appear as an inline-list at the bottom left of the footer found at the bottom of the screen
   # Footer
@@ -47,7 +47,7 @@ theme                   = "hugo-lockedata-blog"
   [[languages.en.menu.footer]]
     weight = 10
     name = "Legalise and stuff"
-    url = "http://lockelife.com/#company"
+    url = "http://lockelife.com/#footer"
 [params]
     keywords            = ["data science", "consultancy", "predictive analytics", "advanced analytics"]
     description         = "Locke Data helps organisations along their data science journey. We can help you start yours."
