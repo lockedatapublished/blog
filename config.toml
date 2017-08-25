@@ -16,12 +16,12 @@ theme                   = "hugo-lockedata-blog"
 # The header menu will appear as an inline-list at the top right of the page
 [[languages.en.menu.prepend]]
     name                = "Locke Data"
-    weight              = 2
+    weight              = 1
     url                 = "http://lockelife.com"
 
 [[languages.en.menu.prepend]]
     name                = "Blog"
-    weight              = 1
+    weight              = 2
     url                 = "http://lockelife.com/blog/"
 
 # The footer menu will appear as an inline-list at the bottom left of the footer found at the bottom of the screen
