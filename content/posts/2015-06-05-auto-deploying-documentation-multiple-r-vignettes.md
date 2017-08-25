@@ -72,7 +72,7 @@ When this push file and vignettes get committed and pushed to Travis, the build 
 
 For optiRum this would be: [stephlocke.github.io/optiRum/][9]
   
-<figure id="attachment_61364" style="width: 300px" class="wp-caption alignnone">[<img src="http://res.cloudinary.com/lockedata/image/upload/h_86,w_300/v1499851041/2015-06-05-09_33_06-stephlocke_optiRum-Travis-CI_rmnpmy.png" alt="Travis-CI build & autodeploy" width="300" height="86" class="size-medium wp-image-61364" />][10]<figcaption class="wp-caption-text">Travis-CI build & autodeploy</figcaption></figure>
+<figure id="attachment_61364" style="width: 300px" class="wp-caption alignnone">[<img src="http://res.cloudinary.com/lockedata/image/upload/c_scale,q_80,w_750/v1499851041/2015-06-05-09_33_06-stephlocke_optiRum-Travis-CI_rmnpmy.png" alt="Travis-CI build & autodeploy" width="300" height="86" class="size-medium wp-image-61364" />][10]<figcaption class="wp-caption-text">Travis-CI build & autodeploy</figcaption></figure>
 
 ## Where next?
 

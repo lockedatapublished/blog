@@ -32,7 +32,7 @@ The first thing we need is our Q&A service. Microsoft make this trivial with the
   * You may need to go through the Create an App process when you first use it. This will hook up to your Azure account, so make sure you&#8217;ve already got a working subscription but it simply gets you some keys.
   * You can have QnA Maker scrape an FAQ page, upload some FAQs, or write your own. _<- Don&#8217;t worry you can add to them later!_<figure id="attachment_62204" style="width: 750px" class="wp-caption aligncenter">
 
-<img src="http://res.cloudinary.com/lockedata/image/upload/h_699,w_750/v1499849510/QNAMaker_c6xkuk.png" alt="Q&A bot starter page" width="750" height="699" class="size-large wp-image-62204" /><figcaption class="wp-caption-text">Q&A bot starter page</figcaption></figure> 
+<img src="http://res.cloudinary.com/lockedata/image/upload/c_scale,q_80,w_750/v1499849510/QNAMaker_c6xkuk.png" alt="Q&A bot starter page" width="750" height="699" class="size-large wp-image-62204" /><figcaption class="wp-caption-text">Q&A bot starter page</figcaption></figure> 
 
   * Add utterances and responses to your Q&A bot
   * Save and train your bot
@@ -40,7 +40,7 @@ The first thing we need is our Q&A service. Microsoft make this trivial with the
   * Re-save if you make changes
   * Hit publish
   
-    <figure id="attachment_62205" style="width: 750px" class="wp-caption aligncenter"><img src="http://res.cloudinary.com/lockedata/image/upload/h_217,w_750/v1499849509/QNAPROCESS_cezbym.png" alt="Q&A bot development process" width="750" height="217" class="size-large wp-image-62205" /><figcaption class="wp-caption-text">Q&A bot development process</figcaption></figure>
+    <figure id="attachment_62205" style="width: 750px" class="wp-caption aligncenter"><img src="http://res.cloudinary.com/lockedata/image/upload/c_scale,q_80,w_750/v1499849509/QNAPROCESS_cezbym.png" alt="Q&A bot development process" width="750" height="217" class="size-large wp-image-62205" /><figcaption class="wp-caption-text">Q&A bot development process</figcaption></figure>
   
     This gives you a Q&A webservice but it&#8217;s not quite a bot.
 
@@ -52,7 +52,7 @@ Add a new **Bot Service**. You&#8217;ll need to give it a name and set which reg
 
 Once it is successfully deployed, navigate your bot service and Create an App, making sure to copy and paste the values from the new tab into the interface. Select the Q&A Bot type. It should bring up a poppup that allows you to select your bot from a dropdown.
   
-<figure id="attachment_62206" style="width: 750px" class="wp-caption aligncenter"><img src="http://res.cloudinary.com/lockedata/image/upload/h_694,w_750/v1499849507/BOTSETUP_slb930.png" alt="Bot Service setup" width="750" height="694" class="size-large wp-image-62206" /><figcaption class="wp-caption-text">Bot Service setup</figcaption></figure>
+<figure id="attachment_62206" style="width: 750px" class="wp-caption aligncenter"><img src="http://res.cloudinary.com/lockedata/image/upload/c_scale,q_80,w_750/v1499849507/BOTSETUP_slb930.png" alt="Bot Service setup" width="750" height="694" class="size-large wp-image-62206" /><figcaption class="wp-caption-text">Bot Service setup</figcaption></figure>
 
 Once it&#8217;s deployed &#8211; you can run away from all that code!
 
@@ -64,11 +64,11 @@ The easiest way of getting the bot on WordPress is to wrap it in the Skype web c
 
 We can easily grab the Skype bot embed code from the Bot Framework site but I preferred using a tool that allowed me to theme my Skype tool. Before we get to the customisation, navigate to your bot&#8217;s settings and grab it&#8217;s ID.
   
-<figure id="attachment_62207" style="width: 750px" class="wp-caption aligncenter"><img src="http://res.cloudinary.com/lockedata/image/upload/h_85,w_750/v1499849506/BOTID_m2yrvg.png" alt="Q&A Bot ID" width="750" height="84" class="size-large wp-image-62207" /><figcaption class="wp-caption-text">Q&A Bot ID</figcaption></figure>
+<figure id="attachment_62207" style="width: 750px" class="wp-caption aligncenter"><img src="http://res.cloudinary.com/lockedata/image/upload/c_scale,q_80,w_750/v1499849506/BOTID_m2yrvg.png" alt="Q&A Bot ID" width="750" height="84" class="size-large wp-image-62207" /><figcaption class="wp-caption-text">Q&A Bot ID</figcaption></figure>
 
 Now we can go to the [Skype Web Control Generator][5] and customise the look of our Skype control.
   
-<figure id="attachment_62208" style="width: 750px" class="wp-caption aligncenter"><img src="http://res.cloudinary.com/lockedata/image/upload/h_390,w_750/v1499849505/SKYPECUSTOMISER_bxy6ea.png" alt="Customise the Q&A bot&#039;s appearance" width="750" height="390" class="size-large wp-image-62208" /><figcaption class="wp-caption-text">Customise the Q&A bot&#8217;s appearance</figcaption></figure>
+<figure id="attachment_62208" style="width: 750px" class="wp-caption aligncenter"><img src="http://res.cloudinary.com/lockedata/image/upload/c_scale,q_80,w_750/v1499849505/SKYPECUSTOMISER_bxy6ea.png" alt="Customise the Q&A bot&#039;s appearance" width="750" height="390" class="size-large wp-image-62208" /><figcaption class="wp-caption-text">Customise the Q&A bot&#8217;s appearance</figcaption></figure>
 
 Copy the code this generates.
 

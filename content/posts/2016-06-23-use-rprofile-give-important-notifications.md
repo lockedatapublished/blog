@@ -25,7 +25,7 @@ One thing that&#8217;s neat about the `account_breach()` function is that I can 
 
 [embedGist source=&#8221;https://gist.github.com/stephlocke/74add36831110906c5c784c194def859&#8243;]<figure id="attachment_61656" style="width: 768px" class="wp-caption aligncenter">
 
-<img class="size-medium_large wp-image-61656" src="http://res.cloudinary.com/lockedata/image/upload/h_100,w_750/v1499850327/console_vjc0rh.png" alt="console .Rprofile result" width="768" height="103" /><figcaption class="wp-caption-text">console .Rprofile result</figcaption></figure>
+<img class="size-medium_large wp-image-61656" src="http://res.cloudinary.com/lockedata/image/upload/c_scale,q_80,w_750/v1499850327/console_vjc0rh.png" alt="console .Rprofile result" width="768" height="103" /><figcaption class="wp-caption-text">console .Rprofile result</figcaption></figure>
 
  [1]: https://stat.ethz.ch/R-manual/R-devel/library/base/html/Startup.html
  [2]: http://www.r-bloggers.com/fun-with-rprofile-and-customizing-r-startup/

@@ -27,7 +27,7 @@ Blogger tip: I also wanted the opportunity to see how Gists imported into WordPr
 
 This was my first stab at doing this and I&#8217;m sure I&#8217;ll upgrade it soon!
   
-<figure id="attachment_59942" style="width: 500px" class="wp-caption alignnone">[<img src="http://res.cloudinary.com/lockedata/image/upload/h_193,w_300/v1499851412/sqlbitssession_yxgi8m_nguwko.png" alt="SQLBits Session distributions" width="500" height="321" class="size-medium wp-image-59942" />][1]<figcaption class="wp-caption-text">SQLBits Session distributions</figcaption></figure>
+<figure id="attachment_59942" style="width: 500px" class="wp-caption alignnone">[<img src="http://res.cloudinary.com/lockedata/image/upload/c_scale,q_80,w_750/v1499851412/sqlbitssession_yxgi8m_nguwko.png" alt="SQLBits Session distributions" width="500" height="321" class="size-medium wp-image-59942" />][1]<figcaption class="wp-caption-text">SQLBits Session distributions</figcaption></figure>
   
 https://gist.github.com/stephlocke/9784217
 
@@ -35,12 +35,12 @@ https://gist.github.com/stephlocke/9784217
 
 This is the code with rvest in. I also took it a step further to do some preliminary analysis of speakers, and to have fun building a wordcloud!
   
-<figure id="attachment_59951" style="width: 488px" class="wp-caption alignnone">[<img src="http://res.cloudinary.com/lockedata/image/upload/h_300,w_293/v1499851413/exeterwordcloud_cbqhxs_hcu3gx.png" alt="SQL Saturday Exeter 2015 word cloud" width="488" height="500" class="size-medium wp-image-59951" />][2]<figcaption class="wp-caption-text">SQL Saturday Exeter 2015 word cloud</figcaption></figure>
+<figure id="attachment_59951" style="width: 488px" class="wp-caption alignnone">[<img src="http://res.cloudinary.com/lockedata/image/upload/c_scale,q_80,w_750/v1499851413/exeterwordcloud_cbqhxs_hcu3gx.png" alt="SQL Saturday Exeter 2015 word cloud" width="488" height="500" class="size-medium wp-image-59951" />][2]<figcaption class="wp-caption-text">SQL Saturday Exeter 2015 word cloud</figcaption></figure>
 
-<figure id="attachment_59961" style="width: 500px" class="wp-caption alignnone">[<img src="http://res.cloudinary.com/lockedata/image/upload/h_190,w_300/v1499851414/exeterdistn_yrjb25_l2jtde.png" alt="SQL Saturday Exeter 2015 session level distribution" width="500" height="317" class="size-medium wp-image-59961" />][3]<figcaption class="wp-caption-text">SQL Saturday Exeter 2015 session level distribution</figcaption></figure>
+<figure id="attachment_59961" style="width: 500px" class="wp-caption alignnone">[<img src="http://res.cloudinary.com/lockedata/image/upload/c_scale,q_80,w_750/v1499851414/exeterdistn_yrjb25_l2jtde.png" alt="SQL Saturday Exeter 2015 session level distribution" width="500" height="317" class="size-medium wp-image-59961" />][3]<figcaption class="wp-caption-text">SQL Saturday Exeter 2015 session level distribution</figcaption></figure>
   
 https://gist.github.com/stephlocke/9687434109f49d80b957
 
- [1]: http://itsalocke.wpengine.com/wp-content/uploads/2015/04/sqlbitssession_yxgi8m.png
- [2]: http://itsalocke.wpengine.com/wp-content/uploads/2015/04/exeterwordcloud_cbqhxs.png
- [3]: http://itsalocke.wpengine.com/wp-content/uploads/2015/04/exeterdistn_yrjb25.png
+ [1]: http://res.cloudinary.com/lockedata/image/upload//sqlbitssession_yxgi8m.png
+ [2]: http://res.cloudinary.com/lockedata/image/upload//exeterwordcloud_cbqhxs.png
+ [3]: http://res.cloudinary.com/lockedata/image/upload//exeterdistn_yrjb25.png

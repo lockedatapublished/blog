@@ -22,7 +22,7 @@ It was pretty pesky to have to use C# but I&#8217;m relatively over that now, an
 
 This has now changed. They&#8217;ve released some [nifty tooling in Visual Studio][4] that gives you a dev experience locally. It uses the [CLI][5] under the hood which is currently a little fiddly to install. Combined with the [Azure Storage local emulator][6] and the [DcoumentDB local emulator][7], it&#8217;s becoming pretty easy to do a whole dev and test process locally.<figure id="attachment_61842" style="width: 768px" class="wp-caption aligncentre">
 
-<img class="size-medium_large wp-image-61842" src="http://res.cloudinary.com/lockedata/image/upload/h_416,w_750/v1499850183/localexecution_hlkobo.jpg" alt="Local Azure Function Debug mode" width="768" height="426" /><figcaption class="wp-caption-text">Local Azure Function Debug mode</figcaption></figure> 
+<img class="size-medium_large wp-image-61842" src="http://res.cloudinary.com/lockedata/image/upload/c_scale,q_80,w_750/v1499850183/localexecution_hlkobo.jpg" alt="Local Azure Function Debug mode" width="768" height="426" /><figcaption class="wp-caption-text">Local Azure Function Debug mode</figcaption></figure> 
 
 The Azure Functions team are amazingly responsive to issues, whether on Stack Overflow or on Github. This has made the pain of learning C#, only to be able to use Azure Functions, easier. Being able to come at their documentation with fresh eyes, make suggestions for improvements, and see those improvements made rapidly has been phenomenal.
 

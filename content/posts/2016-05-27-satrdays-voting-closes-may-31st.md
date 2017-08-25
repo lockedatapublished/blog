@@ -47,7 +47,7 @@ But not everyone is on [R-bloggers][5] so we offered to include some messages to
 
 ### St. Petersburg
 
-<img src="http://res.cloudinary.com/lockedata/image/upload/h_275,w_750/v1499850330/vote-spb_kc0hbs.png" alt="vote-spb" width="768" height="282" class="aligncenter size-medium_large wp-image-61627" />
+<img src="http://res.cloudinary.com/lockedata/image/upload/c_scale,q_80,w_750/vote-spb_kc0hbs.png" alt="vote-spb" width="768" height="282" class="aligncenter size-medium_large wp-image-61627" />
   
 Saint Petersburg with its renowned architecture, museums and theaters has always been called a cultural capital of Russia.
   
@@ -103,7 +103,7 @@ Including some great hiking:
 
 And soccer!
 
-<img src="http://res.cloudinary.com/lockedata/image/upload/h_422,w_750/v1499850334/stadium_al1fv9.jpg" alt="stadium" width="768" height="432" class="aligncenter size-medium_large wp-image-61623" />
+<img src="http://res.cloudinary.com/lockedata/image/upload/c_scale,q_80,w_750/v1499850334/stadium_al1fv9.jpg" alt="stadium" width="768" height="432" class="aligncenter size-medium_large wp-image-61623" />
 
 You can also see some amazing sights, [here][10] is a video from the skies!
 

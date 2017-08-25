@@ -24,10 +24,10 @@ I googled, as I should have done years ago, and found <a title="windirstat homep
 
 &nbsp;<figure id="attachment_58501" style="width: 383px" class="wp-caption alignnone">
 
-[<img class="size-medium wp-image-58501" alt="windirstat result" src="http://res.cloudinary.com/lockedata/image/upload/h_300,w_230/v1499851313/2013-09-07-19_27_35-C_-WinDirStat_aborht_cnwco8.png" width="383" height="500" />][1]<figcaption class="wp-caption-text">windirstat result</figcaption></figure> 
+[<img class="size-medium wp-image-58501" alt="windirstat result" src="http://res.cloudinary.com/lockedata/image/upload/c_scale,q_80,w_750/v1499851313/2013-09-07-19_27_35-C_-WinDirStat_aborht_cnwco8.png" width="383" height="500" />][1]<figcaption class="wp-caption-text">windirstat result</figcaption></figure> 
 
 &nbsp;
 
 &nbsp;
 
- [1]: http://itsalocke.wpengine.com/wp-content/uploads/2015/04/2013-09-07-19_27_35-C_-WinDirStat_aborht.png
+ [1]: http://res.cloudinary.com/lockedata/image/upload//2013-09-07-19_27_35-C_-WinDirStat_aborht.png

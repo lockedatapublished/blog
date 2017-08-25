@@ -19,7 +19,7 @@ format: status
 ---
 The answer in life to the inevitable question of &#8220;How can I do that in R?&#8221; should be &#8220;There&#8217;s a package for that&#8221;. So when I wanted to query [HaveIBeenPwned.com][1] (HIBP) to check whether a bunch of emails had been involved in data breaches and there wasn&#8217;t an R package for HIBP, it meant that the responsibility for making one landed on my shoulders. Now, you can see if your accounts are at risk with the R package for HaveIBeenPwned.com, **HIBPwned**.
   
-<figure id="attachment_61581" style="width: 768px" class="wp-caption alignnone"><img src="http://res.cloudinary.com/lockedata/image/upload/h_139,w_750/v1499850337/hibp_os8t5d.png" alt="Have I Been Pwned | HaveIBeenPwned.com" width="768" height="142" class="size-medium_large wp-image-61581" /><figcaption class="wp-caption-text">Have I Been Pwned | HaveIBeenPwned.com</figcaption></figure>
+<figure id="attachment_61581" style="width: 768px" class="wp-caption alignnone"><img src="http://res.cloudinary.com/lockedata/image/upload/c_scale,q_80,w_750/v1499850337/hibp_os8t5d.png" alt="Have I Been Pwned | HaveIBeenPwned.com" width="768" height="142" class="size-medium_large wp-image-61581" /><figcaption class="wp-caption-text">Have I Been Pwned | HaveIBeenPwned.com</figcaption></figure>
 
 ## Current status
 

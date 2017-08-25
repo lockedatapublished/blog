@@ -24,7 +24,7 @@ I&#8217;m so happy with the solution for an online R training environment that I
 
 ## TL;DR<figure id="attachment_62106" style="width: 750px" class="wp-caption aligncenter">
 
-<img src="http://res.cloudinary.com/lockedata/image/upload/h_500,w_750/v1499849764/Workflow_cat6ai.jpg" alt="Workflow for constructing a training environment with RStudio" width="750" height="500" class="size-large wp-image-62106" /><figcaption class="wp-caption-text">Workflow for constructing a training environment with RStudio</figcaption></figure> 
+<img src="http://res.cloudinary.com/lockedata/image/upload/c_scale,q_80,w_750/v1499849764/Workflow_cat6ai.jpg" alt="Workflow for constructing a training environment with RStudio" width="750" height="500" class="size-large wp-image-62106" /><figcaption class="wp-caption-text">Workflow for constructing a training environment with RStudio</figcaption></figure> 
 
 To get a web-facing Rstudio server, with login details for users, and all the prerequisites installed:
 

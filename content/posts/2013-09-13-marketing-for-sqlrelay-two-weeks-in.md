@@ -171,7 +171,7 @@ The result: So far we have 158 followers, which is an excellent improvement. <a
 
 We gave the website a quick facelift which I think has really helped it<figure id="attachment_58651" style="width: 500px" class="wp-caption alignnone">
 
-[<img class="size-medium wp-image-58651" alt="original sqlrelay site" src="http://res.cloudinary.com/lockedata/image/upload/h_168,w_300/v1499851318/2013-09-13-19_59_25-SQL-Relay-SQL-Relay_taqzfn_cjvh6u.png" width="500" height="279" />][2]<figcaption class="wp-caption-text">original sqlrelay site</figcaption></figure> <figure id="attachment_58591" style="width: 500px" class="wp-caption alignnone">[<img class="size-medium wp-image-58591" alt="Revised site homepage" src="http://res.cloudinary.com/lockedata/image/upload/h_167,w_300/v1499851315/2013-09-13-19_28_54-SQL-Relay-SQL-Relay_xptfxt_v7tpdt.png" width="500" height="278" />][3]<figcaption class="wp-caption-text">Revised site homepage</figcaption></figure> 
+[<img class="size-medium wp-image-58651" alt="original sqlrelay site" src="http://res.cloudinary.com/lockedata/image/upload/c_scale,q_80,w_750/v1499851315/2013-09-13-19_28_54-SQL-Relay-SQL-Relay_xptfxt_v7tpdt.png" width="500" height="278" />][3]<figcaption class="wp-caption-text">Revised site homepage</figcaption></figure> 
 
 We integrated eventbrite into it so we can take registrations directly through the site (as well as on eventbrite) which has been excellent.
 
@@ -206,7 +206,7 @@ I found this neat site which compiles information from different sources to comp
 <div>
   <dl id="attachment_58451">
     <dt>
-      <figure id="attachment_58601" style="width: 209px" class="wp-caption alignnone"><a href="http://res.cloudinary.com/lockedata/image/upload/v1499851316/2013-09-13-19_41_14-sqlrelay-Social-Mention-search_ojzi6a_vhkoou.png"><img class="size-full wp-image-58601" alt="social mention results" src="http://res.cloudinary.com/lockedata/image/upload/v1499851316/2013-09-13-19_41_14-sqlrelay-Social-Mention-search_ojzi6a_vhkoou.png" width="209" height="281" /></a><figcaption class="wp-caption-text">social mention results</figcaption></figure>
+      <figure id="attachment_58601" style="width: 209px" class="wp-caption alignnone"><a href="http://res.cloudinary.com/lockedata/image/upload/c_scale,q_80,w_750/v1499851316/2013-09-13-19_41_14-sqlrelay-Social-Mention-search_ojzi6a_vhkoou.png" width="209" height="281" /></a><figcaption class="wp-caption-text">social mention results</figcaption></figure>
     </dt>
   </dl>
 </div>
@@ -222,8 +222,8 @@ Aside of how the marketing is doing, how the Relay itself is doing is much more 
 &nbsp;
 
  [1]: https://itsalocke.com/index.php/marketing-for-sqlrelay-in-the-beginning/ "Marketing for SQLRelay – In the beginning"
- [2]: http://itsalocke.wpengine.com/wp-content/uploads/2015/04/2013-09-13-19_59_25-SQL-Relay-SQL-Relay_taqzfn.png
- [3]: http://itsalocke.wpengine.com/wp-content/uploads/2015/04/2013-09-13-19_28_54-SQL-Relay-SQL-Relay_xptfxt.png
+ [2]: http://res.cloudinary.com/lockedata/image/upload//2013-09-13-19_59_25-SQL-Relay-SQL-Relay_taqzfn.png
+ [3]: http://res.cloudinary.com/lockedata/image/upload//2013-09-13-19_28_54-SQL-Relay-SQL-Relay_xptfxt.png
  [4]: http://www.sqlrelay.co.uk
  [5]: http://res.cloudinary.com/lockedata/image/upload/v1499851317/2013-09-13-19_42_49-Eventbrite-SQLRelay.co_.uk__mxc6as_wwqs5f.png
  [6]: http://sqlrelay-stef.eventbrite.co.uk
