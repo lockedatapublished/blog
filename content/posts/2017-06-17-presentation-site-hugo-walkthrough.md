@@ -22,7 +22,7 @@ The great thing about using Hugo with a sort of blog taxonomy system is now all 
 
 A number of the talks will also include the videos (embedded with [Hugo shortcodes][3] for the most part) from when I&#8217;ve presented the talk as that&#8217;s the most robust way of getting value out of the slides.
 
-<figure id="attachment_62246" style="width: 750px" class="wp-caption aligncenter">[<img src="http://res.cloudinary.com/lockedata/image/upload/c_scale,q_80,w_750/v1499849491/lockedatapreview_oz7rvc.png" alt="lockedata.uk - presentation website built with Hugo. Read the post to get a hugo walkthrough." width="750" height="371" class="size-large wp-image-62246" />][2]<figcaption class="wp-caption-text">lockedata.uk &#8211; presentation website built with Hugo. Read the post to get a hugo walkthrough.</figcaption></figure>
+<figure id="attachment_62246" style="width: 750px" class="wp-caption aligncenter">[<img src="../img/lockedatapreview_oz7rvc.png" alt="lockedata.uk - presentation website built with Hugo. Read the post to get a hugo walkthrough." width="750" height="371" class="size-large wp-image-62246" />][2]<figcaption class="wp-caption-text">lockedata.uk &#8211; presentation website built with Hugo. Read the post to get a hugo walkthrough.</figcaption></figure>
   
 If you&#8217;re interested in the tech behind the site read on&#8230;
 

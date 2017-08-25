@@ -26,7 +26,7 @@ Locke Data will be up to some shenanigans of various stripes in the big smoke. W
 
 I won&#8217;t be in London for this but I&#8217;ll be doing a day of [Introduction to R in Newcastle][1]. This is supporting the local user groups and costs up to £90 for the whole day.<figure id="attachment_62233" style="width: 959px" class="wp-caption aligncenter">
 
-[<img class="size-full wp-image-62233" src="http://res.cloudinary.com/lockedata/image/upload/v1499849493/Intro-to-R-More-Info_nrq97b.png" alt="Intro to R in Newcastle, June 26th" width="959" height="498" />][1]<figcaption class="wp-caption-text">Intro to R in Newcastle, June 26th</figcaption></figure> 
+[<img class="size-full wp-image-62233" src="../img/Intro-to-R-More-Info_nrq97b.png" alt="Intro to R in Newcastle, June 26th" width="959" height="498" />][1]<figcaption class="wp-caption-text">Intro to R in Newcastle, June 26th</figcaption></figure> 
 
 ## June 27th &#8212; Tuesday
 
@@ -63,7 +63,7 @@ The day is very practical with exercises along the way to ensure you come out of
 
 Find out more about the [course][9] and register on [JumpingRivers.com][13]<figure id="attachment_62235" style="width: 300px" class="wp-caption aligncenter">
 
-[<img src="http://res.cloudinary.com/lockedata/image/upload/v1499849492/300_125_gfb4n7.jpg" alt="Jumping Rivers Training" width="300" height="150" class="size-full wp-image-62235" />][13]<figcaption class="wp-caption-text">Jumping Rivers Training</figcaption></figure> 
+[<img src="../img/300_125_gfb4n7.jpg" alt="Jumping Rivers Training" width="300" height="150" class="size-full wp-image-62235" />][13]<figcaption class="wp-caption-text">Jumping Rivers Training</figcaption></figure> 
 
 ## June 29th &#8212; Thursday
 

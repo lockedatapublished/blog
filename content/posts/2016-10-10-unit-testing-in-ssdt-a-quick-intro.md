@@ -36,11 +36,11 @@ Whilst I won&#8217;t be showing code in this, there is a companion sample databa
 
 The core DB is a super hero themed database.<figure id="attachment_61790" style="width: 750px" class="wp-caption aligncenter">
 
-<img class="wp-image-61790 size-large" src="http://res.cloudinary.com/lockedata/image/upload/c_scale,q_80,w_750/v1499850235/sprocoverview_jivemk.png" alt="Database Stored Procedure overview" width="750" height="249" /><figcaption class="wp-caption-text">Database Stored Procedure overview</figcaption></figure> 
+<img class="wp-image-61790 size-large" src="../img/sprocoverview_jivemk.png" alt="Database Stored Procedure overview" width="750" height="249" /><figcaption class="wp-caption-text">Database Stored Procedure overview</figcaption></figure> 
 
 ## Create a database project (or use an existing one!)<figure id="attachment_61792" style="width: 1014px" class="wp-caption aligncenter">
 
-<img class="wp-image-61792 size-full" src="http://res.cloudinary.com/lockedata/image/upload/v1499850234/Progress-Step1_lpizyy.png" alt="SSDT Unit Testing - core DB created" width="1014" height="379" /><figcaption class="wp-caption-text">SSDT Unit Testing &#8211; core DB created</figcaption></figure> 
+<img class="wp-image-61792 size-full" src="../img/Progress-Step1_lpizyy.png" alt="SSDT Unit Testing - core DB created" width="1014" height="379" /><figcaption class="wp-caption-text">SSDT Unit Testing &#8211; core DB created</figcaption></figure> 
 
 This will be our database that we deploy to Azure SQL so we don&#8217;t want lots of tests gunking up our production system. We&#8217;re going to keep only the necessary code in here for our actual workloads. Plus, Azure SQL DBs (currently) can&#8217;t have CLR which tSQLt relies upon!
 
@@ -58,7 +58,7 @@ I&#8217;m lazy so I take a copy of an existing minimally-configured tSQLt databa
 
 ## Configure test DB project<figure id="attachment_61787" style="width: 300px" class="wp-caption alignleft">
 
-<img class="size-medium wp-image-61787" src="http://res.cloudinary.com/lockedata/image/upload/c_scale,q_80,w_750/v1499850239/Progress-Step2_ytyen7.png" alt="SSDT Unit Testing - test DB created" width="300" height="112" /><figcaption class="wp-caption-text">SSDT Unit Testing &#8211; test DB created</figcaption></figure> 
+<img class="size-medium wp-image-61787" src="../img/Progress-Step2_ytyen7.png" alt="SSDT Unit Testing - test DB created" width="300" height="112" /><figcaption class="wp-caption-text">SSDT Unit Testing &#8211; test DB created</figcaption></figure> 
 
 For this system to work the test DB will need to take our core DB as part of itself so that we can write tests against the core objects, but do the testing separately. There&#8217;s a neat mechanism in database projects. To do this we _add a database reference_ that puts the core DB as the _same database_.
 
@@ -89,7 +89,7 @@ See some unit tests in action in the [sample repo, branch:stubsandfirsttests][12
 
 ## Run our tests<figure id="attachment_61788" style="width: 300px" class="wp-caption alignleft">
 
-<img class="size-medium wp-image-61788" src="http://res.cloudinary.com/lockedata/image/upload/c_scale,q_80,w_750/v1499850238/Progress-Step3_behr1w.png" alt="SSDT Unit Testing - database unit tests run" width="300" height="112" /><figcaption class="wp-caption-text">SSDT Unit Testing &#8211; database unit tests run</figcaption></figure> 
+<img class="size-medium wp-image-61788" src="../img/Progress-Step3_behr1w.png" alt="SSDT Unit Testing - database unit tests run" width="300" height="112" /><figcaption class="wp-caption-text">SSDT Unit Testing &#8211; database unit tests run</figcaption></figure> 
 
 To run our tests, we&#8217;re going to publish to [LocalDB][13]. By publishing to the LocalDB, the PostDeploy script gets kicked off and runs all the tests. The database publish will fail if any of the tests fail. Rinse and repeat until your code passes all your unit tests!
 
@@ -99,7 +99,7 @@ Use the deployment profile in [sample repo, branch:stubsanddeployprofile][14] to
 
 ## Publish for realsies<figure id="attachment_61789" style="width: 300px" class="wp-caption alignleft">
 
-<img class="size-medium wp-image-61789" src="http://res.cloudinary.com/lockedata/image/upload/c_scale,q_80,w_750/v1499850237/Progress-Step4_bh79az.png" alt="SSDT Unit Testing - core DB deployed to production" width="300" height="112" /><figcaption class="wp-caption-text">SSDT Unit Testing &#8211; core DB deployed to production</figcaption></figure> 
+<img class="size-medium wp-image-61789" src="../img/Progress-Step4_bh79az.png" alt="SSDT Unit Testing - core DB deployed to production" width="300" height="112" /><figcaption class="wp-caption-text">SSDT Unit Testing &#8211; core DB deployed to production</figcaption></figure> 
 
 Once you&#8217;ve gotten your code to pass your unit tests, you can then safely deploy your core DB to dev / UAT / production etc. You can also extend this to do continuous integration and deployment if you wanted, instead of manual deployments.
 

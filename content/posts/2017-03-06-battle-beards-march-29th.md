@@ -30,7 +30,7 @@ I&#8217;m hoping you can help make this event succeed by doing one or both of tw
 
 <!--more--><figure id="attachment_62043" style="width: 750px" class="wp-caption aligncenter">
 
-<img class="size-large wp-image-62043" src="http://res.cloudinary.com/lockedata/image/upload/c_scale,q_80,w_750/v1499849899/battleofthebeards_kj3fys.png" alt="Battle of the Beards" width="750" height="422" /><figcaption class="wp-caption-text">Battle of the Beards</figcaption></figure> 
+<img class="size-large wp-image-62043" src="../img/battleofthebeards_kj3fys.png" alt="Battle of the Beards" width="750" height="422" /><figcaption class="wp-caption-text">Battle of the Beards</figcaption></figure> 
 
 Here&#8217;s the low-down on the conference:
 

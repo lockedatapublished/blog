@@ -30,7 +30,7 @@ I had a number of false start / procrastination projects that either took too lo
 
 Despite all that, people were happy at the end of the day, I got useful feedback, and within 1 working day one of the attendees had built an R server, and was deploying a shiny application to it.
   
-<figure id="attachment_61377" style="width: 300px" class="wp-caption alignnone">[<img src="http://res.cloudinary.com/lockedata/image/upload/c_scale,q_80,w_750/v1499851039/2013DailyWeatherStats.JPG_hkrybo.jpg" alt="Mike&#039;s first shiny app" width="300" height="133" class="size-medium wp-image-61377" />][3]<figcaption class="wp-caption-text">One of my attendee&#8217;s did this on the Monday!</figcaption></figure>
+<figure id="attachment_61377" style="width: 300px" class="wp-caption alignnone">[<img src="../img/2013DailyWeatherStats.JPG_hkrybo.jpg" alt="Mike&#039;s first shiny app" width="300" height="133" class="size-medium wp-image-61377" />][3]<figcaption class="wp-caption-text">One of my attendee&#8217;s did this on the Monday!</figcaption></figure>
 
 A superb result, that I&#8217;m still giddy over.
 
@@ -48,4 +48,4 @@ So if you&#8217;d like to come along to a full day of training that has more Rs 
 
  [1]: https://itsalocke.com/sqlsaturday-exeter-2015/
  [2]: https://en.wikipedia.org/?title=Parkinson%27s_law
- [3]: http://res.cloudinary.com/lockedata/image/upload/v1499851039/2013DailyWeatherStats.JPG_hkrybo.jpg
+ [3]: ../img/2013DailyWeatherStats.JPG_hkrybo.jpg

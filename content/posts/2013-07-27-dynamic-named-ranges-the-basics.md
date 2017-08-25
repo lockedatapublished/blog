@@ -13,7 +13,7 @@ tags:
 
 A named range is a shorthand or alias for a set of cells in Excel.  These can be created easily by simply selecting one or more cells and using the name box to give it whatever name you feel relevant.  This alias can then be used in formula to make something much more insightful like =A1_VAT as opposed to =A1_0.2<figure id="attachment_58201" style="width: 254px" class="wp-caption alignnone">
 
-[<img class="size-full wp-image-58201" alt="Excel nav bar" src="http://res.cloudinary.com/lockedata/image/upload/v1499851309/2013-08-27-20_13_19-Microsoft-Excel-Book1_xkzrvi_calvkf.png" width="254" height="102" />][1]<figcaption class="wp-caption-text">Excel name box</figcaption></figure> 
+[<img class="size-full wp-image-58201" alt="Excel nav bar" src="../img/2013-08-27-20_13_19-Microsoft-Excel-Book1_xkzrvi_calvkf.png" width="254" height="102" />][1]<figcaption class="wp-caption-text">Excel name box</figcaption></figure> 
 
 For more info on these, I can highly recommend the Contextures blog and video:
 
@@ -50,4 +50,4 @@ A dynamic named range formula looks like
 
 &nbsp;
 
- [1]: http://res.cloudinary.com/lockedata/image/upload/v1499851309/2013-08-27-20_13_19-Microsoft-Excel-Book1_xkzrvi_calvkf.png
+ [1]: ../img/2013-08-27-20_13_19-Microsoft-Excel-Book1_xkzrvi_calvkf.png

@@ -25,7 +25,7 @@ The result with ours is to cause this error on load:
     
 > <!--more--><figure id="attachment_60951" style="width: 547px" class="wp-caption alignnone">
 
-<img src="http://res.cloudinary.com/lockedata/image/upload/v1499851467/R-wd-errror_aemelt_hhwtpu.png" alt="R wd errror" width="547" height="409" class="size-full wp-image-60951" /><figcaption class="wp-caption-text">R wd error screenshot</figcaption></figure> 
+<img src="../img/R-wd-errror_aemelt_hhwtpu.png" alt="R wd errror" width="547" height="409" class="size-full wp-image-60951" /><figcaption class="wp-caption-text">R wd error screenshot</figcaption></figure> 
 
 Now personally, I find the <a href="http://cran.r-project.org/doc/manuals/r-release/R-admin.html" title="R admin manual" target="_blank">R documentation</a> incredibly hard to understand and even the <a href="http://cran.r-project.org/bin/windows/base/rw-FAQ.html" title="R Windows FAQ" target="_blank">FAQs</a> were rather opaque. So here is the simple solution to this issue &#8211; change the default working directory to a place with no spaces or odd characters. To get this change working automatically you need to download this <a href="https://gist.github.com/stephlocke/2d9315e15515ba7fe333" title="Renviron.site download" target="_blank">Renviron.site</a> file, update to your preferred location and copy it into `C:Program FilesRR-3.1.2etc` (or the relevant `/etc` folder for your R version). You may need to elevate your permissions whilst you do this &#8211; I&#8217;m assuming a home PC so it shouldn&#8217;t be a problem to do so.
   

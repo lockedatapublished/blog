@@ -86,10 +86,10 @@ So far we have 45 followers, so still very early days but this is a ~10% convers
 
 I found this neat site which compiles information from different sources to compute some statistics.  I twill be interesting to see how this matures over time along with key social media KPIs and attendee volumes.<figure id="attachment_58451" style="width: 235px" class="wp-caption alignnone">
 
-[<img class="size-full wp-image-58451" alt="Some KPI for marketing campaigns" src="http://res.cloudinary.com/lockedata/image/upload/v1499851310/2013-09-01-18_42_03-SQLRelay-Social-Mention-search_jyswjn_eesazy.png" width="235" height="293" />][1]<figcaption class="wp-caption-text">Some KPI for marketing campaigns</figcaption></figure> 
+[<img class="size-full wp-image-58451" alt="Some KPI for marketing campaigns" src="../img/2013-09-01-18_42_03-SQLRelay-Social-Mention-search_jyswjn_eesazy.png" width="235" height="293" />][1]<figcaption class="wp-caption-text">Some KPI for marketing campaigns</figcaption></figure> 
 
 <http://socialmention.com/search/?t=all&q=SQLRelay&btnG=Search>
 
 &nbsp;
 
- [1]: http://res.cloudinary.com/lockedata/image/upload/v1499851310/2013-09-01-18_42_03-SQLRelay-Social-Mention-search_jyswjn_eesazy.png
+ [1]: ../img/2013-09-01-18_42_03-SQLRelay-Social-Mention-search_jyswjn_eesazy.png

@@ -55,13 +55,13 @@ Out:
 
 ### Modules
 
-<img src="http://res.cloudinary.com/lockedata/image/upload/c_scale,q_80,w_750/v1499850320/modules_phd06a.png" alt="Azure Automation Modules facility" width="300" height="120" class="alignleft size-medium wp-image-61693" />
+<img src="../img/modules_phd06a.png" alt="Azure Automation Modules facility" width="300" height="120" class="alignleft size-medium wp-image-61693" />
   
 To be able to work with S3 files, I needed a specific PoweShell module. You are able to add modules easily within the GUI. The nifty thing is you can import modules from the [PowerShell Gallery][4], so I was able to use the [AWSPowerShell][5] module within my runbook.
 
 ### Local dev
 
-<img src="http://res.cloudinary.com/lockedata/image/upload/c_scale,q_80,w_750/v1499850321/automationise_z543r6.png" alt="PowerShell Automation ISE" width="175" height="300" class="alignright size-medium wp-image-61692" />
+<img src="../img/automationise_z543r6.png" alt="PowerShell Automation ISE" width="175" height="300" class="alignright size-medium wp-image-61692" />
   
 Uploading scripts and running them in just hoping they worked would be a poor development experience. Thankfully, there is an awesome addition to the PowerShell ISE that you can get via the PowerShell Gallery called the [Azure Automation Authoring Toolkit][6]. This enables you to make variables, make local versions of them, draft and publish runbooks. It&#8217;s a vital piece of tech for building Azure Automation runbooks.
 

@@ -23,7 +23,7 @@ Your stand or booth says what kind of business you are. The design, the text, th
 
 I would also recommend a highly visual, low text booth. Any text you do put on things should be at the top as tables, podiums, and you will all get in the way of text in the lower half of banners and stands.<figure id="attachment_62084" style="width: 750px" class="wp-caption aligncenter">
 
-<img src="http://res.cloudinary.com/lockedata/image/upload/c_scale,q_80,w_750/v1499849768/C7mx5rCXUAAllin_tvakww.jpg" alt="Jumping Rivers&#039; stand - the text gets blocked but you really notice the logo" width="750" height="563" class="size-large wp-image-62084" /><figcaption class="wp-caption-text">Jumping Rivers&#8217; stand &#8211; the text gets blocked but you really notice the logo</figcaption></figure> 
+<img src="../img/C7mx5rCXUAAllin_tvakww.jpg" alt="Jumping Rivers&#039; stand - the text gets blocked but you really notice the logo" width="750" height="563" class="size-large wp-image-62084" /><figcaption class="wp-caption-text">Jumping Rivers&#8217; stand &#8211; the text gets blocked but you really notice the logo</figcaption></figure> 
 
 > In the Jumping Rivers&#8217; stand, vital info like the website was hidden as it wasn&#8217;t in the top half of their banners. This is their most substantive thing to change and learn from, although it did have the happy side effect of people asking the magic question &#8220;so what do you do?&#8221; 
 
@@ -43,7 +43,7 @@ When picking out your kit, give some thought to the transportation and setup. If
 
 Being on-site also means you usually have a laptop, the packaging/containers for your stand, boxes of swag etc. You should think about where you can store these. The usual answer is behind your stand, but it&#8217;s also useful to think about storage or access in the podium.
   
-<figure id="attachment_62079" style="width: 750px" class="wp-caption aligncenter"><img src="http://res.cloudinary.com/lockedata/image/upload/c_scale,q_80,w_750/v1499849886/2017-03-24-11.09.47_wmjrlp.jpg" alt="The backs of the two podiums - one is messy but convenient!" width="750" height="563" class="size-large wp-image-62079" /><figcaption class="wp-caption-text">The backs of the two podiums &#8211; one is messy but convenient!</figcaption></figure>
+<figure id="attachment_62079" style="width: 750px" class="wp-caption aligncenter"><img src="../img/2017-03-24-11.09.47_wmjrlp.jpg" alt="The backs of the two podiums - one is messy but convenient!" width="750" height="563" class="size-large wp-image-62079" /><figcaption class="wp-caption-text">The backs of the two podiums &#8211; one is messy but convenient!</figcaption></figure>
 
 > The Jumping Rivers podium had a completely wrap around the banner, whereas the plain ones available from the conference had a number of internal shelves. The internal shelves came in very handy for putting a ready batch of swag for refilling the stand and gave us a place to stash phones to keep things less cluttered up top. 
 
@@ -65,7 +65,7 @@ Then there&#8217;s more general data capture. You can&#8217;t talk to everyone, 
 
 To achieve this data capture, people often use a competition to gain info. This can work pretty well. Alternatively just asking people to fill in something can work out reasonably well.<figure id="attachment_62082" style="width: 750px" class="wp-caption aligncenter">
 
-<img src="http://res.cloudinary.com/lockedata/image/upload/c_scale,q_80,w_750/v1499849772/2017-03-24-11.08.18_bnb7qd.jpg" alt="Leads capture with a contentious question" width="750" height="563" class="size-large wp-image-62082" /><figcaption class="wp-caption-text">Leads capture with a contentious question</figcaption></figure> 
+<img src="../img/2017-03-24-11.08.18_bnb7qd.jpg" alt="Leads capture with a contentious question" width="750" height="563" class="size-large wp-image-62082" /><figcaption class="wp-caption-text">Leads capture with a contentious question</figcaption></figure> 
 
 > Jumping Rivers made a [survey][7] and had a tablet to allow people to fill it in. They did two things very well with this &#8211; they asked a contentious question (what was the top city in Scotland) and they made giving the email address optional. 
 
@@ -77,7 +77,7 @@ You should most definitely plan in advance how you will process the data and how
 
 There really is nothing like showing your skills or your product with some sort of active display to attract people and help convince them that you know your stuff. If you can invest in a TV or a screen and show something, then this helps generate more traffic to your booth and allows you to demo to people at your stand.<figure id="attachment_62081" style="width: 750px" class="wp-caption aligncenter">
 
-<img src="http://res.cloudinary.com/lockedata/image/upload/c_scale,q_80,w_750/v1499849774/2017-03-24-11.09.03_o2dyj9.jpg" alt="A realtime dashboard built in Shiny" width="750" height="563" class="size-large wp-image-62081" /><figcaption class="wp-caption-text">A realtime dashboard built in Shiny</figcaption></figure> 
+<img src="../img/2017-03-24-11.09.03_o2dyj9.jpg" alt="A realtime dashboard built in Shiny" width="750" height="563" class="size-large wp-image-62081" /><figcaption class="wp-caption-text">A realtime dashboard built in Shiny</figcaption></figure> 
 
 > Jumping Rivers used their survey as the source for their [realtime dashboard][8]. They were able to demonstrate their skills and show what they know! This worked out really well. 
 
@@ -91,7 +91,7 @@ Why should you bother investing in swag?
   2. Anything with your name that gets distributed out to others is a little bit of advertising
   3. Anything people keep reminds them of a conversation of you, or your stand, which gives you an edge with them<figure id="attachment_62083" style="width: 750px" class="wp-caption aligncenter">
 
-<img src="http://res.cloudinary.com/lockedata/image/upload/c_scale,q_80,w_750/v1499849770/2017-03-24-11.08.07_kwbu5m.jpg" alt="Unique and eye catching swag really works" width="750" height="563" class="size-large wp-image-62083" /><figcaption class="wp-caption-text">Unique and eye-catching swag really works. If you want one email \[info@jumpingrivers.com\](mailto://info@jumpingrivers.com)</figcaption></figure> 
+<img src="../img/2017-03-24-11.08.07_kwbu5m.jpg" alt="Unique and eye catching swag really works" width="750" height="563" class="size-large wp-image-62083" /><figcaption class="wp-caption-text">Unique and eye-catching swag really works. If you want one email [info@jumpingrivers.com](mailto://info@jumpingrivers.com)</figcaption></figure> 
 
 > Jumping Rivers did these fabulous drinks coasters in a variety of styles, they became great conversation pieces throughout the day and the range of colours made people pause at the stand. There&#8217;s one thing guaranteed to make someone else to come to your stand &#8211; and that&#8217;s someone already there so the deliberating people really helped booth traffic! 
 

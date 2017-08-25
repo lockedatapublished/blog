@@ -63,7 +63,7 @@ The new repo is structured like so:
 
 ## Document generation<figure id="attachment_62216" style="width: 485px" class="wp-caption aligncenter">
 
-<img src="http://res.cloudinary.com/lockedata/image/upload/v1499849500/processflow_ho0b1d.png" alt="Automatic document generation with R" width="485" height="534" class="size-full wp-image-62216" /><figcaption class="wp-caption-text">Automatic document generation with R</figcaption></figure> 
+<img src="../img/processflow_ho0b1d.png" alt="Automatic document generation with R" width="485" height="534" class="size-full wp-image-62216" /><figcaption class="wp-caption-text">Automatic document generation with R</figcaption></figure> 
 
 ### Travis
 

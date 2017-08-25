@@ -61,13 +61,13 @@ NB: This is kicked off from a [post][1] from Robert Flight about applying to the
 
   * Get a token from [github][7] &#8211; use least privileges so only grant read/write access to public repos<figure id="attachment_61354" style="width: 760px" class="wp-caption alignnone">
 
-[<img class="size-full wp-image-61354" src="http://res.cloudinary.com/lockedata/image/upload/v1499851046/OAUTHperms_lbmohc.png" alt="github OAUTH permissions" width="760" height="534" />][8]<figcaption class="wp-caption-text">github OAUTH permissions</figcaption></figure> 
+[<img class="size-full wp-image-61354" src="../img/OAUTHperms_lbmohc.png" alt="github OAUTH permissions" width="760" height="534" />][8]<figcaption class="wp-caption-text">github OAUTH permissions</figcaption></figure> 
 
   * Store the OAUTH token on travis with the name GH_TOKEN 
       * I did this by using the environment variables for the repository (in the settings for the repository) as it had the least dependencies required to do and travis-ci will pick up anywhere I use GH_TOKEN in the build process without me having to add it to my `.travis.yml` file
       * You can alternatively use the travis CLI to pass the token to travis-ci, which&#8217;ll return an encrypted version that you can use in your `travis.yml` file
   
-        <figure id="attachment_61355" style="width: 765px" class="wp-caption alignnone">[<img class="size-full wp-image-61355" src="http://res.cloudinary.com/lockedata/image/upload/v1499851045/environmentvariable_y844pm.png" alt="travis-ci addd an environment variable" width="765" height="428" />][9]<figcaption class="wp-caption-text">travis-ci add an environment variable</figcaption></figure>
+        <figure id="attachment_61355" style="width: 765px" class="wp-caption alignnone">[<img class="size-full wp-image-61355" src="../img/environmentvariable_y844pm.png" alt="travis-ci addd an environment variable" width="765" height="428" />][9]<figcaption class="wp-caption-text">travis-ci add an environment variable</figcaption></figure>
   * Add a bash file that gets the HTML and pushes it to the repository. [Robert&#8217;s bash script][1] is a really good example of actual code so I only cover the concept here: 
       * Create an empty directory you can work in
       * Create a git repository to hold all your HTML pages in
@@ -129,8 +129,8 @@ You can see the finished results at [stephlocke.github.io/tfsR][13]
  [5]: https://itsalocke.com/auto-deploying-documentation-rtraining/
  [6]: https://itsalocke.com/auto-deploying-documentation-better-change-tracking-artefacts/
  [7]: https://github.com/settings/tokens/new
- [8]: http://res.cloudinary.com/lockedata/image/upload/v1499851046/OAUTHperms_lbmohc.png
- [9]: http://res.cloudinary.com/lockedata/image/upload/v1499851045/environmentvariable_y844pm.png
+ [8]: ../img/OAUTHperms_lbmohc.png
+ [9]: ../img/environmentvariable_y844pm.png
  [10]: https://itsalocke.com/easy-continuous-integration-for-r/
  [11]: https://github.com/stephlocke/optiRum
  [12]: https://github.com/stephlocke/tfsR

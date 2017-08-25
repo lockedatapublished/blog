@@ -47,7 +47,7 @@ But not everyone is on [R-bloggers][5] so we offered to include some messages to
 
 ### St. Petersburg
 
-<img src="http://res.cloudinary.com/lockedata/image/upload/c_scale,q_80,w_750/vote-spb_kc0hbs.png" alt="vote-spb" width="768" height="282" class="aligncenter size-medium_large wp-image-61627" />
+<img src="../img/vote-spb_kc0hbs.png" alt="vote-spb" width="768" height="282" class="aligncenter size-medium_large wp-image-61627" />
   
 Saint Petersburg with its renowned architecture, museums and theaters has always been called a cultural capital of Russia.
   
@@ -79,7 +79,7 @@ As a further statement of convincing, here are a few of the things _other_ peopl
 
 The &#8220;business oriented attitude&#8221; is also evident in data. The state of Nuevo Leon (where Monterrey is based) has outgrown the country consistently.
 
-<img src="http://res.cloudinary.com/lockedata/image/upload/v1499850332/GrowthPlot_lvo9ol.png" alt="GrowthPlot" width="550" height="400" class="aligncenter size-full wp-image-61624" />
+<img src="../img/GrowthPlot_lvo9ol.png" alt="GrowthPlot" width="550" height="400" class="aligncenter size-full wp-image-61624" />
 
   * [Mexico IT][8]
 
@@ -99,11 +99,11 @@ Monterrey is not all about business, it&#8217;s also tons of fun:
 
 Including some great hiking:
   
-<img src="http://res.cloudinary.com/lockedata/image/upload/v1499850331/hiking_kqfg4b.jpg" alt="hiking" width="640" height="480" class="aligncenter size-full wp-image-61625" />
+<img src="../img/hiking_kqfg4b.jpg" alt="hiking" width="640" height="480" class="aligncenter size-full wp-image-61625" />
 
 And soccer!
 
-<img src="http://res.cloudinary.com/lockedata/image/upload/c_scale,q_80,w_750/v1499850334/stadium_al1fv9.jpg" alt="stadium" width="768" height="432" class="aligncenter size-medium_large wp-image-61623" />
+<img src="../img/stadium_al1fv9.jpg" alt="stadium" width="768" height="432" class="aligncenter size-medium_large wp-image-61623" />
 
 You can also see some amazing sights, [here][10] is a video from the skies!
 

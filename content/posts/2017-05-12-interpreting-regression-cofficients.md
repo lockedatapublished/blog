@@ -49,7 +49,7 @@ When we perform a linear regression in R, it&#8217;ll output the model and the c
 
 Each value represents the straight line relationship between each variable and the predicted variable. For every one unit of change for each input variable, the coefficient tells us how much we should change our predicted variable.<figure id="attachment_62201" style="width: 750px" class="wp-caption aligncenter">
 
-<img class="wp-image-62201 size-large" src="http://res.cloudinary.com/lockedata/image/upload/c_scale,q_80,w_750/v1499849512/coefficients-2_kbtciz.png" alt="Interpreting coefficients in regression" width="750" height="422" /><figcaption class="wp-caption-text">Interpreting coefficients in regression</figcaption></figure> 
+<img class="wp-image-62201 size-large" src="../img/coefficients-2_kbtciz.png" alt="Interpreting coefficients in regression" width="750" height="422" /><figcaption class="wp-caption-text">Interpreting coefficients in regression</figcaption></figure> 
 
 ## Interpreting coefficients
 
@@ -71,7 +71,7 @@ So for our linear regression of our iris data, we can say that:
 
 When we use z-score scaling, the coefficients represent the impact of one standard deviation&#8217;s worth of change. As such, to determine the impact of one unit of change in the underlying variable you would divide the coefficient by the standard deviation of the underlying variable.<figure id="attachment_62184" style="width: 750px" class="wp-caption aligncenter">
 
-<img class="size-large wp-image-62184" src="http://res.cloudinary.com/lockedata/image/upload/c_scale,q_80,w_750/v1499849652/scaledvariable_tcpnva.png" alt="How a variable gets scaled via a z-score" width="750" height="422" /><figcaption class="wp-caption-text">How a variable gets scaled via a z-score</figcaption></figure> 
+<img class="size-large wp-image-62184" src="../img/scaledvariable_tcpnva.png" alt="How a variable gets scaled via a z-score" width="750" height="422" /><figcaption class="wp-caption-text">How a variable gets scaled via a z-score</figcaption></figure> 
 
 ## Logistic regression
 
@@ -124,7 +124,7 @@ If I had a coefficient of -1.6 for a variable in my model, it would be equivalen
 
 I made an R package, [`optiRum`][3], that has helper functions for translating between probabilities, odds, and logits. Hopefully, it&#8217;ll help you out when needing to move between different measures and making them interpretable.<figure id="attachment_62185" style="width: 750px" class="wp-caption aligncenter">
 
-<img class="size-large wp-image-62185" src="http://res.cloudinary.com/lockedata/image/upload/c_scale,q_80,w_750/v1499849515/transformation_weszrv.png" alt="Movement between probability, odds, and logit in logistic regression" width="750" height="422" /><figcaption class="wp-caption-text">Movement between probability, odds, and logit in logistic regression</figcaption></figure> 
+<img class="size-large wp-image-62185" src="../img/transformation_weszrv.png" alt="Movement between probability, odds, and logit in logistic regression" width="750" height="422" /><figcaption class="wp-caption-text">Movement between probability, odds, and logit in logistic regression</figcaption></figure> 
 
 ## Wrap up
 

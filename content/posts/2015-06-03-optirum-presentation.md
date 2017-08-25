@@ -46,7 +46,7 @@ optiRum contains a `theme_optimum()` (after the company, not an adjective) that 
   * labels whilst needing to be legible should be de-emphasised to help keep focus on the chart&#8217;s message
   * as much of the plot area should be given over to the chart as possible so space for legends should be minimised
   
-    <figure id="attachment_61325" style="width: 1000px" class="wp-caption alignnone">[<img src="http://res.cloudinary.com/lockedata/image/upload/v1499851089/optimum_adk38b.png" alt="ggplot2 example charts" width="1000" height="333" class="size-full wp-image-61325" />][4]<figcaption class="wp-caption-text">ggplot2 example charts</figcaption></figure>
+    <figure id="attachment_61325" style="width: 1000px" class="wp-caption alignnone">[<img src="../img/optimum_adk38b.png" alt="ggplot2 example charts" width="1000" height="333" class="size-full wp-image-61325" />][4]<figcaption class="wp-caption-text">ggplot2 example charts</figcaption></figure>
 
 [gist https://gist.github.com/stephlocke/fb8dd7c819aa11cc222c ]
 
@@ -77,4 +77,4 @@ To get around this I first used build scripts that did a lot of compensating wor
  [1]: http://cran.r-project.org/web/packages/Hmisc/index.html
  [2]: http://cran.r-project.org/web/packages/knitr/index.html
  [3]: http://cran.r-project.org/web/packages/ggthemes/index.html
- [4]: http://res.cloudinary.com/lockedata/image/upload/v1499851089/optimum_adk38b.png
+ [4]: ../img/optimum_adk38b.png

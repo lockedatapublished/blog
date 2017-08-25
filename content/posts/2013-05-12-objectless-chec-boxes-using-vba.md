@@ -43,7 +43,7 @@ So I wanted to create a way of adding a tick straight into a cell, and be able t
 
 I created a table that included a column for the tick boxes:
 
-[<img class="size-full wp-image-1061 aligncenter" title=" The table in action!" alt="A table with ticked and unticked boxes" src="http://res.cloudinary.com/lockedata/image/upload/v1499851103/Table-Image_zrre67_gbdy4v.png" width="525" height="198" />][1]
+[<img class="size-full wp-image-1061 aligncenter" title=" The table in action!" alt="A table with ticked and unticked boxes" src="../img/Table-Image_zrre67_gbdy4v.png" width="525" height="198" />][1]
 
 To create the ticks I simply set the font for that column to Marlett because a letter a in Marlett creates that lovely tick. Then I used conditional formatting, using the simplest of formulas: =$E3=”a” to set the cells to green with cream text if the cell gets ticked. And that’s the table done. Time for the code!
 
@@ -105,10 +105,10 @@ to
 
 If doing this I found it helps to interchange the colour of the ticks:
 
-[<img class="size-full wp-image-1061 aligncenter" title=" The table in action!" alt="A table with ticked and unticked boxes" src="http://res.cloudinary.com/lockedata/image/upload/v1499851103/Table-Image_zrre67_gbdy4v.png" />][1]
+[<img class="size-full wp-image-1061 aligncenter" title=" The table in action!" alt="A table with ticked and unticked boxes" src="../img/Table-Image_zrre67_gbdy4v.png" />][1]
 
 &nbsp;
 
 &nbsp;
 
- [1]: http://res.cloudinary.com/lockedata/image/upload/v1499851103/Table-Image_zrre67_gbdy4v.png
+ [1]: ../img/Table-Image_zrre67_gbdy4v.png

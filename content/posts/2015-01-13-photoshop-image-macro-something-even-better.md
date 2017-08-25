@@ -41,10 +41,10 @@ I knew that the logo had to go up on meetup.com and that the image renderer coul
 
 The easy solution was to enable the asset functionality and rename the logo group &#8220;CaRdiff.jpg,CaRdiff.png,CaRdiff.gif&#8221; so that it would generate all three. I also put a white background layer inside the group to make sure Meetup wouldn&#8217;t do something crazy when it was resizing the image.
   
-<figure id="attachment_60051" style="width: 851px" class="wp-caption alignnone">[<img src="http://res.cloudinary.com/lockedata/image/upload/v1499851415/autogenerating-photoshop-images_vvpl65_m1znjg.png" alt="Autogenerating photoshop images" width="851" height="750" class="size-full wp-image-60051" />][1]<figcaption class="wp-caption-text">The bits needed for generating images in Photoshop</figcaption></figure>
+<figure id="attachment_60051" style="width: 851px" class="wp-caption alignnone">[<img src="../img/autogenerating-photoshop-images_vvpl65_m1znjg.png" alt="Autogenerating photoshop images" width="851" height="750" class="size-full wp-image-60051" />][1]<figcaption class="wp-caption-text">The bits needed for generating images in Photoshop</figcaption></figure>
 
 ### Conclusion
 
 The option File > Generate > Image Assets is a real time-saver for me and clear evidence of why you shouldn&#8217;t just grin and bear manual labour. OK it can take a while to find the right solution, but boy does it feel good when a task you really dislike is removed.
 
- [1]: http://res.cloudinary.com/lockedata/image/upload/v1499851415/autogenerating-photoshop-images_vvpl65_m1znjg.png
+ [1]: ../img/autogenerating-photoshop-images_vvpl65_m1znjg.png

@@ -25,7 +25,7 @@ An oft asked question is what resources can I recommend for getting started with
 
 ### Data Science for Business<figure id="attachment_62171" style="width: 228px" class="wp-caption alignleft">
 
-[<img src="http://res.cloudinary.com/lockedata/image/upload/c_scale,q_80,w_750/v1499849660/dsbiz_omn1si.png" alt="Data Science for Business" width="228" height="300" class="size-medium wp-image-62171" />][1]<figcaption class="wp-caption-text">Data Science for Business</figcaption></figure> 
+[<img src="../img/dsbiz_omn1si.png" alt="Data Science for Business" width="228" height="300" class="size-medium wp-image-62171" />][1]<figcaption class="wp-caption-text">Data Science for Business</figcaption></figure> 
 
 [Data Science for Business][1] is a great overview book.
 
@@ -37,7 +37,7 @@ I read the book on my phone on kindle, usually when I was travelling. It remaine
 
 ### R for Data Science<figure id="attachment_62172" style="width: 200px" class="wp-caption alignleft">
 
-[<img src="http://res.cloudinary.com/lockedata/image/upload/c_scale,q_80,w_750/v1499849659/cover_s7vgub.png" alt="R for Data Science" width="200" height="300" class="size-medium wp-image-62172" />][2]<figcaption class="wp-caption-text">R for Data Science</figcaption></figure> 
+[<img src="../img/cover_s7vgub.png" alt="R for Data Science" width="200" height="300" class="size-medium wp-image-62172" />][2]<figcaption class="wp-caption-text">R for Data Science</figcaption></figure> 
 
 [R for Data Science: Import, Tidy, Transform, Visualize, and Model Data][2] is written by [Hadley Wickham][3] and [Garett Grolemund][4]. You can [buy][2] it and you can also access it [online][5].
 
@@ -103,7 +103,7 @@ Alas, I&#8217;m not a podcast person so I&#8217;ve only one recommendation for y
 
 ### DataCamp<figure id="attachment_62173" style="width: 300px" class="wp-caption alignleft">
 
-[<img src="http://res.cloudinary.com/lockedata/image/upload/c_scale,q_80,w_750/v1499849658/logo_vertical_dark-99c0154ba9bd796df65021826de1b4d4aa475eeb0134504dd05d6bc5a8d31b07_pfkbr4.png" alt="DataCamp" width="300" height="214" class="size-medium wp-image-62173" />][21]<figcaption class="wp-caption-text">DataCamp</figcaption></figure> 
+[<img src="../img/logo_vertical_dark-99c0154ba9bd796df65021826de1b4d4aa475eeb0134504dd05d6bc5a8d31b07_pfkbr4.png" alt="DataCamp" width="300" height="214" class="size-medium wp-image-62173" />][21]<figcaption class="wp-caption-text">DataCamp</figcaption></figure> 
 
 By far my most recommended site for learning R and data science is [DataCamp][21]. DataCamp blends videos and online exercises making it a great way to learn practically but still get the theory.
 
@@ -113,7 +113,7 @@ DataCamp is great value for money, especially if you want to do an intensive mon
 
 ### Coursera<figure id="attachment_62177" style="width: 300px" class="wp-caption alignleft">
 
-[ <img src="http://res.cloudinary.com/lockedata/image/upload/c_scale,q_80,w_750/v1499849656/logo_square_f9rf3t.png" alt="Coursera" width="300" height="300" class="size-medium wp-image-62177" />][22]<figcaption class="wp-caption-text">Coursera</figcaption></figure> 
+[ <img src="../img/logo_square_f9rf3t.png" alt="Coursera" width="300" height="300" class="size-medium wp-image-62177" />][22]<figcaption class="wp-caption-text">Coursera</figcaption></figure> 
 
 [Coursera][23] is the original online course provider.
 

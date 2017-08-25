@@ -29,7 +29,7 @@ If you want to use Python in your [knitr][1] docs or the newish RStudio R notebo
   4. **Create an rmarkdown document** or R Notebook
   5. **Use chunks beginning with `{python chunkname}`** to execute some code in Python instead of the usual `{r chunkname}`<figure id="attachment_61967" style="width: 602px" class="wp-caption aligncenter">
 
-<img src="http://res.cloudinary.com/lockedata/image/upload/v1499849961/SYSTEMVARIABLE_qrhk4u.png" alt="Environment variable editor for PATH in Windows 10" width="602" height="664" class="size-full wp-image-61967" /><figcaption class="wp-caption-text">Environment variable editor for PATH in Windows 10</figcaption></figure>
+<img src="../img/SYSTEMVARIABLE_qrhk4u.png" alt="Environment variable editor for PATH in Windows 10" width="602" height="664" class="size-full wp-image-61967" /><figcaption class="wp-caption-text">Environment variable editor for PATH in Windows 10</figcaption></figure>
 
  [1]: https://yihui.name/knitr/
  [2]: https://www.continuum.io/anaconda-overview
