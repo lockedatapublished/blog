@@ -51,9 +51,9 @@ theme                   = "hugo-lockedata-blog"
 [params]
     keywords            = ["data science", "consultancy", "predictive analytics", "advanced analytics"]
     description         = "Locke Data helps organisations along their data science journey. We can help you start yours."
-    google_analytics    = "UA-XXXXX-YY"
+    google_analytics    = "UA-58415537-1"
     google_adsense      = "ca-pub-XXXXXX"
-    disqus              = "shortname"
+    disqus              = "itsalocke"
     google_webmaster    = ""
     bing_webmaster      = ""
     alexa               = ""
