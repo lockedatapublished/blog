@@ -45,9 +45,17 @@ theme                   = "hugo-lockedata-blog"
     pre = "<i class='fa fa-linkedin'></i>"
     url = "#"
   [[languages.en.menu.footer]]
-    weight = 10
+    weight = 20
     name = "Legalise and stuff"
     url = "https://itsalocke.com/policies"
+  [[languages.en.menu.footer]]
+    weight = 10
+    name = "RSS"
+    url = "index.xml"
+  [[languages.en.menu.footer]]
+    weight = 30
+    name = "Bug Bounty"
+    url = "https://goo.gl/forms/KQiYR201Fcn4k9Zh2"
 [params]
     keywords            = ["data science", "consultancy", "predictive analytics", "advanced analytics"]
     description         = "Locke Data helps organisations get started with data science. Grow your skills with our blog posts."
