@@ -46,8 +46,8 @@ theme                   = "hugo-lockedata-blog"
     url = "#"
   [[languages.en.menu.footer]]
     weight = 20
-    name = "Legalise and stuff"
-    url = "https://itsalocke.com/policies"
+    name = "Legalese and stuff"
+    url = "https://itsalocke.com/company/policies"
   [[languages.en.menu.footer]]
     weight = 10
     name = "RSS"
