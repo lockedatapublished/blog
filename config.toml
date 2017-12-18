@@ -33,17 +33,22 @@ theme                   = "hugo-lockedata-blog"
     weight = 10
     name = "twitter"
     pre = "<i class='fa fa-twitter'></i>"
-    url = "#"
+    url = "https://twitter.com/lockedata"
   [[languages.en.menu.social]]
     weight = 20
     name = "facebook"
     pre = "<i class='fa fa-facebook'></i>"
-    url = "#"
+    url = "https://facebook.com/lockedata"
   [[languages.en.menu.social]]
     weight = 30
     name = "linkedin"
     pre = "<i class='fa fa-linkedin'></i>"
-    url = "#"
+    url = "https://linkedin.com/company/locke-data"
+  [[languages.en.menu.social]]
+    weight = 40
+    name = "github"
+    pre = "<i class='fa fa-github'></i>"
+    url = "https://github.com/lockedata"
   [[languages.en.menu.footer]]
     weight = 20
     name = "Legalese and stuff"
