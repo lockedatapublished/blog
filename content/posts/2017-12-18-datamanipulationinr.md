@@ -47,7 +47,7 @@ Working in the tidyverse universe, I show folks how to analyse data using a roug
 {{< figure src="../img/tidyverseflow.png" alt="tidyverse workflow" >}}
 
 ## Awesome graphics
-A great reason to get the colour copy of the book is to see Lise Vaudor's amazing graphics. Check out the intiial blog posts at  [perso.ens-lyon.fr/lise.vaudor](http://perso.ens-lyon.fr/lise.vaudor/).
+A great reason to get the colour copy of the book is to see Lise Vaudor's amazing graphics. Check out the initial blog posts at  [perso.ens-lyon.fr/lise.vaudor](http://perso.ens-lyon.fr/lise.vaudor/).
 
 {{< figure src="../img/dplyr_schema.png" alt="dplyr verbs" >}}
 
