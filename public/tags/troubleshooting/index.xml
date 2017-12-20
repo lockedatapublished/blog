@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Troubleshooting on Locke Data Blog</title>
+    <link>https://itsalocke.com/blog/tags/troubleshooting/</link>
+    <description>Recent content in Troubleshooting on Locke Data Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
+    <lastBuildDate>Wed, 03 May 2017 17:57:13 +0000</lastBuildDate>
+    
+	<atom:link href="https://itsalocke.com/blog/tags/troubleshooting/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Error installing latest R version (3.4.0) on Windows</title>
+      <link>https://itsalocke.com/blog/error-installing-latest-r-version-3.4.0-on-windows/</link>
+      <pubDate>Wed, 03 May 2017 17:57:13 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/error-installing-latest-r-version-3.4.0-on-windows/</guid>
+      <description>UPDATE: R 3.4.1 does not have this problem so you can install that version instead
+If you&amp;#8217;re getting the following error when you&amp;#8217;ve installed R 3.4.0 on Windows, you&amp;#8217;re not alone.
+ Error in if (file.exists(dest) &amp;amp;&amp;amp; file.mtime(dest) &amp;gt; file.mtime(lib) &amp;amp;&amp;amp; :
+missing value where TRUE/FALSE needed
+ The R team have released a patched version but right now it&amp;#8217;s a little difficult to find out about. If you need/want the patched version, it&amp;#8217;s available at:</description>
+    </item>
+    
+  </channel>
+</rss>

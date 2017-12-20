@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Visual Studio Team Services on Locke Data Blog</title>
+    <link>https://itsalocke.com/blog/tags/visual-studio-team-services/</link>
+    <description>Recent content in Visual Studio Team Services on Locke Data Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
+    <lastBuildDate>Fri, 20 Mar 2015 10:44:35 +0000</lastBuildDate>
+    
+	<atom:link href="https://itsalocke.com/blog/tags/visual-studio-team-services/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bride of Frankenstein: TFS &#43; R</title>
+      <link>https://itsalocke.com/blog/bride-of-frankenstein-tfs---r/</link>
+      <pubDate>Fri, 20 Mar 2015 10:44:35 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/bride-of-frankenstein-tfs---r/</guid>
+      <description>&lt;p&gt;The unholy abomination of trying to use TFS as my central repository for my R code over the past year has been tough and you may or not be looking at the screen as if I&amp;#8217;m a crazy fool for even trying. Of course, now I have good news, because I&amp;#8217;ve broken the back of the main issue I had with TFS. The crucial link was being able to programatically create Git repositories within a single project for small projects.&lt;/p&gt;
+
+&lt;p&gt;Using the API, I&amp;#8217;ve been able to write an &lt;a title=&#34;tfsR&#34; href=&#34;https://github.com/stephlocke/tfsR&#34; target=&#34;_blank&#34;&gt;R package&lt;/a&gt; with functions that now save me at least 15 minutes of time and effort each time I want a new project. So I can happily holler &amp;#8220;IT&amp;#8217;S ALIVE!!&amp;#8221;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

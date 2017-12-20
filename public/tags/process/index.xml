@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Process on Locke Data Blog</title>
+    <link>https://itsalocke.com/blog/tags/process/</link>
+    <description>Recent content in Process on Locke Data Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
+    <lastBuildDate>Fri, 13 Jan 2017 15:28:32 +0000</lastBuildDate>
+    
+	<atom:link href="https://itsalocke.com/blog/tags/process/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CRISP-DM and why you should know about it</title>
+      <link>https://itsalocke.com/blog/crisp-dm-and-why-you-should-know-about-it/</link>
+      <pubDate>Fri, 13 Jan 2017 15:28:32 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/crisp-dm-and-why-you-should-know-about-it/</guid>
+      <description>&lt;p&gt;The Cross Industry Standard Process for Data Mining (CRISP-DM) was a concept developed 20 years ago now. I&amp;#8217;ve read about it in various data mining and related books and it&amp;#8217;s come in very handy over the years. In this post, I&amp;#8217;ll outline what the model is and why you should know about it, even if it has that terribly out of vogue phrase data mining in it! 😉&lt;/p&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34; data-width=&#34;525&#34;&gt;
+  &lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;
+    Data / R people. Do you know what the CRISP-DM model is?
+  &lt;/p&gt;
+  
+  &lt;p&gt;
+    &amp;mdash; Steph Locke (@SteffLocke) &lt;a href=&#34;https://twitter.com/SteffLocke/status/818148292060213250&#34;&gt;January 8, 2017&lt;/a&gt;
+  &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

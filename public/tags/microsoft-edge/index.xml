@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Microsoft Edge on Locke Data Blog</title>
+    <link>https://itsalocke.com/blog/tags/microsoft-edge/</link>
+    <description>Recent content in Microsoft Edge on Locke Data Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
+    <lastBuildDate>Wed, 09 Mar 2016 14:08:53 +0000</lastBuildDate>
+    
+	<atom:link href="https://itsalocke.com/blog/tags/microsoft-edge/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Beware the Microsoft Edge as a PDF reader</title>
+      <link>https://itsalocke.com/blog/beware-the-microsoft-edge-as-a-pdf-reader/</link>
+      <pubDate>Wed, 09 Mar 2016 14:08:53 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/beware-the-microsoft-edge-as-a-pdf-reader/</guid>
+      <description>Just a heads-up for people like me who&amp;#8217;ve gotten a Windows 10 machine and have used Edge as a PDF reader. I was too lazy to install Adobe Reader and was instead using Edge as my default reader. This gave me a mini-heart attack when I received a proof for my super cool NFC-tag laptop stickers and the colour was wrong. WTF right, I mean we did send it as CMYK and all that jazz so it should be right, a printer wouldn&amp;#8217;t screw that up, right?</description>
+    </item>
+    
+  </channel>
+</rss>

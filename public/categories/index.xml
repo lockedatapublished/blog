@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Locke Data Blog</title>
+    <link>https://itsalocke.com/blog/categories/</link>
+    <description>Recent content in Categories on Locke Data Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
+    
+	<atom:link href="https://itsalocke.com/blog/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Community</title>
+      <link>https://itsalocke.com/blog/categories/community/</link>
+      <pubDate>Wed, 20 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/categories/community/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Science</title>
+      <link>https://itsalocke.com/blog/categories/data-science/</link>
+      <pubDate>Tue, 13 Jun 2017 10:20:40 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/categories/data-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dataops</title>
+      <link>https://itsalocke.com/blog/categories/dataops/</link>
+      <pubDate>Sat, 17 Jun 2017 09:29:42 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/categories/dataops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Microsoft Data Platform</title>
+      <link>https://itsalocke.com/blog/categories/microsoft-data-platform/</link>
+      <pubDate>Sat, 17 Jun 2017 09:29:42 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/categories/microsoft-data-platform/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Misc Technology</title>
+      <link>https://itsalocke.com/blog/categories/misc-technology/</link>
+      <pubDate>Wed, 20 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/categories/misc-technology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>https://itsalocke.com/blog/categories/r/</link>
+      <pubDate>Wed, 20 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/categories/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Uncategorized</title>
+      <link>https://itsalocke.com/blog/categories/uncategorized/</link>
+      <pubDate>Wed, 04 Jan 2017 10:02:37 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/categories/uncategorized/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

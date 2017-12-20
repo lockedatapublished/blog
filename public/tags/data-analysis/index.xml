@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Analysis on Locke Data Blog</title>
+    <link>https://itsalocke.com/blog/tags/data-analysis/</link>
+    <description>Recent content in Data Analysis on Locke Data Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
+    <lastBuildDate>Sun, 11 Jan 2015 16:56:22 +0000</lastBuildDate>
+    
+	<atom:link href="https://itsalocke.com/blog/tags/data-analysis/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Conference sessions – basic web scraping in R</title>
+      <link>https://itsalocke.com/blog/conference-sessions--basic-web-scraping-in-r/</link>
+      <pubDate>Sun, 11 Jan 2015 16:56:22 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/conference-sessions--basic-web-scraping-in-r/</guid>
+      <description>&lt;p&gt;It&amp;#8217;s a bit sad but I enjoy dissecting what sessions are submitted to conferences I&amp;#8217;m involved in or speak at. Instead of doing it primarily by eye, I&amp;#8217;ve started dabbling in web scraping in R to do it. Initially, I used RCurl and my latest snippet uses rvest.&lt;/p&gt;
+
+&lt;p&gt;The first snippet for &lt;a href=&#34;http://sqlbits.com&#34; title=&#34;SQLBits&#34; target=&#34;_blank&#34;&gt;SQLBits&lt;/a&gt; bit of R code uses &lt;a href=&#34;http://cran.r-project.org/web/packages/RCurl/&#34; title=&#34;RCurl on CRAN&#34; target=&#34;_blank&#34;&gt;RCurl&lt;/a&gt; but it&amp;#8217;s cumbersome, plus for &lt;a href=&#34;https://www.sqlsaturday.com/372/schedule.aspx&#34; title=&#34;SQLSaturday Exeter&#34; target=&#34;_blank&#34;&gt;SQLSaturday Exeter&lt;/a&gt; there is SSL to contend with. Using &lt;a href=&#34;http://cran.r-project.org/web/packages/rvest/&#34; title=&#34;rvest on CRAN&#34; target=&#34;_blank&#34;&gt;rvest&lt;/a&gt; makes it really easy and it was an excellent excuse to get around to using &lt;a href=&#34;http://cran.r-project.org/web/packages/magrittr/&#34; title=&#34;magrittr on CRAN&#34; target=&#34;_blank&#34;&gt;magrittr&lt;/a&gt;, Hadley Wickham&amp;#8217;s pipe code paradigm for R.&lt;/p&gt;
+
+&lt;p&gt;Blogger tip: I also wanted the opportunity to see how Gists imported into WordPress &amp;#8211; you just c&amp;amp;p the url in (into the code, no URL markup) and WordPress automatically pulls in the Gist. For more info on this see &lt;a href=&#34;http://en.support.wordpress.com/gist/&#34; title=&#34;Wordpress support - Gist&#34; target=&#34;_blank&#34;&gt;WordPress&amp;#8217; article on Gist&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

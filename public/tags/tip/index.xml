@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tip on Locke Data Blog</title>
+    <link>https://itsalocke.com/blog/tags/tip/</link>
+    <description>Recent content in Tip on Locke Data Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
+    <lastBuildDate>Tue, 20 Jan 2015 10:10:54 +0000</lastBuildDate>
+    
+	<atom:link href="https://itsalocke.com/blog/tags/tip/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Spell check your spreadsheets</title>
+      <link>https://itsalocke.com/blog/spell-check-your-spreadsheets/</link>
+      <pubDate>Tue, 20 Jan 2015 10:10:54 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/spell-check-your-spreadsheets/</guid>
+      <description>Just a quick tip for spreadsheet users about spellchecking in Excel.
+Firstly, yes you can spell check a spreadsheet.
+Secondly, you do it either by going to Review &amp;gt; Check Spelling, or more easily by hitting F7 on your keyboard.
+Please, please spellcheck your work &amp;#8211; it makes your work much more professional and saves you having to do it manually!</description>
+    </item>
+    
+  </channel>
+</rss>

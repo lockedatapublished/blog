@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reports on Locke Data Blog</title>
+    <link>https://itsalocke.com/blog/tags/reports/</link>
+    <description>Recent content in Reports on Locke Data Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
+    <lastBuildDate>Wed, 18 Feb 2015 11:41:21 +0000</lastBuildDate>
+    
+	<atom:link href="https://itsalocke.com/blog/tags/reports/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Declutter a shiny report’s code</title>
+      <link>https://itsalocke.com/blog/declutter-a-shiny-reports-code/</link>
+      <pubDate>Wed, 18 Feb 2015 11:41:21 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/declutter-a-shiny-reports-code/</guid>
+      <description>Shiny reports are awesome, but they sure do end up with many lines of code when adding lots of inputs and outputs. A ui.R file can rapidly exceed 50 lines of code and I prefer to keep things more compact. The best way I&amp;#8217;ve found of doing that in other languages and in R is to modularise my code &amp;#8211; break it down into independent chunks. Shiny already does this by having a server() and ui() section and allowing you to source other files.</description>
+    </item>
+    
+  </channel>
+</rss>

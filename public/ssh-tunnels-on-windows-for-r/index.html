@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+    <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.31.1" />
+    <title>SSH tunnels on Windows for R</title>
+    
+    
+    
+	  <meta property="og:title" content="SSH tunnels on Windows for R" />
+<meta property="og:description" content="Recently I&#8217;ve had to get to grips with SSH tunnels. SSH tunnels are really useful for maintaining remote network integrity and work in a secure fashion. It is, however, a pain to open PuTTY and log in all the time, mainly because I couldn&#8217;t script it in R! It&#8217;s been a trial, but like most things it turned out to be pretty simple in the end so I thought I&#8217;d share it with you.
+
+What&#8217;s required?
+
+
+PuTTY
+
+winSCP (optional tool, generally helpful)
+
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://itsalocke.com/blog/ssh-tunnels-on-windows-for-r/" />
+
+
+
+<meta property="article:published_time" content="2016-03-14T13:41:06&#43;00:00"/>
+
+<meta property="article:modified_time" content="2016-03-14T13:41:06&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="SSH tunnels on Windows for R">
+<meta itemprop="description" content="Recently I&#8217;ve had to get to grips with SSH tunnels. SSH tunnels are really useful for maintaining remote network integrity and work in a secure fashion. It is, however, a pain to open PuTTY and log in all the time, mainly because I couldn&#8217;t script it in R! It&#8217;s been a trial, but like most things it turned out to be pretty simple in the end so I thought I&#8217;d share it with you.
+
+What&#8217;s required?
+
+
+PuTTY
+
+winSCP (optional tool, generally helpful)
+
+">
+
+
+<meta itemprop="datePublished" content="2016-03-14T13:41:06&#43;00:00" />
+<meta itemprop="dateModified" content="2016-03-14T13:41:06&#43;00:00" />
+<meta itemprop="wordCount" content="738">
+
+
+
+<meta itemprop="keywords" content="linux from windows,pageant,plink,putty,ssh,ssh tunnel," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="SSH tunnels on Windows for R"/>
+<meta name="twitter:description" content="Recently I&#8217;ve had to get to grips with SSH tunnels. SSH tunnels are really useful for maintaining remote network integrity and work in a secure fashion. It is, however, a pain to open PuTTY and log in all the time, mainly because I couldn&#8217;t script it in R! It&#8217;s been a trial, but like most things it turned out to be pretty simple in the end so I thought I&#8217;d share it with you.
+
+What&#8217;s required?
+
+
+PuTTY
+
+winSCP (optional tool, generally helpful)
+
+"/>
+<meta name="twitter:site" content="@lockedata"/>
+
+    <meta name="description" content="Locke Data helps organisations get started with data science. Grow your skills with our blog posts." />
+    <meta name="keywords" content='linux from windows,pageant,plink,putty,ssh,ssh tunnel' />
+    
+        <meta name="author" content="Steph" />
+    
+    
+	
+    <link rel="stylesheet" href="https://itsalocke.com/blog/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://itsalocke.com/blog/css/highlightjs-themes/androidstudio.css" />
+    <link rel="stylesheet" href="https://itsalocke.com/blog/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://itsalocke.com/blog/css/lockedata.css" />
+    
+        
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({
+                    google_ad_client: "ca-pub-XXXXXX",
+                    enable_page_level_ads: true
+                });
+            </script>
+        
+    
+</head>
+
+    <body>
+        <!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+        <a class="navbar-brand page-scroll" href="/blog/#page-top">
+          
+          <img src="https://itsalocke.com/blog/img/LockeDataTextNew.svg" class="img-responsive" alt="">
+        </a>
+      
+
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="hidden">
+          <a href="/blog/#page-top"></a>
+        </li>
+        
+          <li>
+            <a href="https://itsalocke.com">Locke Data</a>
+          </li>
+        
+          <li>
+            <a href="https://itsalocke.com/blog/">Blog</a>
+          </li>
+        
+
+        
+        
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container-fluid -->
+</nav>
+
+        <div id="top" class="container">
+            <div class="row" id="content-main">
+                    <div class="row">
+    <div class="col-md-12 content-card">
+        <h1>SSH tunnels on Windows for R</h1>
+        
+            
+            <ul class="list-inline meta">
+                <li><i class="fa fa-calendar"></i>March 14, 2016</li>
+                <li><i class="fa fa-user"></i>Steph</li>
+                
+                    
+                    <li><i class="fa fa-folder"></i><a href="https://itsalocke.com/categories/dataops">DataOps</a>, <a href="https://itsalocke.com/categories/misc-technology">Misc Technology</a>, <a href="https://itsalocke.com/categories/r">R</a></li>
+                
+            </ul>
+        
+        
+    <ul class="list-inline tags" style="margin-top: 15px; margin-left: 0px">
+        
+            <li style=""><a href="https://itsalocke.com/tags/linux-from-windows">linux from windows</a></li>
+        
+            <li style=""><a href="https://itsalocke.com/tags/pageant">pageant</a></li>
+        
+            <li style=""><a href="https://itsalocke.com/tags/plink">plink</a></li>
+        
+            <li style=""><a href="https://itsalocke.com/tags/putty">putty</a></li>
+        
+            <li style=""><a href="https://itsalocke.com/tags/ssh">ssh</a></li>
+        
+            <li style=""><a href="https://itsalocke.com/tags/ssh-tunnel">ssh tunnel</a></li>
+        
+    </ul>
+
+
+        <p>Recently I&#8217;ve had to get to grips with SSH tunnels. SSH tunnels are really useful for maintaining remote network integrity and work in a secure fashion. It is, however, a pain to open PuTTY and log in all the time, mainly because I couldn&#8217;t script it in R! It&#8217;s been a trial, but like most things it turned out to be pretty simple in the end so I thought I&#8217;d share it with you.</p>
+
+<h2 id="what-8217-s-required">What&#8217;s required?</h2>
+
+<ul>
+<li><a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html">PuTTY</a></li>
+
+<li><p><a href="https://winscp.net/eng/index.php">winSCP</a> (optional tool, generally helpful)</p>
+
+<p></p></li>
+</ul>
+
+<h2 id="how-to">How To</h2>
+
+<h3 id="generate-key">Generate key</h3>
+
+<p>I generated a key in Rstudio first using openSSH. I&#8217;d put this key on GitHub and a few other places so I didn&#8217;t want to change it. To use the PuTTY tools, you have to use a different key format than the one <a href="http://www.openssh.com/">openSSH</a> creates so I used pretty much this same method to convert my existing key.</p>
+
+<p>You need to run puttygen.exe, generate a key with a passphrase, and store the public version of the key on the remote machine. DigitalOcean have a really good <a href="https://www.digitalocean.com/community/tutorials/how-to-create-ssh-keys-with-putty-to-connect-to-a-vps">article on generating keys and storing them</a> that I recommend you follow.</p>
+
+<h3 id="authenticate-keys-on-startup">Authenticate keys on startup</h3>
+
+<p>To avoid interactivity of any sort in my R scripts, I need some way of storing the passphrase for my key. I could generate a key without a password but that&#8217;s just a major security flaw I would prefer not to introduce. So, how can I get my keys to be pre-authenticated by me?</p>
+
+<p>To tackle this persistence, it turns out our buddy PuTTY has a friend called <code>pageant.exe</code>. Pageant allows us to stash passphrases for our keys whilst pageant is running &#8211; but it will lose keys when you reboot.</p>
+
+<p>Following <a href="http://blog.shvetsov.com/2010/03/making-pageant-automatically-load-keys.html">this article on setting pageant to run on startup</a> combined with <a href="http://www.howtogeek.com/208224/how-to-add-programs-files-and-folders-to-system-startup-in-windows-8.1/">an article on startup programs on windows 8.1</a> I set pageant to load on startup and request my passphrase.</p>
+
+<p>The most important things in these two articles were:</p>
+
+<ul>
+<li>In the Run dialog type shell:startup and create a shortcut to your Pageant.exe</li>
+<li>Edit your shortcut to start in your .ssh directory so you can have an easier time referencing multiple key files</li>
+</ul>
+
+<h3 id="use-plink-to-build-your-ssh-tunnel">Use plink to build your SSH tunnel</h3>
+
+<p>Whilst down the rabbit hole, I discovered just in passing via a <a href="http://guides.beanstalkapp.com/version-control/git-on-windows.html">beanstalk article</a> that there&#8217;s actually been a command line interface for <a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html">PuTTY</a> called <code>plink</code>. D&#8217;oh! This changed the whole direction of the solution to what I present throughout.</p>
+
+<p>Using <code>plink.exe</code> as the command line interface for PuTTY we can then connect to our remote network using the key pre-authenticated via pageant. As a consequence, we can now use the <code>shell()</code> command in R to use plink. We can then connect to our database using the standard Postgres driver.</p>
+
+<pre><code>library(RPostgreSQL)
+drv  &lt;- dbDriver(&quot;PostgreSQL&quot;)
+
+cmd&lt;- paste0(
+  &quot;plink &quot;,
+  # use key and run in background process
+  &quot; -i ../.ssh/id_rsa -N -batch  -ssh&quot;,
+  # port forwarding
+  &quot; -L 5432:127.0.0.1:5432&quot;
+  # location of db
+  &quot; steph@mydb.com&quot;
+)
+
+shell( cmd, wait=FALSE)
+
+conn &lt;- dbConnect(
+  drv,
+  host = &quot;127.0.0.1&quot;,
+  port=5432,
+  dbname=&quot;mydb&quot;
+)
+
+dbListTables(conn)
+</code></pre>
+
+<h2 id="i-went-down-the-rabbit-hole">I went down the rabbit hole!</h2>
+
+<p>When picking up new (for you) technologies it can become an exercise in going down the rabbit hole &#8211; a reference to Alice in Wonderland where you&#8217;re trapped, confused, and running around looking for a way out.</p>
+
+<p>Whilst going through this process I looked at the following:</p>
+
+<ul>
+<li><a href="https://github.com/PowerShell/Win32-OpenSSH">Win32-OpenSSH</a></li>
+<li>Windows Credential Manager</li>
+<li>PowerShell modules <a href="https://www.powershellgallery.com/packages/posh-git/">Posh-Git</a> &amp; <a href="https://www.powershellgallery.com/packages/CredentialManager/1.0">CredentialManager</a></li>
+</ul>
+
+<p>These would be really cool to get working somehow. It would enable a Powershell script to run on startup that could securely retrieve my key passphrase out of the encrypted credentials database on Windows and pass them to <code>ssh-agent</code> so that I could work in an openSSH environment. It was, however, a PITA, with some bugs and limitations due to new process spawns, versions of Posh-Git and more. Plus, the more moving parts, the more unlikely something is to work.</p>
+
+<h2 id="followup">Followup</h2>
+
+<p>So this is a relatively simple method but not all that simple, and I still have to think about how I can make this sensibly work on different OS in order to be able to do the usual testing and continuous integration practices.</p>
+
+<p>I know more about SSH than I ever wished to so if you&#8217;re struggling, give me a shout and I&#8217;ll do my best to help. If you&#8217;re much further along than me, why not comment on how you&#8217;ve solved this challenge &#8211; I&#8217;d love to hear better ways of doing this!</p>
+
+<hr />
+
+<p>Image from <a href="http://fav.me/d5iu6p0">cat-o-morphism</a></p>
+		</div>
+		
+</div>
+    <div class="row">
+    <div class="col-md-12 card">
+        <h5>Search</h5>
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form">
+            <div class="input-group">
+                <input class="form-control" type="search" name="q" />
+                <span class="input-group-btn">
+                    <button class="btn btn-primary" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+                </span>
+            </div>
+            <input type="hidden" name="q" value="site:https://itsalocke.com/blog/">
+        </form>
+    </div>
+</div>
+
+<div class="row">
+		  <div class="col-md-12 content-card">
+        
+    <ul class="list-inline share" style="margin-top: 15px; margin-left: 0px">
+        <li class="facebook-share"><a target="_blank" href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fitsalocke.com%2fblog%2fssh-tunnels-on-windows-for-r%2f"><i class="fa fa-facebook fa-lg"></i>Facebook</a></li>
+        <li class="googleplus-share"><a target="_blank" href="https://plus.google.com/share?url=https%3a%2f%2fitsalocke.com%2fblog%2fssh-tunnels-on-windows-for-r%2f"><i class="fa fa-google-plus fa-lg"></i>Google+</a></li>
+        <li class="twitter-share"><a target="_blank" href="https://twitter.com/share?url=https%3a%2f%2fitsalocke.com%2fblog%2fssh-tunnels-on-windows-for-r%2f&amp;text=SSH%20tunnels%20on%20Windows%20for%20R"><i class="fa fa-twitter fa-lg"></i>Twitter</a></li>
+        <li class="reddit-share"><a target="_blank" href="http://reddit.com/submit?url=https%3a%2f%2fitsalocke.com%2fblog%2fssh-tunnels-on-windows-for-r%2f&amp;title=SSH%20tunnels%20on%20Windows%20for%20R"><i class="fa fa-reddit fa-lg"></i>Reddit</a></li>
+        <li class="linkedin-share"><a target="_blank" href="http://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fitsalocke.com%2fblog%2fssh-tunnels-on-windows-for-r%2f"><i class="fa fa-linkedin fa-lg"></i>LinkedIn</a></li>
+        <li class="stumbleupon-share"><a target="_blank" href="http://www.stumbleupon.com/submit?url=https%3a%2f%2fitsalocke.com%2fblog%2fssh-tunnels-on-windows-for-r%2f&amp;title=SSH%20tunnels%20on%20Windows%20for%20R"><i class="fa fa-stumbleupon fa-lg"></i>StumbleUpon</a></li>
+    </ul>
+
+
+    </div>
+	</div>
+
+                    
+    
+        <div class="row">
+            <div class="col-md-12 content-card">
+                <div id="disqus_thread"></div>
+                <script>
+                    (function() {
+                        if (window.location.hostname == "localhost") {
+                            document.write("Disqus comments are unavailable while serving on localhost or 127.0.0.1");
+                            return;
+                        }
+                        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                        var disqus_shortname = 'itsalocke';
+                        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                    })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+            </div>
+        </div>
+    
+
+
+            </div>
+        </div>
+        <!-- Footer section -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <span class="copyright">
+          <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+        </span>
+      </div>
+      <div class="col-md-4">
+        <ul class="list-inline social-buttons">
+          
+            <li>
+              <a href="https://twitter.com/lockedata"><i class='fa fa-twitter'></i></a>
+            </li>
+          
+            <li>
+              <a href="https://facebook.com/lockedata"><i class='fa fa-facebook'></i></a>
+            </li>
+          
+            <li>
+              <a href="https://linkedin.com/company/locke-data"><i class='fa fa-linkedin'></i></a>
+            </li>
+          
+            <li>
+              <a href="https://github.com/lockedata"><i class='fa fa-github'></i></a>
+            </li>
+          
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <ul class="list-inline quicklinks">
+          
+            <li>
+              <a href="/blog/index.xml">RSS</a>
+            </li>
+          
+            <li>
+              <a href="https://itsalocke.com/company/policies">Legalese and stuff</a>
+            </li>
+          
+            <li>
+              <a href="https://goo.gl/forms/KQiYR201Fcn4k9Zh2">Bug Bounty</a>
+            </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+        <div id="back-to-top" class="hidden">
+    <a href="#top" class="well well-sm" onclick="$('html,body').animate({scrollTop:0},'slow');return false;">
+        <i class="glyphicon glyphicon-chevron-up"></i> Back to Top
+    </a>
+</div>
+<script src="https://itsalocke.com/blog/js/jquery.min.js"></script>
+<script src="https://itsalocke.com/blog/js/bootstrap.min.js"></script>
+<script src="https://itsalocke.com/blog/js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script>
+    if(($(window).height() + 100) < $(document).height()) {
+        $('#back-to-top').removeClass('hidden').affix({
+            offset: {
+                top: 100
+            }
+        });
+    }
+</script>
+
+    
+        <script>
+            
+            [].forEach.call(document.querySelectorAll('.adsbygoogle'), function() {
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            });
+        </script>
+    
+
+
+    
+ 
+ 
+ <script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-58415537-1', 'auto');
+
+
+ga('require', 'eventTracker');
+ga('require', 'outboundLinkTracker');
+ga('require', 'urlChangeTracker');
+ga('require', 'cleanUrlTracker');
+ga('require', 'impressionTracker');
+ga('require', 'maxScrollTracker');
+ga('require', 'pageVisibilityTracker');
+
+
+ga('send', 'pageview');
+</script>
+<script async src="https://www.google-analytics.com/analytics.js"></script>
+<script async src="js/autotrack.js"></script>
+
+
+
+
+    </body>
+</html>

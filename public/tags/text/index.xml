@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Text on Locke Data Blog</title>
+    <link>https://itsalocke.com/blog/tags/text/</link>
+    <description>Recent content in Text on Locke Data Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
+    <lastBuildDate>Wed, 13 Jan 2016 17:32:14 +0000</lastBuildDate>
+    
+	<atom:link href="https://itsalocke.com/blog/tags/text/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Fixing the Tiny Icons, Big Text issue on my XPS13</title>
+      <link>https://itsalocke.com/blog/fixing-the-tiny-icons-big-text-issue-on-my-xps13/</link>
+      <pubDate>Wed, 13 Jan 2016 17:32:14 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/fixing-the-tiny-icons-big-text-issue-on-my-xps13/</guid>
+      <description>&lt;h2 id=&#34;the-issue&#34;&gt;The Issue&lt;/h2&gt;
+
+&lt;p&gt;I love my Dell XPS13. It&amp;#8217;s fast, sleek and gorgeous. It does however have one little problem: the icon and text size. The text was always too big for the buttons and boxes and the icons were so small you could hardly see them. This made it hard to use my machine without an external screen (which doesn&amp;#8217;t have that issue and should have been my first clue!)&lt;figure id=&#34;attachment_61507&#34; style=&#34;width: 2062px&#34; class=&#34;wp-caption aligncenter&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;../img/Example-of-the-text-and-icon-size-issue_x2xtxn.png&#34; alt=&#34;Example of the text and icon size issue&#34; width=&#34;2062&#34; height=&#34;982&#34; /&gt;&lt;/a&gt;&lt;figcaption class=&#34;wp-caption-text&#34;&gt;An example of the issue I was dealing with&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

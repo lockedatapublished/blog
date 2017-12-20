@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ssis on Locke Data Blog</title>
+    <link>https://itsalocke.com/blog/tags/ssis/</link>
+    <description>Recent content in Ssis on Locke Data Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
+    <lastBuildDate>Fri, 16 Oct 2015 20:27:03 +0000</lastBuildDate>
+    
+	<atom:link href="https://itsalocke.com/blog/tags/ssis/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>DataOps – it’s a thing (honest)</title>
+      <link>https://itsalocke.com/blog/dataops--its-a-thing-honest/</link>
+      <pubDate>Fri, 16 Oct 2015 20:27:03 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/dataops--its-a-thing-honest/</guid>
+      <description>&lt;p&gt;Today, I presented a &lt;a href=&#34;https://1drv.ms/p/s!AiZm2P6YHtSfjye0xDn_fuL80eSp&#34;&gt;lightning talk on DataOps&lt;/a&gt; at &lt;a href=&#34;http://sqlinthecity.red-gate.com/london-2015/&#34;&gt;SQL in the City&lt;/a&gt;. It was a fantastic day and a great opportunity to catch up with how the database side of things is evolving to embrace &lt;a href=&#34;https://en.wikipedia.org/wiki/DevOps&#34;&gt;DevOps&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;My lightning talk was titled &lt;em&gt;DataOps &amp;#8211; it&amp;#8217;s a thing (honest)&lt;/em&gt; and focused on what is essentially DevOps ported out of the developer sphere and into the data professional sphere.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>SQL Relay is here!</title>
+      <link>https://itsalocke.com/blog/sql-relay-is-here/</link>
+      <pubDate>Thu, 16 Jul 2015 09:30:59 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/sql-relay-is-here/</guid>
+      <description>SQL Relay is back on tour! Our 6th event sees us yet again touring the country bringing awesome speakers to eight cities over 2 weeks.
+As usual we&amp;#8217;re improving things:
+ A new platform called Attendee.Events which allows easier registration &amp;amp; speaker submission A whole bunch of webinars planned to get in the swing of things More breadth &amp;#8211; this year each event includes a dedicated track to R, machine learning etc, on top of SQL Server and business intelligence More content &amp;#8211; instead of swapping out existing slots for breadth, we added more tracks A green initiative &amp;#8230; see it on the day Improved speaker experience &amp;#8211; we&amp;#8217;re building on last year&amp;#8217;s fun bus with the help of SQL Sentry to make it easier and more fun for speakers to do multiple events, as well as offering first timers some mentoring as most of the organisers are also speakers  You&amp;#8217;ll see a lot of announcements about Relay over the next few months, but I hope this little post inspires you to check out our events 😀</description>
+    </item>
+    
+    <item>
+      <title>SQLSaturday Exeter 2015</title>
+      <link>https://itsalocke.com/blog/sqlsaturday-exeter-2015/</link>
+      <pubDate>Mon, 19 Jan 2015 20:09:35 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/sqlsaturday-exeter-2015/</guid>
+      <description>&lt;p&gt;Woohoo! The kind and crazy folks at &lt;a href=&#34;https://www.sqlsaturday.com/372/eventhome.aspx&#34; title=&#34;SQLSaturday Exeter 2015 homepage&#34; target=&#34;_blank&#34;&gt;SQLSaturday Exeter&lt;/a&gt; accepted my submitted training day for their roster. Before I wax lyrical on the virtues of being locked in a room with me all day, I thought I&amp;#8217;d better cover the fundamentals of the event itself!&lt;/p&gt;
+
+&lt;p&gt;First, the awesome video&amp;#8230;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Database / BI related unit testing options</title>
+      <link>https://itsalocke.com/blog/database-/-bi-related-unit-testing-options/</link>
+      <pubDate>Thu, 06 Nov 2014 16:18:48 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/database-/-bi-related-unit-testing-options/</guid>
+      <description>A quick list of frameworks available for doing unit testing, based on what I covered in today&amp;#8217;s SQL Lunch
+MSFT Database projects Purpose: unit testing database objects
+Method: SQL / GUI
+Site: http://msdn.microsoft.com/en-us/library/jj851200(v=vs.103).aspx
+Cost: Free
+Pros: Built-in, quite well documented
+Cons: Requires Visual Studio 2010 Pro or above
+Codeplex ssisUnit Purpose: SSIS unit testing
+Method: XML / GUI
+Site: https://ssisunit.codeplex.com
+Cost: Free
+Pros: Unique
+Cons: As of writing, only stable version was released in 2008</description>
+    </item>
+    
+    <item>
+      <title>SSIS basics and gotchas – presentation and resources</title>
+      <link>https://itsalocke.com/blog/ssis-basics-and-gotchas--presentation-and-resources/</link>
+      <pubDate>Fri, 16 Aug 2013 17:06:24 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/ssis-basics-and-gotchas--presentation-and-resources/</guid>
+      <description>Follow up resources / places to go for way more detail:
+Stairway to SSIS
+MSFT SSIS tutorial package 1
+MSFT SSIS tutorial package 2
+MSFT SSIS tutorial package 3
+SQLCat SSIS best practices
+Bob Duffy SSIS best practices
+Connection Strings
+The BOL for SSIS 
+Design Patterns book
+Design patterns 24HOP vid</description>
+    </item>
+    
+    <item>
+      <title>Synchronising schema between MSSQL &amp; MySQL with SSIS</title>
+      <link>https://itsalocke.com/blog/synchronising-schema-between-mssql--mysql-with-ssis/</link>
+      <pubDate>Wed, 29 May 2013 16:25:47 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/synchronising-schema-between-mssql--mysql-with-ssis/</guid>
+      <description>&lt;p&gt;The problem:&lt;/p&gt;
+
+&lt;p&gt;A system we need to report on that is form based.  Whenever there is a new form, there is a new table, and whenever there is a new or amended* field on the form, there is a new column in the table.  Maintaining the imports of this data into a staging environment would require a lot of code and time to build manually from scratch.&lt;/p&gt;
+
+&lt;p&gt;What is required is something that goes through the two schema for all relevant objects and updates our staging area’s schema accordingly.&lt;/p&gt;
+
+&lt;p&gt;Points for consideration:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Due to the level of change in source system, all loads are dynamically generated SQL&lt;/li&gt;
+&lt;li&gt;Loads run from a data dictionary table, which needs to be updated when we update the schema&lt;/li&gt;
+&lt;li&gt;Loads occur daily&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
