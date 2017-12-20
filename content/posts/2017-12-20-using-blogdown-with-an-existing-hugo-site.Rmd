@@ -18,7 +18,7 @@ If you decide you want to use R in your existing Hugo blog, it's really easy to 
 
 To create content, use the blogdown Rstudio add-in to quickly get started. This niftily reads all tags and categories from past posts to help you get going.
 
-![](img/usingblogdownaddin.jpg)
+![](../../static/img/usingblogdownaddin.jpg)
 
 You can then write Rmarkdown as usual. The workflow differs in that, instead of hitting the Knit button or using `rmarkdown::render()`, you use `blogdown::build_site()` instead.
 
