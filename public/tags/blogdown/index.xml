@@ -20,7 +20,7 @@
       <guid>https://itsalocke.com/blog/using-blogdown-with-an-existing-hugo-site/</guid>
       <description>If you decide you want to use R in your existing Hugo blog, it’s really easy to convert over. There’s a single command you need to know from blogdown and the rest is working out your deployment process.
 To create content, use the blogdown Rstudio add-in to quickly get started. This niftily reads all tags and categories from past posts to help you get going.
- You can then write Rmarkdown as usual.</description>
+knitr::include_graphics(&amp;quot;usingblogdownaddin.jpg&amp;quot;) You can then write Rmarkdown as usual.</description>
     </item>
     
   </channel>

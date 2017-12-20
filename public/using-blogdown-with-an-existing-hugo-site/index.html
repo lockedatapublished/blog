@@ -11,7 +11,7 @@
 	  <meta property="og:title" content="Using blogdown with an existing Hugo site" />
 <meta property="og:description" content="If you decide you want to use R in your existing Hugo blog, it’s really easy to convert over. There’s a single command you need to know from blogdown and the rest is working out your deployment process.
 To create content, use the blogdown Rstudio add-in to quickly get started. This niftily reads all tags and categories from past posts to help you get going.
- You can then write Rmarkdown as usual." />
+knitr::include_graphics(&quot;usingblogdownaddin.jpg&quot;) You can then write Rmarkdown as usual." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://itsalocke.com/blog/using-blogdown-with-an-existing-hugo-site/" />
 
@@ -36,12 +36,12 @@ To create content, use the blogdown Rstudio add-in to quickly get started. This 
 <meta itemprop="name" content="Using blogdown with an existing Hugo site">
 <meta itemprop="description" content="If you decide you want to use R in your existing Hugo blog, it’s really easy to convert over. There’s a single command you need to know from blogdown and the rest is working out your deployment process.
 To create content, use the blogdown Rstudio add-in to quickly get started. This niftily reads all tags and categories from past posts to help you get going.
- You can then write Rmarkdown as usual.">
+knitr::include_graphics(&quot;usingblogdownaddin.jpg&quot;) You can then write Rmarkdown as usual.">
 
 
 <meta itemprop="datePublished" content="2017-12-20T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2017-12-20T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="286">
+<meta itemprop="wordCount" content="287">
 
 
 
@@ -50,7 +50,7 @@ To create content, use the blogdown Rstudio add-in to quickly get started. This 
 <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Using blogdown with an existing Hugo site"/>
 <meta name="twitter:description" content="If you decide you want to use R in your existing Hugo blog, it’s really easy to convert over. There’s a single command you need to know from blogdown and the rest is working out your deployment process.
 To create content, use the blogdown Rstudio add-in to quickly get started. This niftily reads all tags and categories from past posts to help you get going.
- You can then write Rmarkdown as usual."/>
+knitr::include_graphics(&quot;usingblogdownaddin.jpg&quot;) You can then write Rmarkdown as usual."/>
 <meta name="twitter:site" content="@lockedata"/>
 
     <meta name="description" content="Locke Data helps organisations get started with data science. Grow your skills with our blog posts." />
@@ -133,10 +133,8 @@ To create content, use the blogdown Rstudio add-in to quickly get started. This 
 
         <p>If you decide you want to use R in your existing Hugo blog, it’s really easy to convert over. There’s a single command you need to know from blogdown and the rest is working out your deployment process.</p>
 <p>To create content, use the blogdown Rstudio add-in to quickly get started. This niftily reads all tags and categories from past posts to help you get going.</p>
-<div class="figure">
-<img src="../../static/img/usingblogdownaddin.jpg" alt="" />
-
-</div>
+<pre class="r"><code>knitr::include_graphics(&quot;usingblogdownaddin.jpg&quot;)</code></pre>
+<p><img src="usingblogdownaddin.jpg" alt="" /><!-- --></p>
 <p>You can then write Rmarkdown as usual. The workflow differs in that, instead of hitting the Knit button or using <code>rmarkdown::render()</code>, you use <code>blogdown::build_site()</code> instead.</p>
 <pre class="r"><code>blogdown::build_site()</code></pre>
 <p>This will process all your <code>.Rmd</code> and <code>.md</code> files and run the <code>hugo</code> command. This works <em>in place</em> of <code>hugo</code> so you will need to alter your deployment process to just pick up from the <code>public/</code> directory instead of running Hugo.</p>
