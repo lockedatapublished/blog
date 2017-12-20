@@ -14,6 +14,7 @@ script:
   - Rscript -e 'blogdown::build_site()'
 
 deploy:
+  skip_cleanup: true
   provider: script
   script: deploy.sh
   on:
