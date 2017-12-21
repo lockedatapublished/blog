@@ -1,5 +1,6 @@
 ---
 title: '#satRdays voting closes May 31st'
+slug: satrdays-voting-closes-may-31st
 author: Steph
 type: post
 date: 2016-05-27T12:00:56+00:00
