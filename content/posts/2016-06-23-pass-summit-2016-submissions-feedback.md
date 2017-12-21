@@ -1,5 +1,5 @@
 ---
-title: 'My PASS #Summit2016 submissions feedback'
+title: 'My PASS Summit2016 submissions feedback'
 slug: my-pass-summit2016-submissions-feedback
 author: Steph
 type: post

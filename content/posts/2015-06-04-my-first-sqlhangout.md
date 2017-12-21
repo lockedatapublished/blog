@@ -1,5 +1,5 @@
 ---
-title: 'My (first) #SQLHangout'
+title: 'My (first) SQLHangout'
 author: Steph
 type: post
 date: 2015-06-04T08:19:17+00:00
