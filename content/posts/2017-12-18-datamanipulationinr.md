@@ -29,8 +29,9 @@ tags:
 Introducing the core skill of working with tabular data, this book goes from importing data, to analysing it, and then getting it back out for consumption elsewhere. Leaning heavily on the tidyverse, I think it's an accessible introduction for those new to analysing data.
 
 - [Formats](#formats)
-- [What's Next](#whats-next)
-- [What's Covered](#whats-covered)
+- [What's Next](#what-s-next)
+- [What's Covered](#what-s-covered)
+- [Awesome Graphics](#awesome-graphics)
 
 ## Formats
 You can get the book in a variety of formats to suit your requirements.
@@ -46,7 +47,24 @@ If you buy the book on Kindle or in paperback, contact us and we'll send you a P
 The next book in the series is on data visualisation. It'll obviously include `ggplot2` and `leaflet` but I'd like to hear from youu about the data viz packages you wish had been around when you were getting into R.
 
 ## What's covered
-Working in the tidyverse universe, I show folks how to analyse data using a rough framework. I step by step through it and then spend a chapter putting it all together.
+Working in the tidyverse universe, I show folks how to analyse data using a rough framework. 
+
+- Getting data with R
+- Data pipelines
+- Filtering columns
+- Filtering rows
+- Working with names
+- Rearranging your data
+- Changing your data
+- Working with dates
+- Working with text
+- Summarising data
+- Combining datasets
+- Reshaping data
+- Getting data out of R
+- Putting it all together
+
+I step by step through it and then spend a chapter putting it all together.
 
 {{< figure src="../img/tidyverseflow.png" alt="tidyverse workflow" >}}
 
