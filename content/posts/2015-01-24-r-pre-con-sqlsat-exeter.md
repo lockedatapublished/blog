@@ -9,7 +9,7 @@ categories:
   - Community
   - R
 tags:
-  - '#statuspost'
+  - 'statuspost'
   - conferences
   - presentation
   - presenting

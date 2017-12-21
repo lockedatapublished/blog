@@ -6,7 +6,7 @@ date: 2016-11-24T10:46:40+00:00
 categories:
   - Microsoft Data Platform
 tags:
-  - '#statuspost'
+  - 'statuspost'
   - blog
   - blogging
   - marketing

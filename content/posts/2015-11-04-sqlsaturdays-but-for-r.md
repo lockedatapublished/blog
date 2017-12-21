@@ -7,7 +7,7 @@ categories:
   - Community
   - R
 tags:
-  - '#statuspost'
+  - 'statuspost'
   - Community
   - conferences
   - professional development

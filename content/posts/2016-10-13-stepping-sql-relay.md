@@ -6,7 +6,7 @@ date: 2016-10-13T08:35:58+00:00
 categories:
   - Community
 tags:
-  - '#statuspost'
+  - 'statuspost'
   - sql relay
   - sqlrelay
 format: aside

@@ -6,7 +6,7 @@ date: 2015-05-18T09:42:13+00:00
 categories:
   - Community
 tags:
-  - '#statuspost'
+  - 'statuspost'
   - agile
   - azure
   - azure data factory

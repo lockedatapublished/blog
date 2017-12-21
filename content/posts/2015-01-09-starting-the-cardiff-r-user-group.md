@@ -7,7 +7,7 @@ categories:
   - Community
   - R
 tags:
-  - '#statuspost'
+  - 'statuspost'
   - r
   - user group
 

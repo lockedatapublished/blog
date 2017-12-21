@@ -8,7 +8,7 @@ dsq_thread_id:
 categories:
   - Misc Technology
 tags:
-  - '#statuspost'
+  - 'statuspost'
 
 ---
 # My Platformer

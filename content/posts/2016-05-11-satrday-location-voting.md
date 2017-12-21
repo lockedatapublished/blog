@@ -7,7 +7,7 @@ categories:
   - Community
   - R
 tags:
-  - '#statuspost'
+  - 'statuspost'
   - conferences
   - r
   - satrday

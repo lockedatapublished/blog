@@ -10,7 +10,7 @@ categories:
   - Data Science
   - R
 tags:
-  - '#statuspost'
+  - 'statuspost'
   - Community
   - presenting
   - r

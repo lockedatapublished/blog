@@ -7,7 +7,7 @@ categories:
   - Community
   - Microsoft Data Platform
 tags:
-  - '#statuspost'
+  - 'statuspost'
   - mssql
   - presentation
   - sql server

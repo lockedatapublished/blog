@@ -6,7 +6,7 @@ date: 2013-09-13T18:45:19+00:00
 categories:
   - Microsoft Data Platform
 tags:
-  - '#statuspost'
+  - 'statuspost'
   - marketing
   - mssql
   - sql server

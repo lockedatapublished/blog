@@ -6,7 +6,7 @@ date: 2015-06-24T08:35:09+00:00
 categories:
   - R
 tags:
-  - '#statuspost'
+  - 'statuspost'
   - conferences
   - data visualisation
   - open source

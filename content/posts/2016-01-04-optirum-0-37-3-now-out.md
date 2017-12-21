@@ -6,7 +6,7 @@ date: 2016-01-04T07:26:14+00:00
 categories:
   - R
 tags:
-  - '#statuspost'
+  - 'statuspost'
   - optiRum
   - r
 format: status

@@ -7,7 +7,7 @@ categories:
   - Community
   - Microsoft Data Platform
 tags:
-  - '#statuspost'
+  - 'statuspost'
   - elections
   - pass
 

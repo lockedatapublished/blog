@@ -6,7 +6,7 @@ date: 2016-09-17T20:11:54+00:00
 categories:
   - Uncategorized
 tags:
-  - '#statuspost'
+  - 'statuspost'
   - asteroids
   - game
   - gamemaker

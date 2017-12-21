@@ -7,7 +7,7 @@ categories:
   - Data Science
   - Uncategorized
 tags:
-  - '#statuspost'
+  - 'statuspost'
   - data science
   - professional development
 

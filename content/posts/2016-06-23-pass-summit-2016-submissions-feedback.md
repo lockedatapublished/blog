@@ -8,7 +8,7 @@ categories:
   - Community
   - Microsoft Data Platform
 tags:
-  - '#statuspost'
+  - 'statuspost'
   - conferences
   - feedback
   - pass

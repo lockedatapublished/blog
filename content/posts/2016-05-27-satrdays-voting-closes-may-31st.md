@@ -6,7 +6,7 @@ date: 2016-05-27T12:00:56+00:00
 categories:
   - R
 tags:
-  - '#statuspost'
+  - 'statuspost'
   - conferences
   - r
   - satrday

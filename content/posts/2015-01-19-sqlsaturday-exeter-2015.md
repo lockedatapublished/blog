@@ -6,7 +6,7 @@ date: 2015-01-19T20:09:35+00:00
 categories:
   - Community
 tags:
-  - '#statuspost'
+  - 'statuspost'
   - conferences
   - presentation
   - presenting

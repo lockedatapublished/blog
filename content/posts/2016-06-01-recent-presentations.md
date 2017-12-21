@@ -8,7 +8,7 @@ categories:
   - Microsoft Data Platform
   - R
 tags:
-  - '#statuspost'
+  - 'statuspost'
   - azureml
   - chocolatey
   - conferences

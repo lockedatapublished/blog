@@ -8,7 +8,7 @@ spacious_page_layout:
 categories:
   - Community
 tags:
-  - '#statuspost'
+  - 'statuspost'
   - conferences
 
 ---

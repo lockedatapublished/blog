@@ -6,7 +6,7 @@ date: 2015-06-04T08:19:17+00:00
 categories:
   - Microsoft Data Platform
 tags:
-  - '#statuspost'
+  - 'statuspost'
   - azure
   - mssql
   - open source

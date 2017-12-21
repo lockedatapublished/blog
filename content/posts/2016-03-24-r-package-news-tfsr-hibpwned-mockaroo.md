@@ -6,7 +6,7 @@ date: 2016-03-24T15:44:03+00:00
 categories:
   - R
 tags:
-  - '#statuspost'
+  - 'statuspost'
   - hibpwned
   - mockaroo
   - r

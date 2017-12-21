@@ -8,7 +8,7 @@ dsq_thread_id:
 categories:
   - Community
 tags:
-  - '#statuspost'
+  - 'statuspost'
   - mentoring
   - professional development
 

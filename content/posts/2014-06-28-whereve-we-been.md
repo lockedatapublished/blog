@@ -6,7 +6,7 @@ date: 2014-06-28T11:49:21+00:00
 categories:
   - Community
 tags:
-  - '#statuspost'
+  - 'statuspost'
   - blog
 format: status
 

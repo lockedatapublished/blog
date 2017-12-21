@@ -6,7 +6,7 @@ date: 2015-10-28T17:10:32+00:00
 categories:
   - R
 tags:
-  - '#statuspost'
+  - 'statuspost'
   - blogging
   - conferences
   - mango

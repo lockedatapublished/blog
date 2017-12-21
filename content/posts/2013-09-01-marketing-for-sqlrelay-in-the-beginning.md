@@ -9,7 +9,7 @@ categories:
   - Community
   - Microsoft Data Platform
 tags:
-  - '#statuspost'
+  - 'statuspost'
   - marketing
   - mssql
   - sql server

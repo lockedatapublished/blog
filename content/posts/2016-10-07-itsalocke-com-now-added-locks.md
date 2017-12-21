@@ -6,7 +6,7 @@ date: 2016-10-07T08:46:31+00:00
 categories:
   - Uncategorized
 tags:
-  - '#statuspost'
+  - 'statuspost'
   - blogging
   - ssl
 format: aside

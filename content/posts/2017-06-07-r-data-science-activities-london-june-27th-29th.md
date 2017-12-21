@@ -10,7 +10,7 @@ categories:
   - Microsoft Data Platform
   - R
 tags:
-  - '#statuspost'
+  - 'statuspost'
   - Community
   - executive briefing
   - presenting

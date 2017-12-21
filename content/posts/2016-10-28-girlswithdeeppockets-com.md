@@ -7,7 +7,7 @@ categories:
   - Misc Technology
   - R
 tags:
-  - '#statuspost'
+  - 'statuspost'
   - call for contributors
   - gwdp
   - machine learning

@@ -7,7 +7,7 @@ categories:
   - Community
   - Microsoft Data Platform
 tags:
-  - '#statuspost'
+  - 'statuspost'
   - mssql
   - sql server
   - user group

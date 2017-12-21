@@ -8,7 +8,7 @@ socialauthorbio_custom_checkbox_meta:
 categories:
   - Misc Technology
 tags:
-  - '#statuspost'
+  - 'statuspost'
   - azure
   - blog
   - mysql

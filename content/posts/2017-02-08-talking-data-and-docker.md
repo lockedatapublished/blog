@@ -7,7 +7,7 @@ categories:
   - DataOps
   - Misc Technology
 tags:
-  - '#statuspost'
+  - 'statuspost'
   - agile
   - best practices
   - conferences
