@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+    <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.31.1" />
+    <title>Bride of Frankenstein: TFS &#43; R</title>
+    
+    
+    
+	  <meta property="og:title" content="Bride of Frankenstein: TFS &#43; R" />
+<meta property="og:description" content="The unholy abomination of trying to use TFS as my central repository for my R code over the past year has been tough and you may or not be looking at the screen as if I&#8217;m a crazy fool for even trying. Of course, now I have good news, because I&#8217;ve broken the back of the main issue I had with TFS. The crucial link was being able to programatically create Git repositories within a single project for small projects.
+
+Using the API, I&#8217;ve been able to write an R package with functions that now save me at least 15 minutes of time and effort each time I want a new project. So I can happily holler &#8220;IT&#8217;S ALIVE!!&#8221;
+
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://itsalocke.com/blog/bride-of-frankenstein-tfs---r/" />
+
+
+
+<meta property="article:published_time" content="2015-03-20T10:44:35&#43;00:00"/>
+
+<meta property="article:modified_time" content="2015-03-20T10:44:35&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="Bride of Frankenstein: TFS &#43; R">
+<meta itemprop="description" content="The unholy abomination of trying to use TFS as my central repository for my R code over the past year has been tough and you may or not be looking at the screen as if I&#8217;m a crazy fool for even trying. Of course, now I have good news, because I&#8217;ve broken the back of the main issue I had with TFS. The crucial link was being able to programatically create Git repositories within a single project for small projects.
+
+Using the API, I&#8217;ve been able to write an R package with functions that now save me at least 15 minutes of time and effort each time I want a new project. So I can happily holler &#8220;IT&#8217;S ALIVE!!&#8221;
+
+">
+
+
+<meta itemprop="datePublished" content="2015-03-20T10:44:35&#43;00:00" />
+<meta itemprop="dateModified" content="2015-03-20T10:44:35&#43;00:00" />
+<meta itemprop="wordCount" content="944">
+
+
+
+<meta itemprop="keywords" content="git,httr,productivity,r,software development in r,source control,tfs,tfsR,visual studio online,visual studio team services," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Bride of Frankenstein: TFS &#43; R"/>
+<meta name="twitter:description" content="The unholy abomination of trying to use TFS as my central repository for my R code over the past year has been tough and you may or not be looking at the screen as if I&#8217;m a crazy fool for even trying. Of course, now I have good news, because I&#8217;ve broken the back of the main issue I had with TFS. The crucial link was being able to programatically create Git repositories within a single project for small projects.
+
+Using the API, I&#8217;ve been able to write an R package with functions that now save me at least 15 minutes of time and effort each time I want a new project. So I can happily holler &#8220;IT&#8217;S ALIVE!!&#8221;
+
+"/>
+<meta name="twitter:site" content="@lockedata"/>
+
+    <meta name="description" content="Locke Data helps organisations get started with data science. Grow your skills with our blog posts." />
+    <meta name="keywords" content='git,httr,productivity,r,software development in r,source control,tfs,tfsR,visual studio online,visual studio team services' />
+    
+        <meta name="author" content="Steph" />
+    
+    
+	
+    <link rel="stylesheet" href="https://itsalocke.com/blog/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://itsalocke.com/blog/css/highlightjs-themes/androidstudio.css" />
+    <link rel="stylesheet" href="https://itsalocke.com/blog/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://itsalocke.com/blog/css/lockedata.css" />
+    
+        
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({
+                    google_ad_client: "ca-pub-XXXXXX",
+                    enable_page_level_ads: true
+                });
+            </script>
+        
+    
+</head>
+
+    <body>
+        <!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+        <a class="navbar-brand page-scroll" href="/blog/#page-top">
+          
+          <img src="https://itsalocke.com/blog/img/LockeDataTextNew.svg" class="img-responsive" alt="">
+        </a>
+      
+
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="hidden">
+          <a href="/blog/#page-top"></a>
+        </li>
+        
+          <li>
+            <a href="https://itsalocke.com">Locke Data</a>
+          </li>
+        
+          <li>
+            <a href="https://itsalocke.com/blog/">Blog</a>
+          </li>
+        
+
+        
+        
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container-fluid -->
+</nav>
+
+        <div id="top" class="container">
+            <div class="row" id="content-main">
+                    <div class="row">
+    <div class="col-md-12 content-card">
+        <h1>Bride of Frankenstein: TFS &#43; R</h1>
+        
+            
+            <ul class="list-inline meta">
+                <li><i class="fa fa-calendar"></i>March 20, 2015</li>
+                <li><i class="fa fa-user"></i>Steph</li>
+                
+                    
+                    <li><i class="fa fa-folder"></i><a href="https://itsalocke.com/categories/dataops">DataOps</a>, <a href="https://itsalocke.com/categories/misc-technology">Misc Technology</a>, <a href="https://itsalocke.com/categories/r">R</a></li>
+                
+            </ul>
+        
+        
+    <ul class="list-inline tags" style="margin-top: 15px; margin-left: 0px">
+        
+            <li style=""><a href="https://itsalocke.com/tags/git">git</a></li>
+        
+            <li style=""><a href="https://itsalocke.com/tags/httr">httr</a></li>
+        
+            <li style=""><a href="https://itsalocke.com/tags/productivity">productivity</a></li>
+        
+            <li style=""><a href="https://itsalocke.com/tags/r">r</a></li>
+        
+            <li style=""><a href="https://itsalocke.com/tags/software-development-in-r">software development in r</a></li>
+        
+            <li style=""><a href="https://itsalocke.com/tags/source-control">source control</a></li>
+        
+            <li style=""><a href="https://itsalocke.com/tags/tfs">tfs</a></li>
+        
+            <li style=""><a href="https://itsalocke.com/tags/tfsr">tfsR</a></li>
+        
+            <li style=""><a href="https://itsalocke.com/tags/visual-studio-online">visual studio online</a></li>
+        
+            <li style=""><a href="https://itsalocke.com/tags/visual-studio-team-services">visual studio team services</a></li>
+        
+    </ul>
+
+
+        <p>The unholy abomination of trying to use TFS as my central repository for my R code over the past year has been tough and you may or not be looking at the screen as if I&#8217;m a crazy fool for even trying. Of course, now I have good news, because I&#8217;ve broken the back of the main issue I had with TFS. The crucial link was being able to programatically create Git repositories within a single project for small projects.</p>
+
+<p>Using the API, I&#8217;ve been able to write an <a title="tfsR" href="https://github.com/stephlocke/tfsR" target="_blank">R package</a> with functions that now save me at least 15 minutes of time and effort each time I want a new project. So I can happily holler &#8220;IT&#8217;S ALIVE!!&#8221;</p>
+
+<p></p>
+
+<p><em>What&#8217;re you source controlling?</em> Well, we have internal developments like R packages, and we have a lot of analysis we&#8217;re doing in R. I also have databases, some web apps and a few other bits and bobs. I&#8217;m a firm believer that many of the best practices of developers are also best practices for DBA and BI professionals, whether we know it or not yet. This means stuff like source control, unit testing, continuous integration, and eventually continuous deployment are big goals in my mind. Therefore I&#8217;m trying to source control pretty much everything that is a script or documentation i.e. all databases, reports, manuals etc.</p>
+
+<p><em>Great goal but still, why TFS?</em> <a title="TFS Overview" href="https://www.visualstudio.com/en-us/products/tfs-overview-vs.aspx" target="_blank">Team Foundation Server</a> is/was (depending on who you ask) the de facto source control system of the Microsoft IT shop. It has a bunch of current or emerging plus points in its favour:</p>
+
+<ul>
+<li>IT are already using it</li>
+<li>Theoretically, it has nifty build &amp; testing tools/integration</li>
+<li>The project management layer is quite useful</li>
+<li>You can use the git engine, instead of the traditional centralised system, so it&#8217;ll work with R etc</li>
+<li>The recent <a title="VS Online overview" href="https://www.visualstudio.com/en-us/products/what-is-visual-studio-online-vs" target="_blank">Visual Studio Online</a> means that you can start doing your dev in the cloud</li>
+<li><a title="VS Community Edition" href="https://www.visualstudio.com/products/visual-studio-community-vs" target="_blank">Visual Studio Community Edition</a> will see more support for open source languages in the future</li>
+</ul>
+
+<p><em>But, why not GitHub?</em> Well <a title="GitHub" href="https://github.com/" target="_blank">GitHub</a> is super neat and we do release some of our open source stuff on their but we do need commercially sensitive or internal only things to be private and it costs (relatively) a fair bit to use GitHub for BI when you could easily spawn 50 private repos per quarter.</p>
+
+<p><em>So, why not BitBucket?</em> <a title="BitBucket" href="https://bitbucket.org" target="_blank">BitBucket</a> gives you unlimited private repos and has lots of bells and whistles. This was going to be my next port of call, if I couldn&#8217;t get TFS working.</p>
+
+<p><em>OK, I take your point, so what&#8217;s the problem?</em> Project creation! When I want to create a project to put some analysis in, I have to open Visual Studio, create a blank solution, go to the Team Explorer pane, tell it to create a new project, go through more than 5 panes of a wizard, wait ages for the sharepoint and SSRS guff to be configured, then switch over to Rstudio (on my linux box dontchaknow) server, pull the blank repository, create a project in it (or drop all my files), commit, then push my project skeleton in. That was incredibly painful. That was compounded by a couple of other facts:</p>
+
+<ol>
+<li><p>Visual Studio, is a horrible program when it comes to updates. Most recently, I was unable to use database projects due to a botched upgrade (needed UAC, fine got an admin to put in the details, but <em>also</em> needed to be running VS as an admin, which it didn&#8217;t say until it broke), and of course VS is almost impossible to completely uninstall/repair which meant a complete rebuild. So I hate having to rely on it!</p></li>
+
+<li><p>I have MSDN but do I want to give my head of finance, and myriad other people Visual Studio just to be able to work safely? It&#8217;s a big cost and effort sink. Plus the cognitive dissonance involved for them when I say so to use R, you need to open this completely unrelated program. This was more important, when we weren&#8217;t looking at VS Online.</p></li>
+</ol>
+
+<p><em>Arg, stop talking! I&#8217;m frustrated just listening to you!</em> Totally understandable my dear chum, so after a long while of investigating <a title="git-tfs" href="https://github.com/git-tfs/git-tfs" target="_blank">git-tfs</a>, <a title="Cross-Platform Command-Line Client" href="https://msdn.microsoft.com/en-us/library/hh873092(v=vs.110).aspx" target="_blank">Cross-Platform Command Line</a> and finding none could create projects, a delightful chap called <a title="Buck Hodges' blog" href="http://blogs.msdn.com/b/buckh/" target="_blank">Buck Hodges</a> at Microsoft pointed me in the direction of the <a title="Visual Studio Online Git API" href="https://www.visualstudio.com/integrate/api/git/overview" target="_blank">API</a> and suggested creating repositories inside projects. For me, they&#8217;d been the same but no, you can hold many repositories in a single project, and you can create these projects with a call to an API. This made me literally jump for joy and start yammering to Jan, my colleague.</p>
+
+<p><em>So now what?</em> The icing on the cake, is that using Hadley&#8217;s awesome <a title="httr package" href="https://github.com/hadley/httr" target="_blank">httr</a> package, I&#8217;ve been able to put together an R package that allows you to create repositories in a TFS project inside R so that people never have to go outside Rstudio (or their favourite R IDE) to do their source control work.</p>
+
+<p><em>What&#8217;s the catch?</em> If you want a standalone project, you still have to go through the old process, and I haven&#8217;t tested on older TFS versions.</p>
+
+<p><em>Bye, you crazy so-and-so</em> Bye, and if you find yourself wanting to avoid using Visual Studio for managing TFS do take a look at how I&#8217;ve <a title="tfsR" href="https://github.com/stephlocke/tfsR" target="_blank">interacted with the API</a> and write your own tool in the language of your choice.</p>
+
+<p><span style="color: #339966;"><strong>UPDATE: Project creation is nowhere near so bad in VSO &#8211; you can create on the site and the use the instructions to force a local repository into the online one. Although you may have to move some of the arguments around in the <code>git push</code> command VSO gives you.</strong></span></p>
+		</div>
+		
+</div>
+    <div class="row">
+    <div class="col-md-12 card">
+        <h5>Search</h5>
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form">
+            <div class="input-group">
+                <input class="form-control" type="search" name="q" />
+                <span class="input-group-btn">
+                    <button class="btn btn-primary" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+                </span>
+            </div>
+            <input type="hidden" name="q" value="site:https://itsalocke.com/blog/">
+        </form>
+    </div>
+</div>
+
+<div class="row">
+		  <div class="col-md-12 content-card">
+        
+    <ul class="list-inline share" style="margin-top: 15px; margin-left: 0px">
+        <li class="facebook-share"><a target="_blank" href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fitsalocke.com%2fblog%2fbride-of-frankenstein-tfs---r%2f"><i class="fa fa-facebook fa-lg"></i>Facebook</a></li>
+        <li class="googleplus-share"><a target="_blank" href="https://plus.google.com/share?url=https%3a%2f%2fitsalocke.com%2fblog%2fbride-of-frankenstein-tfs---r%2f"><i class="fa fa-google-plus fa-lg"></i>Google+</a></li>
+        <li class="twitter-share"><a target="_blank" href="https://twitter.com/share?url=https%3a%2f%2fitsalocke.com%2fblog%2fbride-of-frankenstein-tfs---r%2f&amp;text=Bride%20of%20Frankenstein%3a%20TFS%20%2b%20R"><i class="fa fa-twitter fa-lg"></i>Twitter</a></li>
+        <li class="reddit-share"><a target="_blank" href="http://reddit.com/submit?url=https%3a%2f%2fitsalocke.com%2fblog%2fbride-of-frankenstein-tfs---r%2f&amp;title=Bride%20of%20Frankenstein%3a%20TFS%20%2b%20R"><i class="fa fa-reddit fa-lg"></i>Reddit</a></li>
+        <li class="linkedin-share"><a target="_blank" href="http://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fitsalocke.com%2fblog%2fbride-of-frankenstein-tfs---r%2f"><i class="fa fa-linkedin fa-lg"></i>LinkedIn</a></li>
+        <li class="stumbleupon-share"><a target="_blank" href="http://www.stumbleupon.com/submit?url=https%3a%2f%2fitsalocke.com%2fblog%2fbride-of-frankenstein-tfs---r%2f&amp;title=Bride%20of%20Frankenstein%3a%20TFS%20%2b%20R"><i class="fa fa-stumbleupon fa-lg"></i>StumbleUpon</a></li>
+    </ul>
+
+
+    </div>
+	</div>
+
+                    
+    
+        <div class="row">
+            <div class="col-md-12 content-card">
+                <div id="disqus_thread"></div>
+                <script>
+                    (function() {
+                        if (window.location.hostname == "localhost") {
+                            document.write("Disqus comments are unavailable while serving on localhost or 127.0.0.1");
+                            return;
+                        }
+                        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                        var disqus_shortname = 'itsalocke';
+                        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                    })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+            </div>
+        </div>
+    
+
+
+            </div>
+        </div>
+        <!-- Footer section -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <span class="copyright">
+          <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+        </span>
+      </div>
+      <div class="col-md-4">
+        <ul class="list-inline social-buttons">
+          
+            <li>
+              <a href="https://twitter.com/lockedata"><i class='fa fa-twitter'></i></a>
+            </li>
+          
+            <li>
+              <a href="https://facebook.com/lockedata"><i class='fa fa-facebook'></i></a>
+            </li>
+          
+            <li>
+              <a href="https://linkedin.com/company/locke-data"><i class='fa fa-linkedin'></i></a>
+            </li>
+          
+            <li>
+              <a href="https://github.com/lockedata"><i class='fa fa-github'></i></a>
+            </li>
+          
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <ul class="list-inline quicklinks">
+          
+            <li>
+              <a href="/blog/index.xml">RSS</a>
+            </li>
+          
+            <li>
+              <a href="https://itsalocke.com/company/policies">Legalese and stuff</a>
+            </li>
+          
+            <li>
+              <a href="https://goo.gl/forms/KQiYR201Fcn4k9Zh2">Bug Bounty</a>
+            </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+        <div id="back-to-top" class="hidden">
+    <a href="#top" class="well well-sm" onclick="$('html,body').animate({scrollTop:0},'slow');return false;">
+        <i class="glyphicon glyphicon-chevron-up"></i> Back to Top
+    </a>
+</div>
+<script src="https://itsalocke.com/blog/js/jquery.min.js"></script>
+<script src="https://itsalocke.com/blog/js/bootstrap.min.js"></script>
+<script src="https://itsalocke.com/blog/js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script>
+    if(($(window).height() + 100) < $(document).height()) {
+        $('#back-to-top').removeClass('hidden').affix({
+            offset: {
+                top: 100
+            }
+        });
+    }
+</script>
+
+    
+        <script>
+            
+            [].forEach.call(document.querySelectorAll('.adsbygoogle'), function() {
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            });
+        </script>
+    
+
+
+    
+ 
+ 
+ <script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-58415537-1', 'auto');
+
+
+ga('require', 'eventTracker');
+ga('require', 'outboundLinkTracker');
+ga('require', 'urlChangeTracker');
+ga('require', 'cleanUrlTracker');
+ga('require', 'impressionTracker');
+ga('require', 'maxScrollTracker');
+ga('require', 'pageVisibilityTracker');
+
+
+ga('send', 'pageview');
+</script>
+<script async src="https://www.google-analytics.com/analytics.js"></script>
+<script async src="js/autotrack.js"></script>
+
+
+
+
+    </body>
+</html>

@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+    <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.31.1" />
+    <title>Using blogdown with an existing Hugo site</title>
+    
+    
+    
+	  <meta property="og:title" content="Using blogdown with an existing Hugo site" />
+<meta property="og:description" content="If you decide you want to use R in your existing Hugo blog, it’s really easy to convert over. There’s a single command you need to know from blogdown and the rest is working out your deployment process.
+To create content, use the blogdown Rstudio add-in to quickly get started. This niftily reads all tags and categories from past posts to help you get going.
+ You can then write Rmarkdown as usual." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://itsalocke.com/blog/using-blogdown-with-an-existing-hugo-site/" />
+
+
+
+<meta property="article:published_time" content="2017-12-20T00:00:00&#43;00:00"/>
+
+<meta property="article:modified_time" content="2017-12-20T00:00:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="Using blogdown with an existing Hugo site">
+<meta itemprop="description" content="If you decide you want to use R in your existing Hugo blog, it’s really easy to convert over. There’s a single command you need to know from blogdown and the rest is working out your deployment process.
+To create content, use the blogdown Rstudio add-in to quickly get started. This niftily reads all tags and categories from past posts to help you get going.
+ You can then write Rmarkdown as usual.">
+
+
+<meta itemprop="datePublished" content="2017-12-20T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2017-12-20T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="286">
+
+
+
+<meta itemprop="keywords" content="blogging,hugo,blogdown,blog," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Using blogdown with an existing Hugo site"/>
+<meta name="twitter:description" content="If you decide you want to use R in your existing Hugo blog, it’s really easy to convert over. There’s a single command you need to know from blogdown and the rest is working out your deployment process.
+To create content, use the blogdown Rstudio add-in to quickly get started. This niftily reads all tags and categories from past posts to help you get going.
+ You can then write Rmarkdown as usual."/>
+<meta name="twitter:site" content="@lockedata"/>
+
+    <meta name="description" content="Locke Data helps organisations get started with data science. Grow your skills with our blog posts." />
+    <meta name="keywords" content='blogging,hugo,blogdown,blog' />
+    
+        <meta name="author" content="steph" />
+    
+    
+	
+    <link rel="stylesheet" href="https://itsalocke.com/blog/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://itsalocke.com/blog/css/highlightjs-themes/androidstudio.css" />
+    <link rel="stylesheet" href="https://itsalocke.com/blog/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://itsalocke.com/blog/css/lockedata.css" />
+    
+        
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({
+                    google_ad_client: "ca-pub-XXXXXX",
+                    enable_page_level_ads: true
+                });
+            </script>
+        
+    
+</head>
+
+    <body>
+        <!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+        <a class="navbar-brand page-scroll" href="/blog/#page-top">
+          
+          <img src="https://itsalocke.com/blog/img/LockeDataTextNew.svg" class="img-responsive" alt="">
+        </a>
+      
+
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="hidden">
+          <a href="/blog/#page-top"></a>
+        </li>
+        
+          <li>
+            <a href="https://itsalocke.com">Locke Data</a>
+          </li>
+        
+          <li>
+            <a href="https://itsalocke.com/blog/">Blog</a>
+          </li>
+        
+
+        
+        
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container-fluid -->
+</nav>
+
+        <div id="top" class="container">
+            <div class="row" id="content-main">
+                    <div class="row">
+    <div class="col-md-12 content-card">
+        <h1>Using blogdown with an existing Hugo site</h1>
+        
+        
+
+        <p>If you decide you want to use R in your existing Hugo blog, it’s really easy to convert over. There’s a single command you need to know from blogdown and the rest is working out your deployment process.</p>
+<p>To create content, use the blogdown Rstudio add-in to quickly get started. This niftily reads all tags and categories from past posts to help you get going.</p>
+<div class="figure">
+<img src="../img/usingblogdownaddin.jpg" alt="" />
+
+</div>
+<p>You can then write Rmarkdown as usual. The workflow differs in that, instead of hitting the Knit button or using <code>rmarkdown::render()</code>, you use <code>blogdown::build_site()</code> instead.</p>
+<pre class="r"><code>blogdown::build_site()</code></pre>
+<p>This will process all your <code>.Rmd</code> and <code>.md</code> files and run the <code>hugo</code> command. This works <em>in place</em> of <code>hugo</code> so you will need to alter your deployment process to just pick up from the <code>public/</code> directory instead of running Hugo.</p>
+<p>You can then publish the content from the <code>public/</code> directory.</p>
+<p>Converting your existing Hugo site to <code>blogdown</code> is actually super simple - it’s literally one command, <code>blogdown::build_site()</code>. The bit that will take some work is changing your deployment workflow.</p>
+<div id="using-blogdown-in-a-cicd-environment" class="section level2">
+<h2>Using <code>blogdown</code> in a CI/CD environment</h2>
+<p>If you want to use some sort of automated build, you can use <a href="https://travis-ci.org">travis</a> to run the <code>build_site()</code> and commit changes the <code>public/</code> dir changes. If you do this, don’t forget to include <code>[ci skip]</code> at the beginning of your commit message to avoid an infinite loop of builds.</p>
+<p>Once you have the files automatically building, you can then deploy using something like <a href="https://netlify.com">netlify</a> and simply remove the build command as it’ll only need to retrieve the content from the <code>public/</code> directory.</p>
+<p>Check out how <a href="https://github.com/lockedatapublished/blog">this project does it</a> for an approach that updates the GitHub repo, or check out <a href="https://github.com/yihui/travis-blogdown">Yihui’s example</a> for a direct GitHub Pages deployment approach.</p>
+</div>
+
+		</div>
+		
+</div>
+    <div class="row">
+    <div class="col-md-12 card">
+        <h5>Search</h5>
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form">
+            <div class="input-group">
+                <input class="form-control" type="search" name="q" />
+                <span class="input-group-btn">
+                    <button class="btn btn-primary" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+                </span>
+            </div>
+            <input type="hidden" name="q" value="site:https://itsalocke.com/blog/">
+        </form>
+    </div>
+</div>
+
+<div class="row">
+		  <div class="col-md-12 content-card">
+        
+
+    </div>
+	</div>
+
+                    
+
+            </div>
+        </div>
+        <!-- Footer section -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <span class="copyright">
+          <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+        </span>
+      </div>
+      <div class="col-md-4">
+        <ul class="list-inline social-buttons">
+          
+            <li>
+              <a href="https://twitter.com/lockedata"><i class='fa fa-twitter'></i></a>
+            </li>
+          
+            <li>
+              <a href="https://facebook.com/lockedata"><i class='fa fa-facebook'></i></a>
+            </li>
+          
+            <li>
+              <a href="https://linkedin.com/company/locke-data"><i class='fa fa-linkedin'></i></a>
+            </li>
+          
+            <li>
+              <a href="https://github.com/lockedata"><i class='fa fa-github'></i></a>
+            </li>
+          
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <ul class="list-inline quicklinks">
+          
+            <li>
+              <a href="/blog/index.xml">RSS</a>
+            </li>
+          
+            <li>
+              <a href="https://itsalocke.com/company/policies">Legalese and stuff</a>
+            </li>
+          
+            <li>
+              <a href="https://goo.gl/forms/KQiYR201Fcn4k9Zh2">Bug Bounty</a>
+            </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+        <div id="back-to-top" class="hidden">
+    <a href="#top" class="well well-sm" onclick="$('html,body').animate({scrollTop:0},'slow');return false;">
+        <i class="glyphicon glyphicon-chevron-up"></i> Back to Top
+    </a>
+</div>
+<script src="https://itsalocke.com/blog/js/jquery.min.js"></script>
+<script src="https://itsalocke.com/blog/js/bootstrap.min.js"></script>
+<script src="https://itsalocke.com/blog/js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script>
+    if(($(window).height() + 100) < $(document).height()) {
+        $('#back-to-top').removeClass('hidden').affix({
+            offset: {
+                top: 100
+            }
+        });
+    }
+</script>
+
+    
+        <script>
+            
+            [].forEach.call(document.querySelectorAll('.adsbygoogle'), function() {
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            });
+        </script>
+    
+
+
+    
+ 
+ 
+ <script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-58415537-1', 'auto');
+
+
+ga('require', 'eventTracker');
+ga('require', 'outboundLinkTracker');
+ga('require', 'urlChangeTracker');
+ga('require', 'cleanUrlTracker');
+ga('require', 'impressionTracker');
+ga('require', 'maxScrollTracker');
+ga('require', 'pageVisibilityTracker');
+
+
+ga('send', 'pageview');
+</script>
+<script async src="https://www.google-analytics.com/analytics.js"></script>
+<script async src="js/autotrack.js"></script>
+
+
+
+
+    </body>
+</html>

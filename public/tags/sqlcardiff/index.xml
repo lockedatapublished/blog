@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sqlcardiff on Locke Data Blog</title>
+    <link>https://itsalocke.com/blog/tags/sqlcardiff/</link>
+    <description>Recent content in Sqlcardiff on Locke Data Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
+    <lastBuildDate>Tue, 15 Mar 2016 09:59:42 +0000</lastBuildDate>
+    
+	<atom:link href="https://itsalocke.com/blog/tags/sqlcardiff/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>@SQLCardiff: Return of the Beard (2016-03-30)</title>
+      <link>https://itsalocke.com/blog/sqlcardiff-return-of-the-beard-2016-03-30/</link>
+      <pubDate>Tue, 15 Mar 2016 09:59:42 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/sqlcardiff-return-of-the-beard-2016-03-30/</guid>
+      <description>Just a quick heads up to peeps in and around Cardiff, Wales. Later this month we&amp;#8217;re holding Battle of the Beards: Return of the Beard. Fantastic speakers with resplendent beards are joining us for our 6 sq. ft of pizza to present on advanced SQL Tricks, using PowerBI as a DBA, and stepping up to the challenge of the last minute audit.
+This is a great chance to meet folks interested in the Microsoft Data Platform and learn from some incredibly knowledgable speakers.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Medrianchor on Locke Data Blog</title>
+    <link>https://itsalocke.com/blog/tags/medrianchor/</link>
+    <description>Recent content in Medrianchor on Locke Data Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
+    <lastBuildDate>Thu, 31 Dec 2015 11:47:29 +0000</lastBuildDate>
+    
+	<atom:link href="https://itsalocke.com/blog/tags/medrianchor/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Anchor Modelling: Sixth Normal Form databases</title>
+      <link>https://itsalocke.com/blog/anchor-modelling-sixth-normal-form-databases/</link>
+      <pubDate>Thu, 31 Dec 2015 11:47:29 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/anchor-modelling-sixth-normal-form-databases/</guid>
+      <description>About Anchor Modelling Anchor Modelling moves you beyond third normal form and into sixth normal form. What does this mean?
+ Not sure about the normal forms? See the normalization process in actions with this normalisation example
+ Essentially it means that an attribute is stored independently against the key, not in a big table with other attributes. This means you can easily store metadata about that attribute and do full change tracking with ease.</description>
+    </item>
+    
+  </channel>
+</rss>

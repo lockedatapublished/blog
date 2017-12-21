@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linear Regression on Locke Data Blog</title>
+    <link>https://itsalocke.com/blog/tags/linear-regression/</link>
+    <description>Recent content in Linear Regression on Locke Data Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
+    <lastBuildDate>Fri, 12 May 2017 08:31:48 +0000</lastBuildDate>
+    
+	<atom:link href="https://itsalocke.com/blog/tags/linear-regression/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to go about interpreting regression cofficients</title>
+      <link>https://itsalocke.com/blog/how-to-go-about-interpreting-regression-cofficients/</link>
+      <pubDate>Fri, 12 May 2017 08:31:48 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/how-to-go-about-interpreting-regression-cofficients/</guid>
+      <description>Following my post about logistic regressions, Ryan got in touch about one bit of building logistic regressions models that I didn&amp;#8217;t cover in much detail &amp;#8211; interpreting&amp;nbsp;regression coefficients. This post will hopefully help Ryan (and others) out.
+This was so helpful. Thank you! I&#39;d love to see more about interpreting the glm coefficients.  &amp;mdash; Ryan (@RyanEs) April 21, 2017  What is a coefficient? Coefficients are what a line of best fit model produces.</description>
+    </item>
+    
+  </channel>
+</rss>

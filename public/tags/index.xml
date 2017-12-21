@@ -1,0 +1,1825 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Locke Data Blog</title>
+    <link>https://itsalocke.com/blog/tags/</link>
+    <description>Recent content in Tags on Locke Data Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
+    <lastBuildDate>Wed, 08 Feb 2017 16:25:20 +0000</lastBuildDate>
+    
+	<atom:link href="https://itsalocke.com/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Agile</title>
+      <link>https://itsalocke.com/blog/tags/agile/</link>
+      <pubDate>Wed, 08 Feb 2017 16:25:20 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/agile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Analysis</title>
+      <link>https://itsalocke.com/blog/tags/analysis/</link>
+      <pubDate>Sun, 15 Sep 2013 18:00:27 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Anchor Model</title>
+      <link>https://itsalocke.com/blog/tags/anchor-model/</link>
+      <pubDate>Thu, 31 Dec 2015 11:47:29 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/anchor-model/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Api</title>
+      <link>https://itsalocke.com/blog/tags/api/</link>
+      <pubDate>Tue, 13 Jun 2017 10:20:40 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Asteroids</title>
+      <link>https://itsalocke.com/blog/tags/asteroids/</link>
+      <pubDate>Sat, 17 Sep 2016 20:11:54 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/asteroids/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Attendee</title>
+      <link>https://itsalocke.com/blog/tags/attendee/</link>
+      <pubDate>Mon, 14 Nov 2016 10:29:45 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/attendee/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Auto Deploying R Documentation</title>
+      <link>https://itsalocke.com/blog/tags/auto-deploying-r-documentation/</link>
+      <pubDate>Fri, 19 May 2017 08:02:26 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/auto-deploying-r-documentation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Aws</title>
+      <link>https://itsalocke.com/blog/tags/aws/</link>
+      <pubDate>Mon, 11 Jul 2016 09:46:12 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/aws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Azure</title>
+      <link>https://itsalocke.com/blog/tags/azure/</link>
+      <pubDate>Thu, 01 Dec 2016 22:47:23 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/azure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Azure Automation</title>
+      <link>https://itsalocke.com/blog/tags/azure-automation/</link>
+      <pubDate>Mon, 11 Jul 2016 09:46:12 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/azure-automation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Azure Data Factory</title>
+      <link>https://itsalocke.com/blog/tags/azure-data-factory/</link>
+      <pubDate>Mon, 18 May 2015 09:42:13 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/azure-data-factory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Azure Functions</title>
+      <link>https://itsalocke.com/blog/tags/azure-functions/</link>
+      <pubDate>Mon, 22 May 2017 08:24:04 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/azure-functions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Azureml</title>
+      <link>https://itsalocke.com/blog/tags/azureml/</link>
+      <pubDate>Wed, 01 Jun 2016 08:09:32 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/azureml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bash</title>
+      <link>https://itsalocke.com/blog/tags/bash/</link>
+      <pubDate>Mon, 24 Apr 2017 08:17:13 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/bash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Best Practices</title>
+      <link>https://itsalocke.com/blog/tags/best-practices/</link>
+      <pubDate>Fri, 26 May 2017 08:00:04 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/best-practices/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blob Storage</title>
+      <link>https://itsalocke.com/blog/tags/blob-storage/</link>
+      <pubDate>Fri, 10 Jun 2016 09:00:21 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/blob-storage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blog</title>
+      <link>https://itsalocke.com/blog/tags/blog/</link>
+      <pubDate>Wed, 20 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blogdown</title>
+      <link>https://itsalocke.com/blog/tags/blogdown/</link>
+      <pubDate>Wed, 20 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/blogdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blogging</title>
+      <link>https://itsalocke.com/blog/tags/blogging/</link>
+      <pubDate>Wed, 20 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/blogging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bot Services</title>
+      <link>https://itsalocke.com/blog/tags/bot-services/</link>
+      <pubDate>Mon, 22 May 2017 08:24:04 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/bot-services/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bots</title>
+      <link>https://itsalocke.com/blog/tags/bots/</link>
+      <pubDate>Mon, 22 May 2017 08:24:04 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/bots/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Business</title>
+      <link>https://itsalocke.com/blog/tags/business/</link>
+      <pubDate>Fri, 27 Feb 2015 13:01:49 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/business/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Business Intelligence</title>
+      <link>https://itsalocke.com/blog/tags/business-intelligence/</link>
+      <pubDate>Mon, 07 Mar 2016 09:55:13 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/business-intelligence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Call for Contributors</title>
+      <link>https://itsalocke.com/blog/tags/call-for-contributors/</link>
+      <pubDate>Fri, 28 Oct 2016 11:25:13 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/call-for-contributors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cardiff</title>
+      <link>https://itsalocke.com/blog/tags/cardiff/</link>
+      <pubDate>Mon, 06 Mar 2017 12:26:08 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/cardiff/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Censornet</title>
+      <link>https://itsalocke.com/blog/tags/censornet/</link>
+      <pubDate>Fri, 05 May 2017 07:46:42 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/censornet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chart</title>
+      <link>https://itsalocke.com/blog/tags/chart/</link>
+      <pubDate>Sat, 25 May 2013 16:05:54 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/chart/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Check Boxes</title>
+      <link>https://itsalocke.com/blog/tags/check-boxes/</link>
+      <pubDate>Sun, 12 May 2013 14:03:09 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/check-boxes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chocolatey</title>
+      <link>https://itsalocke.com/blog/tags/chocolatey/</link>
+      <pubDate>Wed, 01 Jun 2016 08:09:32 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/chocolatey/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Code</title>
+      <link>https://itsalocke.com/blog/tags/code/</link>
+      <pubDate>Sun, 23 Nov 2014 12:59:13 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Community</title>
+      <link>https://itsalocke.com/blog/tags/community/</link>
+      <pubDate>Mon, 18 Dec 2017 21:29:42 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/community/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conferences</title>
+      <link>https://itsalocke.com/blog/tags/conferences/</link>
+      <pubDate>Fri, 14 Apr 2017 18:00:59 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/conferences/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Continuous Integration</title>
+      <link>https://itsalocke.com/blog/tags/continuous-integration/</link>
+      <pubDate>Fri, 19 May 2017 08:02:26 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/continuous-integration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Coveralls</title>
+      <link>https://itsalocke.com/blog/tags/coveralls/</link>
+      <pubDate>Tue, 02 May 2017 12:10:32 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/coveralls/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cran</title>
+      <link>https://itsalocke.com/blog/tags/cran/</link>
+      <pubDate>Tue, 09 May 2017 10:02:18 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/cran/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Css</title>
+      <link>https://itsalocke.com/blog/tags/css/</link>
+      <pubDate>Thu, 27 Oct 2016 08:00:45 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/css/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Analysis</title>
+      <link>https://itsalocke.com/blog/tags/data-analysis/</link>
+      <pubDate>Sun, 11 Jan 2015 16:56:22 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/data-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Breaches</title>
+      <link>https://itsalocke.com/blog/tags/data-breaches/</link>
+      <pubDate>Thu, 09 Jun 2016 08:06:58 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/data-breaches/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Manipulation</title>
+      <link>https://itsalocke.com/blog/tags/data-manipulation/</link>
+      <pubDate>Mon, 18 Dec 2017 21:29:42 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/data-manipulation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Mining</title>
+      <link>https://itsalocke.com/blog/tags/data-mining/</link>
+      <pubDate>Fri, 13 Jan 2017 15:28:32 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/data-mining/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Modelling</title>
+      <link>https://itsalocke.com/blog/tags/data-modelling/</link>
+      <pubDate>Thu, 31 Dec 2015 11:47:29 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/data-modelling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Science</title>
+      <link>https://itsalocke.com/blog/tags/data-science/</link>
+      <pubDate>Tue, 02 May 2017 07:41:04 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/data-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Visualisation</title>
+      <link>https://itsalocke.com/blog/tags/data-visualisation/</link>
+      <pubDate>Wed, 24 Jun 2015 08:35:09 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/data-visualisation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Wrangling</title>
+      <link>https://itsalocke.com/blog/tags/data-wrangling/</link>
+      <pubDate>Mon, 18 Dec 2017 21:29:42 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/data-wrangling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data.table</title>
+      <link>https://itsalocke.com/blog/tags/data.table/</link>
+      <pubDate>Tue, 05 Apr 2016 14:05:26 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/data.table/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dataops</title>
+      <link>https://itsalocke.com/blog/tags/dataops/</link>
+      <pubDate>Tue, 13 Jun 2017 16:44:19 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/dataops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Datasaurus</title>
+      <link>https://itsalocke.com/blog/tags/datasaurus/</link>
+      <pubDate>Tue, 09 May 2017 10:02:18 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/datasaurus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Datawarehouse</title>
+      <link>https://itsalocke.com/blog/tags/datawarehouse/</link>
+      <pubDate>Thu, 31 Dec 2015 11:47:29 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/datawarehouse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dell</title>
+      <link>https://itsalocke.com/blog/tags/dell/</link>
+      <pubDate>Wed, 13 Jan 2016 17:32:14 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/dell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Diversity</title>
+      <link>https://itsalocke.com/blog/tags/diversity/</link>
+      <pubDate>Thu, 07 Jul 2016 12:53:09 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/diversity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dlm</title>
+      <link>https://itsalocke.com/blog/tags/dlm/</link>
+      <pubDate>Fri, 16 Oct 2015 20:27:03 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/dlm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>https://itsalocke.com/blog/tags/docker/</link>
+      <pubDate>Mon, 24 Apr 2017 08:17:13 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Documentation</title>
+      <link>https://itsalocke.com/blog/tags/documentation/</link>
+      <pubDate>Mon, 01 Jun 2015 09:29:21 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/documentation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ec2</title>
+      <link>https://itsalocke.com/blog/tags/ec2/</link>
+      <pubDate>Sat, 11 May 2013 22:14:43 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/ec2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Editing</title>
+      <link>https://itsalocke.com/blog/tags/editing/</link>
+      <pubDate>Tue, 07 Apr 2015 08:24:38 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/editing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Elections</title>
+      <link>https://itsalocke.com/blog/tags/elections/</link>
+      <pubDate>Thu, 06 Oct 2016 09:27:57 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/elections/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Elitism</title>
+      <link>https://itsalocke.com/blog/tags/elitism/</link>
+      <pubDate>Thu, 07 Jul 2016 12:53:09 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/elitism/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Etl</title>
+      <link>https://itsalocke.com/blog/tags/etl/</link>
+      <pubDate>Mon, 11 Jul 2016 09:46:12 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/etl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Excel</title>
+      <link>https://itsalocke.com/blog/tags/excel/</link>
+      <pubDate>Tue, 20 Jan 2015 10:10:54 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/excel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Executive Briefing</title>
+      <link>https://itsalocke.com/blog/tags/executive-briefing/</link>
+      <pubDate>Wed, 07 Jun 2017 09:27:46 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/executive-briefing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Experts</title>
+      <link>https://itsalocke.com/blog/tags/experts/</link>
+      <pubDate>Wed, 29 Jun 2016 08:19:39 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/experts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Failures</title>
+      <link>https://itsalocke.com/blog/tags/failures/</link>
+      <pubDate>Mon, 11 Jul 2016 09:46:12 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/failures/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Feedback</title>
+      <link>https://itsalocke.com/blog/tags/feedback/</link>
+      <pubDate>Thu, 23 Jun 2016 11:59:34 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/feedback/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fonts</title>
+      <link>https://itsalocke.com/blog/tags/fonts/</link>
+      <pubDate>Mon, 13 Apr 2015 12:24:14 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/fonts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fundamentals</title>
+      <link>https://itsalocke.com/blog/tags/fundamentals/</link>
+      <pubDate>Mon, 18 Dec 2017 21:29:42 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/fundamentals/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Game</title>
+      <link>https://itsalocke.com/blog/tags/game/</link>
+      <pubDate>Sat, 17 Sep 2016 20:11:54 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/game/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gamemaker</title>
+      <link>https://itsalocke.com/blog/tags/gamemaker/</link>
+      <pubDate>Sat, 17 Sep 2016 20:11:54 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/gamemaker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Get Started</title>
+      <link>https://itsalocke.com/blog/tags/get-started/</link>
+      <pubDate>Tue, 02 May 2017 07:41:04 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/get-started/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gini Coefficient</title>
+      <link>https://itsalocke.com/blog/tags/gini-coefficient/</link>
+      <pubDate>Thu, 16 Apr 2015 10:22:38 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/gini-coefficient/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>https://itsalocke.com/blog/tags/git/</link>
+      <pubDate>Tue, 02 May 2017 12:10:32 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Github</title>
+      <link>https://itsalocke.com/blog/tags/github/</link>
+      <pubDate>Tue, 02 May 2017 12:10:32 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gwdp</title>
+      <link>https://itsalocke.com/blog/tags/gwdp/</link>
+      <pubDate>Fri, 28 Oct 2016 11:25:13 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/gwdp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hacks</title>
+      <link>https://itsalocke.com/blog/tags/hacks/</link>
+      <pubDate>Wed, 17 Jun 2015 12:34:22 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/hacks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Haveibeenpwned</title>
+      <link>https://itsalocke.com/blog/tags/haveibeenpwned/</link>
+      <pubDate>Fri, 05 May 2017 07:46:42 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/haveibeenpwned/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hibpwned</title>
+      <link>https://itsalocke.com/blog/tags/hibpwned/</link>
+      <pubDate>Fri, 05 May 2017 07:46:42 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/hibpwned/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Httr</title>
+      <link>https://itsalocke.com/blog/tags/httr/</link>
+      <pubDate>Fri, 20 Mar 2015 10:44:35 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/httr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://itsalocke.com/blog/tags/hugo/</link>
+      <pubDate>Wed, 20 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Icons</title>
+      <link>https://itsalocke.com/blog/tags/icons/</link>
+      <pubDate>Wed, 13 Jan 2016 17:32:14 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/icons/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Knitr</title>
+      <link>https://itsalocke.com/blog/tags/knitr/</link>
+      <pubDate>Wed, 22 Feb 2017 16:01:15 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/knitr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Latex</title>
+      <link>https://itsalocke.com/blog/tags/latex/</link>
+      <pubDate>Wed, 17 Jun 2015 12:34:22 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/latex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lightning Talks</title>
+      <link>https://itsalocke.com/blog/tags/lightning-talks/</link>
+      <pubDate>Tue, 12 Jul 2016 15:27:57 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/lightning-talks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linear Regression</title>
+      <link>https://itsalocke.com/blog/tags/linear-regression/</link>
+      <pubDate>Fri, 12 May 2017 08:31:48 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/linear-regression/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>https://itsalocke.com/blog/tags/linux/</link>
+      <pubDate>Sun, 30 Oct 2016 14:53:01 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux From Windows</title>
+      <link>https://itsalocke.com/blog/tags/linux-from-windows/</link>
+      <pubDate>Mon, 14 Mar 2016 13:41:06 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/linux-from-windows/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Logistic Regression</title>
+      <link>https://itsalocke.com/blog/tags/logistic-regression/</link>
+      <pubDate>Thu, 16 Apr 2015 10:22:38 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/logistic-regression/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Logistic Regressions</title>
+      <link>https://itsalocke.com/blog/tags/logistic-regressions/</link>
+      <pubDate>Fri, 12 May 2017 08:31:48 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/logistic-regressions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lookup</title>
+      <link>https://itsalocke.com/blog/tags/lookup/</link>
+      <pubDate>Sun, 23 Nov 2014 12:59:13 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/lookup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning</title>
+      <link>https://itsalocke.com/blog/tags/machine-learning/</link>
+      <pubDate>Fri, 28 Oct 2016 11:25:13 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Macros</title>
+      <link>https://itsalocke.com/blog/tags/macros/</link>
+      <pubDate>Tue, 27 Aug 2013 21:00:50 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/macros/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Magick</title>
+      <link>https://itsalocke.com/blog/tags/magick/</link>
+      <pubDate>Mon, 24 Apr 2017 08:17:13 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/magick/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Magrittr</title>
+      <link>https://itsalocke.com/blog/tags/magrittr/</link>
+      <pubDate>Mon, 09 Feb 2015 11:51:23 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/magrittr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Managing a Team</title>
+      <link>https://itsalocke.com/blog/tags/managing-a-team/</link>
+      <pubDate>Tue, 07 Apr 2015 08:24:38 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/managing-a-team/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mango</title>
+      <link>https://itsalocke.com/blog/tags/mango/</link>
+      <pubDate>Wed, 28 Oct 2015 17:10:32 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/mango/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Marketing</title>
+      <link>https://itsalocke.com/blog/tags/marketing/</link>
+      <pubDate>Thu, 24 Nov 2016 10:46:40 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/marketing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Medrianchor</title>
+      <link>https://itsalocke.com/blog/tags/medrianchor/</link>
+      <pubDate>Thu, 31 Dec 2015 11:47:29 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/medrianchor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mentoring</title>
+      <link>https://itsalocke.com/blog/tags/mentoring/</link>
+      <pubDate>Wed, 11 Nov 2015 09:43:11 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/mentoring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Merge</title>
+      <link>https://itsalocke.com/blog/tags/merge/</link>
+      <pubDate>Fri, 24 May 2013 15:23:29 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/merge/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Microsoft</title>
+      <link>https://itsalocke.com/blog/tags/microsoft/</link>
+      <pubDate>Mon, 07 Mar 2016 09:55:13 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/microsoft/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Microsoft Cognitive Services</title>
+      <link>https://itsalocke.com/blog/tags/microsoft-cognitive-services/</link>
+      <pubDate>Tue, 13 Jun 2017 10:20:40 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/microsoft-cognitive-services/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Microsoft Edge</title>
+      <link>https://itsalocke.com/blog/tags/microsoft-edge/</link>
+      <pubDate>Wed, 09 Mar 2016 14:08:53 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/microsoft-edge/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Microsoft R Server</title>
+      <link>https://itsalocke.com/blog/tags/microsoft-r-server/</link>
+      <pubDate>Fri, 26 May 2017 08:00:04 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/microsoft-r-server/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mockaroo</title>
+      <link>https://itsalocke.com/blog/tags/mockaroo/</link>
+      <pubDate>Thu, 24 Mar 2016 15:44:03 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/mockaroo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mssql</title>
+      <link>https://itsalocke.com/blog/tags/mssql/</link>
+      <pubDate>Fri, 26 May 2017 08:00:04 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/mssql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mvp</title>
+      <link>https://itsalocke.com/blog/tags/mvp/</link>
+      <pubDate>Mon, 14 Nov 2016 10:29:45 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/mvp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mvp Summit</title>
+      <link>https://itsalocke.com/blog/tags/mvp-summit/</link>
+      <pubDate>Mon, 14 Nov 2016 10:29:45 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/mvp-summit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mysql</title>
+      <link>https://itsalocke.com/blog/tags/mysql/</link>
+      <pubDate>Sat, 03 Jan 2015 16:21:11 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/mysql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Odbc</title>
+      <link>https://itsalocke.com/blog/tags/odbc/</link>
+      <pubDate>Wed, 20 Apr 2016 14:13:28 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/odbc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Open Source</title>
+      <link>https://itsalocke.com/blog/tags/open-source/</link>
+      <pubDate>Tue, 02 May 2017 12:10:32 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/open-source/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Opportunity</title>
+      <link>https://itsalocke.com/blog/tags/opportunity/</link>
+      <pubDate>Fri, 28 Oct 2016 11:25:13 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/opportunity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Optirum</title>
+      <link>https://itsalocke.com/blog/tags/optirum/</link>
+      <pubDate>Mon, 04 Jan 2016 07:26:14 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/optirum/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pageant</title>
+      <link>https://itsalocke.com/blog/tags/pageant/</link>
+      <pubDate>Mon, 14 Mar 2016 13:41:06 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/pageant/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pass</title>
+      <link>https://itsalocke.com/blog/tags/pass/</link>
+      <pubDate>Thu, 06 Oct 2016 09:27:57 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/pass/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pdf</title>
+      <link>https://itsalocke.com/blog/tags/pdf/</link>
+      <pubDate>Wed, 09 Mar 2016 14:08:53 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/pdf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Photoshop</title>
+      <link>https://itsalocke.com/blog/tags/photoshop/</link>
+      <pubDate>Tue, 13 Jan 2015 10:59:21 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/photoshop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Plink</title>
+      <link>https://itsalocke.com/blog/tags/plink/</link>
+      <pubDate>Mon, 14 Mar 2016 13:41:06 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/plink/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Powerbi</title>
+      <link>https://itsalocke.com/blog/tags/powerbi/</link>
+      <pubDate>Wed, 01 Jun 2016 08:09:32 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/powerbi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Powershell</title>
+      <link>https://itsalocke.com/blog/tags/powershell/</link>
+      <pubDate>Mon, 11 Jul 2016 09:46:12 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/powershell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Presentation</title>
+      <link>https://itsalocke.com/blog/tags/presentation/</link>
+      <pubDate>Tue, 12 Jul 2016 15:27:57 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/presentation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Presentations</title>
+      <link>https://itsalocke.com/blog/tags/presentations/</link>
+      <pubDate>Sat, 17 Jun 2017 09:29:42 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/presentations/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Presenting</title>
+      <link>https://itsalocke.com/blog/tags/presenting/</link>
+      <pubDate>Wed, 07 Jun 2017 09:27:46 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/presenting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Process</title>
+      <link>https://itsalocke.com/blog/tags/process/</link>
+      <pubDate>Fri, 13 Jan 2017 15:28:32 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/process/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Productivity</title>
+      <link>https://itsalocke.com/blog/tags/productivity/</link>
+      <pubDate>Fri, 19 May 2017 08:02:26 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/productivity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Professional Development</title>
+      <link>https://itsalocke.com/blog/tags/professional-development/</link>
+      <pubDate>Fri, 13 Jan 2017 15:28:32 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/professional-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Purrr</title>
+      <link>https://itsalocke.com/blog/tags/purrr/</link>
+      <pubDate>Tue, 13 Jun 2017 10:20:40 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/purrr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Putty</title>
+      <link>https://itsalocke.com/blog/tags/putty/</link>
+      <pubDate>Mon, 14 Mar 2016 13:41:06 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/putty/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://itsalocke.com/blog/tags/python/</link>
+      <pubDate>Wed, 22 Feb 2017 16:01:15 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Qnamaker</title>
+      <link>https://itsalocke.com/blog/tags/qnamaker/</link>
+      <pubDate>Mon, 22 May 2017 08:24:04 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/qnamaker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Quick Tip</title>
+      <link>https://itsalocke.com/blog/tags/quick-tip/</link>
+      <pubDate>Mon, 08 May 2017 08:32:00 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/quick-tip/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>https://itsalocke.com/blog/tags/r/</link>
+      <pubDate>Mon, 18 Dec 2017 21:29:42 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R Basics</title>
+      <link>https://itsalocke.com/blog/tags/r-basics/</link>
+      <pubDate>Sun, 11 Jan 2015 16:56:22 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/r-basics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R Consortium</title>
+      <link>https://itsalocke.com/blog/tags/r-consortium/</link>
+      <pubDate>Wed, 06 Jan 2016 14:54:37 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/r-consortium/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reports</title>
+      <link>https://itsalocke.com/blog/tags/reports/</link>
+      <pubDate>Wed, 18 Feb 2015 11:41:21 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/reports/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Resolution</title>
+      <link>https://itsalocke.com/blog/tags/resolution/</link>
+      <pubDate>Wed, 13 Jan 2016 17:32:14 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/resolution/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ribbon</title>
+      <link>https://itsalocke.com/blog/tags/ribbon/</link>
+      <pubDate>Fri, 24 May 2013 15:23:29 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/ribbon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rmarkdown</title>
+      <link>https://itsalocke.com/blog/tags/rmarkdown/</link>
+      <pubDate>Fri, 19 May 2017 08:02:26 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/rmarkdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rocker</title>
+      <link>https://itsalocke.com/blog/tags/rocker/</link>
+      <pubDate>Mon, 24 Apr 2017 08:17:13 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/rocker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rstudio</title>
+      <link>https://itsalocke.com/blog/tags/rstudio/</link>
+      <pubDate>Mon, 24 Apr 2017 08:17:13 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/rstudio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Satrday</title>
+      <link>https://itsalocke.com/blog/tags/satrday/</link>
+      <pubDate>Fri, 21 Oct 2016 14:59:50 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/satrday/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scaling</title>
+      <link>https://itsalocke.com/blog/tags/scaling/</link>
+      <pubDate>Wed, 13 Jan 2016 17:32:14 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/scaling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scripts</title>
+      <link>https://itsalocke.com/blog/tags/scripts/</link>
+      <pubDate>Sun, 30 Oct 2016 14:53:01 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/scripts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Security</title>
+      <link>https://itsalocke.com/blog/tags/security/</link>
+      <pubDate>Thu, 23 Jun 2016 09:08:43 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sentiment Analysis</title>
+      <link>https://itsalocke.com/blog/tags/sentiment-analysis/</link>
+      <pubDate>Tue, 13 Jun 2017 10:20:40 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/sentiment-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shiny</title>
+      <link>https://itsalocke.com/blog/tags/shiny/</link>
+      <pubDate>Fri, 28 Apr 2017 10:27:55 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/shiny/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shiny Design Patterns</title>
+      <link>https://itsalocke.com/blog/tags/shiny-design-patterns/</link>
+      <pubDate>Tue, 19 Apr 2016 10:15:19 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/shiny-design-patterns/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sixth Normal Form</title>
+      <link>https://itsalocke.com/blog/tags/sixth-normal-form/</link>
+      <pubDate>Thu, 31 Dec 2015 11:47:29 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/sixth-normal-form/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Skype</title>
+      <link>https://itsalocke.com/blog/tags/skype/</link>
+      <pubDate>Mon, 15 May 2017 08:00:27 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/skype/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Slack</title>
+      <link>https://itsalocke.com/blog/tags/slack/</link>
+      <pubDate>Fri, 21 Oct 2016 14:59:50 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/slack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Software Development</title>
+      <link>https://itsalocke.com/blog/tags/software-development/</link>
+      <pubDate>Tue, 07 Apr 2015 08:24:38 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/software-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Software Development in R</title>
+      <link>https://itsalocke.com/blog/tags/software-development-in-r/</link>
+      <pubDate>Tue, 09 May 2017 10:02:18 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/software-development-in-r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Source Control</title>
+      <link>https://itsalocke.com/blog/tags/source-control/</link>
+      <pubDate>Fri, 20 Mar 2015 10:44:35 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/source-control/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Speaking</title>
+      <link>https://itsalocke.com/blog/tags/speaking/</link>
+      <pubDate>Tue, 08 Nov 2016 10:42:48 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/speaking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sponsor</title>
+      <link>https://itsalocke.com/blog/tags/sponsor/</link>
+      <pubDate>Mon, 01 Aug 2016 09:00:10 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/sponsor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sponsoring Community Events</title>
+      <link>https://itsalocke.com/blog/tags/sponsoring-community-events/</link>
+      <pubDate>Tue, 18 Apr 2017 08:28:40 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/sponsoring-community-events/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sponsorship Basics</title>
+      <link>https://itsalocke.com/blog/tags/sponsorship-basics/</link>
+      <pubDate>Thu, 04 Aug 2016 10:35:03 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/sponsorship-basics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sql Fundamentals</title>
+      <link>https://itsalocke.com/blog/tags/sql-fundamentals/</link>
+      <pubDate>Mon, 10 Nov 2014 15:40:15 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/sql-fundamentals/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sql Relay</title>
+      <link>https://itsalocke.com/blog/tags/sql-relay/</link>
+      <pubDate>Thu, 13 Oct 2016 08:35:58 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/sql-relay/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sql Server</title>
+      <link>https://itsalocke.com/blog/tags/sql-server/</link>
+      <pubDate>Fri, 26 May 2017 08:00:04 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/sql-server/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sql Tricks</title>
+      <link>https://itsalocke.com/blog/tags/sql-tricks/</link>
+      <pubDate>Tue, 15 Mar 2016 09:59:42 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/sql-tricks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sqlcardiff</title>
+      <link>https://itsalocke.com/blog/tags/sqlcardiff/</link>
+      <pubDate>Tue, 15 Mar 2016 09:59:42 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/sqlcardiff/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sqlrelay</title>
+      <link>https://itsalocke.com/blog/tags/sqlrelay/</link>
+      <pubDate>Thu, 13 Oct 2016 08:35:58 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/sqlrelay/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ssas</title>
+      <link>https://itsalocke.com/blog/tags/ssas/</link>
+      <pubDate>Thu, 06 Nov 2014 16:18:48 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/ssas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ssdt</title>
+      <link>https://itsalocke.com/blog/tags/ssdt/</link>
+      <pubDate>Mon, 10 Oct 2016 08:00:08 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/ssdt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ssh</title>
+      <link>https://itsalocke.com/blog/tags/ssh/</link>
+      <pubDate>Mon, 14 Mar 2016 13:41:06 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/ssh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ssh Tunnel</title>
+      <link>https://itsalocke.com/blog/tags/ssh-tunnel/</link>
+      <pubDate>Mon, 14 Mar 2016 13:41:06 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/ssh-tunnel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ssis</title>
+      <link>https://itsalocke.com/blog/tags/ssis/</link>
+      <pubDate>Fri, 16 Oct 2015 20:27:03 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/ssis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ssl</title>
+      <link>https://itsalocke.com/blog/tags/ssl/</link>
+      <pubDate>Fri, 07 Oct 2016 08:46:31 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/ssl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ssrs</title>
+      <link>https://itsalocke.com/blog/tags/ssrs/</link>
+      <pubDate>Fri, 16 Oct 2015 20:27:03 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/ssrs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Statistics</title>
+      <link>https://itsalocke.com/blog/tags/statistics/</link>
+      <pubDate>Fri, 12 May 2017 08:31:48 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/statistics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Statuspost</title>
+      <link>https://itsalocke.com/blog/tags/statuspost/</link>
+      <pubDate>Wed, 07 Jun 2017 09:27:46 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/statuspost/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stream Analytics</title>
+      <link>https://itsalocke.com/blog/tags/stream-analytics/</link>
+      <pubDate>Mon, 06 Apr 2015 09:27:05 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/stream-analytics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stuff I Read This Week</title>
+      <link>https://itsalocke.com/blog/tags/stuff-i-read-this-week/</link>
+      <pubDate>Wed, 15 Apr 2015 08:20:34 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/stuff-i-read-this-week/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Surviving</title>
+      <link>https://itsalocke.com/blog/tags/surviving/</link>
+      <pubDate>Tue, 01 Mar 2016 20:08:37 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/surviving/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Temporal Tables</title>
+      <link>https://itsalocke.com/blog/tags/temporal-tables/</link>
+      <pubDate>Fri, 26 May 2017 08:00:04 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/temporal-tables/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Test Coverage</title>
+      <link>https://itsalocke.com/blog/tags/test-coverage/</link>
+      <pubDate>Mon, 20 Apr 2015 09:06:36 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/test-coverage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Text</title>
+      <link>https://itsalocke.com/blog/tags/text/</link>
+      <pubDate>Wed, 13 Jan 2016 17:32:14 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/text/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tfs</title>
+      <link>https://itsalocke.com/blog/tags/tfs/</link>
+      <pubDate>Fri, 20 Mar 2015 10:44:35 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/tfs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tfsr</title>
+      <link>https://itsalocke.com/blog/tags/tfsr/</link>
+      <pubDate>Thu, 24 Mar 2016 15:44:03 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/tfsr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tick</title>
+      <link>https://itsalocke.com/blog/tags/tick/</link>
+      <pubDate>Sun, 12 May 2013 14:03:09 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/tick/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tidyverse</title>
+      <link>https://itsalocke.com/blog/tags/tidyverse/</link>
+      <pubDate>Mon, 18 Dec 2017 21:29:42 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/tidyverse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Time Series</title>
+      <link>https://itsalocke.com/blog/tags/time-series/</link>
+      <pubDate>Mon, 20 Feb 2017 10:46:20 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/time-series/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tip</title>
+      <link>https://itsalocke.com/blog/tags/tip/</link>
+      <pubDate>Tue, 20 Jan 2015 10:10:54 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/tip/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Training</title>
+      <link>https://itsalocke.com/blog/tags/training/</link>
+      <pubDate>Wed, 07 Jun 2017 09:27:46 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/training/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Travis Ci</title>
+      <link>https://itsalocke.com/blog/tags/travis-ci/</link>
+      <pubDate>Fri, 19 May 2017 08:02:26 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/travis-ci/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Troubleshooting</title>
+      <link>https://itsalocke.com/blog/tags/troubleshooting/</link>
+      <pubDate>Wed, 03 May 2017 17:57:13 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/troubleshooting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tutorial</title>
+      <link>https://itsalocke.com/blog/tags/tutorial/</link>
+      <pubDate>Fri, 16 Aug 2013 17:06:24 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/tutorial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Twitter</title>
+      <link>https://itsalocke.com/blog/tags/twitter/</link>
+      <pubDate>Fri, 27 Feb 2015 13:01:49 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/twitter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unit Testing</title>
+      <link>https://itsalocke.com/blog/tags/unit-testing/</link>
+      <pubDate>Mon, 10 Oct 2016 08:00:08 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/unit-testing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>User Group</title>
+      <link>https://itsalocke.com/blog/tags/user-group/</link>
+      <pubDate>Wed, 07 Jun 2017 09:27:46 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/user-group/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vb</title>
+      <link>https://itsalocke.com/blog/tags/vb/</link>
+      <pubDate>Sun, 23 Nov 2014 12:59:13 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/vb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vba</title>
+      <link>https://itsalocke.com/blog/tags/vba/</link>
+      <pubDate>Tue, 27 Aug 2013 21:00:50 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/vba/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Video</title>
+      <link>https://itsalocke.com/blog/tags/video/</link>
+      <pubDate>Fri, 21 Apr 2017 09:02:44 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/video/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visual Studio</title>
+      <link>https://itsalocke.com/blog/tags/visual-studio/</link>
+      <pubDate>Mon, 13 Apr 2015 12:24:14 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/visual-studio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visual Studio Online</title>
+      <link>https://itsalocke.com/blog/tags/visual-studio-online/</link>
+      <pubDate>Fri, 20 Mar 2015 10:44:35 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/visual-studio-online/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visual Studio Team Services</title>
+      <link>https://itsalocke.com/blog/tags/visual-studio-team-services/</link>
+      <pubDate>Fri, 20 Mar 2015 10:44:35 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/visual-studio-team-services/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wdt</title>
+      <link>https://itsalocke.com/blog/tags/wdt/</link>
+      <pubDate>Sat, 24 Oct 2015 08:35:00 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/wdt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web Scraping</title>
+      <link>https://itsalocke.com/blog/tags/web-scraping/</link>
+      <pubDate>Sun, 11 Jan 2015 16:56:22 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/web-scraping/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Windows</title>
+      <link>https://itsalocke.com/blog/tags/windows/</link>
+      <pubDate>Wed, 03 May 2017 17:57:13 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/windows/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wit</title>
+      <link>https://itsalocke.com/blog/tags/wit/</link>
+      <pubDate>Thu, 07 Jul 2016 12:53:09 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/wit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wordpress</title>
+      <link>https://itsalocke.com/blog/tags/wordpress/</link>
+      <pubDate>Mon, 15 May 2017 08:00:27 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/wordpress/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Xps13</title>
+      <link>https://itsalocke.com/blog/tags/xps13/</link>
+      <pubDate>Wed, 13 Jan 2016 17:32:14 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/xps13/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zoomit</title>
+      <link>https://itsalocke.com/blog/tags/zoomit/</link>
+      <pubDate>Mon, 13 Apr 2015 12:24:14 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/tags/zoomit/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

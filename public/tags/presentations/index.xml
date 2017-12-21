@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Presentations on Locke Data Blog</title>
+    <link>https://itsalocke.com/blog/tags/presentations/</link>
+    <description>Recent content in Presentations on Locke Data Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
+    <lastBuildDate>Sat, 17 Jun 2017 09:29:42 +0000</lastBuildDate>
+    
+	<atom:link href="https://itsalocke.com/blog/tags/presentations/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>All my talks in one place (plus a Hugo walkthrough!)</title>
+      <link>https://itsalocke.com/blog/all-my-talks-in-one-place-plus-a-hugo-walkthrough/</link>
+      <pubDate>Sat, 17 Jun 2017 09:29:42 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/all-my-talks-in-one-place-plus-a-hugo-walkthrough/</guid>
+      <description>I mentioned in an earlier post about how I&amp;#8217;m revamping my presentation slides process but that I hadn&amp;#8217;t tackled the user experience of browsing my slides, which wasted lots of the effort I put in. To tackle this part of it, I&amp;#8217;ve made lockedata.uk using Hugo to be a way of finding and browsing presentations on R, SQL, and more. As Hugo is so easy, I thought I&amp;#8217;d throw in a quick Hugo walkthrough too so that you could build your own blog/slides/company site if you wanted to.</description>
+    </item>
+    
+    <item>
+      <title>Improving automatic document production with R</title>
+      <link>https://itsalocke.com/blog/improving-automatic-document-production-with-r/</link>
+      <pubDate>Fri, 19 May 2017 08:02:26 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/improving-automatic-document-production-with-r/</guid>
+      <description>In this post, I describe the latest iteration of my automatic document production with R. It improves upon the methods used in Rtraining, and previous work on this topic can read by going to the auto deploying R documentation tag.
+I keep banging on about this area because reproducible research / analytical document pipelines is an area I&amp;#8217;ve a keen interest in. I see it as a core part of DataOps as it&amp;#8217;s vital for helping us ensure our models and analysis are correct in data science and boosting our productivity.</description>
+    </item>
+    
+    <item>
+      <title>Should presenters have to pay to attend?</title>
+      <link>https://itsalocke.com/blog/should-presenters-have-to-pay-to-attend/</link>
+      <pubDate>Mon, 07 Dec 2015 15:55:36 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/should-presenters-have-to-pay-to-attend/</guid>
+      <description>I recently did something for the first time: I declined to speak somewhere. It was never stated on the submission page, and was raised only after my session was accepted &amp;#8211; they wanted me to buy a ticket to attend and I refused&amp;nbsp;to do that.
+As a speaker I love donating my time and I really don&amp;#8217;t mind paying my own&amp;nbsp;Travel and Expenses (T&amp;amp;E) but to have to pay to get in the door of the place I&amp;#8217;m speaking at feels wrong.</description>
+    </item>
+    
+    <item>
+      <title>Stuff I read this week</title>
+      <link>https://itsalocke.com/blog/stuff-i-read-this-week/</link>
+      <pubDate>Fri, 13 Feb 2015 15:45:58 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/stuff-i-read-this-week/</guid>
+      <description>Here&amp;#8217;s a selection of articles etc. that I found really interesting this week:
+ Gendered Language in Teacher Reviews Knowledge units &amp;#8211; the atoms of statistical education SQLBits in The Register Paul Randal: Want to be mentored by me? Replacing Middle Management with APIs R in Business Intelligence The RHS assignment operator in R Ooh R Can Microsoft make R easy?  </description>
+    </item>
+    
+    <item>
+      <title>A busy month or so</title>
+      <link>https://itsalocke.com/blog/a-busy-month-or-so/</link>
+      <pubDate>Wed, 11 Feb 2015 15:15:36 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/a-busy-month-or-so/</guid>
+      <description>I&amp;#8217;m really looking forward to a few months of user group and conference awesomeness:
+ Feb 24: CaRdiff presenting Shiny: Dashboards in R Feb 26: Oxford UG presenting Learning the ropes via the community Mar 4-6: Helping out at SQLBits Mar 7: SQLBits presenting Shiny: Dashboards in R Mar 9: SQL Cardiff with Jen &amp;amp; Sean McCown presenting Mar 17: Diff.Net with Scott Hanselman presenting Mar 31: SQL Cardiff with the Battle of the Beards  Then even more fun kicks in with a SQLSaturday Exeter precon, a visit to unified.</description>
+    </item>
+    
+    <item>
+      <title>Conference sessions – basic web scraping in R</title>
+      <link>https://itsalocke.com/blog/conference-sessions--basic-web-scraping-in-r/</link>
+      <pubDate>Sun, 11 Jan 2015 16:56:22 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/conference-sessions--basic-web-scraping-in-r/</guid>
+      <description>&lt;p&gt;It&amp;#8217;s a bit sad but I enjoy dissecting what sessions are submitted to conferences I&amp;#8217;m involved in or speak at. Instead of doing it primarily by eye, I&amp;#8217;ve started dabbling in web scraping in R to do it. Initially, I used RCurl and my latest snippet uses rvest.&lt;/p&gt;
+
+&lt;p&gt;The first snippet for &lt;a href=&#34;http://sqlbits.com&#34; title=&#34;SQLBits&#34; target=&#34;_blank&#34;&gt;SQLBits&lt;/a&gt; bit of R code uses &lt;a href=&#34;http://cran.r-project.org/web/packages/RCurl/&#34; title=&#34;RCurl on CRAN&#34; target=&#34;_blank&#34;&gt;RCurl&lt;/a&gt; but it&amp;#8217;s cumbersome, plus for &lt;a href=&#34;https://www.sqlsaturday.com/372/schedule.aspx&#34; title=&#34;SQLSaturday Exeter&#34; target=&#34;_blank&#34;&gt;SQLSaturday Exeter&lt;/a&gt; there is SSL to contend with. Using &lt;a href=&#34;http://cran.r-project.org/web/packages/rvest/&#34; title=&#34;rvest on CRAN&#34; target=&#34;_blank&#34;&gt;rvest&lt;/a&gt; makes it really easy and it was an excellent excuse to get around to using &lt;a href=&#34;http://cran.r-project.org/web/packages/magrittr/&#34; title=&#34;magrittr on CRAN&#34; target=&#34;_blank&#34;&gt;magrittr&lt;/a&gt;, Hadley Wickham&amp;#8217;s pipe code paradigm for R.&lt;/p&gt;
+
+&lt;p&gt;Blogger tip: I also wanted the opportunity to see how Gists imported into WordPress &amp;#8211; you just c&amp;amp;p the url in (into the code, no URL markup) and WordPress automatically pulls in the Gist. For more info on this see &lt;a href=&#34;http://en.support.wordpress.com/gist/&#34; title=&#34;Wordpress support - Gist&#34; target=&#34;_blank&#34;&gt;WordPress&amp;#8217; article on Gist&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Fiddly SSRS</title>
+      <link>https://itsalocke.com/blog/fiddly-ssrs/</link>
+      <pubDate>Thu, 28 Nov 2013 01:15:25 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/fiddly-ssrs/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

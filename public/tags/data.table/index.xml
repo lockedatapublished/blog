@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data.table on Locke Data Blog</title>
+    <link>https://itsalocke.com/blog/tags/data.table/</link>
+    <description>Recent content in Data.table on Locke Data Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
+    <lastBuildDate>Tue, 05 Apr 2016 14:05:26 +0000</lastBuildDate>
+    
+	<atom:link href="https://itsalocke.com/blog/tags/data.table/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>R Quick Tip: Collapse a lists of data.frames with data.table</title>
+      <link>https://itsalocke.com/blog/r-quick-tip-collapse-a-lists-of-data.frames-with-data.table/</link>
+      <pubDate>Tue, 05 Apr 2016 14:05:26 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/r-quick-tip-collapse-a-lists-of-data.frames-with-data.table/</guid>
+      <description>&lt;p&gt;With my &lt;a href=&#34;https://github.com/stephlocke/HIBPwned&#34;&gt;HIBPwned&lt;/a&gt; package, I consume the &lt;a href=&#34;https://haveibeenpwned.com/&#34;&gt;HaveIBeenPwned&lt;/a&gt; API and return back a list object with an element for each email address. Each element holds a data.frame of breach data or a stub response with a single column data.frame containing NA. Elements are named with the email addresses they relate to. I had a list of data.frames and I wanted a consolidated data.frame (well, I always want a data.table).&lt;/p&gt;
+
+&lt;p&gt;Enter data.table &amp;#8230;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://cran.r-project.org/package=data.table&#34;&gt;data.table&lt;/a&gt; has a very cool, and &lt;a href=&#34;http://stackoverflow.com/questions/15673550/why-is-rbindlist-better-than-rbind&#34;&gt;very fast&lt;/a&gt; function named &lt;code&gt;rbindlist()&lt;/code&gt;. This takes a list of data.frames and consolidates them into one data.table, which can, of course, be handled as a data.frame if you didn&amp;#8217;t want to use data.table for anything else.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>An R data.table cookbook</title>
+      <link>https://itsalocke.com/blog/an-r-data.table-cookbook/</link>
+      <pubDate>Wed, 08 Apr 2015 11:47:08 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/an-r-data.table-cookbook/</guid>
+      <description>For my precon on R at the end of the month I&amp;#8217;m working on the takeaway &amp;#8212; the handout. This&amp;#8217;ll be thing that makes the training day able to be put into practice immediately, and refills all those drink and sleep depleted neurons back up with R knowledge.
+One of the things is a simple data.table cookbook. If you&amp;#8217;re a data.table user, what other tasks do you think should be on there?</description>
+    </item>
+    
+  </channel>
+</rss>

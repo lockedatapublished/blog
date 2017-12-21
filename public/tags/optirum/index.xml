@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Optirum on Locke Data Blog</title>
+    <link>https://itsalocke.com/blog/tags/optirum/</link>
+    <description>Recent content in Optirum on Locke Data Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
+    <lastBuildDate>Mon, 04 Jan 2016 07:26:14 +0000</lastBuildDate>
+    
+	<atom:link href="https://itsalocke.com/blog/tags/optirum/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>optiRum 0.37.3 now out</title>
+      <link>https://itsalocke.com/blog/optirum-0.37.3-now-out/</link>
+      <pubDate>Mon, 04 Jan 2016 07:26:14 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/optirum-0.37.3-now-out/</guid>
+      <description>Just a quick heads up to announce the availability of optiRum 0.37.3 &amp;#8211; this takes into account the new version of ggplot2 and is backwards compatible.</description>
+    </item>
+    
+    <item>
+      <title>optiRum 0.37.1 now out</title>
+      <link>https://itsalocke.com/blog/optirum-0.37.1-now-out/</link>
+      <pubDate>Sat, 07 Nov 2015 19:26:10 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/optirum-0.37.1-now-out/</guid>
+      <description>&lt;p&gt;A while back, I &lt;a href=&#34;https://itsalocke.com/optirum-gini-like-a-wizard/&#34;&gt;wrote about how I was waiting&lt;/a&gt; to be able to release &lt;a href=&#34;https://github.com/stephlocke/optiRum&#34;&gt;optiRum&lt;/a&gt; to CRAN, well data.table 1.9.6 was released (a key dependency for new functionality) and I&amp;#8217;ve finally had some quiet time. So optiRum 1.37.1 is now accepted and trickling through the CRAN publish processes.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>optiRum – presentation</title>
+      <link>https://itsalocke.com/blog/optirum--presentation/</link>
+      <pubDate>Wed, 03 Jun 2015 15:00:31 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/optirum--presentation/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;http://cran.r-project.org/web/packages/optiRum/&#34; title=&#34;optiRum on CRAN&#34; target=&#34;_blank&#34;&gt;optiRum&lt;/a&gt;, the R package I built and support for Optimum on CRAN has gained some extra functions recently. Some of it uses currently experimental data.table functionality so I&amp;#8217;m eagerly awaiting the release to CRAN to deliver optiRum.&lt;/p&gt;
+
+&lt;p&gt;In the interim, I thought I&amp;#8217;d give some brief overviews of &lt;strong&gt;existing&lt;/strong&gt; functionality contained in the package.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The next part of &lt;a href=&#34;https://itsalocke.com/optirum-gini-like-a-wizard/&#34; target=&#34;_blank&#34;&gt;the coverage&lt;/a&gt; of &lt;a href=&#34;https://github.com/stephlocke/optiRum&#34; target=&#34;_blank&#34;&gt;optiRum&lt;/a&gt; functionality is to talk about the stuff that makes generating outputs easier!&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>optiRum – gini like a wizard</title>
+      <link>https://itsalocke.com/blog/optirum--gini-like-a-wizard/</link>
+      <pubDate>Thu, 16 Apr 2015 10:22:38 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/optirum--gini-like-a-wizard/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;http://cran.r-project.org/web/packages/optiRum/&#34; title=&#34;optiRum on CRAN&#34; target=&#34;_blank&#34;&gt;optiRum&lt;/a&gt;, the R package I built and maintain for Optimum on CRAN has gained some extra functions recently. Some of it uses currently experimental data.table functionality so I&amp;#8217;m eagerly awaiting the release to CRAN to deliver optiRum.&lt;/p&gt;
+
+&lt;p&gt;In the interim, I thought I&amp;#8217;d give some brief overviews of &lt;strong&gt;existing&lt;/strong&gt; functionality contained in the package.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I do a lot of regression models and one of the common tools for assessing a regression&amp;#8217;s ability to accurately model an event is to produce a Gini chart and a Gini coefficient. The higher the Gini coefficient, the more your model is able to discriminate probability accurately.&lt;/p&gt;
+
+&lt;p&gt;I simplify the process of producing gini charts (&lt;code&gt;giniChart&lt;/code&gt;) and coefficients (&lt;code&gt;giniCoef&lt;/code&gt;) so that I get a chart in one simple step.&lt;/p&gt;
+
+&lt;p&gt;Under the hood this uses the &lt;a href=&#34;http://cran.r-project.org/web/packages/AUC/&#34; title=&#34;AUC on CRAN&#34; target=&#34;_blank&#34;&gt;AUC&lt;/a&gt; package to get the coefficient, &lt;a href=&#34;http://cran.r-project.org/web/packages/scales/&#34; title=&#34;scales on CRAN&#34; target=&#34;_blank&#34;&gt;scales&lt;/a&gt; to format it and &lt;a href=&#34;http://docs.ggplot2.org/current/&#34; title=&#34;ggplot2 documentation&#34; target=&#34;_blank&#34;&gt;ggplot2&lt;/a&gt; to produce the chart. Using ggplot leads to a better looking chart that can also be tweaked to suit your needs since a ggplot object is returned by the function.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

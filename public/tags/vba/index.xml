@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vba on Locke Data Blog</title>
+    <link>https://itsalocke.com/blog/tags/vba/</link>
+    <description>Recent content in Vba on Locke Data Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
+    <lastBuildDate>Tue, 27 Aug 2013 21:00:50 +0000</lastBuildDate>
+    
+	<atom:link href="https://itsalocke.com/blog/tags/vba/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dynamic named range generator</title>
+      <link>https://itsalocke.com/blog/dynamic-named-range-generator/</link>
+      <pubDate>Tue, 27 Aug 2013 21:00:50 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/dynamic-named-range-generator/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Why do I use &lt;a title=&#34;Dynamic named ranges – the basics&#34; href=&#34;https://itsalocke.com/index.php/dynamic-named-ranges-the-basics/&#34; target=&#34;_blank&#34;&gt;dynamic named ranges&lt;/a&gt;?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Where I work, most reports are exposed via a web front-end and Excel can create an external connection and retrieve the information.&amp;nbsp; This is much safer than using direct database connections in workbooks.&amp;nbsp; A problem with web queries though is that they cannot be converted to Tables in order for referencing columns and the dataset as a whole to be made easier.&amp;nbsp; As a result, dynamic named ranges are a necessity for producing easy to develop and manage spreadsheets since the volumes in the raw data can change over time.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How I save myself time&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A raw data table with 20 columns will take a long time to create the named ranges for, given that I want:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;A dynamic range covering the headers too for pivot tables&lt;/li&gt;
+&lt;li&gt;A dynamic range without headers for vlookups&lt;/li&gt;
+&lt;li&gt;A dynamic range for each column without headers&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I use a macro, assigned to a nice button on my ribbon, to generate all the relevant ranges.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What are the special considerations?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Structure &amp;#8211; raw data tables should ALWAYS be set up in a specific way &amp;#8211; with the Primary Key on the left hand side and always filled in, with no empty rows or columns&lt;/p&gt;
+
+&lt;p&gt;Special characters &amp;#8211; range names can&amp;#8217;t contain special characters.&amp;nbsp; The VBA uses the &lt;a title=&#34;RegEx functions in VBA&#34; href=&#34;https://itsalocke.com/index.php/regex-functions-in-vba/&#34; target=&#34;_blank&#34;&gt;RegEx&lt;/a&gt; functionality to strip these out.&lt;/p&gt;
+
+&lt;p&gt;Numbers &amp;#8211; range names can&amp;#8217;t have numbers either.&amp;nbsp; We can&amp;#8217;t just strip out the numbers like we would special characters because they might be important like Grade1, Grade2 and Grade3 and collapsing them all to the name Grade would be a problem.&amp;nbsp; Instead, the macro converts all numbers to the corresponding letter in the alphabet.&lt;/p&gt;
+
+&lt;p&gt;How much the data will grow?&amp;nbsp; By default I set the macro to use 10 times the number of records present when I run the macro &amp;#8211; if it&amp;#8217;s already bigger than 25k rows, the number will need to be reduced, and if I don&amp;#8217;t think 10 times the number will be adequate, I&amp;#8217;ll increase the number.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>RegEx functions in VBA</title>
+      <link>https://itsalocke.com/blog/regex-functions-in-vba/</link>
+      <pubDate>Tue, 20 Aug 2013 18:55:37 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/regex-functions-in-vba/</guid>
+      <description>Regular Expressions (RegEx) is a common string processing technique for handling strings that conform to patterns, as opposed to fixed strings.XKCD Perl Problems
+It is an excellent set of functionality that is available in most programming languages, and even in SQL. It is however not readily available in Excel or VBA. This has it downsides if you&amp;#8217;re trying to complex string matching and extraction, so in my personal workbook, I include the RegEx functions available at http://www.</description>
+    </item>
+    
+    <item>
+      <title>Center across selection</title>
+      <link>https://itsalocke.com/blog/center-across-selection/</link>
+      <pubDate>Fri, 24 May 2013 15:23:29 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/center-across-selection/</guid>
+      <description>Merging cells is easily done and can help make a spreadsheet look neat, but what you really, really should be doing instead is centering across the selection so it looks merged but isn&amp;#8217;t. Center across selection though is hidden away and therefore time-consuming to use &amp;#8211; no wonder people have bad habits! I wanted to do things the better way, but was lazy, so in the end I made a macro to go in my personal workbook and assigned it to my ribbon (I do this a lot).</description>
+    </item>
+    
+    <item>
+      <title>Time to go home…</title>
+      <link>https://itsalocke.com/blog/time-to-go-home/</link>
+      <pubDate>Sun, 19 May 2013 15:19:04 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/time-to-go-home/</guid>
+      <description>I do a lot of work in spreadsheets and some cannot be left open on my PC as that&amp;#8217;d make them locked for the morning report refresh. After a bunch of times having to buy cakes for so delaying the reports, I put something in place to stop it. It also had the very nice side effect of telling me to go home.
+The first thing to do is make sure you have a personal workbook.</description>
+    </item>
+    
+    <item>
+      <title>Objectless Check Boxes using VBA</title>
+      <link>https://itsalocke.com/blog/objectless-check-boxes-using-vba/</link>
+      <pubDate>Sun, 12 May 2013 14:03:09 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/objectless-check-boxes-using-vba/</guid>
+      <description>&lt;p&gt;For my first ever blog post (be gentle with me!) I wanted to talk about an issue I have with Excel’s check box object, and my way of resolving it. It’s not perfect, and I’d love to hear of any other versions or ideas you may have. So here&amp;#8217;s how I create check boxes in Excel without using Excel check boxes.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;h2 id=&#34;the-problem-with-check-box-objects&#34;&gt;The Problem with Check Box Objects&lt;/h2&gt;
+
+&lt;p&gt;They look good and they work well, there’s no denying they do what they’re supposed to, but they also annoy the heck out of me!&lt;/p&gt;
+
+&lt;p&gt;&lt;li style=&#34;list-style-type: circle;&#34;&gt;
+  As far as I’ve been able to find they can’t be properly bound to a cell; this means if you want to get rid of them you need to select them and delete them, which can be a big job
+&lt;/li&gt;
+&lt;li style=&#34;list-style-type: circle;&#34;&gt;
+  If you want to refer to their state in simple terms you need to add a linked cell and refer to that, which to me is just plain messy
+&lt;/li&gt;
+&lt;li style=&#34;list-style-type: circle;&#34;&gt;
+  They’re awkward to format and style and if you want a big tick you need a big box and as such you need a big cell… again, messy
+&lt;/li&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&#34;color: #99cc00;&#34;&gt;&lt;/span&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

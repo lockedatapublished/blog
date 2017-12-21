@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Skype on Locke Data Blog</title>
+    <link>https://itsalocke.com/blog/tags/skype/</link>
+    <description>Recent content in Skype on Locke Data Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
+    <lastBuildDate>Mon, 15 May 2017 08:00:27 +0000</lastBuildDate>
+    
+	<atom:link href="https://itsalocke.com/blog/tags/skype/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Easy-peasy Q&amp;A bot</title>
+      <link>https://itsalocke.com/blog/easy-peasy-qa-bot/</link>
+      <pubDate>Mon, 15 May 2017 08:00:27 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/easy-peasy-qa-bot/</guid>
+      <description>Everyone seems to have a live chat option for their site but I&amp;#8217;m frequently away, so I wanted something that people could talk to interactively. This is a perfect scenario for a Q&amp;amp;A bot. Microsoft takes a ton of the pain out of Q&amp;amp;A bots, and it was much easier than I thought to get it added to my WordPress blog. Here is a how to do it for your site.</description>
+    </item>
+    
+  </channel>
+</rss>

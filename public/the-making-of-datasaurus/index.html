@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+    <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.31.1" />
+    <title>The making of datasauRus</title>
+    
+    
+    
+	  <meta property="og:title" content="The making of datasauRus" />
+<meta property="og:description" content="Around 8:30pm I saw this tweet and duly retweeted
+https://t.co/WuyU9D6npK  &mdash; Richie Cotton (@richierocks) May 1, 2017  It turns out awesome folks, George and Justin, had made a process whereby they can generate different distributions of points that retain the same summary statistics. They used this process for making some friends for Dino the Datasaurus who was created by Alberto Cairo. They made the data for Dino and the rest of the Datasaurus Dozen available for download." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://itsalocke.com/blog/the-making-of-datasaurus/" />
+
+
+
+<meta property="article:published_time" content="2017-05-02T12:10:32&#43;00:00"/>
+
+<meta property="article:modified_time" content="2017-05-02T12:10:32&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="The making of datasauRus">
+<meta itemprop="description" content="Around 8:30pm I saw this tweet and duly retweeted
+https://t.co/WuyU9D6npK  &mdash; Richie Cotton (@richierocks) May 1, 2017  It turns out awesome folks, George and Justin, had made a process whereby they can generate different distributions of points that retain the same summary statistics. They used this process for making some friends for Dino the Datasaurus who was created by Alberto Cairo. They made the data for Dino and the rest of the Datasaurus Dozen available for download.">
+
+
+<meta itemprop="datePublished" content="2017-05-02T12:10:32&#43;00:00" />
+<meta itemprop="dateModified" content="2017-05-02T12:10:32&#43;00:00" />
+<meta itemprop="wordCount" content="740">
+
+
+
+<meta itemprop="keywords" content="best practices,continuous integration,coveralls,git,github,open source,r,software development in r,travis-ci," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="The making of datasauRus"/>
+<meta name="twitter:description" content="Around 8:30pm I saw this tweet and duly retweeted
+https://t.co/WuyU9D6npK  &mdash; Richie Cotton (@richierocks) May 1, 2017  It turns out awesome folks, George and Justin, had made a process whereby they can generate different distributions of points that retain the same summary statistics. They used this process for making some friends for Dino the Datasaurus who was created by Alberto Cairo. They made the data for Dino and the rest of the Datasaurus Dozen available for download."/>
+<meta name="twitter:site" content="@lockedata"/>
+
+    <meta name="description" content="Locke Data helps organisations get started with data science. Grow your skills with our blog posts." />
+    <meta name="keywords" content='best practices,continuous integration,coveralls,git,github,open source,r,software development in r,travis-ci' />
+    
+        <meta name="author" content="Steph" />
+    
+    
+	
+    <link rel="stylesheet" href="https://itsalocke.com/blog/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://itsalocke.com/blog/css/highlightjs-themes/androidstudio.css" />
+    <link rel="stylesheet" href="https://itsalocke.com/blog/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://itsalocke.com/blog/css/lockedata.css" />
+    
+        
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({
+                    google_ad_client: "ca-pub-XXXXXX",
+                    enable_page_level_ads: true
+                });
+            </script>
+        
+    
+</head>
+
+    <body>
+        <!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+        <a class="navbar-brand page-scroll" href="/blog/#page-top">
+          
+          <img src="https://itsalocke.com/blog/img/LockeDataTextNew.svg" class="img-responsive" alt="">
+        </a>
+      
+
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="hidden">
+          <a href="/blog/#page-top"></a>
+        </li>
+        
+          <li>
+            <a href="https://itsalocke.com">Locke Data</a>
+          </li>
+        
+          <li>
+            <a href="https://itsalocke.com/blog/">Blog</a>
+          </li>
+        
+
+        
+        
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container-fluid -->
+</nav>
+
+        <div id="top" class="container">
+            <div class="row" id="content-main">
+                    <div class="row">
+    <div class="col-md-12 content-card">
+        <h1>The making of datasauRus</h1>
+        
+            
+            <ul class="list-inline meta">
+                <li><i class="fa fa-calendar"></i>May 2, 2017</li>
+                <li><i class="fa fa-user"></i>Steph</li>
+                
+                    
+                    <li><i class="fa fa-folder"></i><a href="https://itsalocke.com/categories/r">R</a></li>
+                
+            </ul>
+        
+        
+    <ul class="list-inline tags" style="margin-top: 15px; margin-left: 0px">
+        
+            <li style=""><a href="https://itsalocke.com/tags/best-practices">best practices</a></li>
+        
+            <li style=""><a href="https://itsalocke.com/tags/continuous-integration">continuous integration</a></li>
+        
+            <li style=""><a href="https://itsalocke.com/tags/coveralls">coveralls</a></li>
+        
+            <li style=""><a href="https://itsalocke.com/tags/git">git</a></li>
+        
+            <li style=""><a href="https://itsalocke.com/tags/github">github</a></li>
+        
+            <li style=""><a href="https://itsalocke.com/tags/open-source">open source</a></li>
+        
+            <li style=""><a href="https://itsalocke.com/tags/r">r</a></li>
+        
+            <li style=""><a href="https://itsalocke.com/tags/software-development-in-r">software development in r</a></li>
+        
+            <li style=""><a href="https://itsalocke.com/tags/travis-ci">travis-ci</a></li>
+        
+    </ul>
+
+
+        
+
+<p>Around 8:30pm I saw this tweet and duly retweeted</p>
+
+<blockquote class="twitter-tweet" data-width="525">
+  <p lang="en" dir="ltr">
+    <throws away Anscombe quartet> <a href="https://t.co/WuyU9D6npK">https://t.co/WuyU9D6npK</a>
+  </p>
+  
+  <p>
+    &mdash; Richie Cotton (@richierocks) <a href="https://twitter.com/richierocks/status/859126142405677056">May 1, 2017</a>
+  </p>
+</blockquote>
+
+<p>It turns out awesome folks, <a href="https://www.autodeskresearch.com/people/george-fitzmaurice">George</a> and <a href="https://www.autodeskresearch.com/people/justin-matejka">Justin</a>, had made a process whereby they can <a href="https://www.autodeskresearch.com/publications/samestats">generate different distributions of points</a> that retain the same summary statistics. They used this process for making some friends for Dino the Datasaurus who was created by <a href="http://www.thefunctionalart.com/">Alberto Cairo</a>. They made the data for Dino and the rest of the Datasaurus Dozen available for download.</p>
+
+<p>The data seemed like an ideal thing to get into R, so it was R package development time!</p>
+
+<p>I know a lot of folks can be a bit scared of producing packages so I thought I&#8217;d share the workflow so folks can see how easy the actual package bits and bobs can be.</p>
+
+<h2 id="starting-a-package">Starting a package</h2>
+
+<p>For a long time I&#8217;ve been using <a href="https://cran.r-project.org/package=devtools"><code>devtools</code></a> to make package building easier, and indeed I still do. However, I wanted to be even lazier so I didn&#8217;t even have to type out the ~10 lines of code to set up a best practice package. To be lazy, I made a package called <a href="https://github.com/lockedata/pRojects"><code>pRojects</code></a>. <code>pRojects</code> helps with the initial setup of different project types, including packages. It&#8217;s still under development and it&#8217;s a great place to cut your teeth on contributing to a package.</p>
+
+<p>To start the <a href="https://github.com/stephlocke/datasauRus"><code>datasauRus</code></a> package I just did:</p>
+
+<pre><code class="r">install.packages("devtools")
+devtools::install_github("lockedata/pRojects")
+pRojects::createPackageProject("datasauRus")
+</code></pre>
+
+<blockquote>
+<p>Well, I&#8217;ve already got those prerequisites so I only did 1 line!</p>
+</blockquote>
+
+<p>Then some (optional) online stuff is required to complete the awesomeness:</p>
+
+<ol>
+<li><a href="https://help.github.com/articles/creating-a-new-repository/">Create a new repository on github</a></li>
+<li><a href="https://travis-ci.org/getting_started">Turn on travis continuous integration</a></li>
+<li><a href="https://coveralls.zendesk.com/hc/en-us">Turn on coveralls</a></li>
+</ol>
+
+<p>Then we need to add github repository to our project. I use the git command line for this:</p>
+
+<pre><code class="r">git remote add origin git@github.com:stephlocke/datasauRus.git
+git push --set-upstream origin master
+</code></pre>
+
+<p>With just these things, I have a package that contains the unit test framework, documentation stubs, continuous integration and test coverage, and source control.</p>
+
+<p>That is all you need to do to get things going!</p>
+
+<h2 id="adding-package-contents">Adding package contents</h2>
+
+<p>I&#8217;m not going to take you through an in-depth piece on writing package contents as Hadley does that extremely well in <a href="http://r-pkgs.had.co.nz/">R packages</a> (or get the <a href="http://geni.us/rpkgs">book</a>). This package only requires datasets to be built.</p>
+
+<p><a href="https://github.com/LucyMcGowan">Lucy McGowan</a> made a PR overnight that converted the raw data (stored in <code>inst/extdata/</code>) into R datasets (stored in <code>data</code>) with this R code:</p>
+
+<pre><code>[embedGitHubContent owner=&quot;stephlocke&quot; repo=&quot;datasauRus&quot; path=&quot;R/convert.R&quot; cache_id=&quot;dd32b0ec8708bcc92c85ed085538ddb9f754c725&quot;]
+</code></pre>
+
+<p>This made <code>.Rda</code> files that would now be loaded when the package installed. Lucy also added minimal documentation for each file too in the R package doc created by default in the package setup phase. Each data entry looks like:</p>
+
+<pre><code>#'Datasaurus Dozen (wide) data
+&quot;datasaurus_dozen_wide&quot;
+</code></pre>
+
+<h2 id="adding-tests">Adding tests</h2>
+
+<p>We don&#8217;t have functions in this package but we do have datasets, so I wanted to write some unit tests for these.</p>
+
+<p>Unit testing with <a href="https://cran.r-project.org/package=testthat"><code>testthat</code></a> is setup by default so I just needed to add a file beginning with <code>test-</code> into the <code>test/testthat/</code> directory that contained some tests about the data.</p>
+
+<p>As the code would be repetitive, I made a function that could be applied to each dataset.</p>
+
+<pre><code class="r">context("datasets")
+
+datashapetests&lt;-function(df, ncols, nrows, uniquecol=NULL, nuniques=NULL){
+  expect_equal(ncol(df),ncols)
+  expect_equal(nrow(df),nrows)
+  if(!is.null(uniquecol))
+  expect_equal(nrow(unique(df[uniquecol])),nuniques)
+}
+
+test_that("box_plots is correctly shaped",{
+  datashapetests(box_plots,6,2484)
+})
+
+test_that("datasaurus_dozen is correctly shaped",{
+  datashapetests(datasaurus_dozen,3,1846,"dataset",13)
+})
+</code></pre>
+
+<h2 id="documentation">Documentation</h2>
+
+<p>I mentioned some of the minimally written dataset documentation. These should be expanded, and the <a href="https://github.com/stephlocke/datasauRus/issues/3">vignette needs filling in</a>. This could be based on the information I&#8217;ve already provided in the README. Once the documentation is polished, this package could go to CRAN.</p>
+
+<h2 id="run-checks">Run checks</h2>
+
+<p>Once you&#8217;ve made some changes to your package, you should make sure your code passes it&#8217;s unit tests, that documentation is correctly structured, and that your code compiles. Remove as many warnings and notes as possibles.</p>
+
+<p>Do this with <code>devtools</code>:</p>
+
+<pre><code class="r">devtools::check()
+</code></pre>
+
+<p>Travis CI will also verify your code passes these checks in a clean environment, and if you hooked up code coverage then you&#8217;ll see how much your tests test your codebase.</p>
+
+<h2 id="that-8217-s-it">That&#8217;s it</h2>
+
+<p>There can be nuance in writing your own functions and coding defensively, but you can now make a great package skeleton in just one line of code. The <a href="https://github.com/stephlocke/datasauRus"><code>datasauRus</code></a> is almost ready to go to CRAN and it took less than 50 lines of code, including the package contents. I hope this has been some useful insight into R package development.</p>
+
+<p>If you want to tackle making your first package, I&#8217;ll happily give you a hand &#8211; book into my <a href="https://calendly.com/lockedata/officehours">office hours</a> and let&#8217;s do it!</p>
+
+		</div>
+		
+</div>
+    <div class="row">
+    <div class="col-md-12 card">
+        <h5>Search</h5>
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form">
+            <div class="input-group">
+                <input class="form-control" type="search" name="q" />
+                <span class="input-group-btn">
+                    <button class="btn btn-primary" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+                </span>
+            </div>
+            <input type="hidden" name="q" value="site:https://itsalocke.com/blog/">
+        </form>
+    </div>
+</div>
+
+<div class="row">
+		  <div class="col-md-12 content-card">
+        
+    <ul class="list-inline share" style="margin-top: 15px; margin-left: 0px">
+        <li class="facebook-share"><a target="_blank" href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fitsalocke.com%2fblog%2fthe-making-of-datasaurus%2f"><i class="fa fa-facebook fa-lg"></i>Facebook</a></li>
+        <li class="googleplus-share"><a target="_blank" href="https://plus.google.com/share?url=https%3a%2f%2fitsalocke.com%2fblog%2fthe-making-of-datasaurus%2f"><i class="fa fa-google-plus fa-lg"></i>Google+</a></li>
+        <li class="twitter-share"><a target="_blank" href="https://twitter.com/share?url=https%3a%2f%2fitsalocke.com%2fblog%2fthe-making-of-datasaurus%2f&amp;text=The%20making%20of%20datasauRus"><i class="fa fa-twitter fa-lg"></i>Twitter</a></li>
+        <li class="reddit-share"><a target="_blank" href="http://reddit.com/submit?url=https%3a%2f%2fitsalocke.com%2fblog%2fthe-making-of-datasaurus%2f&amp;title=The%20making%20of%20datasauRus"><i class="fa fa-reddit fa-lg"></i>Reddit</a></li>
+        <li class="linkedin-share"><a target="_blank" href="http://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fitsalocke.com%2fblog%2fthe-making-of-datasaurus%2f"><i class="fa fa-linkedin fa-lg"></i>LinkedIn</a></li>
+        <li class="stumbleupon-share"><a target="_blank" href="http://www.stumbleupon.com/submit?url=https%3a%2f%2fitsalocke.com%2fblog%2fthe-making-of-datasaurus%2f&amp;title=The%20making%20of%20datasauRus"><i class="fa fa-stumbleupon fa-lg"></i>StumbleUpon</a></li>
+    </ul>
+
+
+    </div>
+	</div>
+
+                    
+    
+        <div class="row">
+            <div class="col-md-12 content-card">
+                <div id="disqus_thread"></div>
+                <script>
+                    (function() {
+                        if (window.location.hostname == "localhost") {
+                            document.write("Disqus comments are unavailable while serving on localhost or 127.0.0.1");
+                            return;
+                        }
+                        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                        var disqus_shortname = 'itsalocke';
+                        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                    })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+            </div>
+        </div>
+    
+
+
+            </div>
+        </div>
+        <!-- Footer section -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <span class="copyright">
+          <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+        </span>
+      </div>
+      <div class="col-md-4">
+        <ul class="list-inline social-buttons">
+          
+            <li>
+              <a href="https://twitter.com/lockedata"><i class='fa fa-twitter'></i></a>
+            </li>
+          
+            <li>
+              <a href="https://facebook.com/lockedata"><i class='fa fa-facebook'></i></a>
+            </li>
+          
+            <li>
+              <a href="https://linkedin.com/company/locke-data"><i class='fa fa-linkedin'></i></a>
+            </li>
+          
+            <li>
+              <a href="https://github.com/lockedata"><i class='fa fa-github'></i></a>
+            </li>
+          
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <ul class="list-inline quicklinks">
+          
+            <li>
+              <a href="/blog/index.xml">RSS</a>
+            </li>
+          
+            <li>
+              <a href="https://itsalocke.com/company/policies">Legalese and stuff</a>
+            </li>
+          
+            <li>
+              <a href="https://goo.gl/forms/KQiYR201Fcn4k9Zh2">Bug Bounty</a>
+            </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+        <div id="back-to-top" class="hidden">
+    <a href="#top" class="well well-sm" onclick="$('html,body').animate({scrollTop:0},'slow');return false;">
+        <i class="glyphicon glyphicon-chevron-up"></i> Back to Top
+    </a>
+</div>
+<script src="https://itsalocke.com/blog/js/jquery.min.js"></script>
+<script src="https://itsalocke.com/blog/js/bootstrap.min.js"></script>
+<script src="https://itsalocke.com/blog/js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script>
+    if(($(window).height() + 100) < $(document).height()) {
+        $('#back-to-top').removeClass('hidden').affix({
+            offset: {
+                top: 100
+            }
+        });
+    }
+</script>
+
+    
+        <script>
+            
+            [].forEach.call(document.querySelectorAll('.adsbygoogle'), function() {
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            });
+        </script>
+    
+
+
+    
+ 
+ 
+ <script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-58415537-1', 'auto');
+
+
+ga('require', 'eventTracker');
+ga('require', 'outboundLinkTracker');
+ga('require', 'urlChangeTracker');
+ga('require', 'cleanUrlTracker');
+ga('require', 'impressionTracker');
+ga('require', 'maxScrollTracker');
+ga('require', 'pageVisibilityTracker');
+
+
+ga('send', 'pageview');
+</script>
+<script async src="https://www.google-analytics.com/analytics.js"></script>
+<script async src="js/autotrack.js"></script>
+
+
+
+
+    </body>
+</html>

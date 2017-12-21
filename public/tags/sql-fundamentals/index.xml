@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sql Fundamentals on Locke Data Blog</title>
+    <link>https://itsalocke.com/blog/tags/sql-fundamentals/</link>
+    <description>Recent content in Sql Fundamentals on Locke Data Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
+    <lastBuildDate>Mon, 10 Nov 2014 15:40:15 +0000</lastBuildDate>
+    
+	<atom:link href="https://itsalocke.com/blog/tags/sql-fundamentals/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The basics of Common Table Expressions (CTEs)</title>
+      <link>https://itsalocke.com/blog/the-basics-of-common-table-expressions-ctes/</link>
+      <pubDate>Mon, 10 Nov 2014 15:40:15 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/the-basics-of-common-table-expressions-ctes/</guid>
+      <description>Another quick post off the back of a SQL Lunch a did a while ago. Explore it via SQLFiddle: http://sqlfiddle.com/#!6/ad7f5/7/0
+What is a CTE? A Common Table Expression (CTE) is essentially a function defining a relation instead of a table.
+This function outputs a table (like all queries) that is only present within the session, but data isn&amp;#8217;t stored in tempdb like with a temporary table.
+Why CTE&amp;#8217;s? CTEs are designed primarily to allow recursion within SQL &amp;#8211; like a loop but ideal at working with hierarchies.</description>
+    </item>
+    
+  </channel>
+</rss>
