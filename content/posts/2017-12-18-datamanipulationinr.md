@@ -28,6 +28,10 @@ tags:
 
 Introducing the core skill of working with tabular data, this book goes from importing data, to analysing it, and then getting it back out for consumption elsewhere. Leaning heavily on the tidyverse, I think it's an accessible introduction for those new to analysing data.
 
+- [Formats](#formats)
+- [What's Next](#whats-next)
+- [What's Covered](#whats-covered)
+
 ## Formats
 You can get the book in a variety of formats to suit your requirements.
 
