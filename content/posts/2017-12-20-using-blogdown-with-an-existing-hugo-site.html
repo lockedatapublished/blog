@@ -1,0 +1,35 @@
+---
+title: Using blogdown with an existing Hugo site
+author: steph
+date: '2017-12-20'
+slug: using-blogdown-with-an-existing-hugo-site
+categories:
+  - R
+  - Misc Technology
+  - Community
+tags:
+  - blogging
+  - hugo
+  - blogdown
+  - blog
+---
+
+
+
+<p>If you decide you want to use R in your existing Hugo blog, it’s really easy to convert over. There’s a single command you need to know from blogdown and the rest is working out your deployment process.</p>
+<p>To create content, use the blogdown Rstudio add-in to quickly get started. This niftily reads all tags and categories from past posts to help you get going.</p>
+<div class="figure">
+<img src="../img/usingblogdownaddin.jpg" />
+
+</div>
+<p>You can then write Rmarkdown as usual. The workflow differs in that, instead of hitting the Knit button or using <code>rmarkdown::render()</code>, you use <code>blogdown::build_site()</code> instead.</p>
+<pre class="r"><code>blogdown::build_site()</code></pre>
+<p>This will process all your <code>.Rmd</code> and <code>.md</code> files and run the <code>hugo</code> command. This works <em>in place</em> of <code>hugo</code> so you will need to alter your deployment process to just pick up from the <code>public/</code> directory instead of running Hugo.</p>
+<p>You can then publish the content from the <code>public/</code> directory.</p>
+<p>Converting your existing Hugo site to <code>blogdown</code> is actually super simple - it’s literally one command, <code>blogdown::build_site()</code>. The bit that will take some work is changing your deployment workflow.</p>
+<div id="using-blogdown-in-a-cicd-environment" class="section level2">
+<h2>Using <code>blogdown</code> in a CI/CD environment</h2>
+<p>If you want to use some sort of automated build, you can use <a href="https://travis-ci.org">travis</a> to run the <code>build_site()</code> and commit changes the <code>public/</code> dir changes. If you do this, don’t forget to include <code>[ci skip]</code> at the beginning of your commit message to avoid an infinite loop of builds.</p>
+<p>Once you have the files automatically building, you can then deploy using something like <a href="https://netlify.com">netlify</a> and simply remove the build command as it’ll only need to retrieve the content from the <code>public/</code> directory.</p>
+<p>Check out how <a href="https://github.com/lockedatapublished/blog">this project does it</a> for an approach that updates the GitHub repo, or check out <a href="https://github.com/yihui/travis-blogdown">Yihui’s example</a> for a direct GitHub Pages deployment approach.</p>
+</div>

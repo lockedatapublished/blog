@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>&lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0&#34; src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.</copyright>
-    <lastBuildDate>Fri, 14 Apr 2017 18:00:59 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 29 Dec 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://itsalocke.com/blog/tags/conferences/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Working with PDFs - scraping the PASS budget</title>
+      <link>https://itsalocke.com/blog/working-with-pdfs---scraping-the-pass-budget/</link>
+      <pubDate>Fri, 29 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://itsalocke.com/blog/working-with-pdfs---scraping-the-pass-budget/</guid>
+      <description>Using tabulizer we’re able to extract information from PDFs so it comes in really handy when people publish data as a PDF! This post takes you through using tabulizer and tidyverse packages to scrape and clean up some budget data from PASS, an association for the Micrsosoft Data Platform community. The goal is mainly show some of the tricks of the data wrangling trade that you may need to utilise when you scrape data from PDFs.</description>
+    </item>
     
     <item>
       <title>Community workshops</title>
