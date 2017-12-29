@@ -14,12 +14,12 @@ tags:
 
 Using [`tabulizer`](https://github.com/ropensci/tabulizer) we're able to extract information from PDFs so it comes in really handy when people publish data as a PDF! This post takes you through using `tabulizer` and `tidyverse` packages to scrape and clean up some budget data from [PASS](https://sqlpass.org), an association for the Micrsosoft Data Platform community. The goal is mainly show some of the tricks of the data wrangling trade that you may need to utilise when you scrape data from PDFs.
 
-``` r
+</code></pre>r
 library(tabulizer)
 library(tidyverse)
 library(zoo)
 library(tidytext)
-```
+</code></pre>
 
 Reading the PDF
 ---------------
@@ -28,13 +28,13 @@ With `tabulizer`, if the data is relatively well formatted in a PDF you can use 
 
 We need to fall back to `tabulizer::extract_text()` and do a lot of wrangling to reconstruct the tables.
 
-``` r
+<pre><code class="r">
 "http://www.pass.org/Portals/0/Governance%202016/Financials/pass-budget-2017.pdf?ver=2017-01-25-235556-197" %>%
   tabulizer::extract_text() ->
   rawtxt
 
 str_trunc(rawtxt, 1000)
-```
+</code></pre>
 
     ## [1] "Department Summary Budget 2016 Budget 2017\r\nREVENUE\r\nCorporate Administration - 110 11,000.00$                    11,000.00$                     \r\nInformation Technology - 111 74,000.00$                    106,480.00$                   \r\nBoard Support - 112 -$                               -$                                \r\nMember Services - 114 6,000.00$                      22,500.00$                     \r\nMarketing - 115 -$                               -$                                \r\nChapters - 120 -$                               -$                                \r\nVolunteer Programs & Engagement - 130 -$                               -$                                \r\nSpecial Projects - 140 -$                               -$                                \r\nSQL Saturday - 150 -$                               38,400.00$                     \r\nVirtual Events - 160 51,662.50$                    68,800.00$                     \r\nGlobal Growth - 170 -$                         ..."
 
@@ -43,11 +43,11 @@ Converting the results to tabular data
 
 The PDF contents are a continuous string so we need to split this up. Each line seems to be seperated by `\r\n` and we can use the `tidytext` package to easily split these lines out into seperate elements.
 
-``` r
+<pre><code class="r">
 rawtxt %>%
   tokenize(tokenizer = tokenizer_line()) %>% 
   head()
-```
+</code></pre>
 
     ## [[1]]
     ## [1] "Department Summary Budget 2016 Budget 2017"
@@ -69,14 +69,14 @@ rawtxt %>%
 
 There's now a load of spaces between the budget item, the 2016 amount, and the 2017 amount. We need to remove excess spaces and transform each of these lines into individual elements using `str_split()`.
 
-``` r
+<pre><code class="r">
 rawtxt %>%
   tokenize(tokenizer = tokenizer_line()) %>%
   str_replace_all("\\s+", " ") %>%
   str_trim(side = "both") %>%
   str_split(" ") %>% 
   head()
-```
+</code></pre>
 
     ## [[1]]
     ## [1] "Department" "Summary"    "Budget"     "2016"       "Budget"    
@@ -104,7 +104,7 @@ Looking at the splits, we have too many elements from the budget line item names
 
 This function looks at each set of split elements and processes them. If there are enough elements and the last one ends with a `$` we can combine everything bar the last two elements into the line item. If there is no `$` line or it's too short, we can put everything into the line item.
 
-``` r
+<pre><code class="r">
 combineLHS <- function(x) {
   n <- length(x)
   if (str_detect(x[n],"\\$$")&n>=3) {
@@ -117,11 +117,11 @@ combineLHS <- function(x) {
                b2017="")
   }
 }
-```
+</code></pre>
 
 This is a non vectorised function which means it can't be applied to every line at once. To get around this we can leverage `purrr::map_df()` to apply the function to every element and combine into one big data.frame.
 
-``` r
+<pre><code class="r">
 rawtxt %>%
   tokenize(tokenizer = tokenizer_line()) %>%
   str_replace_all("\\s+", " ") %>%
@@ -132,7 +132,7 @@ rawtxt %>%
 
 rawdata %>% 
   head()
-```
+</code></pre>
 
     ## # A tibble: 6 x 3
     ##   lineItem                                   b2016      b2017      
@@ -151,7 +151,7 @@ Now that we have a tabular data set, it now needs to be made useful. We now need
 
 I wrote a function to clean up the monetary amounts.
 
-``` r
+<pre><code class="r">
 moneycleaner <- function(x) {
   x %>%
     str_replace_all("[$,]|[[:space:]]", "") %>%
@@ -163,11 +163,11 @@ moneycleaner <- function(x) {
            .) %>%
     as.numeric()
 }
-```
+</code></pre>
 
 I'm going to write inline comments about what each bit is doing to avoid a lot of repetition here as I clean up the data.
 
-``` r
+<pre><code class="r">
 rawdata %>%
   mutate(
     ## Count the switches between table types
@@ -199,7 +199,7 @@ rawdata %>%
     b2017=ifelse(Type=="Expense",-1,1)*b2017
     ) ->
   alldata
-```
+</code></pre>
 
     ## Warning in function_list[[k]](value): NAs introduced by coercion
 
@@ -215,15 +215,15 @@ rawdata %>%
 
 Now we can filter to only rows we need.
 
-``` r
+<pre><code class="r">
 alldata %>% 
   filter(!IgnoreRow)->
   flaggeddata
-```
+</code></pre>
 
 We can further split this into summary tables (the first two) and the detail tables (everything after).
 
-``` r
+<pre><code class="r">
 flaggeddata %>%
   filter(TblChange <= 2)  %>% 
   select(
@@ -239,7 +239,7 @@ flaggeddata %>%
    -(TblChange:Title ), -IgnoreRow
     ) ->
   detaildata
-```
+</code></pre>
 
     ## # A tibble: 6 x 5
     ##   lineItem                               b2016    b2017 Type    Dept      
