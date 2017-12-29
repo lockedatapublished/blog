@@ -2,6 +2,7 @@ baseurl                 = "https://itsalocke.com/blog/"
 languageCode            = "en-gb"
 title                   = "Locke Data Blog"
 theme                   = "hugo-lockedata-blog"
+pygmentsCodeFences = true
 
 
 [permalinks]
