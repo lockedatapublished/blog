@@ -40,10 +40,12 @@ You can read the whole [gist][5] but the key code includes:
 
   * A random password generation step
 
-    write.csv(data.frame(usernames=paste0("u",stringr::str_pad(1:n,pad = "0",width = 3))
+``` r
+write.csv(data.frame(usernames=paste0("u",stringr::str_pad(1:n,pad = "0",width = 3))
                          ,pwords=random::randomStrings(n,len = 6,digits = FALSE,loweralpha = FALSE))
               ,"users100.csv",row.names = FALSE)
-    
+   
+```
 
   * A read of my blank card back
 
@@ -54,9 +56,10 @@ You can read the whole [gist][5] but the key code includes:
       * Writing out the text to the card back
       * Save a new card back
 
-    myimage2 <- magick::image_annotate(  myimage, "lockedata.biz", font = "Roboto", size = 90, location = "+350+75" )
-    magick::image_write(myimage2, paste0("GeneratedBacks/",basename, up[i,"usernames"], ".", baseext))
-    
+``` r
+myimage2 <- magick::image_annotate(  myimage, "lockedata.biz", font = "Roboto", size = 90, location = "+350+75" )
+magick::image_write(myimage2, paste0("GeneratedBacks/",basename, up[i,"usernames"], ".", baseext))
+ ```   
 
 ## Making users
 
