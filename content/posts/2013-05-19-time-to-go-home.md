@@ -17,7 +17,7 @@ The first thing to do is make sure you have a <a href="http://bit.ly/14F9j9y" ti
 
 This code goes in the ThisWorkbook object:
 
-<pre lang="vb" line="1">Private Sub Workbook_Open()
+<pre lang="en" line="1">Private Sub Workbook_Open()
 'Feel free to change the time - I just like to be a 9 to 5er  
 Application.OnTime TimeValue("17:15:00"), Procedure:="gohome"
 End Sub
@@ -25,7 +25,7 @@ End Sub
 
 Then, this code goes in one of your modules:
 
-<pre lang="vb" line="1">Sub gohome()
+<pre lang="en" line="1">Sub gohome()
  
 Dim WB As Workbook
 For Each WB In Workbooks
