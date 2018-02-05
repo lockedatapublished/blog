@@ -17,15 +17,17 @@ The first thing to do is make sure you have a <a href="http://bit.ly/14F9j9y" ti
 
 This code goes in the ThisWorkbook object:
 
-<pre lang="en" line="1">Private Sub Workbook_Open()
+```{.vb}
+Private Sub Workbook_Open()
 'Feel free to change the time - I just like to be a 9 to 5er  
 Application.OnTime TimeValue("17:15:00"), Procedure:="gohome"
 End Sub
-</pre>
+```
 
 Then, this code goes in one of your modules:
 
-<pre lang="en" line="1">Sub gohome()
+```{.vb}
+Sub gohome()
  
 Dim WB As Workbook
 For Each WB In Workbooks
@@ -42,6 +44,6 @@ Next WB
 MsgBox("I just had to close your spreadsheets. You'd better go meet Oz since you're late! ")
 
 End Sub
-</pre>
+```
 
 The result is a macro that will save to your preferred location any spreadsheet still open at the time you think you should be going home. It saves to my desktop by default so that I don&#8217;t make any changes accidentally.
