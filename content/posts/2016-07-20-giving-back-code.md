@@ -80,15 +80,19 @@ There&#8217;s a risk people may be mean on the internet &#8211; not everyone fol
 
 See what some great code contributors think and/or check out Scott Hanselman on [Getting Started in Open Source][16].
 
-### Ed Elliot
+### Ed Elliott
 
-[<img class="alignright" src="https://pbs.twimg.com/profile_images/534827912713629696/gKeK9kCN.png" alt="Ed Elliot" width="213" height="213" />][17]Ed writes code to help people develop databases in a more code-driven fashion; he&#8217;s helping us ship better databases. As well as a [lot of code][18], he presents a heck of a lot, and you can find him blogging at [agilesql.club][19]
+[<img class="alignright" src="https://media-exp2.licdn.com/media/p/2/005/08c/224/2ed3ee0.jpg" alt="Ed Elliot" style="width:213px;height:213px;" />][17]
+
+Ed writes code to help people develop databases in a more code-driven fashion; he&#8217;s helping us ship better databases. As well as a [lot of code][18], he presents a heck of a lot, and you can find him blogging at [agilesql.club][19]
 
 > There are three main reasons that I contribute code to the community. Firstly, I learn more by letting other people use the code I write when they give feedback. If I write something and it sits forever on a USB drive then I don&#8217;t learn what edge (or sometimes not so edge) cases I have missed. I lose out on the opportunity to learn and improve. Secondly, I use open source tools and feel that if I have benefited from work (often a lot of hard work, take Linux as an example) then maybe someone else will benefit from something I have written. Finally, the third reason is the people, I have met and interacted with people that I would never have without sharing code. 
 
 ### Chrissy LeMaire
 
-[<img class="alignright" src="https://media.licdn.com/media/AAEAAQAAAAAAAAUaAAAAJGMwYWI1ODk5LTQwNmQtNDk5Mi1hYzM5LTQwZDk5YmUxM2ExOQ.jpg" alt="Chrissy LeMaire" width="213" height="213" />][20] Chrissy is helping DBAs have more time to eat cakes. In seriousness, Chrissy codes and develops the community around [dbatools.io][21], a PowerShell module for primarily aimed at helping DBAs migrate their SQL Servers in record time and safety. Check out [today&#8217;s announcement][22] about how it&#8217;s helping people work within best practices. She [blogs][23], presents around the world, and also finds time to do cool things like this [SQL Server Slack channel][24].
+[<img class="alignright" src="https://media-exp2.licdn.com/media/AAEAAQAAAAAAAA3MAAAAJGI5OGRjMmU5LTY3MDQtNDg2My04ZTE4LWIyNmRiZWFmYjkxYg.jpg" alt="Chrissy LeMaire" style="width:213px;height:213px;" />][20] 
+
+Chrissy is helping DBAs have more time to eat cakes. In seriousness, Chrissy codes and develops the community around [dbatools.io][21], a PowerShell module for primarily aimed at helping DBAs migrate their SQL Servers in record time and safety. Check out [today&#8217;s announcement][22] about how it&#8217;s helping people work within best practices. She [blogs][23], presents around the world, and also finds time to do cool things like this [SQL Server Slack channel][24].
 
 > I give away code because it never occurred to me not to. I grew up using (and learning from) code from websites like 4GuysFromRolla.com and freshmeat.net, and I always felt eager to return the favor.
 > 
@@ -98,15 +102,17 @@ See what some great code contributors think and/or check out Scott Hanselman on 
 > 
 > And you know, giving away code for free can really pay off. I got the dream job I&#8217;m at now because my boss found me through one of my blog posts that had the solution he was looking for! 
 
-### boB Rudis
+### Bob Rudis
 
-[<img class="alignright" src="https://www.rsaconference.com/writable/speakers/photo/520x520centertop/YdOyjWOfZ42brC05SBW9I38ol4gaBb.jpg" alt="boB Rudis" width="213" height="213" />][25] Bob is a fantastic contributor of primarily security and visualisation packages to the R world. I use his stuff for so much stuff I think he warrants another R universe being named after him. Check out his code on [GitHub][26], read his fab [blog][27], and even listen to his [Data Driven Security podcast][28].
+[<img class="alignright" src="https://www.rsaconference.com/writable/speakers/photo/520x520centertop/YdOyjWOfZ42brC05SBW9I38ol4gaBb.jpg" alt="boB Rudis" style="width:213px;height:213px;" />][25] 
+
+Bob is a fantastic contributor of primarily security and visualisation packages to the R world. I use his stuff for so much stuff I think he warrants another R universe being named after him. Check out his code on [GitHub][26], read his fab [blog][27], and even listen to his [Data Driven Security podcast][28].
 
 > Have you ever used a function in a package that saved you hours of time? Have you ever read a blog post or article that shows how to do something that you either had no idea could be done or were struggling to understand? Have you ever asked a question about how to do something you&#8217;ve been trying to figure out and received a helpful answer that got you past the block? We&#8217;re all involved in our own important work; but, what if you found out that a visualization package you worked on helped further global cancer research? Or, you discover that your answer to a gnarly question on Stack Overflow helped a dozen folks get past a blocker towards their respective PhDs? And, what if you learned that a blog post, paper or book you authored changed entire career paths for folks? As individuals, most of us have limited spheres of direct influence. Yet, every contribution we make to the R community is literally an opportunity to help others change the world. That&#8217;s why I #rstats. 
 
 ### Jenny Bryan
 
-[<img class="alignright" src="https://pbs.twimg.com/profile_images/660978605606875137/s3YrJetD.jpg" alt="Jenny Bryan" width="213" height="213" />][29]
+[<img class="alignright" src="https://pbs.twimg.com/profile_images/963651380073426944/x1eX_M7n_400x400.jpg" alt="Jenny Bryan" style="width:213px;height:213px;" />][29]
   
 Jenny has been fighting the good fight and helping others do the same. Developing the tools and the training materials to equip young and old alike with data wrangling skills, Jenny makes things easier for people to do the right thing. You can check out her [awesome contributions][30] (10 commits per day on average!) and her fantastic course for UBC [Stat 545][31].
 
