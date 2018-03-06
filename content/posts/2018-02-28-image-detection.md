@@ -1,7 +1,7 @@
 ---
 title: Image Recognition and Object Detection
 author: Ellen
-date: 2018-02-28
+date: "2018-02-28T13:22:40+00:00"
 categories:
   - R
   - Image recognition
