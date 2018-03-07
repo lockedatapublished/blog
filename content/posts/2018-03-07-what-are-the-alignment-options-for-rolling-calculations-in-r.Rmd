@@ -1,0 +1,88 @@
+---
+title: Understanding rolling calculations in R
+author: Steph
+date: '2018-03-07'
+categories:
+  - R
+  - Data Science
+tags:
+  - feature engineering
+  - r
+---
+
+In R, we often need to get values or perform calculations from information not on the same row. We need to either retrieve specific values or we need to produce some sort of aggregation.
+
+We can retrieve earlier values by using the `lag()` function from `dplyr`^[The `data.table` function `shift()` could also be used]. This by default looks one value or earlier in the sequence.
+
+```{r}
+v=1:10
+data.frame(v, l=dplyr::lag(v))
+```
+
+We could even return a value from 2 elements earlier if we wanted.
+
+```{r}
+data.frame(v, l=dplyr::lag(v,2))
+```
+
+So these kinda make sense -- they bring back a specific value from earlier in the sequence. There's also complimentary function that takes values from later in the sequence called `lead()`.
+
+```{r}
+data.frame(v, l=dplyr::lead(v,2))
+```
+
+Unfortunately, a single value isn't always what we need. We often need some sort of aggregation that occurs over multiple values either earlier or later in the sequence.
+
+If we want to get a value that takes into account all prior values and the current value, we can use functions like `cumsum()` to sum up as we go further through the sequence.
+
+```{r}
+data.frame(v, c=cumsum(v))
+```
+
+In a cumulative sum, the **window** over which the function operates for each value is `1:n` so the window varies. The cumulative sum function can't be amended to be `1:n-1` so we can mimic that by subtracting the current value.
+
+```{r}
+data.frame(v, c=cumsum(v), c_1=cumsum(v)-v)
+```
+
+All well and good, but what if I want to perform a calculation over a specific number of prior values, or even values ahead in the sequence? `cumsum` and `lag` no longer help us. `zoo` and `RcppRoll` give us some **rolling** functions. The functions will perform an aggregation over a moving **window** of a fixed size. 
+
+```{r}
+data.frame(v, c=RcppRoll::roll_sum(v))
+```
+
+So if we rely on the defaults, `roll_sum()` just returns the current value. That's not very useful and you might think it's pretty weird!^[You'd be right.] Let's see what happens when we use a different value for the window our calculation should occur over.
+
+```{r error=TRUE}
+data.frame(v, c2=RcppRoll::roll_sum(v,2), c3=RcppRoll::roll_sum(v,3))
+```
+
+Ick, an error! The calculation reduces the number of values so we need to provide a fill.
+```{r error=TRUE}
+data.frame(v, c2=RcppRoll::roll_sum(v,2, fill=NA), c3=RcppRoll::roll_sum(v,3, fill=NA))
+```
+
+So looking at the code I wrote, you may would have expected`c2` to hold `NA, 3, 5, ...` where it's taking the current value and the prior value to make a window of width 2. Another reasonable altnerative is that you may have expected `c2` to hold `NA, NA, 3, ...` where it's summing up the prior two values. But hey, it's kinda working like `cumsum()` right so that's ok! But wait, check out `c3`. I gave `c3` a window of width 3 and it gave me `NA, 6, 9, ...` which looks like it's summing the prior value, the current value, and the next value. .... That's weird right?
+
+It turns out the default behaviour for these rolling calculations is to **center align** the window, which means the window sits over the current value and tries it's best to fit over the prior and next values equally. In the case of us giving it an even number it decided to put the window over the next values more than the prior values. 
+
+
+Thankfully, with the rolling calculations we can adjust the alignment so the window aligns **left** or **right**.
+
+```{r error=TRUE}
+data.frame(v, c_l=RcppRoll::roll_sum(v,2, fill=NA, align="left"),
+            c_r=RcppRoll::roll_sum(v,2, fill=NA, align="right"))
+```
+
+If, like me, you'd expect the left align to be the option for looking at prior values you'd be very wrong. The convention for these calculations, is **left align** extends into future values because the window starts on with the current value on the left. The **right align** covers past values because the window ends with the current value being on the right.
+
+As with `cumsum()` it's taking into account the current value in all circumstances. We can interleave our `dplyr::lag()` and `dplyr::lead()` functions so that the window of the calculation is **offset**.
+
+```{r error=TRUE}
+data.frame(v, c_l=RcppRoll::roll_sum(dplyr::lead(v),2, fill=NA, align="left"),
+            c_r=RcppRoll::roll_sum(dplyr::lag(v),2, fill=NA, align="right"))
+```
+
+
+
+
