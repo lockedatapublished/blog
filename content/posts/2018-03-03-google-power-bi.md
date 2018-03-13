@@ -12,11 +12,11 @@ categories:
 - Power BI
 ---
 
-Hello again everyone! This latest blog post comes from this video we published a little while ago.
+Hello again everyone! Here's the step by step instructions for using the `googlesheets` package in R to enable you to get your data from Google Sheets. This latest blog post comes from this video we published a little while ago.
 
-{{&lt; youtube 8lWR-\_L52Qs &gt;}}
+{{< youtube 8lWR-_L52Qs >}}
 
-Here's the step by step instructions for using the 'googlesheets' package in R to enable you to get your data from Google Sheets
+
 
 Step 1 - Preparation
 --------------------
@@ -32,7 +32,7 @@ gd_token()
 saveRDS(token, file="googlesheets_token.rds")
 ```
 
-This springs open a window in your browser, and asks you to choose your prefered google account. You'll have to choose one, and allow 'tidyverse-googlsheets' access to continue.
+This springs open a window in your browser, and asks you to choose your preferred google account. You'll have to choose one, and allow 'tidyverse-googlesheets' access to continue.
 
 You should now see a page stating "Authentication complete. Please return to R."
 
@@ -55,7 +55,7 @@ mySheet %>%
   surveyresults
 ```
 
-You will then be able to naviagate through your google docs and load them into your Power BI workspace!
+You will then be able to navigate through your google docs and load them into your Power BI workspace!
 
 An added extra
 --------------
