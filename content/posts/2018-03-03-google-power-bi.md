@@ -1,18 +1,20 @@
 ---
-title: Connect to Google Sheets in Power BI using R
-author: Ellen 
-date: "2018-03-06"
-categories:
-  - R
-  - Power BI
+title: "Connect to Google Sheets in Power BI using R"
+author: "Ellen"
+date: '2018-03-06'
 tags:
-  - Google Sheets
-  - R
-  - Power BI
-  - googlesheets
+- Google Sheets
+- R
+- Power BI
+- googlesheets
+categories:
+- R
+- Power BI
 ---
 
-Hello again everyone! This latest blog post comes from [this youtube video](https://www.youtube.com/watch?v=8lWR-_L52Qs) that we published a little while ago.
+Hello again everyone! This latest blog post comes from this video we published a little while ago.
+
+{{&lt; youtube 8lWR-\_L52Qs &gt;}}
 
 Here's the step by step instructions for using the 'googlesheets' package in R to enable you to get your data from Google Sheets
 
@@ -35,8 +37,7 @@ This springs open a window in your browser, and asks you to choose your prefered
 You should now see a page stating "Authentication complete. Please return to R."
 
 Step 2 - Add R Script into Power BI using token
---------
-
+-----------------------------------------------
 
 Click through the following: + Get data + More + Other + R Script
 
