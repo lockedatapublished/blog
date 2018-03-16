@@ -20,9 +20,7 @@ Part 1 of Python for Data scientists talks about Python generally, before we div
 ## What is Python? 
 Python.org states 'Python is a programming language that lets you work quickly and integrate systems more effectively.' It is recommended as a language that is quick and easy for beginners to get to grips with programming. Python is also a very powerful tool for data science and is rapidly adding data science tools to its ecosystem. Here's a short video that describes some of the tasks Python can be used for: 
 
-
-[![What is Python Used For](https://img.youtube.com/vi/J9BTrvosOOM/0.jpg)](https://www.youtube.com/watch?v=J9BTrvosOOM)
-
+{{< youtube J9BTrvosOOM >}}
 
 ## Python versions
 There are two main types of Python; Python 2 and Python 3. Python 3.0 was released in 2008 and was not backwards compatible. Initially the Python community was not keen to start using Python 3, however fast forward to 2018 and the majority of people now recommend beginners learn Python 3. The main reason to use Python 3 is that many of the main Python packages will soon drop support for Python 2. 
