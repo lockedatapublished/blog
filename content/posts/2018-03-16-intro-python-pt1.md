@@ -12,13 +12,13 @@ tags:
   - Fundamentals 
 ---
 
-If you have decided you want to learn Python but your not sure where to start then this post will point you in the right direction. 
+If you have decided you want to learn Python but you're not sure where to start then this post will point you in the right direction. 
 
 Part 1 of Python for Data scientists talks about Python generally, before we dive into the specifics for data scientists in part 2. 
 
 # Python
 ## What is Python? 
-Python.org states 'Python is a programming language that lets you work quickly and integrate systems more effectively.' It is recommended as a language that is quick and easy for beginners to get to grips with programming. Python is also a very powerful tool for data science and is rapidly adding data science tools to its ecosystem. Here's a short video that describes some of the tasks Python can be used for: 
+Python.org states 'Python is a programming language that lets you work quickly and integrate systems more effectively.' It is recommended as a language that is quick and easy for beginners to get to grips with programming. Python is also a very powerful tool for data science and is rapidly adding data science tools to its ecosystem. Here's a great introductory video to Python: 
 
 {{< youtube rkx5_MRAV3A >}}
 
