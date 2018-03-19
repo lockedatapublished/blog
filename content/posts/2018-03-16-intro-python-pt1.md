@@ -14,7 +14,7 @@ tags:
 
 If you have decided you want to learn Python but your not sure where to start then this post will point you in the right direction. 
 
-Part 1 of Python for Data scientists talks about Python generally, before we dive into the specifics for data scientists in part 2. 
+Part 1 of Python for Data scientists talks about Python generally, before we dive into the specifics for data scientists in [part 2](https://itsalocke.com/blog/introducing-python-for-data-scientists---pt2/). 
 
 # Python
 ## What is Python? 
