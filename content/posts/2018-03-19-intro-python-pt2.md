@@ -25,8 +25,8 @@ Where you can use Python
 ------------------------
 
 Python is a general purpose programming language meaning that is has
-many use cases outside of data science. These include gaming, graphics,
-web development, GIS, and control systems among others. A benefit of
+many use cases outside of data science. These include game development, graphics,
+web development, GIS, and control systems. A benefit of
 this is that data analytics undertaken with Python can easily be
 integrated with other tools. Python is an easy language to learn and the
 capability of Python for advanced analytics is quickly growing. Here's a
@@ -67,7 +67,7 @@ Learning to use the previously mentioned packages is essential for using
 Python for data science.
 
 Python is an interpreted language (as opposed to being compiled) and is
-a dynamically-typed. Both of these features lend themselves to some of
+dynamically-typed. Both of these features lend themselves to some of
 Python's strengths and also its weaknesses.
 
 Iteration is an important feature in Python which contrasts to
