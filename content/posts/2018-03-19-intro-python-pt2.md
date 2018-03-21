@@ -66,12 +66,12 @@ Important things to learn
 Learning to use the previously mentioned packages is essential for using
 Python for data science.
 
-Python is an interpreted language (as opposed to being compiled) and is
-dynamically-typed. Both of these features lend themselves to some of
-Python's strengths and also its weaknesses.
+Python is a dynamically-typed language, this means that a user does not need to define what 'type' a variable is (e.g. numbers or text) when they create a new variable; this is in contrast to a statically-typed languages. A dynamically-typed languages is generally less verbose meaning it can be written, read and maintained in a shorter time frame. However errors can be created if Python assigns variables as the wrong 'type' and the user does not check this. In addition  type errors are not checked at the start of execution (as they are for statically-typed languages) and so type errors in large programs are only found after wasting time running the first half of the code. 
 
 Iteration is an important feature in Python which contrasts to
-vectorisation in R (if you come from a R background).
+vectorisation in R (if you come from a R background). For example if you want to add the elements of two lists in Python together, you need to loop through the elements of each list and individually add them (iteration). In R you can simply add the two lists together using one line of code. The Python package NumPy supports vectorisation.  
+
+The fundamental idea behind array programming is that operations apply at once to an entire set of values. 
 
 Using Python with virtual environments is another key concept to learn
 about. The main idea here is that the way that Python packages are
