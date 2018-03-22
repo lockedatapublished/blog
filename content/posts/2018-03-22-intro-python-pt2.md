@@ -95,4 +95,3 @@ Learning resources
 -   [Python Regular
     Expressions](https://developers.google.com/edu/python/regular-expressions) -
     regular expressions are very useful for data cleansing
-
