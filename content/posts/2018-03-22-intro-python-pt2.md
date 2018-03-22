@@ -1,3 +1,4 @@
+
 ---
 title: Introducing Python for data scientists - Pt2
 author: Leo
@@ -94,4 +95,8 @@ Learning resources
     science community to learn new skills and network
 -   [Python Regular
     Expressions](https://developers.google.com/edu/python/regular-expressions) -
+<<<<<<< HEAD
     regular expressions are very useful for data cleansing
+=======
+
+>>>>>>> c9cc75dde056377daec9e57595b55bb5a9bce543
