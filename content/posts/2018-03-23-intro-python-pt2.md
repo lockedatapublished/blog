@@ -1,7 +1,7 @@
 ---
 title: Introducing Python for data scientists - Pt2
 author: Leo
-date: '2018-03-19'
+date: '2018-03-23'
 categories:
   - Python
   - Data Science
