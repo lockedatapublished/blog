@@ -90,7 +90,7 @@ Ed writes code to help people develop databases in a more code-driven fashion; h
 
 ### Chrissy LeMaire
 
-[<img class="alignright" src="https://media-exp2.licdn.com/media/AAEAAQAAAAAAAA3MAAAAJGI5OGRjMmU5LTY3MDQtNDg2My04ZTE4LWIyNmRiZWFmYjkxYg.jpg" alt="Chrissy LeMaire" style="width:213px;height:213px;" />][20] 
+[<img class="alignright" src="https://media.licdn.com/dms/image/C5603AQELUyHdVL-yxw/profile-displayphoto-shrink_800_800/0?e=1527253200&v=alpha&t=tOc-JS473N_It_xRFD5XO0iXFzkSMbkRhUFITuQQn7I" alt="Chrissy LeMaire" style="width:213px;height:213px;" />][20] 
 
 Chrissy is helping DBAs have more time to eat cakes. In seriousness, Chrissy codes and develops the community around [dbatools.io][21], a PowerShell module for primarily aimed at helping DBAs migrate their SQL Servers in record time and safety. Check out [today&#8217;s announcement][22] about how it&#8217;s helping people work within best practices. She [blogs][23], presents around the world, and also finds time to do cool things like this [SQL Server Slack channel][24].
 
@@ -120,7 +120,9 @@ Jenny has been fighting the good fight and helping others do the same. Developin
 
 ### Rob Sewell
 
-[<img class="alignright" src="http://i1.wp.com/www.sqlrelay.co.uk/wp-content/uploads/2015/06/output_TK2DOU.gif" alt="The Beardy Dance" />][32]Rob, the awesome bearded wonder, writes code like it&#8217;s going out of fashion. You can see his code on [Microsoft Gallery][33] and [GitHub][34]. Rob wants us to automate boring stuff, and spend time doing cool stuff, like automating things. Like Ed, he presents a lot and you can find him frequently at the [blog][35] grindstone.
+[<img class="alignright" src="http://i1.wp.com/www.sqlrelay.co.uk/wp-content/uploads/2015/06/output_TK2DOU.gif" alt="The Beardy Dance" />][32]
+
+Rob, the awesome bearded wonder, writes code like it&#8217;s going out of fashion. You can see his code on [Microsoft Gallery][33] and [GitHub][34]. Rob wants us to automate boring stuff, and spend time doing cool stuff, like automating things. Like Ed, he presents a lot and you can find him frequently at the [blog][35] grindstone.
 
 > I am a strong believer in the tech communities both PowerShell and SQL. I use and have used a lot of code that others have shared and it has helped me. I like the fact that I can pay some of that back by giving code for others to use. I remember what it was like to not know how to do something and helping and enabling others makes me feel good. I love writing PowerShell to solve problems. If someone asks me how can I do this thing with PowerShell I enjoy the challenge and the learning opportunity it gives. But the best reason for me is that people take your code and do amazing things and tell you great stories of things they have done, systems they have built or challenges they have overcome, which is all I ask &#8211; Drop me a line and tell me the cool things you have done with my code.
 
