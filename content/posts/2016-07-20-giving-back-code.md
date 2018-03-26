@@ -90,7 +90,7 @@ Ed writes code to help people develop databases in a more code-driven fashion; h
 
 ### Chrissy LeMaire
 
-[<img class="alignright" src="https://media.licdn.com/dms/image/C5603AQELUyHdVL-yxw/profile-displayphoto-shrink_800_800/0?e=1527253200&v=alpha&t=tOc-JS473N_It_xRFD5XO0iXFzkSMbkRhUFITuQQn7I" alt="Chrissy LeMaire" style="width:213px;height:213px;" />][20] 
+[<img class="alignright" src="sites/blog/static/images/chrissy.jpeg" style="width:213px;height:213px;" />][20] 
 
 Chrissy is helping DBAs have more time to eat cakes. In seriousness, Chrissy codes and develops the community around [dbatools.io][21], a PowerShell module for primarily aimed at helping DBAs migrate their SQL Servers in record time and safety. Check out [today&#8217;s announcement][22] about how it&#8217;s helping people work within best practices. She [blogs][23], presents around the world, and also finds time to do cool things like this [SQL Server Slack channel][24].
 
