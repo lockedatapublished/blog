@@ -161,4 +161,4 @@ Rob, the awesome bearded wonder, writes code like it&#8217;s going out of fashio
  [33]: https://gallery.technet.microsoft.com/scriptcenter/site/search?f[0].Type=User&f[0].Value=Rob%20Sewell
  [34]: https://github.com/SQLDBAWithABeard
  [35]: https://sqldbawithabeard.com/
- 
+
