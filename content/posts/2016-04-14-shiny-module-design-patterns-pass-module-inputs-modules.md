@@ -110,7 +110,7 @@ To be able to pass an input value from one module to another, you need to:
 
 See file [03_inputmodule.R][5] for the end to end solution.
 
-## <figure style="width: 500px" class="wp-caption aligncenter"> <img class="" src="https://raw.githubusercontent.com/stephlocke/shinymodulesdesignpatterns/master/input_to_multiplemodules/README/inputPassthrough.png
+<figure style="width: 500px" class="wp-caption aligncenter"> <a><img class="" src="https://raw.githubusercontent.com/stephlocke/shinymodulesdesignpatterns/master/input_to_multiplemodules/README/inputPassthrough.png"
 " alt="Store input in a reactive value to pass value onto modules" width="500" /></a><figcaption class="wp-caption-text">Store callModule to pass into other modules</figcaption></figure>
 
 ## Further study
