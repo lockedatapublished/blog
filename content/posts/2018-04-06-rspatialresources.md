@@ -68,3 +68,6 @@ In no particular order, here are the folks who were recommended to follow on Twi
 - [Priscilla Minotti](https://twitter.com/pmnatural)
 
 I've added all of these into a [Twitter list](https://twitter.com/SteffLocke/lists/rspatial) that you can use to read tweets from these wonderful people.
+
+## Videos
+{{< youtube n42jsxFNXRI >}}
