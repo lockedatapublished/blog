@@ -32,7 +32,7 @@ Feel free to comment or [tweet](https://twitter.com/SteffLocke/status/9815670018
 - [Neon Data Skills - GIS & Spatial data tutorials](http://neondataskills.org/spatial-data-gis/) Last tutorial was in 2016 but these still have great coverage of the topics
 - [US Census Mapping course](https://arilamstein.com/census-mapping-course/)
 - [Environmental Computing](http://environmentalcomputing.net/)
--[Working with Geospatial Data in R (DataCamp)](https://www.datacamp.com/courses/working-with-geospatial-data-in-r)
+- [Working with Geospatial Data in R (DataCamp)](https://www.datacamp.com/courses/working-with-geospatial-data-in-r)
 - [Spatial Analysis in R with sf and raster (DataCamp) ](https://www.datacamp.com/courses/spatial-analysis-in-r-with-sf-and-raster)
 
 ## Books
