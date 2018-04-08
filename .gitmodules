@@ -2,5 +2,7 @@
 	path = themes/hugo-lockedata-blog
 	url = https://github.com/lockedatapublished/hugo-lockedata-blog.git
 [submodule "themes/hugo-theme-massively"]
+
 	path = themes/hugo-theme-massively
+
 	url = https://github.com/lockedata/hugo-theme-massively.git
