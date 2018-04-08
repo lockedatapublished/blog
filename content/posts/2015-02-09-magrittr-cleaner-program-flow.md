@@ -1,7 +1,7 @@
 ---
 title: 'magrittr: cleaner program flow'
 author: Steph
-type: post
+
 date: 2015-02-09T11:51:23+00:00
 dsq_thread_id:
   - 3725706759

@@ -1,7 +1,7 @@
 ---
 title: Spell check your spreadsheets
 author: Steph
-type: post
+
 date: 2015-01-20T10:10:54+00:00
 categories:
   - Misc Technology

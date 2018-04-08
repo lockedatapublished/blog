@@ -1,7 +1,7 @@
 ---
 title: 'Easy-peasy Q&A bot'
 author: Steph
-type: post
+
 date: 2017-05-15T08:00:27+00:00
 spacious_page_layout:
   - default_layout

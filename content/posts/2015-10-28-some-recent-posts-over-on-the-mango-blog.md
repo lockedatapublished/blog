@@ -1,7 +1,7 @@
 ---
 title: Some recent posts over on the Mango blog
 author: Steph
-type: post
+
 date: 2015-10-28T17:10:32+00:00
 categories:
   - R

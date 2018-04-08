@@ -1,7 +1,7 @@
 ---
 title: 'A note to (potential) new speakers: It’s ok not to be perfect!'
 author: Steph
-type: post
+
 date: 2016-11-08T10:42:48+00:00
 categories:
   - Community

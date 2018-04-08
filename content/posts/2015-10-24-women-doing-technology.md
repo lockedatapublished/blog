@@ -1,7 +1,7 @@
 ---
 title: Women doing technology
 author: Steph
-type: post
+
 date: 2015-10-24T08:35:00+00:00
 categories:
   - Community

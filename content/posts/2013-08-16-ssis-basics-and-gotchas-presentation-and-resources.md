@@ -1,7 +1,7 @@
 ---
 title: SSIS basics and gotchas – presentation and resources
 author: Steph
-type: post
+
 date: 2013-08-16T17:06:24+00:00
 categories:
   - Community

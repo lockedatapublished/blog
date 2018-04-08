@@ -1,7 +1,7 @@
 ---
 title: 'R Quick tip: Microsoft Cognitive Services’ Text Analytics API'
 author: Steph
-type: post
+
 date: 2017-03-01T09:40:46+00:00
 spacious_page_layout:
   - default_layout

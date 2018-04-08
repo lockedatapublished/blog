@@ -1,7 +1,7 @@
 ---
 title: Stumbling into … Azure Automation
 author: Steph
-type: post
+
 date: 2016-07-11T09:46:12+00:00
 categories:
   - DataOps

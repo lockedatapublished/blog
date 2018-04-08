@@ -1,7 +1,7 @@
 ---
 title: optiRum – gini like a wizard
 author: Steph
-type: post
+
 date: 2015-04-16T10:22:38+00:00
 categories:
   - Data Science

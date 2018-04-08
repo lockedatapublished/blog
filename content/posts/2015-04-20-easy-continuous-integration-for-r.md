@@ -1,7 +1,7 @@
 ---
 title: Easy Continuous Integration for R
 author: Steph
-type: post
+
 date: 2015-04-20T09:06:36+00:00
 dsq_thread_id:
   - 3716716865

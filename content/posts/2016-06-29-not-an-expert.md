@@ -1,7 +1,7 @@
 ---
 title: Not an expert
 author: Steph
-type: post
+
 date: 2016-06-29T08:19:39+00:00
 categories:
   - Community

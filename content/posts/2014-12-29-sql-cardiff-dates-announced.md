@@ -1,7 +1,7 @@
 ---
 title: SQL Cardiff dates announced
 author: Steph
-type: post
+
 date: 2014-12-29T11:00:02+00:00
 categories:
   - Community

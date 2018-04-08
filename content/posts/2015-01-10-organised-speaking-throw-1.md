@@ -1,7 +1,7 @@
 ---
 title: Organised speaking – Throw 1
 author: Steph
-type: post
+
 date: 2015-01-10T09:59:50+00:00
 categories:
   - Community

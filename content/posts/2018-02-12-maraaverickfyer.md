@@ -1,7 +1,7 @@
 ---
 title: How to maraaverickfy a blog post without even reading it
 author: maelle
-type: post
+
 date: 2018-02-12T11:49:40+00:00
 spacious_page_layout:
   - default_layout

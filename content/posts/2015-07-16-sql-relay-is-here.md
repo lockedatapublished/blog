@@ -1,7 +1,7 @@
 ---
 title: SQL Relay is here!
 author: Steph
-type: post
+
 date: 2015-07-16T09:30:59+00:00
 categories:
   - Community

@@ -1,7 +1,7 @@
 ---
 title: 'Quick tip: Passing values to a bash script'
 author: Steph
-type: post
+
 date: 2016-10-30T14:53:01+00:00
 categories:
   - Misc Technology

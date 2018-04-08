@@ -1,7 +1,7 @@
 ---
 title: '@SQLCardiff: Return of the Beard (2016-03-30)'
 author: Steph
-type: post
+
 date: 2016-03-15T09:59:42+00:00
 categories:
   - Community

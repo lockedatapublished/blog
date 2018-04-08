@@ -1,7 +1,7 @@
 ---
 title: Marketing for SQLRelay – In the beginning
 author: Steph
-type: post
+
 date: 2013-09-01T11:30:40+00:00
 dsq_thread_id:
   - 3714606100

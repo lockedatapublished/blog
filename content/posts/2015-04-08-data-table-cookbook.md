@@ -1,7 +1,7 @@
 ---
 title: An R data.table cookbook
 author: Steph
-type: post
+
 date: 2015-04-08T11:47:08+00:00
 categories:
   - Community

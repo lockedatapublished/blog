@@ -1,7 +1,7 @@
 ---
 title: Overcoming social anxiety to attend user groups
 author: Steph
-type: post
+
 date: 2015-03-14T14:13:17+00:00
 dsq_thread_id:
   - 3714606148

@@ -1,7 +1,7 @@
 ---
 title: 'Auto-deploying documentation: Rtraining'
 author: Steph
-type: post
+
 date: 2015-12-23T10:25:48+00:00
 categories:
   - Data Science

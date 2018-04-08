@@ -1,7 +1,7 @@
 ---
 title: 'Bride of Frankenstein: TFS + R'
 author: Steph
-type: post
+
 date: 2015-03-20T10:44:35+00:00
 dsq_thread_id:
   - 3734047722

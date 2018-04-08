@@ -1,7 +1,7 @@
 ---
 title: Recent presentations
 author: Steph
-type: post
+
 date: 2016-06-01T08:09:32+00:00
 categories:
   - DataOps

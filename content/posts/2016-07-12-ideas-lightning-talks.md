@@ -1,7 +1,7 @@
 ---
 title: Ideas for (lightning) talks
 author: Steph
-type: post
+
 date: 2016-07-12T15:27:57+00:00
 categories:
   - Community

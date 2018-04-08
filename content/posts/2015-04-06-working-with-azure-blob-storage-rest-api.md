@@ -1,7 +1,7 @@
 ---
 title: Working with Azure Blob Storage, some notes
 author: Steph
-type: post
+
 date: 2015-04-06T09:27:05+00:00
 dsq_thread_id:
   - 3720652530

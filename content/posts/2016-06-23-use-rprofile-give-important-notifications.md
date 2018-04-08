@@ -1,7 +1,7 @@
 ---
 title: Use your .Rprofile to give you important notifications
 author: Steph
-type: post
+
 date: 2016-06-23T09:08:43+00:00
 categories:
   - Data Science

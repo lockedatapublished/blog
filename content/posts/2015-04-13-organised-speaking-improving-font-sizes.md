@@ -1,7 +1,7 @@
 ---
 title: Organised speaking – improving font sizes
 author: Steph
-type: post
+
 date: 2015-04-13T12:24:14+00:00
 categories:
   - Community

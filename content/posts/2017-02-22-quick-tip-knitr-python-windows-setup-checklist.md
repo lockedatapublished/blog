@@ -1,7 +1,7 @@
 ---
 title: 'Quick tip: knitr Python Windows setup checklist'
 author: Steph
-type: post
+
 date: 2017-02-22T16:01:15+00:00
 categories:
   - Data Science

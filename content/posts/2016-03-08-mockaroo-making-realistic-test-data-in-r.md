@@ -1,7 +1,7 @@
 ---
 title: mockaRoo – making realistic test data in R
 author: Steph
-type: post
+
 date: 2016-03-08T14:00:54+00:00
 categories:
   - DataOps

@@ -1,7 +1,7 @@
 ---
 title: Organised speaking – presentation design
 author: Steph
-type: post
+
 date: 2015-01-18T10:52:45+00:00
 categories:
   - Community

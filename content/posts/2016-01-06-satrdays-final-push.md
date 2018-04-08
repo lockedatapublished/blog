@@ -1,7 +1,7 @@
 ---
 title: 'satRdays: final push'
 author: Steph
-type: post
+
 date: 2016-01-06T14:54:37+00:00
 categories:
   - Community

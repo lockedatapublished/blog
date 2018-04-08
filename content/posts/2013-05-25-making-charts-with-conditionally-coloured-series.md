@@ -1,7 +1,7 @@
 ---
 title: Making charts with conditionally coloured series
 author: Steph
-type: post
+
 date: 2013-05-25T16:05:54+00:00
 categories:
   - Misc Technology

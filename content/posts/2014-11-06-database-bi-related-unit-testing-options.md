@@ -1,7 +1,7 @@
 ---
 title: Database / BI related unit testing options
 author: Steph
-type: post
+
 date: 2014-11-06T16:18:48+00:00
 categories:
   - Microsoft Data Platform

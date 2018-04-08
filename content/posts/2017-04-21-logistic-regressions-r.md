@@ -1,7 +1,7 @@
 ---
 title: Logistic regressions (in R)
 author: Steph
-type: post
+
 date: 2017-04-21T09:02:44+00:00
 spacious_page_layout:
   - default_layout

@@ -1,7 +1,7 @@
 ---
 title: Improving automatic document production with R
 author: Steph
-type: post
+
 date: 2017-05-19T08:02:26+00:00
 spacious_page_layout:
   - default_layout

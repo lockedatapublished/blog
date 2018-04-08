@@ -1,7 +1,7 @@
 ---
 title: RegEx functions in VBA
 author: Steph
-type: post
+
 date: 2013-08-20T18:55:37+00:00
 categories:
   - Misc Technology

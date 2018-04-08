@@ -1,7 +1,7 @@
 ---
 title: Aggregate on a Lookup in SSRS
 author: Oz
-type: post
+
 date: 2014-11-23T12:59:13+00:00
 dsq_thread_id:
   - 3715896612

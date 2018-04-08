@@ -1,7 +1,7 @@
 ---
 title: 'R package news: tfsR, HIBPwned, mockaRoo'
 author: Steph
-type: post
+
 date: 2016-03-24T15:44:03+00:00
 categories:
   - R

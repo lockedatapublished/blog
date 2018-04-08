@@ -1,7 +1,7 @@
 ---
 title: 'Unified.Diff: source control smells & LaTeX'
 author: Steph
-type: post
+
 date: 2015-04-17T09:44:38+00:00
 dsq_thread_id:
   - 3731346805

@@ -1,7 +1,7 @@
 ---
 title: Organised speaking – Intro to R case study
 author: Steph
-type: post
+
 date: 2015-01-21T09:48:28+00:00
 categories:
   - Community

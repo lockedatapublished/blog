@@ -1,7 +1,7 @@
 ---
 title: datasauRus now on CRAN
 author: Steph
-type: post
+
 date: 2017-05-09T10:02:18+00:00
 spacious_page_layout:
   - default_layout

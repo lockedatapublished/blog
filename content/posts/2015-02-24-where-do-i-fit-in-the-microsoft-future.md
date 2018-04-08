@@ -1,7 +1,7 @@
 ---
 title: Where do I fit in the Microsoft future?
 author: Steph
-type: post
+
 date: 2015-02-24T10:41:45+00:00
 dsq_thread_id:
   - 3714606215

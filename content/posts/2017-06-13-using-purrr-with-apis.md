@@ -1,7 +1,7 @@
 ---
 title: Using purrr with APIs – revamping my code
 author: Steph
-type: post
+
 date: 2017-06-13T10:20:40+00:00
 spacious_page_layout:
   - default_layout

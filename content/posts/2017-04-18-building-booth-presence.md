@@ -1,7 +1,7 @@
 ---
 title: Building your booth presence (SCE p4)
 author: Steph
-type: post
+
 date: 2017-04-18T08:28:40+00:00
 spacious_page_layout:
   - default_layout

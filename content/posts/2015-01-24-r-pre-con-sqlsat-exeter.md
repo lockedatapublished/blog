@@ -1,7 +1,7 @@
 ---
 title: 'My R Pre-Con: SQLSat Exeter'
 author: Steph
-type: post
+
 date: 2015-01-24T10:10:29+00:00
 dsq_thread_id:
   - 3730121221

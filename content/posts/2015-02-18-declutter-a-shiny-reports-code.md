@@ -1,7 +1,7 @@
 ---
 title: Declutter a shiny report’s code
 author: Steph
-type: post
+
 date: 2015-02-18T11:41:21+00:00
 categories:
   - R

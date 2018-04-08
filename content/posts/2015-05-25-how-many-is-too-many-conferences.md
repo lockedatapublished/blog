@@ -1,7 +1,7 @@
 ---
 title: How many is too many conferences?
 author: Steph
-type: post
+
 date: 2015-05-25T17:55:16+00:00
 categories:
   - Community

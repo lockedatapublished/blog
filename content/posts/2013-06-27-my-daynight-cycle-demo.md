@@ -1,7 +1,7 @@
 ---
 title: My Day/Night Cycle Demo
 author: Oz
-type: post
+
 date: 2013-06-27T20:25:40+00:00
 dsq_thread_id:
   - 3714606019

@@ -1,7 +1,7 @@
 ---
 title: Talking Data and Docker
 author: Steph
-type: post
+
 date: 2017-02-08T16:25:20+00:00
 categories:
   - DataOps

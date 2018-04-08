@@ -1,7 +1,7 @@
 ---
 title: Data Manipulation in R
 author: steph
-type: post
+
 date: 2017-12-18T21:29:42+00:00
 spacious_page_layout:
   - default_layout

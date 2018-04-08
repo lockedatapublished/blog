@@ -1,7 +1,7 @@
 ---
 title: Going solo!
 author: Steph
-type: post
+
 date: 2017-01-04T10:02:37+00:00
 categories:
   - Data Science

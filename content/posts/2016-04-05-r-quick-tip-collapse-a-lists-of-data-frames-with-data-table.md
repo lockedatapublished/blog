@@ -1,7 +1,7 @@
 ---
 title: 'R Quick Tip: Collapse a lists of data.frames with data.table'
 author: Steph
-type: post
+
 date: 2016-04-05T14:05:26+00:00
 categories:
   - Data Science

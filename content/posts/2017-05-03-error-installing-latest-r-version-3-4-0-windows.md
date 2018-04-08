@@ -1,7 +1,7 @@
 ---
 title: Error installing latest R version (3.4.0) on Windows
 author: Steph
-type: post
+
 date: 2017-05-03T17:57:13+00:00
 spacious_page_layout:
   - default_layout

@@ -1,7 +1,7 @@
 ---
 title: Dynamic named ranges – the basics
 author: Steph
-type: post
+
 date: 2013-07-27T19:55:47+00:00
 categories:
   - Misc Technology

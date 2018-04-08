@@ -1,7 +1,7 @@
 ---
 title: 'Shiny module design patterns: Pass module input to other modules'
 author: Steph
-type: post
+
 date: 2016-04-14T12:05:55+00:00
 categories:
   - Data Science

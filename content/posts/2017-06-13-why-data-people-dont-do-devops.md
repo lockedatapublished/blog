@@ -1,7 +1,7 @@
 ---
 title: Why data people don’t do devops
 author: steph
-type: post
+
 date: 2017-06-13T16:44:19+00:00
 spacious_page_layout:
   - default_layout

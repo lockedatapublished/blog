@@ -1,7 +1,7 @@
 ---
 title: Is my time series additive or multiplicative?
 author: Steph
-type: post
+
 date: 2017-02-20T10:46:20+00:00
 categories:
   - Data Science

@@ -1,7 +1,7 @@
 ---
 title: optiRum 0.37.1 now out
 author: Steph
-type: post
+
 date: 2015-11-07T19:26:10+00:00
 categories:
   - R

@@ -1,7 +1,7 @@
 ---
 title: 'Auto-deploying documentation: FASTER!'
 author: Steph
-type: post
+
 date: 2015-11-13T09:13:22+00:00
 categories:
   - Data Science

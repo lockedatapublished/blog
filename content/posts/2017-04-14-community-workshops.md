@@ -1,7 +1,7 @@
 ---
 title: Community workshops
 author: Steph
-type: post
+
 date: 2017-04-14T18:00:59+00:00
 spacious_page_layout:
   - default_layout

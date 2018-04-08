@@ -1,7 +1,7 @@
 ---
 title: My First Platformer
 author: Oz
-type: post
+
 date: 2013-06-28T22:03:28+00:00
 dsq_thread_id:
   - 3714606084

@@ -1,7 +1,7 @@
 ---
 title: Building an R training environment
 author: Steph
-type: post
+
 date: 2017-04-24T08:17:13+00:00
 spacious_page_layout:
   - default_layout

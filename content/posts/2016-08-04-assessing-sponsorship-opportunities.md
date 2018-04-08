@@ -1,7 +1,7 @@
 ---
 title: Assessing Sponsorship Opportunities (SCE p2)
 author: Steph
-type: post
+
 date: 2016-08-04T10:35:03+00:00
 spacious_page_layout:
   - default_layout

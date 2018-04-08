@@ -1,7 +1,7 @@
 ---
 title: My first MVP Summit – a fantastic reminder
 author: Steph
-type: post
+
 date: 2016-11-14T10:29:45+00:00
 categories:
   - Community

@@ -1,7 +1,7 @@
 ---
 title: 'SQL Saturday Exeter: Steph & Oz’s slides'
 author: Steph
-type: post
+
 date: 2015-04-26T16:04:36+00:00
 dsq_thread_id:
   - 3714613154

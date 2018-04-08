@@ -1,7 +1,7 @@
 ---
 title: Where’ve we been?
 author: Steph
-type: post
+
 date: 2014-06-28T11:49:21+00:00
 categories:
   - Community

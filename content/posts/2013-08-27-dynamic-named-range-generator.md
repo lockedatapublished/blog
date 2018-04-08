@@ -1,7 +1,7 @@
 ---
 title: Dynamic named range generator
 author: Steph
-type: post
+
 date: 2013-08-27T21:00:50+00:00
 categories:
   - Misc Technology

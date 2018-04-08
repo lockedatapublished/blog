@@ -1,7 +1,7 @@
 ---
 title: Custom LaTeX Beamer style templates for rmarkdown
 author: Steph
-type: post
+
 date: 2015-06-17T12:34:22+00:00
 categories:
   - Community

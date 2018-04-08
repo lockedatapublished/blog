@@ -1,7 +1,7 @@
 ---
 title: 'Auto-deploying documentation: multiple R vignettes'
 author: Steph
-type: post
+
 date: 2015-06-05T08:38:44+00:00
 categories:
   - Data Science

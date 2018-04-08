@@ -1,7 +1,7 @@
 ---
 title: GirlswithDeepPockets.com
 author: Steph
-type: post
+
 date: 2016-10-28T11:25:13+00:00
 categories:
   - Misc Technology

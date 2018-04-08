@@ -1,7 +1,7 @@
 ---
 title: The basics of Common Table Expressions (CTEs)
 author: Steph
-type: post
+
 date: 2014-11-10T15:40:15+00:00
 dsq_thread_id:
   - 3740903915

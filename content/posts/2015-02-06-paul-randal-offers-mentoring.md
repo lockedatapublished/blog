@@ -1,7 +1,7 @@
 ---
 title: Paul Randal offers mentoring
 author: Steph
-type: post
+
 date: 2015-02-06T19:20:50+00:00
 dsq_thread_id:
   - 3715062971

@@ -1,7 +1,7 @@
 ---
 title: Stuff I read this week
 author: Steph
-type: post
+
 date: 2015-02-27T13:01:49+00:00
 dsq_thread_id:
   - 3732330826

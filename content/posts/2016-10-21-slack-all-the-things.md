@@ -1,7 +1,7 @@
 ---
 title: Slack all the things!
 author: Steph
-type: post
+
 date: 2016-10-21T14:59:50+00:00
 categories:
   - Community

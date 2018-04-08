@@ -1,7 +1,7 @@
 ---
 title: Working with R
 author: steph
-type: post
+
 date: 2017-10-05T09:29:42+00:00
 image: img/WorkingWithR.png
 spacious_page_layout:

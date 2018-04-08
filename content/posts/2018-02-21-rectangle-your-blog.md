@@ -1,7 +1,5 @@
 ---
 title: Markdown based web analytics? Rectangle your blog
-author: maelle
-type: post
 date: "2018-02-21T13:22:40+00:00"
 spacious_page_layout:
   - default_layout
@@ -10,7 +8,6 @@ categories:
   - R
 tags:
   - r
-
 ---
 
 

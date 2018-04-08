@@ -1,7 +1,7 @@
 ---
 title: 'R Quick Tip: Table parameters for rmarkdown reports'
 author: Steph
-type: post
+
 date: 2017-04-19T08:50:30+00:00
 spacious_page_layout:
   - default_layout

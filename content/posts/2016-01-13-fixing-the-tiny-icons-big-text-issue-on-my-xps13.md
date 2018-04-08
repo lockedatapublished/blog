@@ -1,7 +1,7 @@
 ---
 title: Fixing the Tiny Icons, Big Text issue on my XPS13
 author: Oz
-type: post
+
 date: 2016-01-13T17:32:14+00:00
 categories:
   - Misc Technology

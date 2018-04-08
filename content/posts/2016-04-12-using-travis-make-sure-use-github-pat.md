@@ -1,7 +1,7 @@
 ---
 title: Using Travis? Make sure you use a Github PAT
 author: Steph
-type: post
+
 date: 2016-04-12T10:27:03+00:00
 categories:
   - Data Science

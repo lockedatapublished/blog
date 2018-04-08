@@ -1,7 +1,7 @@
 ---
 title: Beware the Microsoft Edge as a PDF reader
 author: Steph
-type: post
+
 date: 2016-03-09T14:08:53+00:00
 categories:
   - Misc Technology

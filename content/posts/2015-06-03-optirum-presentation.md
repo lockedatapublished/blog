@@ -1,7 +1,7 @@
 ---
 title: optiRum – presentation
 author: Steph
-type: post
+
 date: 2015-06-03T15:00:31+00:00
 categories:
   - Data Science

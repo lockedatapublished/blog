@@ -1,7 +1,7 @@
 ---
 title: Giving back with code
 author: Steph
-type: post
+
 date: 2016-07-20T14:00:50+00:00
 categories:
   - Community

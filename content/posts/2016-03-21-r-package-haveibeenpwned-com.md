@@ -1,7 +1,7 @@
 ---
 title: HIBPwned, an R package for HaveIBeenPwned.com
 author: Steph
-type: post
+
 date: 2016-03-21T15:02:08+00:00
 categories:
   - R

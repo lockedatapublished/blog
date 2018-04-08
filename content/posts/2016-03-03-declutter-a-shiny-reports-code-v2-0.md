@@ -1,7 +1,7 @@
 ---
 title: Declutter a shiny report’s code v2.0
 author: Steph
-type: post
+
 date: 2016-03-03T13:40:34+00:00
 categories:
   - Data Science

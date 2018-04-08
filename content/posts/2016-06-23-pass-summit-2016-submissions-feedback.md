@@ -2,7 +2,7 @@
 title: 'My PASS Summit2016 submissions feedback'
 slug: my-pass-summit2016-submissions-feedback
 author: Steph
-type: post
+
 date: 2016-06-23T11:59:34+00:00
 categories:
   - Community

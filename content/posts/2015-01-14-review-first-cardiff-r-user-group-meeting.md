@@ -1,7 +1,7 @@
 ---
 title: 'Review: The first CaRdiff R User Group meeting'
 author: Steph
-type: post
+
 date: 2015-01-14T14:25:05+00:00
 categories:
   - Community

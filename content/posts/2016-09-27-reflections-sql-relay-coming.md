@@ -1,7 +1,7 @@
 ---
 title: 'Reflections: SQL Relay is coming'
 author: Steph
-type: post
+
 date: 2016-09-27T08:24:36+00:00
 categories:
   - Community

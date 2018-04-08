@@ -1,7 +1,7 @@
 ---
 title: Stuff I read this week
 author: Steph
-type: post
+
 date: 2015-02-13T15:45:58+00:00
 categories:
   - R

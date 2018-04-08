@@ -1,7 +1,7 @@
 ---
 title: Objectless Check Boxes using VBA
 author: Oz
-type: post
+
 date: 2013-05-12T14:03:09+00:00
 dsq_thread_id:
   - 3720570217

@@ -1,7 +1,7 @@
 ---
 title: Updated site
 author: Steph
-type: post
+
 date: 2015-01-03T16:21:11+00:00
 socialauthorbio_custom_checkbox_meta:
   - 'a:1:{s:22:"DisableSocialAuthorBio";s:7:"Disable";}'

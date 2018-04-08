@@ -1,7 +1,7 @@
 ---
 title: 2016 PASS Board of Directors Candidate Town Halls
 author: Steph
-type: post
+
 date: 2016-10-06T09:27:57+00:00
 categories:
   - Community

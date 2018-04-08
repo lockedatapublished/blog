@@ -1,7 +1,7 @@
 ---
 title: Starting the Cardiff R User Group
 author: Steph
-type: post
+
 date: 2015-01-09T15:41:19+00:00
 categories:
   - Community

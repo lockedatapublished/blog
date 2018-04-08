@@ -1,7 +1,7 @@
 ---
 title: Minor update to HIBPwned
 author: Steph
-type: post
+
 date: 2017-05-05T07:46:42+00:00
 spacious_page_layout:
   - default_layout

@@ -1,7 +1,7 @@
 ---
 title: Setting up WordPress on Azure
 author: Steph
-type: post
+
 date: 2013-05-11T22:14:43+00:00
 dsq_thread_id:
   - 3714606035

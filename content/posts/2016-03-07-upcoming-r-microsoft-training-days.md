@@ -1,7 +1,7 @@
 ---
 title: Upcoming R for Microsoft training days
 author: Steph
-type: post
+
 date: 2016-03-07T09:55:13+00:00
 categories:
   - Community

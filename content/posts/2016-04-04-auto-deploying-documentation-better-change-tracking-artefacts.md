@@ -1,7 +1,7 @@
 ---
 title: 'Auto-deploying documentation: better change tracking of artefacts'
 author: Steph
-type: post
+
 date: 2016-04-04T11:04:34+00:00
 categories:
   - Data Science

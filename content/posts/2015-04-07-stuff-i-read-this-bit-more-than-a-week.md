@@ -1,7 +1,7 @@
 ---
 title: Stuff I read this (bit more than a) week
 author: Steph
-type: post
+
 date: 2015-04-07T08:24:38+00:00
 categories:
   - Community

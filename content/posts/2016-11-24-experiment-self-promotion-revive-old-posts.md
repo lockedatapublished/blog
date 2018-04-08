@@ -1,7 +1,7 @@
 ---
 title: An experiment in self-promotion – Revive Old Posts
 author: Steph
-type: post
+
 date: 2016-11-24T10:46:40+00:00
 categories:
   - Microsoft Data Platform

@@ -1,7 +1,7 @@
 ---
 title: Unit testing in SSDT – a quick intro
 author: Steph
-type: post
+
 date: 2016-10-10T08:00:08+00:00
 spacious_page_layout:
   - default_layout

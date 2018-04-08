@@ -1,7 +1,7 @@
 ---
 title: 'Synchronising schema between MSSQL & MySQL with SSIS'
 author: Steph
-type: post
+
 date: 2013-05-29T16:25:47+00:00
 dsq_thread_id:
   - 3718714922

@@ -1,7 +1,7 @@
 ---
 title: Sponsoring community events (SCE)
 author: Steph
-type: post
+
 date: 2016-08-01T09:00:10+00:00
 novalite_template:
   - full

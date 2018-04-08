@@ -1,7 +1,7 @@
 ---
 title: SQLSaturdays but for R?
 author: Steph
-type: post
+
 date: 2015-11-04T19:25:22+00:00
 categories:
   - Community

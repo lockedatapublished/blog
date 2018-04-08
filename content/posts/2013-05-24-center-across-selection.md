@@ -1,7 +1,7 @@
 ---
 title: Center across selection
 author: Steph
-type: post
+
 date: 2013-05-24T15:23:29+00:00
 categories:
   - Misc Technology

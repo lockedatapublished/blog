@@ -1,7 +1,7 @@
 ---
 title: Installing SQL Server ODBC drivers on Ubuntu 15.04
 author: Steph
-type: post
+
 date: 2016-04-20T14:13:28+00:00
 categories:
   - DataOps

@@ -1,7 +1,7 @@
 ---
 title: 'R Quick Tip: Upload multiple files in shiny and consolidate into a dataset'
 author: Steph
-type: post
+
 date: 2017-04-28T10:27:55+00:00
 spacious_page_layout:
   - default_layout

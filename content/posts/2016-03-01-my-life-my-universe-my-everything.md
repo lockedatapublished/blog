@@ -1,7 +1,7 @@
 ---
 title: My life, my universe, my everything
 author: Steph
-type: post
+
 date: 2016-03-01T20:08:37+00:00
 categories:
   - Community

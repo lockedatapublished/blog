@@ -1,7 +1,7 @@
 ---
 title: 5 useful CSS sites
 author: Steph
-type: post
+
 date: 2016-10-27T08:00:45+00:00
 categories:
   - Misc Technology

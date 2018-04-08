@@ -1,7 +1,7 @@
 ---
 title: Bad ways to run a user group
 author: Steph
-type: post
+
 date: 2016-07-07T12:53:09+00:00
 categories:
   - Community

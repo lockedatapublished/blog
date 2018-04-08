@@ -1,7 +1,7 @@
 ---
 title: All my talks in one place (plus a Hugo walkthrough!)
 author: steph
-type: post
+
 date: 2017-06-17T09:29:42+00:00
 spacious_page_layout:
   - default_layout

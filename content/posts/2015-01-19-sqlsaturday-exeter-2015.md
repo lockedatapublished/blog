@@ -1,7 +1,7 @@
 ---
 title: SQLSaturday Exeter 2015
 author: Steph
-type: post
+
 date: 2015-01-19T20:09:35+00:00
 categories:
   - Community

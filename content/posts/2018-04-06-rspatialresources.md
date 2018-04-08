@@ -1,7 +1,7 @@
 ---
 title: R Spatial Resources
 author: steph
-type: post
+
 date: 2018-04-06T09:29:42+00:00
 categories:
   - R

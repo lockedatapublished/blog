@@ -1,7 +1,7 @@
 ---
 title: SSH tunnels on Windows for R
 author: Steph
-type: post
+
 date: 2016-03-14T13:41:06+00:00
 categories:
   - DataOps

@@ -1,7 +1,7 @@
 ---
 title: 'R Quick Tip: parameter re-use within rmarkdown YAML'
 author: Steph
-type: post
+
 date: 2017-05-08T08:32:00+00:00
 spacious_page_layout:
   - default_layout

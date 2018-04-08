@@ -1,7 +1,7 @@
 ---
 title: Should presenters have to pay to attend?
 author: Steph
-type: post
+
 date: 2015-12-07T15:55:36+00:00
 categories:
   - Community

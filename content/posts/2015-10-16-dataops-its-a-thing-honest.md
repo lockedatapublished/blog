@@ -1,7 +1,7 @@
 ---
 title: DataOps – it’s a thing (honest)
 author: Steph
-type: post
+
 date: 2015-10-16T20:27:03+00:00
 spacious_page_layout:
   - default_layout

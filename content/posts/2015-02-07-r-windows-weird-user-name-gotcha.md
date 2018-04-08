@@ -1,7 +1,7 @@
 ---
 title: R on Windows – weird user name gotcha
 author: Steph
-type: post
+
 date: 2015-02-07T18:40:09+00:00
 categories:
   - R

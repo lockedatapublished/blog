@@ -1,7 +1,7 @@
 ---
 title: SQLRelay Cardiff – Nov 13th
 author: Steph
-type: post
+
 date: 2013-09-25T20:44:54+00:00
 categories:
   - Community

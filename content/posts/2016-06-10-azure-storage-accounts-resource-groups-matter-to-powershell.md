@@ -1,7 +1,7 @@
 ---
 title: Azure Storage Accounts – Resource Groups matter to PowerShell!
 author: Steph
-type: post
+
 date: 2016-06-10T09:00:21+00:00
 categories:
   - DataOps

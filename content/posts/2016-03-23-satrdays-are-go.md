@@ -1,7 +1,7 @@
 ---
 title: satRdays are go!
 author: Steph
-type: post
+
 date: 2016-03-23T13:52:16+00:00
 categories:
   - Community

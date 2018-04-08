@@ -1,7 +1,7 @@
 ---
 title: 'Battle of the Beards: access it online'
 author: Steph
-type: post
+
 date: 2017-03-20T11:11:29+00:00
 spacious_page_layout:
   - default_layout

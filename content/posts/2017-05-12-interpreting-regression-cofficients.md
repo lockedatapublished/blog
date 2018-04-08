@@ -1,7 +1,7 @@
 ---
 title: How to go about interpreting regression cofficients
 author: Steph
-type: post
+
 date: 2017-05-12T08:31:48+00:00
 spacious_page_layout:
   - default_layout

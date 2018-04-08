@@ -1,7 +1,7 @@
 ---
 title: Boris’ presentation agency – 356labs
 author: Steph
-type: post
+
 date: 2015-11-11T09:43:11+00:00
 categories:
   - Community

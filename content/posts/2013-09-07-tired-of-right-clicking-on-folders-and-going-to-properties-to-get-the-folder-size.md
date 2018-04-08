@@ -1,7 +1,7 @@
 ---
 title: Tired of right-clicking on folders and going to properties to get the folder size?
 author: Steph
-type: post
+
 date: 2013-09-07T18:31:12+00:00
 dsq_thread_id:
   - 3714606180

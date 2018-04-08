@@ -1,7 +1,7 @@
 ---
 title: HIBPwned on CRAN
 author: Steph
-type: post
+
 date: 2016-06-09T08:06:58+00:00
 categories:
   - R

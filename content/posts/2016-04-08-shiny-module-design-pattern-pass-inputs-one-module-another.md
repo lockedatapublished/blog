@@ -1,7 +1,7 @@
 ---
 title: 'Shiny module design patterns: Pass a single input to multiple modules'
 author: Steph
-type: post
+
 date: 2016-04-08T10:56:32+00:00
 categories:
   - Data Science

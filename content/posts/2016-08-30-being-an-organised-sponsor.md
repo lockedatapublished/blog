@@ -1,7 +1,7 @@
 ---
 title: Being an Organised Sponsor (SCE p3)
 author: Steph
-type: post
+
 date: 2016-08-30T08:15:08+00:00
 spacious_page_layout:
   - default_layout

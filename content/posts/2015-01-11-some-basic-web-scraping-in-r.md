@@ -1,7 +1,7 @@
 ---
 title: Conference sessions – basic web scraping in R
 author: Steph
-type: post
+
 date: 2015-01-11T16:56:22+00:00
 categories:
   - Data Science

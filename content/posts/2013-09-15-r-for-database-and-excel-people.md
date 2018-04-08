@@ -1,7 +1,7 @@
 ---
 title: R for database and Excel people
 author: Steph
-type: post
+
 date: 2013-09-15T18:00:27+00:00
 categories:
   - Microsoft Data Platform

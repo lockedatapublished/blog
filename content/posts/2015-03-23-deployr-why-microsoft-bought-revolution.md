@@ -1,7 +1,7 @@
 ---
 title: DeployR – why Microsoft bought Revolution?
 author: Steph
-type: post
+
 date: 2015-03-23T10:19:10+00:00
 dsq_thread_id:
   - 3725984718

@@ -1,7 +1,7 @@
 ---
 title: satRday location voting now open
 author: Steph
-type: post
+
 date: 2016-05-11T15:45:44+00:00
 categories:
   - Community

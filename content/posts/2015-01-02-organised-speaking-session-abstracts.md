@@ -1,7 +1,7 @@
 ---
 title: Organised speaking – session abstracts
 author: Steph
-type: post
+
 date: 2015-01-02T09:31:14+00:00
 dsq_thread_id:
   - 3725595557

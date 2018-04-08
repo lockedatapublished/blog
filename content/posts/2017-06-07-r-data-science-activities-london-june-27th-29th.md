@@ -1,7 +1,7 @@
 ---
 title: R and Data Science activities in London, June 27th – 29th
 author: Steph
-type: post
+
 date: 2017-06-07T09:27:46+00:00
 spacious_page_layout:
   - default_layout

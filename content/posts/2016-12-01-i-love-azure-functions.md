@@ -1,7 +1,7 @@
 ---
 title: I Love Azure Functions!
 author: Steph
-type: post
+
 date: 2016-12-01T22:47:23+00:00
 spacious_page_layout:
   - default_layout

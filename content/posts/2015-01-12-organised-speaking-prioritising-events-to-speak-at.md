@@ -1,7 +1,7 @@
 ---
 title: Organised speaking – prioritising events to speak at
 author: Steph
-type: post
+
 date: 2015-01-12T09:57:16+00:00
 categories:
   - Community

@@ -1,7 +1,7 @@
 ---
 title: Automated documentation hosting on github via Travis-CI
 author: Steph
-type: post
+
 date: 2015-06-01T09:29:21+00:00
 categories:
   - Data Science

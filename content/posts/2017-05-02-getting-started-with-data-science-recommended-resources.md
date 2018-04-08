@@ -1,7 +1,7 @@
 ---
 title: Getting started with data science – recommended resources
 author: Steph
-type: post
+
 date: 2017-05-02T07:41:04+00:00
 spacious_page_layout:
   - default_layout

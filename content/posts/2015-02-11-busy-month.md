@@ -1,7 +1,7 @@
 ---
 title: A busy month or so
 author: Steph
-type: post
+
 date: 2015-02-11T15:15:36+00:00
 dsq_thread_id:
   - 3724301808

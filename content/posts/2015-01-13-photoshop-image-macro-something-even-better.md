@@ -1,7 +1,7 @@
 ---
 title: Photoshop image macro (or something even better!)
 author: Steph
-type: post
+
 date: 2015-01-13T10:59:21+00:00
 categories:
   - Misc Technology

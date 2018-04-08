@@ -1,7 +1,7 @@
 ---
 title: Announcing community R workshops
 author: Steph
-type: post
+
 date: 2017-02-27T09:24:14+00:00
 spacious_page_layout:
   - default_layout
