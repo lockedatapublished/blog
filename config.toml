@@ -1,9 +1,12 @@
 baseurl                 = "https://itsalocke.com/blog/"
 languageCode            = "en-gb"
 title                   = "Locke Data Blog"
-theme                   = "hugo-lockedata-blog"
+theme                   = "hugo-theme-massively"
 pygmentsCodeFences = true
-
+[params.posts]
+    foldername = "posts"
+    pagesize = "8"
+    featuredpost = "true"
 
 [permalinks]
   posts = "/:title/"
@@ -62,7 +65,7 @@ pygmentsCodeFences = true
     weight = 30
     name = "Bug Bounty"
     url = "https://goo.gl/forms/KQiYR201Fcn4k9Zh2"
-[params]
+[params.settings]
     keywords            = ["data science", "consultancy", "predictive analytics", "advanced analytics"]
     description         = "Locke Data helps organisations get started with data science. Grow your skills with our blog posts."
     google_analytics    = "UA-58415537-1"
