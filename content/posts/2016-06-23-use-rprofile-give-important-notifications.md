@@ -23,7 +23,7 @@ With that in mind, instead of showing details, I chose to show the number of bre
 
 One thing that&#8217;s neat about the `account_breach()` function is that I can query multiple email addresses or user formats to get info. Here is my .Rprofile file that gives me notifications on load for data breaches:
 
-[embedGist source=&#8221;https://gist.github.com/stephlocke/74add36831110906c5c784c194def859&#8243;]<figure id="attachment_61656" style="width: 768px" class="wp-caption aligncenter">
+{{< gist stephlocke 74add36831110906c5c784c194def859 >}}
 
 <img class="size-medium_large wp-image-61656" src="../img/console_vjc0rh.png" alt="console .Rprofile result" width="768" height="103" /><figcaption class="wp-caption-text">console .Rprofile result</figcaption></figure>
 
