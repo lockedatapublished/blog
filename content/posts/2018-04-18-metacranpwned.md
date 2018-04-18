@@ -13,37 +13,46 @@ tags:
 
 ---
 
-The alternative title of this blog post is _`HIBPwned` version 0.1.7 has been released! W00t!_. Steph's [`HIBPwned` package](https://itsalocke.com/hibpwned/) utilises the [HaveIBeenPwned.com API](https://haveibeenpwned.com/API/v2) to check whether email addresses and/or user names have been present in any publicly disclosed data breach. In other words, this package potentially delivers bad news, but useful bad news! 
+The alternative title of this blog post is *`HIBPwned` version 0.1.7 has
+been released\! W00t\!*. Steph’s [`HIBPwned`
+package](https://itsalocke.com/hibpwned/) utilises the
+[HaveIBeenPwned.com API](https://haveibeenpwned.com/API/v2) to check
+whether email addresses and/or user names have been present in any
+publicly disclosed data breach. In other words, this package potentially
+delivers bad news, but useful bad news\!
 
-This release is mainly a maintenance release, with some cool code changes invisible to you, the user, but not only that: you can now get `account_breaches` for several accounts in a `data.frame` instead of a list, and you'll be glad to know that results are cached inside an active R session. You can read about more functionalities of the package in the [function reference](https://itsalocke.com/hibpwned/reference/).
+This release is mainly a maintenance release, with some cool code
+changes invisible to you, the user, but not only that: you can now get
+`account_breaches` for several accounts in a `data.frame` instead of a
+list, and you’ll be glad to know that results are cached inside an
+active R session. You can read about more functionalities of the package
+in the [function reference](https://itsalocke.com/hibpwned/reference/).
 
-Wouldn't it be a pity, though, to echo the [release notes](https://github.com/lockedata/HIBPwned/releases/tag/v0.1.7) without a nifty use case? Another blog post will give more details about the technical aspects of the release, but here, let's make you curious! How many CRAN package maintainers have been [pwned](https://en.wikipedia.org/wiki/Pwn)?
+Wouldn’t it be a pity, though, to echo the [release
+notes](https://github.com/lockedata/HIBPwned/releases/tag/v0.1.7)
+without a nifty use case? Another blog post will give more details about
+the technical aspects of the release, but here, let’s make you curious\!
+How many CRAN package maintainers have been
+[pwned](https://en.wikipedia.org/wiki/Pwn)?
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-```{r setup, include = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  cache = TRUE,
-  message = FALSE,
-  warning = FALSE,
-  comment = "#>",
-  fig.path = "man/figures/README-",
-  out.width = "100%"
-)
-```
-Get the email addresses of CRAN package maintainers
-===================================================
+# Get the email addresses of CRAN package maintainers
 
-```{r}
+``` r
 library("magrittr")
 ```
 
-Data was gathered thanks to an adaptation of the code published in [this blog post of David Smith's about prolific package maintainers](http://blog.revolutionanalytics.com/2018/03/the-most-prolific-package-maintainers-on-cran.html). _We_ are after the most endangered package maintainers on CRAN!
+Data was gathered thanks to an adaptation of the code published in [this
+blog post of David Smith’s about prolific package
+maintainers](http://blog.revolutionanalytics.com/2018/03/the-most-prolific-package-maintainers-on-cran.html).
+*We* are after the most endangered package maintainers on CRAN\!
 
-The helper function below extracts the email address of a string such as "Jane Doe <jane.doe@fakedomain.io>". On top of using the `as.person` conversion, this function also deals with a few particular cases.
+The helper function below extracts the email address of a string such as
+“Jane Doe <jane.doe@fakedomain.io>”. On top of using the `as.person`
+conversion, this function also deals with a few particular cases.
 
-```{r}
+``` r
 get_maintainer_email <- function(maintainer_string){
   if(inherits(maintainer_string, "data.frame")){
     maintainer_string <- maintainer_string$Maintainer[1]
@@ -67,14 +76,16 @@ get_maintainer_email <- function(maintainer_string){
 ```
 
 Here it is in action.
-```{r}
-get_maintainer_email("Jane Doe <jane.doe@fakedomain.io>")
 
+``` r
+get_maintainer_email("Jane Doe <jane.doe@fakedomain.io>")
+#> [1] "jane.doe@fakedomain.io"
 ```
 
-The following code then gathers the email addresses of all CRAN package maintainers.
+The following code then gathers the email addresses of all CRAN package
+maintainers.
 
-```r
+``` r
 tools::CRAN_package_db() %>%
   .[, c("Package", "Maintainer")] %>%
   tidyr::nest(Maintainer, .key = "Maintainer") %>%
@@ -86,39 +97,44 @@ tools::CRAN_package_db() %>%
   dplyr::filter(email != "") %>%
   # save result
   readr::write_csv(path = "data/all_packages.csv")
-
 ```
 
-```{r}
+``` r
 emails <- readr::read_csv("data/all_packages.csv")
 ```
 
-We obtained `r nrow(emails)` packages with `r length(unique(emails$email))` unique email addresses. We do not have to care about their uniqueness: since `HIBPwned` implements caching inside an active R session via [`memoise`](https://github.com/r-lib/memoise) duplicate emails do not mean duplicate requests! :nail_care: Another aspect we users do not need to care about is rate limiting: `HIBPwned` uses the nice [`ratelimitr` package](https://github.com/tarakc02/ratelimitr) in order to automatically pause R when needed.
+We obtained 12444 packages with 7173 unique email addresses. We do not
+have to care about their uniqueness: since `HIBPwned` implements caching
+inside an active R session via
+[`memoise`](https://github.com/r-lib/memoise) duplicate emails do not
+mean duplicate requests\! :nail\_care: Another aspect we users do not
+need to care about is rate limiting: `HIBPwned` uses the nice
+[`ratelimitr` package](https://github.com/tarakc02/ratelimitr) in order
+to automatically pause R when needed.
 
-So, have CRAN package maintainers been pwned?
-=============================================
+# So, have CRAN package maintainers been pwned?
 
-Thanks to setting the new `as_list` option to FALSE we got a data.frame as output. Note that choosing this means we only get back accounts with breaches. Depending on the analysis, we could supplement the original `emails` data.frame with the information using `dplyr::left_join` for instance.
+Thanks to setting the new `as_list` option to FALSE we get a data.frame
+as output. Note that choosing this means we only get back accounts with
+breaches. Depending on the analysis, we could supplement the original
+`emails` data.frame with the information using `dplyr::left_join` for
+instance.
 
-```{r}
+``` r
 pwned <- HIBPwned::account_breaches(emails$email,
                                     as_list = FALSE)
 pwned <- unique(pwned)
-
 ```
 
-There are `r length(unique(emails$email))` unique CRAN maintainer emails, among which `r length(unique(pwned$account))` i.e. `r round(length(unique(pwned$account))/length(unique(emails$email)), digits = 2)*100`% have been pwned. Dear reader, why not compare this to the proportion of Python module maintainers who've been pwned? Ping us if you complement this analysis!
+There are 7173 unique CRAN maintainer emails, among which 3613 i.e. 50%
+have been pwned. Dear reader, why not compare this to the proportion of
+Python module maintainers who’ve been pwned? Ping us if you complement
+this analysis\!
 
-```{r, echo = FALSE}
-pwned %>%
-  dplyr::select(- DataClasses) %>%
-  readr::write_csv(path = "data/pwned.csv")
+Looking at these pwned maintainers, here are the number of breaches
+they’ve been victims of:
 
-```
-
-Looking at these pwned maintainers, here are the number of breaches they've been victims of:
-
-```{r}
+``` r
 pwned %>%
   dplyr::count(account) %>%
   dplyr::summarise(median = median(n),
@@ -127,9 +143,13 @@ pwned %>%
   knitr::kable()
 ```
 
-There are `r length(unique(pwned$Name))` unique breaches. What were the most common ones?
+| median | min | max |
+| -----: | --: | --: |
+|      2 |   1 |  18 |
 
-```{r}
+There are 136 unique breaches. What were the most common ones?
+
+``` r
 pwned %>%
   dplyr::group_by(Title, BreachDate) %>%
   dplyr::tally() %>%
@@ -138,18 +158,68 @@ pwned %>%
   knitr::kable()
 ```
 
-Maybe or probably some you've heard of, which might make you wonder about your own security, being a CRAN maintainer or not...
+| Title              | BreachDate |    n |
+| :----------------- | :--------- | ---: |
+| Dropbox            | 2012-07-01 | 1534 |
+| LinkedIn           | 2012-05-05 | 1140 |
+| Onliner Spambot    | 2017-08-28 |  943 |
+| GeekedIn           | 2016-08-15 |  782 |
+| Adobe              | 2013-10-04 |  694 |
+| MDPI               | 2016-08-30 |  558 |
+| Last.fm            | 2012-03-22 |  350 |
+| NetProspex         | 2016-09-01 |  310 |
+| B2B USA Businesses | 2017-07-18 |  279 |
+| Disqus             | 2012-07-01 |  259 |
 
-What about you?
-===============
+Maybe or probably some you’ve heard of, which might make you wonder
+about your own security, being a CRAN maintainer or not…
 
-You could check if you've been victim of any known breach right now by installing `HIBPwned` from CRAN!
+# What about you?
 
-```{r}
+You could check if you’ve been victim of any known breach right now by
+installing `HIBPwned` from CRAN\!
+
+``` r
 # install.packages("HIBPwned")
 str(HIBPwned::account_breaches("steff.sullivan@gmail.com"))
+#> List of 1
+#>  $ steff.sullivan@gmail.com:'data.frame':    4 obs. of  16 variables:
+#>   ..$ Title       : chr [1:4] "Adobe" "Disqus" "LinkedIn" "Onliner Spambot"
+#>   ..$ Name        : chr [1:4] "Adobe" "Disqus" "LinkedIn" "OnlinerSpambot"
+#>   ..$ Domain      : chr [1:4] "adobe.com" "disqus.com" "linkedin.com" ""
+#>   ..$ BreachDate  : chr [1:4] "2013-10-04" "2012-07-01" "2012-05-05" "2017-08-28"
+#>   ..$ AddedDate   : chr [1:4] "2013-12-04T00:00:00Z" "2017-10-06T23:03:51Z" "2016-05-21T21:35:40Z" "2017-08-29T19:25:56Z"
+#>   ..$ ModifiedDate: chr [1:4] "2013-12-04T00:00:00Z" "2017-10-06T23:03:51Z" "2016-05-21T21:35:40Z" "2017-08-29T19:25:56Z"
+#>   ..$ PwnCount    : int [1:4] 152445165 17551044 164611595 711477622
+#>   ..$ Description : chr [1:4] "In October 2013, 153 million Adobe accounts were breached with each containing an internal ID, username, email,"| __truncated__ "In October 2017, the blog commenting service <a href=\"https://blog.disqus.com/security-alert-user-info-breach\"| __truncated__ "In May 2016, <a href=\"https://www.troyhunt.com/observations-and-thoughts-on-the-linkedin-data-breach\" target="| __truncated__ "In August 2017, a spambot by the name of <a href=\"https://benkowlab.blogspot.com.au/2017/08/from-onliner-spamb"| __truncated__
+#>   ..$ DataClasses :List of 4
+#>   .. ..$ : chr [1:4] "Email addresses" "Password hints" "Passwords" "Usernames"
+#>   .. ..$ : chr [1:3] "Email addresses" "Passwords" "Usernames"
+#>   .. ..$ : chr [1:2] "Email addresses" "Passwords"
+#>   .. ..$ : chr [1:2] "Email addresses" "Passwords"
+#>   ..$ IsVerified  : logi [1:4] TRUE TRUE TRUE TRUE
+#>   ..$ IsFabricated: logi [1:4] FALSE FALSE FALSE FALSE
+#>   ..$ IsSensitive : logi [1:4] FALSE FALSE FALSE FALSE
+#>   ..$ IsActive    : logi [1:4] TRUE TRUE TRUE TRUE
+#>   ..$ IsRetired   : logi [1:4] FALSE FALSE FALSE FALSE
+#>   ..$ IsSpamList  : logi [1:4] FALSE FALSE FALSE TRUE
+#>   ..$ LogoType    : chr [1:4] "svg" "svg" "svg" "png"
 ```
 
-If one of your addresses has been pwned, Steph says you should change passwords in other locations is you re-used passwords. Even if your address hasn't been pwned yet you should use a password manager that will allow you not to re-use passwords, and set up two factor authentication, e.g. read more about [2FA for GitHub](https://help.github.com/articles/securing-your-account-with-two-factor-authentication-2fa/). 
+If one of your addresses has been pwned, Steph says you should change
+passwords in other locations is you re-used passwords. Even if your
+address hasn’t been pwned yet you should use a password manager that
+will allow you not to re-use passwords, and set up two factor
+authentication, e.g. read more about [2FA for
+GitHub](https://help.github.com/articles/securing-your-account-with-two-factor-authentication-2fa/).
 
-And how could you now right away if a known data breach is of concern to you? Well, don't only let your .Rprofile [tell you you're a rrrrock star](https://twitter.com/annakrystalli/status/985972442219909121), but also add some code checking whether you've been pwned, as explained in [this blog post](https://itsalocke.com/blog/use-your-.rprofile-to-give-you-important-notifications/)! Pro-tip, you can use the `usethis::edit_r_profile` function to easily open your .Rprofile. Steph also says you can register for [HIBPwned.com notifications](https://haveibeenpwned.com/NotifyMe) and ask your organisation to watch breaches at the domain level. Stay safe!
+And how could you now right away if a known data breach is of concern to
+you? Well, don’t only let your .Rprofile [tell you you’re a rrrrock
+star](https://twitter.com/annakrystalli/status/985972442219909121), but
+also add some code checking whether you’ve been pwned, as explained in
+[this blog
+post](https://itsalocke.com/blog/use-your-.rprofile-to-give-you-important-notifications/)\!
+Pro-tip, you can use the `usethis::edit_r_profile` function to easily
+open your .Rprofile. Steph also says you can register for [HIBPwned.com
+notifications](https://haveibeenpwned.com/NotifyMe) and ask your
+organisation to watch breaches at the domain level. Stay safe\!
