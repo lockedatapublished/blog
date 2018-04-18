@@ -2,7 +2,7 @@
 title: How many CRAN package maintainers have been pwned?
 author: maelle
 type: post
-date: 2018-04-18T08:16:40+00:00
+date: 2018-04-18
 spacious_page_layout:
   - default_layout
 categories:
@@ -10,7 +10,6 @@ categories:
   - R
 tags:
   - r
-
 ---
 
 The alternative title of this blog post is *`HIBPwned` version 0.1.7 has
