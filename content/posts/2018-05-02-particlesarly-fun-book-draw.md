@@ -13,25 +13,25 @@ tags:
 
 ---
 
-Did you know that every month, a random Locke Data Twitter follower wins a nifty data science book? If you don't and don't follow [Locke Data on Twitter](https://twitter.com/LockeData) yet, do it! This month's book was "Tidy text mining" by Julia Silge and David Robinson, a fantastic introduction to Natural Language Processing in R. If you haven't been lucky enough to score a paperback version, you can read it [online](https://www.tidytextmining.com/) for free! You can check out tweets about previous give-aways via [this Twitter moment](https://twitter.com/i/moments/982169969008918528) and see that on top of giving away great books we also try to make the winner announcement fun. In this post I shall explain how we announced this month's winner with an animated gif of followers' screennames using the `particles` package.
+Did you know that every month, a random Locke Data Twitter follower wins a nifty data science book? If you don't, and you don't follow [Locke Data on Twitter](https://twitter.com/LockeData) yet, do it! This month's book was "Tidy text mining" by Julia Silge and David Robinson, a fantastic introduction to Natural Language Processing in R. If you haven't been lucky enough to score a paperback version, you can read it [online](https://www.tidytextmining.com/) for free! You can check out tweets about previous give-aways via [this Twitter moment](https://twitter.com/i/moments/982169969008918528) and see that on top of giving away great books we also try to make the winner announcement fun. In this post I shall explain how we announced this month's winner with an animated gif of followers' screennames using the `particles` package.
 
 # Bag of words, bag of followers
 
-Last month, I had created a magical gif to announce the winner of "Dear Data", in which Wizard chibi Steph made a book image disappear, revealing who the winner was. I used the `particles` package that simulates particles, which allowed to simulate the movements of pixels.
+Last month, I had created a magical gif to announce the winner of "Dear Data", in which Wizard chibi Steph made a book image disappear, revealing who the winner was. I used the `particles` package that simulates particles, which allowed us to simulate the movements of pixels.
 
 {{< tweet 980753545262661634 >}}
 
-You can find the R script [here](https://github.com/lockedata/twitter_book_draw/blob/master/R/code_with_particles.R), derived from [this gist by `particles` creator Thomas Lin Pedersen](https://gist.github.com/thomasp85/0938c3ece34b9515d889f3b1f9c3fc9c). This month, I wanted to be slightly more ambitious in order to use _words_ as the basis for the visualization, and in order to dive a bit more into the `particles` package instead of barely adapting an existing gist, so as to share my learning process with you. 
+You can find the R script [here](https://github.com/lockedata/twitter_book_draw/blob/master/R/code_with_particles.R), derived from [this gist by `particles` creator Thomas Lin Pedersen](https://gist.github.com/thomasp85/0938c3ece34b9515d889f3b1f9c3fc9c). This month, I wanted to be slightly more ambitious in order to use _words_ as the basis for the visualization, and in order to dive a bit more into the `particles` package instead of barely adapting an existing gist, and share my learning process with you. 
 
 Learning more about R by visualizing stuff is probably good idea, as phrased in this tweet
 
 {{< tweet 984537744985686016 >}}
 
-I had in mind a wordcloud of all followers' screenames, that would move and all of a sudden change so that only the winner might stay. How did I achieve that?
+I had in mind a wordcloud of all followers' screenames, that would move and all of a sudden change so that only the name remained. How did I achieve that?
 
 # The genesis of the bag
 
-A very good post by Thomas explains [how he animated his blog logo](https://www.data-imaginist.com/2017/animating-the-logo/). I'll write a step-by-step here too. Compared to last month, I dived into `particles` docs which was _fascinating_. A good intro is [the announcement blog post](https://www.data-imaginist.com/2018/let-it-flow-let-it-flow-let-it-flow/), and in general the functions are actually well documented. Last month I had merely looked at them, in order to simply adapt the existing gist, while this time, I unsurprisingly learnt more by doing _and_ reading. 
+A very good post by Thomas explains [how he animated his blog logo](https://www.data-imaginist.com/2017/animating-the-logo/). I'll write a step-by-step here too. Compared to last month, I dived into `particles` docs which was _fascinating_. A good intro is [the announcement blog post](https://www.data-imaginist.com/2018/let-it-flow-let-it-flow-let-it-flow/), and in general the functions are actually well documented. Last month I had merely looked at them, in order to simply adapt the existing gist, while this time I unsurprisingly learnt more by doing _and_ reading. 
 
 ## Drawing a winner
 
@@ -84,7 +84,7 @@ sim <- create_lattice(nrow(followers)) %>%
     sim
   })
 ```
-The first step consists in creating a lattice as big as the number of followers, and then assigning to each particle a random position withing a circle (a Petri dish! see how fascinating `particles` terminology is!) and a random velocity. I chose to set `velocity_decay` and `alpha_decay` to 0 in order not to let the system cool down. I then let the system evolved for 50 steps, randomly, without setting any constraint, so followers' names partly disappeared from the image at some points, which was fine by me. After that, I added an `y_force` pulling down followers' names. `strength` and the number of steps, 12, were step to get a not too violent downwards movement. Note that since there was no cooling down, after touching the bottom the cloud of followers' names actually bounced back up hence my stopping the movie at that point.
+The first step consists of creating a lattice as big as the number of followers, and then assigning to each particle a random position withing a circle (a Petri dish! see how fascinating `particles` terminology is?) and a random velocity. I chose to set `velocity_decay` and `alpha_decay` to 0 in order not to let the system cool down. I then let the system evolved for 50 steps, randomly, without setting any constraint, so followers' names partly disappeared from the image at some points, which was fine by me. After that, I added a `y_force` pulling down followers' names. `strength` and the number of steps, 12, were set to get a not too violent downwards movement. Note that since there was no cooling down, after touching the bottom the cloud of followers' names actually bounced back up hence my stopping the movie at that point.
 
 Being able to add code inside the `evolve` call in order to record the simulation was crucial, since I wanted to prepare the visualization at the end.
 
@@ -125,7 +125,7 @@ sim_df$y[sim_df$name == winner] <- seq(sim_df$y[sim_df$name == winner][1], to = 
 
 ## Plotting all movements
 
-I used the code below to plot all movements. The function takes the simulation at one step (as a `data.frame`) and the colours vector defined previously, and plots the names. Important points are its using `theme_void`, and the `Roboto` font which is one of the two fonts Locke Data uses everywhere. Branding!
+I used the code below to plot all movements. The function takes the simulation at one step (as a `data.frame`) and the colours vector defined previously, and plots the names. Important points are using `theme_void`, and the `Roboto` font which is one of the two fonts Locke Data uses everywhere. Branding!
 
 ```r
 plot_one_step <- function(df, colors){
