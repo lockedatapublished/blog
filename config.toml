@@ -4,6 +4,8 @@ title                   = "Locke Data Blog"
 theme                   = "hugo-lockedata-blog"
 pygmentsCodeFences = true
 
+rssLimit = 20
+
 
 [permalinks]
   posts = "/:title/"
