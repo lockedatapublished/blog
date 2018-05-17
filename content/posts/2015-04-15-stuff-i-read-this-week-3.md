@@ -10,6 +10,7 @@ tags:
   - professional development
   - r
   - stuff I read this week
+slug: stuff-i-read-this-week5
 format: aside
 
 ---

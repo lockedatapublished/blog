@@ -13,6 +13,7 @@ tags:
   - r
   - software development
   - stuff I read this week
+slug: stuff-i-read-this-week4
 format: aside
 
 ---

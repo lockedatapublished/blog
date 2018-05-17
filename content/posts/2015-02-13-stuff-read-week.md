@@ -14,6 +14,7 @@ tags:
   - sql server
   - stuff I read this week
 format: aside
+slug: stuff-i-read-this-week
 
 ---
 Here&#8217;s a selection of articles etc. that I found really interesting this week:

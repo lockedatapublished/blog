@@ -16,6 +16,7 @@ tags:
   - software development in r
   - stuff I read this week
   - twitter
+slug: stuff-i-read-this-week3
 format: aside
 
 ---

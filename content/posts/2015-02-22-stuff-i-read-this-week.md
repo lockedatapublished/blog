@@ -11,6 +11,7 @@ tags:
   - r
   - security
   - stuff I read this week
+slug: stuff-i-read-this-week2
 format: aside
 
 ---
