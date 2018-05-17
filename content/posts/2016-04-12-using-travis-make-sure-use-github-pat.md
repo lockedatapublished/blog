@@ -22,7 +22,7 @@ We&#8217;re in the fantastic situation where lots of people are using [Travis-CI
 
 This error will cause your build to fail, even if you didn&#8217;t do anything wrong. To solve it short-term you can wait a little while and restart your build.<figure id="attachment_61598" style="width: 768px" class="wp-caption aligncenter">
 
-<img class="size-medium_large wp-image-61598" src="../img/restartbuilds_hsvpmp.png" alt="How to restart a build in Travis-CI" width="768" height="134" /><figcaption class="wp-caption-text">How to restart a build in Travis-CI</figcaption></figure> 
+<img class="size-medium_large wp-image-61598" src="../img/restartbuilds_hsvpmp.png" alt="How to restart a build in Travis-CI" width="768" height="134" /></figure> 
 
 That is a very short-termist solution and does not solve the problem for future you or other users of the service. The real solution to resolving this issue is to get off the default API access credentials and use your own.
 
