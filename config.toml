@@ -92,3 +92,9 @@ copyright = '<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa
     email               = ""
     pinterest           = ""
     wordpress           = ""
+
+[outputs]
+  home = [ "HTML", "CSS", "RSS" ]
+  section = [ "HTML", "RSS" ]
+  taxonomy = [ "HTML", "RSS" ]
+  taxonomyTerm = [ "HTML", "RSS" ]
