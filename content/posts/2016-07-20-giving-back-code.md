@@ -48,7 +48,7 @@ There are many reasons why you should consider writing code and making it availa
 
 <!--more-->
 
-## <a name="getstarted"></a> Get Started
+## <a name="getstarted"></a>Get Started
 
 ### Forums
 
@@ -76,7 +76,7 @@ Code isn&#8217;t the only way of giving back. Why not contribute in some other w
 
 There&#8217;s a risk people may be mean on the internet &#8211; not everyone follows Wheaton&#8217;s rule alas! So if you&#8217;re worried about your code, ask someone to review it, maybe get someone to hold your hand through your first pull request. There&#8217;s plenty of us who&#8217;ll give you a hand, and there are some neat networks like [CodeNewbie][14] and [LearnProgramming Mentoring Community][15] who can help support you too.
 
-## <a name="perspectives"></a> Perspectives 
+## <a name="perspectives"></a>Perspectives 
 
 See what some great code contributors think and/or check out Scott Hanselman on [Getting Started in Open Source][16].
 

@@ -18,9 +18,7 @@ Part of my (slowly) working pipeline of coding projects has been an R package th
 
 If you&#8217;re not already familiar with HaveIBeenPwned, rectify the situation, NOW! Don&#8217;t worry about continuing to read the rest of the post; getting yourself signed up for account breach notifications is way more important!<figure style="width: 245px" class="wp-caption alignnone">
 
-[<img src="http://i.giphy.com/3o7ZetIsjtbkgNE1I4.gif" width="245" height="160" alt="Go now! /giphy run" class />][2]<figcaption class="wp-caption-text">Go now!
-  
-/giphy run</figcaption></figure> 
+[<img src="http://i.giphy.com/3o7ZetIsjtbkgNE1I4.gif" width="245" height="160" alt="Go now! /giphy run" class />][2]</figure> 
 
 With that stern admonishment out of the way&#8230;
 
