@@ -20,11 +20,11 @@ tags:
 ---
 From code in answers on Stack Overflow to R packages or full programs, there&#8217;s a lot of code being written and given away. This post examines some of the reasons why the people writing all that code do it, why you should consider giving back with code, and how you can get started. Finally, I cap it all off with perspectives from some of my favourite coders!
 
-  * [Because reasons][1]
-  * [Get started][2]
-  * [Perspectives][3]
+  * [Because reasons](https://itsalocke.com/blog/giving-back-with-code/#reasons)
+  * [Get started](https://itsalocke.com/blog/giving-back-with-code/#getstarted)
+  * [Perspectives](https://itsalocke.com/blog/giving-back-with-code/#perspectives)
 
-## Because reasons {#reasons}
+## <a name="reasons"></a>Because reasons 
 
 There are many reasons why you should consider writing code and making it available for public consumption.
 
@@ -48,7 +48,7 @@ There are many reasons why you should consider writing code and making it availa
 
 <!--more-->
 
-## Get Started {#getstarted}
+## <a name="getstarted"></a> Get Started
 
 ### Forums
 
@@ -76,7 +76,7 @@ Code isn&#8217;t the only way of giving back. Why not contribute in some other w
 
 There&#8217;s a risk people may be mean on the internet &#8211; not everyone follows Wheaton&#8217;s rule alas! So if you&#8217;re worried about your code, ask someone to review it, maybe get someone to hold your hand through your first pull request. There&#8217;s plenty of us who&#8217;ll give you a hand, and there are some neat networks like [CodeNewbie][14] and [LearnProgramming Mentoring Community][15] who can help support you too.
 
-## Perspectives {#perspectives}
+## <a name="perspectives"></a> Perspectives 
 
 See what some great code contributors think and/or check out Scott Hanselman on [Getting Started in Open Source][16].
 
@@ -126,9 +126,6 @@ Rob, the awesome bearded wonder, writes code like it&#8217;s going out of fashio
 
 > I am a strong believer in the tech communities both PowerShell and SQL. I use and have used a lot of code that others have shared and it has helped me. I like the fact that I can pay some of that back by giving code for others to use. I remember what it was like to not know how to do something and helping and enabling others makes me feel good. I love writing PowerShell to solve problems. If someone asks me how can I do this thing with PowerShell I enjoy the challenge and the learning opportunity it gives. But the best reason for me is that people take your code and do amazing things and tell you great stories of things they have done, systems they have built or challenges they have overcome, which is all I ask &#8211; Drop me a line and tell me the cool things you have done with my code.
 
- [1]: #reasons
- [2]: #getstarted
- [3]: #perspectives
  [4]: http://stackoverflow.com/
  [5]: http://stackoverflow.com/help/how-to-ask
  [6]: https://codeblog.jonskeet.uk/2009/02/17/answering-technical-questions-helpfully/
