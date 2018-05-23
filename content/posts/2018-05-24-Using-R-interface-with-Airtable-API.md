@@ -18,7 +18,7 @@ Hi folks, so this blog is about how to use an R interface with an Airtable API.
 We are going to be using this interface and API to pick our winner for our [T-shirt draw](https://twitter.com/LockeData/status/997170312323055616). We will also be using the dplyr function `sample_n()`.
 There are a couple of different R packages that you can use but I used [Darko Bergant's package](https://github.com/bergant/airtabler).You'll also need to use `devtools`.
 
-# Set up
+Set up
 --------
 To install `devtools` all you need to do is `install.packages("devtools")`.
 
@@ -27,37 +27,36 @@ Now you need to install [Darko Bergant's package](https://github.com/bergant/air
 
 Next you need to generate the airtable API key from your [Airtable account](https://airtable.com/account) page.
 
-# Library
-----------
-Now that you have `devtools` and [bergant/airtabler](https://github.com/bergant/airtabler) installed you need load them into the session to be used.
-```library(airtabler)
+Library
+-------
+Now that you have `devtools` and [bergant/airtabler](https://github.com/bergant/airtabler) installed you need load them into the session to be used. ```library(airtabler)
 library(dplyr)```
 
-# Retrieve the data as a data.frame
+
+
+Retrieve the data as a data.frame
 -----------------------------------
 To retrieve the data as a `data.frame` you'll need your [Airtable API key]((https://airtable.com/account).
 ```Sys.setenv("AIRTABLE_API_KEY"="<Your API key") #example key************** ```
-Then you need to add the base that you want to pull the data from.
-```airtable <- airtabler::airtable("<base key>", "<Tab/sheet name>") #base key can be found in the API docs
-airtable <- airtable$`<Tab/sheet name>`$select_all()```
+Then you need to add the base that you want to pull the data from. ```airtable <- airtabler::airtable("<base key>", "<Tab/sheet name>") #base key can be found in the API docs```.
+Now you need to select the data that you want to use ```airtable <- airtable$`<Tab/sheet name>`$select_all()```.
 
 In your enviroment you should now see in data:
 airtable x obs. of x variable. You can click to the right of that to open the table if you want. 
 
-# Using the dplyr function `sample_n()`
+Using the dplyr function `sample_n()`
 ---------------------------------------
 Finally we have all the data we need in a `data.frame` we can now use the dplyr function. We just want to pick one row to be our winner.
 ```sample_n(airtable, 1) #1 is the number of rows we want```
 
-This is our result.
-```                  id  Twitter handle I want a chance to win a t-shirt Name
+This is our result.```                  id  Twitter handle I want a chance to win a t-shirt Name
 17 re************* @amymcdougall96                              Yes Amy 
                 createdTime
 17 2018-05-18T13:38:58.000Z ```
 
-(Note i used myself here as the example)
+*(Note i used myself here as the example)*
 
-# Other bits you can do
+Other bits you can do
 -----------------------
 If you don't want to select some random data here are a few other things you can do.
 If you type
