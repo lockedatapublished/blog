@@ -29,8 +29,7 @@ Next you need to generate the airtable API key from your [Airtable account](http
 
 Library
 -------
-Now that you have `devtools` and [bergant/airtabler](https://github.com/bergant/airtabler) installed you need load them into the session to be used. ```library(airtabler)
-library(dplyr)```
+Now that you have `devtools` and [bergant/airtabler](https://github.com/bergant/airtabler) installed you need load them into the session to be used. First```library(airtabler)```. Then ```library(dplyr)```
 
 
 
@@ -49,7 +48,7 @@ Using the dplyr function `sample_n()`
 Finally we have all the data we need in a `data.frame` we can now use the dplyr function. We just want to pick one row to be our winner.
 ```sample_n(airtable, 1) #1 is the number of rows we want```
 
-This is our result.```                  id  Twitter handle I want a chance to win a t-shirt Name
+This is our result.```id  Twitter handle I want a chance to win a t-shirt Name
 17 re************* @amymcdougall96                              Yes Amy 
                 createdTime
 17 2018-05-18T13:38:58.000Z ```
