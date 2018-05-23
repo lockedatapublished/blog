@@ -29,7 +29,7 @@ Next you need to generate the airtable API key from your [Airtable account](http
 
 Library
 -------
-Now that you have `devtools` and [bergant/airtabler](https://github.com/bergant/airtabler) installed you need load them into the session to be used. First```library(airtabler)```. Then ```library(dplyr)```
+Now that you have `devtools` and [bergant/airtabler](https://github.com/bergant/airtabler) installed you need load them into the session to be used. First```library(airtabler)```, then ```library(dplyr)```.
 
 
 
