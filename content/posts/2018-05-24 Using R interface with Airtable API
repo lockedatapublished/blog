@@ -97,4 +97,3 @@ function (record_id)
     delete_record(air_options, table, record_id)
 }
 environment: *********** ```
-
