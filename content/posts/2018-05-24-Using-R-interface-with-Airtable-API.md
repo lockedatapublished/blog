@@ -39,6 +39,7 @@ Retrieve the data as a data.frame
 To retrieve the data as a `data.frame` you'll need your [Airtable API key]((https://airtable.com/account).
 ```Sys.setenv("AIRTABLE_API_KEY"="<Your API key") #example key************** ```
 Then you need to add the base that you want to pull the data from. ```airtable <- airtabler::airtable("<base key>", "<Tab/sheet name>") #base key can be found in the API docs
+
 airtable <- airtable$`<Tab/sheet name>`$select_all()```
 
 In your enviroment you should now see in data:
