@@ -36,9 +36,12 @@ Now that you have `devtools` and [bergant/airtabler](https://github.com/bergant/
 Retrieve the data as a data.frame
 -----------------------------------
 To retrieve the data as a `data.frame` you'll need your [Airtable API key]((https://airtable.com/account).
-```Sys.setenv("AIRTABLE_API_KEY"="<Your API key") #example key************** ```
-Then you need to add the base that you want to pull the data from. ```airtable <- airtabler::airtable("<base key>", "<Tab/sheet name>") #base key can be found in the API docs```.
-Now you need to select the data that you want to use ```airtable <- airtable$`<Tab/sheet name>`$select_all()```.
+```r 
+Sys.setenv("AIRTABLE_API_KEY"="<Your API key") #example key************** ```
+Then you need to add the base that you want to pull the data from. ```r 
+airtable <- airtabler::airtable("<base key>", "<Tab/sheet name>") #base key can be found in the API docs```.
+Now you need to select the data that you want to use ```r
+airtable <- airtable$`<Tab/sheet name>`$select_all()```.
 
 In your enviroment you should now see in data:
 airtable x obs. of x variable. You can click to the right of that to open the table if you want. 
@@ -46,7 +49,8 @@ airtable x obs. of x variable. You can click to the right of that to open the ta
 Using the dplyr function `sample_n()`
 ---------------------------------------
 Finally we have all the data we need in a `data.frame` we can now use the dplyr function. We just want to pick one row to be our winner.
-```sample_n(airtable, 1) #1 is the number of rows we want```
+```r 
+sample_n(airtable, 1) #1 is the number of rows we want```
 
 This is our result.```id  Twitter handle I want a chance to win a t-shirt Name
 17 re************* @amymcdougall96                              Yes Amy 
