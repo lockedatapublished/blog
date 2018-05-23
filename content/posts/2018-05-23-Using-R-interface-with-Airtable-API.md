@@ -43,9 +43,12 @@ To retrieve the data as a `data.frame` you'll need your [Airtable API key]((http
 Sys.setenv("AIRTABLE_API_KEY"="<Your API key") #example key**************
 ```
 
-Then you need to add the base that you want to pull the data from. `airtable <- airtabler::airtable("<base key>", "<Tab/sheet name>") #base key can be found in the API docs`.
+Then you need to add the base that you want to pull the data from. 
 
-Now you need to select the data that you want to use `airtable <- airtable$`<Tab/sheet name>`$select_all()`
+```airtable <- airtabler::airtable("<base key>", "<Tab/sheet name>") #base key can be found in the API docs```
+
+Now you need to select the data that you want to use 
+```airtable <- airtable$`<Tab/sheet name>`$select_all()```
 
 In your enviroment you should now see in data:
 airtable x obs. of x variable. You can click to the right of that to open the table if you want. 
@@ -55,7 +58,8 @@ Using the dplyr function `sample_n()`
 We now have all the data we need in a `data.frame`, so we can use the dplyr function. We just want to pick one row to be our winner.
 ```sample_n(airtable, 1) #1 is the number of rows we want```
 
-This is our result.```id  Twitter handle I want a chance to win a t-shirt Name
+This is our result.
+```id  Twitter handle I want a chance to win a t-shirt Name
 17 re************* @amymcdougall96                              Yes Amy 
                 createdTime
 17 2018-05-18T13:38:58.000Z ```
@@ -69,7 +73,8 @@ If you don't want to select some random data here are a few other things you can
 If you type
 ```airtable$`<your tab/sheet>` ```
 You can get a list of functions available for you to play with 
-```$list_records
+```
+$list_records
 function (offset = NULL, recursive = TRUE, filter_by_formula = NULL) 
 {
     list_records(air_options, table, offset, recursive, filter_by_formula)
@@ -102,4 +107,5 @@ function (record_id)
 {
     delete_record(air_options, table, record_id)
 }
-environment: *********** ```
+environment: ***********
+```
