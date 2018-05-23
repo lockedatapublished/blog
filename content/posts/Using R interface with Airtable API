@@ -16,7 +16,7 @@ tags:
 -------------------------------------------------
 Hi folks, so this blog is about how to use an R interface with an Airtable API. 
 We are going to be using this interface and API to pick our winner for our [T-shirt draw](https://twitter.com/LockeData/status/997170312323055616). We will also be using the dplyr function `sample_n()`.
-There are a couple of different R packages that you can use but i used [Darko Bergant's package](https://github.com/bergant/airtabler).You'll also need to use `devtools`.
+There are a couple of different R packages that you can use but I used [Darko Bergant's package](https://github.com/bergant/airtabler).You'll also need to use `devtools`.
 
 # Set up
 --------
@@ -38,7 +38,7 @@ library(dplyr)```
 To retrieve the data as a `data.frame` you'll need your [Airtable API key]((https://airtable.com/account).
 ```Sys.setenv("AIRTABLE_API_KEY"="<Your API key") #example key************** ```
 Then you need to add the base that you want to pull the data from.
-```airtable <- airtabler::airtable("<base key>", "<Tab/sheet name>")
+```airtable <- airtabler::airtable("<base key>", "<Tab/sheet name>") #the base key can be found in the API docs.
 airtable <- airtable$`<Tab/sheet name>`$select_all()```
 
 In your enviroment you should now see in data:
@@ -50,10 +50,10 @@ Finally we have all the data we need in a `data.frame` we can now use the dplyr 
 ```sample_n(airtable, 1) #1 is the number of rows we want```
 
 This is our result.
-                  id  Twitter handle I want a chance to win a t-shirt Name
+```                  id  Twitter handle I want a chance to win a t-shirt Name
 17 re************* @amymcdougall96                              Yes Amy 
                 createdTime
-17 2018-05-18T13:38:58.000Z 
+17 2018-05-18T13:38:58.000Z ```
 
 (Note i used myself here as the example)
 
