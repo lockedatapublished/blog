@@ -31,16 +31,21 @@ Next you need to generate the airtable API key from your [Airtable account](http
 
 Library
 -------
-Now that you have `devtools` and [bergant/airtabler](https://github.com/bergant/airtabler) installed you need load them into the session to be used. First```library(airtabler)```, then ```library(dplyr)```.
+Now that you have `devtools` and [bergant/airtabler](https://github.com/bergant/airtabler) installed you need load them into the session to be used. First `library(airtabler)`, then `library(dplyr)`.
 
 
 
 Retrieve the data as a data.frame
 -----------------------------------
 To retrieve the data as a `data.frame` you'll need your [Airtable API key]((https://airtable.com/account).
-```Sys.setenv("AIRTABLE_API_KEY"="<Your API key") #example key************** ```
-Then you need to add the base that you want to pull the data from. ```airtable <- airtabler::airtable("<base key>", "<Tab/sheet name>") #base key can be found in the API docs```.
-Now you need to select the data that you want to use ```airtable <- airtable$`<Tab/sheet name>`$select_all()```.
+
+```
+Sys.setenv("AIRTABLE_API_KEY"="<Your API key") #example key**************
+```
+
+Then you need to add the base that you want to pull the data from. `airtable <- airtabler::airtable("<base key>", "<Tab/sheet name>") #base key can be found in the API docs`.
+
+Now you need to select the data that you want to use `airtable <- airtable$`<Tab/sheet name>`$select_all()`
 
 In your enviroment you should now see in data:
 airtable x obs. of x variable. You can click to the right of that to open the table if you want. 
