@@ -37,7 +37,7 @@ Now that you have `devtools` and [bergant/airtabler](https://github.com/bergant/
 
 Retrieve the data as a data.frame
 -----------------------------------
-To retrieve the data as a `data.frame` you'll need your [Airtable API key]((https://airtable.com/account).
+To retrieve the data as a `data.frame` you'll need your [Airtable API key](https://airtable.com/account).
 
 ``` r
 Sys.setenv("AIRTABLE_API_KEY"="<Your API key") #example key**************
