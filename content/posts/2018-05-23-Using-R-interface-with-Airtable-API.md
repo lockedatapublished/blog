@@ -65,13 +65,13 @@ sample_n(airtable, 1) #1 is the number of rows we want
 ```
 
 This is our result.
-| id                          | Twitter handle        | Win a T Shirt        | Name       |
-|----------------------------------------|-------------|-------------|-------------|
-| 17 re*************                    | @amymcdougall96        | Yes     | Amy McDougall        |
 
 ``` r
-createdTime
-2018-05-18T13:38:58.000Z
+ID : 17 re*************
+Twitter Handle : @amymcdougall96
+Win a T Shirt : Yes
+Name : Amy McDougall
+Created Time : 2018-05-18T13:38:58.000Z
 ```
 
 *(Note i used myself here as the example)*
