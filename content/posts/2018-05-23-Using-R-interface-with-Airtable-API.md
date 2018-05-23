@@ -39,18 +39,18 @@ Retrieve the data as a data.frame
 -----------------------------------
 To retrieve the data as a `data.frame` you'll need your [Airtable API key]((https://airtable.com/account).
 
-```
+``` r
 Sys.setenv("AIRTABLE_API_KEY"="<Your API key") #example key**************
 ```
 
 Then you need to add the base that you want to pull the data from. 
 
-```
+``` r
 airtable <- airtabler::airtable("<base key>", "<Tab/sheet name>") #base key can be found in the API docs
 ```
 
 Now you need to select the data that you want to use 
-```
+``` r
 airtable <- airtable$`<Tab/sheet name>`$select_all()
 ```
 
@@ -60,12 +60,12 @@ airtable x obs. of x variable. You can click to the right of that to open the ta
 Using the dplyr function `sample_n()`
 ---------------------------------------
 We now have all the data we need in a `data.frame`, so we can use the dplyr function. We just want to pick one row to be our winner.
-```
+``` r
 sample_n(airtable, 1) #1 is the number of rows we want
 ```
 
 This is our result.
-```
+``` r
 id  Twitter handle I want a chance to win a t-shirt Name
 17 re************* @amymcdougall96                              Yes Amy 
                 createdTime
@@ -79,11 +79,12 @@ Other bits you can do
 If you don't want to select some random data here are a few other things you can do:
 
 If you type
-```
+``` r
 airtable$`<your tab/sheet>`
 ```
 You can get a list of functions available for you to play with 
-```
+
+``` r
 $list_records
 function (offset = NULL, recursive = TRUE, filter_by_formula = NULL) 
 {
