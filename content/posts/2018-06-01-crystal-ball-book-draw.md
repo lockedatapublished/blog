@@ -13,7 +13,7 @@ tags:
 
 ---
 
-As you might know, every month, a random Locke Data Twitter follower wins an excellent data science book! This month's gift was ["An Introduction to Statistical Learning: with Applications in R"](http://geni.us/introtostatslearning), a classical and useful textbook. In this post I'll give you some `magick`-al tips from behind-the-scenes of this month's winner announcement. It'll feature learning from my mistakes, and reading from a crystal ball or well more seriously, image manipulation in R!
+As you might know, every month, a random Locke Data Twitter follower wins an excellent data science book! This month's gift was ["An Introduction to Statistical Learning: with Applications in R"](http://geni.us/introtostatslearning), a classic and useful textbook. In this post I'll give you some `magick`-al tips from behind-the-scenes of this month's winner announcement. It'll feature learning from my mistakes, and reading from a crystal ball... or more seriously, image manipulation in R!
 
 
 # An Introduction to Learning from my Mistakes
@@ -51,7 +51,7 @@ announce_winner <- function(winner, book, book_url){
 
 ```
 
-# An Introduction to Crystal Ball Reading?
+# An Introduction to Crystal Ball Reading
 
 I try to vary the viz used each month to keep it interesting for Twitter readers but also for anyone interested in playing with the code. Now that the GitHub repo is tidier, finding previous month's scripts for inspiration has gotten easier! But still, blogging a few tips is probably the best way to digest that information.
 
@@ -120,7 +120,7 @@ winner_face <- magick::image_read(winner$profile_image_url) %>%
     magick::image_resize("150x150")
 ```
 
-Then I wrote a helper function placing the winner face behind the photo prop and behind a veil of a given opacity.
+Then I wrote a helper function placing the winner's face behind the photo prop and behind a veil of a given opacity.
 
 ```r
 june_colorized_frame <- function(opacity, winner_face, background){
