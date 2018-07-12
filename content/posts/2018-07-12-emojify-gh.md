@@ -71,7 +71,7 @@ With the current endpoints here's what you should do
 gh::gh("GET /repos/:owner/:repo/labels", owner = "lockedata", repo = "optiRum")
 ```
 
-* After doing that, define what each old label is going to become.
+* After doing that, define what each old label is going to become. When defining our new labels, we [used this cheatsheet of emojis for GitHub](https://www.webpagefx.com/tools/emoji-cheat-sheet/).
 
 ```r
 # dput(sort(unique(labels$name)))
