@@ -113,7 +113,7 @@ Admire the set of issues we can now use in each of our package repos:
 
 {{< figure src="../img/2018-07-12-datasaurus2.png" title="Locke Data issue labels">}} 
 
-Here's for instance the [`datasauRus` issue tracker](https://github.com/lockedata/datasauRus/issues) whose pretty labels inspired Irene Steves.
+Here's for instance the [`datasauRus` issue tracker](https://github.com/lockedata/datasauRus/issues) whose pretty labels [inspired Irene Steves](https://twitter.com/i_steves/status/1017095491824373761).
 
 {{< figure src="../img/2018-07-12-datasaurus.png" title="datasauRus issue tracker">}} 
 
