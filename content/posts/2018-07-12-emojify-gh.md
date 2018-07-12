@@ -90,7 +90,9 @@ new_labels <- tibble::tibble(old = c("bug", "duplicate", "enhancement", "first-t
 "wontfix :see_no_evil:"))
 ```
 
-* Then, using this correspondance table and your favorite functional programming / looping method ([`purrr`](https://github.com/tidyverse/purrr) in our case, get started with [this slidedeck](https://github.com/jenniferthompson/RLadiesIntroToPurrr)), use that fantastic [endpoint](https://developer.github.com/v3/issues/labels/#update-a-label) that didn't exist when we did that (or that we missed?). Here's how it'd look like for a single label and repo.
+* You'll also need to choose colours. We first used random colours sampled thanks to [`charlatan::ch_hex_color()`](https://github.com/ropensci/charlatan) but also chose to use official Locke Data colours for a few of the labels.
+
+* Then, using this correspondance table and your favorite functional programming / looping method ([`purrr`](https://github.com/tidyverse/purrr) in our case, get started with [this slidedeck](https://github.com/jenniferthompson/RLadiesIntroToPurrr)), use that fantastic [endpoint](https://developer.github.com/v3/issues/labels/#update-a-label) that didn't exist when we did that (or that we missed?). Here's how it'd look like for a single label, identified by its current name, and repo.
 
 ```r
 gh::gh("PATCH /repos/:owner/:repo/labels/:current_name",
@@ -102,5 +104,17 @@ gh::gh("PATCH /repos/:owner/:repo/labels/:current_name",
        .send_headers = c(Accept = "application/vnd.github.symmetra-preview+json"))
 ```
 
-Notice that the color has to be a hex code, minus the "#", and also notice the `.send_headers` parameter. I've tested the above chunk for real and it worked. Depending on the current state of your repos, you might want to [create labels from scratch](https://developer.github.com/v3/issues/labels/#create-a-label) after [deleting labels](https://developer.github.com/v3/issues/labels/#delete-a-label). _Updating_ labels is good because it means that if the labels are already used, the labelled issues won't loose their labelling.
+Notice that the color has to be a hex code, minus the "#", and also notice the `.send_headers` parameter. I've tested the above chunk for real and it worked. Depending on the current state of your repos, you might want to [create labels from scratch](https://developer.github.com/v3/issues/labels/#create-a-label) after [deleting labels](https://developer.github.com/v3/issues/labels/#delete-a-label). But _updating_ labels is good because it means that if the labels are already used, the labelled issues won't loose their labelling.
 
+Now, enjoy labels by working on issues!
+========================================
+
+Admire the set of issues we can now use in each of our package repos:
+
+{{< figure src="../img/2018-07-12-datasaurus2.png" title="Locke Data issue labels">}} 
+
+Here's for instance the [`datasauRus` issue tracker](https://github.com/lockedata/datasauRus/issues) whose pretty labels inspired Irene Steves.
+
+{{< figure src="../img/2018-07-12-datasaurus.png" title="datasauRus issue tracker">}} 
+
+Now, it's time for us to get cracking on some of our repo issue trackers! Have fun with your own labelling!
