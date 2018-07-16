@@ -118,3 +118,5 @@ Here's for instance the [`datasauRus` issue tracker](https://github.com/lockedat
 {{< figure src="../img/2018-07-12-datasaurus.png" title="datasauRus issue tracker">}} 
 
 Now, it's time for us to get cracking on some of our repo issue trackers! Have fun with your own labelling!
+
+Edited to add: [`usethis::use_github_labels`](http://usethis.r-lib.org/reference/use_github_labels.html) might be of interest, although it doesn't update the names of existing labels. It is probably particularly useful for setup.
