@@ -13,7 +13,7 @@ tags:
 
 ---
 
-A part of Locke Data's mission is sharing some R knowledge and tooling for free with the world. If you have a look at [our GitHub account](https://github.com/lockedata/), you'll see we've pinned six of our package repos. Furthermore, to make it easier to find all the R stuff we've packaged up, we've added an "r-package" repo topic to all packages: find them all [via this URL](https://github.com/search?q=topic%3Ar-package+org%3Alockedata+fork%3Atrue). Adding such repo topics isn't the only harmonization effort we've done to make it easier to maintain and promote our packages suite. In this post, [at the request](https://twitter.com/i_steves/status/1017111900893696003) of [Irene Steves](https://github.com/isteves), we shall explain why and how we semi-automatically harmonized and emojified our issue trackers with the help of GitHub's V3 API and of the `gh` package!
+A part of Locke Data's mission is sharing R knowledge and tooling with the world for free. If you have a look at [our GitHub account](https://github.com/lockedata/), you'll see we've pinned six of our package repos. Furthermore, to make it easier to find all the R stuff we've packaged up, we've added an "r-package" repo topic to all packages: find them all [via this URL](https://github.com/search?q=topic%3Ar-package+org%3Alockedata+fork%3Atrue). Adding such repo topics isn't the only harmonization effort we've done to make it easier to maintain and promote our packages suite. In this post, [at the request](https://twitter.com/i_steves/status/1017111900893696003) of [Irene Steves](https://github.com/isteves), we shall explain why and how we semi-automatically harmonized and emojified our issue trackers with the help of GitHub's V3 API and of the `gh` package!
 
 Emojify what? A short intro to GitHub issue tracker organization
 =================================================================
@@ -22,19 +22,19 @@ If you're a bit familiar with software development on GitHub, either because you
 
 {{< tweet 1016789214325813248  >}}
 
-But as your repo gets a bit more popular, or as you yourself take notes of a lot of stuff, your to-do list gets very long and hard to make a sense of! GitHub provides tool for organizing it. Of particular interest are [_milestones_](https://help.github.com/articles/about-milestones/) that are collections of issues corresponding to say how you imagine each future release to be, and [_labels_](https://help.github.com/articles/about-labels/) that indicate what each issue is about. So you can have issues related to _docs_. Labels can also indicate the level needed to resolve an issue, and whether you'd welcome external contributors, [cf this GitHub article](https://help.github.com/articles/helping-new-contributors-find-your-project-with-labels/). Labels are great, for instance you can decide to work on only docs on one day and filter issues that are related to that.
+But as your repo gets a bit more popular, or as you yourself take notes of a lot of stuff, your to-do list gets very long and hard to make sense of! GitHub provides tool for organizing it. Of particular interest are [_milestones_](https://help.github.com/articles/about-milestones/) that are collections of issues corresponding to say how you imagine each future release to be, and [_labels_](https://help.github.com/articles/about-labels/) that indicate what each issue is about; so you can have issues related to _docs_. Labels can also indicate the level needed to resolve an issue, and whether you'd welcome external contributors, [cf this GitHub article](https://help.github.com/articles/helping-new-contributors-find-your-project-with-labels/). Labels are great, for instance you can decide to work on only docs on one day and filter issues that are related to that.
 
 Why harmonizing sets of issue labels over an organization?
 ==========================================================
 
-As mentioned above, Locke Data maintains a few packages now. Each of them used to have its own set of issue labels. We decided to make them all similar for two reasons. First, it's nice to speak the same language over different projects within our GitHub organization, making it easier to transition from one repo to the other. Then, we wanted to be able eventually to make use of tools such as [Jim Hester's `tidyversedashboard` package](https://github.com/jimhester/tidyversedashboard), and thought the [issue tab](https://connect.rstudioservices.com/jimhester/tidyverse_dashboard/tidyverse_dashboard.html#open-issues) would be handier if having similar labels.
+As mentioned above, Locke Data maintains a few packages now. Each of them used to have its own set of issue labels. We decided to make them all similar for two reasons. First, it's nice to speak the same language over different projects within our GitHub organization, making it easier to transition from one repo to the other. Then, we wanted to be able to eventually make use of tools such as [Jim Hester's `tidyversedashboard` package](https://github.com/jimhester/tidyversedashboard), and thought the [issue tab](https://connect.rstudioservices.com/jimhester/tidyverse_dashboard/tidyverse_dashboard.html#open-issues) would be handier if having similar labels.
 
 Therefore, we set off to decide on a set of issue labels!
 
 Why emojifying issue labels?
 ============================
 
-Maybe we decided to add emojis in our set of issue labels is that we could. You actually only can do that [since February the 22d this year](https://blog.github.com/2018-02-22-label-improvements-emoji-descriptions-and-more/)! Other reasons include that it's fun and that emojis make it easier to differentiate issue labels at a glance. Colours are good, more on that later, but not everyone can differentiate them anyway. 
+Maybe one reason we decided to add emojis in our set of issue labels is simply that we could! You actually only can do that [since February the 22d this year](https://blog.github.com/2018-02-22-label-improvements-emoji-descriptions-and-more/)! Other reasons include that it's fun, and that emojis make it easier to differentiate issue labels at a glance. Colours are good, more on that later, but not everyone can differentiate them anyway. 
 
 How to update issue label sets in practice?
 ===========================================
@@ -59,9 +59,9 @@ repos <- dplyr::filter(repos, is_pkg, !is_fork)
 
 Once we had that list, we switched to using GitHub's V3 API via the [`gh` package](https://github.com/r-lib/gh) developed in [RStudio](https://www.rstudio.com/)'s `r-lib` organization.
 
-At the time we updated labels, we couldn't directly update them but in any case now you can, no need to delete and re-create labels at the risk of losing your labelling (_we_ didn't loose anything though). Note that in general, when messing with your issue trackers automatically, you should definitely test your code on a single repo first, since your power could make you e.g. unlabel all issues at once, which would be quite bad.
+At the time we updated labels, we couldn't directly update them but in any case now you can, no need to delete and re-create labels at the risk of losing your labelling (_we_ didn't loose anything though). Note that in general, when messing with your issue trackers automatically, you should definitely test your code on a single repo first, since your power could, for instance, make you unlabel all issues at once, which would be quite bad!
 
-With the current endpoints here's what you should do 
+With the current endpoints here's what you should do:
 
 * [Take care of your authentication](http://happygitwithr.com/github-pat.html#how-do-you-authenticate-yourself) taking into account your rights over the repos and choosing the scope of the token wisely.
 
@@ -92,7 +92,7 @@ new_labels <- tibble::tibble(old = c("bug", "duplicate", "enhancement", "first-t
 
 * You'll also need to choose colours. We first used random colours sampled thanks to [`charlatan::ch_hex_color()`](https://github.com/ropensci/charlatan) but also chose to use official Locke Data colours for a few of the labels.
 
-* Then, using this correspondance table and your favorite functional programming / looping method ([`purrr`](https://github.com/tidyverse/purrr) in our case, get started with [this slidedeck](https://github.com/jenniferthompson/RLadiesIntroToPurrr)), use that fantastic [endpoint](https://developer.github.com/v3/issues/labels/#update-a-label) that didn't exist when we did that (or that we missed?). Here's how it'd look like for a single label, identified by its current name, and repo.
+* Then, using this correspondance table and your favorite functional programming / looping method ([`purrr`](https://github.com/tidyverse/purrr) in our case, get started with [this slidedeck](https://github.com/jenniferthompson/RLadiesIntroToPurrr)), use that fantastic [endpoint](https://developer.github.com/v3/issues/labels/#update-a-label) that didn't exist when we did that (or that we missed?). Here's how it'd look for a single label, identified by its current name, and repo.
 
 ```r
 gh::gh("PATCH /repos/:owner/:repo/labels/:current_name",
