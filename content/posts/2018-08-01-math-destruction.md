@@ -18,14 +18,14 @@ It's time for a Twitter book draw again: every month, a random Locke Data Twitte
 Choosing an animation concept
 =============================
 
-I am not a designer nor an artist, but I like imagining new animations to announce the book winner, that I want to be **fun**, and **useful** by illustrating the use of some nifty R tools. That's a good way for me and you to learn new R skills! I've reported on [my efforts with `magick` to create a crystal ball for chibi Steph](https://itsalocke.com/blog/a-crystal-clear-book-draw/), R package for image manipulation, and [with `particles`, R package for simulating, well, _particles_, to move followers' names around ](https://itsalocke.com/blog/a-particles-arly-fun-book-draw/). 
+I am not a designer nor an artist, but I like imagining new animations to announce the book winner, that I want to be **fun**, and **useful** by illustrating the use of some nifty R tools. That's a good way for me and you to learn new R skills! I've reported on [my efforts with `magick` to create a crystal ball for chibi Steph](https://itsalocke.com/blog/a-crystal-clear-book-draw/), R package for image manipulation, and [with `particles`, R package for simulating, well, _particles_, to move followers' names around!](https://itsalocke.com/blog/a-particles-arly-fun-book-draw/). 
 
-This month I thought about what destruction inspired to me, and got the rather simple idea to have a glass shattered, thus revealing the winner's name.
+This month I thought about what destruction meant to me, and got the rather simple idea to have glass shatter, thus revealing the winner's name.
 
 Planning the my animation implementation
 ========================================
 
-Feel free to skip over this section and go to the code directly, unless you want to know more about my search and try process to write said code!
+Feel free to skip over this section and go to the code directly, unless you want to know more about my search and process to write said code!
 
 I wondered how I could shatter glass, i.e. cut a blue square in small pieces and make these pieces fall and somehow ended up thinking that I could draw random points and then use their [Voronoi tiles](https://en.wikipedia.org/wiki/Voronoi_diagram) as fragments. I'm not sure glass shattering really looks like this but I decided against experimenting with my windows.  
 
@@ -40,7 +40,7 @@ I was also glad to read that  `gifski` is now on CRAN for all your gif making ne
 Writing the actual animation code
 ==================================
 
-The first part of the code consisted in drawing random points and using them as basis for a Voronoi tesselation inside a box.
+The first part of the code consisted of drawing random points and using them as a basis for a Voronoi tesselation inside a box.
 
 
 ```r
@@ -82,7 +82,7 @@ The animation will consist of two parts:
 
 * The fragments falling.
 
-The code below create the PNGs corresponding to the first part of the animation.
+The code below creates the PNGs corresponding to the first part of the animation.
 
 ```r
 fs::dir_create("august_frames")
@@ -199,5 +199,4 @@ R packages that are important to know for producing animations are:
 
 * Likewise, if you want to tweak some frames, it'll be useful to know a bit about `magick`, wrapper to [ImageMagick](https://www.imagemagick.org/Magick++/STL.html), an R package for image manipulation developed at [rOpenSci](https://ropensci.org/) by [Jeroen Ooms](https://github.com/jeroen). This package has a [good vignette](https://cran.r-project.org/web/packages/magick/vignettes/intro.html).
 
-Have fun animating R visualizations! And don't forget that next month, again a random Locke Data follower will win a great book: you should follow [Locke Data on Twitter](https://twitter.com/LockeData) to get a chance!
-
+Have fun animating R visualizations! And don't forget that next month, again a random Locke Data follower will win a great book: you should follow [Locke Data on Twitter](https://twitter.com/LockeData) to be in with a chance of winning!
