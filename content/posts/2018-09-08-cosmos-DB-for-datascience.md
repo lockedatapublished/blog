@@ -2,7 +2,7 @@
 title: "2018 09 08 Cosmos DB for Datascience"
 author: "Dave"
 date: 2018-09-07T10:54:45+01:00
-draft: false
+draft: true
 ---
 
 Cosmos DB is a snazzy new(ish) Microsoft Azure product. I was able to go to Microsoft Office in London for three days of training on the database service, which was really well structured and well run, with a lot of knowledgeable Microsoft bods around to pass on their considerable knowledge. This post will extract out some key features and benefits of the service, and then discuss how this fit's into a data scientists role.
@@ -28,22 +28,20 @@ Imagine you have a website where you sell phones, which consumers may want to co
 
 ```json
 {
-phone1:
-    {
-    brand:"Nokia",
-    model:"3310",
-    year:"2000",
-    cpu:"MAD2WD1"
+    "phone1":{
+        "brand":"Nokia",
+        "model":"3310",
+        "year":"2000",
+        "cpu":"MAD2WD1"
     }
 }
 {
-phone2:
-    {
-    brand:"Nokia",
-    model:"3310",
-    year:"2017",
-    soc:"MT6260"
-    camera:"2mp"
+    "phone2":{
+        "brand":"Nokia",
+        "model":"3310",
+        "year":"2017",
+        "soc":"MT6260",
+        "camera":"2mp"
     }
 }
 ```
@@ -91,11 +89,123 @@ And so how do you communicate with this weird alien database? In the creation st
 
 CosmosDB's data model is then set relative to this selection, however [the query methods can be modified without impacting the underlying data structure](https://vincentlauzon.com/2017/09/10/hacking-changing-cosmos-db-portal-experience-from-graph-to-sql/).
 
-The data models include `key:value`, `column:family`, `document` and `graph` via it's use of [atom-record-sequence type system in the database engine](https://azure.microsoft.com/en-gb/blog/a-technical-overview-of-azure-cosmos-db/). In practical terms this means that you can read in data in a graph form from a data source, but still query it using SQL in a 'relational' way.
+The data models include `key:value`, `column:family`, `document` and `graph` via it's use of [atom-record-sequence type system in the database engine](https://azure.microsoft.com/en-gb/blog/a-technical-overview-of-azure-cosmos-db/). In practical terms this means that you can read in data in a graph form from a data source, but still query it using SQL in a 'relational' way. Your social network app may be suited to write in data in a directed way, but maybe your business intelligence team are highly invested in a SQL toolset. Cosmos should help to bridge this gap.
 
-<div style="width:100%;height:0;padding-bottom:75%;position:relative;"><iframe src="https://giphy.com/embed/5fLgDwo63DQcg" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p>SQl and Graph at Tenegra! <a href="https://giphy.com/gifs/eyes-temba-5fLgDwo63DQcg">via GIPHY</a></p>
+<div style="width:100%;height:0;padding-bottom:75%;position:relative;"><iframe src="https://giphy.com/embed/5fLgDwo63DQcg" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p>SQL and Graph at Tenegra! <a href="https://giphy.com/gifs/eyes-temba-5fLgDwo63DQcg">via GIPHY</a></p>
 
 Gotchas
 =======
-what join does
-can't query on non-indexed properties
+
+`JOIN`
+------
+In relational DBs `JOIN` works in a familiar and intuitive way, but with this non-relational data structure what does a `JOIN` mean, and what can we use it for?
+
+Firstly, JSON allows for arrays to be included in a document.
+
+```json
+{
+    "droid":"BB8",
+    "affiliation":"New Republic",
+    "series":"BB",
+    "films":[
+        "The Force Awakens",
+        "The Last Jedi"
+    ]
+    }
+{
+    "droid":"BB9E",
+    "affiliation":"First Order",
+    "series":"BB",
+    "films":[
+        "The Last Jedi"
+    ]
+    }
+}
+```
+
+This can be queried through SQL like this: 
+```sql
+SELECT
+    droids.droid,
+    droids.affiliation,
+    films
+FROM
+    droids
+JOIN
+    films in droids.films
+```
+
+Which will return an output like this:
+```json
+[
+    {
+        "droid":"BB8",
+        "affiliation":"New Republic",
+        "films":"The Force Awakens"
+    },
+    {
+        "droid":"BB8",
+        "affiliation":"New Republic",
+        "films":"The Last Jedi"
+    },
+    {
+        "droid":"BB9E",
+        "affiliation":"First Order",
+        "films":"The Last Jedi"
+    }
+]
+```
+
+The query has _merged_ multiple documents, into a _single_ _flattened_ results set. Here there is no `INNER`, `LEFT`, or `OUTER` to do subsetting. This is achieved with the `WHERE` clause.
+```sql
+SELECT
+    droids.droid,
+    droids.affiliation,
+    films
+FROM
+    droids
+JOIN
+    films in droids.films
+WHERE
+    films IN ("The Last Jedi")
+```
+```json
+[
+    {
+        "droid":"BB8",
+        "affiliation":"New Republic",
+        "films":"The Last Jedi"
+    },
+    {
+        "droid":"BB9E",
+        "affiliation":"First Order",
+        "films":"The Last Jedi"
+    }
+]
+```
+
+`JOIN` does just, and only that. Filtering is done in the `WHERE` clause.
+
+Queries and Indexing
+--------------------
+CosmosDB automatically indexes all data as it comes in by default. For high volume data this might be problematic leading to longer write times, so how can this be mitigated? The index can be selectively applied through an 'index policy'. However the trade off for this means that value will no longer be queryable. For instance if your data has information like this:
+```json
+{
+    "affiliation":"Jedi",
+    "character_name":"Luke Skywalker"
+},
+{
+    "affiliation":"Sith",
+    "character_name":"Snoke"
+}
+```
+And `character_name` was excluded by your indexing policy, then
+```sql
+SELECT
+    force_user.affiliation,
+    force_user.character_name
+WHERE
+    force_user.character_name == "Luke Skywalker"
+```
+would error. It wouldn't know where Luke was!
+ 
