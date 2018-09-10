@@ -2,7 +2,7 @@
 title: "2018 09 08 Cosmos DB for Data Science"
 author: "Dave"
 date: 2018-09-07T10:54:45+01:00
-draft: true
+draft: false
 ---
 
 Cosmos DB is a snazzy new(ish) Microsoft Azure product. I was able to go to Microsoft Office in London for three days of training on the database service, which was really well structured and well run, with a lot of knowledgeable Microsoft bods around to pass on their considerable knowledge. This post will extract out some key features and benefits of the service, and then discuss how this fit's into a data scientists role.
@@ -226,22 +226,14 @@ Computing
 ---------
 With such effortless scaling of data collection and storage, data scientists (& Business Analysts and & Management Information Specialists, etc.) might see this as a simple solution to scale issues. However, remember that this is a '_write_ optimised, data _storage_ layer', frequently for analytics workstreams what we should be looking for is data _computation_ layers. Our workflows can be very _memory_ intensive, though luckily there are solutions.
 
->Before diving into this section remember that there a few 'common sense, no cost' methods that may solve issues in a specific application:
-> * filter as early as possible - process as little as possible
-> 
-> Never try to bring into memory more data than you really need to complete the task
-> * assess urgency realistically - K.I.S.S.
->
-> If a report has to process large volumes of historical information, how often does it really need to be refreshed? If you only need the output of a process once a week, and the processing runs in a few hours, a script running on a `chron`/`task scheduler` trigger may be sufficient and far easier to implement.
+### HDInsights
 
-HDInsights
-==========
 Microsoft have a number of implementations of Apache Spark tied into their Azure platform. [HD Insights](https://azure.microsoft.com/en-gb/services/hdinsight/) is a fully managed analytics service, built on Apache Spark (and others) and [is easy to plumb into an R interface](https://azure.microsoft.com/en-gb/services/hdinsight/r-server/)
 
-Databricks
-==========
+### Databricks
+
 During the training many examples of scaled out analysis workflow in practice used the [Databricks](https://docs.databricks.com/spark/latest/data-sources/azure/cosmosdb-connector.html) service, a proprietary fork of Apache Spark. This can then be used in an [R session via `SparkR` and `sparklyr`](https://docs.azuredatabricks.net/spark/latest/sparkr/index.html).
 
-Spark
-=====
+### Normal Apache Spark
+
 Of course, as spark is so highly supported, there is nothing to stop you setting up your own standard spark cluster and connecting to it in the traditional way.
