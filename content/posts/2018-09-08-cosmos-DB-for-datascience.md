@@ -228,7 +228,7 @@ With such effortless scaling of data collection and storage, data scientists (& 
 
 ### HDInsights
 
-Microsoft have a number of implementations of Apache Spark tied into their Azure platform. [HD Insights](https://azure.microsoft.com/en-gb/services/hdinsight/) is a fully managed analytics service, built on Apache Spark (and others) and [is easy to plumb into an R interface](https://azure.microsoft.com/en-gb/services/hdinsight/r-server/)
+Microsoft have a number of implementations of Apache Spark tied into their Azure platform. [HD Insights](https://azure.microsoft.com/en-gb/services/hdinsight/) is a fully managed analytics service, built on Apache Spark (and others) and [is easy to plumb into an R interface](https://azure.microsoft.com/en-gb/services/hdinsight/r-server/).
 
 ### Databricks
 
