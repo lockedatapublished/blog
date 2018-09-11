@@ -1,5 +1,5 @@
 ---
-title: "2018 09 08 Cosmos DB for Data Science"
+title: "Cosmos DB for Data Science"
 author: "Dave"
 date: 2018-09-07T10:54:45+01:00
 draft: false
