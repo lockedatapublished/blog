@@ -244,3 +244,5 @@ Cosmic Power
 CosmosDB is an exciting piece of technology. Distributed, scalable, schema-less, multi-model and multi-lingual, for many applications I see this as a real Cosmic Power. It's not for everything, but for where it works it's not only a powerful tool, but one that seems more straightforward to implement than many of it's competitors, and one that's also got Microsoft's focus on enterprise application baked into the foundations. Enjoy your exploration of the stars.
 
 <div style="width:100%;height:0;padding-bottom:68%;position:relative;"><iframe src="https://giphy.com/embed/pVql7tC6cSXEk" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/cosmos-carl-sagan-pVql7tC6cSXEk">via GIPHY</a></p>
+
+If this article has sparked a curiosity in this astronomical technology, make sure to have a look at [our upcoming online training course](../../training/onlinetraining/)
