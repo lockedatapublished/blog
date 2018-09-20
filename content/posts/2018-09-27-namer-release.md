@@ -33,6 +33,28 @@ First, install `namer` from CRAN.
 install.packages("namer")
 ```
 
+Then, say you want to name the chunks of a report saved under "reports/my-report.md". Type
+
+```r
+namer::name_chunks("reports/my-report.md")
+```
+
+Now comes a warning from us... When using `namer`, please check the edits before pushing them to your code base. Such automatic chunk labelling is best paired with [version control](http://happygitwithr.com/)!
+
+If you want to label the chunks of all the R Markdown documents of your "reports" folder, use `namer::name_dir_chunks()`:
+
+```r
+namer::name_dir_chunks("reports")
+```
+
+Now, as life is sometimes a bit more complicated, you might sometimes need to _unname_ all chunks of a report before re-naming it, if you e.g. used `namer` once, then added many chunks, or if you don't like the naming scheme you had been using. We have a function for tha:t too! It will unname all chunks except the setup chunk!
+
+```r
+namer:unname_all_chunks("reports/my-report.md")
+```
+
+Last but not least, we have a minimal RStudio addin shipped with the package, to name chunks of the current active document.
+
 # Future plans for even more nifty automatic naming
 
 Like [all our packages](https://itsalocke.com/oss/packages/), `namer` is [developed in the open on GitHub](https://github.com/lockedata/namer) so you can go read what we're planning for the future. In particular, we're willing to extend the RStudio addin to make it possible to select any file or folder, not just the active document. 
