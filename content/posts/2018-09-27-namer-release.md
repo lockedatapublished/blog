@@ -17,13 +17,25 @@ We've just released a sweet package to save you stress from the hassle of unname
 
 # Why naming your R Markdown chunks?
 
-When writing R Markdown documents, be it a single report or a whole book based on dozens of documents, it's crucial to name your R Markdown chunks. Informative names can help navigating your files and will be used as informative filenames for figures generated in chunks. But even when not informative, chunk labels are very important! Imagine you're compiling a whole book, and oops, a bug appears in... unnamed-chunk-566. How do you find the culprit?! That name you get in the error message is _not_ written in any file! Or, since caches are named after chunks, if you delete one chunk in a document full of unnamed chunks, all your caches become useless. The horror.
+When writing R Markdown documents, be it a single report or a whole book based on dozens of documents, it's crucial to name your R Markdown chunks. Informative names can help navigating your files and will be used as informative filenames for figures generated in chunks. But even when not informative, chunk labels are very important! Imagine you're compiling a whole book, and oops, a bug appears in... unnamed-chunk-566. How do you find the culprit?! That name you get in the error message is _not_ written in any file! 
+
+{{< figure src="../img/namer-oh-no.png" title="Sad chibi Stef being told by R that there is an error in unnamed-chunk-12">}} 
+
+Or, since caches are named after chunks, if you delete one chunk in a document full of unnamed chunks, all your caches become useless. The horror.
 
 One good piece of advice would be to always name your chunks. That's what we say when teaching R Markdown, and what's promoted [in this blog post of mine featuring puppy photographs](https://masalmon.eu/2017/08/08/chunkpets/)! But, sadly, we don't always follow best practice, do we? 
 
 # What does `namer` do?
 
-Luckily, thanks to a brilliant idea of Steph's, `namer` is now here to save your (vegan) bacon! This nifty package will name your chunks for you when you've (willingly) forgotten to do so! For any R Markdown document, `namer` creates and saves chunk labels based on the filename stripped from its extension. Therefore, all chunks of "my-fantastic-report.Rmd" get named "my-fantastic-report-1", "my-fantastic-report-2". Voilà! In practice, `namer` provides this service for a single document at once, or a whole folder at once, and an RStudio addin for naming the chunks of the current active document.
+Luckily, thanks to a brilliant idea of Steph's, `namer` is now here to save your (vegan) bacon! This nifty package will name your chunks for you when you've (willingly) forgotten to do so! For any R Markdown document, `namer` creates and saves chunk labels based on the filename stripped from its extension. Therefore, all chunks of "my-fantastic-report.Rmd" get named "my-fantastic-report-1", "my-fantastic-report-2". Voilà!
+
+{{< figure src="../img/namer-yaaasss.png" title="Sad chibi Stef being told by R that there is an error in the chunk labelled test-12">}}
+
+In practice, `namer` provides this service for a single document at once, or a whole folder at once, and an RStudio addin for naming the chunks of the current active document.
+
+The screenshot below is [a real-life example](https://github.com/lockedata/pres-datascience/pull/1)  result of running namer::name_dir_chunks("pres"). In each of the files in the dir "pres", it labelled chunks using the filename and numbers.
+
+{{< figure src="../img/namer1.png" title="Difference between two R Markdown reports before and after using namer to label chunks">}} 
 
 # How to use `namer`?
 
