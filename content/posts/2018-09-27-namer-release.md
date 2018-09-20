@@ -23,7 +23,7 @@ One good piece of advice would be to always name your chunks. That's what we say
 
 # What does `namer` do?
 
-Luckily, thanks to a brilliant idea of Steph's, `namer` can now save your (vegan) bacon! It will name your chunks for you when you've (willingly) forgotten to do so! For any R Markdown document, `namer` creates and saves chunk labels based on the filename stripped from its extension. Therefore, all chunks of "my-fantastic-report.Rmd" get named "my-fantastic-report-1", "my-fantastic-report-2". Voilà! In practice, `namer` provides this service for a single document at once, or a whole folder at once, and an RStudio addin for naming the chunks of the current active document.
+Luckily, thanks to a brilliant idea of Steph's, `namer` is now here to save your (vegan) bacon! This nifty package will name your chunks for you when you've (willingly) forgotten to do so! For any R Markdown document, `namer` creates and saves chunk labels based on the filename stripped from its extension. Therefore, all chunks of "my-fantastic-report.Rmd" get named "my-fantastic-report-1", "my-fantastic-report-2". Voilà! In practice, `namer` provides this service for a single document at once, or a whole folder at once, and an RStudio addin for naming the chunks of the current active document.
 
 # How to use `namer`?
 
@@ -39,7 +39,7 @@ Then, say you want to name the chunks of a report saved under "reports/my-report
 namer::name_chunks("reports/my-report.md")
 ```
 
-Now comes a warning from us... When using `namer`, please check the edits before pushing them to your code base. Such automatic chunk labelling is best paired with [version control](http://happygitwithr.com/)!
+Here comes a warning from us... When using `namer`, please check the edits before pushing them to your code base. Such automatic chunk labelling is best paired with [version control](http://happygitwithr.com/)!
 
 If you want to label the chunks of all the R Markdown documents of your "reports" folder, use `namer::name_dir_chunks()`:
 
@@ -47,7 +47,7 @@ If you want to label the chunks of all the R Markdown documents of your "reports
 namer::name_dir_chunks("reports")
 ```
 
-Now, as life is sometimes a bit more complicated, you might sometimes need to _unname_ all chunks of a report before re-naming it, if you e.g. used `namer` once, then added many chunks, or if you don't like the naming scheme you had been using. We have a function for tha:t too! It will unname all chunks except the setup chunk!
+Now, as life is sometimes a bit more complicated, you might sometimes need to _unname_ all chunks of a report before re-naming it, if you e.g. used `namer` once, then added many chunks, or if you don't like the naming scheme you had been using. We have a function for that too! It will unname all chunks except the setup chunk!
 
 ```r
 namer:unname_all_chunks("reports/my-report.md")
@@ -59,6 +59,6 @@ Last but not least, we have a minimal RStudio addin shipped with the package, to
 
 Like [all our packages](https://itsalocke.com/oss/packages/), `namer` is [developed in the open on GitHub](https://github.com/lockedata/namer) so you can go read what we're planning for the future. In particular, we're willing to extend the RStudio addin to make it possible to select any file or folder, not just the active document. 
 
-And if you're keen to get involved in open-source development, we'd be glad to mentor you, [check out the issues that'd welcome external help](https://github.com/lockedata/namer/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted+%3Araised_hand%3A%22)! As a side-note, if you're into programmatic change or assessment of chunk options, you might be interested in the `tinkr` package, that provides a function to transform R Markdown files into XML documents, and another one to save them back as R Markdown. 
+Furthermore, if you're keen to get involved in open-source development, we'd be glad to mentor you, [check out the issues that'd welcome external help](https://github.com/lockedata/namer/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted+%3Araised_hand%3A%22)! As a side-note, if you're into programmatic change or assessment of chunk options, you might be interested in the `tinkr` package, that provides a function to transform R Markdown files into XML documents, and another one to save them back as R Markdown. 
 
-In the meantime, go write awesome R Markdown documents, now that the fear of the unnamed chunks no longer is!
+In the meantime, go write awesome R Markdown documents, now that the fear of the unnamed chunks no longer dawns on you!
