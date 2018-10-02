@@ -25,7 +25,7 @@ For the selected packages we will then work with the package author to ensure:
 - The package is easy to market with a pkgdown site and a logo. (Up to a day of Locke Creatives time)
 - The package starts getting coverage by showcasing the package in our blog. (Up to 3 hours of Locke Data time)
 
-In return you'll list us as sponsors in the DESCRIPTION using the `fnd` tag and list our support will be mentioned on the README (and therefore the pkgdown). We'll also tell folks we helped you.
+In return you'll list us as sponsors in the DESCRIPTION using the `fnd` tag and list our support on the README (and therefore the pkgdown). We'll also tell folks we helped you.
 
 If you think your package fits the bill (i.e. broadly applicable) and you could benefit from our support getting your package into shape then [apply now](https://airtable.com/shrH3z9fQIbEJzPUn).
 
