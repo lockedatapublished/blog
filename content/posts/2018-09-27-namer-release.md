@@ -65,7 +65,7 @@ Now, as life is sometimes a bit more complicated, you might sometimes need to _u
 namer:unname_all_chunks("reports/my-report.md")
 ```
 
-Last but not least, we have a minimal RStudio addin shipped with the package, to name chunks of the current active document.
+Last but not least, we have a minimal RStudio addin shipped with the package, to name chunks of any R Markdown file. It allows you to select that file thanks to [our very first Hacktoberfest contributor](https://github.com/lockedata/namer/pull/14), [Ellis Valentiner](https://github.com/ellisvalentiner)! Read more about Hacktoberfest at Locke Data [here](https://itsalocke.com/blog/up-your-open-source-game-with-hacktoberfest-at-locke-data/).
 
 # Future plans for even more nifty automatic naming
 
