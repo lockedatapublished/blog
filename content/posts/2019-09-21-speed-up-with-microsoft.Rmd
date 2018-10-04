@@ -127,6 +127,10 @@ So now you can easily use the full power of your memory for calculating models f
 
 Remember, memory is your RAM, the bit that does the calcs, and is usually in the reaml of 4-16 GB on most laptops. So you can only compute on objects that are smaller than that, baring in mind that every 'active' process is also eating into that threshold, the operating systems, background processes and active applications. Your disk space, a HDD or SDD is magnitudes larger, 100s of GB to multiple TB. We can use this to overcome our size issue.
 
+### Minimum Examle
+
+Lets get some example data. Here I'm downloading a `.zip` to a temp folder, unzipping it, reading it (into memory admitedly, this is just an example!) and then writing it out to a csv in the working directory. In practice this could be done via bash/shell or interactively without hitting `R` memory at all.
+
 ```{r download and extract data}
 temp <- tempfile()
 download.file("https://packages.revolutionanalytics.com/datasets/mortDefault.zip", temp)
@@ -134,14 +138,28 @@ write.csv(read.csv(unz(temp, "mortDefault2000.csv")), "./mortDefault2000.csv")
 ```
 
 ```{r write xdf}
-mysourcedata <- file.path(rxGetOption(getwd(), "mortDefault2000.csv"))
-myNewXdf <- file.path(paste0(getwd(),"/mortDefaultSmall2000.xdf"))
-rxImport(inData = mysourcedata, outFile = myNewXdf)
+mySourceData <- file.path(getwd(), "mortDefault2000.csv")
+myNewXDF <- file.path(paste0(getwd(),"/mortDefaultSmall2000.xdf"))
+rxImport(inData = mySourceData, outFile = myNewXDF)
+mortDefault2000Info <- rxGetInfo(myNewXDF, getVarInfo = TRUE)
+mortDefault2000Info
 ```
+
+I've specified two file paths in `mySourceData` and `mynewXDF`. Just length 1 character strings, no fancy classes or data here.
+
+`rxImport()` takes these strings as a data source and a data destination and writes a version of the old `.csv` to a new file type, an `.xdf`. `rxGetInfo()` retrieves _metadata_ from the file, not the data itself. It's less than 10 KB in size.
+
+```{r getInfo size}
+object.size(mortDefault2000Info)
+```
+
+
 
 ```
 unlink(temp)
 ```
+
+https://docs.microsoft.com/en-us/machine-learning-server/r/concept-what-is-xdf
 
 
 
