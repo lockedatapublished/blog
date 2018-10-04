@@ -1,12 +1,12 @@
 ---
 title: "Speed Up With Microsoft"
-date: 2018-09-21T11:19:59+01:00
+date: 2018-10-04T13:19:59+01:00
 draft: true
 author: "Dave"
 ---
 People use R for lots of reasons: "It's great for the models I need", "I like the functional approach", "It's the tool I'm most comfortable with". 
 
-People don't use R for these reasons: "I love how my memory needs to fit all my data", "I have a favourite processor core, I don't want to use the others".
+People don't use R for these reasons: "I have a favourite processor core, I don't want to use the others", "I love how my memory needs to fit all my data".
 
 What if I told you that you didn't need to worry about that any more?
 
@@ -18,7 +18,6 @@ Once you've got Microsoft R Client installed, you will need to make sure it's th
 ![](../img/R-options-rclient.PNG)
 
 You will probably be asked to Restart R Studio, so close it and open back up, then we can run the code.
-
 
 ```
 R version 3.4.3 (2017-11-30) -- "Kite-Eating Tree"
@@ -95,11 +94,11 @@ Running benchmarks in `R` is easy with the microbenchmark package. The package t
 ```{r run benchmarking}
 res <- microbenchmark(
   lm_50k = lm(col_1 ~ col_2 + col_3, data = df_500k),
-  rxLM_50k = rxLinMod(col_1 ~ col_2 + col_3, data = df_500k),
+  rxLM_50k = rxLinMod(col_1 ~ col_2 + col_3, data = df_500k, reportProgress = 0),
   lm_1m = lm(col_1 ~ col_2 + col_3, data = df_1m),
-  rxLM_1m = rxLinMod(col_1 ~ col_2 + col_3, data = df_1m),
+  rxLM_1m = rxLinMod(col_1 ~ col_2 + col_3, data = df_1m, reportProgress = 0),
   lm_5m = lm(col_1 ~ col_2 + col_3, data = df_5m),
-  rxLM_5m = rxLinMod(col_1 ~ col_2 + col_3, data = df_5m),
+  rxLM_5m = rxLinMod(col_1 ~ col_2 + col_3, data = df_5m, reportProgress = 0),
   times = 10
   )
 ```
@@ -119,47 +118,6 @@ In each of these tests, we can see that the `RevoScaleR::rxLinMod()` functions o
 summary(res)
 ```
 
-## Bigger
 
-So now you can easily use the full power of your memory for calculating models faster, but what if your data doesn't fit into your local memory at all?
-
-<div style="width:100%;height:0;padding-bottom:75%;position:relative;"><iframe src="https://giphy.com/embed/MvedbKot538WY" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/MvedbKot538WY">via GIPHY</a></p>
-
-Remember, memory is your RAM, the bit that does the calcs, and is usually in the reaml of 4-16 GB on most laptops. So you can only compute on objects that are smaller than that, baring in mind that every 'active' process is also eating into that threshold, the operating systems, background processes and active applications. Your disk space, a HDD or SDD is magnitudes larger, 100s of GB to multiple TB. We can use this to overcome our size issue.
-
-### Minimum Examle
-
-Lets get some example data. Here I'm downloading a `.zip` to a temp folder, unzipping it, reading it (into memory admitedly, this is just an example!) and then writing it out to a csv in the working directory. In practice this could be done via bash/shell or interactively without hitting `R` memory at all.
-
-```{r download and extract data}
-temp <- tempfile()
-download.file("https://packages.revolutionanalytics.com/datasets/mortDefault.zip", temp)
-write.csv(read.csv(unz(temp, "mortDefault2000.csv")), "./mortDefault2000.csv")
-```
-
-```{r write xdf}
-mySourceData <- file.path(getwd(), "mortDefault2000.csv")
-myNewXDF <- file.path(paste0(getwd(),"/mortDefaultSmall2000.xdf"))
-rxImport(inData = mySourceData, outFile = myNewXDF)
-mortDefault2000Info <- rxGetInfo(myNewXDF, getVarInfo = TRUE)
-mortDefault2000Info
-```
-
-I've specified two file paths in `mySourceData` and `mynewXDF`. Just length 1 character strings, no fancy classes or data here.
-
-`rxImport()` takes these strings as a data source and a data destination and writes a version of the old `.csv` to a new file type, an `.xdf`. `rxGetInfo()` retrieves _metadata_ from the file, not the data itself. It's less than 10 KB in size.
-
-```{r getInfo size}
-object.size(mortDefault2000Info)
-```
-
-
-
-```
-unlink(temp)
-```
-
-https://docs.microsoft.com/en-us/machine-learning-server/r/concept-what-is-xdf
-
-
+## What about the out of memory part?
 
