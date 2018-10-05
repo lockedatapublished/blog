@@ -1,7 +1,7 @@
 ---
 title: "Tidyverse 'Starts_with' in M/Power Query"
 date: 2018-10-08T15:13:39+01:00
-author: "Dave"
+author: "David Parr"
 categories:
   - PowerBI
   - Power Query

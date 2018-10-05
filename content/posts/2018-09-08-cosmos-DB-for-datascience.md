@@ -1,6 +1,6 @@
 ---
 title: "Cosmos DB for Data Science"
-author: "Dave"
+author: "David Parr"
 date: 2018-09-07T10:54:45+01:00
 draft: false
 ---

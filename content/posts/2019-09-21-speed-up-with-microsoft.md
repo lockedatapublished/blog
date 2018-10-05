@@ -1,7 +1,7 @@
 ---
 title: "Speed Up With Microsoft"
 date: 2018-10-04T13:19:59+01:00
-author: "Dave"
+author: "David Parr"
 categories:
   - Microsoft R Client
   - Microsoft R Open
