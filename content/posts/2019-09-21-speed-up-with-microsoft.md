@@ -2,6 +2,15 @@
 title: "Speed Up With Microsoft"
 date: 2018-10-04T13:19:59+01:00
 author: "Dave"
+categories:
+  - Microsoft R Client
+  - Microsoft R Open
+  - R
+tags:
+  - RevoScaleR
+  - benchmarking
+  - speed
+  - profiling
 ---
 
 People use R for lots of reasons: "It's great for the models I need", "I
