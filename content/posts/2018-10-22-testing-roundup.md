@@ -21,9 +21,9 @@ Testing your R package is crucial, and thankfully it only gets easier with time,
 
 If you're brand-new to unit testing your R package, I'd recommend reading [this chapter from Hadley Wickham's book about R packages](http://r-pkgs.had.co.nz/tests.html). 
 
-There's an R package called `RUnit` for unit testing, but in the whole post we'll mention resources around the [`testthat` package](https://github.com/r-lib/testthat) since it's the one we use in our packages, and arguably the most popular one. `testthat` is great! Don't hesitate to reads its docs again if you started using it a while ago, since the [latest major release](https://www.tidyverse.org/articles/2017/12/testthat-2-0-0/) e.g. added the `setup()` and `teardown()` functions to run code before and after all tests, very handy.
+There's an R package called `RUnit` for unit testing, but in the whole post we'll mention resources around the [`testthat` package](https://github.com/r-lib/testthat) since it's the one we use in our packages, and arguably the most popular one. `testthat` is great! Don't hesitate to reads its docs again if you started using it a while ago, since the [latest major release](https://www.tidyverse.org/articles/2017/12/testthat-2-0-0/) e.g. added the [`setup()` and `teardown()` functions](http://testthat.r-lib.org/reference/teardown.html) to run code before and after all tests, very handy.
 
-To setup testing in an existing package i.e. creating the test folder and adding `testthat` as a dependency, run [`usethis::use_testthat()`](http://usethis.r-lib.org/reference/use_testthat.html). In our WIP [`pRojects` package](https://github.com/lockedata/pRojects), we set up the tests directory for you so you don't forget. Then, in any case, add new test for a function using `usethis::use_test()`.
+To setup testing in an existing package i.e. creating the test folder and adding `testthat` as a dependency, run [`usethis::use_testthat()`](http://usethis.r-lib.org/reference/use_testthat.html). In our WIP [`pRojects` package](https://github.com/lockedata/pRojects), we set up the tests directory for you so you don't forget. Then, in any case, add new tests for a function using `usethis::use_test()`.
 
 The [`testthis` package](https://github.com/s-fleck/testthis) might help make your testing workflow even smoother. In particular, `test_this()` "reloads the package and runs tests associated with the currently open R script file.", and there's also a function for opening the test file associated with the current R script.
 
@@ -42,7 +42,7 @@ Now, sometimes you might encounter cases of things that you don't quite know how
 
 ## Mocking
 
-Sometimes you need to test what happens "if something happens", "if a thing has this value" and can't rely on arguments. E.g. what happens if the environment variable `GITHUB_PAT` doesn't exist, or if a dependency isn't installed? In such cases, what you might be after is _mocking_. The `testthat` package itself has a `with_mock()` function, and if it isn't enough, you can use the [`mockery`](https://github.com/jfiksel/mockery) or [`mockr` packages](https://github.com/krlmlr/mockr).
+Sometimes you need to test whether your package works as expected "if something happens", "if a thing has this value" and can't rely on arguments. E.g. what happens if the environment variable `GITHUB_PAT` doesn't exist, or if a dependency isn't installed? In such cases, what you might be after is _mocking_. The `testthat` package itself has a `with_mock()` function, and if it isn't enough, you can use the [`mockery`](https://github.com/jfiksel/mockery) or [`mockr` packages](https://github.com/krlmlr/mockr).
 
 ## Webmocking 
 
@@ -72,11 +72,11 @@ I'll be honest, I haven't seen examples of this in the wild, which is not surpri
 
 * [`viztest`](https://github.com/schloerke/viztest) tests htmlwidgets based on screenshots.
 
-* the idea to test the content of the html before or after interactions. [`rdom`](https://github.com/cpsievert/rdom) can be a part of such a workflow.
+* the idea to test the content of the html before or after interactions. [`rdom`](https://github.com/cpsievert/rdom) can be a part of such a workflow: `rdom` + `xml2` to scrape the result + `testthat` of course. Thanks to [David Gohel](https://github.com/davidgohel) for telling me this!
 
 ## Test interactive behavior?
 
-This is another topic I haven't totally figured out, but I like using `usethis` tests as a reference, be it the [manual/ folder](https://github.com/r-lib/usethis/tree/master/tests/manual) or the [testthat/ folder](https://github.com/r-lib/usethis/tree/master/tests/testthat).
+This is another topic I haven't totally figured out, but I like using `usethis` tests as a reference, be it the [manual/ folder](https://github.com/r-lib/usethis/tree/master/tests/manual) or the [testthat/ folder](https://github.com/r-lib/usethis/tree/master/tests/testthat). [`testthis` tests](https://github.com/s-fleck/testthis/tree/master/tests/testthat) might also be an inspiration.
 
 # Conclusion
 
