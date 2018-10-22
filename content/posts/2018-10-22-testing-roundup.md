@@ -8,8 +8,12 @@ spacious_page_layout:
 categories:
   - Data Science
   - R
+  - Package Development
 tags:
   - r
+  - package development
+  - testing
+  - testthat
 
 ---
 
@@ -42,7 +46,7 @@ Now, sometimes you might encounter cases of things that you don't quite know how
 
 ## Mocking
 
-Sometimes you need to test whether your package works as expected "if something happens", "if a thing has this value" and can't rely on arguments. E.g. what happens if the environment variable `GITHUB_PAT` doesn't exist, or if a dependency isn't installed? In such cases, what you might be after is _mocking_. The `testthat` package itself has a `with_mock()` function, and if it isn't enough, you can use the [`mockery`](https://github.com/jfiksel/mockery) or [`mockr` packages](https://github.com/krlmlr/mockr).
+Sometimes you need to test whether your package works as expected "if something happens", "if a thing has this value" and can't rely on arguments. E.g. what happens if the environment variable `GITHUB_PAT` doesn't exist, or if a dependency isn't installed? In such cases, what you might be after is _mocking_. The `testthat` package itself has a `with_mock()` function, but it's now recommended to rather use the [`mockery`](https://github.com/jfiksel/mockery) or [`mockr` packages](https://github.com/krlmlr/mockr).
 
 ## Webmocking 
 
