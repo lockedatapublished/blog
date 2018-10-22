@@ -13,7 +13,7 @@ tags:
 
 ---
 
-Testing your R package is crucial, and thankfully it only gets easier with time, thanks to your getting experience... and awesome packages helping you setup and improve tests! In this post, we shall offer a roundup of packages for testing R packages, first in a section about general testing setup, and then in a section about testing "peculiar" stuff.
+Testing your R package is crucial, and thankfully it only gets easier with time, thanks to experience... and awesome packages helping you setup and improve tests! In this post, we shall offer a roundup of packages for testing R packages, first in a section about general testing setup, and then in a section about testing "peculiar" stuff.
 
 # General package testing infrastructure
 
@@ -21,7 +21,7 @@ Testing your R package is crucial, and thankfully it only gets easier with time,
 
 If you're brand-new to unit testing your R package, I'd recommend reading [this chapter from Hadley Wickham's book about R packages](http://r-pkgs.had.co.nz/tests.html). 
 
-There's an R package called `RUnit` for unit testing, but in the whole post we'll mention resources around the [`testthat` package](https://github.com/r-lib/testthat) since it's the one we use in our packages, and arguably the most popular one. `testthat` is great! Don't hesitate to reads its docs again if you started using it a while ago, since the [latest major release](https://www.tidyverse.org/articles/2017/12/testthat-2-0-0/) e.g. added the [`setup()` and `teardown()` functions](http://testthat.r-lib.org/reference/teardown.html) to run code before and after all tests, very handy.
+There's an R package called `RUnit` for unit testing, but in the whole post we'll mention resources around the [`testthat` package](https://github.com/r-lib/testthat) since it's the one we use in our packages, and arguably the most popular one. `testthat` is great! Don't hesitate to reads its docs again if you started using it a while ago, since the [latest major release](https://www.tidyverse.org/articles/2017/12/testthat-2-0-0/) added the [`setup()` and `teardown()` functions](http://testthat.r-lib.org/reference/teardown.html) to run code before and after all tests, very handy.
 
 To setup testing in an existing package i.e. creating the test folder and adding `testthat` as a dependency, run [`usethis::use_testthat()`](http://usethis.r-lib.org/reference/use_testthat.html). In our WIP [`pRojects` package](https://github.com/lockedata/pRojects), we set up the tests directory for you so you don't forget. Then, in any case, add new tests for a function using `usethis::use_test()`.
 
@@ -29,12 +29,12 @@ The [`testthis` package](https://github.com/s-fleck/testthis) might help make yo
 
 ## Assess your tests
 
-To get a sense of how good your tests are, check out
+To get a sense of how good your tests are, check these out:
 
-* [`covr`](https://github.com/r-lib/covr) that computes the _test coverage_ i.e. the percentage of lines of code that are covered by tests. `covr` allows skipping some lines.     If run on say Travis or Appveyor, it can send a report to online coverage tools such as CodeCov or Coveralls, allowing you to visualize the coverage. At Locke Data we mostly don't run `covr` locally but instead have it run on Travis. To set that up, [`usethis::use_coverage()`](http://usethis.r-lib.org/reference/ci.html). 
+* [`covr`](https://github.com/r-lib/covr) computes the _test coverage_ i.e. the percentage of lines of code that are covered by tests. `covr` allows skipping some lines. If run on Travis or Appveyor, for instance, it can send a report to online coverage tools such as CodeCov or Coveralls, allowing you to visualize the coverage. At Locke Data we mostly don't run `covr` locally but instead have it run on Travis. To set that up, [`usethis::use_coverage()`](http://usethis.r-lib.org/reference/ci.html). 
     Here is [Coveralls report for `HIBPwned`](https://coveralls.io/github/lockedata/HIBPwned?branch=master) and [the corresponding badge](https://github.com/lockedata/hibpwned#hibpwned). See a [CodeCov report for comparison](https://codecov.io/github/ropensci/Ropenaq?branch=master).
     
-* [`covrpage`](https://github.com/yonicd/covrpage) that creates a detailed coverage report that can serve as a README for your test folder. We've done that [for `HIBPwned`](https://github.com/lockedata/HIBPwned/tree/master/tests#tests-and-coverage) so now without clicking in a coverage report, thanks to "detailed test results" you can see the tests associated with each context.
+* [`covrpage`](https://github.com/yonicd/covrpage) creates a detailed coverage report that can serve as a README for your test folder. We've done that [for `HIBPwned`](https://github.com/lockedata/HIBPwned/tree/master/tests#tests-and-coverage) so now without clicking in a coverage report, thanks to "detailed test results", you can see the tests associated with each context.
 
 # Test all the things
 
@@ -56,7 +56,7 @@ If the mocking you need to perform is e.g. mimicking a 404 result from an API, o
 
 ## Test plot outputs
 
-You can test your plot outputs haven't changed by using [`vdiffr`](https://github.com/lionel-/vdiffr). To setup things you need to run `vdiffr::manage_cases()`.
+You can test your plot outputs haven't changed by using [`vdiffr`](https://github.com/lionel-/vdiffr). To set things up you need to run `vdiffr::manage_cases()`.
 
 ## Test Shiny apps
 
