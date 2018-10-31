@@ -2,7 +2,7 @@
 title: namer: Automatic Labelling of R Markdown Chunks
 author: maelle
 type: post
-date: 2018-09-27
+date: 2018-10-31
 spacious_page_layout:
   - default_layout
 categories:
