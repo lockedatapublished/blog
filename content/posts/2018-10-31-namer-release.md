@@ -10,6 +10,8 @@ categories:
   - R
 tags:
   - r
+  - rmarkdown
+  - best-practice
 
 ---
 
