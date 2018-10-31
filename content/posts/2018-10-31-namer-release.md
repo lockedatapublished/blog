@@ -64,7 +64,7 @@ namer::name_dir_chunks("reports")
 Now, as life is sometimes a bit more complicated, you might sometimes need to _unname_ all chunks of a report before re-naming it, if you e.g. used `namer` once, then added many chunks, or if you don't like the naming scheme you had been using. We have a function for that too! It will unname all chunks except the setup chunk!
 
 ```r
-namer:unname_all_chunks("reports/my-report.md")
+namer::unname_all_chunks("reports/my-report.md")
 ```
 
 Last but not least, we have a minimal RStudio addin shipped with the package, to name chunks of any R Markdown file. It allows you to select that file thanks to [our very first Hacktoberfest contributor](https://github.com/lockedata/namer/pull/14), [Ellis Valentiner](https://github.com/ellisvalentiner)! Read more about Hacktoberfest at Locke Data [here](https://itsalocke.com/blog/up-your-open-source-game-with-hacktoberfest-at-locke-data/).
