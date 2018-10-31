@@ -15,7 +15,7 @@ tags:
 
 ---
 
-We've just released a sweet package to save you stress from the hassle of unnamed chunks in R Markdown! `namer` will name all your chunks, so you can quickly debug in future. More details in this post!
+We've just [released a sweet package](https://cran.r-project.org/web/packages/namer/index.html) to save you stress from the hassle of unnamed chunks in R Markdown! `namer` will name all your chunks, so you can quickly debug in future. More details in this post!
 
 # Why name your R Markdown chunks?
 
