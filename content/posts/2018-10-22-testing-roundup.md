@@ -29,7 +29,7 @@ There's an R package called `RUnit` for unit testing, but in the whole post we'l
 
 To setup testing in an existing package i.e. creating the test folder and adding `testthat` as a dependency, run [`usethis::use_testthat()`](http://usethis.r-lib.org/reference/use_testthat.html). In our WIP [`pRojects` package](https://github.com/lockedata/pRojects), we set up the tests directory for you so you don't forget. Then, in any case, add new tests for a function using `usethis::use_test()`.
 
-The [`testthis` package](https://github.com/s-fleck/testthis) might help make your testing workflow even smoother. In particular, `test_this()` "reloads the package and runs tests associated with the currently open R script file.", and there's also a function for opening the test file associated with the current R script.
+The [`testthis` package](https://github.com/s-fleck/testthis) might help make your testing workflow even smoother. In particular, `test_this()` "reloads the package and runs tests associated with the currently open R script file.", and there's also a function for opening the test file associated with the current R script. _Edit: as of version 2.0.0 `devtools` itself features [functions for testing single files](https://www.tidyverse.org/articles/2018/10/devtools-2-0-0/#testing-single-files)._
 
 ## Assess your tests
 
@@ -68,7 +68,7 @@ Fear not, there's a whole package dedicated to help you test Shiny apps! Check o
 
 ## Test RStudio add-ins
 
-The `remedy` package by ThinkR has [tests for its add-ins](https://github.com/ThinkR-open/remedy/tree/master/tests). They need to be run only when RStudio is available so a helper defines a [`skip_if_not_rstudio()` function](https://github.com/ThinkR-open/remedy/blob/master/tests/testthat/helper-functions.R#L1). Thanks to [Colin Fay](https://colinfay.me/) for showing it to me.
+The `remedy` package by ThinkR has [tests for its add-ins](https://github.com/ThinkR-open/remedy/tree/master/tests). See in particular the [`scratch_file()` function](https://github.com/ThinkR-open/remedy/blob/89bac0d2c5b692f1d394f7f3706ad824fdf649aa/tests/testthat/helper-functions.R#L14). The tests need to be run only when RStudio is available so a helper defines a [`skip_if_not_rstudio()` function](https://github.com/ThinkR-open/remedy/blob/master/tests/testthat/helper-functions.R#L1). Thanks to [Colin Fay](https://colinfay.me/) and [Jonathan Sidi](https://github.com/yonicd/) for showing it to me.
 
 ## Test htmlwidgets?
 
