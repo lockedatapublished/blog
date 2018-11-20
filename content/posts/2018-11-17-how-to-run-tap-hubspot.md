@@ -3,8 +3,8 @@ title: How to run tap-hubspot
 author: Rita Giordano
 date: '2018-11-17'
 slug: how-to-run-tap-hubspot
-categories: []
-tags: []
+categories: [Data Science]
+tags: [Singer]
 draft: yes
 ---
 
@@ -84,7 +84,6 @@ Click on the app name to check the settings.
 {{< figure src="../img/app.png" title="App settings">}} 
 
 You can see that there is a "Client ID" and "Client Secret". These are informations that you have to include into your config file. You can copy and paste in the config.json file.
-
 
 {{< figure src="../img/test_app.png" title="">}}
 
