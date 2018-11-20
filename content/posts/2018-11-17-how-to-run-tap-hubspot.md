@@ -142,7 +142,7 @@ In this script I use the *open* command to open my browser, this is because beca
 Now to get the token you can use the following command line to copy and paste on your console, change the client id, client secret and the code you obtained previously when you asked for the authorization and run.
 
 ``` bash
-curl -H "Content-Type: application/x-www-form-urlencoded;charset=utf-8" -X POST -d 'grant_type=authorization_code&client_id=XXXX-XXX-XXX&client_secret=XXXX-XXX-XXX&redirect_uri=https://www.example.com/&code=XXXX-XXX-XXX' https://api.hubapi.com/oauth/v1/token
+curl -H "Content-Type: application/x-www-form-urlencoded;charset=utf-8" -X POST -d 'grant_type=authorization_code&client_id=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx&client_secret=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx&redirect_uri=https://www.example.com/&code=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx' https://api.hubapi.com/oauth/v1/token
 ```
 
 I created another bash script to ask for the token. As for the authorization.sh here you have to put your client id, client secret and code as input variables.
@@ -152,10 +152,10 @@ I created another bash script to ask for the token. As for the authorization.sh 
 # Generate token for config file
 
 # Insert here your client_id and client secret
-CLIENT_ID=XXX-XXXX-XXXX
-CLIENT_SECRET=XXX-XXXX-XXX
+CLIENT_ID=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+CLIENT_SECRET=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
 # Insert the code that you obtain after the authorisation
-CODE=XXX-XXX-XXX
+CODE=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
 
 
 
@@ -176,9 +176,9 @@ Every time that the token expire you need to ask for a new token to run the tap.
 #!/bin/bash
 # Generate token for config file
 
-CLIENT_ID=XXX-XXXX-XXXX
-CLIENT_SECRET=XXX-XXXX-XXXX
-REFRESH_TOKEN=XXX-XXXX-XXXX
+CLIENT_ID=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+CLIENT_SECRET=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+REFRESH_TOKEN=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
 
 echo curl -H "Content-Type: application/x-www-form-urlencoded;charset=utf-8" -X POST -d 'grant_type=refresh_token&client_id='$CLIENT_ID'&client_secret='$CLIENT_SECRET'&redirect_uri=http://www.hubspot.com/&refresh_token='$REFRESH_TOKEN'' https://api.hubapi.com/oauth/v1/token
 
