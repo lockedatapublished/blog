@@ -4,7 +4,7 @@ author: Rita Giordano
 date: '2018-11-17'
 slug: how-to-run-tap-hubspot
 categories: [Data Science]
-tags: [Singer]
+tags: [Singer, tap]
 draft: yes
 ---
 
