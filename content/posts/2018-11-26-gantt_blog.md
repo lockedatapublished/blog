@@ -1,5 +1,5 @@
----
-title: "Gone potty for Plotly"
+----
+title: "Project planning with plotly"
 author: "Ellen Talbot"
 date: "2018-11-25"
 output: html_document
