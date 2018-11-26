@@ -1,7 +1,7 @@
-----
+---
 title: "Project planning with plotly"
 author: "Ellen Talbot"
-date: "2018-11-25"
+date: "2018-11-26"
 output: html_document
 ---
 
