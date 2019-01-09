@@ -21,9 +21,9 @@ A use case: [Connect to Google Sheets in PowerBI using R](https://itsalocke.com/
 
 When using R script as data soure in a PowerBI report, refreshing that data source is possible via PowerBI Data Gateway (Personal Mode). Before we get started, you may wonder, is installing "Data Gateway" necessary?
 
-Simple answer is, not in all cases. Generally, Data Gateway is used to refresh reports which have data sources located on-premises. Using R to connect and/or transform data requires libraries installed locally on the machine, therefore "Data Gateway" is necessary to automate schedule refresh.
+Simple answer is, not in all cases. Generally, "Data Gateway" is used to refresh reports which have data sources located on-premises. Using R to connect and/or transform data requires libraries installed locally on the machine, therefore "Data Gateway" is necessary to automate schedule refresh.
 
-Without Data Gateway, your published report / dashboard will be static. The only workaround is to "Refresh" your data locally using PowerBI desktop. This isn't ideal and could be time consuming. 
+Without "Data Gateway", your published report / dashboard will be static. The only workaround is to "Refresh" your data locally using PowerBI desktop. This isn't ideal and could be time consuming. 
 
 
 <br>
