@@ -17,7 +17,7 @@ categories:
 ---
 While there are many ways to connect PowerBI to your data sources, from flat files such as csv, text, excels to popular databases such as SQL server or Oracle, in certain scenario, some data sources aren't support by PowerBI, a use case below demonstrates the benefit of leveraging R to connect to data from an unsupported data source.
 
-A use case: ![Connect to Google Sheets in PowerBI using R](https://itsalocke.com/blog/connect-to-google-sheets-in-power-bi-using-r/)
+A use case: [Connect to Google Sheets in PowerBI using R](https://itsalocke.com/blog/connect-to-google-sheets-in-power-bi-using-r/)
 
 When using R script as data soure in a PowerBI report, refreshing that data source is possible via PowerBI Data Gateway (Personal Mode). Before we get started, you may wonder, is installing "Data Gateway" necessary?
 
