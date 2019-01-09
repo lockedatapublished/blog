@@ -1,6 +1,6 @@
 ---
 title: 'Refresh Data using PowerBI Data Gateway '
-author: "Nujcharee (Ped) Haswell"
+author: "pedh"
 date: '2019-01-08'
 draft: yes
 slug: refresh-data-using-powerbi-data-gateway
@@ -63,7 +63,8 @@ Schedule Refresh
 
 
 **A couple of notes**
-We need the Gateway installed on the machine. As of writing, there is a bug with the latest version of the Gateway making R refreshes problematic and there is an older version stored in Dropbox. This is unlikely to be needed beyond January 2019. The latest version of the Gateway can be downloaded from the Power BI site at https://powerbi.microsoft.com/en-us/gateway/
+<br>
+As of writing, there is a bug with the latest version of the Gateway making R refreshes problematic and there is an older version stored in Dropbox. This is unlikely to be needed beyond January 2019. The latest version of the Gateway can be downloaded from the Power BI site at https://powerbi.microsoft.com/en-us/gateway/
 
 Schedule Refresh requires your machine to be on at the time of refreshes for Power BI to talk to your machine and update the data. 
 
