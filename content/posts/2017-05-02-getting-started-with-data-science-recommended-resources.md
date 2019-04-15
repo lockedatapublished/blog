@@ -100,7 +100,7 @@ In more gentle ways of learning, you can start using Microsoft [free notebook an
 ### Podcasts
 
 Alas, I&#8217;m not a podcast person so I&#8217;ve only one recommendation for you: [Not So Standard Deviations][19]. Jon Calder has some [great recommendations][20] though!
-
+<!--
 ### DataCamp<figure id="attachment_62173" style="width: 300px" class="wp-caption alignleft">
 
 [<img src="../img/logo_vertical_dark-99c0154ba9bd796df65021826de1b4d4aa475eeb0134504dd05d6bc5a8d31b07_pfkbr4.png" alt="DataCamp" width="300" height="214" class="size-medium wp-image-62173" />][21]<figcaption class="wp-caption-text">DataCamp</figcaption></figure> 
@@ -110,7 +110,7 @@ By far my most recommended site for learning R and data science is [DataCamp][21
 There are a number of free introductory courses, but DataCamp works on a monthly subscription access model of $29. For the monthly fee, you can consume any and all of their courses.
 
 DataCamp is great value for money, especially if you want to do an intensive month of learning and then end your subscription.
-
+-->
 ### Coursera<figure id="attachment_62177" style="width: 300px" class="wp-caption alignleft">
 
 [ <img src="../img/logo_square_f9rf3t.png" alt="Coursera" width="300" height="300" class="size-medium wp-image-62177" />][22]<figcaption class="wp-caption-text">Coursera</figcaption></figure> 
